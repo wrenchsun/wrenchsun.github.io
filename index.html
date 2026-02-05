@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== YouTube モーダル ===== -->
+<div id="video-modal">
+  <button id="close-modal">×</button>
+  <iframe
+    src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<!-- ===== ヘッダー ===== -->
+<header>
+  <div class="logo">My Portfolio</div>
+  <button id="menu-btn">≡</button>
+</header>
+
+<!-- ===== メニュー ===== -->
+<nav id="menu">
+  <a href="#top">TOP</a>
+  <a href="#about">自己紹介</a>
+  <a href="#portfolio">ポートフォリオ</a>
+  <a href="#works">作品</a>
+  <a href="#career">経歴</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- ===== メイン ===== -->
+<main>
+
+<section id="top">
+  <h1>Welcome</h1>
+  <p id="company-title">共通ポートフォリオ</p>
+</section>
+
+<section id="about">
+  <h2>自己紹介</h2>
+  <p>
+    CG / プログラミング / 映像制作を中心に活動しています。
+  </p>
+</section>
+
+<section id="portfolio">
+  <h2>ポートフォリオ</h2>
+  <p id="portfolio-text">
+    全企業共通のポートフォリオ内容です。
+  </p>
+</section>
+
+<section id="works">
+  <h2>作品</h2>
+
+  <div class="work">
+    <h3>作品名1</h3>
+    <iframe
+      src="https://www.youtube.com/embed/VIDEO_ID"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+    <p>作品の説明文が入ります。</p>
+  </div>
+
+  <div class="work">
+    <h3>作品名2</h3>
+    <iframe
+      src="https://www.youtube.com/embed/VIDEO_ID"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+    <p>作品の説明文が入ります。</p>
+  </div>
+
+</section>
+
+<section id="career">
+  <h2>経歴</h2>
+  <ul>
+    <li>2023 ○○大学 入学</li>
+    <li>2024 インターン参加</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>email@example.com</p>
+</section>
+
+</main>
+
+<!-- ===== JavaScript ===== -->
+<script>
+/* モーダル制御 */
+const modal = document.getElementById("video-modal");
+document.getElementById("close-modal").onclick = () => {
+  modal.style.display = "none";
+};
+
+/* メニュー制御 */
+const menu = document.getElementById("menu");
+document.getElementById("menu-btn").onclick = () => {
+  menu.classList.toggle("open");
+};
+
+/* クエリパラメータで企業別切り替え */
+const params = new URLSearchParams(window.location.search);
+const company = params.get("company");
+
+if (company) {
+  document.getElementById("company-title").textContent =
+    company + " 向けポートフォリオ";
+
+  document.getElementById("portfolio-text").textContent =
+    company + "様向けに最適化した内容を掲載しています。";
+}
+</script>
+
+</body>
+</html>
