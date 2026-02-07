@@ -121,7 +121,7 @@ header {
 
 /* ===== メイン ===== */
 main {
-  padding-top: 80px;
+  padding-top: 00px;
 }
 
 #top-video {
@@ -210,6 +210,11 @@ skillStr {
   padding: 0 50px;
   display: block;
   font-size: 24px;
+}
+
+#custom-content {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .work {
