@@ -2,17 +2,34 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <title>Portfolio</title>
+  <title>Katsuya Yamaguchi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--.cssファイルのロード-->
   <link rel="stylesheet" href="style.css" />
+  <!-- Deviconsのロード -->
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <!-- jQueryのロード -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="./assets/js/libs/jquery-3.5.1.min.js"><\/script>')
+  </script>
+  <!-- jQuery Easingを読み込み -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script>
+    window.jQuery && window.jQuery.easing && window.jQuery.easing.def || document.write('<script src="./assets/js/libs/jquery.easing.min.js"><\/script>')
+  </script>
+  <!-- ファビコンの設定 -->
+  <link rel="shortcut icon" href="asset/img/DramEngineIcon.ico">
 </head>
+
 <body>
 
-<!-- ===== YouTube モーダル ===== -->
+<!-- END #youtubeModal -->
 <div id="video-modal">
   <button id="close-modal">×</button>
+  <!-- embed/の後に再生する動画リンク -->
   <iframe
-    src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1"
+    src="https://www.youtube.com/embed/CaNSxWC6kFU?si=NhPg88NBcyRkglVM?autoplay=1&mute=1"
     frameborder="0"
     allow="autoplay; encrypted-media"
     allowfullscreen>
@@ -21,46 +38,137 @@
 
 <!-- ===== ヘッダー ===== -->
 <header>
-  <div class="logo">My Portfolio</div>
-  <button id="menu-btn">≡</button>
+  <div class="logo-area">
+    <div class="logo">Katsuya Yamaguchi</div>
+    <!-- GoogleDriveのロゴ,リンク,ツールチップ -->
+    <a class="logo-link" href="https://drive.google.com/drive/folders/1LKXhJuYHIpJOLASiD1QrtgS-926t7Cmm?usp=sharing" 
+    aria-label="作品GoogleDriveへ↗" title="作品GoogleDriveへ↗" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.simpleicons.org/googledrive/4285f4" alt="Google Drive" class="logo-icon">
+    </a>
+
+    <!-- GitHubのロゴ,リンク,ツールチップ -->
+    <a class="logo-link" href="https://github.com/wrenchsun" 
+    aria-label="個人GitHubへ↗" title="個人GitHubへ↗" target="_blank" rel="noopener noreferrer">
+      <i class="devicon-github-original"></i>
+    </a>
+
+  </div>
+  <!-- ヘッダーメニュー -->
+  <nav class="header-nav">
+    <a href="#top-video">TOP</a>
+    <a href="#about">ABOUT</a>
+    <a href="#works">WORKS</a>
+    <a href="#career">CAREER</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
 </header>
-
-<!-- ===== メニュー ===== -->
-<nav id="menu">
-  <a href="#top">TOP</a>
-  <a href="#about">自己紹介</a>
-  <a href="#portfolio">ポートフォリオ</a>
-  <a href="#works">作品</a>
-  <a href="#career">経歴</a>
-  <a href="#contact">Contact</a>
-</nav>
-
 <!-- ===== メイン ===== -->
-<main>
-
-<section id="top">
-  <h1>Welcome</h1>
-  <p id="company-title">共通ポートフォリオ</p>
+<!-- デモ動画(自動再生) -->
+<section id="top-video">
+  <div class="video-wrap">
+    <video
+      src="asset/video/demo.mp4"
+      autoplay
+      muted
+      loop
+      playsinline
+    ></video>
+  </div>
 </section>
 
 <section id="about">
-  <h2>自己紹介</h2>
-  <p>
-    CG / プログラミング / 映像制作を中心に活動しています。
-  </p>
-</section>
+  <div class="about-container">
+    <div class="about-content">
+      <h2>ABOUT</h2>
+      <h3>Katsuya Yamaguchi</h3>
+      <myname>山口 克彌</myname>
+      <explanation>
+        HAL大阪ゲーム4年生学科3年 プログラマー<br>
+        テクニカルアーティスト志望<br>
+        <a href="https://drive.google.com/file/d/1k7Nhfc7lP4j2i3Czve-Xsj6pCcn5FqQ7/view?usp=sharing" 
+        target="_blank" rel="noopener noreferrer">自己紹介動画へ↗</a>
+      </explanation>
+      <br>
+      <h3>言語</h3>
+      <skillIcon>
+        <i class="devicon-c-plain" title="C言語"></i>
+        <i class="devicon-cplusplus-plain" title="C++言語"></i>
+        <i class="devicon-csharp-plain" title="C#言語"></i>
+      </skillIcon>
+      <skillStr>
+        HLSL<br>
+        <span title="Houdiniで使用されるプロシージャル言語">VEX(学習中)</span><br>
+      </skillStr>
 
-<section id="portfolio">
-  <h2>ポートフォリオ</h2>
-  <p id="portfolio-text">
-    全企業共通のポートフォリオ内容です。
-  </p>
+      <h3>ツール</h3>
+      <skillIcon>
+        <i class="devicon-visualstudio-plain" title="Visual Studio2022"></i>
+        <i class="devicon-unrealengine-original" title="Unreal Engine"></i>
+        <i class="devicon-unity-plain" title="Unity"></i>
+        <i class="devicon-git-plain" title="Git"></i>
+        <i class="devicon-github-original" title="GitHub"></i>
+        <i class="devicon-photoshop-plain" title="Adobe Photoshop"></i>
+        <i class="devicon-houdini-original" title="Houdini 学習中"></i>
+      </skillIcon>
+      <skillStr>
+        DirectX 12<br>
+        PIX<br>
+        RenderDoc<br>
+      </skillStr>
+
+      <h3>資格</h3>
+      <skillStr>
+        普通自動車第一種免許<br>
+        基本情報技術者<br>
+        CGエンジニア検定　エキスパート<br>
+        CGクリエイター検定　エキスパート<br>
+      </skillStr>
+
+      <h3> 受賞歴</h3>
+      <skillStr>
+        2019 第21回福岡県工業高等学校ロボット競技大会 優勝<br>
+        2019 第27回全国高等学校ロボット競技大会 全国5位 技術奨励賞<br>
+        2021 第18回高校生技術・アイディアコンテスト全国大会 佳作受賞<br>
+        2021 第29回全国高等学校ロボット競技大会 優秀賞 技術奨励賞<br>
+        2022 大阪府職業能力開発協会会長賞<br>
+        2023 おもしろゲームづくり学内コンテスト 技術力賞<br>
+        2024 ＨＡＬ ＥＶＥＮＴ ＷＥＥＫ 銅賞<br>
+      </skillStr>
+
+      <h3>アーティストにとって最強のサポーターになる</h3>
+      <explanation>
+        技術不足によって実現できませんなんて言わせない<br>
+        アーティストの求めるものを120%実現するために<br>
+        最大限バックアップしてこれまでにない作品を<br>
+        作り上げるサポートをする
+      </explanation>
+      
+      <!-- 企業別カスタムコンテンツ -->
+      <section id="custom-content"></section>
+
+    </div>
+    <div class="about-image" id="parallax-image">
+      <img src="asset/img/KatsuyaYamaguchi.png" alt="Katsuya Yamaguchi" />
+    </div>
+  </div>
 </section>
 
 <section id="works">
-  <h2>作品</h2>
+  <h2>WORKS</h2>
 
-  <div class="work">
+  <div class="works">
+    <h3>作品名1</h3>
+    <!-- Google Drive動画（共有リンクから埋め込み） -->
+    <iframe
+      src="https://drive.google.com/file/d/1sacBsaoz2OgIp_edso06QzNHO3LANgZ9/preview"
+      frameborder="0"
+      allowfullscreen
+      style="width: 100%; height: 500px;">
+    </iframe>
+    <p>作品の説明文が入ります。</p>
+  </div>
+
+  <div class="works">
     <h3>作品名1</h3>
     <iframe
       src="https://www.youtube.com/embed/VIDEO_ID"
@@ -70,7 +178,7 @@
     <p>作品の説明文が入ります。</p>
   </div>
 
-  <div class="work">
+  <div class="works">
     <h3>作品名2</h3>
     <iframe
       src="https://www.youtube.com/embed/VIDEO_ID"
@@ -83,7 +191,7 @@
 </section>
 
 <section id="career">
-  <h2>経歴</h2>
+  <h2>CAREER</h2>
   <ul>
     <li>2023 ○○大学 入学</li>
     <li>2024 インターン参加</li>
@@ -91,7 +199,7 @@
 </section>
 
 <section id="contact">
-  <h2>Contact</h2>
+  <h2>CONTACT</h2>
   <p>email@example.com</p>
 </section>
 
@@ -105,23 +213,107 @@ document.getElementById("close-modal").onclick = () => {
   modal.style.display = "none";
 };
 
-/* メニュー制御 */
-const menu = document.getElementById("menu");
-document.getElementById("menu-btn").onclick = () => {
-  menu.classList.toggle("open");
-};
+/* メニューの滑らかスクロール */
+const headerLinks = document.querySelectorAll(".header-nav a");
+headerLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const targetId = link.getAttribute("href");
+    if (!targetId || !targetId.startsWith("#")) {
+      return;
+    }
 
-/* クエリパラメータで企業別切り替え */
+    event.preventDefault();
+
+    const target = document.querySelector(targetId);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+});
+
+/* セクション見出しの固定スタイル切り替え */
+const sections = document.querySelectorAll("section[id]");
+const h2Elements = document.querySelectorAll("section[id] > h2");
+
+window.addEventListener("scroll", () => {
+  let activeSection = null;
+
+  for (let section of sections) {
+    const rect = section.getBoundingClientRect();
+    if (rect.top <= 100) {
+      activeSection = section;
+    }
+  }
+
+  h2Elements.forEach((h2) => {
+    if (activeSection && activeSection.querySelector("h2") === h2) {
+      h2.classList.add("sticky");
+    } else {
+      h2.classList.remove("sticky");
+    }
+  });
+});
+
+/* パララックス効果 */
+const parallaxImage = document.getElementById("parallax-image");
+const aboutSection = document.getElementById("about");
+const worksSection = document.getElementById("works");
+
+window.addEventListener("scroll", () => {
+  const aboutRect = aboutSection.getBoundingClientRect();
+  const worksRect = worksSection.getBoundingClientRect();
+  
+  // 自己紹介セクションの開始から作品セクションの開始までの範囲内
+  if (aboutRect.top < window.innerHeight && worksRect.top > 0) {
+    // 0-1の範囲で進捗度を計算（0=自己紹介の開始、1=作品の開始）
+    const progress = 1 - (worksRect.top / window.innerHeight);
+    const clampedProgress = Math.max(0, Math.min(1, progress));
+    
+    // -50px から +50px の範囲で上下に移動
+    const offset = (clampedProgress - 0.5) * 100;
+    parallaxImage.style.transform = `translateY(${offset}px)`;
+  }
+});
+
+/* クエリパラメータで企業別コンテンツ読み込み */
 const params = new URLSearchParams(window.location.search);
-const company = params.get("company");
+const company = params.get("id");
 
-if (company) {
-  document.getElementById("company-title").textContent =
-    company + " 向けポートフォリオ";
-
-  document.getElementById("portfolio-text").textContent =
-    company + "様向けに最適化した内容を掲載しています。";
+async function loadCustomContent() {
+  const contentDiv = document.getElementById("custom-content");
+  
+  // パラメータがある場合は対応するHTMLを探す、ない場合はcommon.html
+  const fileName = company ? `${company}.html` : 'common.html';
+  const filePath = `asset/html/${fileName}`;
+  
+  try {
+    const response = await fetch(filePath);
+    
+    // ファイルが見つからない場合はcommon.htmlにフォールバック
+    if (!response.ok) {
+      const fallbackResponse = await fetch('asset/html/common.html');
+      const html = await fallbackResponse.text();
+      contentDiv.innerHTML = html;
+      return;
+    }
+    
+    const html = await response.text();
+    contentDiv.innerHTML = html;
+  } catch (error) {
+    console.error('コンテンツの読み込みに失敗しました:', error);
+    // エラー時もcommon.htmlを表示
+    try {
+      const fallbackResponse = await fetch('asset/html/common.html');
+      const html = await fallbackResponse.text();
+      contentDiv.innerHTML = html;
+    } catch (fallbackError) {
+      contentDiv.innerHTML = '<p style="padding: 20px; color: #aaa;">コンテンツの読み込みに失敗しました。</p>';
+    }
+  }
 }
+
+// ページ読み込み時に実行
+loadCustomContent();
 </script>
 
 </body>

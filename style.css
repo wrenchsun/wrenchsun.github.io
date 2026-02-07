@@ -10,6 +10,28 @@ body {
   color: #fff;
 }
 
+h2 {
+  font-size: 40px;
+}
+
+h2.sticky {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+  background: #000;
+  z-index: 999;
+  width: 100%;
+  margin: 0;
+  padding: 2px;
+  border-bottom: 1px solid #333;
+}
+h3{
+  padding: 20px 30px 0 30px;
+  font-size: 30px;
+  display: block;
+}
+
 /* ===== ヘッダー ===== */
 header {
   position: fixed;
@@ -22,40 +44,50 @@ header {
   align-items: center;
   padding: 0 20px;
   z-index: 1000;
+  font-size: 20px;
 }
 
-#menu-btn {
-  font-size: 28px;
-  background: none;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-/* ===== メニュー ===== */
-nav {
-  position: fixed;
-  top: 60px;
-  right: -200px;
-  width: 200px;
-  background: #222;
-  transition: 0.3s;
-  z-index: 999;
-}
-
-nav.open {
-  right: 0;
-}
-
-nav a {
+.logo-link img {
+  width: 40px;
+  height: 40px;
   display: block;
-  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.logo-link i {
+  font-size: 40px;
+  color: #fff;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.logo-link:hover img,
+.logo-link:hover i {
+  transform: scale(1.15);
+}
+
+/* ===== ヘッダーメニュー ===== */
+.header-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.header-nav a {
   color: #fff;
   text-decoration: none;
+  font-size: 20px;
+  padding: 6px 8px;
+  border-radius: 4px;
 }
 
-nav a:hover {
-  background: #444;
+.header-nav a:hover {
+  background: #222;
 }
 
 /* ===== モーダル ===== */
@@ -70,15 +102,17 @@ nav a:hover {
 }
 
 #video-modal iframe {
-  width: 80%;
-  height: 45%;
+  width: 80vw;         /* 画面幅の80% */
+  max-width: 960px;    /* 最大幅 */
+  aspect-ratio: 16 / 9;
+  height: auto;  
 }
 
 #close-modal {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  font-size: 32px;
+  top: 10px;
+  right: 10px;
+  font-size: 128px;
   background: none;
   border: none;
   color: #fff;
@@ -90,8 +124,92 @@ main {
   padding-top: 80px;
 }
 
+#top-video {
+  padding-top: 60px;
+}
+
+#top-video .video-wrap {
+  width: 100%;
+  margin: 0;
+}
+
+#top-video video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 section {
-  padding: 60px 20px;
+  padding: 20px 20px;
+  scroll-margin-top: 80px;
+}
+
+#about {
+  padding: 20px;
+}
+
+.about-container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-image {
+  flex-shrink: 0;
+  width: 1000px;
+  position: relative;
+}
+
+.about-image img {
+  width: 50vw;
+  height: auto;
+  border-radius: 8px;
+}
+
+#parallax-image {
+  position: sticky;
+  top: 100px;
+}
+
+myname {
+  padding: 0 30px;
+  font-size: 70px;
+  display: block;
+  margin-top: 10px;
+}
+
+explanation {
+  padding: 0 50px;
+  font-size: 24px;
+  display: block;
+  color: #aaa;
+}
+
+skillIcon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 50px;
+}
+
+skillIcon i {
+  font-size: 60px;
+  display: inline-block;
+  color: #cecece;
+  transition: transform 0.2s ease;
+}
+
+skillIcon i:hover {
+  transform: scale(1.15);
+}
+
+skillStr {
+  padding: 0 50px;
+  display: block;
+  font-size: 24px;
 }
 
 .work {
