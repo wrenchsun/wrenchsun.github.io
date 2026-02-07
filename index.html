@@ -26,13 +26,6 @@
   </iframe>
 </div>
 
-<!--
-    <a class="logo-link" href="https://drive.google.com/drive/folders/1LKXhJuYHIpJOLASiD1QrtgS-926t7Cmm?usp=sharing" 
-    aria-label="作品GoogleDriveへ↗" title="作品GoogleDriveへ↗" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn.simpleicons.org/googledrive/4285f4" alt="Google Drive" class="logo-icon">
-    </a>
--->
-
 <!-- ===== ヘッダー ===== -->
 <header>
   <div class="logo-area">
@@ -40,7 +33,7 @@
     <!-- GoogleDriveのロゴ,リンク,ツールチップ -->
     <a class="logo-link" href="https://drive.google.com/drive/folders/1LKXhJuYHIpJOLASiD1QrtgS-926t7Cmm?usp=sharing" 
     aria-label="作品GoogleDriveへ↗" title="作品GoogleDriveへ↗" target="_blank" rel="noopener noreferrer">
-      <svg class="logo-icon" fill="#4285f4" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Google Drive</title><path d="M12.01 1.485c-2.082 0-3.754.02-3.743.047.01.02 1.708 3.001 3.774 6.62l3.76 6.574h3.76c2.081 0 3.753-.02 3.742-.047-.005-.02-1.708-3.001-3.775-6.62l-3.76-6.574zm-4.76 1.73a789.828 789.861 0 0 0-3.63 6.319L0 15.868l1.89 3.298 1.885 3.297 3.62-6.335 3.618-6.33-1.88-3.287C8.1 4.704 7.255 3.22 7.25 3.214zm2.259 12.653-.203.348c-.114.198-.96 1.672-1.88 3.287a423.93 423.948 0 0 1-1.698 2.97c-.01.026 3.24.042 7.222.042h7.244l1.796-3.157c.992-1.734 1.85-3.23 1.906-3.323l.104-.167h-7.249z"/></svg>
+      <svg class="logo-icon" fill="#4285f4" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.01 1.485c-2.082 0-3.754.02-3.743.047.01.02 1.708 3.001 3.774 6.62l3.76 6.574h3.76c2.081 0 3.753-.02 3.742-.047-.005-.02-1.708-3.001-3.775-6.62l-3.76-6.574zm-4.76 1.73a789.828 789.861 0 0 0-3.63 6.319L0 15.868l1.89 3.298 1.885 3.297 3.62-6.335 3.618-6.33-1.88-3.287C8.1 4.704 7.255 3.22 7.25 3.214zm2.259 12.653-.203.348c-.114.198-.96 1.672-1.88 3.287a423.93 423.948 0 0 1-1.698 2.97c-.01.026 3.24.042 7.222.042h7.244l1.796-3.157c.992-1.734 1.85-3.23 1.906-3.323l.104-.167h-7.249z"/></svg>
     </a>
 
     <!-- GitHubのロゴ,リンク,ツールチップ -->
@@ -75,9 +68,9 @@
 </section>
 
 <section id="about">
+  <h2>ABOUT</h2>
   <div class="about-container">
     <div class="about-content">
-      <h2>ABOUT</h2>
       <h3>Katsuya Yamaguchi</h3>
       <myname>山口 克彌</myname>
       <explanation>
@@ -142,7 +135,7 @@
       </explanation>
       
       <!-- 企業別カスタムコンテンツ -->
-      <section id="custom-content"></section>
+      <custom_content id="custom-content"></custom_content>
 
     </div>
     <div class="about-image" id="parallax-image">
@@ -153,39 +146,9 @@
 
 <section id="works">
   <h2>WORKS</h2>
-
-  <div class="works">
-    <h3>作品名1</h3>
-    <!-- Google Drive動画（共有リンクから埋め込み） -->
-    <iframe
-      src="https://drive.google.com/file/d/1sacBsaoz2OgIp_edso06QzNHO3LANgZ9/preview"
-      frameborder="0"
-      allowfullscreen
-      style="width: 100%; height: 500px;">
-    </iframe>
-    <p>作品の説明文が入ります。</p>
+  <div class="works-container" id="works-container">
+    <!-- JavaScriptで自動生成 -->
   </div>
-
-  <div class="works">
-    <h3>作品名1</h3>
-    <iframe
-      src="https://www.youtube.com/embed/VIDEO_ID"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
-    <p>作品の説明文が入ります。</p>
-  </div>
-
-  <div class="works">
-    <h3>作品名2</h3>
-    <iframe
-      src="https://www.youtube.com/embed/VIDEO_ID"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
-    <p>作品の説明文が入ります。</p>
-  </div>
-
 </section>
 
 <section id="career">
@@ -198,10 +161,42 @@
 
 <section id="contact">
   <h2>CONTACT</h2>
-  <p>email@example.com</p>
+  <p><a href="mailto:yamaguchi1013katuya@gmail.com">yamaguchi1013katuya@gmail.com</a></p>
 </section>
 
 </main>
+
+<!-- ===== フッター ===== -->
+<footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4>Katsuya Yamaguchi</h4>
+      <p>ポートフォリオサイト</p>
+      <p><a href="mailto:yamaguchi1013katuya@gmail.com">yamaguchi1013katuya@gmail.com</a></p>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Links</h4>
+      <ul>
+        <li><a href="https://github.com/wrenchsun" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1LKXhJuYHIpJOLASiD1QrtgS-926t7Cmm?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Credits</h4>
+      <ul>
+        <li><a href="https://devicon.dev/" target="_blank" rel="noopener noreferrer">Devicon</a> - Icon Library</li>
+        <li><a href="https://simpleicons.org/" target="_blank" rel="noopener noreferrer">Simple Icons</a> - SVG Icons</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <p>&copy; 2026 Katsuya Yamaguchi. All rights reserved.</p>
+    <p class="footer-license">Icons licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">CC0 1.0</a> and <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT License</a></p>
+  </div>
+</footer>
 
 <!-- ===== JavaScript ===== -->
 <script>
@@ -310,8 +305,45 @@ async function loadCustomContent() {
   }
 }
 
+/* 作品の自動読み込み */
+async function loadWorks() {
+  const container = document.getElementById("works-container");
+  
+  try {
+    const response = await fetch('asset/data/works.json');
+    const works = await response.json();
+    
+    works.forEach(work => {
+      const workDiv = document.createElement('div');
+      workDiv.className = 'works';
+      
+      // YouTube埋め込みURL生成
+      const videoSrc = `https://www.youtube.com/embed/${work.videoId}?autoplay=0&mute=0`;
+      
+      // ヘッダー部分（タイトル + Driveリンク）
+      let headerHTML = '<div class="works-header"><h3>' + work.title + '</h3>';
+      if (work.driveUrl) {
+        headerHTML += '<a class="logo-link" href="' + work.driveUrl + '" aria-label="作品GoogleDriveへ↗" title="作品GoogleDriveへ↗" target="_blank" rel="noopener noreferrer">';
+        headerHTML += '<svg class="logo-icon" fill="#4285f4" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.01 1.485c-2.082 0-3.754.02-3.743.047.01.02 1.708 3.001 3.774 6.62l3.76 6.574h3.76c2.081 0 3.753-.02 3.742-.047-.005-.02-1.708-3.001-3.775-6.62l-3.76-6.574zm-4.76 1.73a789.828 789.861 0 0 0-3.63 6.319L0 15.868l1.89 3.298 1.885 3.297 3.62-6.335 3.618-6.33-1.88-3.287C8.1 4.704 7.255 3.22 7.25 3.214zm2.259 12.653-.203.348c-.114.198-.96 1.672-1.88 3.287a423.93 423.948 0 0 1-1.698 2.97c-.01.026 3.24.042 7.222.042h7.244l1.796-3.157c.992-1.734 1.85-3.23 1.906-3.323l.104-.167h-7.249z"/></svg>';
+        headerHTML += '</a>';
+      }
+      headerHTML += '</div>';
+      
+      workDiv.innerHTML = headerHTML + 
+        '<iframe src="' + videoSrc + '" frameborder="0" allowfullscreen></iframe>' +
+        '<p>' + work.description + '</p>';
+      
+      container.appendChild(workDiv);
+    });
+  } catch (error) {
+    console.error('作品の読み込みに失敗しました:', error);
+    container.innerHTML = '<p style="padding: 20px; color: #aaa;">作品の読み込みに失敗しました。</p>';
+  }
+}
+
 // ページ読み込み時に実行
 loadCustomContent();
+loadWorks();
 </script>
 
 </body>

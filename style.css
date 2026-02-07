@@ -225,12 +225,130 @@ skillStr {
   margin: 0 !important;
 }
 
-.work {
-  margin-top: 40px;
+#works {
+  padding: 20px;
 }
 
-.work iframe {
+.works-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.works {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.works:hover {
+  transform: translateY(-5px);
+}
+
+.works-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.works h3 {
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+.works-header .logo-link svg {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+.works-header .logo-link:hover svg {
+  transform: scale(1.15);
+}
+
+.works iframe {
   width: 100%;
-  height: 300px;
-  margin: 10px 0;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin: 0 0 15px 0;
+  border-radius: 8px;
+}
+
+.works p {
+  margin: 0;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+/* ===== フッター ===== */
+footer {
+  background: #000;
+  border-top: 1px solid #333;
+  padding: 40px 20px 20px;
+  margin-top: 60px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+}
+
+.footer-section h4 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-section p {
+  color: #aaa;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #222;
+  color: #666;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+}
+
+.footer-license a {
+  color: #888;
+  text-decoration: none;
+}
+
+.footer-license a:hover {
+  color: #fff;
 }
