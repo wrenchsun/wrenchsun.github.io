@@ -312,6 +312,16 @@ footer {
   line-height: 1.6;
 }
 
+.footer-section p a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-section p a:hover {
+  color: #fff;
+}
+
 .footer-section ul {
   list-style: none;
   padding: 0;
