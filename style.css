@@ -247,6 +247,10 @@ skillStr {
   transition: transform 0.2s ease;
 }
 
+.works.is-expanded {
+  grid-column: 1 / -1;
+}
+
 .works:hover {
   transform: translateY(-5px);
 }
@@ -316,11 +320,34 @@ skillStr {
 }
 
 .works.is-expanded .works-details {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  width: 100%;
 }
 
 .works.is-expanded .works-preview {
   display: none;
+}
+
+.works-details-left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.works-details-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.works-description {
+  margin: 0;
+  padding: 0;
+  color: #aaa;
+  line-height: 1.6;
+  font-size: 14px;
 }
 
 .works .docswell-iframe {

@@ -379,8 +379,8 @@ async function loadWorks() {
         ? '<div class="works-preview">' + thumbnailHTML + summaryHTML + '</div>'
         : '';
       
-      const detailsHTML = '<div class="works-details">' + videoHTML + docswellHTML +
-        '<p class="works-description">' + (work.description || '') + '</p></div>';
+      const detailsHTML = '<div class="works-details"><div class="works-details-left">' + videoHTML + docswellHTML +
+        '</div><div class="works-details-right"><p class="works-description">' + (work.description || '') + '</p></div></div>';
       
       workDiv.innerHTML = headerHTML + previewHTML + detailsHTML;
 
@@ -394,6 +394,9 @@ async function loadWorks() {
       
       const toggleExpanded = () => {
         workDiv.classList.toggle('is-expanded');
+        if (workDiv.classList.contains('is-expanded')) {
+          workDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
       };
 
       if (titleEl) {
