@@ -308,10 +308,15 @@ async function loadCustomContent() {
 /* 作品の自動読み込み */
 async function loadWorks() {
   const container = document.getElementById("works-container");
+  console.log('loadWorks関数が実行されました');
+  console.log('コンテナ:', container);
   
   try {
     const response = await fetch('asset/data/works.json');
+    console.log('レスポンス:', response);
     const works = await response.json();
+    console.log('作品データ:', works);
+    console.log('作品数:', works.length);
     
     works.forEach(work => {
       const workDiv = document.createElement('div');
