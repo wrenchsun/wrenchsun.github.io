@@ -264,6 +264,30 @@ skillStr {
   flex: 1;
 }
 
+.works-title {
+  cursor: pointer;
+}
+
+.works-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.works-thumb {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  cursor: pointer;
+}
+
+.works-summary {
+  margin: 0;
+  color: #aaa;
+  line-height: 1.6;
+}
+
 .works-header .logo-link svg {
   width: 28px;
   height: 28px;
@@ -280,6 +304,27 @@ skillStr {
   aspect-ratio: 16 / 9;
   margin: 0 0 15px 0;
   border-radius: 8px;
+}
+
+.works-details {
+  display: none;
+}
+
+.works.is-expanded .works-details {
+  display: block;
+}
+
+.works.is-expanded .works-preview {
+  display: none;
+}
+
+.works .docswell-iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 620 / 349;
+  margin: 0 0 15px 0;
+  border: 1px solid #333;
+  border-radius: 6px;
 }
 
 .works p {

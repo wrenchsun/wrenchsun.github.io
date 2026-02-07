@@ -2,38 +2,46 @@
   {
     "id": 1,
     "title": "DReAM_ENGINE/MocopiReceiver",
-    "videoId": "CaNSxWC6kFU",
+    "thumbnailUrl": "asset/img/NoImage.png",
+    "summary": "概要文が入ります。",
+    "youtubeUrl": "https://www.youtube.com/watch?v=CaNSxWC6kFU",
     "description": "作品の説明文が入ります。",
+    "docswellUrl": "https://www.docswell.com/slide/513PE2/embed?key=portfolio",
     "driveUrl": "https://drive.google.com/drive/folders/1LKXhJuYHIpJOLASiD1QrtgS-926t7Cmm?usp=sharing"
   },
   {
     "id": 2,
     "title": "DownWell",
-    "videoId": "VIDEO_ID",
+    "thumbnailUrl": "asset/img/NoImage.png",
+    "summary": "概要文が入ります。",
     "description": "作品の説明文が入ります。"
   },
   {
     "id": 3,
     "title": "ググバゴーン",
-    "videoId": "VIDEO_ID",
+    "thumbnailUrl": "asset/img/NoImage.png",
+    "summary": "概要文が入ります。",
     "description": "作品の説明文が入ります。"
   },
   { 
     "id": 4,
     "title": "GoToHeaven",
-    "videoId": "VIDEO_ID",
+    "thumbnailUrl": "asset/img/NoImage.png",
+    "summary": "概要文が入ります。",
     "description": "作品の説明文が入ります。"
   },
   { 
     "id": 5,
     "title": "オタマすくい",
-    "videoId": "VIDEO_ID",
+    "thumbnailUrl": "asset/img/NoImage.png",
+    "summary": "概要文が入ります。",
     "description": "作品の説明文が入ります。"
   },
   { 
     "id": 6,
     "title": "Fezlia",
-    "videoId": "VIDEO_ID",
+    "thumbnailUrl": "asset/img/NoImage.png",
+    "summary": "概要文が入ります。",
     "description": "作品の説明文が入ります。"
   }
 ]
