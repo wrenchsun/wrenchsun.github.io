@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "DReAM_ENGINE,MocopiReceiver",
+    "title": "DReAM_ENGINE/MocopiReceiver",
     "videoId": "CaNSxWC6kFU",
     "description": "作品の説明文が入ります。",
     "driveUrl": "https://drive.google.com/drive/folders/1LKXhJuYHIpJOLASiD1QrtgS-926t7Cmm?usp=sharing"
@@ -29,6 +29,11 @@
     "title": "オタマすくい",
     "videoId": "VIDEO_ID",
     "description": "作品の説明文が入ります。"
+  },
+  { 
+    "id": 6,
+    "title": "Fezlia",
+    "videoId": "VIDEO_ID",
+    "description": "作品の説明文が入ります。"
   }
-
 ]
