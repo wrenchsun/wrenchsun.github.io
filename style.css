@@ -273,19 +273,24 @@ skillStr {
   flex-direction: column;
   gap: 12px;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .works-thumb {
   width: 100%;
+  height: auto;
   border-radius: 8px;
   display: block;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .works-summary {
   margin: 0;
+  padding: 0;
   color: #aaa;
   line-height: 1.6;
+  font-size: 14px;
 }
 
 .works-header .logo-link svg {

@@ -354,13 +354,17 @@ async function loadWorks() {
       }
       headerHTML += '</div>';
 
-      const thumbnailHTML = work.thumbnailUrl
-        ? '<img class="works-thumb works-toggle" src="' + work.thumbnailUrl + '" alt="' + work.title + ' サムネイル">'
+      // サムネイルと概要を確認
+      const hasThumbnail = work.thumbnailUrl && work.thumbnailUrl.trim() !== '';
+      const hasSummary = work.summary && work.summary.trim() !== '';
+      const hasPreview = hasThumbnail || hasSummary;
+
+      const thumbnailHTML = hasThumbnail
+        ? '<img class="works-thumb" src="' + work.thumbnailUrl + '" alt="' + work.title + ' サムネイル">'
         : '';
 
-      const summaryText = work.summary || '';
-      const summaryHTML = summaryText
-        ? '<p class="works-summary">' + summaryText + '</p>'
+      const summaryHTML = hasSummary
+        ? '<p class="works-summary">' + work.summary + '</p>'
         : '';
 
       const videoHTML = videoSrc
@@ -371,18 +375,23 @@ async function loadWorks() {
         ? '<iframe class="docswell-iframe" src="' + work.docswellUrl + '" allowfullscreen="true"></iframe>'
         : '';
 
-      const previewHTML = '<div class="works-preview">' + thumbnailHTML + summaryHTML + '</div>';
+      const previewHTML = hasPreview
+        ? '<div class="works-preview">' + thumbnailHTML + summaryHTML + '</div>'
+        : '';
+      
       const detailsHTML = '<div class="works-details">' + videoHTML + docswellHTML +
         '<p class="works-description">' + (work.description || '') + '</p></div>';
       
       workDiv.innerHTML = headerHTML + previewHTML + detailsHTML;
 
-      if (!thumbnailHTML && !summaryHTML) {
+      // プレビューがない場合は自動的に展開状態に
+      if (!hasPreview) {
         workDiv.classList.add('is-expanded');
       }
 
       const titleEl = workDiv.querySelector('.works-title');
       const thumbEl = workDiv.querySelector('.works-thumb');
+      
       const toggleExpanded = () => {
         workDiv.classList.toggle('is-expanded');
       };
