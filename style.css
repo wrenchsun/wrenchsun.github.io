@@ -60,6 +60,13 @@ header {
   transition: transform 0.2s ease;
 }
 
+.logo-link svg {
+  width: 40px;
+  height: 40px;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
 .logo-link i {
   font-size: 40px;
   color: #fff;
@@ -68,7 +75,8 @@ header {
 }
 
 .logo-link:hover img,
-.logo-link:hover i {
+.logo-link:hover i,
+.logo-link:hover svg {
   transform: scale(1.15);
 }
 
@@ -121,7 +129,7 @@ header {
 
 /* ===== メイン ===== */
 main {
-  padding-top: 00px;
+  padding-top: 0px;
 }
 
 #top-video {
