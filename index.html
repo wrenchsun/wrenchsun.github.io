@@ -25,7 +25,7 @@
   <button id="close-modal">×</button>
   <!-- embed/の後に再生する動画リンク -->
   <iframe
-    src="https://www.youtube.com/embed/CaNSxWC6kFU?si=NhPg88NBcyRkglVM?autoplay=1&mute=1"
+    src="https://www.youtube.com/embed/b7JUo4Mapys?si=NhPg88NBcyRkglVM?autoplay=1"
     frameborder="0"
     allow="autoplay; encrypted-media"
     allowfullscreen>
@@ -82,7 +82,7 @@
       <explanation>
         HAL大阪ゲーム4年生学科3年 プログラマー<br>
         テクニカルアーティスト志望<br>
-        <a href="https://drive.google.com/file/d/1k7Nhfc7lP4j2i3Czve-Xsj6pCcn5FqQ7/view?usp=sharing" 
+        <a href="https://www.youtube.com/watch?v=b7JUo4Mapys" 
         target="_blank" rel="noopener noreferrer">自己紹介動画へ↗</a>
       </explanation>
       <br>
@@ -162,10 +162,14 @@
 
 <section id="career">
   <h2>CAREER</h2>
-  <ul>
-    <li>2023 ○○大学 入学</li>
-    <li>2024 インターン参加</li>
-  </ul>
+  <explanation>
+    2019 03 福岡県立八女工業高等学校　電子機械科　入学<br>
+    2022 03 福岡県立八女工業高等学校　電子機械科　卒業<br>
+    2022 04 パナソニックホールディングス株式会社　入社<br>
+    2023 03 パナソニックホールディングス株式会社　退社<br>
+    2023 04 HAL大阪　ゲーム4年制学科　入学<br>
+    2027 03 HAL大阪　ゲーム4年制学科　VR・3Dゲームプログラマー専攻　卒業見込み<br>
+  </explanation>
 </section>
 
 <section id="contact">
@@ -211,8 +215,18 @@
 <script>
 /* モーダル制御 */
 const modal = document.getElementById("video-modal");
+const modalIframe = modal.querySelector("iframe");
+const originalIframeSrc = modalIframe.src;
+
 document.getElementById("close-modal").onclick = () => {
+  // 動画を停止するためにiframeのsrcを空にする
+  modalIframe.src = "";
   modal.style.display = "none";
+  
+  // モーダルが閉じられた後、srcを元に戻す（次回開くときのため）
+  setTimeout(() => {
+    modalIframe.src = originalIframeSrc;
+  }, 100);
 };
 
 /* メニューの滑らかスクロール */

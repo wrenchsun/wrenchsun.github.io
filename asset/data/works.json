@@ -1,47 +1,71 @@
 [
   {
     "id": 1,
-    "title": "DReAM_ENGINE/MocopiReceiver",
-    "thumbnailUrl": "asset/img/NoImage.png",
-    "summary": "VRモーションキャプチャーデバイス「Mocopi」を使用したリアルタイムアバター制御システム",
-    "youtubeUrl": "https://www.youtube.com/watch?v=CaNSxWC6kFU",
-    "description": "作品の説明文が入ります。",
-    "docswellUrl": "https://www.docswell.com/slide/513PE2/embed?key=portfolio",
-    "driveUrl": "https://drive.google.com/drive/folders/1LKXhJuYHIpJOLASiD1QrtgS-926t7Cmm?usp=sharing"
+    "title": "DReAM_ENGINE",
+    "thumbnailUrl": "asset/img/DReAM_ENGINE.png",
+    "summary": "3年次、個人制作、C++、ライブ会場を作るための技術を詰め込んだDirectX12フレームワーク",
+    "youtubeUrl": "https://www.youtube.com/watch?v=wotI1NtIx6Y",
+    "description": "個人制作<br>制作期間：2025/4～2025/12<br>制作経緯：ライブ会場を作りたい！<br><br>概要<br>・DirectX12の機能を最大限生かしたグラフィックエンジン<br>・モーショントラッカーを利用してライブ配信等に利用可能<br>・プログラマーが機能を簡単に実装可能な設計<br><br>実装技術<br>・バインドレスリソース<br>・TileBasedLighting<br>・IK  等<br><br>一言コメント<br>特にバインドレスリソースの実装は、AIだと限界があったのでGitHubから関連リポジトリを参考にして制作しました<br><br>作品フォルダにソースコード、実行ファイルあります<br><br>使用ライブラリ<br>・MocopiReceiver(自作)<br>・assimp<br>・DXC<br>・D3D12MemoryAllocator<br>・DirectXTEX<br>・cereal<br>・json<br>・ImGUI<br>",
+    "docswellUrl": "https://www.docswell.com/slide/K8W7QE/embed?key=DReAM_ENGINE",
+    "driveUrl": "https://drive.google.com/drive/folders/14yqi7MW_f72WNuJKi1ywX6xK32oqwELF?usp=sharing"
   },
   {
     "id": 2,
-    "title": "DownWell",
-    "thumbnailUrl": "asset/img/NoImage.png",
-    "summary": "概要文が入ります。",
-    "description": "作品の説明文が入ります。"
+    "title": "MocopiReceiver",
+    "thumbnailUrl": "asset/img/MocopiReceiver.png",
+    "summary": "3年次、個人制作、C++、Mocopiとの通信をC++で行うライブラリ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=PEYnuOOfVnQ",
+    "description": "DReAM_ENGINEを作るにあたり、身近にあるモーションキャプチャーを導入したいと思い作成しました。<br><br>Mocopiの公式SDKではUnrealEngine、Unityのサポートはありますが、C++のライブラリはなかったので自作しました。<br><br>作成にあたり通信の解析をAIを活用し行いC++の呼び出し側から事前知識なしに扱えるような設計にしました。シングルヘッダーで内部でマルチスレッドでのUDP受信を行っています。<br><br>Mocopiの使用感<br>VRChat等で遊ぶ分には十分だと思いますが、VRライブへの活用は不向きだと感じました。<br>ジャイロセンサーのため補完しきれない部分や、通信経路がMoopi→スマホ→PCのため少し不安定で、キャリブレーションもそこそこそこの頻度で行う必要がありました。<br>しかし、事前準備無しで体に装着するだけで動きを取ってくれ、価格も手頃なため、気軽にモーションキャプチャーを試したい方にはおすすめです。<br><br>作品フォルダに実際のライブラリを入れています。",
+    "docswellUrl": "https://www.docswell.com/slide/ZYVP6N/embed?key=MocopiReceiver",
+    "driveUrl": "https://drive.google.com/drive/folders/1ya8mGh7-RqVAZ7yj8c06AEFMCtwPp8BY?usp=sharing"
   },
   {
     "id": 3,
-    "title": "ググバゴーン",
-    "thumbnailUrl": "asset/img/NoImage.png",
-    "summary": "概要文が入ります。",
-    "description": "作品の説明文が入ります。"
+    "title": "FacialController(現在制作中)",
+    "thumbnailUrl": "asset/img/FacialController.png",
+    "summary": "3年次、個人制作、UnrealEngineプラグイン、アニメーション会社のOrenge様の内製ツールCamera-O-Maticを参考に、カメラの位置ごとに表情を変化させる",
+    "description": "個人制作<br>制作期間：2025/12～<br>制作経緯：アーティストさんの作業を効率化、表現の幅を広げたい！<br>　　　　　UnrealEngineのC++に触りたい！<br><br>概要<br>・カメラの位置ごとに表情を変化させるUnrealEngineプラグイン<br>・完成後はパラメータに感情を追加など拡張予定<br><br>一言コメント<br>UnrealEngineのC++の学習と並行して作成しています。UnrealEngineのソースコードとにらめっこしながら少しづつ進めています<br>",    "docswellUrl": "https://www.docswell.com/slide/KQXY7W/embed?key=FacialController"
   },
-  { 
+  {
     "id": 4,
-    "title": "GoToHeaven",
-    "thumbnailUrl": "asset/img/NoImage.png",
-    "summary": "概要文が入ります。",
-    "description": "作品の説明文が入ります。"
+    "title": "ググバゴーン",
+    "thumbnailUrl": "asset/img/gugubago-n.png",
+    "summary": "2年次、チーム制作、C++、ゴムの腕を限界まで伸ばしてドアを破壊し脱出するゲーム",
+    "youtubeUrl": "https://www.youtube.com/watch?v=USrCzfCfHP8",
+    "description": "チーム制作(9人)<br>制作期間：5カ月<br>2年次HEW出展作品<br>サブリーダー・リードプログラマー<br><br>担当<br>・フレームワーク開発<br>・外部ライブラリ導入<br>・Animation、ComputeShader<br><br>概要<br>・ゴムの腕を限界まで伸ばしてドアを破壊し脱出するゲーム<br><br>一言コメント<br>どうしても3Dゲームが作りたかったです。<br>当時、カリキュラム的には2Dがやっと始まったばかりでした。3Dゲームを出展するためには最初からその基盤を整えておく必要があると思い、チーム結成前の夏季休暇にDirectX12で3Dフレームワークを完成させておきました。開発開始後はアニメーションや外部ライブラリの導入、ゴムの描画などゲームを作る仕組みを作ることに専念し、完成後メンバーがそれを使いコンポーネント・オブジェクト作成というループを回すことができました<br><br>作品フォルダに実行ファイル、チーム制作時資料あります<br><br>使用ライブラリ<br>・assimp<br>・PhysX<br>・Efffekseer<br>・DirectXTEX<br>",
+    "docswellUrl": "https://www.docswell.com/slide/Z74Q32/embed?key=gugubago-n",
+    "driveUrl": "https://drive.google.com/drive/folders/1ZgCIa2AmWGBT5qg7lowYphKwUd-n3lru?usp=sharing"
   },
-  { 
+  {
     "id": 5,
-    "title": "オタマすくい",
-    "thumbnailUrl": "asset/img/NoImage.png",
-    "summary": "概要文が入ります。",
-    "description": "作品の説明文が入ります。"
+    "title": "DownWell(インターンシップ作品)",
+    "thumbnailUrl": "asset/img/DownWell.png",
+    "summary": "3年次、個人制作、C++、Steamに公開されているDownWellのクローンゲーム、DXライブラリを使用しフレームワークから制作",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7S4ES5KuwPE",
+    "description": "個人制作<br>制作期間：1カ月<br><br>概要<br>・Steamに公開されているDownWellのクローンゲーム<br>・独自モードTimeAttack、HeardCore<br><br>一言コメント<br>今まで何度もフレームワークを作ってきた経験が活き、かなりスムーズに制作を進めることができました。その結果、プラスαやゲームの面白さにかかわる部分に時間を使うことができました。メンターの方とのコミュニケーションを通し、現場でのコーディングや詳細設計などの知見・スキルをさらに深めることができました。本当にありがとうございました。<br><br>作品フォルダにソースコード、実行ファイルあります<br><br>使用ライブラリ<br>・DXライブラリ",
+    "driveUrl": "https://drive.google.com/drive/folders/1AFHwHoVMxMl39F-VDOqL8qWskHGS9CuN?usp=sharing"
   },
   { 
     "id": 6,
     "title": "Fezlia",
-    "thumbnailUrl": "asset/img/NoImage.png",
-    "summary": "概要文が入ります。",
-    "description": "作品の説明文が入ります。"
-  }
+    "thumbnailUrl": "asset/img/Fezlia.png",
+    "summary": "3年次、チーム制作、UnrealEngine、最大4人オンライン協力プレイ、クリスタルのボスを協力し倒すゲーム",
+    "youtubeUrl": "https://www.youtube.com/watch?v=XTLcwMLxOO8",
+    "description": "チーム制作(10人)<br>制作期間：5カ月<br><br>担当<br>・プレイヤー・羽の挙動<br>・射撃システム<br><br>概要<br>・最大4人オンライン協力プレイ<br>・クリスタルのボスを協力し倒すゲーム<br><br>一言コメント<br>初めてマルチプレイゲームを開発しました。サーバーとクライアントでどう処理を分けるのか、共有するデータ・イベントの設計など初めて行うことだらけでした。特に担当した点で、羽を構成するクリスタルからクリスタルを取得・回収するアニメーションで羽を動かすというところの設計部分にこだわりました。調整しやすく自然に見えるように、かつネットワーク上で破綻しないものを作ることができました。<br>"
+  },
+  { 
+    "id": 7,
+    "title": "GoToHeaven",
+    "thumbnailUrl": "asset/img/GoToHeaven.png",
+    "summary": "1年次、個人制作、HAL EVENT WEEK 銅賞、C++コンソール、うさぎをワイヤーアクションで操作し上に登りながらコインを集めるゲーム",
+    "youtubeUrl": "https://www.youtube.com/watch?v=GLw22pWOJRA",
+    "description": "個人制作<br>制作期間：5カ月<br>HAL EVENT WEEK出展作品　　銅賞受賞<br><br>概要<br>・うさぎをワイヤーアクションで操作し上に登りながらコインを集めるゲーム<br><br>一言コメント<br>当時、まだDirectXも知らない頃、3Dにあこがれて.objファイルのロード・描画を全て自作しました。特に描画部分は線分と重心を活用したラスタライザの部分でかなり苦労しました。<br>"
+  },
+  { 
+    "id": 8,
+    "title": "OtamaSukui",
+    "thumbnailUrl": "asset/img/OtamaSukui.png",
+    "summary": "1年次、個人制作、おもしろゲームづくりコンテスト　技術力賞、Unity、ローカル2人対戦、ポイでオタマジャクシをすくうゲーム",
+    "youtubeUrl": "https://www.youtube.com/watch?v=2CXAyrYNjmg",
+    "description": "個人制作<br>制作期間：5カ月<br>おもしろゲームづくりコンテスト出展作品　技術力賞受賞<br><br>概要<br>・ローカル2人対戦<br>・成長するオタマジャクシをポイですくうゲーム<br><br>一言コメント<br>Unityで制作した初めての作品です。ゲームとしても面白さ、わかりやすさを意識して製作しました。<br>"  }
 ]
