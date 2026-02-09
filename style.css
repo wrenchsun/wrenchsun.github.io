@@ -236,6 +236,13 @@ section {
   min-height: 600px;
 }
 
+@media (max-width: 768px) {
+  #about {
+    background-attachment: scroll;
+    background-position: right top;
+  }
+}
+
 #about::before {
   content: '';
   position: absolute;
