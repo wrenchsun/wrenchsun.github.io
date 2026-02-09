@@ -633,3 +633,19 @@ footer {
 .footer-license a:hover {
   color: #fff;
 }
+
+/* ===== 自己紹介動画 ===== */
+.intro-video {
+  width: 100%;
+  max-width: 620px;
+  margin: 20px 0;
+}
+
+.intro-video iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 8px;
+  background: #000;
+}
