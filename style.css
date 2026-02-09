@@ -239,7 +239,7 @@ section {
 @media (max-width: 768px) {
   #about {
     background-attachment: scroll;
-    background-position: right top;
+    background-position: right 60px;
   }
 }
 
