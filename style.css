@@ -241,10 +241,6 @@ section {
     background-attachment: scroll;
     background-position: right 60px;
   }
-
-  #about-video {
-    max-width: 100% !important;
-  }
 }
 
 #about::before {
