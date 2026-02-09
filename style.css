@@ -416,6 +416,17 @@ skillStr {
   margin-right: auto;
 }
 
+@media (max-width: 768px) {
+  .works-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 100%;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 0;
+  }
+}
+
 .works {
   background: #1a1a1a;
   border-radius: 8px;
@@ -500,6 +511,13 @@ skillStr {
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .works.is-expanded .works-details {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }
 
 .works.is-expanded .works-preview {
