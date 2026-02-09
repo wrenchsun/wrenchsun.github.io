@@ -226,7 +226,29 @@ section {
 }
 
 #about {
-  padding: 20px;
+  padding: 20px 20px 20px 20px;;
+  background-image: url('asset/img/KatsuyaYamaguchi.png');
+  background-size: 60%;
+  background-position: right center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+}
+
+#about .about-container {
+  position: relative;
+  z-index: 1;
 }
 
 .about-container {
@@ -268,6 +290,11 @@ explanation {
   font-size: 24px;
   display: block;
   color: #aaa;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+  white-space: normal;
 }
 
 skillIcon {
@@ -275,6 +302,7 @@ skillIcon {
   flex-wrap: wrap;
   gap: 10px;
   padding: 0 50px;
+  max-width: 100%;
 }
 
 skillIcon i {
@@ -286,6 +314,78 @@ skillIcon i {
 
 skillIcon i:hover {
   transform: scale(1.15);
+}
+
+skillStr {
+  padding: 0 50px;
+  display: block;
+  font-size: 24px;
+  line-height: 1.7;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+  white-space: normal;
+}
+
+skillStr span:not([title]) {
+  display: block;
+}
+
+skillStr span[title] {
+  display: inline;
+}
+
+explanation span {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-image {
+    width: 100%;
+    position: static;
+  }
+
+  .about-image img {
+    width: 100%;
+  }
+
+  #parallax-image {
+    position: static;
+  }
+
+  myname {
+    padding: 0 20px;
+    font-size: 40px;
+  }
+
+  explanation {
+    padding: 0 20px;
+    font-size: 16px;
+  }
+
+  skillIcon {
+    padding: 0 20px;
+  }
+
+  skillIcon i {
+    font-size: 40px;
+  }
+
+  skillStr {
+    padding: 0 20px !important;
+    font-size: 16px !important;
+  }
+
+  h3 {
+    padding: 20px 20px 0 20px !important;
+    font-size: 24px !important;
+  }
 }
 
 skillStr {

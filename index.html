@@ -143,11 +143,7 @@
       <!-- 企業別カスタムコンテンツ -->
       <custom_content id="custom-content"></custom_content>
       <br>
-      <iframe src="https://www.docswell.com/slide/513PE2/embed?key=portfolio" allowfullscreen="true" class="docswell-iframe" width="620" height="349" style="border: 1px solid #ccc; display: block; margin: 0px auto; padding: 0px; aspect-ratio: 620/349;"></iframe>
-
-    </div>
-    <div class="about-image" id="parallax-image">
-      <img src="asset/img/KatsuyaYamaguchi.png" alt="Katsuya Yamaguchi" />
+      <iframe src="https://www.docswell.com/slide/513PE2/embed?key=portfolio" allowfullscreen="true" class="docswell-iframe" style="border: 1px solid #ccc; display: block; margin: 0; padding: 0px; aspect-ratio: 620/349; width: 100%; max-width: 620px;"></iframe>
     </div>
   </div>
 </section>
@@ -284,27 +280,6 @@ window.addEventListener("scroll", () => {
       h2.classList.remove("sticky");
     }
   });
-});
-
-/* パララックス効果 */
-const parallaxImage = document.getElementById("parallax-image");
-const aboutSection = document.getElementById("about");
-const worksSection = document.getElementById("works");
-
-window.addEventListener("scroll", () => {
-  const aboutRect = aboutSection.getBoundingClientRect();
-  const worksRect = worksSection.getBoundingClientRect();
-  
-  // 自己紹介セクションの開始から作品セクションの開始までの範囲内
-  if (aboutRect.top < window.innerHeight && worksRect.top > 0) {
-    // 0-1の範囲で進捗度を計算（0=自己紹介の開始、1=作品の開始）
-    const progress = 1 - (worksRect.top / window.innerHeight);
-    const clampedProgress = Math.max(0, Math.min(1, progress));
-    
-    // -50px から +50px の範囲で上下に移動
-    const offset = (clampedProgress - 0.5) * 100;
-    parallaxImage.style.transform = `translateY(${offset}px)`;
-  }
 });
 
 /* クエリパラメータで企業別コンテンツ読み込み */
