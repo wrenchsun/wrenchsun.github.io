@@ -19,19 +19,6 @@
 </head>
 
 <body>
-
-<!-- END #youtubeModal -->
-<div id="video-modal">
-  <button id="close-modal">×</button>
-  <!-- embed/の後に再生する動画リンク -->
-  <iframe
-    src="https://www.youtube.com/embed/b7JUo4Mapys?si=NhPg88NBcyRkglVM?autoplay=1"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe>
-</div>
-
 <!-- ===== ヘッダー ===== -->
 <header>
   <div class="logo-area">
@@ -209,22 +196,6 @@
 
 <!-- ===== JavaScript ===== -->
 <script>
-/* モーダル制御 */
-const modal = document.getElementById("video-modal");
-const modalIframe = modal.querySelector("iframe");
-const originalIframeSrc = modalIframe.src;
-
-document.getElementById("close-modal").onclick = () => {
-  // 動画を停止するためにiframeのsrcを空にする
-  modalIframe.src = "";
-  modal.style.display = "none";
-  
-  // モーダルが閉じられた後、srcを元に戻す（次回開くときのため）
-  setTimeout(() => {
-    modalIframe.src = originalIframeSrc;
-  }, 100);
-};
-
 /* メニューの開閉 */
 const menuToggle = document.getElementById("menu-toggle");
 const headerNav = document.getElementById("header-nav");
