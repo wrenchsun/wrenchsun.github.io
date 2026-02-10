@@ -456,6 +456,11 @@ skillStr {
   display: flex;
   align-items: center;
   gap: 8px;
+  transition: color 0.2s ease;
+}
+
+.works-title:hover {
+  color: #4285f4;
 }
 
 .works-title::before {
@@ -464,6 +469,11 @@ skillStr {
   font-size: 18px;
   line-height: 1;
   color: #ccc;
+  transition: color 0.2s ease;
+}
+
+.works-title:hover::before {
+  color: #4285f4;
 }
 
 .works.is-expanded .works-title::before {
