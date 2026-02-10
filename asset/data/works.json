@@ -5,7 +5,7 @@
     "thumbnailUrl": "asset/img/DReAM_ENGINE.png",
     "summary": "3年次、個人制作、C++、ライブ会場を作るための技術を詰め込んだDirectX12フレームワーク",
     "youtubeUrl": "https://www.youtube.com/watch?v=wotI1NtIx6Y",
-    "description": "個人制作<br>制作期間：2025/4～2025/12<br>制作経緯：ライブ会場を作りたい！<br><br>概要<br>・DirectX12の機能を最大限生かしたグラフィックエンジン<br>・モーショントラッカーを利用してライブ配信等に利用可能<br>・プログラマーが機能を簡単に実装可能な設計<br><br>実装技術<br>・バインドレスリソース<br>・TileBasedLighting<br>・IK  等<br><br>一言コメント<br>特にバインドレスリソースの実装は、AIだと限界があったのでGitHubから関連リポジトリを参考にして制作しました<br><br>作品フォルダにソースコード、実行ファイルあります<br><br>使用ライブラリ<br>・MocopiReceiver(自作)<br>・assimp<br>・DXC<br>・D3D12MemoryAllocator<br>・DirectXTEX<br>・cereal<br>・json<br>・ImGUI<br>",
+    "description": "個人制作<br>制作期間：5ヵ月<br>制作経緯：ライブ会場を作りたい！<br><br>概要<br>・DirectX12の機能を最大限生かしたグラフィックエンジン<br>・モーショントラッカーを利用してライブ配信等に利用可能<br>・プログラマーが機能を簡単に実装可能な設計<br><br>実装技術<br>・バインドレスリソース<br>・TileBasedLighting<br>・IK  等<br><br>一言コメント<br>特にバインドレスリソースの実装は、AIだと限界があったのでGitHubから関連リポジトリを参考にして制作しました<br><br>作品フォルダにソースコード、実行ファイルあります<br><br>使用ライブラリ<br>・MocopiReceiver(自作)<br>・assimp<br>・DXC<br>・D3D12MemoryAllocator<br>・DirectXTEX<br>・cereal<br>・json<br>・ImGUI<br>",
     "docswellUrl": "https://www.docswell.com/slide/K8W7QE/embed?key=DReAM_ENGINE",
     "driveUrl": "https://drive.google.com/drive/folders/14yqi7MW_f72WNuJKi1ywX6xK32oqwELF?usp=sharing"
   },
