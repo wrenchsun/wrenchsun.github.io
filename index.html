@@ -329,7 +329,7 @@ async function loadWorks() {
     const response = await fetch('asset/data/works.json');
     const works = await response.json();
     
-    works.forEach(work => {
+    works.forEach((work, index) => {
       const workDiv = document.createElement('div');
       workDiv.className = 'works';
       
@@ -374,8 +374,8 @@ async function loadWorks() {
       
       workDiv.innerHTML = headerHTML + previewHTML + detailsHTML;
 
-      // プレビューがない場合は自動的に展開状態に
-      if (!hasPreview) {
+      // プレビューがない場合、または最初の作品の場合は自動的に展開状態に
+      if (!hasPreview || index === 0) {
         workDiv.classList.add('is-expanded');
       }
 
