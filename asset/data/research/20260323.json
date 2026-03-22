@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "name": "NVIDIA DLSS 5 発表：AIニューラルレンダリングが実用化へ",
+      "level": "10",
+      "overview": "NVIDIA GTC 2026でDLSS 5が発表。AIが全フレームをリアルタイムで強化する革命的技術、2026年秋リリース予定。",
+      "detail": "2026年3月16〜19日に開催されたNVIDIA GTC 2026でDLSS 5が発表された。リアルタイムニューラルレンダリングにより、従来レンダリングされた各フレームにAIモデルが3Dシーンを理解した上でフォトリアルなライティングとマテリアル詳細を付加する。Jensen Huang CEOは「グラフィクスのGPTモーメント」と評した。Bethesda、CAPCOM、Ubisoft、Warner Bros.など16タイトル・9パブリッシャーが対応を表明。対応タイトルは2026年秋のリリースを予定している。",
+      "links": {
+        "Tech2Geek - NVIDIA DLSS 5 Introduced at GTC 2026": "https://www.tech2geek.net/nvidia-dlss-5-introduced-at-gtc-2026-ai-powered-neural-rendering-could-transform-game-graphics/",
+        "WinBuzzer - Nvidia DLSS 5: AI Neural Rendering Coming Fall 2026": "https://winbuzzer.com/2026/03/17/nvidia-dlss-5-gpt-moment-graphics-gtc-2026-xcxwbn/"
+      }
+    },
+    {
+      "name": "NVIDIA GTC 2026 - Vera Rubin次世代AIアーキテクチャ発表",
+      "level": "9",
+      "overview": "Blackwell後継の次世代GPUアーキテクチャVera RubinをGTC 2026で発表。AI演算密度が最大3〜4倍に向上。",
+      "detail": "NVIDIA GTC 2026（3/16〜19）にて次世代GPUアーキテクチャ「Vera Rubin」を発表。BlackwellのSXM後継として、メモリをチップ上に直接スタックする設計でAI演算密度が最大3〜4倍向上。さらにRTX PRO 4500 Blackwell Server Editionはビジョン AIで100倍、ベクターDBで50倍の性能を実現。エージェンティックAIツールとしてOpenClaw・NemoClawも発表され、デジタルワーカーを数日で構築できる環境が整備される。",
+      "links": {
+        "NVIDIA Technical Blog - Inside the NVIDIA Vera Rubin Platform": "https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/",
+        "CNBC - Nvidia GTC 2026: Agentic AI takes center stage": "https://www.cnbc.com/2026/03/20/nvidia-gtc-2026-agentic-ai-chips-tech-download.html"
+      }
+    },
+    {
+      "name": "NVIDIA GDC 2026 RTX発表：Mega Geometry Foliage・DLSS 4.5 DMFG",
+      "level": "9",
+      "overview": "GDC 2026でRTX Mega Geometry Foliageシステムと、DLSS 4.5 Dynamic Multi Frame Gen（3/31提供）を発表。",
+      "detail": "NVIDIA GDC 2026（3/9〜13）にて、密生植物環境のパストレーシングを効率化する「RTX Mega Geometry Foliage System」と、RTX Kitニューラルレンダリングツールの更新が発表された。またDLSS 4.5 Dynamic Multi Frame Generationが3月31日にRTX 50シリーズ向けに提供開始予定。最大6xフレーム生成により4K パストレースで最大35%のフレームレート向上を実現。対応タイトルは007 First Light、CONTROL Resonantなど20本以上。UE5開発者向け性能強化も同時発表。",
+      "links": {
+        "NVIDIA - GeForce @ GDC 2026": "https://www.nvidia.com/en-us/geforce/news/gdc-2026-nvidia-geforce-rtx-announcements/",
+        "NVIDIA - DLSS 4.5 Dynamic Multi Frame Gen": "https://www.nvidia.com/en-us/geforce/news/dlss-4-5-rtx-path-tracing-game-announcements-gdc-2026/",
+        "NVIDIA Technical Blog - RTX Innovations": "https://developer.nvidia.com/blog/nvidia-rtx-innovations-are-powering-the-next-era-of-game-development/"
+      }
+    },
+    {
+      "name": "Blender 5.1 リリース",
+      "level": "8",
+      "overview": "Blender 5.1が3/17にリリース。Eeveeに新Raycastシェーダー、グリッドとスナップの刷新、Python 3.13対応など。",
+      "detail": "2026年3月17日、Blender 5.1が正式リリース。主な新機能はEeveeの新Raycastシェーダーノード（シーン内の光線トレースと最初にヒットしたサーフェスの情報報告）、Eeveeの平面反射改善（グロッシー反射と屈折に対応）、シーンビューのグリッドとスナップの刷新（カスタムグリッド回転・ツールバー整理）、Python 3.13とOCIO 2.5（VFX Reference Platform CY2026仕様）への対応など。モーショングラフィクス強化も含まれる。",
+      "links": {
+        "Blender.org - Blender 5.1 Release": "https://www.blender.org/press/blender-5-1-release/",
+        "CG Channel - Blender 5.1 is here": "https://www.cgchannel.com/2026/03/discover-5-key-features-in-blender-5-1/",
+        "BlenderNation - Blender 5.1 Released": "https://www.blendernation.com/2026/03/19/blender-5-1-released/"
+      }
+    },
+    {
+      "name": "Unity 6.4 & Unity Studio リリース",
+      "level": "8",
+      "overview": "Unity 6.4が3/20リリース。DirectStorage対応でロード最大40%短縮。Unity Studioはウェブ3Dアプリ制作ツール。",
+      "detail": "2026年3月20日、Unity 6.4と新ツール「Unity Studio」を同時リリース。Unity 6.4の主要機能はDirectStorage APIのWindows対応（NVMe→GPU直接ロードで最大40%高速化）、ECS（Entity Component System）とProject AuditorのUnityエディタ標準組み込み、コンソールでの自動品質スケーリング（CPU/GPUボトルネック検知）、AR Foundation 6.4でのQRコード認識対応。Unity Studioはブラウザで動く3Dインタラクティブアプリ制作ツール。",
+      "links": {
+        "CG Channel - Unity releases Unity 6.4 and Unity Studio": "https://www.cgchannel.com/2026/03/unity-releases-unity-6-4-and-unity-studio/",
+        "gamemakers.jp - ゲーム開発ツールリリースまとめ 2026/3/21": "https://gamemakers.jp/article/2026_03_21_133894/"
+      }
+    },
+    {
+      "name": "DirectX GDC 2026発表：ML時代への進化・Advanced Shader Delivery",
+      "level": "8",
+      "overview": "GDC 2026でDirectX MLファースト対応、Advanced Shader Delivery、DirectStorage 1.4プレビューなど大規模発表。",
+      "detail": "GDC 2026（3/12）にてMicrosoftとAMD・Intel・NVIDIA・Qualcommが共同でDirectXの大型アップデートを発表。主要内容は(1)Advanced Shader Delivery：ストア経由でプリコンパイル済みシェーダーを配布しシェーダーコンパイルの遅延を解消、(2)DirectX Linear Algebra：HLSL内でML行列演算をサポートするML第一級対応、(3)DirectStorage 1.4パブリックプレビュー：Zstd圧縮対応でロード効率向上、(4)DirectX Dump FilesとLive Shader DebuggingでGPUクラッシュ診断を改善。Shader Model 6.9とAgility SDK 1.619も正式リリース済み。",
+      "links": {
+        "DirectX Developer Blog - DirectX Innovation at GDC 2026": "https://devblogs.microsoft.com/directx/directx-gdc-2026/",
+        "DirectX Developer Blog - Evolving DirectX for the ML Era": "https://devblogs.microsoft.com/directx/evolving-directx-for-the-ml-era-on-windows/",
+        "DirectX Developer Blog - Advanced Shader Delivery": "https://devblogs.microsoft.com/directx/advanced-shader-delivery-whats-new-at-gdc-2026/"
+      }
+    },
+    {
+      "name": "Microsoft 次世代Xbox「Project Helix」詳細発表（GDC 2026）",
+      "level": "7",
+      "overview": "GDC 2026でProject Helixの技術詳細を公開。カスタムAMD SoC搭載でレイトレ性能が桁違いに向上、2027年開発機配布予定。",
+      "detail": "2026年3月11日のGDC 2026にてMicrosoftが次世代Xbox「Project Helix」の技術詳細を発表。カスタムAMD SoCを採用し次世代DirectXとFSR（FSR Diamond）に最適化設計。レイトレーシング性能が桁違いに向上し、NPU（Neural Processing Unit）をSoC内に統合してML駆動レンダリングをGPU/CPUとは独立して処理する。パストレース対応ゲームをサポート予定。開発機材は2027年よりスタジオへの配布開始予定。",
+      "links": {
+        "Xbox Wire - Project Helix: Building the Next Generation of Xbox": "https://news.xbox.com/en-us/2026/03/11/project-helix-building-next-generation-of-xbox/",
+        "Game Developer - Microsoft lifts the lid on Project Helix at GDC": "https://www.gamedeveloper.com/production/microsoft-lifts-the-lid-on-project-helix-at-gdc-festival-of-gaming"
+      }
+    },
+    {
+      "name": "Redshift 2026.4 リリース：リアルタイムレンダラーRedshift Live追加",
+      "level": "7",
+      "overview": "3/17にRedshift 2026.4リリース。AIアップサンプリング搭載リアルタイムパストレーサーRedshift Liveが追加された。",
+      "detail": "2026年3月17日、MaxonがRedshift 2026.4をリリース。最大の新機能は「Redshift Live」の追加。ハードウェアアクセラレートパストレーシング＋AI（アップサンプリング・デノイジング）により高品質なリアルタイムレンダリングを実現。従来のRedshift RTを置き換える新エンジンで、マテリアル・ライティング・ステージングの高速なイテレーションが可能。さらにVectorworksとの統合を皮切りに建築・エンジニアリング市場（AEC）への本格参入も表明。Cinema 4D連携でArchi CAD対応も2026年中に予定。",
+      "links": {
+        "CG Channel - Maxon adds Redshift Live to Redshift 2026.4": "https://www.cgchannel.com/2026/03/maxon-adds-real-time-renderer-redshift-live-to-redshift-2026-4/",
+        "Maxon - Redshift 2026.4.0 Release Notes": "https://support.maxon.net/hc/en-us/articles/8814051767964-Redshift-2026-4-0-2026-03-March-17-2026"
+      }
+    },
+    {
+      "name": "World Creator 2026.3 リリース",
+      "level": "6",
+      "overview": "3/19にWorld Creator 2026.3リリース。オブジェクトベーステレイン適応・GISデータ対応・Indieライセンス$99に値下げ。",
+      "detail": "2026年3月19日、BiteTheBytesがリアルタイムGPUテレイン生成ツール「World Creator 2026.3」をリリース。主要新機能は(1)オブジェクトベーステレイン適応：配置オブジェクトに基づいてテレインが自動適応しシームレスな統合が可能、(2)GISデータ対応：GeoTIFF・HGT・DTEDなどリアルワールド標高データのインポートをサポート、(3)カメラ連動配置：カメラ位置周辺に高密度アセットを動的生成。価格改定でIndieライセンスの永続購入が$99（旧$149）に値下げされ、年収上限も撤廃。",
+      "links": {
+        "CG Channel - BiteTheBytes releases World Creator 2026.3": "https://www.cgchannel.com/2026/03/bitethebytes-releases-world-creator-2026-3/"
+      }
+    },
+    {
+      "name": "GDC Festival of Gaming 2026 開催まとめ・業界調査レポート",
+      "level": "6",
+      "overview": "GDC 2026（3/9〜13）が40周年でフェスティバル形式に刷新。3/21に業界調査でAAAスタジオの6割超がレイオフを報告。",
+      "detail": "2026年3月9〜13日、40周年を迎えたGDC（Game Developers Conference）がサンフランシスコで「GDC Festival of Gaming 2026」として開催。参加者2万人超、700以上のセッション、1,100人のスピーカー、300以上の出展者が集まりゲーム業界の祭典として進化。3/12にGame Developers Choice Awards 2026も開催（最多ノミネートはClair Obscur: Expedition 33）。3/21公開の業界調査レポートではAAAスタジオの6割以上が過去1年でレイオフを実施し、業界縮小傾向が報告された。",
+      "links": {
+        "4gamer.net - GDC Festival of Gaming 2026 開幕レポート": "https://www.4gamer.net/games/991/G999104/20260310015/",
+        "IGDA Japan - GDC 2026 ゲーム業界の現状レポート": "https://www.igda.jp/2026/03/21/16481",
+        "Game Developer - GDC 2026 wrap-up show": "https://www.gamedeveloper.com/business/the-gdc-2026-wrap-up-show"
+      }
+    }
+  ]
+}
