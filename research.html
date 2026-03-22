@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>Katsuya Yamaguchi - Research</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="shortcut icon" href="asset/img/DramEngineIcon.ico">
+</head>
+
+<body>
+<!-- ===== ヘッダー ===== -->
+<header>
+  <div class="logo-area">
+    <div class="logo">Katsuya Yamaguchi</div>
+    <a class="logo-link" href="https://drive.google.com/drive/folders/1LKXhJuYHIpJOLASiD1QrtgS-926t7Cmm?usp=sharing"
+    aria-label="作品GoogleDriveへ↗" title="作品GoogleDriveへ↗" target="_blank" rel="noopener noreferrer">
+      <svg class="logo-icon" fill="#4285f4" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.01 1.485c-2.082 0-3.754.02-3.743.047.01.02 1.708 3.001 3.774 6.62l3.76 6.574h3.76c2.081 0 3.753-.02 3.742-.047-.005-.02-1.708-3.001-3.775-6.62l-3.76-6.574zm-4.76 1.73a789.828 789.861 0 0 0-3.63 6.319L0 15.868l1.89 3.298 1.885 3.297 3.62-6.335 3.618-6.33-1.88-3.287C8.1 4.704 7.255 3.22 7.25 3.214zm2.259 12.653-.203.348c-.114.198-.96 1.672-1.88 3.287a423.93 423.948 0 0 1-1.698 2.97c-.01.026 3.24.042 7.222.042h7.244l1.796-3.157c.992-1.734 1.85-3.23 1.906-3.323l.104-.167h-7.249z"/></svg>
+    </a>
+    <a class="logo-link" href="https://github.com/wrenchsun"
+    aria-label="個人GitHubへ↗" title="個人GitHubへ↗" target="_blank" rel="noopener noreferrer">
+      <i class="devicon-github-original"></i>
+    </a>
+    <a class="logo-link" href="https://x.com/wrenchsun"
+    aria-label="Xへ↗" title="Xへ↗" target="_blank" rel="noopener noreferrer">
+      <svg class="logo-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18.901 1.153h3.68l-8.041 9.19L24 22.846h-7.406l-5.82-7.594-6.64 7.594H.45l8.6-9.83L0 1.154h7.594l5.257 6.932 6.05-6.932zM17.61 20.644h2.039L6.486 3.241H4.298z" fill="#fff"/>
+      </svg>
+    </a>
+  </div>
+  <button class="menu-toggle" id="menu-toggle" aria-label="メニュー" aria-expanded="false" aria-controls="header-nav">≡</button>
+  <nav class="header-nav" id="header-nav">
+    <a href="index.html#top-video">TOP</a>
+    <a href="index.html#about">ABOUT</a>
+    <a href="index.html#works">WORKS</a>
+    <a href="#research">RESEARCH</a>
+    <a href="index.html#career">CAREER</a>
+    <a href="index.html#contact">CONTACT</a>
+  </nav>
+</header>
+
+<!-- ===== メイン ===== -->
+<main style="padding-top: 60px;">
+<section id="research">
+  <h2>RESEARCH</h2>
+  <explanation>AIリサーチ記事一覧</explanation>
+  <div id="research-list" style="padding: 0 50px 20px 50px;"></div>
+</section>
+</main>
+
+<!-- ===== フッター ===== -->
+<footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4>Katsuya Yamaguchi</h4>
+      <p>ポートフォリオサイト</p>
+      <p><a href="mailto:yamaguchi1013katuya@gmail.com">yamaguchi1013katuya@gmail.com</a></p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Links</h4>
+      <ul>
+        <li><a href="https://github.com/wrenchsun" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1LKXhJuYHIpJOLASiD1QrtgS-926t7Cmm?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Credits</h4>
+      <ul>
+        <li><a href="https://devicon.dev/" target="_blank" rel="noopener noreferrer">Devicon</a> - Icon Library</li>
+        <li><a href="https://simpleicons.org/" target="_blank" rel="noopener noreferrer">Simple Icons</a> - SVG Icons</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Katsuya Yamaguchi. All rights reserved.</p>
+    <p class="footer-license">Icons licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">CC0 1.0</a> and <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT License</a></p>
+  </div>
+</footer>
+
+<!-- ===== JavaScript ===== -->
+<script>
+const menuToggle = document.getElementById("menu-toggle");
+const headerNav = document.getElementById("header-nav");
+
+if (menuToggle && headerNav) {
+  menuToggle.addEventListener("click", () => {
+    const isOpen = headerNav.classList.toggle("is-open");
+    menuToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+}
+
+function formatDateFromFileName(fileName) {
+  const dateText = fileName.replace('.json', '');
+  if (/^\d{8}$/.test(dateText)) {
+    return `${dateText.slice(0, 4)}/${dateText.slice(4, 6)}/${dateText.slice(6, 8)}`;
+  }
+  return dateText;
+}
+
+function toDateFromYyyymmdd(dateText) {
+  if (!/^\d{8}$/.test(dateText)) {
+    return null;
+  }
+
+  const year = Number(dateText.slice(0, 4));
+  const month = Number(dateText.slice(4, 6)) - 1;
+  const day = Number(dateText.slice(6, 8));
+  const date = new Date(year, month, day);
+  date.setHours(0, 0, 0, 0);
+  return date;
+}
+
+function toYyyymmdd(date) {
+  const year = String(date.getFullYear());
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}${month}${day}`;
+}
+
+async function loadResearchList() {
+  const listContainer = document.getElementById("research-list");
+  if (!listContainer) {
+    return;
+  }
+
+  listContainer.innerHTML = '<p style="color:#aaa;">読み込み中...</p>';
+
+  try {
+    const rowHtmlList = [];
+    const currentDate = new Date();
+    currentDate.setHours(0, 0, 0, 0);
+    const maxLookBackDays = 3650;
+    const stopAfterConsecutiveMisses = 120;
+    let foundAny = false;
+    let consecutiveMisses = 0;
+
+    for (let dayOffset = 0; dayOffset < maxLookBackDays; dayOffset += 1) {
+      const targetDate = new Date(currentDate);
+      targetDate.setDate(currentDate.getDate() - dayOffset);
+      const fileName = `${toYyyymmdd(targetDate)}.json`;
+
+      try {
+        const response = await fetch(`asset/data/research/${fileName}`, { cache: "no-store" });
+        if (!response.ok) {
+          if (foundAny) {
+            consecutiveMisses += 1;
+            if (consecutiveMisses >= stopAfterConsecutiveMisses) {
+              break;
+            }
+          }
+          continue;
+        }
+
+        const data = await response.json();
+        const overview = data.items && data.items[0] && data.items[0].overview ? data.items[0].overview : "概要なし";
+        const dateLabel = formatDateFromFileName(fileName);
+        foundAny = true;
+        consecutiveMisses = 0;
+
+        rowHtmlList.push(
+          '<div style="margin: 0 0 18px 0;">' +
+            `<p style="margin:0 0 4px 0;"><a href="researchshow.html?file=${encodeURIComponent(fileName)}" style="color:#4285f4;">${dateLabel}</a></p>` +
+            `<p style="margin:0;color:#aaa;">${overview}</p>` +
+          '</div>'
+        );
+      } catch (error) {
+        if (foundAny) {
+          consecutiveMisses += 1;
+          if (consecutiveMisses >= stopAfterConsecutiveMisses) {
+            break;
+          }
+        }
+        continue;
+      }
+    }
+
+    listContainer.innerHTML = rowHtmlList.length > 0
+      ? rowHtmlList.join("")
+      : '<p style="color:#aaa;">表示できるリサーチ記事がありません。</p>';
+  } catch (error) {
+    listContainer.innerHTML = '<p style="color:#aaa;">リサーチ記事の読み込みに失敗しました。</p>';
+  }
+}
+
+loadResearchList();
+</script>
+
+</body>
+</html>

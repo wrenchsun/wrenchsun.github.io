@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "name": "Neural Radiance Fields for Real-Time Rendering",
+      "level": "8",
+      "overview": "NeRFの基本原理と、リアルタイム描画に向けた高速化アプローチを整理する。",
+      "detail": "座標と視線方向から密度・色を推定する連続表現を学習し、体積レンダリングで画像を生成する。研究では学習時間短縮と推論高速化のため、ハッシュグリッドや蒸留などの手法が提案されている。ゲーム用途では品質とfpsのトレードオフ設計が重要。",
+      "links": {
+        "paper": "https://arxiv.org/abs/2003.08934",
+        "project": "https://www.matthewtancik.com/nerf"
+      }
+    },
+    {
+      "name": "Temporal Super Resolution in Modern Engines",
+      "level": "7",
+      "overview": "TAA/TSSR系アップスケーリングの考え方と実装時の注意点をまとめる。",
+      "detail": "低解像度フレームと履歴情報（モーションベクトル・深度など）を使って高解像度へ再構成する。ゴースト低減、ディスオクルージョン処理、シャープニングのバランスが画質を左右する。実装では履歴信頼度の管理が要点。",
+      "links": {
+        "slides": "https://advances.realtimerendering.com/",
+        "note": "https://gpuopen.com/"
+      }
+    }
+  ]
+}
