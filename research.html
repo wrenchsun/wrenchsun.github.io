@@ -121,15 +121,9 @@ function toYyyymmdd(date) {
   return `${year}${month}${day}`;
 }
 
-const searchStartDate = toDateFromYyyymmdd("20260324") || new Date();
-searchStartDate.setHours(0, 0, 0, 0);
-const maxLookBackDays = 3650;
-const stopAfterConsecutiveMisses = 120;
 const batchSize = 30;
-
-let nextDayOffset = 0;
-let foundAny = false;
-let consecutiveMisses = 0;
+let allFileNames = [];
+let displayedCount = 0;
 let hasMore = true;
 let isLoading = false;
 
@@ -143,61 +137,39 @@ function createResearchRowHtml(fileName, overview) {
   );
 }
 
-function updateLoadMoreButton(button) {
-  if (!button) {
-    return;
-  }
-
-  if (!hasMore) {
-    button.style.display = "none";
-    return;
-  }
-
-  button.style.display = "inline-block";
-  button.disabled = isLoading;
-  button.textContent = isLoading ? "読み込み中..." : `もっと見る（${batchSize}件）`;
-}
-
-async function fetchNextBatchRows() {
-  const rowHtmlList = [];
-
-  while (rowHtmlList.length < batchSize && hasMore && nextDayOffset < maxLookBackDays) {
-    const targetDate = new Date(searchStartDate);
-    targetDate.setDate(searchStartDate.getDate() - nextDayOffset);
-    const fileName = `${toYyyymmdd(targetDate)}.json`;
-    nextDayOffset += 1;
-
+async function fetchAllRows() {
+  if (allFileNames.length === 0) {
     try {
-      const response = await fetch(`asset/data/research/${fileName}`, { cache: "no-store" });
+      const response = await fetch("asset/data/research/index.json", { cache: "no-store" });
       if (!response.ok) {
-        if (foundAny) {
-          consecutiveMisses += 1;
-          if (consecutiveMisses >= stopAfterConsecutiveMisses) {
-            hasMore = false;
-            break;
-          }
-        }
-        continue;
+        return [];
       }
-
       const data = await response.json();
-      const overview = data.items && data.items[0] && data.items[0].overview ? data.items[0].overview : "概要なし";
-      rowHtmlList.push(createResearchRowHtml(fileName, overview));
-      foundAny = true;
-      consecutiveMisses = 0;
+      allFileNames = Array.isArray(data) ? data : [];
     } catch (error) {
-      if (foundAny) {
-        consecutiveMisses += 1;
-        if (consecutiveMisses >= stopAfterConsecutiveMisses) {
-          hasMore = false;
-          break;
-        }
-      }
+      return [];
     }
   }
 
-  if (nextDayOffset >= maxLookBackDays) {
-    hasMore = false;
+  const rowHtmlList = [];
+
+  for (let i = 0; i < allFileNames.length; i++) {
+    const fileName = allFileNames[i];
+    
+    if (fileName && typeof fileName === "string") {
+      try {
+        const response = await fetch(`asset/data/research/${fileName}`, { cache: "no-store" });
+        
+        if (!response.ok) {
+          continue;
+        }
+        const data = await response.json();
+        const overview = data.items && data.items[0] && data.items[0].overview ? data.items[0].overview : "概要なし";
+        rowHtmlList.push(createResearchRowHtml(fileName, overview));
+      } catch (error) {
+        continue;
+      }
+    }
   }
 
   return rowHtmlList;
@@ -209,53 +181,14 @@ async function loadResearchList() {
     return;
   }
 
-  listContainer.innerHTML = "";
-
-  const rowsContainer = document.createElement("div");
-  rowsContainer.style.padding = "0 50px 20px 50px";
-
-  const buttonWrap = document.createElement("div");
-  buttonWrap.style.padding = "0 50px 20px 50px";
-
-  const loadMoreButton = document.createElement("button");
-  loadMoreButton.type = "button";
-  loadMoreButton.style.padding = "8px 14px";
-  loadMoreButton.style.backgroundColor = "transparent";
-  loadMoreButton.style.border = "1px solid #4285f4";
-  loadMoreButton.style.color = "#4285f4";
-  loadMoreButton.style.borderRadius = "6px";
-  loadMoreButton.style.cursor = "pointer";
-
-  buttonWrap.appendChild(loadMoreButton);
-  listContainer.appendChild(rowsContainer);
-  listContainer.appendChild(buttonWrap);
-
   try {
-    const appendNextBatch = async () => {
-      if (isLoading || !hasMore) {
-        return;
-      }
+    const rowHtmlList = await fetchAllRows();
 
-      isLoading = true;
-      updateLoadMoreButton(loadMoreButton);
-
-      const rowHtmlList = await fetchNextBatchRows();
-
-      if (rowHtmlList.length > 0) {
-        rowsContainer.insertAdjacentHTML("beforeend", rowHtmlList.join(""));
-      }
-
-      if (!foundAny && !hasMore) {
-        rowsContainer.innerHTML = '<p style="color:#aaa;">表示できるリサーチ記事がありません。</p>';
-      }
-
-      isLoading = false;
-      updateLoadMoreButton(loadMoreButton);
-    };
-
-    loadMoreButton.addEventListener("click", appendNextBatch);
-    updateLoadMoreButton(loadMoreButton);
-    await appendNextBatch();
+    if (rowHtmlList.length > 0) {
+      listContainer.innerHTML = rowHtmlList.join("");
+    } else {
+      listContainer.innerHTML = '<p style="color:#aaa;">表示できるリサーチ記事がありません。</p>';
+    }
   } catch (error) {
     listContainer.innerHTML = '<p style="color:#aaa;">リサーチ記事の読み込みに失敗しました。</p>';
   }
