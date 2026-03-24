@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "name": "Epic Games 1,000人以上レイオフ - Fortnite不振・UE6移行を言及",
+      "level": "8",
+      "overview": "Epic GamesがFortnite engagement低下を理由に1,000人超（全社員の約20%）を解雇。Tim Sweeney CEOはUE5からUE6への移行加速を明言。",
+      "detail": "2026年3月24日、Unreal Engineを開発するEpic GamesのCEO Tim Sweeneyが1,000人以上の従業員解雇を発表した。理由はFortniteのエンゲージメント低下による収益悪化で、2025年から始まった下降トレンドにより支出が収入を大幅に上回る状況が続いていたという。解雇は全社員の約20%に相当し、シアトル地区だけで82名が影響を受けた。Sweeneyは500万ドル超のコスト削減策も同時発表。今後はFortniteの季節コンテンツ強化と、Unreal Engine 5からUnreal Engine 6への移行加速に注力するとした。解雇者にはAIに関連しない理由であると強調し、最低4ヶ月分の基本給を含む退職金を提供する。Epicにとって3年で2度目の大規模人員削減となる。",
+      "links": {
+        "Game Developer - Fortnite developer Epic Games is cutting over 1,000 jobs": "https://www.gamedeveloper.com/business/fortnite-developer-epic-games-is-cutting-1-000-jobs",
+        "80.lv - Epic Games Lays Off Over 1,000 Employees": "https://80.lv/articles/epic-games-lays-off-over-1-000-employees-due-to-downturn-in-fortnite-engagement",
+        "GeekWire - Epic Games layoffs impact 82 workers at Seattle-area office": "https://www.geekwire.com/2026/epic-games-layoffs-impact-82-workers-at-seattle-area-office-as-part-of-broader-cuts/"
+      }
+    },
+    {
+      "name": "ONYX Ai Matte - DaVinci Resolve/Nuke向けAIロトスコープ不要マット生成プラグイン",
+      "level": "7",
+      "overview": "ONYX Ai MatteがOFX対応ソフト向けにリリース。Meta SAM3+VitMatteでテキスト/点/BOX/マスク入力から高品質マットを自動生成。Indie版€80。",
+      "detail": "2026年3月24日、CG ChannelがONYX Ai Matteを紹介。Meta SAM3（セグメンテーションAI）とVitMatte（マット精製AI）を組み合わせたGPUアクセラレート対応プラグインで、DaVinci Resolve 18+/Fusion Studio 18+/Nuke 13+に対応（NVIDIA CUDA 12.6+ GPU、Windows 10+必須）。入力方法はテキスト（例：「person」「car」）・矩形選択・ガイドポイント・手動マスクの4種類で、最大32オブジェクトを同時トラッキング可能（テキストモードでは64）。エッジ精製・フェザー・ディレーション等の後処理も搭載。価格はIndie版€80（約93ドル）、Studio版€180以上、7日間トライアルあり。Boris FX等の既存ツールに対する低価格な代替として位置づけられる。",
+      "links": {
+        "CG Channel - ONYX Ai Matte automatically generates masks from video": "https://www.cgchannel.com/2026/03/onyx-ai-matte-automatically-generates-masks-from-video-footage/",
+        "ONYX OFX Official": "https://onyxofx.com/"
+      }
+    },
+    {
+      "name": "Tencent VISVISE - GDC 2026でAIフルスタックアニメーション・モデリングツール発表",
+      "level": "7",
+      "overview": "TencetがGDC 2026でVISVISEを発表。マルチモーダルAIによる自動リギング・アニメーション生成・3Dモデリングを統合し、スキニング作業を3日→1日に短縮。",
+      "detail": "2026年3月11〜13日のGDC 2026にてTencent GamesがVISVISEをデビューさせた。VISVISEはAI駆動のゲーム制作スイートで、業界初の展開可能なマルチモーダルモーション生成大規模モデルとHY 3D Multimodalモデル基盤の3Dモデリングパイプラインを搭載。VISVISE Auto-Skinnigは従来3日かかっていたシンプルなスキニング作業を1日（複雑な作業は4日→2.5日）に短縮し、平均4時間以内で完了可能。MIBインテリジェントフレーム補間は4秒で200フレームのアニメーションを生成。別途発表されたMagicDawnはグローバルイルミネーション・空間オーディオ・オクルージョンカリングを統合したエンジン技術でUE・Unity・Godotに対応。MoreFun StudiosはAI生成カンフーモーションシステムも披露した。Game Developerの記事では「AIはゲームを面白くしない」という批判的視点も提示された。",
+      "links": {
+        "Game Developer - Tencent genAI animation tools don't seem to make games more fun": "https://www.gamedeveloper.com/art/tencent-s-genai-animation-tools-don-t-seem-to-make-games-more-fun",
+        "Inven Global - Tencent Games unveils AI tools for GDC 2026": "https://www.invenglobal.com/articles/20297/tencent-games-unveils-ai-tools-and-developer-sessions-for-gdc-2026",
+        "Tencent VISVISE GDC Debut": "https://www.ouranimeworld.com/archives/55834"
+      }
+    },
+    {
+      "name": "Art-Net DMX Lighting for Unity リリース - OSS照明制御システム、商用利用可",
+      "level": "6",
+      "overview": "Unity上でArt-Net経由のDMX照明をリアルタイム制御するOSSツールリリース。URP/HDRP対応、Liveモード・Timelineモード搭載、MIT License。",
+      "detail": "2026年3月24日にCGWORLD.jpが紹介した「Art-Net DMX Lighting for Unity」は、外部照明制御ソフトからDMX信号をArt-Netで受信してUnityのライトをリアルタイム制御するOSSシステム。Unity 6.0（6000.0.48f1）で開発・ChamSys MagicQで動作確認済み。512チャンネル（1 Universe）単位でDMX処理を行い、RGB変色・ディマー・パン/チルト・レンズ表現などの舞台照明エフェクトに対応。Liveモード（外部ソフトからDMXリアルタイム受信・Animationクリップとして録音）とTimeline Playbackモード（DMXアニメーションをUnityタイムラインで再生）の2モードを実装。URP/HDRPのレンダリングパイプラインに対応するLightDriverの切替機能を搭載。スクリプト・Unityアセットともにコード部分はMITライセンスで商用利用可能。バーチャルライブ・VR空間の照明制作に有用なツール。",
+      "links": {
+        "CGWORLD.jp - Art-Net DMX Lighting for Unityリリース": "https://cgworld.jp/flashnews/01-202603-Art-NetDMX.html"
+      }
+    },
+    {
+      "name": "PLATEAU SDK for Unity v4.2.0リリース - 動的タイル機能強化・各種ツールキット更新",
+      "level": "6",
+      "overview": "PLATEAU SDK for Unity v4.2.0リリース。動的タイルの遠距離LOD1+LOD2テクスチャ表示・大きいタイルサイズでI/O最適化。各種ツールキットも一挙アップデート。",
+      "detail": "2026年3月24日にゲームメーカーズが紹介したPLATEAU SDK for Unity v4.2.0では、動的タイル機能が強化された。遠距離ビルにLOD1モデル+LOD2テクスチャを表示することでポリゴン数を削減しレンダリング負荷を低減、遠距離タイルには大きなサイズ・近距離タイルには小さなサイズのタイルを使用することでディスクI/O頻度を最適化する仕組みを実装。道路ネットワーク機能の実装により道路の見た目改善と交通シミュレーションへの活用が可能になった。同時に各種ツールキット・サンプルプロジェクトも一挙アップデートされた。PLATEAUは国土交通省主導の3D都市モデルプロジェクトで、建築・都市計画・ゲーム・XR開発など幅広い分野で利用されている。",
+      "links": {
+        "ゲームメーカーズ - PLATEAU SDK for Unity v4.2.0リリース": "https://gamemakers.jp/article/2026_03_24_134082/",
+        "GitHub - PLATEAU-SDK-for-Unity releases": "https://github.com/Project-PLATEAU/PLATEAU-SDK-for-Unity/releases"
+      }
+    },
+    {
+      "name": "FlippedNormals マーケットプレイス 3月31日閉鎖 - 全アセット特売中",
+      "level": "5",
+      "overview": "人気3Dアセット・チュートリアルサイトFlippedNormalsが3/31にマーケットプレイスを閉鎖。全アセット特売中、4/30まで購入済みファイルのDL可。",
+      "detail": "3Dアーティスト向け人気アセット・チュートリアルマーケットプレイスのFlippedNormalsが2026年3月31日をもってマーケットプレイスを閉鎖する。理由は数千のクリエイターを擁する大規模ストアの運営コストが近年大幅に増加した一方で収益が減少したため。現在全アセットがセール中で、ユーザーは2026年4月30日まで購入済みファイルをダウンロード可能（クリエイターへの最終支払いは4月15日）。FlippedNormals自体は今後も新ウェブサイトでFlipBoxなど自社製品の販売を継続する予定。同社は長年CG・VFXアーティスト向けのYouTubeチュートリアルとアセット販売で知られていた。",
+      "links": {
+        "CG Channel - FlippedNormals is closing its online marketplace": "https://www.cgchannel.com/2026/03/flippednormals-is-closing-its-online-marketplace-on-31-march/",
+        "80.lv - FlippedNormals Closure Announced": "https://80.lv/articles/flippednormals-is-shutting-down",
+        "FlippedNormals Help Center FAQ": "https://help.flippednormals.com/article/130-flippednormals-marketplace-closing-down-faq"
+      }
+    },
+    {
+      "name": "Mesh to MetaHuman 顔メッシュ質感向上TIPS - リアルな皺の再現方法をsteam studioが解説",
+      "level": "5",
+      "overview": "steam studio（3D SCAN STUDIO iris）がMesh to MetaHumanで作成した顔メッシュの質感向上・リアルな皺再現TIPSをブログで公開。UE5キャラ制作に有用。",
+      "detail": "2026年3月24日にゲームメーカーズが紹介。3D SCAN STUDIO iris（steam studio）がMesh to MetaHumanワークフローで作成したキャラクターの皺再現方法についてブログで解説した。MetaHumanはUE5のMesh to MetaHuman機能で独自メッシュをテンプレートにフィットさせ完全リグ付きデジタルヒューマンを数分で生成できるが、デフォルトではスキンテクスチャや表情ディテールの品質が課題となる。steamstudioのTIPSでは、スキャンデータから取得した独自スキンテクスチャの置換、おでこのライン・法令線・目尻の皺・あご周囲のリアルな皺の再現方法、MetaHumanが持つ複数の表情用ノーマルマップの活用方法、カスタムトポロジーでの皺フロー制御などを解説している。",
+      "links": {
+        "ゲームメーカーズ - Mesh to MetaHuman 顔メッシュ質感向上TIPS": "https://gamemakers.jp/article/2026_03_24_134079/",
+        "note.com - steam studio MetaHumanブログ": "https://note.com/steam_studio/n/nd436e11ba6bc"
+      }
+    },
+    {
+      "name": "Blender 5.1向け無料プロシージャル雨シェーダー公開",
+      "level": "4",
+      "overview": "Gurpreet SingがBlender 5.0以上のEevee向け無料プロシージャル雨シェーダーをGumroadで公開。シーンファイル付き、Cyclesでの動作未検証。",
+      "detail": "2026年3月24日に80.lvが紹介したBlender Eevee向け無料プロシージャル雨シェーダー。Gurpreet Singが制作し、Alex Heskett氏の以前の雨シェーダーにインスパイアされた作品。Blender 5.0以上のEeveeレンダラー向けに設計されており、シェーダーとシーンファイルをGumroadから無料ダウンロード可能。Eevee特有のノードは使用していないためCyclesでも動作する可能性があるが、開発者は動作保証はしていない。Blender 5.1のEeveeパフォーマンス改善と合わせて活用できる実用的なシェーダーリソース。",
+      "links": {
+        "80.lv - Free Procedural Rain Shader For Blender's Eevee": "https://80.lv/articles/free-procedural-rain-shader-for-blender-s-eevee"
+      }
+    },
+    {
+      "name": "Maya向け無料ポートレートモデリング補助ツール RefTool 2.1公開",
+      "level": "4",
+      "overview": "CG ChannelがMaya向け無料スクリプトRefTool v2.1を紹介。参照画像使用時のモデリングコントロールを整理し、ポートレート制作のワークフローを効率化。",
+      "detail": "2026年3月24日にCG ChannelがMaya向け無料スクリプト「RefTool 2.1」を紹介。参照画像（リファレンス画像）を使用したポートレートモデリング時のコントロールを整理・効率化するスクリプトで、無料で提供されている。人物の顔・頭部モデリング時に参照画像のコントロールが複雑になる問題を解消し、作業速度を向上させる実用的なツール。Mayaはゲームキャラクター・VFX・アニメーション制作で広く使われており、キャラクターアーティストの日常的なワークフロー改善に貢献する。",
+      "links": {
+        "CG Channel - Handy Maya add-on RefTool speeds up portrait modeling": "https://www.cgchannel.com/2026/03/handy-maya-add-on-reftool-speeds-up-portrait-modeling/"
+      }
+    }
+  ]
+}
