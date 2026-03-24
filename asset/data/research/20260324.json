@@ -1,0 +1,97 @@
+{
+  "items": [
+    {
+      "name": "NanoGS - UE5向けNanite式ガウシアンスプラッティング無料プラグイン公開",
+      "level": "8",
+      "overview": "Tim ChenがUE5向け無料OSSプラグインNanoGSを公開。Nanite式階層LODで大規模3DGSシーンをフレームレート4倍以上に最適化。UE5.6以降対応・MIT License。",
+      "detail": "VFXアーティストTim Chen（Moonshine Studio）が2026年3月19日に公開したUE5向け無料オープンソースプラグイン「NanoGS」。3DGSシーンをNaniteに倣った階層LODクラスタに自動分割し、スクリーンスペースエラー指標で描画詳細度を動的に制御する。GPU加速Radix Sortにより不要なスプラットを削除し、効率的なブレンディングのためのグローバルアキュムレーターを採用。NVIDIA RTX 2070でのデモでビューポートフレームレートが4倍以上向上することを確認。Unreal Engine 5.6以降に対応し、GitHubにてMITライセンスで公開。大規模な3DGSスキャンをリアルタイムシーンに組み込みたいUE5開発者に有用なツール。",
+      "links": {
+        "CG Channel - NanoGS puts 'Nanite-style' Gaussian splatting in UE5": "https://www.cgchannel.com/2026/03/free-plugin-nanogs-puts-nanite-style-gaussian-splatting-in-unreal-engine/",
+        "80.lv - Free Nanite-Inspired 3DGS Renderer For Unreal Engine": "https://80.lv/articles/free-nanite-style-tool-to-render-3d-gaussian-splats-in-ue5",
+        "GitHub - TimChen1383/NanoGaussianSplatting": "https://github.com/TimChen1383/NanoGaussianSplatting"
+      }
+    },
+    {
+      "name": "Redshift 2026.4リリース - 新リアルタイムエンジン「Redshift Live」搭載",
+      "level": "7",
+      "overview": "MaxonがRedshift 2026.4（3/17）をリリース。Redshift RTに代わる新リアルタイムエンジン「Redshift Live」を搭載。ハードウェアパストレーシング＋AIアップサンプリング/デノイズで高品質をリアルタイムに実現。",
+      "detail": "2026年3月17日リリースのRedshift 2026.4に、Redshift RT後継の「Redshift Live」が搭載された。ハードウェア加速パストレーシングとAIアップサンプリング・デノイズを組み合わせ、マテリアル・ライティング・ステージングのリアルタイムプレビューを高品質で実現する。Apple MetalFX・Intel Open Image Denoiseを統合し、複数のアップスケーリング/デノイズ技術を組み合わせ可能。同時に建築ビジュアライゼーション向け「Redshift for Archviz」も発表し、MaxonがAEC市場へ正式参入。現時点でSSS・ヘア・テクスチャディスプレイスメント・ボリューム・モーションブラー・DOFは未対応。全DCC統合版で利用可能。",
+      "links": {
+        "CG Channel - Maxon adds real-time renderer Redshift Live to Redshift 2026.4": "https://www.cgchannel.com/2026/03/maxon-adds-real-time-renderer-redshift-live-to-redshift-2026-4/",
+        "Maxon - Redshift 2026.4.0 Release Notes": "https://support.maxon.net/hc/en-us/articles/8814051767964-Redshift-2026-4-0-2026-03-March-17-2026",
+        "Toolfarm - Redshift Archviz Revolution": "https://www.toolfarm.com/news/redshift-archviz-2026-4-0/"
+      }
+    },
+    {
+      "name": "GIMP 3.2 正式リリース - リンクレイヤーとベクターレイヤー実装",
+      "level": "6",
+      "overview": "GIMP 3.2が3月14日正式リリース。非破壊リンクレイヤー、ベクターレイヤー（SVGエクスポート対応）、MyPaintブラシ20種追加、DDS BC7エクスポートなど大幅強化。",
+      "detail": "1年の開発期間を経てGIMP 3.2が2026年3月14日に正式公開。主な新機能：外部画像を非破壊的に合成できる「リンクレイヤー」（スケール・回転・変換後も品質維持）、Pathツールで形状定義し塗り・ストロークを設定できる「ベクターレイヤー」（SVGエクスポート・PDF拡張ベクターオプション対応）、MyPaintブラシ20種追加（キャンバスズーム・回転に自動追従）、DDS BC7フォーマットエクスポート、PSDレイヤースタイルのインポート改善、テキストエディタのショートカット追加など。無料・オープンソースの画像編集ツールとして大幅な機能向上。",
+      "links": {
+        "GIMP - GIMP 3.2 Released": "https://www.gimp.org/news/2026/03/14/gimp-3-2-released/",
+        "CG Channel - GIMP team releases GIMP 3.2": "https://www.cgchannel.com/2026/03/gimp-team-releases-gimp-3-2-with-new-vector-and-link-layers/",
+        "OMG Ubuntu - GIMP 3.2 released": "https://www.omgubuntu.co.uk/2026/03/gimp-3-2-release-new-features"
+      }
+    },
+    {
+      "name": "JangaFX レイオフ支援プログラムが恒久制度化",
+      "level": "6",
+      "overview": "JangaFXがゲーム・VFXアーティスト向けレイオフ支援を恒久化。EmberGen/LiquiGen/GeoGen/IlluGenを最大6ヶ月無料提供。LinkedInプロフィール提出で申請可能。",
+      "detail": "リアルタイムVFXシミュレーションツールを提供するJangaFXが、「Layoff Assistance Program」を恒久的な制度として正式化した。対象はゲーム開発またはVFX業界から直近でレイオフされたアーティスト。煙炎シミュレーター「EmberGen」、液体シミュレーター「LiquiGen」、地形ジェネレーター「GeoGen」、VFXアセットツール「IlluGen」を最大6ヶ月無料提供（非商用ポートフォリオ制作・スキル習得目的に限定）。アカウントにログインし解雇元と LinkedInプロフィールリンクを提出するだけで申請完了。過去1年で100名以上のアーティストを支援した実績を持つ。",
+      "links": {
+        "CG Channel - Been laid off? JangaFX is giving you its tools free for six months": "https://www.cgchannel.com/2026/03/been-laid-off-jangafx-is-giving-you-its-tools-free-for-six-months/",
+        "JangaFX - Layoff Assistance Program": "https://jangafx.com/layoff-assistance-program",
+        "80.lv - Free JangaFX Tools For Laid-Off Artists": "https://80.lv/articles/jangafx-introduces-permanent-layoff-assistance-program-to-help-artists"
+      }
+    },
+    {
+      "name": "World Creator 2026.2 - ビューポート詳細度4倍向上、UE5.7ブリッジ更新",
+      "level": "6",
+      "overview": "BiteTheBytesがWorld Creator 2026.2をリリース。ビューポート表示詳細が最大4倍向上、AgXトーンマッピング追加、Unreal Engine 5.7ブリッジが大規模ランドスケープインポートに対応。",
+      "detail": "地形生成ツール「World Creator 2026.2」がリリースされた。主要な改善点：ビューポートでの詳細表示が最大4倍向上し、より精細なプレビューが可能に。AgXトーンマッピングをサポートし、映画的なルックをビューポートで確認できるようになった。新しいPatternディストリビューションセットを追加し、地形マスクの生成がより柔軟に。Unreal Engine 5.7ブリッジは大規模・広大なランドスケープのインポートをサポートするよう更新され、大型オープンワールドプロジェクトへの対応が強化された。",
+      "links": {
+        "CG Channel - BiteTheBytes releases World Creator 2026.2": "https://www.cgchannel.com/2026/03/bitethebytes-releases-world-creator-2026-2/",
+        "World Creator - Release Notes 2026.2": "https://docs.world-creator.com/release-notes/version-2026.x/world-creator-2026.2"
+      }
+    },
+    {
+      "name": "Affinity 3.1リリース - Tone Brushとライブトーンブレンドグループ追加",
+      "level": "5",
+      "overview": "Canva傘下のAffinity 3.1（3/17）リリース。新Tone Brush、Live Tone Blend Groups、ライトUIテーマ、SVGクリップボードコピー、Canon R6 III等の新カメラRAW対応。",
+      "detail": "2026年3月17日にAffinity（Photo/Designer/Publisher）バージョン3.1がリリースされた。主な新機能：Tone Brush（前景と背景の色調・明度をリアルにブレンドする画像合成ツール）、Live Tone Blend Groups（グループ内レイヤーを下層コンテンツの色調・明度に自動マッチさせる非破壊合成機能）、ライトUIテーマ追加（従来はダークテーマのみ）、SVGフォーマットでのクリップボードコピーをデフォルト化。新カメラRAWプロファイルはCanon EOS R6 Mark III、Sony α7V、Fujifilm X-T30 III、Sony RX100 VIIAなどに対応。Affinity製品はCanvaにより永続無料提供中。",
+      "links": {
+        "CG Channel - Canva releases first major update to its free Affinity software": "https://www.cgchannel.com/2026/03/canva-releases-first-major-update-to-its-free-affinity-software/",
+        "PetaPixel - Affinity's First Free Update": "https://petapixel.com/2026/03/17/affinitys-first-free-update-adds-new-features-and-camera-raw-profiles/",
+        "Affinity Release Notes": "https://www.affinity.studio/help/release-notes/"
+      }
+    },
+    {
+      "name": "ゲーム開発ツールまとめ【3/21】- Sonnissサウンドデータ7GB無料配布、picoCAD 2リリース",
+      "level": "5",
+      "overview": "gamemakers.jp 3/21まとめ：Sonnissが7GB超のGDCサウンドデータを無料配布、ローポリ3DツールpicoCAD 2がSteam/itch.ioで公開、SideFX HoudiniのVFX学習動画700コース超を2027年2月まで無料提供。",
+      "detail": "ゲームメーカーズ（gamemakers.jp）3月21日号ツールまとめより主要情報：①Sonniss社がGDC 2026記念に7GB超のゲームサウンドデータバンドルを期間限定無料配布（商用利用可）。②シンプルなUIでローポリ3D表現に特化したモデリングツール「picoCAD 2」がSteamとitch.ioでリリース（有料）。③Side Effects Software（Houdini開発元）が公認VFXトレーニング動画700コース以上を2027年2月まで無料提供。通常は有料コースを期間限定で無料開放。",
+      "links": {
+        "ゲームメーカーズ - ゲーム開発関連ツールのリリース・アップデートまとめ【2026/3/21】": "https://gamemakers.jp/article/2026_03_21_133894/"
+      }
+    },
+    {
+      "name": "Adobe Photoshop 27.4リリース - 新Firefly Fill & ExpandモデルによるGenerate Similar改善",
+      "level": "5",
+      "overview": "Adobe Photoshop 27.4リリース。Generative Fill/ExpandのGenerate Similar機能が新Firefly Fill & Expandモデルで強化。2K解像度でより高品質な画像生成、ライティングマッチング改善。",
+      "detail": "Adobe Photoshop 27.4がリリースされた。主な更新：Generate SimilarオプションがFirefly Fill & Expand新モデルを採用し、2K解像度での詳細品質向上・ライティング一致精度改善・アーティファクト削減を実現。Dynamic Textシステムが半円・円形パスに対応し、ロゴやSNSグラフィック制作が効率化。バグ修正としてGradient toolのMultiplyモード不具合修正、Select PeopleのCMYK対応修正、浮動タブのジャンプ問題修正を実施。主にバグフィックスとGenerative AI品質改善のアップデート。",
+      "links": {
+        "CG Channel - Adobe releases Photoshop 27.4": "https://www.cgchannel.com/2026/03/adobe-releases-photoshop-27-4/",
+        "Adobe Community - Photoshop 27.4 Is Live": "https://community.adobe.com/announcements-710/photoshop-27-4-is-now-live-1549463"
+      }
+    },
+    {
+      "name": "Xbox パートナープレビュー 3月26日放送 - 龍が如くスタジオ新作など発表予定",
+      "level": "4",
+      "overview": "Xboxが3月26日にパートナープレビューを放送予定。龍が如くスタジオ新作「Stranger Than Heaven」ワールドプレミア、S.T.A.L.K.E.R. 2アップデート、SEGA・Owlcat作品など複数発表予定。",
+      "detail": "Xboxが2026年3月26日（木）にXbox Partner Previewの放送を実施予定。確認されている発表内容：Ryu Ga Gotoku Studio（龍が如くスタジオ）の新プロジェクト「Stranger Than Heaven」のワールドプレミア公開、S.T.A.L.K.E.R. 2: Heart of Chornobylのアップデート情報（S.T.A.L.K.E.R. 2チームは2026年中にUnreal Engine 5への移行を計画中）、SEGAとOwlcat Gamesなどパートナースタジオからの複数ゲーム発表。GDC 2026後の注目ゲームショーケースとして国内外で関心が高まっている。",
+      "links": {
+        "Xbox Wire - Xbox Partner Preview March 2026 Announce": "https://news.xbox.com/en-us/2026/03/23/xbox-partner-preview-march-2026-announce/"
+      }
+    }
+  ]
+}
