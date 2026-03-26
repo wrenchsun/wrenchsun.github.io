@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "name": "Maya 2027 リリース - ngSkinTools統合・Smart Bevel・USD連携強化",
+      "level": "8",
+      "overview": "ngSkinToolsがSkin Toolsとして正式統合、レイヤーベース非破壊スキニングが標準搭載。Smart Bevel・USD連携強化も。",
+      "detail": "Autodeskが2026年3月25日にMaya 2027をリリース。最大の目玉はngSkinToolsの正式統合で、「Skin Tools」としてMayaにネイティブ搭載された。レイヤーベースの非破壊デフォーマーウェイト付け、高度なマスキング、ミラー機能がエディタから直接利用可能になり、テクニカルアーティストのスキニングワークフローが大幅に改善。Smart Bevelはブール演算後の複雑なジオメトリにも精度の高い面取りを適用できる新モデリングツールで、3ds Max 2027にも同時搭載。USD連携では新しいLayered Sequencerが追加されシーン管理が改善。LookdevXからサードパーティのAIテクスチャ生成サービスへの接続機能も追加。Maya Creative 2027も同時リリース。",
+      "links": {
+        "CG Channel - Maya 2027 is out: discover its new features": "https://www.cgchannel.com/2026/03/autodesk-releases-maya-2027-and-maya-creative-2027/",
+        "ゲームメーカーズ - Maya 2027 リリース": "https://gamemakers.jp/article/2026_03_26_134247/",
+        "80.lv - Smart Bevel Comes To Maya 2027 & 3ds Max 2027": "https://80.lv/articles/maya-2027-3ds-max-2027-add-smart-bevel-tool"
+      }
+    },
+    {
+      "name": "Epic Games 1,000名超リストラ - Fortnite低迷でUE6へ経営転換",
+      "level": "7",
+      "overview": "Fortnite月間利用低下による財務悪化で1,000名超削減。EpicはUE5・UEFNを統合したUE6開発加速を表明。",
+      "detail": "Epic GamesのTim Sweeney CEOは2026年3月24日、1,000名超（全社員の約1/5）の大規模レイオフを発表した。主因は2025年から続くFortniteエンゲージメント低下（平均月間プレイ時間が2023年の29時間から2025年は15.4時間へ半減）と、Apple訴訟で10億ドル超を費やしたことによる財務圧迫。これによりEpicは従業員約4,000名規模となる。一方でUnreal Engineの開発は継続・加速の方針が示されており、UE5とUEFNを統合したUnreal Engine 6の開発が進行中。Unreal Fest Chicago 2026（6月16〜18日）でUE6の最新情報を発表予定。",
+      "links": {
+        "Game Developer - Analyst says Epic Games layoffs send a clear signal": "https://www.gamedeveloper.com/business/analyst-says-epic-games-layoffs-send-a-clear-signal-this-will-not-get-any-easier-",
+        "Epic Games - Today's layoffs": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
+      }
+    },
+    {
+      "name": "FumeFX 7.0 for Maya リリース - CUDAベースGPUソルバーで2〜5倍高速化",
+      "level": "7",
+      "overview": "CUDAベースGPUソルバーを搭載しCPU比2〜5倍高速化。GPU VRAM超過時は自動CPU切替で大規模シムも安定。",
+      "detail": "Sitni SatiがFumeFX 7.0 for Mayaをリリース。最大の新機能はNVIDIA CUDAを利用したGPUソルバー「FumeFX GPU」で、CPU比で平均2〜5倍のシミュレーション速度向上を実現。密グリッドベースの既存ソルバーアーキテクチャを踏襲しているため、従来と同等の視覚的クオリティ（煙・炎の細部・運動感）を維持しながら高速化。GPUメモリが不足する場合は自動的にCPUモードへフォールバックするため、大規模シミュレーションでも中断なく実行可能。アーティストは既存のFumeFXワークフローを変更せずにGPU加速の恩恵を受けられる。",
+      "links": {
+        "CG Channel - Sitni Sati releases FumeFX 7.0 for Maya with FumeFX GPU": "https://www.cgchannel.com/2026/03/sitni-sati-releases-fumefx-7-0-for-maya-with-fumefx-gpu/"
+      }
+    },
+    {
+      "name": "3ds Max 2027 リリース - Smart Bevel・Noise Plusモディファイア追加",
+      "level": "7",
+      "overview": "ブール後の面取りに強いSmart BevelとNoise Plusモディファイアを追加。押し出しモディファイアにギズモ操作対応。",
+      "detail": "Autodeskが3ds Max 2027をリリース。新モデリングツールのSmart Bevelはブール演算後の複雑・密なジオメトリでも精度の高い面取りを非破壊で適用できる点が特徴で、旧Chamferツールの限界を超えるとされる。Noise Plusモディファイアはノイズエフェクトの新しいコントロールオプションを提供。押し出し（Extrude）モディファイアがギズモ操作をサポートし直感的な編集が可能に。USD for 3ds Max 0.10ではレイヤーエディタとライトリンクサポートが追加。Maya 2027との同時リリースで両アプリでSmart Bevelが使用可能。",
+      "links": {
+        "CG Channel - Autodesk releases 3ds Max 2027": "https://www.cgchannel.com/2026/03/autodesk-releases-3ds-max-2027/",
+        "ゲームメーカーズ - 3ds Max 2027 リリース": "https://gamemakers.jp/article/2026_03_26_134243/",
+        "80.lv - Smart Bevel Comes To Maya 2027 & 3ds Max 2027": "https://80.lv/articles/maya-2027-3ds-max-2027-add-smart-bevel-tool"
+      }
+    },
+    {
+      "name": "MotionBuilder 2027 リリース - クォータニオン数学ツール拡充",
+      "level": "6",
+      "overview": "Relation制約でクォータニオン変換・演算ノードが大幅拡充。複雑なリグの精密回転制御が向上。ビューア複数ペイン対応。",
+      "detail": "Autodesk MotionBuilder 2027がリリース。主な新機能はRelation制約へのクォータニオン数学ノードの追加で、サブジョイントの精密制御や複雑な回転ブレンディングを必要とするリグ構築が容易になった。従来はオイラー角を扱うノードが中心だったが、クォータニオン変換・補間・演算が直接扱えるようになることでジンバルロック問題の回避や滑らかな回転補間が実現しやすくなる。またViewerを複数ペインに分割する機能も追加され、複数アングルを同時確認しながらモーション編集が行えるようになった。",
+      "links": {
+        "CG Channel - Autodesk releases MotionBuilder 2027": "https://www.cgchannel.com/2026/03/autodesk-releases-motionbuilder-2027/"
+      }
+    },
+    {
+      "name": "Blender Fes 2026 SS - 3/28・29オンライン開催（全16セッション）",
+      "level": "6",
+      "overview": "Blenderユーザー向けオンラインイベント第6回。モデリング・アニメ・MV・VFX・AIなど全16セッション2日間配信。",
+      "detail": "CGWORLD主催のBlenderユーザー向けオンラインイベント「Blender Fes 2026 SS」が2026年3月28日（土）・29日（日）に開催される。第6回となる今回はモデリング・アニメーション・MV・VFX・AIなど多彩なテーマの全16セッションが配信予定。初心者から上級者まで対応の内容で、懇親会も実施。前売りチケット4,400円（税込）、当日5,500円（税込）。アーカイブ視聴期間は終了後6ヶ月間。チケット前売り締切は3月27日23時59分まで。",
+      "links": {
+        "CGWORLD - Blender Fes 2026 SS 記事": "https://cgworld.jp/article/blenderblender-fes-2026-ss32829.html",
+        "Blender Fes 2026 SS 公式": "https://cgworld.jp/special/blenderfes/vol6/"
+      }
+    },
+    {
+      "name": "GAME CREATORS CONFERENCE '26 - 3/28大阪開催",
+      "level": "5",
+      "overview": "テーマ「積み重ねた想い、繋ぐ未来」。3月28日グランキューブ大阪でゲームクリエイター向けカンファレンス開催。",
+      "detail": "GAME CREATORS CONFERENCE '26が2026年3月28日（土）にグランキューブ大阪（大阪国際会議場）10Fにて開催。テーマは「積み重ねた想い、繋ぐ未来」。10:00〜18:00のセッション後に懇親会（19:00〜）も予定。ゲーム開発の技術・クリエイティブマネジメントなど多彩なセッションが用意されており、PlatinumGamesによるNINJA GAIDEN 4に関する講演なども予定。ボーンデジタルもHoudiniブースを出展。",
+      "links": {
+        "GAME CREATORS CONFERENCE '26 公式": "https://gc-conf.com/"
+      }
+    },
+    {
+      "name": "Autodesk CG Festa 2026 無料ウェビナー - 4/22開催",
+      "level": "5",
+      "overview": "Maya/3ds Max最新情報と閃光のハサウェイ キルケーの魔女3DCG制作裏話を紹介する無料オンラインセミナー。",
+      "detail": "AutodeskとCGWORLDが共催する無料オンラインウェビナー「Autodesk CG Festa 2026」が2026年4月22日（水）に開催予定。ゲーム・映像・アニメ業界向けにMaya 2027・3ds Max 2027の最新機能紹介、および機動戦士ガンダム 閃光のハサウェイ キルケーの魔女の3DCG制作裏話セッションを予定している。参加無料。",
+      "links": {
+        "ゲームメーカーズ - Autodesk CG Festa 2026": "https://gamemakers.jp/article/2026_03_26_134251/"
+      }
+    },
+    {
+      "name": "Unity Energy Saver プラグイン無料公開 - 省電力最適化ツール",
+      "level": "5",
+      "overview": "入力無操作を検知し自動でフレームレート・解像度・物理を切替。URP/HDRP対応・オープンソースで無料公開。",
+      "detail": "開発者Oliver Stock氏が「Unity Energy Saver」プラグインをGitHubに無料公開。プレイヤーの入力がない待機状態を自動検知し、フレームレート・解像度・物理更新頻度などを省電力プロファイルへ自動切替することでゲームの消費電力を低減する。設定可能な複数プロファイルによりプロジェクトの要件に合わせてカスタマイズ可能。Unity 2022.3.62f2以降のURP/HDRPプロジェクトに対応。Sustainable Games Alliance（持続可能なゲーム開発）の取り組みとも連動する内容。",
+      "links": {
+        "80.lv - Unity Plug-In That Helps Reduce Power Consumption": "https://80.lv/articles/unity-plug-in-that-helps-reduce-power-consumption"
+      }
+    },
+    {
+      "name": "GodotCon Amsterdam 2026 - 4/23・24開催決定",
+      "level": "5",
+      "overview": "Godotエンジンユーザーカンファレンス。2026年4月23〜24日、オランダ・アムステルダムにて対面開催予定。",
+      "detail": "Godot Engineの公式ユーザーカンファレンス「GodotCon Amsterdam 2026」が2026年4月23日（木）・24日（金）にオランダ・アムステルダムのPathé Amsterdam Noordにて開催される。10:00〜18:00の2日間にわたり、Godotエンジンの最新技術や開発事例のセッションが予定されている。発表者CFP（Call for Proposals）も受付中。オープンソースゲームエンジンコミュニティ向けの対面イベントとして注目度が高い。",
+      "links": {
+        "80.lv - GodotCon 2026 Comes To Amsterdam": "https://80.lv/articles/join-godotcon-in-amsterdam-this-april",
+        "GodotCon Amsterdam 2026 公式": "https://conference.godotengine.org/2026/"
+      }
+    },
+    {
+      "name": "GDC講演：Donkey Kong Bananza のアセット再利用とビジュアル設計",
+      "level": "5",
+      "overview": "破壊対象オブジェクトへの高品質ビジュアル投資がプレイヤー体験を高めるアート×ゲームプレイ連携設計を解説。",
+      "detail": "GDC 2026にてNintendo開発チームがDonkey Kong Bananzaのアート設計アプローチを講演。破壊可能オブジェクトに高品質なビジュアルデザインを意図的に投資することで、プレイヤーが破壊した際の満足感を最大化する設計思想を紹介。アートチームとゲームプレイエンジニアが連携し、視覚的豊かさが破壊ゲームプレイの爽快感に直結するようにアセット制作フローを構築した。プログラマーのTatsuya Kurihara氏によると、視覚的に「壊す価値がある」と感じさせることがゲームループ強化の鍵であると説明。",
+      "links": {
+        "Game Developer - Donkey Kong Bananza has a big-brained approach to asset recycling": "https://www.gamedeveloper.com/art/donkey-kong-bananza-has-a-big-brained-approach-to-asset-recycling"
+      }
+    },
+    {
+      "name": "Warframe キャラクターアーティストが語るFollieデザインとライブサービスのシルエット設計",
+      "level": "4",
+      "overview": "Digital ExtremesのMichael Skyers氏が最新フレーム「Follie」デザイン方法論とライブサービス向けキャラクター設計を解説。",
+      "detail": "80.lvのインタビューにてWarframeのPrincipal Character Artist Michael Skyers氏が、最新フレーム「Follie」のデザインプロセスと、長期ライブサービスゲームにおけるキャラクターシルエットの進化について語った。7年以上の運営を経た作品においても新フレームが既存ラインナップと差別化できるシルエットを持てるよう、初期コンセプト段階からシルエットの独自性を最優先にする設計手法を採用。ライブサービス型ゲームにおける持続的なキャラクタービジュアル開発の知見が共有されている。",
+      "links": {
+        "80.lv - Warframe Character Artist on Designing Follie and Evolving Silhouettes": "https://80.lv/articles/warframe-character-artist-on-designing-follie-and-evolving-silhouettes"
+      }
+    }
+  ]
+}
