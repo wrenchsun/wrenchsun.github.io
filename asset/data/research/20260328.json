@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "name": "KeyShot Studio 2026.1リリース - OpenPBR USD対応・AIショットEdit Mode追加",
+      "level": "7",
+      "overview": "USD取り込み時のOpenPBR素材サポート、AIショットにEdit Mode追加、アニメーションツール強化。ビジュアライゼーション・エンタメ向け改善多数。",
+      "detail": "Luxion（現Keyhotが2026年3月27日にKeyShot Studio 2026.1をリリース。主な新機能はUSDファイルインポート時のOpenPBR素材サポートで、既存ファイル形式を超えた互換性が向上。AIショットのジェネレーティブAIツールセットにEdit Modeが追加され、インペインティング・画像置換・アップスケールが可能に。内部AIモデルはFLUX.1 SchnellからアリババのQwen AIに変更。アニメーションツールセットでは部品ごとに複数のカスタムピボットポイントを設定可能になり、カーブエディタに「per keyframe」トグルが追加。新しいGalleryウィンドウでレンダリングファイルのブラウズが直感的に。ビルトインRender Queue（従来は別管理）、ヘッドレスモードでのアニメーション処理、IFCファイルインポートも追加。価格は年間$1,299。",
+      "links": {
+        "CG Channel - KeyShot releases KeyShot Studio 2026.1": "https://www.cgchannel.com/2026/03/keyshot-releases-keyshot-studio-2026-1/"
+      }
+    },
+    {
+      "name": "Cinema 4D用「Gaussian Splat Studio」プラグインリリース - MoGraph統合の非破壊ワークフロー",
+      "level": "7",
+      "overview": "Cinema 4DでGaussian Splatを取込・表示・レンダリング・出力できるプラグイン。MoGraph・エフェクタ・Redshift対応の非破壊ワークフロー実現。",
+      "detail": "Alpha PixelがCinema 4D向けプラグイン「Gaussian Splat Studio」をリリース（2026年3月27日）。GaussianSplatのポイントデータをC4Dに取り込み、専用ビューポートとレンダリングコントロールでRedshiftおよびStandard/Physicalマテリアルと完全互換。非破壊ワークフローでMoGraphエフェクタ・フィールド・フォースを使ってスプラットを操作でき、デプスマップの生成も可能。レンダリングスタイルは「True Gaussian Splat」「Point Cloud」「ジオメトリベース」の3種類から選択可能。Redshiftのリライティング対応でスプラットをライティングワークフローに統合できる。モーションデザイナーやスキャンアーティスト、룩개発ワークフロー向け。",
+      "links": {
+        "80.lv - Cinema 4D Gets Powerful New Gaussian Splatting Plug-In": "https://80.lv/articles/cinema-4d-gets-powerful-new-gaussian-splatting-plug-in",
+        "Alpha Pixel - Gaussian Splat Studio": "https://alphapixel.net/products/c4d-gaussian-splat-plugin/"
+      }
+    },
+    {
+      "name": "Fyrox Game Engine v1.0 安定版リリース - Rust製オープンソースエンジン初の安定版",
+      "level": "6",
+      "overview": "7年間開発のRust製オープンソースゲームエンジンが初の安定版v1.0に。2D/3D対応・ビルトインエディタ搭載・PBRレンダリング強化。MITライセンス。",
+      "detail": "Rust製オープンソースゲームエンジン「Fyrox」が2026年3月24日にv1.0安定版をリリースした（gamemakers.jpで3月27日に報道）。2019年の開発開始から7年で初の安定版。2D/3D対応でオブジェクト指向設計。ビルトインエディタを搭載しており、多くのRust製エンジンと異なり入門ハードルが低い。PBRレンダリングパイプラインにIBL（Image-Based Lighting）・環境マッピング・リフレクションプローブのサポートが追加。アニメーションエディタも改善。ライセンスはMITでGitHub公開。旧称「rg3d」から2022年に改名。将来的にはv2.0でグローバルイルミネーションの実装を計画。",
+      "links": {
+        "ゲームメーカーズ - Fyrox v1.0リリース": "https://gamemakers.jp/article/2026_03_27_134345/",
+        "Fyrox GitHub": "https://github.com/FyroxEngine/Fyrox"
+      }
+    },
+    {
+      "name": "thatgamecompany スタジオAD Cecil Kimが語るゲームアートパイプライン",
+      "level": "5",
+      "overview": "SkyやJourneyのthatgamecompanyスタジオADが、アートディレクション・パイプライン・ゲームに意味が必要な理由を語るインタビュー。",
+      "detail": "80.lvが2026年3月27日にthatgamecompany（Journey・Sky: Children of the Light）のスタジオアートディレクターCecil Kim氏のインタビューを公開。アートディレクション手法、スタジオのパイプライン、チームとのコミュニケーション方法、そしてゲームが感情的・芸術的・人間的体験を提供する必要性について詳しく解説。インスプレッショニスティックリアリズムを目指す独自のアートフィロソフィーも紹介。小規模スタジオがAAAスタジオと競合できる理由についての知見も含む。",
+      "links": {
+        "80.lv - Inside the Studio at thatgamecompany: Interview with Cecil Kim": "https://80.lv/articles/gamedev"
+      }
+    },
+    {
+      "name": "Mudbox 2027リリース - 6年連続機能追加なし・年間サブスク価格5ドル値上げ",
+      "level": "4",
+      "overview": "Autodesk Mudbox 2027リリースも機能追加はゼロ。年間サブスクが$100→$105に値上がり。月額$10は据え置き。",
+      "detail": "Autodeskが2026年3月27日にMudbox 2027をリリースしたが、リリースノートには「This release includes minor updates」とのみ記載され、目立った新機能は追加されていない。これは6年連続で新機能がない年次更新となる。年間サブスクリプション価格は$100から$105（5ドル増）に値上がりしたが、月額サブスクリプション（$10）は据え置き。対応OSはWindows 11、RHEL/Rocky Linux 8.10/9.7、macOS 14.0以降。機能開発が止まり価格のみ上昇しているため、ツールの将来性への懸念が高まっている。",
+      "links": {
+        "CG Channel - Autodesk releases Mudbox 2027": "https://www.cgchannel.com/2026/03/autodesk-releases-mudbox-2027/"
+      }
+    }
+  ]
+}
