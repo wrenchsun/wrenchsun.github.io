@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "name": "OpenUSD v26.03リリース - 3D Gaussian Splats & WebAssembly対応",
+      "level": "9",
+      "overview": "PixarのOpenUSDがv26.03をリリース。3D Gaussian Splatを第一級プリムとして標準サポート。WebAssembly対応でブラウザ上でのUSDシーン操作も可能に。",
+      "detail": "Alliance for OpenUSD（AOUSD）が2026年3月25日にOpenUSD v26.03をリリース。最大の注目点は3D Gaussian Splatting（3DGS）への公式対応で、UsdVolParticleField3DGaussianSplatスキーマが追加され、3DGSデータをUSDプリムとして表現可能になった。参照レンダラー「hdParticleField」も同梱され、usdview上でGaussianSplatデータの可視化・検証が可能。PLYファイルからUSDへの変換スクリプトも提供。また、WebAssembly（wasm32/wasm64）へのビルドサポートが追加され、emscriptenコンパイラを使用してブラウザ上でUSDシーンを操作できる「wasmFetchResolver」サンプルも提供。配列値アトリビュートの個別要素オーバーライドを可能にする「sparse array-edit overrides」も実装。glTFに続くGaussian Splat対応の主要3D形式として、VFX・バーチャルプロダクション・アニメーション分野での活用が期待される。core非イメージングライブラリはPyPIからもインストール可能。",
+      "links": {
+        "CG Channel - OpenUSD 26.03 adds support for 3D Gaussian Splats": "https://www.cgchannel.com/2026/03/openusd-26-03-adds-support-for-3d-gaussian-splats/",
+        "AOUSD - Announcing OpenUSD v26.03": "https://aousd.org/blog/openusd-v26-03/",
+        "ゲームメーカーズ - ゲーム開発関連ツールまとめ 2026/3/28": "https://gamemakers.jp/article/2026_03_28_134130/"
+      }
+    },
+    {
+      "name": "AMD FSR SDK 2.2リリース - FSR Upscaling 4.1 & Ray Regeneration 1.1",
+      "level": "8",
+      "overview": "AMD FSR SDK 2.2がGPUOpenで公開。AIベースのアップスケーリングFSR 4.1と、レイトレーシング向けMLデノイザーRay Regeneration 1.1を統合。RDNA4向け最新版。",
+      "detail": "AMDが2026年3月にFSR SDK 2.2をGPUOpen経由でリリース。主要コンポーネントはFSR Upscaling 4.1とFSR Ray Regeneration 1.1。FSR Upscaling 4.1は推論モデルの更新によりモーション中の画質を改善、Ultra Performanceモードと動的解像度スケーリング（DRS）の安定性向上。FSR Ray Regeneration 1.1はML駆動のリアルタイムデノイザーで、いかなるゲームエンジンにも統合可能。レイトレースのノイジーな出力をクリーンな画像へ変換し、品質・メモリ効率を改善、デバッグビューモードも追加。Shader Model 6.6をサポートするRDNA 4ハードウェアが必要。初の導入タイトルはPearl AbyssのCrimson Desert。フレーム生成（FSR Frame Generation 4.0）とRadiance Caching 0.9（テクニカルプレビュー）も引き続き収録。バイナリと限定ソースはGitHubにて公開。",
+      "links": {
+        "AMD GPUOpen - AMD FSR SDK 2.2": "https://gpuopen.com/learn/amd-fsr-sdk-2-2-now-available/",
+        "GamingOnLinux - AMD FSR SDK 2.2 released": "https://www.gamingonlinux.com/2026/03/amd-fsr-sdk-2-2-released-with-fsr-upscaling-4-1-and-fsr-ray-regeneration-1-1/"
+      }
+    },
+    {
+      "name": "Blender Fes 2026 SS 開催 - Blenderユーザー向けオンラインイベント（3/28・29）",
+      "level": "6",
+      "overview": "Blenderユーザー向けオンラインイベント「Blender Fes 2026 SS」が3月28日・29日に開催。全16セッションで3DCG・映像制作技術を配信。",
+      "detail": "「Blender Fes 2026 SS」が2026年3月28日（土）・29日（日）の2日間にわたりオンラインで開催されている。Blenderを活用した3DCG・映像制作などが学べる全16セッションが配信される。イベントは前売りチケット制で、Blender初心者から上級者まで幅広い内容をカバー。3DCGモデリング、マテリアル、レンダリング、アニメーション、コンポジットなど多岐にわたるBlenderワークフローを学ぶ機会となる。国内Blenderコミュニティの交流の場としても機能している。",
+      "links": {
+        "CGWORLD.jp - Blender Fes 2026 SS": "https://cgworld.jp/article/blenderblender-fes-2026-ss32829.html"
+      }
+    },
+    {
+      "name": "GAME CREATORS CONFERENCE '26 大阪開催 - 関西最大のゲームクリエイター勉強会",
+      "level": "6",
+      "overview": "ゲームクリエイター向け大規模勉強会「GAME CREATORS CONFERENCE '26」が3月28日に大阪国際会議場で開催。PlatinumGamesほか各社が登壇。",
+      "detail": "「GAME CREATORS CONFERENCE '26」が2026年3月28日（土）に大阪府立国際会議場（グランキューブ大阪）10Fで開催された。テーマは「積み重ねた想い、繋ぐ未来」。関西を中心とする企業のゲームクリエイターが集まる大規模勉強会で、東京・福岡・札幌などからも参加者が集結。注目セッションとしてPlatinum Gamesによる「NINJA GAIDEN 4のミニマルかつ過多な背景制作」や、ハリウッド流キャラクターデザイン論などが発表された。プレゼンテーションやネットワーキングを通じた新しいアイデアと交流が生まれる場として機能している。",
+      "links": {
+        "GAME CREATORS CONFERENCE '26 公式サイト": "https://gc-conf.com/",
+        "ゲームメーカーズ - GCC '26紹介記事": "https://gamemakers.jp/article/2026_03_26_134248/"
+      }
+    },
+    {
+      "name": "Godot 4.7 dev3 / 4.6.2 RC2 リリース - オープンソースゲームエンジン最新進捗",
+      "level": "6",
+      "overview": "GodotエンジンがGUI改善・3D編集ツール強化の4.7 dev3と、バグ修正中心の4.6.2 RC2を同時リリース。次世代ロードマップが加速中。",
+      "detail": "オープンソースゲームエンジンGodotが2026年3月28日時点でGodot 4.7 dev3とGodot 4.6.2 RC2を並行リリース。Godot 4.7 dev3では、ControlノードがTransformオフセットをサポートしコンテナ干渉なしにアニメーション可能になったほか、3Dエディタに頂点スナッピング機能が追加された。GUIシステムと3D編集ツールを中心に改良が進む。一方、Godot 4.6.2 RC2はメンテナンスリリースとして4.6のバグ修正に集中。Godot 4.6では既にJoltをデフォルト3D物理エンジンとして採用、SSRの全面刷新、InverseKinematicsの復活なども含まれている。無料・オープンソースであり小規模スタジオからの採用が加速している。",
+      "links": {
+        "ゲームメーカーズ - ゲーム開発関連ツールまとめ 2026/3/28": "https://gamemakers.jp/article/2026_03_28_134130/",
+        "GodotEngine - Godot 4.6.2 RC 1": "https://godotengine.org/article/release-candidate-godot-4-6-2-rc-1/"
+      }
+    },
+    {
+      "name": "Fortnite Creative / UEFN v40.00 アップデート - Branch Explorer追加",
+      "level": "5",
+      "overview": "Fortnite CreativeおよびUEFN（Unreal Editor for Fortnite）がv40.00に更新。Branch Explorerの追加とVerse仕様の改定が主な変更点。",
+      "detail": "Epic Gamesが提供するFortnite Creative / UEFN（Unreal Editor for Fortnite）がバージョン40.00に更新された（2026年3月28日時点）。主な新機能はBranch Explorerで、クリエイターが複数のロジック分岐を視覚的に管理しやすくなった。またUEFN向けプログラミング言語Verseの仕様書も更新されており、ゲームロジック記述の柔軟性が向上。UEFNはUnreal Engine 5ベースのビジュアルエディタをFortniteクリエイターが使用できる環境であり、ゲーム開発者にとってUE5技術を実際のプラットフォームで活用する入口としての役割を果たしている。",
+      "links": {
+        "Epic Developer Community - UEFN v40.00 リリースノート": "https://dev.epicgames.com/documentation/ja-jp/fortnite/40-00-fortnite-ecosystem-updates-and-release-notes",
+        "ゲームメーカーズ - ゲーム開発関連ツールまとめ 2026/3/28": "https://gamemakers.jp/article/2026_03_28_134130/"
+      }
+    },
+    {
+      "name": "Phaser v4.0.0 RC7 リリース - JavaScript 2Dゲームフレームワーク",
+      "level": "4",
+      "overview": "JavaScript製2DゲームフレームワークPhaserがv4.0.0 RC7をリリース。正式版v4.0.0に向けた最終調整段階。無料・オープンソース。",
+      "detail": "無料・オープンソースのJavaScript製2DゲームフレームワークPhaserがv4.0.0 RC7（Release Candidate 7）をリリースした（2026年3月28日時点）。v4.0.0の正式リリースに向けた最終調整段階にある。Phaserはブラウザ上で動作する2Dゲームを手軽に開発できるフレームワークとして、インディーゲーム開発者や教育分野で広く利用されている。v4では内部アーキテクチャが刷新されており、パフォーマンスや開発体験が改善されている。RC7では安定性の向上と細部バグ修正が中心。",
+      "links": {
+        "Phaser - v4 Release Candidate 7": "https://phaser.io/news/2026/03/phaser-v4-release-candidate-7",
+        "ゲームメーカーズ - ゲーム開発関連ツールまとめ 2026/3/28": "https://gamemakers.jp/article/2026_03_28_134130/"
+      }
+    },
+    {
+      "name": "Howler 2026.5 - Google Geminiベースの3Dランドスケープジェネレーター「Fractal Garden」追加",
+      "level": "4",
+      "overview": "デジタルペイントツールHowler 2026.5がWebベース3Dツール群を追加。Google Geminiプラットフォーム上に構築した手続き型3Dランドスケープ生成ツール搭載。",
+      "detail": "Dan Ritchieが開発するデジタルペイント・アニメーションツール「Howler」がバージョン2026.5をリリース（2026年3月28日）。最大の目玉はGoogle GeminiプラットフォームをベースにしたWebベース3Dツール群の追加。「Fractal Garden」は手続き型3Dランドスケープジェネレーターで、地形生成・植生や岩のブラシ配置・12種類の木・12種類の花・5種類の草を用意。11のプリセットバイオームをプロシージャルルールで定義しており、OBJ・GLB・Collada（DAE）・USDZフォーマットでのエクスポートが可能。また基本的なSub-D曲面モデリング・UVマッピング・PBRマテリアルに対応したWebベース3Dモデリングツールも同梱。価格はMSRP 56.99ドル（よく24.99ドルで提供）、Windows専用。WebツールはHowler購入者またはPatreon支援者が利用可能。",
+      "links": {
+        "CG Channel - Howler 2026.5 adds 3D landscape generator Fractal Garden": "https://www.cgchannel.com/2026/03/howler-2026-is-out/"
+      }
+    }
+  ]
+}
