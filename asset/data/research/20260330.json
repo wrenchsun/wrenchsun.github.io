@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "name": "Jendrik Illner Graphics Programming Weekly Issue 433",
+      "level": "7",
+      "overview": "グラフィックスプログラミング週報。Slug GPU文字レンダリング特許公開・霧ボリューム解析解・AMD GPU I/Oなど。",
+      "detail": "2026年3月22日公開のIssue 433では、GPU文字レンダリングアルゴリズム「Slug」の特許がパブリックドメイン化（MITライセンスの参照シェーダー公開）、霧ボリュームを幾何プリミティブで解析的にレンダリングする手法、meshoptimizerによるメッシュLOD簡略化・メッシュシェーダー生成・圧縮技術の包括解説、AMD GPU-Initiated I/OによるCPUを介さないNVMeデバイスからGPU VRAMへの直接データ転送、Digital FoundryによるDLSS 5実機検証レポートなどを収録。グラフィックスエンジニア必読の週次技術まとめ。",
+      "links": {
+        "jendrikillner.com Issue 433": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-433/"
+      }
+    },
+    {
+      "name": "Figma AIエージェント（MCPサーバー）ベータ公開",
+      "level": "7",
+      "overview": "FigmaがMCPサーバー経由でLLMがキャンバスを直接操作できるAIエージェント機能をベータ公開した。",
+      "detail": "FigmaがMCP（Model Context Protocol）サーバーを活用したAIエージェント機能のベータ版を公開。ClaudeなどのLLMがFigmaキャンバスを直接操作・編集できるようになり、自然言語指示によるデザイン要素の追加・移動・整列・スタイル変更が可能。ゲームのUI/UXデザインワークフローへの影響が期待され、デザイナーとエンジニア間の連携効率化にも寄与する可能性がある。AIエージェントによるデザインツール操作の本格化を示す事例として注目度が高い。",
+      "links": {
+        "PRTimes": "https://prtimes.jp/main/html/rd/p/000000027.000097201.html",
+        "gamemakers.jp roundup 3/28": "https://gamemakers.jp/article/2026_03_28_134130/"
+      }
+    },
+    {
+      "name": "Unreal Fest Chicago 2026 開催情報（アーリーバード3/31期限）",
+      "level": "7",
+      "overview": "Unreal Fest Chicago 2026が6月16〜18日シカゴで開催。アーリーバードチケット$649の期限は3月31日まで。",
+      "detail": "Epic Gamesの主要カンファレンス「Unreal Fest Chicago 2026」がシカゴのMcCormick Place Convention Centerで2026年6月16〜18日に開催される。3日間でUnreal Engine、UEFN（Unreal Editor for Fortnite）、Epicエコシステムの最新情報を発表予定。チケットはアーリーバード$649（明日3月31日期限・売り切れ次第終了）、通常$749、学生$499。セッションは700以上、スピーカー応募は1月22日に締め切り。GDCに次ぐUEの主要カンファレンスとして注目度が高い。",
+      "links": {
+        "Unreal Fest Chicago 2026": "https://www.unrealengine.com/en-US/events/unreal-fest-chicago-2026",
+        "unrealengine.com": "https://www.unrealengine.com/en-US/unreal-fest"
+      }
+    },
+    {
+      "name": "TypeScript 6.0 リリース",
+      "level": "6",
+      "overview": "TypeScript 6.0が正式リリース。ジェネリック関数型推論を改善。Ver 7.0（Go移行）への重要移行点となる。",
+      "detail": "MicrosoftがTypeScript 6.0を正式リリース。ジェネリック関数の型推論が改善され、より複雑な型定義が扱いやすくなった。将来的にはGo言語への書き直し（TypeScript 7.0）が予定されており、本バージョンはその移行点として位置付けられる重要なリリース。ゲーム開発ではPhaser、Babylonjs、Three.jsなどのJavaScript/TypeScriptベースのゲームエンジン・フレームワークを活用するプロジェクトや、ゲームエディタのツール開発において直接影響がある。",
+      "links": {
+        "TypeScript 6.0 Announcement": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/",
+        "gamemakers.jp roundup 3/28": "https://gamemakers.jp/article/2026_03_28_134130/"
+      }
+    },
+    {
+      "name": "Wonderland Engine 1.6.0 リリース",
+      "level": "5",
+      "overview": "WebXR向けJS/TSゲームエンジンWonderland Engine 1.6.0リリース。Meshlet描画とGTAOを追加した。",
+      "detail": "WebXR対応のJavaScript/TypeScript 3Dゲームエンジン「Wonderland Engine」がv1.6.0をリリース。Meshlet描画システムを実装し、大規模3Dシーンの効率的なレンダリングが可能になった。また、Ground Truth Ambient Occlusion（GTAO）を追加し、VR/ARコンテンツのアンビエントオクルージョン品質が向上。WebXRゲームやインタラクティブ3Dコンテンツの制作に活用されるエンジンで、ブラウザベースのリアルタイム3D体験の品質向上に貢献する。",
+      "links": {
+        "Wonderland Engine 1.6.0": "https://wonderlandengine.com/jp/news/release-1.6.0/",
+        "gamemakers.jp roundup 3/28": "https://gamemakers.jp/article/2026_03_28_134130/"
+      }
+    },
+    {
+      "name": "Swift 6.3 リリース",
+      "level": "5",
+      "overview": "Swift 6.3リリース。Android SDK公式サポートが追加され、C言語統合強化でApple外プラットフォームへも対応。",
+      "detail": "Apple開発のオープンソース言語「Swift 6.3」がリリース。目玉機能としてAndroid向け公式SDKサポートが追加され、Swiftによるクロスプラットフォーム開発が本格化。C言語との統合強化によりコールバック、アトリビュート等のC言語要素をSwiftから直接扱えるようになった。Swift Package Managerも強化され、Apple以外のプラットフォームでのゲームおよびアプリ開発が容易になる。モバイルゲーム開発での採用拡大が見込まれる。",
+      "links": {
+        "Swift 6.3 Release": "https://www.swift.org/blog/swift-6.3-released/",
+        "gamemakers.jp roundup 3/28": "https://gamemakers.jp/article/2026_03_28_134130/"
+      }
+    },
+    {
+      "name": "EdenSpark AI Tools OBT開始",
+      "level": "5",
+      "overview": "AIアシスト型ゲームエンジン「EdenSpark」のOBTが開始。AIによるアセット生成機能を搭載し2026夏正式リリース予定。",
+      "detail": "AIアシスト型ゲームエンジン兼パブリッシングプラットフォーム「EdenSpark」のオープンベータテスト（OBT）が2026年2月より開始。AIによるゲームアセット自動生成機能を中核に据え、テクスチャ・モデル・アニメーションの作成を支援。2026年夏に正式リリース予定。ゲームエンジンとAI生成ツールが統合された新世代ワークフローとして注目されており、インディーデベロッパーの制作効率化に寄与する可能性がある。",
+      "links": {
+        "EdenSpark News": "https://edenspark.io/en/news/14",
+        "gamemakers.jp roundup 3/28": "https://gamemakers.jp/article/2026_03_28_134130/"
+      }
+    },
+    {
+      "name": "Construct 3 Beta r478.2 リリース",
+      "level": "4",
+      "overview": "ノーコードブラウザゲームエンジンConstruct 3 Beta r478.2リリース。SafariのWebGPU再有効化と3Dモデル改善。",
+      "detail": "ブラウザベースのノーコードゲームエンジン「Construct 3」がBeta r478.2をリリース。主な変更点はSafariでのWebGPU再有効化と3Dモデル機能の改善。WebGPUによりSafariブラウザでも高度なグラフィックス処理が利用可能となり、より多くのプラットフォームでブラウザゲームのグラフィックス品質向上が期待される。ノーコードでありながら3D・WebGPU対応を進める注目のゲームエンジン。",
+      "links": {
+        "Construct 3 Beta r478.2": "https://www.construct.net/en/make-games/releases/beta/r478-2",
+        "gamemakers.jp roundup 3/28": "https://gamemakers.jp/article/2026_03_28_134130/"
+      }
+    },
+    {
+      "name": "Blockbench 5.1.1 リリース",
+      "level": "4",
+      "overview": "Minecraft・ローポリ向け無料3Dモデリングツール Blockbench 5.1.1リリース。ペンタブ筆圧・傾きサポートとUV編集改善。",
+      "detail": "MinecraftアセットやローポリゲームアセットのモデリングツールBlockbench 5.1.1がリリース。ペンタブレットの筆圧・傾きサポートを追加し、より自然で直感的なモデリング操作が可能に。バウンディングボックス機能の追加とUV編集機能も改善。無料・オープンソース（MIT）で公開されており、MinecraftのJava/Bedrock Edition向けアセットや、ローポリゲームアートの制作現場で広く使用されているツール。",
+      "links": {
+        "Blockbench 5.1.1 Release": "https://github.com/JannisX11/blockbench/releases/tag/v5.1.1",
+        "gamemakers.jp roundup 3/28": "https://gamemakers.jp/article/2026_03_28_134130/"
+      }
+    }
+  ]
+}
