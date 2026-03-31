@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "name": "NVIDIA DLSS 4.5 Dynamic Multi-Frame Generation 本日ベータ提供開始",
+      "level": "9",
+      "overview": "RTX 50 Series向け最大6倍フレーム生成。Dynamic MFGが本日よりNVIDIA Appベータで提供開始。",
+      "detail": "NVIDIAはGDC 2026で発表したDLSS 4.5のDynamic Multi-Frame Generation（動的マルチフレーム生成）を2026年3月31日よりNVIDIA Appのオプトインベータ版で提供開始した。Dynamic MFGは従来の固定倍率MFGと異なり、シーン負荷やディスプレイのリフレッシュレートに応じてフレーム生成倍率をリアルタイムに切り替える機能。最大で1フレームから5フレームを追加生成し、最大6倍のフレーム生成倍率を実現する。RTX 50シリーズのみ対応。DLSS 4.5は第2世代Transformerモデルによるスーパー解像度も搭載し、200以上のゲームへの対応が予定されている。NVIDIA Appの設定 > バージョン情報からオプトイン可能。",
+      "links": {
+        "NVIDIA公式発表": "https://www.nvidia.com/en-us/geforce/news/dlss-4-5-dynamic-multi-frame-gen-6x-2nd-gen-transformer-super-res/",
+        "GDC 2026 GeForce発表まとめ": "https://www.nvidia.com/en-us/geforce/news/gdc-2026-nvidia-geforce-rtx-announcements/",
+        "ゲームメーカーズ記事": "https://gamemakers.jp/article/2026_03_11_133165/"
+      }
+    },
+    {
+      "name": "Unity Asset Store：Greater China地域パブリッシャーのアセット3,000件以上が本日削除",
+      "level": "8",
+      "overview": "中国・香港・マカオのパブリッシャーアセット3,000件以上が本日3/31付でUnity Asset Storeから削除。",
+      "detail": "Unityは地域ライセンスおよびコンプライアンス要件の変更を理由に、Greater China（中国・香港・マカオ）を拠点とするパブリッシャーのアセットを2026年3月31日をもってグローバルUnity Asset Storeから削除した。3,000件以上のアセットが対象。既に購入済みのアセットは引き続きダウンロード・利用可能だが、更新やサポートは受けられなくなる。過去6ヶ月以内の購入は返金申請が可能。また、Greater China地域の組織・開発者はグローバルAsset Storeへのアクセス自体も停止となり、4/30までに購入済みアセットをダウンロードする必要がある。",
+      "links": {
+        "80.lv記事": "https://80.lv/articles/unity-asset-store-to-remove-assets-from-greater-china-publishers",
+        "Game Developer記事": "https://www.gamedeveloper.com/production/the-unity-asset-store-is-ditching-publishers-based-in-china-hong-kong-and-macau",
+        "Unity公式アナウンス": "https://discussions.unity.com/t/a-notice-for-asset-store-assets-from-publishers-in-greater-china/1711108"
+      }
+    },
+    {
+      "name": "Unity 6.5 ベータ版リリース",
+      "level": "7",
+      "overview": "Unity 6.5ベータが公開。ビルトインRPの非推奨化開始とECS/GameObjectの連携強化が主な変更点。",
+      "detail": "Unityは2026年3月30日にUnity 6.5のパブリックベータを開始し、週次ビルドで早期テストが可能になった。主要変更点としてビルトインレンダーパイプライン（Built-in RP）の非推奨化に向けた動きと、ECS（Entities Component System）とGameObjectワークフローの連携強化が予定されている。また、AudioClipのScriptable Generator対応、アセットバンドルのタイプツリーデータ抽出機能、インポートキャッシュの設定変更なども含まれる。ImportキャッシュはUnity 6.5から新規プロジェクトではデフォルト無効になる。",
+      "links": {
+        "ゲームメーカーズ記事": "https://gamemakers.jp/article/2026_03_30_134524/",
+        "Unity Discussions": "https://discussions.unity.com/t/unity-6-5-beta-is-now-available/1714274"
+      }
+    },
+    {
+      "name": "VDBRender - Nuke向け無料OpenVDBレンダラー公開",
+      "level": "7",
+      "overview": "NukeでOpenVDBボリュームをネイティブレンダリングできる無料ツール。MIT Licenseで公開、Nuke 17.0+対応。",
+      "detail": "VFXコンポジターのMarty BlumenがNuke向けの無料アドオン「VDBRender」をMIT Licenseで公開した。外部レンダラーを使わずにNuke内でOpenVDBボリューム（煙・炎・雲など）をレンダリングできる。9種類のプリセット、3点照明、Sun & Skyシステム、球面調和環境照明、物理ベースレンダリング、Deep出力、AOV（Density、Emission、Shadow、Depth）、ベロシティモーションブラーをサポート。Windows上でNuke 17.0以降に対応し、AVX2/FMAコンパイル済み。OpenVDB 12をサポートし、13への対応も予定。ソースコードも公開されており、業界からも高評価を得ている。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/03/free-add-on-vdbrender-adds-native-openvdb-rendering-to-nuke/"
+      }
+    },
+    {
+      "name": "FlippedNormals マーケットプレイス本日閉鎖",
+      "level": "6",
+      "overview": "3Dアセット・チュートリアルのマーケット「FlippedNormals」が本日3/31閉鎖。購入済みは4/30までDL可能。",
+      "detail": "3Dアーティスト向けアセット・学習コンテンツのマーケットプレイスとして知られるFlippedNormalsが2026年3月31日をもってマーケットプレイスを閉鎖した。運営コストの増大と収益の低下を理由としており、「ここ数年でストアの維持コストが大幅に増加した一方、収益は減少した」と説明。購入済みアセットは4月30日まで引き続きダウンロード可能。クリエイターへの最終支払いは4/15、クリエイターダッシュボードは4/30に終了。FlippedNormalsブランド自体は新サイトで自社製品のみを販売する形で継続する予定。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/03/flippednormals-is-closing-its-online-marketplace-on-31-march/",
+        "80.lv記事": "https://80.lv/articles/flippednormals-is-shutting-down"
+      }
+    },
+    {
+      "name": "GodotCon 2026 Amsterdam 開催（4月23-24日）",
+      "level": "6",
+      "overview": "Godot Foundationがアムステルダムで4/23-24にカンファレンスを開催。スピーカー・スポンサー募集中。",
+      "detail": "Godot FoundationとDutch Games Associationは、2026年4月23〜24日にオランダ・アムステルダムのPathé Amsterdam Noordにてコミュニティカンファレンス「GodotCon 2026 Amsterdam」を開催する。発表枠はLightning（約10分）、Short（約25分）、Long（約50分）の3種類、ワークショップは1〜2時間。展示ゾーンではGodotで制作されたゲーム・プロジェクトのデモ展示も実施予定。スピーカー・スポンサー・ボランティアを募集中。",
+      "links": {
+        "80.lv記事": "https://80.lv/articles/join-godotcon-in-amsterdam-this-april",
+        "Godot公式": "https://godotengine.org/article/godotcon-2026/",
+        "公式サイト": "https://conference.godotengine.org/2026/"
+      }
+    },
+    {
+      "name": "UE5 + Substance 3D 中世ヨーロッパ環境制作ワークフロー解説",
+      "level": "5",
+      "overview": "Blenderでモジュラー建築モデリング→Substance 3DでUV個別テクスチャ→UE5でワールドビルドのパイプライン解説。",
+      "detail": "80.lvに掲載された中世ヨーロッパ環境の制作ブレイクダウン記事。アーティストPentzはBlenderで建物全体を先にモデリングしてからモジュールに分解、標準化した幅でスナップが容易な設計を採用。テクスチャはSubstance 3D Painterで各モジュールを個別にUVテクスチャリング（タイリング非使用）し、UE5上でDetail Normal Mapを統合してクローズアップ時のシャープさを維持。屋根タイルはArray Modifierとランダム回転で効率化、Smart Materialで一貫したビジュアルを実現。UE5のProcedural Foliage Toolsとランドスケープレイヤーを連動させた植生配置、Light Functionsにパニングノイズでダイナミックなシャドウを演出。AORMマップ（AO+Roughness+Metallic）でテクスチャをRGBに格納し効率化。1週間で完成した環境の制作例。",
+      "links": {
+        "80.lv記事": "https://80.lv/articles/how-to-design-a-medieval-european-environment-using-unreal-engine-and-substance-3d"
+      }
+    },
+    {
+      "name": "Tamga - ブラウザ/マルチプラットフォーム対応の軽量3Dスカルプトツール",
+      "level": "5",
+      "overview": "Sony Pictures Imageworks出身者が開発した軽量スカルプトツール。ブラウザ・iPad・Win/Mac/Linux対応、個人無料。",
+      "detail": "Sony Pictures ImageworksおよびEyeline出身のVFX TDであるAhmet Levent Taşelが開発した3Dスカルプト&ペイントツール「Tamga」が公開された。「ボタンを覚えるのではなく、制作に集中できるミニマリストツール」をコンセプトに、WebGPU対応ブラウザ版、iPadOS 26.0+対応iPad版、Windows・macOS・Linux向けデスクトップ版を提供。Clay/Smooth/Inflate/Flatten/Dragなどのブラシ、Boolean操作、PBRチャンネルによる頂点ペイント、インクスタイルレンダリング、HDRIライティングに対応。OBJ形式でBlender・Maya・Cinema 4D・3ds Maxとのデータ交換が可能。個人利用は無料、商用ライセンスはCAD $17.99（約USD $13）の買い切り価格。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/03/get-neat-lightweight-3d-sculpting-and-painting-tool-tamga/"
+      }
+    },
+    {
+      "name": "Unity ironSource広告ネットワーク閉鎖・Supersonic売却へ",
+      "level": "5",
+      "overview": "UnityがironSource Ads Networkを4/30に閉鎖、ハイパーカジュアル部門Supersonicの売却プロセスを開始。",
+      "detail": "Unityは2026年3月27日、ironSource Ads Networkを2026年4月30日に閉鎖し、ハイパーカジュアルゲームパブリッシング部門のSupersonicを売却する意向を発表した。2022年に約44億ドルで合併したironSourceだが、Unityは独自のAI広告基盤「Unity Vector」に注力するため整理を進める。Q1 2026の暫定業績はガイダンスを上回り、売上$505〜508M（前回予測$480〜490M）、調整後EBITDA $130〜135M（前回予測$105〜110M、前年比+58%）と好調。SupersonicはBridge Race・Going Ballsなどのヒット作を持つカジュアルゲームパブリッシャーで、売却先は未定。",
+      "links": {
+        "80.lv記事": "https://80.lv/articles/unity-to-shut-down-ironsource-ads-network-sell-supersonic",
+        "Game Developer記事": "https://www.gamedeveloper.com/business/unity-sunsetting-ads-network-and-divesting-publishing-label-supersonic"
+      }
+    }
+  ]
+}
