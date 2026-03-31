@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "name": "Pragmata - RE EngineのリアルタイムパストレーシングとDLSS 4実装（GDC 2026）",
+      "level": "8",
+      "overview": "CapcomがGDC 2026でRE EngineへのリアルタイムパストレーシングとDLSS 4の実装技術を解説。4/17発売のPragmata（PC版）でパストレーシング対応。",
+      "detail": "GDC 2026（3月9〜13日）でCapcom & NVIDIAが共同セッションを開催。「Resident Evil Requiem」と「Pragmata」へのリアルタイムパストレーシング実装について詳細な技術解説が行われた。RE EngineはAAAタイトル向けに多バウンスライティングと高品質反射を実現するパストレーシングを組み込んでおり、GPUの最適化技法を駆使してリアルタイム動作を達成している。PC版PragmataはDLSS 4（Transformerモデル + Multi-Frame Gen）にも対応。同作は4月17日（PS5/Xbox Series X|S/Switch 2/PC）にリリース予定。",
+      "links": {
+        "GDCセッション（NVIDIA）": "https://schedule.gdconf.com/session/implementing-real-time-path-tracing-in-re-engine-for-resident-evil-requiem-and-pragmata-presented-by-nvidia/917522",
+        "パストレ詳細（DSO Gaming）": "https://www.dsogaming.com/news/capcoms-pragmata-will-support-path-tracing-on-pc/",
+        "Steam": "https://store.steampowered.com/app/3357650/PRAGMATA/"
+      }
+    },
+    {
+      "name": "Windows 11 Xbox Mode 一般提供開始（全PCフォームファクター対応）",
+      "level": "7",
+      "overview": "GDC 2026で発表されたWindows 11向け「Xbox Mode」が4月より全PCフォームファクターで一般提供開始。コントローラー最適化のゲームUI。",
+      "detail": "GDC 2026（3月11日）のWindows開発者ブログで発表されたXbox Mode on Windows 11が、4月から全PCフォームファクター（ノートPC・デスクトップ・タブレット含む）で一般公開された。XboxのコントローラーUIをPC上に再現し、ゲームライブラリの一元管理とコントローラー操作に最適化されたインターフェースを提供する。また、Advanced Shader Deliveryも全開発者に展開され、プリコンパイル済みシェーダーのストアフロント経由配布によりゲームの初回ロードとシェーダースタッターが大幅改善される見込み。",
+      "links": {
+        "Windows Developer Blog（GDC 2026）": "https://blogs.windows.com/windowsdeveloper/2026/03/11/gdc-2026-announcing-new-tools-and-platform-updates-for-windows-pc-game-developers/"
+      }
+    },
+    {
+      "name": "DirectX ML: DX Linear Algebra パブリックプレビュー開始（本日4/1）",
+      "level": "7",
+      "overview": "DirectXのML統合新機能「DX Linear Algebra」が4月1日よりパブリックプレビュー開始。AMD・Intel・NVIDIA・Qualcomm 4社が初日からサポート。",
+      "detail": "GDC 2026でMicrosoftが発表した「DirectXのML時代への進化」の一環として、DX Linear Algebra（DXLA）が本日4月1日よりパブリックプレビューに入った。HLSLにMatrixのMatrixアルゴリズムをファーストクラスでサポートし、ハードウェアアクセラレートされたML演算をシェーダーから直接実行可能にする。AMD・Intel・NVIDIA・Qualcommの4社が初日サポートを表明済み。さらに大規模なモデルグラフを実行するDirectX Compute Graph Compiler（DXコンパイラAPI）は2026年夏に限定プレビュー開始予定。",
+      "links": {
+        "DirectX Developer Blog（ML時代への進化）": "https://devblogs.microsoft.com/directx/evolving-directx-for-the-ml-era-on-windows/",
+        "GDC解説記事": "https://developer.microsoft.com/en-us/games/articles/2026/03/gdc-2026-evolving-directx-for-ml-era-on-windows/"
+      }
+    },
+    {
+      "name": "MetaHuman Character DNA 0.6.2 - Blender向けRBF Editorリリース",
+      "level": "6",
+      "overview": "MetaHumanリグのRBFポーズをBlender内で直接可視化・編集できるRBF Editorが追加。UE5.6/5.7、Blender 4.5/5.0対応。",
+      "detail": "Poly HammerのCharacter DNA 0.6.2がリリース（3月31日）。目玉機能はRBF Editor（Radial Basis Function Editor）で、MetaHumanの顔・ボディリグが使用するRBFコレクティブポーズをBlenderのビューポート内で可視化し、コレクティブボーンの挙動を直接編集できる。さらに自動バックアップマネージャーを搭載し、DNAファイルの変更時に自動でバックアップを作成することで安全な実験的編集が可能になった。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/03/metahuman-dna-add-on-for-blender-gets-new-rbf-editor/"
+      }
+    },
+    {
+      "name": "ArtStation Magazine: Warframe「The Old Peace」アートブラスト",
+      "level": "5",
+      "overview": "Digital ExtremesがWarframe: The Old Peace DLCのゲームアート制作事例を公開。キャラクターアートのデザインプロセスとライブサービス向けシルエット設計。",
+      "detail": "ArtStation Magazineが3月30日に掲載したWarframe: The Old Peaceのアートブラストでは、Digital Extremesのアーティストがキャラクターデザインの意思決定プロセス、ライブサービスゲームにおけるシルエット設計の重要性、そして本番アートパイプラインの詳細を解説している。制作期間は約5か月＋出荷まで6か月という工程も明かされている。",
+      "links": {
+        "ArtStation Magazine": "https://magazine.artstation.com/2026/03/digital-extremes-warframe-the-old-peace-art-blast/"
+      }
+    },
+    {
+      "name": "ArtStation Magazine: Avatar Frontiers of Pandora「From the Ashes」アートブラスト",
+      "level": "5",
+      "overview": "UbisoftのAvatar: Frontiers of Pandora最新DLC制作の技術的挑戦を解説。混乱した世界観を表現するビジュアルデザインアプローチを公開。",
+      "detail": "ArtStation Magazine（3月11日掲載）のAvatar: Frontiers of Pandora「From the Ashes」アートブラストでは、Ubisoftのアートチームが映画「Avatar: Fire and Ash」に連動した最新DLCの制作事例を詳解。ManGkwanクランと新たなRDA勢力による混乱が降りかかるKinglor Forestの視覚的変容を、ゲームアートとしてどう表現したかの課題と解決策が紹介されている。",
+      "links": {
+        "ArtStation Magazine": "https://magazine.artstation.com/2026/03/ubisoft-avatar-frontiers-of-pandora-from-the-ashes-art-blast/"
+      }
+    }
+  ]
+}
