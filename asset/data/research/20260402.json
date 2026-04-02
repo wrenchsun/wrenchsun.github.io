@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "name": "NVIDIA RTX：次世代ゲーム開発を牽引するRTXイノベーション",
+      "level": "9",
+      "overview": "DLSS 4.5 DMFG 3/31リリース、RTX Mega Geometryフォリッジシステム発表。パストレーシングがゲーム標準に近づく",
+      "detail": "GDC 2026でNVIDIAがゲーム開発の新時代を告げる複数の技術を発表。DLSS 4.5 Dynamic Multi Frame Generationが3月31日にGeForce RTX 50シリーズ向けにリリース。第2世代トランスフォーマーモデルによる高画質と6倍DFMGにより、240FPS超の4Kパストレーシングゲームプレイを実現。密なフォレスト環境でのリアルタイムパストレーシングを可能にするRTX Mega Geometryフォリッジシステムも発表。CD PROJEKT REDがThe Witcher IVへの実装を予定しており、年内オープンソース化予定。反射品質を向上させるReSTIR PTなどRTX Kitのアップデート、NVIDIA ACEによるオンデバイスAIキャラクター強化も発表。対応ゲームは007: First Light、Control Resonant、Star Wars: Galactic Racerなど20タイトル以上。",
+      "links": {
+        "NVIDIA Technical Blog": "https://developer.nvidia.com/blog/nvidia-rtx-innovations-are-powering-the-next-era-of-game-development/",
+        "GeForce GDC 2026": "https://www.nvidia.com/en-eu/geforce/news/gdc-2026-nvidia-geforce-rtx-announcements/"
+      }
+    },
+    {
+      "name": "UNIGINE 2.21 リリース：AIワークフローとアニメーション全面刷新",
+      "level": "8",
+      "overview": "リアルタイム3Dエンジン最新版。ビジュアルアニメーションエディタ、AIテキストプロンプト編集、Gaussian Splatting強化を搭載",
+      "detail": "UNIGINE 2.21がリリース。主な新機能はビジュアルロジックエディタを備えた完全再設計のアニメーションシステムで、グラフ上でノードを繋ぐだけで複雑なキャラクター挙動を構築可能。実験的MCPBridgeプラグインにより、テキストプロンプトで3Dシーンの編集・作成が可能なAI対応ワークフローを導入。Gaussian Splatting強化によりスキャンデータのレンダリング品質が向上。バインドレステクスチャ、改良された水システム、精緻化されたトーンマッピングなどグラフィック強化も含む。CPU/GPU/RAM/VRAMの広範な最適化でパフォーマンスとロード時間も改善。商用スタジオ向けEntertainment版と研究機関向けAcademic Research版の新エディションを追加。航空シミュレータやVR-MROシナリオ用の新プロジェクトテンプレートも提供。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/unigine-2-21-is-out/",
+        "UNIGINE公式": "https://unigine.com/news/2026/unigine-sdk-2-21-released-new-animation-system-ai-ready-workflow-and-major-performance-gains/"
+      }
+    },
+    {
+      "name": "Reallusion：AIビデオモーションキャプチャでインディー開発者もスタジオ品質を実現",
+      "level": "7",
+      "overview": "AIビデオモーションキャプチャ技術によりインディーゲーム開発者がスタジオレベルの生産性を達成する手法を解説",
+      "detail": "Reallusion Magazineが、AIビデオモーションキャプチャ技術を活用してインディーゲーム開発者がスタジオ品質のアニメーションを作成する方法を詳しく解説。従来は高コストの専用スタジオと機材が必要だったモーションキャプチャが、AIの進化によりビデオカメラ1台だけで実現可能になった。iCloneのActorCapture機能と組み合わせることで、少人数のインディーチームでも映画品質のキャラクターアニメーション制作が可能。専門知識がなくても扱えるワークフローと、商用ゲームへの適用例も紹介している。",
+      "links": {
+        "Reallusion Magazine": "https://magazine.reallusion.com/2026/04/02/ai-video-mocap-brings-studio-level-productivity-to-indie-game-developers/"
+      }
+    },
+    {
+      "name": "Adobe Photoshop 27.5 リリース：Firefly Boards連携機能追加",
+      "level": "6",
+      "overview": "Photoshop 27.5がFirefly Boards連携機能追加でリリース。クラウドドキュメントとAIムードボード間の双方向ワークフローを実現",
+      "detail": "Adobe Photoshop 27.5がリリース。主な新機能はオンラインAIムードボードプラットフォームFirefly Boardsとの連携強化。PhotoshopのクラウドドキュメントをFirefly Boardsで開き、編集内容をPhotoshopに送り返すシームレスな双方向ワークフローが可能になった。また、バージョン27.3で追加されたClarityとDehazeの調整エフェクトのバグ修正も含む。全体的には安定性向上を主眼とした維持管理的アップデート。Windows 10以上およびmacOS 14.0以上に対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/adobe-releases-photoshop-27-5/"
+      }
+    },
+    {
+      "name": "Wafer 3DテクスチャペイントアプリのWindows版無料オープンベータ公開",
+      "level": "6",
+      "overview": "SparsealのNPR特化型3DテクスチャペイントアプリWaferのWindows版が無料オープンベータとして公開",
+      "detail": "SparsealがNPR（非フォトリアリスティック）テクスチャリングに特化した3DテクスチャペイントアプリWaferのWindows版オープンベータを公開。スタイライズドゲームやアニメーション・イラスト・モーショングラフィックス向けのテクスチャ作成に最適化されており、OBJ/FBX/GLBファイルをインポートして3Dモデルに直接ペイントが可能。先月追加された新SmudgeツールなどWafer 1.1の全機能を搭載。Wacom/Huion/XP-Penなど主要メーカーのペンタブレット・ペンディスプレイにも対応。Discordにてダウンロードリンクと保存・エクスポート機能のアンロック方法を公開中。iPad版も引き続き利用可能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/try-new-3d-texture-painting-app-wafer-free-in-beta-for-windows/",
+        "Sparseal公式": "https://sparseal.com/wafer/"
+      }
+    },
+    {
+      "name": "ZBrushからCharacter Creator 5へのパイプライン マスタークラス開催",
+      "level": "6",
+      "overview": "VeyraをフィーチャーしたZBrushとCC5の連携ワークフロー習得マスタークラスをCC5トライアルで無料提供",
+      "detail": "ReallusionがZBrushからCharacter Creator 5（CC5）へのパイプラインマスタークラスを開催。フィーチャードキャラクター「Veyra」を用いたハイクオリティなキャラクター制作ワークフローを解説。ZBrushでのスカルプティングからCC5へのメッシュインポート、マテリアル設定、リギングまでの一連のパイプラインをカバー。Character Creator 5の無料トライアルでの受講が可能なため、CC5未経験者でも参加しやすい内容。プロが実際に使うテクニックを習得できる機会として公開されている。",
+      "links": {
+        "Reallusion Magazine": "https://magazine.reallusion.com/2026/03/26/master-the-zbrush-to-character-creator-5-pipeline/"
+      }
+    },
+    {
+      "name": "Day of the Devs × Summer Game Fest 2026 デジタルショーケース 出展作品募集中（4/6まで）",
+      "level": "5",
+      "overview": "Summer Game Fest 2026（6/5配信）直後に行うDay of the Devs 2026インディーゲームショーケースが4/6まで出展募集",
+      "detail": "Summer Game Fest 2026（2026年6月5日、LAドルビーシアター開催）直後に配信されるDay of the Devs 2026デジタルショーケースがインディーゲームの出展作品を2026年4月6日まで無料募集中。多様な背景を持つ開発者が歓迎され、あらゆるジャンルのゲームが応募可能。選ばれた作品はDay of the Devs × Summer Game Fest Play Daysへの参加権も与えられる可能性がある。インディーゲームを広くプレイヤーにアピールする絶好の機会。",
+      "links": {
+        "Day of the Devs": "https://www.dayofthedevs.org/showcases/day-of-the-devs-summer-game-fest-edition-2026",
+        "Summer Game Fest": "https://www.summergamefest.com/"
+      }
+    },
+    {
+      "name": "CGWORLDでUEでゼロから始めるUI制作連載スタート（第1回：UMGを始めよう）",
+      "level": "5",
+      "overview": "CGWORLDがUnreal Engine UMGを使ったゲームUI制作の入門連載を開始。タイトル画面の基礎から解説",
+      "detail": "CGWORLDがUnreal Engine（UE）のUMG（Unreal Motion Graphics）ツールを使ったゲームUI制作入門連載「UEでゼロから始めるUI制作」を開始。第1回ではUMGの基本概念と環境設定から始め、タイトル画面の制作を通じてUI開発の基礎を解説。ゲームエンジン内でのUI構築手法をゼロから学べる内容で、UE初心者にも取り組みやすい構成。今後の連載でインタラクティブなUI要素や複雑な画面遷移なども扱う予定。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/"
+      }
+    }
+  ]
+}
