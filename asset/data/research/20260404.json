@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "name": "Apple LGTM：3D Gaussian Splattingの高解像度効率化フレームワーク",
+      "level": "8",
+      "overview": "Appleが既存のフィードフォワード3DGS手法の高解像度非効率問題を解決する新フレームワーク「LGTM」を発表。",
+      "detail": "Apple研究者チームが発表した「LGTM（Less Gaussians, Texture More）」は、既存のフィードフォワード3D Gaussian Splatting手法が高解像度で苦手とする非効率性を解消するフレームワーク。幾何学的な複雑さとレンダリング解像度を分離し、シンプルなジオメトリを保ちながら詳細なテクスチャを追加することで、高品質な3Dシーン生成を実現する。単一画像から高解像度な3D Gaussian Splatを生成することができ、一般的なGPU環境でも高速な3Dシーン構築が可能になる。",
+      "links": {
+        "Apple LGTM発表記事 (TechBriefly)": "https://techbriefly.com/2026/04/03/apple-unveils-lgtm-to-improve-efficiency-of-3d-scene-generation/"
+      }
+    },
+    {
+      "name": "Rokoko Create：テキストプロンプトからフルボディアニメーション生成（無料公開）",
+      "level": "7",
+      "overview": "AIを使ってテキストプロンプトからフルボディアニメーションを生成するブラウザツール「Rokoko Create」が無料公開。",
+      "detail": "Rokokoが公開した「Rokoko Create」は、ブラウザ上でテキストプロンプト（例：「人がゆっくり歩く」）からフルボディアニメーションを生成するAIツール。数百万件の高品質モーションキャプチャデータで学習したAIモデルを使用し、アイドル・歩行・走行などのアニメーションを生成可能。生成アニメーションはFBX形式でエクスポートでき、Blender・Maya・Houdini・Cinema 4D・Unity・Unreal Engineと互換性がある。無料のスターターアカウントで月5件のエクスポートが可能。プロトタイピングやブロッキングショット向けの位置付けで、クリーンアップにはRokoko Studioを使用する。",
+      "links": {
+        "Rokoko Create発表 (CG Channel)": "https://www.cgchannel.com/2026/04/rokoko-create-generates-full-body-animations-for-free/"
+      }
+    },
+    {
+      "name": "UNIGINE 2.21リリース：ノードベースアニメーショングラフエディター搭載",
+      "level": "6",
+      "overview": "リアルタイム3DエンジンUnigineの最新版2.21がリリース。UE風アニメーションブループリントなど大幅強化。",
+      "detail": "Unigine 2.21がリリースされ、UEのAnimation Blueprintsに相当するノードベースの「Animation Graph Editor」が新たに搭載された。前バージョン2.20で導入された3D Gaussian Splattingシステムの改善も行われた。また、レンダリングアップスケーリング・トーンマッピングの強化、CPU・GPU・RAM・VRAMの使用効率最適化なども含む。航空シミュレーション向けプロジェクトテンプレートやROS 2統合の改善も追加。インディー・VFX向けの無料プランも新設された。",
+      "links": {
+        "UNIGINE 2.21 (CG Channel)": "https://www.cgchannel.com/2026/04/unigine-2-21-is-out/",
+        "UNIGINE 2.21 (80.lv)": "https://80.lv/articles/unigine-2-21-is-out-now"
+      }
+    },
+    {
+      "name": "Wafer 3D Textureペイントアプリ - Windows版オープンベータ無料公開",
+      "level": "6",
+      "overview": "NPR・スタイライズド向け3DテクスチャペイントアプリWaferのWindows版が無料ベータ公開。複数チャンネル同時描画対応。",
+      "detail": "SparsealのWaferは、スタイライズドテクスチャ・NPRアセット向けに特化した3Dテクスチャペイントアプリ。iPadのみの提供から初めてWindows版オープンベータが公開された。OBJ・FBX・GLBインポートに対応し、複数PBRチャンネルへの同時描画（マルチチャンネルペイント）を実現。カスタムブラシ・ペン圧・ペンチルト対応、ステンシル・デカール・スタンプも搭載。ゲーム・アニメ・イラスト・モーショングラフィックス向けのNPRシェーダー対応も可能。SparsealはBlenderスカルプトツール開発リードのPablo Dobarroと Godotエンジン開発者Joan Fonsが設立。",
+      "links": {
+        "Wafer Windows Beta (CG Channel)": "https://www.cgchannel.com/2026/04/try-new-3d-texture-painting-app-wafer-free-in-beta-for-windows/"
+      }
+    },
+    {
+      "name": "Houdini向け無料ライブラリ管理ツール「dy Install Libs」公開",
+      "level": "5",
+      "overview": "HoudiniライブラリやHDAをJSONやGitHubから簡単にインストール・管理できる無料ツール「dy Install Libs」が公開。",
+      "detail": "Carlos Dorderlyが制作したHoudini向け無料シェルフツール「dy Install Libs」がリリース。JSONファイルからのライブラリインポート・パッケージ自動コピー、GitHubリポジトリからのクローン＆インストール、ライブラリ構造の構築・テンプレート自動生成、ワンクリックでのHoudini再起動、異なるHoudiniバージョン間でのプリファレンスコピーなどの機能を提供。最新のLibrary Managerコンポーネントではオープンソース・商用Houdiniライブラリを一元管理できる。",
+      "links": {
+        "dy Install Libs (80.lv)": "https://80.lv/articles/free-tool-to-simplify-houdini-libraries-installation"
+      }
+    },
+    {
+      "name": "Adobe Photoshop 27.5リリース：Firefly Boards統合と生成AI機能強化",
+      "level": "5",
+      "overview": "Photoshop 27.5がリリース。クラウドドキュメントをFirefly Boardsで開き生成AI機能を活用可能になった。",
+      "detail": "Adobe Photoshop 27.5がリリースされ、クラウドドキュメントをAI搭載ムードボードプラットフォーム「Firefly Boards」で開き、Generative Fill・画像リミックス・テキストから画像生成などの生成AI機能が活用可能になった。またv27.3で導入されたClarity・Dehaze調整エフェクトのバグが修正された。Windows 10以降、macOS 14.0以降に対応。今回のリリースは独立した機能の拡充より、Adobe CreativeCloudエコシステムへの統合を重視した内容となっている。",
+      "links": {
+        "Photoshop 27.5 (CG Channel)": "https://www.cgchannel.com/2026/04/adobe-releases-photoshop-27-5/"
+      }
+    },
+    {
+      "name": "picoCAD 2リリース：ローポリモデリング・テクスチャ・アニメーション統合ツール",
+      "level": "5",
+      "overview": "テクスチャエディター・アニメーション・GLTF出力を統合したローポリ制作ツールpicoCAD 2がリリース。",
+      "detail": "Johan Peitz氏制作のローポリ3Dモデリングツール「picoCAD 2」が2026年3月16日にリリースされ、CGWORLDでも4月1日に紹介された。初代picoCADをゼロから再構築した本作は、組み込みテクスチャエディター（リアルタイムモデル更新）、アニメーション機能、カスタムパレットエディター、フォルダ付きオブジェクトリスト、GIFエクスポート・GLTF・OBJ/MTLエクスポート・スプライトシートエクスポートなどを新搭載。プロジェクト数の制限もなくなった。Love2Dで動作し、Steam・itch.ioで入手可能。",
+      "links": {
+        "picoCAD 2 (CGWORLD)": "https://cgworld.jp/flashnews/01-202604-picoCAD2.html",
+        "picoCAD 2 公式サイト": "https://picocad.net/"
+      }
+    },
+    {
+      "name": "Blender向けスキャタリングプラグイン「Geo-Scatter」で大規模シーン制作効率化",
+      "level": "4",
+      "overview": "Blender向けGeo-Scatterプラグインで大量オブジェクトの配置・制御を効率化できる機能を紹介した記事が公開。",
+      "detail": "80.lvがBlender向けマーケットプレイスツール「Geo-Scatter」を紹介する記事を公開。Geo-Scatterは大量のオブジェクトをBlenderシーンに効率的に配置・管理するための専門プラグインで、草木・岩・建物群など自然・都市環境の制作に活用できる。スキャタリングパラメータの細かな制御、パフォーマンス最適化機能などを備える。",
+      "links": {
+        "Geo-Scatter紹介 (80.lv)": "https://80.lv/articles/elevate-your-productivity-with-this-scattering-plugin-for-blender"
+      }
+    },
+    {
+      "name": "FrameRate：CG・VFXアーティスト向け動画ホスティングプラットフォーム公開",
+      "level": "4",
+      "overview": "CG・VFX専門家向けに特化した動画共有プラットフォームFrameRateが公開。Vimeoに代わる選択肢として注目。",
+      "detail": "アーティスト向け動画ホスティングプラットフォーム「FrameRate」が公開された。アニメーション・モーショングラフィックス・VFXのプロフェッショナルを主な対象とし、カスタマイズ可能な動画埋め込み、クライアントレビューツール、プライバシー設定、タイムスタンプコメント・カスタムコレクション・ダイレクトメッセージなどのコミュニティ機能を提供。無料アカウントはメッセージ・コメント機能のみ利用可能で、動画アップロードには有料プランが必要。デモリールやCGショートの共有に特化した専門サービス。",
+      "links": {
+        "FrameRate発表 (CG Channel)": "https://www.cgchannel.com/2026/04/new-artist-video-hosting-platform-framerate-aims-to-take-on-vimeo/"
+      }
+    },
+    {
+      "name": "CGWORLD：Unreal Engine 5でUMGを使ったUI制作入門連載開始",
+      "level": "4",
+      "overview": "UE5のUMG（Unreal Motion Graphics）を使ったUI制作の基礎から学ぶチュートリアル連載がCGWORLDで開始。",
+      "detail": "CGWORLDにて「UEでゼロから始めるUI制作」と題した新連載が開始された。第1回はUnreal Engine 5のUI制作システム「UMG（Unreal Motion Graphics）」の基本的な使い方を解説する内容。UMGを使ったWidgetの作成方法、ブループリントとの連携など、UE5でのUI制作の基礎から実践的なノウハウを学べる構成。ゲーム開発者やビジュアライゼーション開発者向けの実践的なチュートリアル。",
+      "links": {
+        "UMGを始めよう (CGWORLD)": "https://cgworld.jp/regular/202604-ueui-01.html"
+      }
+    }
+  ]
+}
