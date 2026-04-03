@@ -1,0 +1,97 @@
+{
+  "items": [
+    {
+      "name": "Babylon.js 9.0 リリース：Clustered Lighting・Node Particle Editor・3D Gaussian Splat対応",
+      "level": "8",
+      "overview": "MicrosoftがオープンソースWebレンダリングエンジンBabylon.js 9.0をリリース。数千の動的ライトを高速処理するClustered Lighting、ノードベースのパーティクルエディター等を実装。",
+      "detail": "Babylon.js 9.0の主要機能：Clustered Lighting（WebGPU/WebGL2対応、数千の動的ライトをスクリーン空間タイル・深度スライスでグループ化し高速処理）、Node Particle Editor（ノードグラフで複雑なパーティクルシステムを視覚的に構築）、Frame Graph正式化（ノードベースでレンダリングパイプラインを構築）、Inspector v2（React UIベースで完全刷新されたデバッグツール）、3D Gaussian Splattingサポート強化、アニメーションリターゲット機能、地理空間レンダリング（3D Tiles、大規模世界対応）。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_04_02_134855/",
+        "Microsoft公式ブログ": "https://blogs.windows.com/windowsdeveloper/2026/03/26/announcing-babylon-js-9-0/"
+      }
+    },
+    {
+      "name": "NVIDIA、GDC 2026講演アーカイブ動画14本を公開：RTXパストレーシング・AI NPC・Godot対応など",
+      "level": "7",
+      "overview": "NVIDIAがGDC 2026（3/9-13）で行った講演のアーカイブ動画14本をYouTubeで公開。RTXパストレーシング、AI NPC、Nsightプロファイラー、Godot Engine RTX対応などを網羅。",
+      "detail": "公開された14セッションの主要内容：AIを活用したゲーム内NPC（PUBG向けSLM「Neotron」の実装事例）、Nsight SystemsによるGPUプロファイリング手法、CursorAIコーディングアシスタントを使ったGodot EngineへのRTXパストレーシング高速導入（NVIDIAはGodot公式フォーク「NVIDIA-RTX/godot」を2026年3月に公開）、リアルタイムジェネレーティブビデオスタイライゼーション、RTX Mega Geometry、DLSS最適化。ゲームメーカーズ(2026/04/02)掲載。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_04_02_134846/",
+        "NVIDIAゲームデベロッパーYouTube": "https://www.youtube.com/@NVIDIAGameDeveloper"
+      }
+    },
+    {
+      "name": "PlayCanvasが4D Gaussian Splatting（4DGS）に対応：ブラウザ上でボリューメトリック動画をリアルタイム再生",
+      "level": "7",
+      "overview": "オープンソース3DエンジンPlayCanvasがGracia社の4DGS技術に対応。リアルタイムリライティング・シャドウキャスト・ポストエフェクト付きでブラウザ上にボリューメトリック動画を表示可能に。",
+      "detail": "PlayCanvas作者のWill Eastcottが、Gracia社の4D Gaussian Splatting（4DGS）をPlayCanvasエンジンに統合。これによりWebブラウザ上でボリューメトリックビデオ（音声付き）のリアルタイム再生が可能になった。特徴：リアルタイムリライティング、シャドウキャスト、ポストエフェクト対応、従来の通常スプラットやメッシュオブジェクトとの合成も可能。Graciaは以前にYouTube形式での4DGSストリーミングを実現済みで、本統合はWebベースインタラクティブ3Dアプリへの応用を広げる。デモとソースコードも公開。(80.lv 2026/04/02)",
+      "links": {
+        "80.lv": "https://80.lv/articles/playcanvas-can-now-load-gracia-s-4d-gaussian-splats"
+      }
+    },
+    {
+      "name": "BeebleがAI自動ロトスコープサービス「Background Remover」をリリース",
+      "level": "7",
+      "overview": "BeebleがAI自動ロトスコープサービス「Background Remover」をリリース。画像シーケンスや動画から自動でアルファマットを生成、VFX・モーショングラフィクス向け月額19ドルから。",
+      "detail": "BeebleのBackground Removerは、SwitchLight 3.0 AIモデルを基盤としたプロ向け自動ロトスコープサービス。JPEG/PNG画像シーケンスおよびMP4/MOV動画に対応し、8bit PNGシーケンスまたはMP4として出力。最大60秒・30fps・2,000フレーム、解像度2K（2,048×1,080px）まで対応。グループショット内での特定被写体の分離も可能。競合はDaVinci Resolve Magic Mask、Nuke、Boris FX、Autodesk Flow Studio。料金：Creatorプラン$19/月（540クレジット）、Professionalプラン$75/月（2,400クレジット）。(CG Channel 2026/04/02)",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/beeble-launches-ai-roto-service-background-remover/"
+      }
+    },
+    {
+      "name": "Blender・3ds Max・Maya対応の自動カメラマッチングスクリプト公開：1枚の写真から消失点を解析",
+      "level": "6",
+      "overview": "Jamie CardosoがBlender・3ds Max・Maya対応の自動カメラマッチングスクリプトを公開。写真1枚からHough変換とRANSACで消失点を検出し、正確な3Dカメラを自動生成。",
+      "detail": "コンピュータビジョンアルゴリズム（Hough変換・RANSAC）を用いた1クリックカメラマッチングスクリプト。主な機能：水平線の自動検出、物理的に正確なFOV設定を持つカメラの自動生成、FBXエクスポートによるDCC間互換性、画像オーバーレイ付きビューポート自動セットアップ。既存ソリューション（Perspective Plotterなど）が大量の手動調整を必要とする点を大幅に改善。建築ビジュアライゼーションや実写合成ワークフローに有効。(80.lv 2026/04/02)",
+      "links": {
+        "80.lv": "https://80.lv/articles/automated-camera-matching-tool-for-blender-3ds-max-maya"
+      }
+    },
+    {
+      "name": "オープンソースAviutl2プラグイン「SAM3 BB/GB Generator」公開：クリック一発で動画からオブジェクト切り抜き",
+      "level": "5",
+      "overview": "SAM3技術を活用したAviutl2用オープンソースプラグイン「SAM3 BB/GB Generator」が公開。ワンクリックで動画から任意オブジェクトを高精度に切り抜き可能。",
+      "detail": "GitHub上で公開されたAviutl2向けオープンソース動画切り抜きプラグイン。Meta社のSegment Anything Model 3（SAM3）を活用し、タイムライン上で対象を選択するだけで動画内オブジェクトの高精度なBounding Box（BB）・Green Background（GB）素材を自動生成。初回使用時にSAM3モデル（約3.5GB）をダウンロード。クリエイター・VTuberのアセット作成ワークフロー効率化に貢献。(CGWORLD 2026/04/03)",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202604-SAM3BBGBGen.html",
+        "GitHub": "https://github.com/clean262/sam3_bb_gb_generator"
+      }
+    },
+    {
+      "name": "VRChat向けフルボディトラッキングシステム「Moverse」：スタジオ品質を自宅で",
+      "level": "5",
+      "overview": "新VRトラッキングソリューション「Moverse」が登場。「スタジオグレード・最小機材」でVRChatでのフルボディトラッキングを自宅環境で実現可能に。",
+      "detail": "VRChatユーザー・VTuber向けのフルボディトラッキングシステム。スタジオ品質のモーションキャプチャを最小限の機材で自宅環境に持ち込むことを目的としている。既存のSlimeVRやViveTrackerと比較してセットアップの容易さとトラッキング精度の高さを特長とする。VRゲーム・バーチャルライブパフォーマンス・アバターアニメーション制作への活用が期待される。(80.lv 2026/04/02)",
+      "links": {
+        "80.lv": "https://80.lv/articles/easy-full-body-tracking-for-vrchat-with-moverse"
+      }
+    },
+    {
+      "name": "Bellwrightの生きた中世世界シミュレーション：数千NPCが画面外でも独立行動",
+      "level": "5",
+      "overview": "Donkey Crew開発のBellwrightで、数千NPCが画面外でも独立して行動し続ける完全持続型ゲーム世界の実装手法を開発者が解説。UE5ベースのAIシミュレーション設計。",
+      "detail": "Bellwrightの技術的特徴：全NPCが画面外でも独立して行動・生活し続けるフルパーシスタント世界。Unreal Engine 5ベースで数千NPCのリアルタイムシミュレーションを実現。各NPCは採集・建設・戦闘・睡眠などのルーティンを持ち、プレイヤーの行動がゲーム世界全体に波及する。メモリ効率とCPU負荷を最適化しつつ、AIの行動優先度システムとLOD的なシミュレーション詳細度の動的調整を実装。ゲームAI設計の参考事例として注目。(80.lv 2026/04/02)",
+      "links": {
+        "80.lv": "https://80.lv/articles/how-bellwright-simulates-a-living-medieval-world-with-thousands-of-npcs"
+      }
+    },
+    {
+      "name": "VRChat向け360°空間記録・再生システム「OmniVision System」公開",
+      "level": "4",
+      "overview": "VRChatワールド内の360°空間をリアルタイムで記録・再生できるカメラシステム「OmniVision System」がリリース。ワールド制作・アーカイブ用途に活用可能。",
+      "detail": "VRChatワールド内の全方位空間を記録・再生するシステム。360°動画的なアーカイブ機能をVRChat内で実現し、ワールドの雰囲気・ライブイベントの記録・ポートフォリオ素材制作等への応用が期待される。VRChatクリエイター向けツールとして公開。(CGWORLD 2026/04/02)",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202604-OmniVisionSystem.html"
+      }
+    },
+    {
+      "name": "OSAKA INDIE GAMES SUMMIT 2026、10/3〜4に開催決定",
+      "level": "3",
+      "overview": "インディーゲーム展示・交流イベント「OSAKA INDIE GAMES SUMMIT 2026」が2026年10月3日（土）・4日（日）の開催を決定。大阪でのインディーゲーム文化発信の場。",
+      "detail": "大阪を拠点としたインディーゲーム展示会・交流イベント「OSAKA INDIE GAMES SUMMIT 2026」が10月3〜4日に開催決定。インディーゲーム開発者の作品展示・試遊・交流の場として機能し、国内インディーシーンの活性化を目指す。出展・参加の詳細は今後発表予定。(ゲームメーカーズ 2026/04/02)",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_04_02_134883/"
+      }
+    }
+  ]
+}
