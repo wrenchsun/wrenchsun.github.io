@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "name": "NVIDIA Kimodo：大規模モーキャプ学習のオープンソース人体モーション生成AI",
+      "level": "9",
+      "overview": "NVIDIAがテキストや運動制約からリアルな人体・ロボットモーションを生成するAI「Kimodo」をオープンソースで公開。",
+      "detail": "NVIDIAのSpatial Intelligence Labが公開した「Kimodo（Kinematic Motion Diffusion Model）」は、700時間以上の光学式モーションキャプチャデータで学習した大規模モーション生成AI。テキストプロンプト（例：「歩きながら手を振る」）と運動制約（特定フレームでの手足の位置固定・2Dウェイポイントパスなど）を組み合わせて高品質な3Dモーションを1GPU・2〜5秒で生成できる。二段階デノイザーアーキテクチャで根本移動と体節動作を分離し、フットスライディングなどのアーティファクトを解消。SOMAデジタルヒューマン・Unitree G1ロボット・SMPL-Xスケルトンの各モデルに対応。NVIDIA Open Model Licenseで商用利用・派生作品も許可。GitHub・Hugging Faceでコードとモデル重みを公開、Hugging Face Spacesでインタラクティブデモも利用可能。",
+      "links": {
+        "CGWORLD記事": "https://cgworld.jp/flashnews/01-202604-Kimodo.html",
+        "NVIDIA公式プロジェクトページ": "https://research.nvidia.com/labs/sil/projects/kimodo/",
+        "GitHub": "https://github.com/nv-tlabs/kimodo"
+      }
+    },
+    {
+      "name": "Blender 5.1リリース：アニメーション高速化・Raycastノード・EEVEE強化",
+      "level": "8",
+      "overview": "Blender 5.1が正式リリース。アニメーション・Cycles・EEVEEのパフォーマンス向上とRaycastノード新搭載など多数の強化。",
+      "detail": "Blender 5.1（2026年3月17日リリース）がCGWORLDで取り上げられた。主な新機能・改善点はRaycastノード追加（Cycles/EEVEEシェーダーでの光の屈折・反射計算）、EEVEEのGPU並列処理によるマテリアル読み込み高速化・テクスチャメモリ最適化、シェイプキー計算とマルチボーンアニメーション速度向上、新「Smooth (Gaussian)モディファイアー」による非破壊モーションスムージング、Cycles WindowsのCPUレンダリング最大20%高速化。OpenUSDの透明・半透明対応・AVIF画像フォーマット・HTJ2K可逆圧縮(OpenEXR)追加、グリースペンシルのフィルシステム刷新、ジオメトリノードへのBone Infoノード追加なども含む。VFXリファレンスプラットフォーム2026（Python 3.13・OpenColorIO 2.5等）に対応。",
+      "links": {
+        "CGWORLD記事": "https://cgworld.jp/flashnews/01-202604-blender51.html",
+        "Blender公式リリースノート": "https://developer.blender.org/docs/release_notes/5.1/"
+      }
+    },
+    {
+      "name": "Godot 4.6.2メンテナンスリリース：122のバグ修正・Jolt物理改善",
+      "level": "6",
+      "overview": "Godotエンジン4.6.2がリリース。61名の貢献者による122の修正でJolt物理・アニメーション・プラットフォーム安定性を向上。",
+      "detail": "Godot 4.6.2（2026年4月1日リリース）はオープンソースゲームエンジンGodotの最新メンテナンスリリース。61名の貢献者が122個の修正を提出。主な修正点はJolt物理エンジンの小回転時の精度向上とダイナミックボディのエネルギーリーク解消、アニメーションタイムラインカーソルの挙動修正、弾性衝突時のエネルギー誤加算修正、モノ・ステレオ表示サイズの適切な処理、特定プラットフォームでのデバンディング修正。Android・iOS・macOS・Windows・Waylandの各プラットフォーム修正も含む。前バージョン4.6.1との既知の非互換性はなく全ユーザーにアップグレードを推奨。",
+      "links": {
+        "Godot公式リリースノート": "https://godotengine.org/article/maintenance-release-godot-4-6-2/",
+        "gamemakers.jpツールまとめ": "https://gamemakers.jp/article/2026_04_04_134894/"
+      }
+    },
+    {
+      "name": "Krita 5.3.1 / 6.0.1リリース：Qt6移行版・Wayland HDRカラー管理対応",
+      "level": "5",
+      "overview": "デジタルペイントアプリKritaの5.3.1と6.0.1が同時リリース。6.0はQt6ベースでWaylandのHDRカラー管理に初対応。",
+      "detail": "Krita 5.3.1と6.0.1が2026年3月30日に同時リリース。Krita 6はQt6への移行版で、LinuxのWaylandでのカラー管理プロトコル完全実装によりHDRワークフローと分数スケーリング・10bitディスプレイに対応。テキストオブジェクト機能の刷新・ベクターオブジェクト用ナイフツール追加・ブラシエンジン強化・Radiance RGB形式対応・JPEG-XL改善・Python APIプラグイン強化なども含む。Krita 6は機能的にKrita 5.3と同等だがQt6移行による新バグの可能性がある早期アクセス版として位置づけ。5.3.1は現行のQt5版の安定パッチ。CG・VFXパイプラインのLinux/Wayland環境への移行に有用。",
+      "links": {
+        "Krita公式": "https://krita.org/en/posts/2026/krita-5.3.0-released/",
+        "gamemakers.jpツールまとめ": "https://gamemakers.jp/article/2026_04_04_134894/"
+      }
+    },
+    {
+      "name": "Unity 6000.0.72f1メンテナンスパッチ：バージョン管理・多言語テキスト修正",
+      "level": "4",
+      "overview": "Unity 6 LTS系のメンテナンスパッチ6000.0.72f1がリリース。バージョン管理改善と日中韓テキストレンダリング修正を含む。",
+      "detail": "Unity 6000.0.72f1（Unity 6 LTSの最新メンテナンスパッチ）がリリース。主な修正内容はバージョン管理システムの改善と日本語・中国語・韓国語テキストのレンダリング修正。Unity 6 LTSは2026年10月まで長期サポート対象。今回は比較的小規模なパッチリリースで、安定性向上が主目的。正式な機能追加はなく既存プロジェクトの安定運用に推奨される更新。",
+      "links": {
+        "gamemakers.jpツールまとめ": "https://gamemakers.jp/article/2026_04_04_134894/"
+      }
+    }
+  ]
+}
