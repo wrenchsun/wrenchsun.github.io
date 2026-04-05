@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "name": "グラフィックスプログラミング週報 Issue 434：Tomb Raider III可視性カリング・SDF顔シェーディング・ハードウェア画像圧縮",
+      "level": "7",
+      "overview": "Issue 434（3/29）はTomb Raider IIIのポータル室可視性カリング、ハードウェア画像圧縮(AFRC/PVRIC4)、アニメSDF顔シェーディング等を収録。",
+      "detail": "Jendrik Illner氏が毎週発行するグラフィックスプログラミング週報のIssue 434（2026年3月29日公開）。主なトピック：①Tomb Raider III（1998）のポータルベース室内可視性カリングとテクスチャアトラシングの実装解説、②Apple Metal AFRC・ARM PVRIC4・ImgTec PVRIC4などハードウェア画像圧縮フォーマットの比較と実装詳細（モバイル向けGPU帯域削減に重要）、③PS5 ProのPSSR（PlayStation Spectral Super Resolution）アップスケーリング技術の複数タイトルでの検証レポート、④Signed Distance Field（SDF）テクスチャを用いたアニメキャラクターの顔シェーディング制御（影の形状をトポロジーに依存せず自在に調整）、⑤Unreal Engine 5の地形シェーダーで水たまり表現を実装するチュートリアル、⑥LLM量子化手法（float32より小さいfloat形式でML推論を高速化する技術）、⑦Vision Transformerアーキテクチャ（パッチ埋め込みと位置エンコーディング）の解説。また、SIGGRAPH Asia 2026の開催地選定に関する倫理的議論（LGBTQ+安全性）も取り上げられた。",
+      "links": {
+        "jendrikillner.com Issue 434": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-434/"
+      }
+    },
+    {
+      "name": "SIGGRAPH Asia 2026 マレーシア・クアラルンプール開催決定（12月1〜4日）",
+      "level": "6",
+      "overview": "SIGGRAPH Asia 2026がクアラルンプール（KLCC）で12月1〜4日に開催。マレーシア初開催となり6,000名以上の参加が見込まれる。",
+      "detail": "ACM SIGGRAPHのアジア版カンファレンス「SIGGRAPH Asia 2026」（第19回）が2026年12月1〜4日、マレーシアのクアラルンプール・コンベンションセンター（KLCC）で開催される。マレーシア開催は史上初。コンピュータグラフィックスとインタラクティブ技術に関する技術論文・展示・ネットワーキングセッションを予定し、6,000名超の参加者を見込む。キーノート、テクニカルペーパー、展示など包括的なプログラム構成。論文投稿やプログラム参加の詳細は公式サイトで案内中。なお、開催地のLGBTQ+安全性に関する懸念がグラフィックスコミュニティ内で議論されており、主催者はタウンホールを通じて対話を行っている。",
+      "links": {
+        "SIGGRAPH Asia 2026 公式": "https://asia.siggraph.org/2026/",
+        "開催案内 (showsbee)": "https://www.showsbee.com/fairs/100095-SIGGRAPH-Asia-2026.html"
+      }
+    },
+    {
+      "name": "Houdini 21 Production Build 週次更新（21.0.671〜21.0.675）：Solaris・Karma・FBXインポート改善",
+      "level": "5",
+      "overview": "Houdini 21プロダクションビルドが3/30〜4/3に21.0.671〜21.0.675へ更新。Solaris LOP・Karma・FBXインポートなど安定性向上。",
+      "detail": "SideFXがHoudini 21のプロダクションビルドを2026年3月30日〜4月3日にかけて21.0.671〜21.0.675へ段階的に更新した。主な修正内容：【21.0.675（4/3）】Solaris/Layout LOPのブラシパラメータ変更で削除ジオメトリが復活するバグ修正・プロトタイプ登録エラー修正、【21.0.674（4/2）】OpenCL COPの型情報処理改善・APEXコンストレイントのベイクと削除修正・交差解析SOPの平行線分処理修正、【21.0.673（4/1）】ROPサブネットの依存関係計算修正・Karmaレンダラーのジオメトリライト前計算とカーブセグメント処理修正、【21.0.672（3/31）】FBXインポートパフォーマンス向上・筋肉/組織プロパティのビューポート更新改善、【21.0.671（3/30）】USDファイルチューザーでのApprenticeファイルサポート追加。旧バージョン系（20.5.921〜922）も同様の修正が並行してリリースされた。",
+      "links": {
+        "SideFX Changelog": "https://www.sidefx.com/changelog/",
+        "Houdini 21.0.671 フォーラム": "https://www.sidefx.com/forum/topic/103501/?page=1"
+      }
+    }
+  ]
+}
