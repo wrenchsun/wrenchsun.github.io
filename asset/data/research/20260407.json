@@ -1,0 +1,129 @@
+{
+  "items": [
+    {
+      "name": "NVIDIA DLSS 5 発表：AIニューラルレンダリングがゲームグラフィックスを変革",
+      "level": "9",
+      "overview": "NVIDIAがGTC 2026でDLSS 5を発表。AIがライティング・マテリアルをリアルタイム生成し、RTX 50シリーズで秋リリース予定。",
+      "detail": "NVIDIAはGTC 2026（3月16日）にてDLSS 5を発表した。Jensen Huang CEOは「グラフィックスのGPTモーメント」と表現。Neural Texture Compression（NTC）ではVRAM使用量を6.5GBから970MBへ85%削減することを実演。Neural Materialsはリアルタイムで複雑な素材の外見を学習済みニューラル特徴で表現。RTX 50シリーズGPU向けに2026年秋リリース予定で、Starfield、Hogwarts Legacy、Assassin's Creed Shadowsなど16以上のゲームが対応確認済み。",
+      "links": {
+        "80.lv - NVIDIA GTC Neural Rendering Talk": "https://80.lv/articles/nvidia-has-presented-gtc-talk-on-neural-rendering",
+        "NVIDIA DLSS 5 公式": "https://www.nvidia.com/en-us/geforce/news/dlss5-breakthrough-in-visual-fidelity-for-games/",
+        "VideoCardz": "https://videocardz.com/newz/nvidia-reveals-dlss-5-powered-by-neural-rendering-launches-this-fall"
+      }
+    },
+    {
+      "name": "Unity レンダーパイプライン 2026年戦略：URPを中心に据えHDRPはメンテナンスモードへ",
+      "level": "8",
+      "overview": "Unityが2026年のレンダーパイプライン戦略を発表。URPを強化しHDRPは新機能なし、Built-inは6.5から廃止プロセス開始。",
+      "detail": "UnityはURPを主力に据えた2026年戦略を発表した。URPには物理ライトユニット対応、露出制御、物理ベースのスカイ、リアルタイムGI、スクリーンスペースリフレクションなど大幅な機能強化が予定されている。HDRPは新機能追加を行わずメンテナンスモードとなり、Nintendo Switch 2対応のみ実施予定。Built-in Render PipelineはUnity 6.5から廃止プロセスが始まり、Unity 6.7 LTSまで利用可能。Enterpriseユーザーは2029年まで延長サポートを受けられる。",
+      "links": {
+        "80.lv": "https://80.lv/articles/unity-unveils-2026-render-pipelines-strategy",
+        "Unity 公式": "https://unity.com/topics/render-pipelines-strategy-for-2026"
+      }
+    },
+    {
+      "name": "Unity AI GDC 2026：テキストプロンプトでゲーム生成するベータ版を発表",
+      "level": "8",
+      "overview": "UnityがGDC 2026でAIベータを公開。自然言語でカジュアルゲームを生成できる新しいオーサリング環境を提供開始。",
+      "detail": "Unity CEOのMatthew BrombergはGDC Festival of Gaming（3月）にて、コーディング不要でゲームを生成できるUnity AIベータを発表した。Unity AIは自然言語でプロジェクト内アセットを使った環境生成、プロファイラーのデバッグ支援、スケッチからのUI生成が可能。特にカジュアルゲームの完全生成を目指したウェブベースのオーサリング環境も提供される。Enhanced In-App Purchase（IAP）コマースツールもQ2でGA予定。「AIドリブンオーサリングは2026年の2番目の主要フォーカス」とCEOが言及。",
+      "links": {
+        "Game Developer": "https://www.gamedeveloper.com/programming/unity-says-its-ai-tech-will-soon-be-able-to-prompt-full-casual-games-into-existence-",
+        "ingamenews": "https://www.ingamenews.com/2026/02/unity-announces-ai-beta-for-prompt-to.html"
+      }
+    },
+    {
+      "name": "NVIDIA Kimodo オープンソース公開：大規模モーションキャプチャデータで訓練されたモーション拡散モデル",
+      "level": "8",
+      "overview": "NVIDIAが700時間超のモーキャプデータで訓練したKimodoをオープンソース公開。テキストからの高品質ヒューマノイドモーション生成が可能。",
+      "detail": "NVIDIA Researchは3月16日、Kimodo（Kinematic Motion Diffusion）をオープンソースで公開した。700時間以上のプロフェッショナルモーションキャプチャデータを使用して訓練された、過去最大規模の制御可能なモーション拡散モデル。2ステージTransformerアーキテクチャにより、テキスト説明や運動学的制約から単一GPU上で2〜5秒で高品質なモーションを生成可能。フルボディキーフレーム、スパース関節位置、2Dウェイポイントなど多様な制約に対応。5種類のモデルバリアントを提供。",
+      "links": {
+        "NVIDIA Research": "https://research.nvidia.com/labs/sil/projects/kimodo/",
+        "GitHub": "https://github.com/nv-tlabs/kimodo",
+        "80.lv": "https://80.lv/articles/nvidia-has-presented-gtc-talk-on-neural-rendering"
+      }
+    },
+    {
+      "name": "Rokoko Create：ブラウザベースのAIキャラクターアニメーション生成ツールを公開",
+      "level": "7",
+      "overview": "Rokokoがテキストプロンプトからキャラクターアニメーションを無料生成できるブラウザアプリRokoko Createを公開。FBX書き出しも可能。",
+      "detail": "Rokokoは4月3日、ブラウザベースのAIアニメーション生成ツール「Rokoko Create」を公開した。テキストプロンプトから人物キャラクターのアイドル・歩行・走行などのアニメーションを生成できる。世界最大のモーションアセットデータベースから訓練した独自AIモデルを使用。生成は無制限で無料だが、FBX形式でのエクスポートにはRokoko Studio（無料プランで月5クリップまで）が必要。有料プランは年$120から。プロトタイプ作成や小さなアニメーションギャップを効率的に埋めるための用途を想定している。",
+      "links": {
+        "80.lv": "https://80.lv/articles/rokoko-has-introduced-browser-based-app-for-generating-character-animations",
+        "CG Channel": "https://www.cgchannel.com/2026/04/rokoko-create-generates-full-body-animations-for-free/",
+        "Rokoko Create": "https://create.rokoko.com/"
+      }
+    },
+    {
+      "name": "Maya 2027 リリース：MotionMaker AI拡張・Smart Bevel・Bifrost 3.0など多数の新機能",
+      "level": "7",
+      "overview": "Autodesk Maya 2027が3月リリース。AIアニメーションのMotionMakerに馬サポート追加、Smart Bevel、Bifrost 3.0、Autodesk Assistantなど搭載。",
+      "detail": "AutodeskはMaya 2027を2026年3月26日にリリースした。主な新機能：①MotionMaker AIがヒューマノイド・犬型に加え馬もサポート②Smart Bevelがトポロジではなく表面形状に沿ったベベルを生成③LookdevX 2.0でUVエディタとノード連携が強化④Bifrost 3.0でシミュレーション機能が大幅改善⑤Autodesk Assistantがエディタ内でAI質問応答⑥ngSkinToolsベースの新スキンツールセット統合。Flow Studio（クラウドVFXプラットフォーム）へのアクセスボタンもStatus Lineに追加。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/03/autodesk-releases-maya-2027-and-maya-creative-2027/",
+        "80.lv": "https://80.lv/articles/autodesk-rolls-out-tons-of-updates-for-maya-3ds-max-flow-studio-and-more",
+        "Autodesk 公式": "https://help.autodesk.com/cloudhelp/2027/ENU/Maya-WhatsNew/files/GUID-D24D261B-4A78-47C2-918B-6EA461ADB002.htm"
+      }
+    },
+    {
+      "name": "Unity 6.4 と Unity Studio 同時リリース：ECSエディタ統合とブラウザベース3Dオーサリング",
+      "level": "7",
+      "overview": "Unity 6.4が3月20日リリース。Entity Component Systemをエディタに統合、コンソール向けAdaptive Performance対応。Unity Studioもブラウザで公開。",
+      "detail": "Unity 6.4が2026年3月20日にリリースされた。主な変更点：①ECS（Entities、Collections、Mathematics、Entities Graphics）がエディタに直接統合②Project Auditorもエディタ統合③PS4/PS5/Xbox One/Series X|S向けのAdaptive Performanceで自動LOD・解像度・シャドウスケーリング④シーンビューのスナッピングにカスタム回転対応⑤Terrain ShadingとMesh LODsのワークフロー改善。同時にUnity Studioもリリース。ゲーム開発者向けではなくインタラクティブ3Dコンテンツ向けの軽量ブラウザベースエンジン。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/03/unity-releases-unity-6-4-and-unity-studio/",
+        "Unity 公式": "https://discussions.unity.com/t/unity-6-4-is-now-available/1713245"
+      }
+    },
+    {
+      "name": "Babylon.js 9.0 リリース：Clustered LightingとWebGPU/WebGL2対応で大量ライトを高速処理",
+      "level": "6",
+      "overview": "MicrosoftのWeb向け3DエンジンBabylon.js 9.0が3月リリース。Clustered Lightingで数千の動的ライトをスムーズに処理できるようになった。",
+      "detail": "Babylon.js 9.0が2026年3月26日にリリースされた。目玉機能のClustered Lightingは、3D空間をタイルと深度スライスに分割し、各ピクセルが実際に影響を受けるライトのみ計算することで劇的な高速化を実現。WebGPUとWebGL 2の両方で動作し、数百〜数千のライトがあるシーンでもスムーズなフレームレートを維持可能。さらにOpenPBR対応、Geospatial Engine（地理空間）機能の追加、ツーリングの大幅アップデートも含む。Part 3のBlogでOpenPBRとエンジン追加更新の詳細が公開された（4月2日）。",
+      "links": {
+        "Windows Developer Blog": "https://blogs.windows.com/windowsdeveloper/2026/03/26/announcing-babylon-js-9-0/",
+        "Part 3 - OpenPBR更新": "https://blogs.windows.com/windowsdeveloper/2026/04/02/part-3-babylon-js-9-0-openpbr-and-additional-engine-updates/",
+        "Medium": "https://babylonjs.medium.com/welcome-to-babylon-js-9-0-c3edc9ee6428"
+      }
+    },
+    {
+      "name": "GodotCon 2026 アムステルダム開催決定：4月23〜24日",
+      "level": "6",
+      "overview": "Godot Foundationがオープンソースゲームエンジンの公式カンファレンスGodotCon 2026をアムステルダムで4月23〜24日に開催。",
+      "detail": "Godot FoundationとDutch Games Associationが共同でGodotCon 2026 Amsterdamを4月23〜24日にオランダ・アムステルダムのPathé Amsterdam Noord（Buikslotermeerplein 2003）で開催する。10:00〜18:00。ゲーム開発者、インディースタジオ、業界関係者を対象に、技術トーク、ネットワーキング、ショーケースを予定。オープンソースゲームエンジンとして急成長を続けるGodotの最新動向が共有される見込み。",
+      "links": {
+        "80.lv": "https://80.lv/articles/join-godotcon-in-amsterdam-this-april",
+        "公式サイト": "https://conference.godotengine.org/2026/",
+        "Godot Engine 公式": "https://godotengine.org/article/godotcon-2026/"
+      }
+    },
+    {
+      "name": "Unreal Fest Chicago 2026 開催決定：6月16〜18日にMcCormick Placeで",
+      "level": "6",
+      "overview": "Epic GamesがUnreal Fest Chicago 2026を6月16〜18日にシカゴのMcCormick Placeで開催予定。UE最新情報やUEFN発表が見込まれる。",
+      "detail": "Epic GamesはUnreal Fest Chicago 2026をシカゴのMcCormick Place Convention Centerにて6月16〜18日に開催すると発表した。Epic公式のフラッグシップイベントとして、Unreal Engine・Unreal Editor for Fortnite（UEFN）・Epicエコシステムの最新ニュースが発表される見込み。テクニカルセッション、エキスポフロア、ネットワーキングイベントなどが予定されており、アーリーバードチケットがすでに発売中。セッション登壇者の公募も行われている。なお、UE 5.8は2026年6月中旬リリースが予定されており、タイミングが重なる可能性がある。",
+      "links": {
+        "Unreal Engine 公式": "https://www.unrealengine.com/en-US/events/unreal-fest-chicago-2026",
+        "80.lv": "https://80.lv/articles/join-epic-games-at-gdc-festival-of-gaming-2026"
+      }
+    },
+    {
+      "name": "HoudiniのCOPsでオプティカルフローを実装：Lucas-Kanadeアルゴリズムで映像から動きを抽出",
+      "level": "5",
+      "overview": "開発者のJakob BockがHoudiniのCopernicus（COPs）ノードでオプティカルフローを実装。動画からの動き抽出でビジュアルエフェクトに応用可能。",
+      "detail": "アーティストのJakob BockはHoudiniのCopernicus（COPs）ノードを使用したオプティカルフロー実装を公開した。Lucas-Kanadeアルゴリズムに4レベルのガウシアンピラミッドを組み合わせることでリアルワールドの動きを精度高く追跡する。任意の入力動画から動き情報を抽出し、動きに基づいたエフェクトへの応用が可能。色と渦を満載した美しいトリッピーなアニメーションを生成できる。流体シミュレーション好きのBockらしい実験的なHoudiniのCOPs活用事例。",
+      "links": {
+        "80.lv": "https://80.lv/articles/check-out-how-developer-implemented-optical-flow-in-houdini-cops"
+      }
+    },
+    {
+      "name": "Open Light：プロシージャルHDRライトテクスチャを無料生成するスタンドアロンツール",
+      "level": "5",
+      "overview": "SkydanceのライティングアーティストBorja RamaがソフトボックスやゴボなどのHDRライトテクスチャを無料生成するOpen Lightツールを公開。",
+      "detail": "Skydance AnimationのライティングアーティストであるライティングアーティストBorja Ramaが、プロシージャルHDRライトテクスチャを生成する無料Windowsツール「Open Light」をリリースした。撮影やスキャン不要で、完全プロシージャルコントロールにより32ビットEXRファイルを生成。Nuke、Houdini、Blender、Maya、3ds Max、Unreal Engineなど主要なレンダラーに対応。収録ライト修飾子：ソフトボックス、ビューティーディッシュ、アンブレラ、LEDパネル、リフレクター、リングライト、ストリップライト、Kino Flo、ゴボ、グラデーション。Windows 10/11対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/free-tool-open-light-generates-procedural-hdr-light-textures/",
+        "Gumroad": "https://2583407267451.gumroad.com/l/openlight"
+      }
+    }
+  ]
+}
