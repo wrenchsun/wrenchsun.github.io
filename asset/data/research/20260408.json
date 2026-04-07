@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "name": "GaussianGPT：自己回帰型3DガウシアンスプラッティングシーンAI生成手法",
+      "level": "9",
+      "overview": "ミュンヘン工科大がGPTスタイルのTransformerで3DGSシーンをトークン単位で逐次生成するGaussianGPTを発表。生成・補完・アウトペインティングが単一パイプラインで可能。",
+      "detail": "ミュンヘン工科大のNicolas von Lützow氏らが3月27日にarXiv公開（CGWORLD.jp紹介：4月7日）。3D Gaussian Splattingシーンをトークン列として扱い、GPTと同様の自己回帰予測で逐次生成する新手法。処理は①スパース3D畳み込みオートエンコーダによるデータ圧縮→②ベクトル量子化による離散潜在表現化→③3D回転位置エンコーディング→④因果Transformerによる逐次生成という4ステージ構成。拡散モデルと異なり各ステップで明示的にシーン分布をモデリングするため、温度制御による多様なサンプリングや柔軟な生成長に対応。シーン補完・大規模アウトペインティングも同一モデルで実現。コード公開は準備中。",
+      "links": {
+        "arxiv": "https://arxiv.org/abs/2603.26661",
+        "プロジェクトページ": "https://nicolasvonluetzow.github.io/GaussianGPT/",
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/01-202604-GaussianGPT.html"
+      }
+    },
+    {
+      "name": "Unite 2026 開催決定：Unite Tokyo 7年ぶり復活・ソウルと同年開催",
+      "level": "8",
+      "overview": "Unity年次カンファレンスUnite 2026がソウル（7/21）と東京（11/17）で開催決定。Unite Tokyoは2019年以来7年ぶり。",
+      "detail": "Unityが公式に2026年のUnite開催を発表した（GameMakers.jp：4月7日）。Unite Seoul 2026は7月21日（火）に韓国ソウルのCOEXで開催。Unite Tokyo 2026は11月17日（火）に東京で開催予定（会場は未発表）。Uniteは毎年Unityの開発ロードマップ発表・技術セッション・ナレッジ共有を行う最重要カンファレンス。Unite Tokyo 2025は開催されず東京での開催は2019年以来7年ぶりとなる。Unite Seoul 2026の一部セッション情報は4月中に公開予定。なお、Unite 2025ではUnityとEpic Gamesのパートナーシップが発表されていた。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_07_135178/"
+      }
+    },
+    {
+      "name": "モバイルで60fps流体シミュレーション実現：スパーククリエイティブの最適化手法",
+      "level": "8",
+      "overview": "スパーククリエイティブがUnity URP上でモバイル向け60fps流体シミュレーションを実現した最適化手法をブログ公開。レンダリングコストを約1/11に削減。",
+      "detail": "スパーククリエイティブが3月30日に技術ブログ公開、GameMakers.jpが4月7日に紹介。Unity URP上でモバイル向けの「ふわふわ流体シミュレーション」を60FPSで動作させる手法を解説。PC側でシミュレーションを事前計算しモバイルGPUのVRAM制約に合わせてデータを圧縮するアプローチを採用。Tile Based Deferred Rendering（TBDR）最適化、FP16精度計算、オプティカルフロー処理を活用。流体のベースフレームレートは15fpsとし、GPUによる補間処理で最終的な60fps表示を実現。1エフェクト当たりのレンダリングコストを約0.47ms（約1/11）に削減することに成功した。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_07_135165/"
+      }
+    },
+    {
+      "name": "mGear 5.3 for Maya リリース：Python 3.13対応・ブレンドシェイプ転送ツール追加",
+      "level": "7",
+      "overview": "MayaのオープンソースリギングフレームワークmGear 5.3がリリース。Python 3.13対応でVFXリファレンスプラットフォームCY2026準拠、無料MITライセンス。",
+      "detail": "mGear開発チームがmGear 5.3をリリース（CG Channel：4月7日）。主要新機能は①Blendshape Setup Transferツール：キャラクターメッシュ間でブレンドシェイプセットアップを自動転送②SDK Creator：タイムラインポーズから直接Set Driven Keyセットアップを生成③Guide Template Manager：ブラウズ可能なリグテンプレート管理④Bookmarks Tool：セレクション管理⑤Matcap Viewer：ビューポートマテリアルプレビュー。Python 3.13に対応しVFXリファレンスプラットフォームのCY2026仕様に準拠。Maya 2022以降・Unreal Engine 5.2以降・Windows/macOS/Linux対応。MITライセンスで無料提供、GitHubからバイナリダウンロード可能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/get-free-maya-character-rigging-toolset-mgear-5-3/",
+        "GitHub": "https://github.com/mgear-dev/mgear4"
+      }
+    },
+    {
+      "name": "PlayStation「The Playerbase」発表：フォトグラメトリでファンをゲームにスキャン",
+      "level": "7",
+      "overview": "ソニーがThe Playerbaseプログラムを発表。フォトグラメトリと3Dスキャン技術でPS5ゲームにファンのリアルな顔・体をキャラとして登場させる。",
+      "detail": "Sony Interactive Entertainmentが4月7日にThe Playerbaseを発表。PlayStation公式ブログによるとAAA制作で使われる実績済みのフォトグラメトリ・パフォーマンスキャプチャ技術を活用。選出されたファンはロサンゼルスのビジュアルアーツスタジオでスキャンを受け、全方位カメラリグで高解像度3Dモデル（顔の細部・体型・テクスチャ含む）を生成。最初の対象ゲームはGran Turismo 7でキャラクターポートレートとして登場、ファンタジーロゴ・車のリバリーも作成できる。アメリカス・ヨーロッパ・アジア・南アフリカ・オーストラリアの一部市場で応募可能。",
+      "links": {
+        "PlayStation Blog": "https://blog.playstation.com/2026/04/07/introducing-the-playerbase-bringing-playstations-biggest-fans-into-blockbuster-playstation-studios-games",
+        "Gematsu": "https://www.gematsu.com/2026/04/sony-interactive-entertainment-announces-the-playerbase-program-to-scan-players-into-playstation-games",
+        "80.lv": "https://80.lv/articles/playerbase-is-playstation-s-plan-to-officially-scan-gamers-into-games"
+      }
+    },
+    {
+      "name": "Open Light：プロ品質のHDRライトテクスチャを無料生成するツール（ベータ公開）",
+      "level": "6",
+      "overview": "Skydance AnimationのBorja Rama氏が32bit 4K HDRライトテクスチャをリアルタイム生成する無料ツールOpen Lightをベータ公開。主要DCCツール全対応。",
+      "detail": "Skydance AnimationのシニアライティングアーティストBorja Rama氏がOpen Lightをリリース（CG Channel：4月6日）。ソフトボックス・LEDパネル・リフレクター・リング/ストリップライト・蛍光灯など10種のリアルスタジオライトを再現する32bit 4K HDR EXR/HDRテクスチャをリアルタイム生成。スライダー操作でリアルタイムプレビュー可能。色温度・バーンドア・グリッドオーバーレイ・ビネット調整機能、LeeとRoscoカラーゲルライブラリも搭載。ACEScgとsRGB Linearカラースペース対応。3ds Max・Blender・Houdini・Maya・Unity・Unreal Engineに対応。Windows 10以降でウェブブラウザ経由で動作（macOS版開発中）。Gumroadで無料提供（寄付歓迎）。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/free-tool-open-light-generates-procedural-hdr-light-textures/"
+      }
+    },
+    {
+      "name": "Retopoflow 4 for Blender：エディットモードへ統合・オートセーブ機能を解決",
+      "level": "6",
+      "overview": "BlenderのリトポロジーアドオンRetopoflow 4がリリース。Blender長年の問題だったエディットモードでのオートセーブを独自実装で解決。Blender 4.2以降対応。",
+      "detail": "Orange TurbineがRetopoflow 4をリリース（CG Channel：4月7日）。主要アップデートはBlenderのEdit Modeへの直接統合によりノンブロッキングの高速ワークフローを実現。新アルゴリズムとホットキーで作業速度が向上。バージョン4.1.5のアップデートではBlenderが元来持っていないEdit Modeでのオートセーブ機能を独自実装で解決（Blender本体の長年の問題を回避）。カーブ・NURBS・メタボール・テキストなど非メッシュオブジェクトもサポート。Strokes・PolyStrips・PolyPen・Tweak・RelaxブラシなどのツールはサポートされているがPatchesツールは未実装。Blender 4.2以降必須。個人ライセンスは$85.99、Superhiveにて。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/orange-turbine-releases-retopoflow-4-for-blender/"
+      }
+    },
+    {
+      "name": "Autodesk CG Festa 2026 開催案内：4/22（水）オンライン無料セミナー",
+      "level": "6",
+      "overview": "映像・ゲーム・アニメ分野のAutodesk製品活用事例を学ぶ無料オンラインセミナーが4月22日（水）13:00〜18:00に開催。Gundam・CyberConnect2登壇。",
+      "detail": "Too社主催のAutodesk CG Festa 2026が4月22日（水）13:00〜18:00にオンライン開催（エリアジャパン告知）。セッション内容：①3DCGと生成AI統合（映像制作）②CyberConnect2の30年ゲーム・CG制作の歴史③『閃光のハサウェイ キルケーの魔女』の3DCG制作舞台裏（Maya・3ds Max使用事例）④その他実践者によるプレゼン。ゲーム・映像・アニメそれぞれの現場でのMaya・3ds Max・Flow Production Trackingなどの実際の活用事例を学べる。無料登録制でPC・スマートフォン・タブレットから参加可能。",
+      "links": {
+        "AREA JAPAN": "https://area.autodesk.jp/event/partners/autodesk-cg-festa-2026/",
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_03_26_134251/"
+      }
+    },
+    {
+      "name": "ゲーム開発ツールアップデートまとめ【2026/4/4】：Wafer・Godot 4.6.2・Unity・Construct 3等",
+      "level": "5",
+      "overview": "4月4日週のゲーム開発ツール更新情報。Wafer無料ベータ(Win版)、Godot 4.6.2、Unity 6000.0.72f1、Construct 3 r479.2など複数ツールが更新。",
+      "detail": "GameMakers.jpが4月4日のゲーム開発ツール更新情報をまとめた。主な更新：①Wafer 1.1.21 Beta（Windows版、3Dテクスチャペイントツール、スタイライズドNPRテクスチャ対応、テクスチャエクスポートは有料）②Godot 4.6.2（メンテナンスリリース、String::splitクラッシュ修正）③Unity 6000.0.72f1（バージョン管理UI改善、日中韓テキストレンダリングクラッシュ修正）④Construct 3 Beta r479.2（3Dエディタプレビュー追加）⑤UNIGINE 2.21（ノードベースアニメーションエディタ追加）⑥RealityScan 2.1.1（COLMAPフォーマット対応強化）⑦Cesium for Unreal v2.25.0（ボクセルベースマテリアル生成対応）⑧nizima LIVE 2.6（トラッキング精度向上）。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_04_134894/"
+      }
+    },
+    {
+      "name": "Krita 5.3.1 と 6.0.1 同時リリース：WindowsアクセシビリティのQML問題を修正",
+      "level": "5",
+      "overview": "Krita 5.3.1と6.0.1が3月31日に同時リリース。PowerToysやGoogle DriveプラグインによりKritaが極端に遅くなる問題を修正。6.0系はQt6ベースで試験的。",
+      "detail": "Krita 5.3.1と6.0.1が2026年3月31日にリリースされた。主要修正はWindows環境でMicrosoft PowerToys Fancy ZonesやGoogle Driveプラグインなど一部アプリとの競合によりKritaが極端に遅くなる問題。原因はQtのQMLモジュールがアクセシビリティ機能のためにすべてのアクティブ画面オブジェクトを再帰的にクエリしていたことで、メニュー操作まで遅くなっていた。mutatorショートカットをCtrl+Alt+Shift+Mに変更（マニュアル準拠）。Krita 5.3.1は実務使用に適した安定版。Krita 6.0.1はQt5からQt6への多大な変更のため試験的な位置づけ。",
+      "links": {
+        "Krita 公式": "https://krita.org/en/posts/2026/krita-5.3.1-released/"
+      }
+    },
+    {
+      "name": "CGWORLD vol.333（2026年5月号）4月10日発売：「CGインディーズ仕事術」特集",
+      "level": "4",
+      "overview": "CGWORLD vol.333が4月10日（金）発売。特集は「CGインディーズ仕事術」でフリーランスや個人CG制作者の案件獲得・ワークフロー・チーム運営・海外展開を特集。",
+      "detail": "CGWORLD（シージーワールド）vol.333（2026年5月号）が4月10日（金）に発売される。メイン特集「CGインディーズ仕事術」では、フリーランス・少人数チームのCGクリエイターが自己プロジェクトを継続するための企画・ワークフロー最適化・チームマネジメント・海外展開・資金計画などを特集。インディーズ市場の成長に伴い、個人・小規模でのCG制作ビジネスへの関心が高まる中でのタイムリーな特集号。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/magazine/cgw333.html"
+      }
+    }
+  ]
+}
