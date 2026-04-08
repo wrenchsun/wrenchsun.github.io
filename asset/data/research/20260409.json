@@ -1,0 +1,91 @@
+{
+  "items": [
+    {
+      "name": "Maya 2027 リリース：ngSkinTools統合・MotionMaker馬追加・LookdevX 2.0",
+      "level": "8",
+      "overview": "スキニング・モデリング・USDワークフロー強化。ngSkinTools統合、AI生成馬アニメーション、LookdevX 2.0搭載。",
+      "detail": "Autodesk Maya 2027がリリース。主な強化点：①ngSkinToolsを統合しレイヤー式ウェイト編集が可能に、②MotionMakerに馬のアーキタイプを追加しAI生成アニメーションを拡張、③Smart Bevel（メッシュ形状に沿った高品質ベベル生成）を搭載、④LookdevX 2.0でノードベースのマテリアル・シェーディング編集が可能に、⑤USD向けComponent CreatorとVariant Managerを強化、⑥Bifrostで手続き的破壊シミュレーションとFlow Wedgingをサポート、⑦Flow Studio連携ボタン追加、⑧Autodesk Assistantのチャットベースヘルプを搭載。サブスクリプション$255/月または$2,010/年。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/2604-maya2027.html",
+        "Autodesk Blog": "https://blogs.autodesk.com/media-and-entertainment/2026/03/25/whats-new-in-maya-and-3ds-max/",
+        "CG Channel": "https://www.cgchannel.com/2026/03/autodesk-releases-maya-2027-and-maya-creative-2027/",
+        "80.lv": "https://80.lv/articles/autodesk-rolls-out-tons-of-updates-for-maya-3ds-max-flow-studio-and-more"
+      }
+    },
+    {
+      "name": "3ds Max 2027 リリース：Smart Bevel・Noise Plus・Autodesk Assistant搭載",
+      "level": "8",
+      "overview": "Smart Bevel・Noise Plus等の新モディファイア追加、Autodesk AssistantによるチャットAIガイド、Arnoldパフォーマンス改善。",
+      "detail": "Autodesk 3ds Max 2027がリリース。主な新機能：①Smart Bevel（Boolean後の複雑トポロジーに対応するポストBooleanベベル）、②Noise Plus（改善されたデフォーメーションコントロール）、③Field Helpers追加、④ExtrudeモディファイアがスプラインをGizmoベース方向で押し出し可能に、⑤Spline ChamferのFixed-radiusオプションと頂点自動ウェルド、⑥Autodesk Assistantのチャットベースガイド搭載、⑦ビューポート表示カスタマイズとグリッド設定の強化、⑧Arnold：軽量USDインスタンシング・グローバルライトサンプリング・GPU Volume・TX処理のパフォーマンス改善。サブスクリプション$255/月または$2,010/年。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/2604-3dsmax2027.html",
+        "CG Channel": "https://www.cgchannel.com/2026/03/autodesk-releases-3ds-max-2027/",
+        "80.lv": "https://80.lv/articles/maya-2027-3ds-max-2027-add-smart-bevel-tool"
+      }
+    },
+    {
+      "name": "Reallusion 2026ビジョン発表：iClone 9・RTX Render・Headshot 3・CC Wrap等",
+      "level": "8",
+      "overview": "RTXレンダリング無償提供、Headshot 3のAI顔復元、iClone 9のユニバーサルリグなどハイブリッドAI戦略を発表。",
+      "detail": "Reallusionが2026年の技術ロードマップを公開。主な発表：①RTX Render（NVIDIAと共同開発、パストレースをほぼリアルタイム速度で実現、デジタルヒューマンシェーダー最適化）無償提供、②Headshot 3（独自AIモデルによる高精度顔復元、4Kテクスチャ生成）、③AccuFACE 2（Character Creator 5向けAIリップシンクトラッキング強化）、④CC Wrap（AI生成モデルをCC標準トポロジに変換）、⑤Joint Corrective Morphs（JCM、ポーズ精度向上）、⑥AI Studio（3Dプリビズから写実的画像・動画生成）、⑦iClone 9（あらゆるモデルへのユニバーサルリグ、カスタムコントロールリグ、コリジョン考慮シミュレーション）。",
+      "links": {
+        "Reallusion Magazine": "https://magazine.reallusion.com/2026/04/08/reallusion-announces-2026-vision-redefining-3d-production-through-the-power-of-hybrid-ai/"
+      }
+    },
+    {
+      "name": "Beeble Background Remover：AI動画ロトスコープ自動化ツール公開",
+      "level": "6",
+      "overview": "AIを用いた動画・画像の前景マスク自動生成ツール。2000フレームまで処理し10bit RGBA出力に対応。",
+      "detail": "BeebleがAIベースの動画・画像背景除去ツール「Background Remover」を公開。主な機能：①動画・画像・連番の前景マスクを高品質に自動生成（ロトスコープ自動化）、②最大20ファイルまたは2,000フレームのシーケンスを処理、③10bit RGBAビデオ（アルファチャンネル付き）・RGBAのPNG連番・アルファのみ出力に対応、④複雑な映像内の複数オブジェクトを個別に分離可能。同社はリライティング・環境変更などの機能も含む統合ポストプロダクションワークフローの構築を目指している。",
+      "links": {
+        "80.lv": "https://80.lv/articles/beeble-presents-background-remover-a-tool-for-isolating-subjects-in-videos-images"
+      }
+    },
+    {
+      "name": "Scaniverse Enterprise版リリース：複数ユーザー広域3Dスキャン対応",
+      "level": "6",
+      "overview": "Nianticの3DスキャンアプリScaniverseにエンタープライズ版が登場。複数ユーザー共同スキャン・クラウド処理をサポート。",
+      "detail": "Niantic Spatialが3DスキャンアプリScaniverseのEnterprise版をリリース。主な機能：①複数ユーザーが異なるデバイスでスキャンしクラウド上で単一モデルに統合、②360°カメラやドローンからのデータ取り込み対応、③ウェブポータルでのメッシュ・Gaussian Splat・位置マップ管理、④オフライン環境でのVPSマップ品質確認、⑤組織をまたいだアクセス権管理。出力はオープンソースSPZ形式（従来比ファイルサイズ90%削減）に対応。",
+      "links": {
+        "Gamemakers.jp": "https://gamemakers.jp/article/2026_04_08_135220/",
+        "Scaniverse": "https://scaniverse.com/"
+      }
+    },
+    {
+      "name": "WOW×PLATEAU：広島市3D都市モデル活用の映像制作チュートリアル第3弾公開",
+      "level": "5",
+      "overview": "WOWが国交省PLATEAUの広島市3D都市モデルを用いたミニチュアルック映像制作チュートリアルの第3弾を公開。",
+      "detail": "映像プロダクションWOWが、国土交通省のオープン3D都市モデルPLATEAUを活用した映像制作技術チュートリアルの第3弾を公開。広島市の3D都市モデルを用い、ミニチュアルック表現の映像を制作。PLATEAUを実際のCG制作ワークフローに組み込む手法を解説。シリーズを通じてリアル都市データをCG制作パイプラインに活用する方法を実践的に紹介している。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202604-WOW-PLATEAU.html"
+      }
+    },
+    {
+      "name": "BlenderのCloth & Muscle Simulation高度ワークフロー解説（Sirdioz69）",
+      "level": "5",
+      "overview": "筋肉・脂肪・皮膚の3層クロスシミュレーションを組み合わせた高精度キャラクター変形手法の技術解説。",
+      "detail": "アーティストSirdioz69がBlenderで実装した多層クロスシミュレーションワークフローを解説。構成：①Muscle Layer（個別にリトポロジーした筋肉メッシュへクロスシミュレーション適用）、②Fat Layer（筋肉の皮膚への近さに応じて厚みが変化）、③Skin Layer（プロキシメッシュのクロスシミュレーション）。技術要素：リトポロジー・Boolean・Quad Remesher・ウェイトペイント・個別筋肉への圧力・スプリング剛性パラメーター調整・Surface Deformの大量マスク・テンション駆動シワマップ。アルンビックでのエクスポートにより再生。",
+      "links": {
+        "80.lv": "https://80.lv/articles/impressive-cloth-muscle-simulation-workflow-made-in-blender"
+      }
+    },
+    {
+      "name": "第2回「Houdini 60 Minutes」東京開催：2026年5月22日",
+      "level": "4",
+      "overview": "2026年5月22日（金）に東京で「Houdini 60 Minutes」第2回イベントが開催。Houdiniを用いた60分チャレンジ。",
+      "detail": "CGWORLDが告知。2026年5月22日（金）に東京で「Houdini 60 Minutes」第2回が開催される。HoudiniのSideFX製ツールを用いて60分間で作品を制作するチャレンジイベント。参加者はリアルタイムで競技形式での制作に取り組む。詳細はCGWORLDフラッシュニュースを参照。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/02-2604-houdini-60-minutes.html"
+      }
+    },
+    {
+      "name": "Houdini 21.0.679 バグフィックスアップデート",
+      "level": "3",
+      "overview": "Prisms PipelineとSpace Mouse利用時の起動クラッシュ修正、Unreal連携XCodeエラー解消など安定性向上パッチ。",
+      "detail": "SideFXがHoudini 21のプロダクションビルドを21.0.679に更新。主な修正：①Prisms PipelineとSpace Mouse併用時の起動クラッシュを解決、②hkeyログインダイアログのSideFXアカウントとライセンスサーバー混同を修正、③Unreal連携のXCodeコンパイルエラーを修正、④Layout LOPのhipファイル再オープン時のプロトタイプ読み込み問題を修正、⑤アニメーションエディタのボックスハンドルとRetimeツールのマルチチャンネルキーコラプスを修正。",
+      "links": {
+        "SideFX Changelog": "https://www.sidefx.com/changelog/"
+      }
+    }
+  ]
+}
