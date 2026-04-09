@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "name": "Cascadeur 2026.1リリース：Filamentレンダリング・UE LiveLink・AI Root Motion搭載",
+      "level": "9",
+      "overview": "PBRエンジンFilament採用でビジュアル品質が大幅向上。UE LiveLinkでリアルタイムプレビュー、AIによるRoot Motionツールも追加。",
+      "detail": "Cascadeur 2026.1がリリース。主な更新点：①レンダリングエンジンをFilament（物理ベースリアルタイムレンダラー）に刷新し、高品質マテリアルとリアルなライティングを実現。②Epic MegaGrants支援によるUnreal Engine LiveLink統合で、Cascadeurからリアルタイムにアニメーションをプレビュー可能（手動エクスポート不要）。③AI Root Motionツール（拡散モデルによるアニメーションスタイル転写）追加。④Collision Penetration Cleaning（キャラクター交差・床貫通の自動解消）、⑤四足キャラのAutoPosing改善、⑥Point Constraints（物理シム中の武器・ツールの手への追従）、⑦macOSパフォーマンス修正など30以上の改善を含む。",
+      "links": {
+        "80.lv": "https://80.lv/articles/cascadeur-2026-1-arrives-with-rendering-engine-overhaul"
+      }
+    },
+    {
+      "name": "AutdodeskがAI mocapスタートアップRadicalのコア技術・IPを完全取得",
+      "level": "8",
+      "overview": "Autodesk がRadicalのAI mocap技術とIPを完全買収。サービスは2026年7月6日終了、データのダウンロードが必要。Maya統合を計画。",
+      "detail": "AutodeskがRADiCALのコア技術およびIP（Motion／Canvas）を完全取得。2022年の初期投資に続く完全買収。Radical Coreは単眼カメラ映像からモーションを抽出しFBX出力、Radical LiveはBlender・Maya・Unity・UE5へのリアルタイムストリーミングが可能。買収によりAutodeskはクラウドを通じたエンド・ツー・エンドのコンテンツ制作「民主化」を推進する方針。現行サービスは2026年7月6日にシャットダウン予定。既存ユーザーはデータをダウンロード可能（データはAutodeskに共有されない）。年間サブスクユーザーには未使用分の返金が行われる。Maya等への具体的な統合スケジュールは未公開。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/autodesk-acquires-core-tech-of-ai-motion-capture-firm-radical/"
+      }
+    },
+    {
+      "name": "Move Genesis：シネマ品質マーカーレスモーションキャプチャシステム発表",
+      "level": "7",
+      "overview": "Moveが企業向けマーカーレスmocapシステムGenesisを発表。Z-Cam採用でシネマ品質、NVIDIA GPU処理でオンプレ動作、光学系と同等の品質を実現。",
+      "detail": "Move.aiが新フラッグシップシステムGenesisを発表。コンシューマー向けMove Proから企業向けエコシステムへの戦略的転換を示す。技術的特徴：①Z-Camを採用しシネマ品質のイメージング（動的レンジ・色精度・シャープネス）を実現。②ハードウェアレベルのgenlockとタイムコード対応で複数カメラの同期キャプチャ。③チェッカーボードパターンによる自動キャリブレーション。④NVIDIA GPU（ローカル）によるオンプレミス処理でスタジオ向けセキュリティを確保。⑤Peel Captureとの連携で既存ワークフローに統合可能。⑥既存第三者mocapシステムのRGB/グレースケール映像の取り込みにより、レガシーハードウェアのマーカーレス化も対応。ターゲット：VFXスタジオ、AAAゲーム開発会社。",
+      "links": {
+        "80.lv": "https://80.lv/articles/move-s-new-markerless-motion-capture-system-genesis-promises-cinema-quality-imaging"
+      }
+    },
+    {
+      "name": "UE5「Substrate」マテリアルシステムをEpic Games Japanが解説（GCC 2026）",
+      "level": "7",
+      "overview": "GCC 2026でEpic Games JapanがUE5の新標準マテリアルシステムSubstrateの内部構造・パフォーマンスを解説。スライド資料が公開された。",
+      "detail": "GCC 2026でEpic Games Japanの鈴木氏が「UE5の新標準マテリアルシステムSubstrateの内部構造とパフォーマンス」と題した講演を行い、スライド資料が公開。Substrateの基本構成：①Slab（物理パラメーターを持つ最小マテリアル単位）、②Operators（マテリアルプロパティの操作・合成機構）、③Tree（マテリアルトポロジーの概念的表現）。新機能：多層ダスト表現・油膜テクスチャなど従来システムでは不可能だったエフェクトが実現可能。後方互換性：シェーダーコンパイラが旧システムからSubstrateへ自動変換し、既存マテリアルは変更不要で移行可能。パフォーマンス設定：Adaptive GBuffer（文脈依存最適化）とBlendable GBuffer（代替レンダリング）の2モードを比較データ付きで解説。将来的に旧システムは段階的廃止予定。",
+      "links": {
+        "Gamemakers.jp": "https://gamemakers.jp/article/2026_04_09_135292/"
+      }
+    },
+    {
+      "name": "Seen2Scene：不完全な3Dスキャンデータから現実的3Dシーンを補完・生成する技術",
+      "level": "6",
+      "overview": "ミュンヘン工科大学・バージニア大学による3Dシーン補完生成技術。可視性ガイドFlowマッチングとTSDF表現で欠損部分を補完・テキスト生成も可能。",
+      "detail": "Technical University of Munich・University of Virginiaの研究チームが「Seen2Scene」を発表（2026年3月30日）。コア技術：「Visibility-Guided Flow Matching」を採用し、カメラで見えていない未知領域をマスクして観測済みデータのみから形状分布を学習する独自アプローチ。空間表現：Sparse GridsにエンコードされたTruncated Signed Distance Fields（TSDF）で高精度ジオメトリを低計算コストで表現。処理パイプライン：①Masked Sparse VAEが部分スキャンを潜在表現に変換、②Sparse Transformerが空間構造をモデリング、③ControlNetが欠損部のInpainting処理、④LLMがテキストから3Dシーン生成を担当。用途：スキャン欠損補完・新規3D環境生成・複雑環境の頑健な再構成。ソースコード公開準備中（発表時点では未公開）。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202604-Seen2Scene.html"
+      }
+    },
+    {
+      "name": "UnityとMetaがXR開発向けマルチイヤーパートナーシップを延長",
+      "level": "6",
+      "overview": "UnityとMetaがVR/XR開発のための複数年エンタープライズ契約を延長。Unity製ゲームがMeta Quest上位販売の大半を占める体制を維持。",
+      "detail": "UnityとMetaが、XR開発サポートを強化するマルチイヤープラットフォームサポートおよびエンタープライズ契約を延長。UnityのCOO Alex Blumによれば「MetaはVRのリーディングプラットフォームであり、UnityがMeta Questのトップセラーゲームの大半を支えている」と強調。本延長は2026年4月8日に発表。Oculusの初期から続くコラボレーションをさらに深化させる内容。XR開発者にとってはUnityのMetaプラットフォーム向けサポートが継続されることが確認された形。",
+      "links": {
+        "Game Developer": "https://www.gamedeveloper.com/",
+        "Road to VR": "https://www.roadtovr.com/meta-extends-commitment-xr-development-meta"
+      }
+    },
+    {
+      "name": "UnityエディタでMesh Colliderを自動最適化するツール「Mesh Collider Optimizer」",
+      "level": "5",
+      "overview": "Unity Asset StoreでMesh Collider Optimizerが更新。コライダーを自動分析・最適化・再構築するエディタツール。アニメ・ブレンドシェイプにも対応。",
+      "detail": "Occlusionn製「Mesh Collider Optimizer」がUnity Asset Storeで2026年4月7日に更新。主な機能：①選択オブジェクトとその子を自動スキャンしコライダーを最適化・再構築（数クリックで完了）、②Runtime Animated Colliderモード（スキンポーズをベイクし実行時に自動更新）、③LODサポート（アクティブなLODレベルにのみコライダーを有効化）、④ヒートマップ+エラーライン可視化でパフォーマンス分析、⑤プリセットプロファイルでワークフロー効率化。特にconcaveワークフロー・アニメメッシュ・ブレンドシェイプトラッキングで有効。プロジェクト規模拡大に伴うコライダーコストの肥大化（高ポリコライダー・不整合なconvex設定・LODコライダー重複）を解消。",
+      "links": {
+        "80.lv": "https://80.lv/articles/make-your-mesh-colliders-more-effective-directly-in-unity-editor",
+        "Unity Asset Store": "https://assetstore.unity.com/packages/tools/physics/mesh-collider-optimizer-advanced-animation-collider-blendshape-c-354322"
+      }
+    },
+    {
+      "name": "Blenderで3Dと2Dを融合したアニメーション東京ジオラマ作品の手法解説",
+      "level": "5",
+      "overview": "BlenderにGrease Pencil・手書きテクスチャ・物理シムを組み合わせたスタイライズド東京ジオラマ映像の制作ワークフロー解説記事。",
+      "detail": "80.lvに掲載されたBlenderによる東京ジオラマ制作ワークフロー解説。主な技術：①ローポリジオメトリ＋スタイライズドカーブをベースに、UV展開はUnwrap Minimum Stretch/Angle Based法で効率化。②手書き詳細をタイリングマップにオーバーレイし、プロシージャルノイズでペインタリーなノーマルマップを生成。③Solidifyモディファイアでノーマル反転のアウトライン。④Grease Pencilにテクスチャブラシを用いて植生・建物の不完全な詳細を追加（2D/3Dブレンド）。⑤アニメーション：Wigglyアドオン（Lattice変形で植生・洗濯物のゆらぎ）、ShapeScapeアドオン（樹木生成・葉散乱）、RBCシミュレーション（車両の物理移動）、リファレンス動画に基づくリギングとキーフレームアニメーション。⑥2つのHDRIとサンライトの組み合わせでゴールデンアワー照明を実現、Appendコマンドで各パーツをアセンブリ。",
+      "links": {
+        "80.lv": "https://80.lv/articles/creating-animated-tokyo-diorama-in-3d-with-2d-elements-using-blender"
+      }
+    },
+    {
+      "name": "Autodesk CG Festa 2026：4月22日オンライン開催",
+      "level": "4",
+      "overview": "オートデスクが特別協賛するCGイベント「Autodesk CG Festa 2026」が2026年4月22日13:00〜18:00にライブ配信で開催予定。",
+      "detail": "area.autodesk.jpで告知。Autodesk CG Festa 2026が2026年4月22日（水）13:00〜18:00にオンラインライブ配信形式で開催。Autodeskが特別協賛する形で、CGクリエイター向けのイベント。セッション・登壇者などの詳細はイベントページを参照。",
+      "links": {
+        "Autodesk Area Japan": "https://area.autodesk.jp/event/autodesk/autodesk-cg-festa-2026/"
+      }
+    },
+    {
+      "name": "CGWORLD vol.333（2026年5月号）4月10日発売：「CGインディーズ仕事術」特集",
+      "level": "3",
+      "overview": "CGWORLD 2026年5月号が4月10日に発売。技術進化で少人数でも世界に届く映像制作が可能な時代のインディーズCG制作・運営ノウハウを特集。",
+      "detail": "CGWORLD vol.333（2026年5月号）が4月10日（金）に発売。特集テーマ「CGインディーズ仕事術」では、AIをはじめとする技術の進化により少人数チームや個人でも世界水準の映像制作が可能になった時代のノウハウを紹介。インディーズとして制作・運営を両立する方法論を実践的に解説する内容。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/magazine/cgw333.html"
+      }
+    }
+  ]
+}
