@@ -1,0 +1,105 @@
+{
+  "items": [
+    {
+      "name": "AutodeskがAIモーションキャプチャ企業RadicalのコアIP・技術を完全買収",
+      "level": "9",
+      "overview": "AutdeskがAIモーションキャプチャ企業RadicalのコアテクノロジーとIPを完全取得。ウェブポータルは7月6日をもって閉鎖。",
+      "detail": "Autodeskは2022年に初期投資後、今回Motion（Radical Core/Live）とCanvas（3Dコラボエディタ）のIPを完全買収。既存ユーザーは2026年7月6日までデータダウンロード可能。単一カメラ映像からAIでモーションデータを抽出するRadical Coreの技術がAutodeskに統合される見通し。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/autodesk-acquires-core-tech-of-ai-motion-capture-firm-radical/"
+      }
+    },
+    {
+      "name": "Cascadeur 2026.1リリース：AI Root Motion・UE5 Live Link・Filamentレンダラー搭載",
+      "level": "8",
+      "overview": "AI支援アニメーションCascadeur 2026.1がAI Root Motionシステム、UE5.5+対応Live Link、Filamentレンダラーを搭載してリリース。",
+      "detail": "Root MotionはAIによるキーポーズ間のアニメーション自動生成機能で、Inbetweening より多様な結果を生成。FilamentはGoogleの物理ベースレンダリングエンジンで新デフォルトビューポートレンダラーに採用。Cascadeur有料版ユーザーはUE5.5以降に対応したLive Linkプラグインが利用可能。Windows/Linux/macOS対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/nekki-releases-cascadeur-2026-1/",
+        "80.lv": "https://80.lv/articles/cascadeur-2026-1-arrives-with-rendering-engine-overhaul"
+      }
+    },
+    {
+      "name": "Chaos Phoenix流体シミュレーションソフト廃止：新機能追加・互換性更新なし",
+      "level": "8",
+      "overview": "ChaosがPhoenix流体シミュレーションソフトをend-of-support状態に。3ds Max・Maya向けの今後の更新は一切なし。",
+      "detail": "2010年よりPhoenix FDとして提供されてきた煙・炎・液体シミュレーターが廃止。新規サブスク受付は終了、既存サブスクへの席追加は2026年5月14日まで可能。最終版は3ds Max 2027・Maya 2026対応。将来バージョンの3ds Max/Mayaでの動作は保証されない。Chaosは代替製品を案内していない。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/chaos-discontinues-its-phoenix-fluid-simulation-software/"
+      }
+    },
+    {
+      "name": "PlayStation「Playerbase」プログラム発表：フォトグラメトリでファンをゲームにスキャン",
+      "level": "7",
+      "overview": "SonyがPlayerbaseプログラムを発表。フォトグラメトリとパフォーマンスキャプチャ技術でプレイヤーをPS5ゲームに取り込む初の公式イニシアチブ。",
+      "detail": "Gran Turismo 7向けの第1弾として、選出されたプレイヤーをLAのスタジオへ招待しフォトグラメトリでスキャン。ゲームキャラクターとして登場するほか、カスタムロゴ・車体デザインを作成。米州・欧州・アジア・南アフリカ・豪州で募集。2026年夏ごろ選定予定。AAAプロダクション技術をファン参加型に応用した事例として注目。",
+      "links": {
+        "80.lv": "https://80.lv/articles/playerbase-is-playstation-s-plan-to-officially-scan-gamers-into-games",
+        "PlayStation Blog": "https://blog.playstation.com/2026/04/07/introducing-the-playerbase-bringing-playstations-biggest-fans-into-blockbuster-playstation-studios-games/"
+      }
+    },
+    {
+      "name": "mGear 5.3 for Maya リリース：ブレンドシェイプ転送・Set Driven Key自動生成など8新ツール",
+      "level": "7",
+      "overview": "無料MayaキャラクターリギングフレームワークmGear 5.3が8つの新ツールを追加。VFX Reference Platform 2026準拠・Maya 2027対応。",
+      "detail": "新機能：メッシュ間ブレンドシェイプネットワーク転送ツール、キャラクターポーズからSet Driven Key自動生成、Guideテンプレートライブラリマネージャ、マットキャップビューア、ブックマークツールなど。Python 3.13対応・旧Python 2互換レイヤー廃止。MIT ライセンスで無料提供、Maya 2022〜2027対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/get-free-maya-character-rigging-toolset-mgear-5-3/"
+      }
+    },
+    {
+      "name": "Houdini植生生成ツールキット「Natsura」がアーリーアクセス公開",
+      "level": "6",
+      "overview": "HoudiniプラグインNatsuraがアーリーアクセス開始。植物学的シミュレーションとルールベース制御で3D樹木をゲーム・VFX向けに生成。",
+      "detail": "EPC 2026カンファレンス（4/7-10）で最新情報が発表。SideFXのProject Elderwood技術デモで使用実績あり。パラメトリックモデリング・植物シミュレーション・ルール制御を組み合わせた高性能ツールキット。共同制作者Feike PostmesがSIGGRAPH Asia 2024で初披露。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/houdini-plant-generation-toolkit-natsura-is-now-in-early-access/"
+      }
+    },
+    {
+      "name": "Autodesk Maya 2026 新機能紹介ウェビナー開催（4/10）",
+      "level": "6",
+      "overview": "Maya 2026の新機能を紹介するウェビナーが4月10日に開催。Golaem群衆シミュレーションやML Deformer等の新機能を解説。",
+      "detail": "紹介内容：Golaem群衆シミュレータ統合、ブーリアン改善、ボリュームブーリアン、Flow リトポロジ、ML Deformer、Bifrost リギング/リキッド、Flow Wedge、Bifrost テクスチャノード、OpenPBR シェーダなど。Maya 2026は多岐にわたるワークフロー強化が施されている。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/autodesk-maya-2026.html"
+      }
+    },
+    {
+      "name": "Tripo CEO：AIは3Dクリエイターを「置き換え」でなく「増強」する",
+      "level": "6",
+      "overview": "AI 3D生成ツールTripoのCEOがAIとクリエイターの関係についてインタビューで語る。AIはツールとして創造性を拡張するという姿勢を強調。",
+      "detail": "Tripoは生成AIベースの3Dアセット生成ツールを開発。CEOはAIがワークフローを効率化しつつも人間のアーティストの創造的判断を不要にするものではないと説明。ゲーム・映像業界でAI活用の倫理的方向性についての議論が高まる中、開発者側の姿勢を示した重要なインタビュー。",
+      "links": {
+        "80.lv": "https://80.lv/articles/tripo-ceo-on-using-ai-to-augment-creators-not-replace-them"
+      }
+    },
+    {
+      "name": "Cyberpunk 2077 PS5 Pro向け大型アップデート公開",
+      "level": "6",
+      "overview": "Cyberpunk 2077がPS5 Pro向け最適化アップデートを公開。強化されたレイトレーシングと高解像度レンダリングで視覚品質が大幅向上。",
+      "detail": "PS5 Proの強化されたGPU性能を活用し、既存タイトルのグラフィクスを向上させた事例。ゲームエンジンの後方互換最適化アップデートとして注目。具体的な技術仕様や解像度・フレームレートの詳細については元記事参照。",
+      "links": {
+        "80.lv": "https://80.lv/articles/cyberpunk-2077-s-new-ps5-pro-update-is-absolutely-mind-blowing"
+      }
+    },
+    {
+      "name": "HoudiniでプロシージャルなカスタムSand Duneツールを作成",
+      "level": "5",
+      "overview": "Houdiniを使ってプロシージャルなカスタム砂丘地形生成ツールが制作・公開。直感的なパラメータ制御でリアルな砂丘を生成可能。",
+      "detail": "Houdiniのプロシージャル機能を活用し、砂丘の形状・風化パターン・スケールなどをパラメータで制御できるカスタムツール。ゲームやVFX向けの環境アセット制作ワークフロー改善に役立つ実践的な事例紹介。",
+      "links": {
+        "80.lv": "https://80.lv/articles/impressive-custom-sand-dune-tool-made-with-houdini"
+      }
+    },
+    {
+      "name": "Unity向けドローコール削減・パフォーマンス最適化バンドル公開",
+      "level": "5",
+      "overview": "Unityのドローコール削減とパフォーマンス向上を実現するアセットバンドルが公開。モバイル・低スペック向けゲーム最適化に有効。",
+      "detail": "Unity Asset Storeで提供されるバンドルで、ドローコール削減・バッチング最適化・パフォーマンスプロファイリング支援ツールを含む。モバイルゲーム開発者やパフォーマンス改善を必要とするプロジェクト向けに設計されている。",
+      "links": {
+        "80.lv": "https://80.lv/articles/check-out-this-unity-bundle-for-reducing-draw-calls-boosting-performance"
+      }
+    }
+  ]
+}
