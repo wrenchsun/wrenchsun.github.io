@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "name": "ゲーム開発関連ツールのリリース・アップデートまとめ【2026/4/11】",
+      "level": "8",
+      "overview": "Godot 4.7 dev 4、Unity 6000.3.13f1、UEFN v40.10、Defold 1.12.3、CesiumJS 1.140など複数のゲーム開発ツールが一斉アップデート。",
+      "detail": "Godot 4.7 dev 4：3DビューポートNNスケーリング、UI操作改善、アニメーショントラックグループ折りたたみ追加。Unity 6000.3.13f1：Physics 2D強化・UVCSリージョンセレクタ修正。UEFN v40.10：デバッグコマンド追加・ボイスチャット改善・SceneGraph修正。Castle Game Engine：外部ジオメトリ対応のInlineGeometryノード・PLYフォーマット追加。CesiumJS 1.140：ビルボード/ラベルのWebGL 2必須化。Defold 1.12.3：シェーダー時間データのCONSTANT_TYPE_TIME追加。Construct 3 r480.2：3D Bulletフィジクス設定追加。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_04_11_135416/"
+      }
+    },
+    {
+      "name": "Godot 4.7 dev 4リリース：フィーチャーフリーズ前の最終開発スナップショット",
+      "level": "7",
+      "overview": "Godot 4.7 dev 4がリリース。3Dビューポートスケーリング、インスペクター改善、アニメーション強化を含むフィーチャーフリーズ前の重要ビルド。",
+      "detail": "3Dビューポートのニアレストネイバースケーリングでピクセルアート表示が劣化なく可能に。インスペクターでセクション単位のコピーペーストが可能。コンテナレイアウトを崩さずUI要素の移動・回転・スケールが可能。アニメーショントラックグループの折りたたみ機能追加。パーティクル変更で互換性に影響がある点に要注意。オープンソースゲームエンジンとして4.7正式リリースに向けた最終段階。",
+      "links": {
+        "Godot Engine": "https://godotengine.org/article/dev-snapshot-godot-4-7-dev-4/",
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_04_11_135416/"
+      }
+    },
+    {
+      "name": "UEFN v40.10：スターウォーズ関連サウンド230件・Niagara VFX・スターウォーズギャラリー追加",
+      "level": "6",
+      "overview": "UEFN/Fortnite Creative v40.10にスターウォーズサウンド230件以上、NiagaraベースVFX、デス・スター等のギャラリー素材を追加。",
+      "detail": "スターウォーズ統合として環境アンビエンスからライトセーバーのハム音・ジャワ族の声まで230件超のサウンドエフェクトが追加。Niagara VFXによりアステロイドフィールドの宇宙戦闘やハイパースペースシーケンスが表現可能に。デス・スター・タトゥイーンカンティーナ・レジスタンス基地などのスターウォーズギャラリーも追加。デバッグコマンド拡充、ボイスチャット改善、SceneGraphバグ修正も含む。",
+      "links": {
+        "Epic Dev Community": "https://dev.epicgames.com/documentation/en-us/fortnite/40-10-fortnite-ecosystem-updates-and-release-notes",
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_04_11_135416/"
+      }
+    },
+    {
+      "name": "GodotCon 2026 Amsterdam開催（4/23-24）：オープンソースゲームエンジンの年次カンファレンス",
+      "level": "6",
+      "overview": "Godot Foundationが主催するGodotCon 2026が4月23-24日にアムステルダムのPathé Amsterdam Noordで開催。",
+      "detail": "Godotエンジンのコミュニティが集まりトーク・ワークショップ・ゲームショーケースを実施。標準チケット€120、学生・障害者向け割引€90。トーク・ワークショップの提案も受け付け中。オランダゲーム協会と共催。Godot 4.7 dev 4のリリースと時期が重なり、最新エンジン動向の情報交換の場として注目。",
+      "links": {
+        "Godot Engine": "https://conference.godotengine.org/2026/",
+        "チケット": "https://tickets.godotengine.org/foundation/godotcon-ams-2026/"
+      }
+    },
+    {
+      "name": "MetaHuman+ZBrush+UE5によるMetroid FusionファンアートのフルCGパイプライン公開",
+      "level": "5",
+      "overview": "MetaHumanをベースにZBrush・3ds Max・Ornatrix・Substance 3D Painter・UE5を組み合わせたゲームグレードCGキャラクターのフルパイプライン事例。",
+      "detail": "MetaHumanでサムスのベースメッシュを利用しZBrushでスカルプト。3ds Maxで背景モデリング。Ornatrixでリアルなヘアシミュレーション。Substance 3D Painterでテクスチャリング。最終的にUEでリアルタイムレンダリング。「スーツのディテール・ライティング・反射がリアリティを高めている」と作者。フリーランス学習向けに公開されたモダンゲームキャラクター制作の参考ワークフロー。",
+      "links": {
+        "80.lv": "https://80.lv/articles/this-metroid-fusion-animated-fan-art-created-with-unreal-engine-and-zbrush-is-really-impressive"
+      }
+    },
+    {
+      "name": "ゲームレディキャラクター"Tetra"：8ツール統合によるリアルタイム最適化キャラクター制作",
+      "level": "4",
+      "overview": "Maya・ZBrush・UE・Substance Painter・FiberShop・Blender・Marvelous Designer・MetaHumanを統合したゲームレディキャラクター制作ワークフロー。",
+      "detail": "DMU Game Art学生YusufがリアルタイムキャラクターをMetaHuman顔リグ+FiberShopヘア+Marvelous Designerクロスシミュレーションで制作。テクスチャ・UV効率を最優先としてゲームパフォーマンスを確保しつつシネマティック品質を実現。8種のDCCツールを組み合わせたアクションゲーム向けキャラクター制作の詳細事例。",
+      "links": {
+        "80.lv": "https://80.lv/articles/take-a-look-at-this-real-time-game-character-created-using-zbrush-and-unreal-engine"
+      }
+    }
+  ]
+}
