@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "name": "\"See-through\" アニメイラスト自動レイヤー分解AIがオープンソース公開",
+      "level": "8",
+      "overview": "SDXL拡散モデルと深度推定を組み合わせ、アニメ一枚絵をPSDレイヤーへ自動分解するAI技術。Apache-2.0ライセンスで公開。",
+      "detail": "聖フランシスコ大学・ペンシルバニア大学・Spellbrushの研究者が開発。キャラクターをセマンティックに分割し、隠れた部位をインペイントで補完、深度順にレイヤー化したPSDを出力する。See-through WebUI（RTX 2060以上必要）やゲームアセット自動生成ツールPachiPakuGen（Meta SAM3使用）などのコミュニティ拡張ツールも既に登場している。VTuber制作やゲームアセット制作のワークフロー効率化が期待される。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202604-See-through.html"
+      }
+    },
+    {
+      "name": "Cargo 3.0リリース - USD標準化・AI検索機能搭載の無料3Dアセット管理ツール",
+      "level": "7",
+      "overview": "KitBash3DとGreyscalegorillaのアセット管理ツールがv3.0へ。USD形式をデフォルト採用、自然言語・画像検索に対応。480以上の無料アセットを提供。",
+      "detail": "Blender、Houdini、Maya、Unreal Engine 5、3ds Max、Cinema 4Dに対応する統合アセット管理ツール。USD標準化によりUnity統合は終了。スマート検索機能として自然言語（例：'dark industrial'）での検索と、参照画像のビジュアルスタイルでのアセット検索が可能になった。無料アカウントで建築・乗り物パーツ245種、マテリアル189種、テクスチャ44種、HDRI5種を提供。商用プランは$119〜$159/月。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/download-480-free-kitbash-assets-and-materials-with-cargo-3-0/"
+      }
+    },
+    {
+      "name": "Unreal Engine Indie Games Week 開幕（4/13〜17）",
+      "level": "5",
+      "overview": "EpicがインディースタジオにフォーカスしたIndie Games Weekを4/13-17で開催。UE5開発ノウハウのライブストリームやFab Spring Saleも同時開催。",
+      "detail": "Abiotic Factor（Deep Field Games）、Midnight Ghost Hunt（Vaulted Sky Games）等の開発チームによるUE5 + Epic Online Services活用事例を配信。4/17にはFortniteクリエイター向け特別ライブストリームも予定。また4/13〜24はSTAR WARS™テーマのFortniteアイランド作品の募集期間で、優秀作品は5/1以降のDiscoverに掲載される。Fab Spring Saleでは数千点のアセットが割引提供される。",
+      "links": {
+        "Unreal Engine": "https://www.unrealengine.com/events/indie-games-week-2026"
+      }
+    },
+    {
+      "name": "UE5シネマティック森林環境アート制作ブレイクダウン",
+      "level": "4",
+      "overview": "Andrew AverkinがUnreal Engine 5で制作した、通常の森林からシネマティックなファンタジーシーンへ変化する没入感のある環境アートを解説。",
+      "detail": "環境アーティストのAndrew AverkinによるUE5環境アート制作事例。通常の森林景観をシネマティックなファンタジーシーンへと展開する手法を紹介。ライティング、フォリッジ配置、ポストプロセスエフェクトを組み合わせた没入感のある環境制作ワークフローの解説記事。",
+      "links": {
+        "80.lv": "https://80.lv/articles/artist-creates-a-forest-environment-that-turns-into-a-cinematic-fantasy-scene"
+      }
+    }
+  ]
+}
