@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "name": "ASWF が OpenPGL を採択：Intelが廃止したパスガイディングライブラリを業界標準として維持",
+      "level": "8",
+      "overview": "Intelが廃止したOpenPGLをASWFが採択。Blender Cycles・V-Ray・Karma・Hyperionで使われるパスガイディング技術が存続。",
+      "detail": "Intelが2025年末に開発終了を発表したパスガイディングライブラリ「Open Path Guiding Library（OpenPGL）」を、映像業界の標準推進団体Academy Software FoundationがSandboxプロジェクトとして採択。OpenPGLはパストレーシングレンダラーのサンプリング効率化（ノイズ収束の高速化）に用いられ、Blender Cycles・Chaos V-Ray・SideFX Karma・DisneyのHyperionレンダラー（Zootopia 2等）などに統合されている。元Intelエンジニアのセバスチャン・ヘルホルツ氏が引き続きメンテナンスを担当し、「EmbreeのパスガイディングライブラリNaN版」を目指す方針。IntelのOSSへの組み込みにより商用レンダラーのノイズ収束が大幅に改善されてきた技術が、ASWFのガバナンス下で継続開発されることが確定した。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/aswf-adopts-openpgl-after-intel-ends-development/"
+      }
+    },
+    {
+      "name": "Blender 5.1 用 NPRシェーダ「Stylized BSDF」リリース：複雑なノード設定不要のアニメ調シェーダー",
+      "level": "7",
+      "overview": "Blender 5.1向けNPRシェーダ「Stylized BSDF」がPojoQuietよりリリース。複雑なノード設定不要でアニメ調セルシェーディングを実現。$10。",
+      "detail": "クロスハッチ・ハーフトーン・ダッシュライン・ペイントの4種のパターンをディフューズ面とハイライト面に独立適用可能。輪郭線をシェーダー内で生成し、太さ・不透明度・カラーを調整できる。スペキュラー・メタリック・SSS表現をスタイライズドで実装。シャドウマスキング機能では頂点カラー/テクスチャでシャドウ配置を制御し、シーンのライティングを完全に無視することも可能。9種のAOV出力（ベースカラー・パターン・スペキュラー等）によりポストプロダクションでの細かな調整にも対応。NPR作業において従来分散していた機能を1つの直感的なノードグループに統合し、アニメ・ゲーム向けのスタイライズドレンダリングを効率化する。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202604-StylizedBSDF.html",
+        "Gumroad": "https://pojoquiet.gumroad.com/l/gwhvnb"
+      }
+    },
+    {
+      "name": "Phaser 4.0.0「Caladan」正式リリース：WebGLレンダラー全面刷新・100万スプライト対応",
+      "level": "7",
+      "overview": "2DゲームフレームワークPhaser 4が4月10日に正式リリース。WebGLレンダラーをノードベースに全面刷新し100万スプライトを単一ドローコールで描画可能に。",
+      "detail": "Phaserシリーズ最大のリリースとしてv3のパイプラインシステムを廃止、ノードベースの新レンダラーを採用。各レンダーノードが単一タスクを担いWebGL状態を完全管理し、コンテキスト復元を内蔵。SpriteGPULayerにより100万スプライトを単一ドローコールで描画可能（従来比最大100倍高速化）。FX・マスクを統合したFilter systemを導入し、Blur・Glow・Shadow・Pixelate・Bloom・Vignette・Wipe等多数のエフェクトをゲームオブジェクトやカメラに制限なく適用可能。新ゲームオブジェクトとしてGradient・Noise（Cell/Simplex各種）・CaptureFrame・Stampを追加。ライティングシステムも改善し自己シャドウと明示的ライト高さに対応。完全オープンソース（MIT License）でnpm・CDN経由で配布。",
+      "links": {
+        "Phaser": "https://phaser.io/download/release/v4.0.0",
+        "ゲームメーカーズ": "https://gamemakers.jp/"
+      }
+    },
+    {
+      "name": "TVアニメ「鎧真伝サムライトルーパー」3DCG制作解説：ヨロイギアのモデリング&ルックデヴ",
+      "level": "4",
+      "overview": "TVアニメ「鎧真伝サムライトルーパー」ヨロイギア姿のキャラクターを3DCGで表現する技術解説連載が開始。第1回はモデリング＆ルックデヴを解説。",
+      "detail": "CGWORLD連載記事として、新TVアニメ「鎧真伝サムライトルーパー」のヨロイギア姿キャラクターの3DCG制作プロセスを解説するシリーズが開始。第1回ではモデリング手法とルックデベロップメント（ルックデヴ）のアプローチを紹介。鎧のような硬質なキャラクターをCGで表現するための技術的な工夫、マテリアル設定、ライティング方針など、TVアニメ制作の現場のワークフローが公開される。全5回の連載予定。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/article/cgw332-samuraitrooper01.html"
+      }
+    }
+  ]
+}
