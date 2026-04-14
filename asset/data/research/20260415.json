@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "name": "DaVinci Resolve 21.0 パブリックベータ公開",
+      "level": "8",
+      "overview": "Blackmagic DesignがDaVinci Resolve 21.0ベータを公開。新フォトページとAIツール8種、Fusionページ強化が特徴。",
+      "detail": "無料版・Studio版ともにパブリックベータが公開。新設のフォトページにより静止画への色補正が可能に。AI顔年齢変換（Face Age Transformer）、CineFocus（被写界深度調整）、AIモーションブラー除去、AIバウンス除去など8種のAIツールを追加。FusionページではマルチマスタートリムやKrokodoveライブラリ（100以上のツールとエフェクト）が統合。USD SDK 25.11/Hydra 2.0 API対応でVFX制作環境も強化。従来の無料版はそのまま提供継続、Studio版は295ドル。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/blackmagic-design-releases-davinci-resolve-21-0-in-beta/",
+        "RedShark News": "https://www.redsharknews.com/davinci-resolve-21-nab-2026-photo-page-ai-tools"
+      }
+    },
+    {
+      "name": "V-Ray for Blender コミュニティ版が商用無料利用可能に",
+      "level": "7",
+      "overview": "ChaosがV-Ray for Blender Community Editionを無償提供開始。商用利用可、2K解像度まで対応、3ヶ月更新制。",
+      "detail": "V-Ray for BlenderのCommunity Editionが無償でリリース。フリーランサー・学生・教育者を対象とし、商用プロジェクトのコンセプト提案などに利用可能。V-Rayのコア機能はほぼ完全に利用可能。制限事項：レンダリング解像度は2560×2560px（2K）まで、出力は8bitフォーマットのみ（EXRや32bit TIFF不可）、分散レンダリングや.vrsceneエクスポート非対応。ライセンスは3ヶ月更新制で無制限に更新可能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/you-can-now-use-v-ray-free-for-commercial-work-in-blender/",
+        "80.lv": "https://80.lv/articles/v-ray-is-now-free-for-blender-users"
+      }
+    },
+    {
+      "name": "Blender 5.1.1 リリース候補版が公開",
+      "level": "6",
+      "overview": "Blender 5.1.1のリリース候補版が公開。71件のバグ修正を含み、ジオメトリノード・EEVEEなど幅広く対応。",
+      "detail": "Blender 5.1.1のリリース候補版が2026年4月14日に公開。71件のバグ修正を含む修正リリース（新機能なし）。主な修正対象はジオメトリノード、シェーダーエディター、メッシュ編集、レンダリング、コンポジット、EEVEEレンダリングなど広範なエリアに及ぶ。Blender 5.1.0で問題が発生していたユーザーへのテスト参加が推奨されており、正式リリースは近日中の予定。",
+      "links": {
+        "BlenderNation": "https://www.blendernation.com/2026/04/14/help-test-blender-5-1-1-release-candidate/"
+      }
+    },
+    {
+      "name": "JALI、NAB Show 2026でリアルタイムAIフェイシャルアニメーション展示",
+      "level": "5",
+      "overview": "JALI ResearchがNAB Show 2026でUE5対応の多言語リアルタイム口形同期・フェイシャルアニメーション技術を展示。",
+      "detail": "NAB Show 2026（4月18-22日、ラスベガス・コンベンションセンター HP Booth #N2561）にてJALI Researchが最新技術を展示。IEL（Immersive Enterprise Laboratories）との共同デモでは、AIキャラクター「Ruby」がゲストとリアルタイムで対話するインタラクティブ体験を提供。JALI技術はAutodesk MayaおよびUnreal Engineの専用プラグインとして提供されており、多言語フェイシャルアニメーション、自動口形同期、リグ・パイプラインツールをサポート。AAA級ゲームや映画アニメーション制作ワークフローでの活用実績あり。",
+      "links": {
+        "80.lv": "https://80.lv/articles/check-out-jali-s-real-time-facial-animation-on-interactive-ai-character-at-nab-show-2026",
+        "Animation World Network": "https://www.awn.com/news/jali-research-iel-team-multilingual-real-time-facial-animation-showcase"
+      }
+    },
+    {
+      "name": "Unreal Engine向けFoliage Toolsが新ベータ版を公開",
+      "level": "5",
+      "overview": "UE5向け植生シミュレーションプラグインFoliage Toolsの新ベータ版が公開。UI刷新とNiagara連携など多数の改善。",
+      "detail": "Rense de Boer氏開発のUE5向け植生シミュレーションプラグイン「Foliage Tools」の新ベータ版が4月14日に公開。主な更新内容：UIの全面刷新、影の自動計算（auto-calculate cast shadow）、Packed Level Actorのサポート、ゲームスレッドのパフォーマンス向上、物理制御の改善。インタラクションノードを介したNiagara連携（データ受け渡しによるフルインタラクション対応）が開始。今後のロードマップにはペイントツール、エリアマネージャー、タイリングシミュレーションデータなどの機能追加が予定されている。",
+      "links": {
+        "80.lv": "https://80.lv/articles/foliage-tools-for-unreal-engine-has-received-a-new-beta-version"
+      }
+    },
+    {
+      "name": "GodotCon Amsterdam 2026が4月23-24日に開催",
+      "level": "4",
+      "overview": "Godot Engine公式カンファレンスがオランダ・アムステルダムで4月23-24日に開催。トーク・ワークショップ・展示を予定。",
+      "detail": "GodotCon 2026がPathé Amsterdam Noord（Buikslotermeerplein 2003, Amsterdam）にて4月23-24日に開催。各日10:00-18:00の予定。Godot FoundationとDutch Games Associationの共催。プログラムはトーク、ワークショップ、ゲームショーケースを予定しており、スキルや職種を問わず参加可能。Godotコミュニティメンバーの対面交流、知識共有、ビジネスコンタクト形成の場として機能する。チケットは公式サイトで販売中。",
+      "links": {
+        "80.lv": "https://80.lv/articles/join-godotcon-in-amsterdam-this-april",
+        "公式サイト": "https://conference.godotengine.org/2026/"
+      }
+    }
+  ]
+}
