@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "name": "Adobe Substance 3D Designer 16.0 リリース",
+      "level": "9",
+      "overview": "OpenPBRマテリアル標準への移行、3D Shape Splatterノード刷新、SDF（符号付き距離フィールド）ノード追加など大型アップデート。",
+      "detail": "Adobe Substance 3D Designer 16.0がリリースされた。主な変更点はOpenPBRマテリアル標準への移行、Shape Splatterノードの3Dスキャッタリング対応への刷新、カスタム3D形状を作成できるSigned Distance Fieldノードの追加。また新しい2つのレンダーエンジンが導入され、旧来のMDLマテリアルとIrayレンダラーは廃止された。ゲーム開発・VFXワークフローに広く影響する重要なアップデート。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/adobe-releases-substance-3d-designer-16-0/"
+      }
+    },
+    {
+      "name": "Cineware for Unreal Engine 2026.2 リリース",
+      "level": "7",
+      "overview": "Cinema 4DのDomeライトをSkylight、IESライトをPoint Lightとして取り込める新機能を追加。UE5.5/5.6対応。",
+      "detail": "Maxonがリリースした Cineware for Unreal Engine 2026.2（2026年4月15日）。Dome LightsをHDRI設定付きSkylightとして、IES LightsをPoint Lightとして関連プロファイルごとインポート可能になった。Pose MorphsのフルサポートとLevel Sequencer統合も追加。DatasmithとInterchangeフレームワークの両方をサポートし、Unreal Engine 5.5と5.6に対応する。",
+      "links": {
+        "Maxon Support": "https://support.maxon.net/hc/en-us/articles/19332141082396-Cineware-for-Unreal-Engine-2026-2-April-15-2026"
+      }
+    },
+    {
+      "name": "See-through：アニメイラスト自動レイヤー分解AIがOSS公開",
+      "level": "7",
+      "overview": "アニメイラストを深度順のセマンティックレイヤーに自動分解し、1枚の画像からPSDファイルを生成するAIツールがOSSとして公開された。",
+      "detail": "CGWorld.jpが報じたOSSツール「See-through」は、アニメスタイルのイラスト1枚を入力するとキャラクター・背景・各部品などを深度順に分類してPSDファイルとして出力するAIシステム。レイヤー階層が整理された状態で出力されるため、2Dアニメーション制作や3D変換ワークフローへの活用が期待される。",
+      "links": {
+        "CGWorld": "https://cgworld.jp/flashnews/01-202604-See-through.html"
+      }
+    },
+    {
+      "name": "Metro 2039 公式発表 — 4A Games新作",
+      "level": "6",
+      "overview": "4A GamesとDeep Silverが「Metro 2039」を正式発表。Xbox First Lookライブストリームで4月16日にフルリビールされた。",
+      "detail": "「Metro Exodus」の約4年後を舞台にするシリーズ第4弾「Metro 2039」が4月16日に正式公開された。4A Gamesはウクライナ紛争の実体験をストーリーに反映させる方針を示している。4Aエンジンの最新版を採用し高度なレイトレーシング表現が期待される。2026年後半リリース予定とされる。",
+      "links": {
+        "Tweaktown": "https://www.tweaktown.com/news/111000/metro-2039-reveal-officially-set-for-april-16-new-teaser-site-launched/index.html"
+      }
+    },
+    {
+      "name": "Unreal Engine Indie Games Week — MetaHuman高精度デジタルヒューマン解説セッション",
+      "level": "6",
+      "overview": "UEインディーゲームウィーク（4/13-17）でMetaHumanチームが高品位デジタルヒューマン制作ワークフローを解説するセッションを4月16日に配信。",
+      "detail": "Epic GamesのUE5インディーゲームウィーク（2026年4月13〜17日）では毎日技術セッションが配信されている。4月16日のセッションではWade NeistadtほかMetaHumanチームが高精度デジタルヒューマン制作手法を紹介。4月15日にはTimberline Studioによるベストロゲームライクゲーム「Beastro」のUE5活用事例も公開された。",
+      "links": {
+        "Unreal Engine Events": "https://www.unrealengine.com/events/indie-games-week-2026"
+      }
+    },
+    {
+      "name": "Autodesk CG Festa 2026 開催決定（4月22日）",
+      "level": "5",
+      "overview": "Autodeskが無料オンラインCGセミナー「CG Festa 2026」を4月22日に開催。映画・ゲーム・アニメ業界のスタジオ事例を紹介。",
+      "detail": "Autodesk AREA Japanが発表したCG Festa 2026は4月22日（水）13:00〜18:00 JSTにオンライン開催（ライブストリーミング）。プログラムにはCyberConnect2の30年の歩みや「機動戦士ガンダム 閃光のハサウェイ」3DCG制作の舞台裏などが予定されている。参加無料。",
+      "links": {
+        "Autodesk AREA Japan": "https://area.autodesk.jp/event/autodesk/autodesk-cg-festa-2026/"
+      }
+    }
+  ]
+}
