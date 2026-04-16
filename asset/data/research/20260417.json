@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "name": "Cinema 4D 2026.2 リリース＆iPad版ベータ登録開始",
+      "level": "9",
+      "overview": "MaxonがCinema 4D 2026.2をリリース。物理ベースの布彫刻ツール追加、Windows ARM対応、iPad版ベータ登録も開始。",
+      "detail": "Maxonが3DアニメーションソフトCinema 4D 2026.2をリリース。目玉機能は「ファブリックブラシ」で、布シミュレーションを活用して直感的に自然なしわを造形できる物理ベースの彫刻ツール。Windows SnapdragonデバイスのARMプロセッサに対応し、メモリ使用量が1.5GB削減、パフォーマンスが50%以上向上。その他にもBendデフォーマーのC字・S字モード追加、マテリアルマネージャーへの「アクティブオブジェクトタブ」、アニメーションキーフレームのタンジェント自動整列コマンドなど多数の改善。またiPad版「Cinema 4D for iPad」のパブリックベータ登録を開始。2026年末リリース予定で、M2チップ以上のiPad Proに対応。タッチジェスチャー操作およびApple Pencil Proをサポートし、Redshiftレンダリング機能も含む予定。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/maxon-ships-cinema-4d-2026-2-unveils-cinema-4d-for-ipad-beta/",
+        "Maxon Knowledge Base": "https://support.maxon.net/hc/en-us/articles/8658038724124-Cinema-4D-2026-2-0-April-15-2026"
+      }
+    },
+    {
+      "name": "Maxon Autograph 2026.0.0 が個人ユーザー向け無料化",
+      "level": "9",
+      "overview": "MaxonがVFX・コンポジットツール「Autograph 2026.0.0」をリリース。MyMaxonアカウントで個人は商用含め無料利用可能。",
+      "detail": "MaxonがLeft Angle社から買収したモーショングラフィックス・VFX・コンポジットアプリ「Autograph」を2026.0.0としてリリースし、個人ユーザーはMyMaxonアカウント（無料）で商用利用を含め無料で使用できる。ネイティブ3D空間を備えた2D/3Dハイブリッドワークフロー対応で、Adobe OpenFX対応プラグインおよびRed Giant各種エフェクトがMaxon Studioと統合。ネイティブクローナー機能で反復アニメーション生成も容易。スプレッドシートなど外部データでパラメータ駆動も可能。スタジオや商業用途向けにはTeamsライセンスが必要。Windows 10+ / macOS 15.0+対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/maxon-releases-motion-graphics-software-autograph-for-free/",
+        "gamemakers.jp": "https://gamemakers.jp/article/2026_04_16_135666/",
+        "80.lv": "https://80.lv/articles/autograph-by-maxon-now-available-for-free",
+        "Maxon Knowledge Base": "https://support.maxon.net/hc/en-us/articles/26689114527388-Autograph-2026-0-0-April-15-2026"
+      }
+    },
+    {
+      "name": "Adobe After Effects 26.2 リリース — AI Object Matteツール追加",
+      "level": "8",
+      "overview": "After Effects 26.2リリース。AIによるObject Matteツールで動く被写体を1クリックで自動分離、3Dメッシュ変位なども追加。",
+      "detail": "AdobeがAfter Effects 26.2をリリース。最大の目玉はAI搭載の「Object Matte」ツールで、映像内の動く被写体を1フレームのクリックだけで自動的に孤立させるマスク生成が可能。これによりキーイングやロトスコープ作業が大幅に省力化される。その他の新機能としてパラメトリック3DメッシュへのDisplacement（変位）サポート、SVGのコンポジションまたは映像として取り込めるインポート対応強化、複数エフェクトをまとめてスクロール調整できるProportional Scrubbing、エフェクト検索を高速化するQuick Apply機能などが追加。映像制作・VFXワークフローの効率化に直結する重要アップデート。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/adobe-releases-after-effects-26-2/"
+      }
+    },
+    {
+      "name": "ZBrush 2026.2 ＆ ZBrush for iPad 2026.2 リリース",
+      "level": "7",
+      "overview": "ZBrush 2026.2とiPad版がリリース。Windows ARMネイティブ対応、Substance 3D Painterへのファイル転送機能を追加。",
+      "detail": "MaxonがZBrush 2026.2とZBrush for iPad 2026.2を同時リリース。デスクトップ版はWindows SnapdragonデバイスのARMプロセッサにネイティブ対応し、Substance 3D Painterに直接ファイルを送信してテクスチャリングするワークフローが追加された。iPad版ではデスクトップ版のホットキー設定をインポートする機能と、バーテックスペイントデータ用の新しいインテンシティスライダーが追加された。Cinema 4D 2026.2やAutograph 2026.0.0と合わせてMaxonの2026.2シリーズのアップデートが一斉にリリースされた形となり、いずれもARMデバイスへの対応強化が共通テーマとなっている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/maxon-releases-zbrush-2026-2-and-zbrush-for-ipad-2026-2/"
+      }
+    },
+    {
+      "name": "Twinmotion 2026.1 リリース — 写真背景マッチング・ライトリンク追加",
+      "level": "7",
+      "overview": "Twinmotion 2026.1リリース。写真背景への3Dモデルマッチング、ライトリンクシステム、アナモルフィックレンズエフェクトを追加。",
+      "detail": "Epic GamesがリアルタイムビジュアライゼーションツールTwinmotion 2026.1をリリース。主な新機能として、3DモデルをCamera Matchモードで写真のバックプレートに合わせて配置できる「Match perspective」機能が追加され、建築・製品可視化のワークフローが向上。「Lighting Channels」と呼ばれるライトリンクシステムにより、特定のライトが特定のオブジェクトのみに影響する設定が可能になった。レンダリング面ではシャープなエッジを滑らかにする「Autosoft Edges」エフェクト、アナモルフィックレンズやPetzvalレンズの特性を再現できる新カメラプロパティが追加。UE5ベースのリアルタイムVizとして建築・プロダクト分野での活用がより強化された。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/epic-games-releases-twinmotion-2026-1/"
+      }
+    },
+    {
+      "name": "Tim Sweeney、Unity版Fortniteは「開発中だがリリースは遠い」とコメント",
+      "level": "6",
+      "overview": "Epic GamesのTim SweeneyがUnityとFortniteの協業について言及。Unity版は開発中だがリリースはまだ先と述べた。",
+      "detail": "Epic GamesのCEO Tim Sweeneyが、UnityエンジンとFortniteの技術協業について公式にコメント。Unity版Fortniteは「現在開発中ではあるが、リリースには程遠い」と述べた。このコメントはUnityとEpic Gamesがゲームエンジン間の相互運用や技術連携を探っていることを公式に認めたものとして業界から注目を集めている。両社はかつてライバル関係にあったが、近年の業界再編の中で様々な技術的協力関係が模索されている。",
+      "links": {
+        "80.lv": "https://80.lv/articles/tim-sweeney-comments-on-unity-fortnite-collaboration"
+      }
+    },
+    {
+      "name": "Houdini向け植生ツールセット Natsura 0.6 リリース",
+      "level": "6",
+      "overview": "Houdini向け植生ツールセット「Natsura 0.6」リリース。Houdini 21対応、UE5 Naniteスケルタルアセンブリ、風アニメーション機能追加。",
+      "detail": "Houdiniベースの植生モデリングツールセット「Natsura」がバージョン0.6にアップデート。主な新機能はHoudini 21.0サポート、Unreal Engine 5のNaniteスケルタルアセンブリに対応するアセット出力、フル風アニメーション制作ツールセット、枝や小枝ライブラリのリグ管理のためのAssemblyワークフロー、プラグ＆プレイ式のシミュレーション修飾子を持つモジュール式エフェクターシステム、Assembly Decorator機能、UIの全面リデザイン。Houdini Apprenticeでも無料利用可能。以前「Project Elderwood」で紹介された技術をベースにしており、ゲームおよびVFX向けのリアルな植生制作に対応。",
+      "links": {
+        "80.lv": "https://80.lv/articles/foliage-modeling-toolset-natsura-0-6-now-available"
+      }
+    },
+    {
+      "name": "アークシステムワークス、キャラクターデザイン社内決定フローを解説した動画を公開",
+      "level": "5",
+      "overview": "アークシステムワークスがキャラクターデザイン決定までの社内フローを解説した動画を公開。実制作プロセスを紹介。",
+      "detail": "アークシステムワークス（「ギルティギア」「ブレイブルー」などで知られるゲーム開発会社）が、キャラクターデザインを目指す人向けにデザイン決定フローを解説した動画を公開した。企画立案からデザインが確定するまでの社内承認プロセスや、複数のデザイン案を評価する際の基準など、実際の制作現場に基づいた情報が含まれている。ゲーム業界でのキャラクターデザイン職を目指す人や、デザインプロセスに関心を持つ開発者へのリソースとして公開されている。",
+      "links": {
+        "gamemakers.jp": "https://gamemakers.jp/article/2026_04_16_135671/"
+      }
+    },
+    {
+      "name": "Blender用ジェムストーン生成アドオン「Gemgen」公開",
+      "level": "5",
+      "overview": "Blender用アドオン「Gemgen」が公開。ギズモ操作でパラメトリックな複雑なジェムカットを直感的に生成できる。",
+      "detail": "Blender向けアドオン「Gemgen」がCGWORLD.jpで紹介された。Gemgenはジュエリーデザインや3DCG制作向けに、ブリリアントカット・プリンセスカット・エメラルドカットなど複雑なジェムストーンカットを直感的なギズモ操作でパラメトリックに生成できるツール。カットの深さ・角度・パビリオン数など多様なパラメータを調整でき、様々な形状のジェムストーンを高品質に作成可能。ゲームアセット制作やジュエリービジュアライゼーションなどの用途に活用できる。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/01-202604-Gemgen.html"
+      }
+    }
+  ]
+}
