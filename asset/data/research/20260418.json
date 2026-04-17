@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "name": "Cinema 4D 2026.2 リリース & iPad版ベータ公開",
+      "level": "8",
+      "overview": "Maxonがシネマ4D 2026.2をリリース。Fabric Brushなど新機能追加。iPad版パブリックベータも開始。",
+      "detail": "Cinema 4D 2026.2では新しいFabric Brushツールの追加、パフォーマンス向上が図られた。またiPad向けCinema 4Dのパブリックベータも同時公開。ARM Windows対応も強化されており、Maxonが積極的にプラットフォーム展開を進めている。",
+      "links": {
+        "CGChannel": "https://www.cgchannel.com/2026/04/maxon-ships-cinema-4d-2026-2-unveils-cinema-4d-for-ipad-beta/"
+      }
+    },
+    {
+      "name": "V-Ray for Blender 商用利用が無償化",
+      "level": "8",
+      "overview": "Chaos V-Ray for Blenderが商用利用可能な無償版をリリース。学生・フリーランスも対象。",
+      "detail": "ChaosはV-Ray for Blenderの無償コミュニティ版を公開し、商用プロジェクトにも利用可能とした。フリーランサーや学生、小規模スタジオがプロ品質のレイトレースレンダラーを無料で活用できる。Blenderエコシステムへの参入強化が狙い。",
+      "links": {
+        "CGChannel": "https://www.cgchannel.com/2026/04/you-can-now-use-v-ray-free-for-commercial-work-in-blender/"
+      }
+    },
+    {
+      "name": "ZBrush 2026.2 リリース（ARM Windows対応・Substance連携強化）",
+      "level": "7",
+      "overview": "ZBrush 2026.2がリリース。ARM Windowsサポート追加、Substance 3D Painter連携機能を実装。",
+      "detail": "Maxonがデジタル彫刻ツールZBrush 2026.2をリリース。ARM搭載Windowsデバイス（Surface ProなどのSnapdragon機）に対応し、Substance 3D Painterとのシームレスな連携機能が追加された。iPad版ZBrushも2026.2に更新されている。",
+      "links": {
+        "CGChannel": "https://www.cgchannel.com/2026/04/maxon-releases-zbrush-2026-2-and-zbrush-for-ipad-2026-2/"
+      }
+    },
+    {
+      "name": "DaVinci Resolve 21.0 ベータリリース",
+      "level": "7",
+      "overview": "Blackmagic DesignがDaVinci Resolve 21.0をベータ公開。新PhotoページとAI機能強化。",
+      "detail": "DaVinci Resolve 21.0ではメジャーアップデートとして新しいPhotoページが追加され、スチル写真の編集ワークフローが統合された。AI支援機能も強化されており、カラーグレーディング・VFX・オーディオポストプロダクションを一体化したパイプラインが進化している。",
+      "links": {
+        "CGChannel": "https://www.cgchannel.com/2026/04/blackmagic-design-releases-davinci-resolve-21-0-in-beta/"
+      }
+    },
+    {
+      "name": "Maxon Autograph 2026.0.0 無償リリース",
+      "level": "7",
+      "overview": "MotionVFX製コンポジットツールAutograph 2026.0.0が個人・商用ともに無償化。",
+      "detail": "VFX・モーショングラフィクス向けコンポジットアプリケーション「Autograph」の最新版2026.0.0がリリースされ、個人ユーザーは商用利用も含め無償で使用可能となった。After EffectsやNukeの代替として注目されており、GPU加速レンダリングやノードベースコンポジットをサポート。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_16_135666/"
+      }
+    },
+    {
+      "name": "S&box（Source 2ベースゲームエンジン）Steam版4月28日リリース",
+      "level": "7",
+      "overview": "ValveのSource 2エンジンベースのゲームプラットフォーム「S&box」がSteamで$20にて4月28日リリース。",
+      "detail": "S&boxはValveのSource 2エンジンをベースとしたゲーム開発・プレイプラットフォーム。Steamでの正式販売価格は$20と発表。ユーザーがゲームを制作・公開・プレイできるサンドボックス環境を提供し、独自のC#スクリプティングとエディタを搭載。",
+      "links": {
+        "GameFromScratch": "https://gamefromscratch.com/major-sbox-game-engine-news/"
+      }
+    },
+    {
+      "name": "SIGGRAPH 2026 ロサンゼルス開催（7月19〜23日）",
+      "level": "7",
+      "overview": "SIGGRAPH 2026がロサンゼルスで7月19〜23日開催。オンライン参加も可能。",
+      "detail": "コンピュータグラフィックスと対話技術の最大の国際会議SIGGRAPH 2026がロサンゼルスで開催予定。リアルタイムライブデモ、テクニカルペーパー発表、産業展示など多彩なプログラムが予定されており、オンライン視聴オプションも提供される。",
+      "links": {
+        "SIGGRAPH 2026": "https://s2026.siggraph.org/"
+      }
+    },
+    {
+      "name": "Natsura（Houdini向け植生生成ツール）アーリーアクセス開始",
+      "level": "6",
+      "overview": "Houdini用植生生成ツール「Natsura」がアーリーアクセス開始。リアルな植物・植生をプロシージャル生成。",
+      "detail": "HoudiniプラグインNatsuraはプロシージャルな植物・植生生成に特化したツールキット。樹木、草、花など多様な植物をノードベースで生成・カスタマイズ可能。ゲームやVFX向けのリアルタイムフレンドリーなアセット出力にも対応。アーリーアクセス版として提供開始。",
+      "links": {
+        "CGChannel": "https://www.cgchannel.com/2026/04/houdini-plant-generation-toolkit-natsura-is-now-in-early-access"
+      }
+    },
+    {
+      "name": "Godot エンジン モバイル版2026年4月更新",
+      "level": "6",
+      "overview": "オープンソースゲームエンジンGodotのモバイル対応が強化。iOS/Android最適化が進む。",
+      "detail": "Godot Engineの公式ブログにてモバイル版の2026年4月アップデート内容が公開。iOS・Androidプラットフォームでのパフォーマンス最適化、新しいモバイル向けレンダリング機能、ストア提出フローの改善などが含まれる。オープンソースエンジンのモバイル競争力が向上。",
+      "links": {
+        "Godot Engine": "https://godotengine.org/article/godot-mobile-update-apr-2026/"
+      }
+    },
+    {
+      "name": "VFX Breakdown: Luminairi「Outpost Alpha」舞台裏公開",
+      "level": "5",
+      "overview": "LuminairiがデジタルブロックバスターOutpost AlphaのVFX制作過程をブレイクダウン公開。",
+      "detail": "VFXアーティストRassoul Edji率いるLuminairiが、自社制作のデジタルブロックバスター「Outpost Alpha」のVFX制作解説を80.lvにて公開。キャラクター・シーンの実写合成手法、特殊効果の制作パイプラインなど、プロダクション規模のVFX手法を詳細に解説している。",
+      "links": {
+        "80.lv": "https://80.lv/articles/check-out-how-vfx-shape-characters-scenes-to-life-in-this-digital-blockbuster"
+      }
+    }
+  ]
+}
