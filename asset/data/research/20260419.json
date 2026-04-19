@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "name": "Substance 3D Designer 16 リリース",
+      "level": "8",
+      "overview": "AdobeがSubstance 3D Designer 16をリリース。SDF Toolkit・Shape Splatter v2・OpenPBR対応を追加。Irayレンダラー廃止。",
+      "detail": "Substance 3D Designer 16.0では、Signed Distance Field（SDF）を使った3Dプリミティブ生成・編集用の20種類の新ノードが追加された。Shape Splatter v2ではアトラス入力対応で3D形状を分散配置可能に。OpenPBRサーフェス仕様を全面採用し、旧Adobeスタンダードマテリアルを置き換え。MDLマテリアルとIrayレンダラーは廃止され、MaterialXとGPUパストレーサーへ移行。3Dビューへの変位/テッセレーション調整UIも改善。Steam版は永続ライセンス199.99ドル。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/adobe-releases-substance-3d-designer-16-0/",
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_18_135660/"
+      }
+    },
+    {
+      "name": "Marvelous Designer 2026.0 リリース",
+      "level": "7",
+      "overview": "Marvelous Designer 2026.0がリリース。AI駆動の自動衣装作成機能を新搭載しデジタル衣装制作ワークフローを大幅効率化。",
+      "detail": "CLO Virtual FashionがリリースしたMarvelous Designer 2026.0では、AIを活用した自動衣装作成機能が主要な新機能として追加された。これによりデザイナーはパラメータ入力から素早くベースとなる衣装を生成でき、既存のリアルタイム布シミュレーションと組み合わせてゲームキャラクターや映像制作向けの高品質な衣装制作ワークフローが大幅に効率化された。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_18_135660/"
+      }
+    },
+    {
+      "name": "Cavalry（モーショングラフィクスツール）Pro版が完全無料化",
+      "level": "7",
+      "overview": "CanvaがCavalry Pro版をMac/Windows個人アーティストへ完全無償提供。2Dモーショングラフィクス制作ツールがプロ機能含め無料に。",
+      "detail": "Canvaが買収したモーショングラフィクス・アニメーションアプリCavalryのPro版全機能が、Windows/macOS向けに個人アーティスト・フリーランサーへ無償で提供されるようになった。ノードベースのプロシージャルアニメーション、SVGサポート、高度なパーティクルシステム等の機能が無料で利用可能。After EffectsやMotionの代替として注目度が高まっている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/canva-makes-motion-graphics-and-animation-app-cavalry-free/",
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_17_135748/"
+      }
+    },
+    {
+      "name": "Pragmata × RE Engine 技術インタビュー（Capcom）",
+      "level": "7",
+      "overview": "Capcom新IP「Pragmata」開発チームがRE Engineの先端技術を解説。ストランドヘア・Houdini統合・高速反復開発ワークフローを紹介。",
+      "detail": "80.lvのインタビューでCapcom「Pragmata」開発チームが、RE Engineを活用した技術的アプローチを詳述した。ストランドベースの髪表現技術をキャラクター「ダイアナ」に実装し、これはResident Evil Requiem等後続タイトルにも展開される。HoudiniとRE Engineエディタの統合により、破壊シーケンスなどをノンデストラクティブに構築し高速反復開発を実現。各タイトルのニーズに応じたエンジンのカスタマイズ・拡張性の高さもインハウスエンジンの優位点として強調された。",
+      "links": {
+        "80.lv": "https://80.lv/articles/pragmata-interview-how-capcom-delivered-a-stunning-new-sci-fi-ip-with-re-engine"
+      }
+    },
+    {
+      "name": "Plasticity 2026.1 リリース",
+      "level": "6",
+      "overview": "Plasticity 2026.1がリリース。ポリゴンメッシュをクリーンなNURBSサーフェスに変換する機能を新搭載。",
+      "detail": "CADライクな3DモデリングツールPlasticityのバージョン2026.1がリリースされた。目玉機能はポリゴンメッシュをクリーンで編集可能なNURBSサーフェスに自動変換する機能の追加。スキャンデータや他ツール出来上がりのポリゴンモデルをNURBSワークフローに取り込む用途で活躍が期待される。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/plasticity-2026-1-is-out/",
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_18_135660/"
+      }
+    },
+    {
+      "name": "UEFN v40.20 アップデート",
+      "level": "6",
+      "overview": "Fortnite向けUnreal Editor for Fortnite（UEFN）v40.20がリリース。カスタムパラメータシステムを新実装。",
+      "detail": "Epic GamesがUEFN（Unreal Editor for Fortnite）をv40.20にアップデート。新たにカスタムパラメータシステムが実装され、デバイスやコンポーネント間でより柔軟なデータの受け渡しが可能となった。Fortnite Creative上でより高度なゲームシステムやインタラクションロジックを構築しやすくなっており、コミュニティクリエイターの表現の幅が広がる。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_18_135660/"
+      }
+    },
+    {
+      "name": "Blender 5.1.1 リリース",
+      "level": "5",
+      "overview": "Blender 5.1.1がリリース。71件のバグ修正を含むメンテナンスリリース。安定性向上が図られた。",
+      "detail": "Blender Foundationがメンテナンスリリース「Blender 5.1.1」を公開した。71件のバグが修正されており、Geometry Nodes・Cycles・アニメーション周りの安定性向上が含まれる。新機能の追加はなく、5.1系の品質維持を目的としたリリース。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_18_135660/"
+      }
+    },
+    {
+      "name": "Unity 6.0 クラッシュ軽減パッチ & Unity Hub 3.17.1",
+      "level": "5",
+      "overview": "Unity 6.0にクラッシュ軽減パッチが適用。Unity Hub 3.17.1ではARM64 Windows対応が追加された。",
+      "detail": "UnityはUnity 6.0系統に対してクラッシュ問題を軽減するパッチをリリースした。また、Unity Hub 3.17.1ではSnapdragonプロセッサ搭載のARM64 Windowsデバイスへの対応が追加され、Surface ProなどのARM PCでの開発環境が改善された。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_18_135660/"
+      }
+    },
+    {
+      "name": "Liquid Glass Magnifierツール（Substance 3D Designer用）公開",
+      "level": "5",
+      "overview": "Substance 3D Designer向けのLiquid Glass Magnifierツールが公開。液体ガラス表面を創造的に実験できる素材作成ツール。",
+      "detail": "80.lvで紹介されたSubstance 3D Designer向けツール「Liquid Glass Magnifier」が公開された。液体ガラスのような光学的効果（屈折・歪み・拡大効果）を持つサーフェスマテリアルを直感的に制作できるもので、ゲームやVFX向けの特殊マテリアル制作に活用できる。",
+      "links": {
+        "80.lv": "https://80.lv/articles/liquid-glass-magnifier-a-substance-3d-designer-tool"
+      }
+    }
+  ]
+}
