@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "name": "OpenUSD v26.03 リリース — 3DGSネイティブサポート・WebAssembly対応",
+      "level": "9",
+      "overview": "OpenUSD v26.03がリリース。3D Gaussian Splats（3DGS）をネイティブサポートし、usdview内で直接表示可能に。WebAssembly対応も追加された。",
+      "detail": "Alliance for OpenUSD（AOUSD）がOpenUSD v26.03をリリースした。主な新機能は3D Gaussian Splats（3DGS）のネイティブサポートで、新スキーマ「UsdVolParticleField3DGaussianSplat」が導入され、3DGSデータをOpenUSDの第一級primタイプとして扱えるようになった。参照用Gaussian Splatレンダラ「hdParticleField」が付属し、usdview内で3DGSシーンを直接表示・確認可能。WebAssemblyビルドサポート（wasm32/wasm64）が追加され、ブラウザ上でUSDシーンを直接操作するアプリ開発が容易になった。「Sparse Array-Edit Overrides」により、配列属性の一部だけを効率的にオーバーライド可能に。また、複雑なファイル構造の読み込み速度が最大200倍改善されるケースも報告されており、スキニングキャラクターのサポート拡張とFKコントローラも追加された。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/01-202604-OpenUSDv26.03.html",
+        "CG Channel": "https://www.cgchannel.com/2026/03/openusd-26-03-adds-support-for-3d-gaussian-splats/",
+        "AOUSD公式": "https://aousd.org/blog/openusd-v26-03/",
+        "80.lv": "https://80.lv/articles/aousd-has-announced-openusd-v26-03-with-support-for-3d-gaussian-splats"
+      }
+    },
+    {
+      "name": "2Dイラストをベースにした超現実的3Dキャラクター制作事例（UE5.6・ZBrush・Houdini活用）",
+      "level": "4",
+      "overview": "アーティストAnge CapitaineがUE5.6・ZBrush・HoudiniでイラストレーターJiun Quiの2D作品を立体化した超現実的3Dキャラクターを公開。",
+      "detail": "3DキャラクターアーティストのAnge CapitaineがThink Tank Training Centerのメンタリングプログラムの一環として、イラストレーターJiun Quiの2Dイラスト作品を元にした超現実的な3Dキャラクターを制作した。MetaHumanのベースメッシュを起点にZBrushでスカルプティング、Marvelous Designerで衣装制作、Topogunでリトポロジー、Rizom UVでUV展開を行い、Adobe Substance 3D PainterとMarmoset Toolbagでベイク処理を実施。ルックデブとレンダリングにはUnreal Engine 5.6を使用し、ヘアはHoudiniとMaya XGenで制作している。ProceduralワークフローとUE5.6の最新機能を組み合わせた実践的なパイプラインが確認できる事例。",
+      "links": {
+        "80.lv": "https://80.lv/articles/have-a-look-at-this-surreal-3d-character-based-on-a-2d-illustration"
+      }
+    },
+    {
+      "name": "Kenney「Conveyor Kit」3Dアセットパック更新版 CC0ライセンスで無料公開",
+      "level": "3",
+      "overview": "工場設備をモチーフにした90種類以上の3DモデルをCC0ライセンスで無料公開。Unity・Unreal Engine・Blender対応のFBX/GLB/OBJ形式で提供。",
+      "detail": "ゲーム開発者向けアセットサイト「Kenney」が「Conveyor Kit」アセットパックの更新版を公開した。コンベヤーベルト・段ボール箱・工業設備などをモチーフにした90種類以上の3DモデルがFBX・GLB・OBJ形式で提供され、CC0ライセンス（商用・非商用問わず無料）で利用可能。Unity・Unreal Engine・Blenderとの互換性があり、カラーバリエーションと詳細な使い方ガイドも含まれている。最適化と細部の改善が加えられており、ゲームプロトタイプや教育目的の開発に活用できる。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_19_135745/"
+      }
+    }
+  ]
+}
