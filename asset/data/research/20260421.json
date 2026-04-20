@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "name": "Autodesk Maya 2027・3ds Max・Flow Studioに新AIツール群を追加",
+      "level": "9",
+      "overview": "Maya 2027にMotionMaker（馬歩行生成）・Autodesk Assistant搭載。Flow StudioではテキストからAI 3D生成「Wonder 3D」を提供開始。",
+      "detail": "AutodeskがMaya 2027、3ds Max、Flow Studio向けの新AI機能を発表した。Maya 2027では「MotionMaker」が追加され、歩き・早歩き・駆け足・ギャロップなど馬の基本モーションを数秒で生成可能。鹿やバイソンなど他の四足動物にも転用でき、生成データは完全編集可能。テクニカルプレビューの「Autodesk Assistant」では自然言語で機能検索と実作業手順の実行を行える。Sequencerは高解像度タイムラインに対応した新設計となり、Bifrost 3のRBDワークフローも刷新、複雑な破壊エフェクトが容易に。Smart Bevelはブーリアン後の複雑ジオメトリでも予測可能な結果を出せる新機能。Flow Studioの「Wonder 3D」は短いテキストや参照画像から3Dキャラクター・オブジェクトを生成、プレビズやコンセプト探索、背景アセット配置に活用可能（1生成あたり20クレジット）。Flow Studio Launcherによりmayaから直接Flow Studioへアクセス可能に。LookdevX 1.7.0+にGenerative Textures APIが追加され、外部生成AIサービスをMayaに直結できる。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/01-202604-Autodesk-AI.html"
+      }
+    },
+    {
+      "name": "Marvelous Designer 2026リリース 3D Pencilと自動リギングEveryWearを実装",
+      "level": "8",
+      "overview": "CLO Virtual Fashionが3Dアバターに直接描画できる3D PencilとAI自動リギング「EveryWear」を搭載した新バージョンを公開。",
+      "detail": "CLO Virtual Fashionが衣装デザインソフト「Marvelous Designer 2026」を2026年4月20日に公開した。目玉機能の「3D Pencil」は3Dアバターに直接描画して2Dパターンを生成できる新ツールで、従来の2Dパターンから入る手順を逆転させ、3D上でシェイプを確認しながらコスチュームをデザインすることが可能になった。ラフ段階のデザインやフィッティング調整を効率化する。Beta提供の「EveryWear」は衣装タイプに応じてリグ生成とスキニングを自動化し、キャラクターアニメーション用の衣装データ準備を大幅に省力化する。2Dパターンの変形時に3D形状の外観を保つ機能も追加され、微調整時の再シミュレーションや修正を削減。Lace Toolは複雑なレース構造を効率生成し、Toon ShaderはNPR系プロジェクトでの視認性を改善する。glTFサポート関連機能も強化された。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/03-2604-marvelousdesigner.html",
+        "CG Channel": "https://www.cgchannel.com/2026/04/clo-virtual-fashion-releases-marvelous-designer-2026-0/"
+      }
+    },
+    {
+      "name": "INSYDIUM「NeXus for Blender」ティザー GPUパーティクルシミュレーションが2026年夏登場",
+      "level": "7",
+      "overview": "Cinema 4D向け人気パーティクルツール「NeXus」がBlender向けに刷新され、GPUアクセラレーションでリアルタイム処理を実現する。",
+      "detail": "INSYDIUMがBlender向けGPUパーティクル・シミュレーションツール「NeXus for Blender」を発表した。Cinema 4Dで培われた同社の人気ツールを「Blender向けに完全に再設計」したもので、リアルタイム性能と高速イテレーションを実現する。GPUドリブンのワークフロー、エミッション形状と表示オプションの細かな制御、有機的なパーティクル動作を生み出す「NeXus Push Modifier」、Blenderのシーンツールとのシームレス統合が特長。デモはRTX 3090で撮影されたがスケーラブル設計でハードウェア性能に応じて調整される。リリース時期は2026年夏を予定。Fused Activeライセンス所持者には無料で付属し、単体購入も可能。NAB 2026記念として4月23日まで30%割引（コードNAB30）を実施中。",
+      "links": {
+        "80.lv": "https://80.lv/articles/insydium-teases-nexus-for-blender",
+        "CG Channel": "https://www.cgchannel.com/2026/04/sneak-peek-nexus-for-blender/"
+      }
+    },
+    {
+      "name": "Capcom新規IP「Pragmata」が発売2日で100万本突破 Steam評価「圧倒的に好評」",
+      "level": "7",
+      "overview": "Capcom完全新規IP「Pragmata」がRE Engineで4月17日発売。Metacritic86点、Steam97%ポジティブで近年最速級の立ち上がり。",
+      "detail": "Capcomの完全新規IPタイトル「Pragmata」が2026年4月17日の発売から2日で100万本販売を達成した。プレイヤーは月面を舞台に宇宙飛行士ヒュー・ウィリアムスとアンドロイド少女ダイアナを操作、パズルソルビングとリアルタイムコンバットを融合したSF作品。RE Engineで開発され、Switch 2を含むマルチプラットフォームで展開。Metacriticで約100件のレビューから86点、Steamでは97%のユーザーポジティブレビューを獲得し「Overwhelmingly Positive」タグがついた。Capcomは早期デモ公開、マルチプラットフォーム戦略、アクションとパズルのハイブリッド設計とキャラクター関係性の明確なメッセージングが成功要因と分析している。近年のCapcomタイトルで最速級のスタートとなった。",
+      "links": {
+        "80.lv": "https://80.lv/articles/pragmata-sold-1-million-copies-in-just-two-days-with-overwhelmingly-positive-reviews",
+        "Game Developer": "https://www.gamedeveloper.com/business/pragmata-has-topped-1-million-sales-in-two-days"
+      }
+    },
+    {
+      "name": "Blender向けリアルタイムGPU火炎・煙シミュレーションアドオンが開発中",
+      "level": "6",
+      "overview": "Biman BordoloiがBlender向けにRust+wgpuで実装したリアルタイム火炎・煙シミュレーションを開発中。数ヶ月以内にリリース予定。",
+      "detail": "開発者のBiman BordoloiがBlender向けにGPUで動作するインタラクティブな火炎・煙シミュレーションアドオンを開発中であることが報じられた。Rust言語とwgpuフレームワークで実装されており、Vulkan・Metal・DirectX 12に直接インターフェースしクロスプラットフォームで動作する。開発者によれば「確立された論文の内容が約60%、カスタムエンジニアリングが40%」でBlenderのビューポート内で計算がリアルタイム更新されるのが特長。パラメータ変更が即座にプレビューに反映され、従来のオフラインシミュレーションの待ち時間を解消する。リリースは2026年4月時点で「今後数ヶ月以内」を想定。Bordoloiは以前にもTiny Glade風の手続き的環境ツールをBlender向けに開発した実績がある。",
+      "links": {
+        "80.lv": "https://80.lv/articles/real-time-gpu-powered-smoke-fire-simulation-in-blender"
+      }
+    },
+    {
+      "name": "映画『チェンソーマン レゼ篇』のサブキャラ3DCG制作舞台裏（前編：デザイン＆モデリング）",
+      "level": "6",
+      "overview": "MAPPAが3ds MaxからBlenderにメインDCCを移行。2D作画用リファレンスとして大量の3Dモデルを展開する制作方針を公開。",
+      "detail": "映画『チェンソーマン レゼ篇』のサブキャラクター3DCG制作に関するMAPPAの舞台裏がCGWORLDに掲載された。MAPPAはメインDCCツールを3ds MaxからBlenderへ移行、『LAZARUS』に続く2本目のBlenderベースアニメ制作となった。Blenderのビューポートでの即時確認性と2Dアニメーターへの受け渡しのしやすさが選定理由。最終映像は2D作画で、3DCGキャラは「2Dアニメーター用のリファレンス」として制作し、キャラデザの杉山和隆氏の監修のもと1キャラにつき約1000枚超のリファレンスを出力。ターンテーブル（100フレーム≒1枚あたり3.6度）、バストアップ・顔アップ・全身など10の距離バリエーション、あおり・俯瞰など複数アングルを提供。モデルは細部よりプロポーション・シルエットを優先し、作画を阻害しない設計に。ボムのリグはダイナマイト風エプロンの分節境界で独立可動する専用コントローラを実装し、レゼの下半身モデルを流用するなど再利用もポイント。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/article/cgw330-chainsawreze01.html"
+      }
+    },
+    {
+      "name": "Epic Games「Indie Games Week 2026」開催 インディー4作品のインタビューを公開",
+      "level": "5",
+      "overview": "Epic Gamesが4月13-17日にインディー開発者向けの特集週間を開催。UE5活用事例とEpic Online Services実装例などを公開。",
+      "detail": "Epic Gamesが現地時間2026年4月13日から17日にかけて「Indie Games Week 2026」を開催し、期間中に複数のインディー開発者インタビューやライブ配信を公開した。インタビューではAdHoc Studioのナラティブ作品『Dispatch』（落ちぶれたヒーローの再起）、Timberlineの『Beastro』（UE5で複数ジャンル融合）、伝統アートと最新技術を融合した『Out of Words』、懐古的テーマの『Mixtape』の4作品を特集。ライブ配信セッションでは『Abiotic Factor』『Midnight Ghost Hunt』でのEpic Online Services実装、Timberline Studioの制作事例、MetaHumanによる高品質デジタルヒューマン制作、Fortnite Islandsの作品紹介の4本を放送した。全コンテンツは公式イベントハブで視聴可能で、UE採用を検討するインディー開発者の参考となる情報が集まっている。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_20_135864/"
+      }
+    },
+    {
+      "name": "Gaijin「EdenSpark Game Jam」2026年5月開催 賞金総額25万ドル",
+      "level": "5",
+      "overview": "Gaijin Entertainmentが自社開発プラットフォーム「EdenSpark」のコンテスト型ゲームジャムを開始。AI 2D/3Dアセット生成対応。",
+      "detail": "Gaijin EntertainmentがWar Thunderなどで使われる「Dagor Engine」とAIによる2D/3Dアセット生成機能を搭載したゲーム開発プラットフォーム「EdenSpark」上でコンテスト型ゲームジャム「EdenSpark Game Jam」を2026年5月から開始する。イベントは2027年まで毎月開催され、各月1日から14日に投稿を受付けて月テーマに沿ったゲームを制作。月間賞金は1位2250ドル、2位1000ドル、3位750ドル、コミュニティチョイス賞1000ドル。年間では1位5万ドル、2位3万5千ドル、3位1万5千ドル、さらに有望プロジェクト9件以上に各1万ドルの開発グラントも用意。賞金総額は25万ドルに達する。参加条件は18歳以上、2-10名チーム、EdenSparkとitch.ioの両方でのゲーム公開、Discord/Telegram加入など。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_20_135856/"
+      }
+    },
+    {
+      "name": "Gnomon Workshop Maya向けドラゴンライダーアニメチュートリアル公開",
+      "level": "4",
+      "overview": "ILM・MPC・DNEG経験20年超のGang Trinh氏が映画品質の飛行アニメーションのセットアップ・ブロッキング・リファインを解説。",
+      "detail": "The Gnomon Workshopが「Animating a Dragon Rider for Film & VFX」と題したMaya向けトレーニングを公開した。講師はMPC・DNEG・Industrial Light & Magicで20年以上の経験を持つアニメーションスーパーバイザーのGang Trinh氏で、Harry Potter、Transformers、Star Wars、Jurassic Worldなどの実績を持つ。初級〜中級者向けで、2時間以上の動画で映画品質のドラゴンライダー飛行アニメーションのセットアップ・ブロッキング・リファインを解説する。カメラ設定、飛行サイクル作成、ブロッキング技法、プロダクション品質へのリファインを段階的に学べ、リファレンス収集、解剖学、飛行力学、シネマティックフレーミング、ワークフロー最適化も扱う。使用ソフトはMaya、animBotプラグイン、Truong CG ArtistのTyrant Dragon Rig（任意）。Gnomon Workshopサブスクリプション（月額57ドル/年額499ドル）で受講可能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/tutorial-animating-a-dragon-rider-for-film-vfx/"
+      }
+    },
+    {
+      "name": "「Naledi's Rest」環境アートブレイクダウン ZBrush+SpeedTree+UEパイプライン",
+      "level": "4",
+      "overview": "Dylan Jiuが愛猫へのトリビュートとして制作したUE自然環境の技術解説。ZBrushでの樹木スカルプトとSpeedTree連携が鍵。",
+      "detail": "Environment artistのDylan Jiuが愛猫へのトリビュートとして制作したUnreal Engine環境作品「Naledi's Rest」の制作パイプラインを公開した。主要ツールはZBrush（iPadワークフロー含む）、Maya、SpeedTree、Substance 3D Designer/Painter、Unreal Engine、DaVinci Resolve。ヒーローアセットの樹木の幹や主要な枝をZBrushでスカルプトしてシルエットとカーブを決定した後、SpeedTreeのmesh helperで手続き生成する混合アプローチを採用。マテリアルはUVを2セット使用し、一方でテクセル密度と樹皮方向性の一貫性を確保、もう一方にベイク固有データを焼き込む。樹皮のタイラブルマテリアルに対しベイクしたAO・キャビティ情報をダートマスクとして重ねている。地形はUnrealのランドスケープ・ウォーターボディシステムにNanite Displacementを組み合わせ、RGBマスクで岩マテリアルをブレンド。葉は手描きスカルプトしたバリエーションをプレーンにベイクしてSpeedTree/Mayaでカード化、Foliage Painterで分布。ライティングは低強度指向性ライトで月光を表現、EXR書き出しでカラーグレーディングを実施。",
+      "links": {
+        "80.lv": "https://80.lv/articles/how-to-design-a-nature-environment-in-memory-of-a-beloved-cat"
+      }
+    },
+    {
+      "name": "Autodesk CG Festa 2026が4月22日ライブ配信で開催",
+      "level": "4",
+      "overview": "Autodesk特別協賛のCGカンファレンス「Autodesk CG Festa 2026」が4月22日13時-18時にライブ配信で開催される。",
+      "detail": "Autodesk特別協賛のオンラインカンファレンス「Autodesk CG Festa 2026」が2026年4月22日（水）13時から18時までライブ配信形式で開催される。CG・映像・ゲーム分野の最新情報とエキスパートによる技術解説が予定されており、Maya・3ds Max・Arnold・Flow Studioなどの最新AI機能を含むAutodesk製品群の活用事例が紹介される見込み。国内外のスタジオ事例・パイプライン解説・現場のワークフローに関するセッションが中心となる予定で、Autodesk製品ユーザーや映像・ゲーム業界の技術者にとって有用な情報源となる。参加は無料で、公式サイトから視聴登録可能。",
+      "links": {
+        "area.autodesk.jp": "https://area.autodesk.jp/event/autodesk/autodesk-cg-festa-2026/"
+      }
+    },
+    {
+      "name": "詳細AK-47マガジン3Dモデル制作ブレイクダウン（Blender+ZBrush+Marmoset）",
+      "level": "3",
+      "overview": "Blender・ZBrush・Marmoset 5・Substance Painterで制作された高精細AK-47マガジンの技術的ワークフローを公開。",
+      "detail": "3DアーティストIlya BlinderがAK-47マガジンの高精細3Dモデル制作のブレイクダウンを80 Levelで公開した。使用ツールはBlender、ZBrush、Marmoset 5、Substance Painter、Photoshop、PureRef（リファレンス管理）。CADではなくEvgeniy Petrov氏のパイプラインを採用しオブジェクト制御を容易化、ZBrushのDynameshとelastic brushによる溶接テクニックでジオメトリをリファイン。UVはアイランドを90度単位で整列、4Kテクスチャセット1枚にマージン4ピクセルを適用、弾丸は1本テクスチャリングしてインスタンス化することでUV空間を節約。テクスチャリングはノーマルマップをベースに5-10のカラー/ラフネスバリエーションを重ね、金属ディテールはダメージ・塗装剥がれ・スクラッチにのみ適用。ステンシルで段階的にダメージを追加し、最終段階で加工痕・オイル・汚れを載せる。レンダリングはコントラストHDRIとスポットライトで素材の質感とアトモスフェアを演出している。",
+      "links": {
+        "80.lv": "https://80.lv/articles/breakdown-designing-a-highly-detailed-ak-47-magazine"
+      }
+    }
+  ]
+}
