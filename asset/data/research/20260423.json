@@ -1,0 +1,122 @@
+{
+  "items": [
+    {
+      "name": "Godot 4.7最終開発スナップショット「dev 5」公開 矩形エリアライト実装",
+      "level": "8",
+      "overview": "アセットストア刷新、矩形エリアライト3D、C++製シェーダプレビューア搭載の機能凍結版が登場。",
+      "detail": "オープンソースゲームエンジン「Godot 4.7」の最終開発スナップショット「dev 5」が2026年4月22日に公開された。71名の貢献者による135件のバグ修正を取り込み、安定版リリース前のフィーチャーフリーズ（機能凍結）段階に入った。大規模刷新されたアセットストアではアイテム表示改善、説明とチェンジログへのクイックアクセス、ワンクリックでのバージョン変更機能が追加。3Dシーン制作では新たに「矩形エリアライト（AreaLight3D）」光源タイプが導入され、矩形状のソフトな光源表現が可能になった。シェーダ開発面ではC++で実装された新「Shader Previewer」がエディター内でシェーダ効果のリアルタイムプレビューを提供。その他、エクスポートテンプレートダイアログの再設計、RichTextLabelのフォントサイズ基準での画像スケーリング機能など細部改善も行われた。",
+      "links": {
+        "80.lv": "https://80.lv/articles/godot-4-7-s-final-development-snapshot-arrived"
+      }
+    },
+    {
+      "name": "CLO Marvelous Designer 2026リリース 3Dペンシルと衣装リギング自動化",
+      "level": "8",
+      "overview": "3Dアバター上に直接ラインを描き2Dパターンを生成。EveryWearで衣装リグ自動生成も。",
+      "detail": "CLO Virtual Fashionが3D衣装デザインソフト最新版「Marvelous Designer 2026」をリリースした（CGWORLD掲載日2026年4月22日）。最大の新機能は「3Dペンシル」で、従来の2Dパターン起点ではなく3Dアバター上に直接ラインを描くだけで対応する2Dパターンが自動生成される。衣装設計のワークフローが根本から変わる可能性がある。ベータ版「EveryWear」は衣装の種類に応じて自動でリグ生成・スキニングを行い、キャラクター連携工程を大幅に効率化する。2Dパターン変形時に3D形状のバランスを保持する機能も追加され、編集中のシルエット崩れを防ぐ。レースツールで複雑なレース構造を効率生成、さらに新搭載のトゥーンシェーダによりリアル／スタイライズ両用途に対応。ゲーム・映像業界の衣装パイプライン高速化に寄与する大型アップデートとなっている。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/03-2604-marvelousdesigner.html"
+      }
+    },
+    {
+      "name": "オープンソースMaterial Maker 1.6リリース 変数制御バリエーション搭載",
+      "level": "7",
+      "overview": "Substance 3D Designer代替の無料ノードベースマテリアル作成ツール、最大4変数のバリエーション自動生成。",
+      "detail": "Rod Zillaが開発するオープンソースのノードベース・マテリアル作成ソフト「Material Maker 1.6」が2026年4月22日に無料公開された。目玉となる新機能「Controlled Variations」ノードは、最大4つの変数を体系的に変化させて出力バリエーションを自動生成できる。既存のランダム系Variationsノードとは異なり、系統的な探索が可能。もう一つの目玉「Aperture」ノードは、ノードグラフ内で2つのポイントをワイヤレスで接続でき、Substance 3D Designerのポータルノード相当の機能を提供、複雑なグラフの可読性を大きく向上させる。静的PBRマテリアル用glTFエクスポーターも新搭載。Windows／Linux／macOSに対応しRod Zillaのitch.ioから無料入手可能。ソースコードはGitHubでMITライセンス公開。Steam版は2026年7月リリース予定。有料プロ版が主流の中で実用レベルの無料代替として注目される。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/open-source-material-authoring-software-material-maker-1-6-is-out/"
+      }
+    },
+    {
+      "name": "SideFX Project Violetチュートリアル公開 Houdini 21×MetaHuman統合パイプライン",
+      "level": "7",
+      "overview": "KineFX／APEX／Otis筋肉システムでMetaHumanをプロシージャル化。全33動画の無料チュートリアル。",
+      "detail": "SideFX社公式の中級者向けキャラクター制作チュートリアル「Project Violet」が公開された（CGWORLD 2026年4月23日掲載）。Houdini 21とMetaHumanを組み合わせたプロシージャルキャラクターパイプライン構築を主題とし、全12セクション・33本の動画で構成される。コア技術はKineFX（プロシージャル骨格処理）、APEXグラフ実行アーキテクチャによるリギング、新筋肉システム「Otis」を用いたCFX（キャラクターエフェクト）構築。MetaHumanのカスタマイズ・インポート、アニメーションリターゲティング、骨・筋肉・脂肪・皮膚の揺れを単一物理法則で統合した物理シミュレーション、顔アニメーション制御、動的テクスチャ処理、最終レンダリングまでを一気通貫で解説する。SideFX公式サイトとYouTubeで無料公開され、UE5で利用可能なリアルタイム対応高品質キャラクターの制作手法を学ぶ事実上の標準教材になる可能性がある。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/01-202604-ProjectViolet.html"
+      }
+    },
+    {
+      "name": "CGMatter製Blender Buddy公開 llama.cpp採用の完全ローカルAIエージェント",
+      "level": "7",
+      "overview": "APIキー不要・データ非送信でBlender内対話可能。Ask／Action／Visionの3モード搭載。",
+      "detail": "CGMatterが開発した無料Blenderアドオン「Blender Buddy」が2026年4月22日に公開された。最大の特徴は完全ローカル動作で、llama.cppをバックエンドに採用し、APIキー不要かつ外部へのデータ送信なしで利用できる点。自然言語でBlenderに指示を出せる「Ask Mode」、自動実行を行う「Action Mode」、スクリーン画像を解析する「Vision Mode」の3モードを搭載。シーンコンテキスト理解とウェブ検索統合により、現在のシーンを踏まえた操作支援とドキュメント参照が可能。Blender向けPython APIと公式ドキュメントを内部的に網羅しており、モデリングやスクリプト実行、複雑な操作を対話形式で補助できる。要件は16GB以上のRAM、最大30GBのストレージ、Blender 5.1以降。商用AI連携が広がる中、ローカル完結で業務データを外部に出さない選択肢として重要な位置付けとなりそうだ。",
+      "links": {
+        "CGbox": "https://cgbox.jp/2026/04/22/news-addon-blender-buddy/",
+        "3DNchu": "https://3dnchu.com/archives/blender-buddy/"
+      }
+    },
+    {
+      "name": "劇場版『チェンソーマン レゼ篇』3DCG制作No.2 カット制作工程を詳解",
+      "level": "6",
+      "overview": "MAPPAが3Dレイアウト活用・Blender導入・Rigacarで車両自動リグ化した工程を公開。",
+      "detail": "CGWORLD誌2026年2月号vol.330連載記事「劇場版『チェンソーマン レゼ篇』縁の下からキャラクターの完成度を引き上げる『見えない工程』の3DCG No.2／カット制作篇」が2026年4月22日にウェブ転載された。MAPPA単独出資の劇場版でキャラクターは手描き作画、3DCGは背景美術と補助作業に徹する方針を取る。絵コンテ段階でキャラクターモデルを背景に配置し3Dレイアウトでルック確認を効率化、激しいカメラワークのカットはムービー形式で提出することでイメージ共有を高速化した。ワークフロー全体ではBlenderを採用しビューポートでのワイヤーフレーム可視化とリアルタイムレビューによりレンダ待ちを削減、Rigacarアドオンで1990年代車両のリグを自動生成し多数アセットの再利用を実現した。街全体の3DCG化による美術コスト削減方針も紹介されており、作画中心作品における3DCG補助活用の実践的参考事例となる。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/article/cgw330-chainsaw-reze02.html"
+      }
+    },
+    {
+      "name": "Epic Games Fabで無料アセット3種配布 深海研究施設・ボディカム・橋モデル",
+      "level": "6",
+      "overview": "UE向けマーケットプレイスで5月5日までの期間限定無料。計22,234円相当のアセット。",
+      "detail": "Epic Gamesの統合コンテンツマーケットプレイス「Fab」が2026年4月22日より5月5日午後11時59分（日本時間）までの期間限定で無料コンテンツ3製品を公開した。合計22,234円相当（標準ライセンス・個人）。1つ目「Deep Water Station」（Kyrylo Sibiriakov）は深海研究施設がモチーフのモジュラー環境アセットで、76個のメッシュ、魚群・プランクトンのNiagaraエフェクト収録、UE5.1〜5.7対応。2つ目「Bodycam Backroom VHS Effect」（Kaizen Digital Interactive）はボディカメラ映像風エフェクトで、ノイズ、魚眼レンズ、画面焼き付きのビジュアル効果や足音サウンドを搭載、UE5.1〜5.7対応。3つ目「Modern Bridges」（Enterables）は跳ね橋・昇降式可動橋など10種類の橋モデル群、タイリングテクスチャ、LODとLumen対応、UE4.22〜4.27および5.0〜5.7まで広く対応する。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_22_136008/"
+      }
+    },
+    {
+      "name": "Autodesk Flow Studio連携チュートリアル第4回 BlenderからFlow Studioへ",
+      "level": "5",
+      "overview": "Blenderで制作した3Dモデルとアニメーションを合成用Flow Studioに持ち込むワークフロー解説。",
+      "detail": "Autodesk AREA JAPANが2026年4月22日に連載「Flow Studioと往く〜キャラクターアニメーションの新しい世界〜第4回：BlenderからFlow Studioへ」を公開した。オープンソースのBlenderで制作した3Dキャラクターモデル・アニメーションをAutodeskのAI駆動キャラクターアニメーションプラットフォーム「Flow Studio」に持ち込む手順を解説する。Flow Studioは合成とキャラアニメーションを強化する新世代プラットフォームで、他DCCとのインターオペラビリティ確立が普及の鍵となっている。具体的にはFBX／USDなど交換フォーマットでのエクスポート設定、リグとスキンウェイトの受け渡し注意点、マテリアル・テクスチャの持ち込み時の変換手順などが想定される。Blenderユーザーが商用カラーグレーディングやアニメーションリファインを行う際のハイブリッドワークフロー事例として、個人・スタジオ双方に参考となる。",
+      "links": {
+        "area.autodesk.jp": "https://area.autodesk.jp/column/tutorial/journey-with-flow-studio/04-blender-to-flow-studio/"
+      }
+    },
+    {
+      "name": "Text Animator for Unity紹介 15種以上のエフェクトとTextMeshPro対応",
+      "level": "5",
+      "overview": "Febucci製Unityテキストアニメーションツール。shake／wave／fadeや文字単位の速度制御。",
+      "detail": "80 LevelがFebucci開発のUnity向け商用プラグイン「Text Animator for Unity」を2026年4月22日に紹介した。Unityプロジェクトに動的なテキストアニメーションを追加するツールで、shake（揺れ）、wave（波）、fade（フェード）など15以上の組み込みエフェクトを搭載する。カスタマイズ可能なタイプライター機能により、文字・句読点・単語単位で表示速度を個別制御可能。カスタムアクションの追加やゲームプレイイベントのトリガー設定もサポートしナラティブ演出の幅が広がる。互換性としてUnity UI ToolkitとTextMeshProの双方と完全統合、既存テキストアセットにそのまま適用できる。RPGや会話中心のアドベンチャーゲーム、ビジュアルノベルなど演出重視ジャンルの開発で有用。公式ツールストアから入手可能で、テキスト表現の質向上を短時間で図れるため、中小規模チームにとって導入コストパフォーマンスが高い選択肢となる。",
+      "links": {
+        "80.lv": "https://80.lv/articles/add-dynamic-text-animations-to-your-unity-projects-with-this-tool"
+      }
+    },
+    {
+      "name": "Valorborn制作インタビュー UE5と完全シミュレーション型サンドボックスRPG",
+      "level": "5",
+      "overview": "近・中・遠の階層シミュレーション設計とAI挙動で生きた世界を構築する小規模チームの手法。",
+      "detail": "80 Levelが2026年4月22日に小規模インディー開発チームによるUnreal Engine 5製サンドボックスRPG『Valorborn』の制作手法を公開した。設計の三本柱は「生きた世界」「プレイヤーの自由度」「システムの相互接続性」。パフォーマンス管理では階層的アプローチ（近・中・遠の世界）を採用し、プレイヤー周辺NPCは完全挙動シミュレート、離れた村はデータとしてのみ処理することで計算資源を最適化する。AI設計ではスクリプト感のない自然な動作を目指しつつ、ゲームプレイの明確さとバランスを両立する工夫を凝らす。使用技術はUE5に加え、3ds Max／Blenderでのモデリング、ZBrushでのスカルプト、Substance 3D Painter／Designerでのテクスチャリング、Character Creatorでのキャラクター作成、Perforceでのバージョン管理。FAB購入アセットを活用し統一ビジュアルに統合する実用的アプローチが小規模チーム開発の参考となる。",
+      "links": {
+        "80.lv": "https://80.lv/articles/how-a-small-indie-team-is-building-a-fully-simulated-sandbox-rpg-in-valorborn"
+      }
+    },
+    {
+      "name": "Vampire Survivors開発元poncleが15以上のプロジェクトを同時展開中",
+      "level": "4",
+      "overview": "『Vampire Survivors』の成功を受け、複数地域の小規模チームで15超の新作・DLC・コラボを進行。",
+      "detail": "80 Levelが2026年4月22日に公開したインタビューで、「bullet heaven（弾幕天国）」ジャンルを再定義した『Vampire Survivors』開発元poncleが15以上のプロジェクトを同時進行中であることが明かされた。新作ゲーム、DLC、スピンオフ、コラボレーション企画を並行展開し、日本やイタリアなど複数地域に小規模チームを配置する分散型スタジオ運営を採用。従来のパブリッシング事業から内部・パートナー駆動のパイプライン構築へシフトし、資産・システム・設計原理を複数プロジェクト間で再利用することで開発加速とコスト削減を両立している。具体例として挙げられた『Vampire Crawlers』は、コアメカニクスをローグライク・デッキビルダーに再解釈し、bullet heavenフォーマットの実験性を示す事例となっている。単一大型続編ではなくIPをプラットフォーム化するアプローチは、ミドル規模スタジオの拡張戦略として参考になる。",
+      "links": {
+        "80.lv": "https://80.lv/articles/vampire-survivors-creators-are-working-on-15-projects-including-games-dlc-and-more"
+      }
+    },
+    {
+      "name": "Godot Meetup Tokyo Vol.7講演資料公開 UnityとGodot併用アプローチなど",
+      "level": "4",
+      "overview": "Godotを補完ツールとして使う手法やローカルTTSアドオンgodot-piper-plusなど3講演の資料。",
+      "detail": "GameMakers.jpが2026年4月22日、2026年4月16日開催の日本人向けGodotコミュニティイベント「Godot Meetup Tokyo Vol.7」の講演資料が公開されたことを報じた。主要3講演は次の通り。(1)Kei Nakazawa氏「Today from Work with Godot Engine」：Godotを置換ではなくUnityツールチェーンの補完として使うハイブリッドアプローチを解説。(2)yousan氏「Creating a Local TTS Add-on for Godot」：オープンソースTTSプラグイン「uPiper」を基盤とするGodot向けローカル音声合成アドオン「godot-piper-plus」の実装を紹介。(3)꼴전사氏「Current State of the Korean Game Industry and Godot」：韓国ゲーム業界におけるGodot採用状況の報告。またGodot Foundation Executive DirectorのEmilio Coppola氏も登壇し、Godot開発を支える非営利団体の活動を紹介した。",
+      "links": {
+        "GameMakers.jp": "https://gamemakers.jp/article/2026_04_22_135945/"
+      }
+    },
+    {
+      "name": "Blender向け手続き型トラフィックコーンジェネレータ無料公開",
+      "level": "3",
+      "overview": "Alex Martinelli作のジオメトリノード修飾子。Blender 5.0以降対応でGumroadから無料入手。",
+      "detail": "80 Levelが2026年4月22日、Alex Martinelli氏がBlender向けに開発した「Procedural Traffic Cone Generator」を無料公開したと報じた。ジオメトリノード修飾子として実装され、カスタマイズ可能なトラフィックコーンを手続き的に生成できる。サイズ、傷み具合、色、反射帯のパターンなどをパラメータ化してバリエーションを量産可能で、環境背景アセット制作やシミュレーション用小道具生成を効率化する。動作要件はBlender 5.0以降。背景にはBlender Guru氏が以前の動画で「$3,600のコスト」と表示したトラフィックコーンモデルがネットコミュニティで話題化し、コーン関連制作のトレンドが生まれたユーモラスな経緯がある。Gumroad経由で完全無料ダウンロード可能。小道具を多数必要とするシミュレーションゲーム、都市景観、建設系プレゼンなど用途は広く、Blender 5系のジオメトリノード機能を学ぶ教材としても活用できる。",
+      "links": {
+        "80.lv": "https://80.lv/articles/procedural-traffic-cone-generator-in-blender"
+      }
+    }
+  ]
+}
