@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "name": "Houdini GPU液体ソルバー「Paradigm 1.0」正式リリース",
+      "level": "9",
+      "overview": "HoudiniプラグインのGPUアクセラレート液体シミュレータParadigm 1.0が正式リリース。CPU比で大幅な高速化を実現する。",
+      "detail": "Theory Accelerated社（元ILM・Naughty DogのTD Matt Puchala氏が設立）がHoudini向けGPUアクセラレート疎液体ソルバー「Paradigm 1.0」を正式リリース。同社のAxiomソルバーと同じOpenCLベースの技術を採用し、CPUの何分の一かの時間で数百万パーティクルをシミュレート可能。表面張力・粘性・付着力をサポートし、小規模〜中規模の液体エフェクト（液体の流し込みやスプラッシュ）向けのツールセットを提供。Commercial版$199、Indie版$99。Houdini 20.0以降でOpenCL 3.0対応GPU必須。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/houdini-gpu-liquid-solver-paradigm-is-out/",
+        "Theory Accelerated": "https://www.theoryaccelerated.com/paradigm"
+      }
+    },
+    {
+      "name": "ChaosがV-RayでAMD GPUサポートを再開（HIPフレームワーク経由）",
+      "level": "8",
+      "overview": "V-Ray GPUレンダラーがAMD社のHIPフレームワーク経由でAMD GPU対応を再開。一部シーンではNVIDIAより高速なケースも確認。",
+      "detail": "ChaosがV-Ray GPUレンダラーにおいてAMD GPUのサポートを再開した。AMD独自のGPUレイトレーシングライブラリ「HIP RT」を採用し、Radeon RX 9000シリーズやRadeon AI Pro R9000シリーズなど最新AMD GPUで動作する。一部のシーンではNVIDIA製GPUを上回るレンダリング速度を記録したことも確認されており、Redshiftも同様のAMD GPU対応を今週追加している。これによりAMD GPU環境でのプロフェッショナルCGレンダリングの選択肢が広がった。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/chaos-reinstates-support-for-amd-gpus-in-v-ray/"
+      }
+    },
+    {
+      "name": "V-Ray 7 Update 3 for 3ds Max リリース",
+      "level": "7",
+      "overview": "3ds Max向けV-Ray 7 Update 3がリリース。ネイティブパラレックスインテリア・クイックコースティクス・ガウシアンスプラットRelight対応が追加。",
+      "detail": "ChaosがV-Ray 7 Update 3 for 3ds Maxをリリース（4月23日）。主な新機能はネイティブパラレックスインテリア（パラレックスマッピングによるリアルタイムなインテリア表現）、フォトンベースのクイックコースティクス（高速な光の屈折表現）、3Dガウシアンスプラット（3D Gaussian Splats）シーンへの再ライティング機能（Relighting）への対応。また同日、V-RayがAMD GPUのHIPフレームワーク経由サポートを再開しており、今回の更新はAMD GPU対応も含む幅広いアップデートとなっている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/chaos-releases-v-ray-7-update-3-for-3ds-max/"
+      }
+    },
+    {
+      "name": "GodotCon Amsterdam 2026 開催中（4/23-24）",
+      "level": "6",
+      "overview": "オープンソースゲームエンジンGodotの国際カンファレンス「GodotCon Amsterdam 2026」が4月23〜24日にオランダで開催中。",
+      "detail": "Godot Foundationが主催する「GodotCon Amsterdam 2026」が4月23日〜24日、オランダ・アムステルダムのPathé Amsterdam Noordで開催。Godot Foundationの本拠地であるアムステルダムで初開催となる本イベントでは、知識共有・ビジネスネットワーキング・プロジェクト展示が行われる。オランダゲーム協会とも共催。Godot 4.x系の発展と共にコミュニティが世界規模で拡大する中、オープンソースゲーム開発の普及を推進する重要なカンファレンス。入場料はStandard €120。",
+      "links": {
+        "GodotCon 公式": "https://conference.godotengine.org/2026/",
+        "80.lv": "https://80.lv/articles/join-godotcon-in-amsterdam-this-april"
+      }
+    },
+    {
+      "name": "3Dテクスチャペイントアプリ「Wafer」がWindows正式対応",
+      "level": "6",
+      "overview": "Sparseal製3Dテクスチャペイントアプリ「Wafer」が初のWindows正式リリース。macOS向け実験的ビルドも同時公開。",
+      "detail": "Sparsealが開発する3DテクスチャペイントアプリケーションWaferがWindowsプラットフォームに正式対応（4月22日）。Waferはリアルタイムフィードバックを重視した3Dペイントツールで、今回の更新でWindowsが初の正式サポートプラットフォームとなった。macOS向けには実験的なビルドも同時に公開された。SubstancePainterなどの既存ツールとは異なるアプローチを持つペイントツールとして注目されており、今後の正式macOS対応も予定されている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/3d-texture-painting-app-wafer-is-now-available-for-windows/"
+      }
+    },
+    {
+      "name": "INDIE Live Expo 2026 明日4/25開催予定",
+      "level": "5",
+      "overview": "インディーゲーム紹介番組「INDIE Live Expo 2026」が4月25日に配信予定。200以上のタイトルを4時間にわたって紹介。",
+      "detail": "インディーゲーム国際放送番組「INDIE Live Expo」が日本時間4月25日（土）に放送予定。今回の応募数が初めて1,000タイトルを超え、厳選された200以上のタイトルを紹介する。「INDIE Waves」セグメントで15秒予告を多数公開する他、ワールドプレミアや最新情報も発表予定。YouTube・Twitch・X等で生配信。注目タイトルには「.45 Parabellum Bloodhound」（Sukeban Games製ローファイサイバーパンクARPG）などが含まれる。",
+      "links": {
+        "MonsterVine": "https://monstervine.com/2026/04/indie-live-expo-april-25-2026-200-games-showcase/",
+        "INDIE Live Expo 公式": "https://indie.live-expo.games/en/"
+      }
+    }
+  ]
+}
