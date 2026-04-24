@@ -1,0 +1,142 @@
+{
+  "items": [
+    {
+      "name": "OctaneRender 2026.3リリース - 仮想テクスチャのネットワークレンダリング対応など",
+      "level": "8",
+      "overview": "OTOYがOctaneRender 2026.3をリリース。仮想テクスチャのネットワーク対応、トレースセット拡張、NRCメモリ削減等を実施。",
+      "detail": "OTOYがGPUプロダクションレンダラーOctaneRenderの最新版2026.3をリリース。主な追加機能として、GPUメモリに収まらない大容量テクスチャをストリーミングする仮想テクスチャシステムがネットワークレンダリングでも利用可能になった。またトレースセット（オブジェクト間の可視性を制御する機能）がシャドウキャッチャーにも拡張された。Neural Radiance Cache（NRC）のメモリ使用量削減、MaterialXサポート強化も行われた。さらにOctaneRender 2027.1向け予定だったVectron Tubeプリミティブが前倒しで追加された。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/otoy-releases-octanerender-2026-3/"
+      }
+    },
+    {
+      "name": "Houdini向けGPU液体シミュレーター「Paradigm 1.0」正式リリース",
+      "level": "8",
+      "overview": "Theory AcceleratedがHoudini向けGPU加速スパース液体ソルバーParadigm 1.0をリリース。Axiomと同技術基盤で商用$199。",
+      "detail": "VFX・ゲームシネマティクス向けGPUボリュームソルバーAxiomで知られるTheory Accelerated（元ILM/Naughty Dog TD Matt Puchala氏）が、Houdini向けGPU加速スパース液体ソルバーParadigm 1.0をリリース。Axiomと同技術基盤で数百万パーティクルをCPUの何倍もの速度でシミュレーション可能。Houdini 20.0以上に対応し、Windows/Linux/macOS、OpenCL 3.0対応GPUが必要。商用永続ライセンス$199、Indie版$99。現時点ではホワイトウォーターソルバーやナローバンドサポートが未実装。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/houdini-gpu-liquid-solver-paradigm-is-out/",
+        "80.lv": "https://80.lv/articles/gpu-powered-liquid-solver-paradigm-1-0-released"
+      }
+    },
+    {
+      "name": "「See-through」アニメイラスト自動レイヤー分解技術がOSS公開 - SIGGRAPH 2026採択",
+      "level": "8",
+      "overview": "1枚のアニメイラストを最大23層のレイヤーに自動分解してPSD出力するSIGGRAPH 2026採択研究がOSS化された。",
+      "detail": "「See-through: Single-image Layer Decomposition for Anime Characters」がACM SIGGRAPH 2026に採択され、GitHubにてオープンソース公開された。1枚のアニメイラスト画像から髪・顔・目・衣装などを含む最大23の意味的レイヤーに自動分解し、奥行き順付けされた完全インペイント済みPSDファイルとして出力する。商用Live2Dモデルからの教師データを活用したスケーラブルエンジンを採用。WebUIも別途公開されており、StretchyStudioと連携した2Dパペットアニメーション制作も可能。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202604-See-through.html",
+        "GitHub": "https://github.com/shitagaki-lab/see-through",
+        "arxiv": "https://arxiv.org/abs/2602.03749"
+      }
+    },
+    {
+      "name": "V-Ray GPUがAMD GPUサポートを8年ぶりに復活 / V-Ray 7 Update 3リリース",
+      "level": "8",
+      "overview": "ChaosがV-Ray 7 Update 3をリリース。8年ぶりにAMD GPU（HIPフレームワーク）対応、ネイティブ視差インテリア等も追加。",
+      "detail": "ChaosがV-Ray 7 Update 3（バージョン7.30.02）を3ds Max 2022-2027向けにリリース。最大のニュースはAMDのHIPフレームワーク経由でAMD GPU（RDNA 2以降）のサポートが8年ぶりに復活したこと。内部テストでは標準シーンはNVIDIAより遅いが、アウトオブコアレンダリングが必要な大規模シーンでは高速な結果も。その他の新機能としてネイティブ視差インテリア、クイックコースティクス、3DガウシアンスプラットのRelight対応なども追加された。",
+      "links": {
+        "AMD GPU対応 CG Channel": "https://www.cgchannel.com/2026/04/chaos-reinstates-support-for-amd-gpus-in-v-ray/",
+        "V-Ray 7 Update 3 CG Channel": "https://www.cgchannel.com/2026/04/chaos-releases-v-ray-7-update-3-for-3ds-max/"
+      }
+    },
+    {
+      "name": "NeXus for Blender スニークピーク - GPU粒子/流体シミュレーターのBlender版",
+      "level": "7",
+      "overview": "InsydiumがCinema 4D専用GPUシミュレーターNeXusのBlender版を近日公開予定。C4D版より高速でVulkanベース。",
+      "detail": "InsydiumがC4D専用のGPU加速粒子シミュレーターNeXusのBlender版のスニークピークを公開。Blender版はC4D版より高速で、同等の機能を持ちつつVulkanベースのためAMD・Apple・Intel・NVIDIA GPUに対応する。NeXusはX-ParticlesのCPUベース多物理粒子プラグインの新世代GPU版として粒子エフェクト、粒状流体、液体・気体流体シミュレーションを備える。アクティブFusedライセンスにはBlender版が含まれる予定で、別売りも計画中。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/sneak-peek-nexus-for-blender/",
+        "80.lv": "https://80.lv/articles/insydium-teases-nexus-for-blender"
+      }
+    },
+    {
+      "name": "Cinema 4D 2026.2リリース＆iPad版ベータ発表 - ARM Windows対応も",
+      "level": "7",
+      "overview": "Maxonがクロス布スカルプト「Fabric Brush」追加のC4D 2026.2をリリース。iPad版ベータ（M2以降）も発表。",
+      "detail": "MaxonがCinema 4D 2026.2をリリース。新機能「Fabric Brush」は布の折り目をリアルにスカルプトする物理ベースツール。またARM版Windows（Copilot+ PC/Snapdragon）にネイティブ対応し性能とメモリ効率が向上。同時にiPad版Cinema 4Dのパブリックベータ登録ページを公開。M2以上（推奨M3）のiPadが必要で商用リリースは2026年後半予定。NAB 2026（4/18-22）のブースN2741でも展示された。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/maxon-ships-cinema-4d-2026-2-unveils-cinema-4d-for-ipad-beta/",
+        "Maxon公式": "https://www.maxon.net/en/cinema-4d-for-ipad"
+      }
+    },
+    {
+      "name": "Adobe After Effects 26.2 - AIオブジェクトマット・3D素材変位など追加",
+      "level": "7",
+      "overview": "AE 26.2でAIクリックのみでマット生成「Object Matte」、Quick Apply、3Dマテリアルディスプレース等を追加。3D最大3.8倍高速化。",
+      "detail": "AdobeがAfter Effects 26.2をリリース。主な新機能は①Object Matte Tool: RotoBrushと異なりクリックまたはマーキーセレクトだけで動体のマットを自動生成・追跡するAIロトスコープ②Quick Apply: エフェクト・プリセット・メニューコマンドを素早く検索して適用③Proportional Scrubbing: 複数レイヤーのプロパティを比例的に一括調整④3D Material Displacement: パラメトリックメッシュへの変位マップ適用。Advanced 3Dレンダラーを使用した3Dベースワークフローの描画速度が最大3.8倍向上。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/adobe-releases-after-effects-26-2/",
+        "Adobe Community": "https://community.adobe.com/announcements-527/after-effects-26-2-is-here-1557377"
+      }
+    },
+    {
+      "name": "Blender 4.5.9 LTS アップデートリリース（4/21）",
+      "level": "6",
+      "overview": "Blender 4.5.9 LTSが4月21日リリース。Blender 5.0は3月17日リリース済み。2026年ロードマップも公開中。",
+      "detail": "Blender 4.5.9 LTSが2026年4月21日にリリース。Blender 4.5 LTSのサポートは2027年7月まで継続。なお、Blender 5.0は2026年3月17日にリリース済みで、2026年のリリーススケジュールはBlender 5.1（3月済）、5.2 LTS（7月予定）、5.3（11月予定）となっている。開発者フォーラムでは4月20日週の週次アップデートも公開されており、Blender 5.2の開発が進行中。",
+      "links": {
+        "Blender公式": "https://www.blender.org/download/releases/",
+        "開発者フォーラム": "https://devtalk.blender.org/t/20-april-2026/44972"
+      }
+    },
+    {
+      "name": "Wafer 1.2 Windows版リリース - NPR特化3Dテクスチャペイントアプリ",
+      "level": "6",
+      "overview": "iPad専用だったSparseのWafer 1.2がWindowsに対応。NPR向けマルチチャンネルペインティング対応、基本無料のベータ版。",
+      "detail": "SparseがiPad専用の3Dテクスチャペイントアプリ「Wafer」のWindows版（Wafer 1.2）をリリース。NPR（非写実的）テクスチャリングに特化し、シングルブラッシュストロークでカラー・ラフネス・メタルネスなど複数チャンネルを同時更新するマルチチャンネルペインティングをサポート。3Dメッシュ上での球形・プリズム型ブラシフォールオフにより投影アーティファクトやシームなし。基本無料だがファイル保存・テクスチャエクスポートには永続ライセンス購入が必要。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/3d-texture-painting-app-wafer-is-now-available-for-windows/",
+        "Sparseal公式": "https://sparseal.com/wafer/"
+      }
+    },
+    {
+      "name": "Twinmotion 2026.1リリース - 写真バックプレートへの3D合致ツールなど追加",
+      "level": "6",
+      "overview": "Epic GamesがTwinmotion 2026.1をリリース。写真との透視マッチング、ライティングチャンネル、Autosoft Edgeなど追加。",
+      "detail": "Epic GamesがUnreal Engineベースのリアルタイム可視化ソフトTwinmotion 2026.1をリリース。主な新機能：①Match Perspective: バックプレート写真に対して消失点を自動検出しカメラ位置・焦点距離を自動調整②ライティングチャンネル: 物理ライトが影響するオブジェクトを精密にコントロール③Autosoft Edge: 選択オブジェクトの硬いエッジを指定半径で滑らかにするレンダリングエフェクト（Standard/Lumen/Path Tracer対応）④Auto Focus: 深度フォーカスの自動調整機能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/epic-games-releases-twinmotion-2026-1/",
+        "Twinmotion公式": "https://www.twinmotion.com/news/twinmotion-2026-1-is-here"
+      }
+    },
+    {
+      "name": "GodotCon 2026 アムステルダムで4/23-24に開催",
+      "level": "5",
+      "overview": "Godot Foundationが4月23-24日にアムステルダムでGodotCon 2026を開催。コミュニティ交流・技術講演など実施。",
+      "detail": "Godot Foundationがオランダ・アムステルダムのPathé Amsterdam Noord（Buikslotermeerplein 2003）でGodotCon 2026を開催（4/23-24、10:00-18:00）。オープンソースゲームエンジンGodotのコミュニティイベントで、技術講演・ネットワーキング・ゲームショーケースなどが行われた。Dutch Games Associationと共同主催。公式スケジュールでは各種講演・ワークショップ・ゲームショーケースが組まれた。",
+      "links": {
+        "80.lv": "https://80.lv/articles/join-godotcon-in-amsterdam-this-april",
+        "GodotCon公式": "https://conference.godotengine.org/2026/"
+      }
+    },
+    {
+      "name": "サンジゲンがACTF2026でBlenderを使ったTVアニメ制作事情を解説",
+      "level": "5",
+      "overview": "TVアニメCG制作会社サンジゲンがACTF2026 in TAAFでBlender導入の背景と今後の展望を解説した。",
+      "detail": "CGWorld誌がACTF2026 in TAAFでのサンジゲンによる講演レポートを掲載。サンジゲンは「境界の彼方」「リトルウィッチアカデミア」などのTVアニメCGを手がけるスタジオで、ACTF2026では「Blenderで作るTVアニメ最新事情」と題してBlender導入の背景・実態から今後の展望まで解説した。TVアニメCG制作の現場でBlenderがどのように活用されているかを知る貴重な情報となっている。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/article/202604-actf-sanzigen.html"
+      }
+    },
+    {
+      "name": "東映のゲーム事業ブランド「東映ゲームズ」が創設 - 初回タイトルを4/24発表",
+      "level": "5",
+      "overview": "東映がゲーム事業ブランド「東映ゲームズ」を創設。まずSteamで配信し、その後コンソール展開も予定。",
+      "detail": "ゲームメーカーズ誌が東映のゲーム事業ブランド「東映ゲームズ」の創設を報道。初回リリースタイトルは2026年4月24日（金）に発表予定。展開戦略としてまずSteamでの配信を先行させ、その後コンソールへの展開も予定している。東映グループの持つ映像コンテンツIPを活用したゲーム展開が期待される。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_04_21_135904/"
+      }
+    },
+    {
+      "name": "Retopoflow 4.1.5リリース - BlenderのEdit Mode自動保存問題を解決",
+      "level": "5",
+      "overview": "Orange TurbineがRetopoflow 4.1.5をリリース。BlenderがEdit Modeで自動保存しない問題を独自に解決した。",
+      "detail": "Orange TurbineがBlender向けリトポロジーツールスイート「Retopoflow 4.1.5」をリリース（4/7）。Blender自体がEdit Mode中に自動保存を行わないという根本的な問題に対処し、Retopoflow使用中でも確実な自動保存を実現した。Retopoflow 4はEdit Modeに直接統合された完全書き直し版で、高速化されたアルゴリズム・新ホットキー、PolyPen/PolyStrips/Strokes/Contoursなどのツールを含む。Blender 5にも対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/orange-turbine-releases-retopoflow-4-for-blender/",
+        "80.lv": "https://80.lv/articles/retopoflow-4-for-blender-released"
+      }
+    }
+  ]
+}
