@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "name": "OpenUSD v26.05 リリース - Pixar製3D業界標準フォーマットの定期アップデート",
+      "level": "7",
+      "overview": "PixarがOpenUSD v26.05をリリース。Maya・Blender・Houdini等で広く使われるUSDライブラリの最新版。スキーマ・API改善含む。",
+      "detail": "Pixar Animation StudiosとAlliance for OpenUSD（AOUSD）がOpenUSD v26.05を正式リリースした（4月25日）。OpenUSDはMaya、Blender、Houdini、Unreal Engine、Omniverse等で広く採用されている3Dシーン記述のオープン標準ライブラリ。v26.05はスキーマAPI改善、Python対応強化、パフォーマンス最適化を含む定期アップデート。OpenUSDは年3回（2月・5月・11月）の定期リリーススケジュールで開発が進められており、Pixar・NVIDIA・Autodesk・Apple等主要企業が継続的に貢献している。GitHubのリリースページでChangelogが公開されている。ゲームエンジン・DCC統合用途でのUSD採用拡大を背景に業界全体の注目度が高い。",
+      "links": {
+        "AOUSD Forum": "https://forum.aousd.org/t/openusd-v26-05-has-been-released/2911",
+        "GitHub Release": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v26.05"
+      }
+    },
+    {
+      "name": "Microsoft GDK April 2026 - ARM64プレビュー対応とMSIXVC2新パッケージ形式",
+      "level": "7",
+      "overview": "April 2026 GDKでARM64ネイティブビルドをプレビュー対応。新パッケージMSIXVC2はコンテンツ更新64〜94%削減・2〜8倍高速化。VS2026対応。",
+      "detail": "MicrosoftがApril 2026 Game Development Kit（GDK）をリリース。主な変更点：①ARM64ネイティブビルドのプレビュー対応 - PlayFab Unified SDK、Xbox Services API、Xbox Authentication Library等がARM64ネイティブライブラリとして提供開始②MSIXVC2プレビュー - Xbox PC向けの新パッケージ形式で、従来比64〜94%小さいコンテンツ更新・2〜8倍高速なパッケージング・部分ダウンロード・組み込み圧縮・バージョン単位暗号化を実現。一般公開はOctober 2026 GDKを目標③Visual Studio 2026対応（Professional/Enterprise）④XblPcSandbox.exeによるサンドボックス切替の改善 - 切替前後の出力表示・専用/retailオプション追加。ARM64対応はCopilot+ PC向けゲーム開発を見据えた重要ステップ。",
+      "links": {
+        "Microsoft Developer": "https://developer.microsoft.com/en-us/games/articles/2026/04/april-2026-microsoft-gdk-update/",
+        "VideoCardz記事": "https://videocardz.com/newz/microsoft-gdk-update-adds-native-arm64-preview-for-xbox-pc-game-builds"
+      }
+    },
+    {
+      "name": "Maxon One Spring 2026 リリース - Autograph無料化・ZBrush Substance Bridge・C4D UE5連携強化",
+      "level": "7",
+      "overview": "MaxonがMaxon One Spring 2026をリリース。モーショングラフィクスツールAutographを個人向け無料化。ZBrush Substance Bridgeでワンクリック連携を実現。",
+      "detail": "Maxonがモーショングラフィクス・コンポジットアプリ「Autograph」を個人クリエイター向けに無料化し、Maxon One製品群に統合した。AutographはUSDベースでレスポンシブデザイン・Clonerシステムを持つモーションデザイン＆コンポジットツール。また、ZBrushに新たにSubstance Bridge機能が追加され、スカルプトから高品質テクスチャリングへのワンクリック連携が可能に。Cinema 4DのUnreal Engine 5連携（C4D-to-UE Live Link）が強化され、リアルタイムプレビューのワークフローが改善。Maya・3ds MaxとのGoZサポートも最新版対応に更新。また、Cinema 4D・ZBrush・Redshift・Red GiantがWindows on ARM（Snapdragon・Copilot+ PC）に正式対応した。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/2604-03-maxonone.html",
+        "ToolFarm": "https://www.toolfarm.com/news/maxon-one-spring-2026-release/"
+      }
+    },
+    {
+      "name": "バーチャルプロダクション向けUEプラグイン「Camera Techvis Pro」リリース",
+      "level": "6",
+      "overview": "VP・プレビズ用UEプラグインCamera Techvis Proがリリース。リアルタイム物理データ解析・特機サジェスト・指示書き画面焼き付け対応。",
+      "detail": "バーチャルプロダクション・プレビズ制作向けのUnreal Engineプラグイン「Camera Techvis Pro」がリリースされた（4月24日）。主な機能：①リアルタイム物理データ解析 - カメラの画角・深度・距離等の物理データをリアルタイムで可視化・解析②特機サジェスト - ドリー・クレーン等の特殊撮影機材の設置位置・可動範囲を自動提案③指示書きの画面への焼き付け - テクビズ用の各種注記・指示事項をビューポートに直接オーバーレイ表示。プリプロダクション段階でのショット設計・スタッフ共有を大幅に効率化するツール。UE5のバーチャルプロダクションエコシステムとシームレスに統合される。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202604-CameraTechvisPro.html"
+      }
+    },
+    {
+      "name": "Atari、エミュレーションスタジオImplicit Conversionsを買収 - 独自Syrupエンジン獲得",
+      "level": "6",
+      "overview": "AtariがPS1〜PS2対応エミュレーターエンジン「Syrup」を持つImplicit Conversionsを買収。PS3対応「Benedict」も開発中。",
+      "detail": "AtariがPS1/PS2ゲームのモダンプラットフォーム移植を専門とするエミュレーションスタジオImplicit Conversionsを買収した。買収の核心となる独自エミュレーションエンジン「Syrup」は8〜32bit時代のゲームを現行プラットフォーム向けに移植可能で、現在7つのクラシックシステムをサポート。PS1対応が最も充実しており、PlayStation Plus PremiumのClassicsカタログ向けに100本以上のタイトルを移植済み。PS2対応（コードネーム「Waffle」）が開発中で、将来的なPS3対応（コードネーム「Benedict」）も計画中。Robin Lavallée氏がスタジオヘッドに就任。AtariはSyrup技術とその8/16bitへの既存技術を統合しレトロゲームのモダン移植基盤を強化する狙い。",
+      "links": {
+        "Game Developer": "https://www.gamedeveloper.com/business/atari-acquires-emulation-studio-implicit-conversions",
+        "Time Extension": "https://www.timeextension.com/news/2026/04/atari-strengthens-its-emulation-of-classic-ps1-ps2-ps3-games-with-another-strategic-acquisition"
+      }
+    },
+    {
+      "name": "UE5 日本の桜舞う風景環境制作ブレイクダウン＆プロジェクトファイル無償配布",
+      "level": "5",
+      "overview": "MegaPlants・Cineカメラ・パーティクル・MRQ活用のUE5日本桜環境制作ブレイクダウン動画とプロジェクトファイル無償公開。",
+      "detail": "UE5を使用した日本の桜が舞う風景環境制作のブレイクダウン動画とプロジェクトファイルが無償公開された（4月25日）。使用技術：MegaPlants（高品質な植物アセット）、Cinematic Camera（Cineカメラアクター）によるフォトリアルなカメラワーク、Niagaraパーティクルシステムによる桜吹雪エフェクト、Movie Render Queue（MRQ）によるフォトリアル最終レンダリング。日本の自然風景をUE5で制作する際の実践的なワークフローが学べる学習資源として価値が高い。プロジェクトファイルの無償配布により、技術的な実装方法の詳細を直接確認できる。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202604-UE5CherryBlossom.html"
+      }
+    },
+    {
+      "name": "TypeScript 7.0 Beta リリース - Go言語移行で10倍高速化",
+      "level": "5",
+      "overview": "MicrosoftがTypeScript処理系をGo言語で再実装したベータ版をリリース。型チェックロジック互換を維持しながらコンパイル約10倍高速化を達成。",
+      "detail": "MicrosoftがTypeScript 7.0 Betaをリリース（4月21日）。最大の変更点はTypeScript処理系のGo言語による再実装。TypeScriptのコードベースをTypeScript（JSにトランスパイル）からGo言語に移植し、コンパイル速度が従来比約10倍に向上。型チェックロジックは旧実装と構造的に同一で後方互換性を維持。新コンパイラはtsgoコマンドで実行し、npm install -D @typescript/native-preview@betaでインストール可能。--buildersフラグによる並列プロジェクトビルド対応でモノレポ環境でのパフォーマンスが大幅向上。正式リリースは2ヶ月以内を予定。ゲームエンジン（特にGodotやweb系）でTypeScriptを使用する開発者に大きなメリット。",
+      "links": {
+        "Microsoft TypeScript Blog": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-beta/",
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_04_25_135897/"
+      }
+    }
+  ]
+}
