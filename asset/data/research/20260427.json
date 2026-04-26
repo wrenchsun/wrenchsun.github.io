@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "name": "Redshift 2026.5リリース - AMD GPU HIPレイトレーシング・夜空システム追加",
+      "level": "8",
+      "overview": "Maxon Redshift 2026.5がリリース。AMD GPU向けHIPハードウェアレイトレーシング（実験的）追加、手続き的夜空システム、OpenPBRをデフォルトマテリアルに変更。",
+      "detail": "HIP RTはAMD RDNA4（RX 9000シリーズ）が必要な実験的機能。夜空システムはSun and Skyに星・月・天の川を追加し時刻・地点制御が可能。テクスチャディスプレースメントにUDIM/UVTILEの予備対応を追加。Windows ARM64のネイティブCPUレンダリングにも対応。Cinema 4D 2026.2との連携強化でOpenPBRがデフォルトマテリアルに。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/maxon-releases-redshift-2026-5/",
+        "Maxon Knowledge Base": "https://support.maxon.net/hc/en-us/articles/8814051767964-Redshift-2026-5-0-2026-04-April-15-2026"
+      }
+    },
+    {
+      "name": "Graphics Programming Weekly #437 - 現代的レンダリング技術まとめ",
+      "level": "8",
+      "overview": "今週の3Dグラフィックスプログラミング技術まとめ。現代的カリング手法の総合解説、NVIDIA ReSTIR PT Enhanced研究、Neural Gabor Splatting、Ubisoftのアンビルエンジン解説を収録。",
+      "detail": "①現代的カリング手法：距離・バックフェース・フラスタム・Hi-Z・2パスGPU駆動・メッシュレットクラスターカリングを網羅。②ReSTIR PT Enhanced（NVIDIA研究）：相互ネイバー選択で空間再利用コストを半減、フットプリントベースの再接続基準で安定性向上、直接光とGIを統一リザーバーで処理。③Neural Gabor Splatting：3DGSをMLP補強し高周波サーフェス再構成を改善、単一プリミティブでシャープな詳細を表現。④Ubisoft Anvilエンジン：GI・マイクロポリゴン・気象シミュレーション・大規模ワールド管理を解説。",
+      "links": {
+        "Jendrik Illner Weekly #437": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-437/",
+        "ReSTIR PT Enhanced (NVIDIA)": "https://research.nvidia.com/labs/rtr/publication/lin2026restirptenhanced/",
+        "Neural Gabor Splatting": "https://haatowatanabe.com/projects/neural-gabor-splatting/",
+        "Modern Culling Techniques": "https://krupitskas.com/posts/modern_culling_techniques/"
+      }
+    },
+    {
+      "name": "Autodesk Flame 2027リリース - AI深度マップ生成モデル追加",
+      "level": "7",
+      "overview": "Autodesk Flame 2027リリース。AIによる深度マップ自動生成モデル（ML Depth Indoor/Outdoor）追加、アノテーションシステム、OpenTimelineIO対応を実装。",
+      "detail": "ML Depth Indoor/Outdoorの2つのAIモデルが映像全体から深度マップを自動生成し、Selectiveオブジェクト等でのマスク作成に活用可能。ONNX形式のカスタムモデルも読み込み対応。新アノテーションシステムとOpenTimelineIO（OTIO）対応を追加。Autodesk Assistantによる自然言語ヘルプも統合。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/autodesk-releases-flame-2027/",
+        "Digital Production": "https://digitalproduction.com/2026/04/20/autodesk-flame-2027-metadata-and-depth-maps/"
+      }
+    },
+    {
+      "name": "V-Ray AMD GPU対応を復活（HIPフレームワーク）- NeXusでBlender向け展開へ",
+      "level": "7",
+      "overview": "Chaos V-Ray 7 Update 3でAMD GPU対応を8年ぶりに復活。HIPフレームワーク採用でRDNA2〜4対応。大容量テクスチャシーンでRX 9070 XTがRTX 5080を超える性能を記録。",
+      "detail": "V-Ray GPU HIPはAMD RDNA2/3/3.5/4世代をサポート（RDNA3以上推奨）。ハードウェアレイトレーシング（HIP RT）は未対応で鋭意開発中。通常RTXモードではRTX 5080が1.3〜2.0倍高速だが、大容量テクスチャシーンでは逆転。V-Ray 7 Update 3 for 3ds Maxはネイティブ視差インテリア・クイックコースティクス・3DGaussianSplat再ライティングも追加。今後Blenderを含む他エディションへも順次展開予定。",
+      "links": {
+        "CG Channel (AMD復活)": "https://www.cgchannel.com/2026/04/chaos-reinstates-support-for-amd-gpus-in-v-ray/",
+        "CG Channel (V-Ray 7 Update 3)": "https://www.cgchannel.com/2026/04/chaos-releases-v-ray-7-update-3-for-3ds-max/",
+        "AMD事例": "https://www.amd.com/en/resources/case-studies/chaos.html"
+      }
+    },
+    {
+      "name": "CGWORLD: HoudiniのVOPと空間ノイズでジオメトリDissolveエフェクト チュートリアル公開",
+      "level": "5",
+      "overview": "CGWORLD掲載。HoudiniのVOPと空間ノイズを活用し、ジオメトリの分解・消失を緻密に制御するディゾルブエフェクトのチュートリアル動画が公開（4/27）。",
+      "detail": "VOPネットワークとプロシージャルノイズを組み合わせてジオメトリを指定形状に沿って消失させる表現技法。パーティクルやボリュームとの統合手法も解説。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202604-Houdini-dissolve.html"
+      }
+    },
+    {
+      "name": "CGWORLD: Bifrostリギングチュートリアル公開 - EA SportsのTA Darren Rudy氏監修",
+      "level": "5",
+      "overview": "Autodesk公開のBifrostリギングチュートリアル動画（4/26）。EA SportsのTA・Darren Rudy氏がBifrostノードグラフを使ったリギングワークフローを詳解。",
+      "detail": "Bifrostのグラフベースアーキテクチャを活用したリギング手法を、ゲーム制作現場の実例を交えて解説。MayaとBifrostの連携ワークフローも含む。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202604-Bifrost-EASports.html"
+      }
+    }
+  ]
+}
