@@ -1,0 +1,91 @@
+{
+  "items": [
+    {
+      "name": "s&box（サンドボックス）本日Steamに正式リリース — Source 2 + C#ゲームエンジン/プラットフォーム",
+      "level": "9",
+      "overview": "FacepunchがSource 2ベースのゲーム制作プラットフォームs&boxを本日4/28にSteamで$20にてリリース。Valveとの特別契約でロイヤリティフリーのスタンドアロンゲームをSteam販売可能。",
+      "detail": "s&boxはGarry's Modの精神的続編として開発されてきた、ValveのSource 2エンジンとC#ランタイムを基盤にしたゲーム制作プラットフォーム。本日2026年4月28日にSteamで$20（約3,000円）で正式リリースを迎えた。最大の特徴はFacepunchがValveと締結した特別ライセンス契約で、s&boxエディタで制作したゲームを別個のスタンドアロンタイトルとしてSteamで配信・販売することが可能で、ロイヤリティや収益分配は一切発生しない。エンジンにはホットリロード機能が標準搭載されており、コードの変更が再コンパイルやゲーム再起動なしに即座に反映される。UnityやGodotに対抗する新たな商業グレードの選択肢として注目される。",
+      "links": {
+        "s&box Release Date Set for April 28, 2026 on Steam (ingamenews)": "https://www.ingamenews.com/2026/04/s-release-date-set-for-april-28-2026-on.html",
+        "Major S&box Game Engine News (GameFromScratch)": "https://gamefromscratch.com/major-sbox-game-engine-news/",
+        "s&box on Steam": "https://store.steampowered.com/app/590830/sbox/"
+      }
+    },
+    {
+      "name": "4DGS（4D Gaussian Splatting）Webブラウザストリーミング — DNE & Gracia が4分間の配信を実現",
+      "level": "8",
+      "overview": "ボリュメトリック映像インフラ企業GraciaがDNEと共同で、4DGSコンテンツをWebブラウザ上でストリーミング再生するパイプラインを公開。4分間の高品質ボリュメトリックパフォーマンスを実現。",
+      "detail": "4D Gaussian Splatting（4DGS）は、3D Gaussian Splattingに時間軸を加えた手法で、動く被写体をリアルタイムに高忠実度でキャプチャ・再現できる技術。これまでファイルサイズや計算量の問題からリアルタイムストリーミングが困難だったが、ボリュメトリックインフラ企業Graciaが独自の配信パイプラインを構築し、4DGSコンテンツをWebブラウザ上で直接ストリーミング再生することに成功。DNEと共同制作した4分間の高品質ボリュメトリック・パフォーマンスを発表した。追加プラグインなしでブラウザ上で閲覧可能な点が革新的で、XR・メタバース・エンターテインメント分野への応用が期待される。",
+      "links": {
+        "DNE and Gracia release 4-minute streamable 4DGS performance (CG Channel)": "https://www.cgchannel.com/2026/04/dne-and-gracia-release-4-minute-streamable-4dgs-performance/"
+      }
+    },
+    {
+      "name": "Houdini用GPUアクセラレート液体ソルバー「Paradigm 1.0」正式リリース",
+      "level": "8",
+      "overview": "元ILM・Naughty Dog TDのMatt Puchala氏が開発したHoudini用GPU液体ソルバーParadigm 1.0が正式リリース。CPUに比べ飛躍的に高速な液体シミュレーションをOpenCL 3.0対応GPUで実現。",
+      "detail": "Theory Accelerated（Matt Puchala氏）が開発したHoudini用GPU液体ソルバー「Paradigm」が1.0として正式リリースされた。同氏が以前リリースした煙・炎向けソルバー「Axiom」の液体版に相当し、数百万パーティクルのシミュレーションをCPUの何分の一かの時間で処理できる。OpenCL 3.0対応GPUが必要で、Houdini 20.0以降のWindows/Linux/macOSに対応。Commercial版ライセンスは$199（ノードロック）、Houdini Indie限定のIndie版は$99。1.1は2026年5月初旬にリリース予定で、同期間は無料で試用可能。VFX・ゲーム制作におけるHoudini液体シミュの高速化として実務への即応用が期待される。",
+      "links": {
+        "Houdini GPU liquid solver Paradigm 1.0 is now available (CG Channel)": "https://www.cgchannel.com/2026/04/houdini-gpu-liquid-solver-paradigm-is-out/",
+        "GPU-Powered Liquid Solver Paradigm 1.0 Released (80.lv)": "https://80.lv/articles/gpu-powered-liquid-solver-paradigm-1-0-released"
+      }
+    },
+    {
+      "name": "PS5 Pro 強化版PSSR（AI アップスケーラー）本日Arc Raidersに適用",
+      "level": "7",
+      "overview": "Sonyがさらに改良したPSSR（PlayStation Spectral Super Resolution）を本日4/28配信のArc Raidersアップデートで適用。NNモデルを6か月追加訓練し、シャープネス・安定性・細部表現を向上。",
+      "detail": "Sonyは昨年末から進めているPS5 Proの強化版PSSRアップスケーラーの展開を継続しており、本日2026年4月28日のArc Raiders Update 1.26でも対応タイトルに追加された。新PSSR（非公式にPSSR 2.0とも呼ばれる）はPS5 Pro発売時から約6か月の追加学習を経たニューラルネットワークモデルを採用し、AMD「Project Amethyst」フレームワーク上で再構成アルゴリズムが改善されている。シャープさ・モーション安定性・複雑なシーンの細部表現が向上する。DLSS・FSR・XeSSに対抗するコンソール向けAIアップスケーリングとして引き続き普及が進んでいる。",
+      "links": {
+        "Arc Raiders upgraded PS5 Pro PSSR upscaling available April 28 (PlayStation.Blog)": "https://blog.playstation.com/2026/04/27/arc-raiders-upgraded-ps5-pro-pssr-upscaling-available-april-28/",
+        "PS5 Pro is Getting an Upgraded AI-Powered PSSR Upscaler (80.lv)": "https://80.lv/articles/ps5-pro-is-getting-an-upgraded-ai-powered-pssr-upscaler"
+      }
+    },
+    {
+      "name": "OctaneRender 2026.3リリース — Neural Radiance Cacheメモリ削減・ネットワークレンダー対応",
+      "level": "6",
+      "overview": "OTOYがOctaneRender 2026.3をリリース。Neural Radiance Cacheのメモリ使用量削減、ネットワークレンダーへの仮想テクスチャ対応、トレースセットのシャドウキャッチャー拡張を含む。",
+      "detail": "OTOYのGPUレンダラーOctaneRender 2026.3が4月24日にリリースされた。主な変更点は3点。①Neural Radiance Cache（NRC）のメモリ使用量削減：NRCはレンダー時にニューラルネットワークをトレーニングしてノイズを低減する機能で、今回メモリ効率が改善された。②仮想テクスチャのネットワークレンダー対応：GPUメモリに収まらない大容量テクスチャをストリーミング処理する仮想テクスチャが、ローカルだけでなくネットワークレンダーでも使用可能になった。③トレースセットのシャドウキャッチャー拡張：アート指示でオブジェクトの可視性を制御するトレースセット機能がシャドウキャッチャーにも対応。MaterialXサポートも拡張された。",
+      "links": {
+        "Otoy releases OctaneRender 2026.3 (CG Channel)": "https://www.cgchannel.com/2026/04/otoy-releases-octanerender-2026-3/"
+      }
+    },
+    {
+      "name": "Godot 4.7 Betaリリース — 主要プラットフォームでHDR出力対応",
+      "level": "6",
+      "overview": "Godot 4.7 BetaがリリースされWindows/macOS/iOS/visionOS/Linux(Wayland)でHDR出力が追加。レイトレーシングパイプラインのリファクタリングや2D物理改善なども含む。",
+      "detail": "Godot 4.7がBeta 1に到達し、注目機能としてHDR出力サポートがWindows、macOS、iOS、visionOS、Linux（Wayland限定）の主要プラットフォームに追加された。HDR出力はForward+とMobileレンダラーのみ対応し、CompatibilityレンダラーはグラフィクスAPI制限のため非対応。また今回のBetaではレイトレーシングパイプラインのリファクタリング、2D物理の改善、Wayland上のタッチサポート、3D空間での矩形リアルタイムライトレンダリングが含まれる。安定版のリリースは2026年Q2〜Q3を見込んでいる。GodotはUnity/UEに対する無料・オープンソースの選択肢として引き続き採用が拡大している。",
+      "links": {
+        "HDR output arrives in Godot 4.7 (Godot Engine)": "https://godotengine.org/article/hdr-output-arrives-in-godot-4-7/",
+        "Godot 4.7's Final Development Snapshot Released (80.lv)": "https://80.lv/articles/godot-4-7-s-final-development-snapshot-arrived"
+      }
+    },
+    {
+      "name": "Affinity 3.2リリース — DaVinci Resolve統合・Canva傘下で無料提供継続",
+      "level": "5",
+      "overview": "Canvaが提供するAffinity 3.2がリリース。DaVinci Resolveとの新統合機能が追加された。Affinity PhotoやDesignerを含む全スイートが引き続き無料で利用可能。",
+      "detail": "Canva傘下のAffinity 3.2が2026年4月27日にリリースされた。主な新機能はDaVinci Resolveとの統合で、Affinity製品からDaVinci Resolveへのシームレスなワークフロー連携が可能になる。AffinityスイートはCanvaに買収された後、Photo・Designer・Publisherを含むすべての製品が無料提供されており、有料サブスクリプショ��が不要な点でPhotoshop等の代替として広く採用されている。今回のアップデートで映像制作との連携ワークフローが強化され、コンセプトアートから映像制作まで統合した環境の構築がしやすくなった。",
+      "links": {
+        "Canva releases Affinity 3.2 (CG Channel)": "https://www.cgchannel.com/2026/04/canva-releases-affinity-3-2/"
+      }
+    },
+    {
+      "name": "Sketchbook Pro 9.4リリース — Lasso SelectとDraw Outline追加",
+      "level": "4",
+      "overview": "ベテランのデジタルスケッチ・コンセプトアートソフト Sketchbook Pro 9.4がリリース。新たにLasso SelectとDraw Outlineツールが追加された。",
+      "detail": "Sketchbook Pro 9.4が2026年4月27日にリリースされた。新機能として追加されたLasso Selectは、フリーハンドで描いた輪郭に基づいて描画領域を選択できるツール。Draw Outlineは既存のレイヤーや塗りつぶし領域からアウトラインを自動生成する機能。Sketchbookはゲーム・アニメ・映画業界のコンセプトアーティストやイラストレーター���広く使われており、インターフェースのシンプルさとペンタブレット向けの操作性で支持されている。今回の更新により選択とアウトライン作業の効率化が図られた。",
+      "links": {
+        "Sketchbook releases Sketchbook Pro 9.4 (CG Channel)": "https://www.cgchannel.com/2026/04/sketchbook-releases-sketchbook-pro-9-4/"
+      }
+    },
+    {
+      "name": "DragonRuby GTK（Ruby製2Dゲームエンジン）本日4/28まで無償提供中",
+      "level": "4",
+      "overview": "Rubyでゲームをつくれるクロスプラットフォームゲームエンジン「DragonRuby GTK」が7周年記念で本日4/28まで無償取得可能。作成したゲームはロイヤリティフリーで配布・販売できる。",
+      "detail": "2019年リリースのRuby採用2Dゲームエンジン「DragonRuby Game Toolkit（GTK）」が7周年記念キャンペーンとして本日2026年4月28日（日本時間8:13）まで無償取得可能となっている。Standard Licenseは通常有料で、PC/Mac/Linux/Raspberry Pi/Web向けのビルドをサポート。ホットリロード機能を持ちプログラミング入門にも適している。作成ゲームはロイヤリティフリーで配布・商業販売が可能。月収$2000以下・18歳未満・学生・教育者・公共サービス従事者は期間外でも無償ライセンスが得られる。itch.ioにて取得可能。",
+      "links": {
+        "DragonRuby GTK 4/28まで無償提供（ゲームメーカーズ）": "https://gamemakers.jp/article/2026_04_23_136046/",
+        "DragonRuby Game Toolkit (itch.io)": "https://dragonruby.itch.io/dragonruby-gtk"
+      }
+    }
+  ]
+}
