@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "name": "DirectX Shader Model 6.10 Preview + AgilitySDK 720 Preview発表",
+      "level": "9",
+      "overview": "MicrosoftがSM6.10とAgilitySDK 720 Previewを発表。LinAlg APIでGPUのAIエンジンを直接利用可能になりニューラルレンダリング実装が容易に。",
+      "detail": "Shader Model 6.10はLinAlg（線形代数）APIを新設し、シェーダースレッドから直接GPUのTensor CoreなどAIエンジンを呼び出せる。GroupShared Memoryの32KB上限も実ハードウェア限界まで拡張可能に（[GroupSharedLimit]属性）。DXC 1.10.2605.2、AgilitySDK 1.720-previewとして提供。NVIDIA RTX全世代・AMD RDNA4（RX 9000シリーズ）対応。同日D3D12 LinAlg Matrix PreviewとDirectX ML Era対応ロードマップも公開。",
+      "links": {
+        "DirectX Blog: SM6.10発表": "https://devblogs.microsoft.com/directx/shader-model-6-10-agilitysdk-720-preview/",
+        "D3D12 LinAlg Matrix Preview": "https://devblogs.microsoft.com/directx/d3d12-linalg-preview/",
+        "Evolving DirectX for the ML Era": "https://devblogs.microsoft.com/directx/evolving-directx-for-the-ml-era-on-windows/"
+      }
+    },
+    {
+      "name": "V-Ray AMD GPU対応8年ぶりに復活 — V-Ray 7 Update 3 for 3ds Max",
+      "level": "8",
+      "overview": "Chaos V-RayがAMD HIPフレームワーク採用でAMD GPU対応を8年ぶり復活。大規模アウトオブコア処理ではRX 9070 XTがRTX 5080を上回る結果も。",
+      "detail": "V-Ray 7 Update 3（3ds Max 2022–2027対応）でAMD RDNA系GPUのGPUレンダリングを再サポート。旧OpenCL実装を廃止し、BlenderのCyclesやRedshiftでも採用されるHIPへ移行。ネイティブパラレックスインテリア、クイックサンコースティクス、3D Gaussian Splatsのリライト機能も追加。AMD対応は今後V-Ray for BlenderのCommunity Editionなど他プラットフォームにも順次展開予定。",
+      "links": {
+        "CG Channel: AMD GPU復活": "https://www.cgchannel.com/2026/04/chaos-reinstates-support-for-amd-gpus-in-v-ray/",
+        "CG Channel: V-Ray 7 Update 3 for 3ds Max": "https://www.cgchannel.com/2026/04/chaos-releases-v-ray-7-update-3-for-3ds-max/"
+      }
+    },
+    {
+      "name": "Adobe Photoshop 27.6リリース — AI Rotate ObjectとRemove Reflections追加",
+      "level": "7",
+      "overview": "Photoshop 27.6でAI「Rotate Object」が正式版に。2D切り抜き画像を3D的に任意角度へ回転合成するジェネレーティブAI機能。",
+      "detail": "「Rotate Object」は2D画像を仮想3Dオブジェクトとして回転させAIで補完生成。ジェネレーティブクレジットを消費（1回20クレジット）。新機能「Remove Reflections」でガラス面の反射を自動除去。Removeツール・Generative Fillも更新。Dynamic Textやグラデーション機能も改良。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/adobe-releases-photoshop-27-6/"
+      }
+    },
+    {
+      "name": "Reallusion Headshot 3.0リリース — Character Creator 5向けAIデジタルダブル生成",
+      "level": "7",
+      "overview": "Character Creator 5向けAIヘッド生成プラグインHeadshot 3.0正式リリース。写真からボディ含む全身デジタルダブル生成に対応した。",
+      "detail": "新AIモデルで精度向上。スプラインベースのメッシュ整形（ベジェ曲線で顔の輪郭調整）、DeLight（ベイクイン照明除去）、Blend Maskシステム追加。参照写真からAIでボディ生成可能に。永続ライセンス$199、5/31まで早期割引＋Headshot Morph 1400+パック無料付属。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/reallusion-releases-headshot-3-0/"
+      }
+    },
+    {
+      "name": "inZOI、本日Unreal Engine 5.4→5.6へ大規模エンジンアップグレード実施",
+      "level": "6",
+      "overview": "ライフシム「inZOI」が4/29アップデートでUE5.4からUE5.6へ移行。メモリ最適化・安定性向上を最優先とした大型技術アップデート。",
+      "detail": "UE5.6への移行によりメモリ最適化機能を実装、ハイエンド環境でフレームレート改善。ローエンドでもビジュアル品質維持。アーキテクチャ変更のためグラフィック設定は初回起動時にリセット必要。8月まで新機能よりも安定性・最適化を優先する開発方針。新キャリア（スタイリスト等）やロマンティックインタラクション、アウトフィットシステム刷新も含む。",
+      "links": {
+        "パッチノート (XP Gained)": "https://xpgained.co.uk/patch-notes/inzoi-psa-update-wednesday-april-29-patch-notes-24th-april-2026",
+        "技術詳細 (Soren)": "https://soren.com/en/news/inzoi/2026-04-24-inzoi-update-unreal-engine-56-and-performance"
+      }
+    },
+    {
+      "name": "World Creator 2026.4リリース — 無料Community Edition追加",
+      "level": "6",
+      "overview": "ゲーム・VFX向けGPUベーステレイン生成ソフトWorld Creator 2026.4が無料Community Edition追加とともにリリースされた。",
+      "detail": "新機能：数値フィールドへの数式入力対応、テレインノーマルブレンド、デカールフルサポート。VRAM Scalingで利用可能GPU VRAMに応じてオブジェクト上限を自動調整するパフォーマンス改善も追加。Community Editionで無料でリアルタイムテレインワークフローを体験可能（商用利用はライセンス購入が必要）。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/world-creator-2026-4-is-out-with-a-new-free-community-edition/"
+      }
+    },
+    {
+      "name": "Wafer 1.2 Windows正式版リリース — iPad専用NPR 3Dテクスチャペイントアプリ",
+      "level": "5",
+      "overview": "iPad専用だった3DテクスチャペイントアプリWafer 1.2がWindows PCで正式リリース。NPR（非フォトリアル）テクスチャ制作に特化したツール。",
+      "detail": "Sparsealによる開発。マルチチャンネルペイント、Smudgeツール（v1.1からの新機能）など高機能ツールを搭載。アプリ本体は無料ダウンロード可能だがファイル保存・エクスポートには永続ライセンス購入が必要。macOS向けの実験的ビルドもDiscordで提供中。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/3d-texture-painting-app-wafer-is-now-available-for-windows/"
+      }
+    },
+    {
+      "name": "「Live2D JUKU EX 2026」無料オンラインイベント 5/23開催決定",
+      "level": "4",
+      "overview": "Live2D制作の実践ノウハウを公開する無料オンラインイベント「Live2D JUKU EX 2026」が5/23（土）開催決定。事前登録制。",
+      "detail": "登壇者：ディープブリザード、ののん。、fumi、瀬兎一也、Kuroama各氏。VTuberや2Dアニメーション制作者向けにLive2Dの実践的な制作技術・ノウハウを公開。無料参加だが事前登録が必要。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/2604-live2d-juku-ex.html"
+      }
+    }
+  ]
+}
