@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "name": "Reallusion Headshot 3.0リリース — AIで写真から3Dキャラクターを生成",
+      "level": "9",
+      "overview": "Character Creator 5向けプラグインHeadshot 3が正式リリース。写真1枚から全身3Dキャラを生成する独自AIモデルを搭載。",
+      "detail": "Reallusionは2026年4月27〜28日にHeadshot 3.0をリリース。独自AI学習モデルにより2D写真から高精度な3D頭部メッシュを生成し、さらに全身のボディ生成も可能になった。新機能のRefine Faceでガイドカーブを使った顔形状の手動調整も可能。別売りのAI Image Generatorではテキストプロンプトや写真から参照画像を生成できる（Google製Nano Banamaベース、課金制）。永続ライセンスは199ドル。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/reallusion-releases-headshot-3-0/",
+        "Reallusion公式": "https://www.reallusion.com/character-creator/headshot/",
+        "PR Newswire": "https://www.prnewswire.com/news-releases/reallusion-redefines-digital-double-creation-with-the-launch-of-headshot-3-for-character-creator-5-302754179.html"
+      }
+    },
+    {
+      "name": "Autodesk、AIモーションキャプチャのRadicalコア技術を買収",
+      "level": "8",
+      "overview": "AutodeskがAIモーキャプスタートアップRadicalのコア技術を買収。Blender/Maya/UE5へのストリーミングに対応していたサービスは7月6日で終了。",
+      "detail": "Autodeskは2022年からRADiCALに出資していたが、今回コア技術の完全買収を発表。RADiCALは単眼カメラ映像からアクターのモーションを抽出してFBXエクスポートするRADiCAL CoreとBlender・Maya・Unity・UE5へのリアルタイムストリームが可能なRADiCAL Liveを提供していた。ユーザーは2026年7月6日までにデータをダウンロードする必要がある。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/autodesk-acquires-core-tech-of-ai-motion-capture-firm-radical/"
+      }
+    },
+    {
+      "name": "Chaos V-Ray 7 Update 3 for 3ds Max — リアルタイムビューポートレンダリング対応",
+      "level": "8",
+      "overview": "V-Ray 7 Update 3でVantage Viewport Live Link経由のリアルタイムレンダリングが実現。AMD GPU対応も8年ぶりに復活。",
+      "detail": "Chaosが2026年4月にV-Ray 7 Update 3 for 3ds Maxをリリース。主要機能はVantageビューポートのリアルタイムリンクによる即時プレビュー、Parallax Interiorsによる建物内部の疑似3D表現、3D Gaussian Splatsへのシーンライト対応でのリライト、AMD GPU（HIPフレームワーク）サポート復活（8年ぶり）。また物理カメラの改善、新ヒストグラムウィジェット付きV-Ray Frame Bufferも含む。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/chaos-releases-v-ray-7-update-3-for-3ds-max/",
+        "Chaos Blog": "https://blog.chaos.com/v-ray-7-update-3"
+      }
+    },
+    {
+      "name": "Maxon Cinema 4D 2026.2リリース＆Cinema 4D for iPad Beta発表",
+      "level": "7",
+      "overview": "Cinema 4D 2026.2が公開。NAB 2026でiPad向けC4D betaも披露。タッチ操作対応のモバイル版が2026年後半リリース予定。",
+      "detail": "MaxonはNAB 2026（4月18〜22日）にてCinema 4D for iPadのベータ版を発表。iPadのタッチワークフローに最適化されたモバイルファーストの3Dモデリング・デザイン機能を提供し、ZBrush for iPadとのシームレス連携も可能。合わせてCinema 4D 2026.2も正式リリースされた。さらにZBrush for Windows on Armのベータも公開。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/maxon-ships-cinema-4d-2026-2-unveils-cinema-4d-for-ipad-beta/",
+        "Maxon公式": "https://www.maxon.net/en/cinema-4d-for-ipad"
+      }
+    },
+    {
+      "name": "Autodesk Flame 2027リリース — AIデプスマップ・アノテーション機能追加",
+      "level": "7",
+      "overview": "VFXコンポジットツールFlame 2027が4月28日リリース。AIによるデプスマップ自動生成と新アノテーションシステムが目玉。",
+      "detail": "Autodesk Flame 2027の主要新機能はAI生成デプスマップ（2種のMLモデルから選択可）、ショット内に直接テキストや図形でメモを追加できるAnnotationsシステム、OpenTimelineIOサポート、メタデータ保全強化（新Metadataノード追加）、カスタムトークン、Autodesk Assistantの統合。Flare・Flame Assistも同時更新。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/autodesk-releases-flame-2027/"
+      }
+    },
+    {
+      "name": "ESA主催「iicon」カンファレンス2026 ラスベガスで開催",
+      "level": "7",
+      "overview": "E3後継としてESAが立ち上げた業界向けカンファレンス「iicon」がラスベガスで4/27〜30開催。EA・Epic・任天堂・Sonyら大手が参加。",
+      "detail": "Entertainment Software Association（ESA）が主催するInteractive Innovation Conference（iicon）が2026年4月27〜30日にラスベガスのFontainebleau Resortで開催。消費者向けではなく業界CEOら上位層向けの招待制サミット。Amazon Games、Disney、EA、Epic Games、Microsoft、Nintendo、Sony、Square Enix、Take-Two、Ubisoft、Warner Bros.が参加確定。AIや拡張現実、esports、教育・医療へのゲーム応用などをテーマとした基調講演・パネルが実施。",
+      "links": {
+        "ESA公式": "https://www.theesa.com/entertainment-software-association-unveils-iicon-game-changing-thought-leader-summit-to-harness-the-power-of-interactive-entertainment-and-shape-the-future-of-business-and-culture/",
+        "Game Developer": "https://www.gamedeveloper.com/business/forget-e3-the-esa-is-back-with-a-new-video-game-conference-for-change-makers-"
+      }
+    },
+    {
+      "name": "Maxon Autograph 2026 — モーショングラフィックスツールが個人向け無償提供",
+      "level": "7",
+      "overview": "MaxonのVFX・モーショングラフィックスツールAutograph 2026.0.0が個人クリエイター向け商用利用を含め無料化。OpenFXにも対応。",
+      "detail": "Maxonは2026年4月15日にAutograph 2026.0.0をリリース。個人アーティスト向けに商用利用を含めて無料で提供。3D空間と2Dワークフローのシームレスな統合、エクスポートされたベクター形状とテキスト、コンポジションのテクスチャ利用、マルチパスレンダリングコンポジット、スプレッドシート連携のデータドリブンアニメーション、OpenFXサポート、Maxon Studio（Red Giant）統合が主要機能。Windows・macOS対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/maxon-releases-motion-graphics-software-autograph-for-free/",
+        "Maxon公式": "https://www.maxon.net/en/autograph"
+      }
+    },
+    {
+      "name": "Adobe Photoshop 27.6 — AI回転ツールと反射除去機能を追加",
+      "level": "6",
+      "overview": "Photoshop 27.6（2026年4月リリース）にAIベースのRotate ToolとReflection Removal機能が追加。",
+      "detail": "Adobeは2026年4月29日にPhotoshop 27.6をリリース。注目はAIによるRotate Tool（オブジェクトを自然に回転させながら背景を自動補完）と、写真内のガラスやモニター等に映り込んだ反射を除去するReflection Removal機能。いずれもジェネレーティブAIを活用した新機能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/adobe-releases-photoshop-27-6/"
+      }
+    },
+    {
+      "name": "OTOY OctaneRender 2026.3リリース — ネットワークレンダリングで仮想テクスチャ対応",
+      "level": "6",
+      "overview": "OctaneRender 2026.3がリリース。Virtual TexturesシステムをネットワークレンダリングとShadow Catcherに拡張。",
+      "detail": "OTOYは2026年4月28日にOctaneRender 2026.3をリリース。GPUメモリに収まりきらない大容量テクスチャをストリーミングで扱えるVirtual TexturesがネットワークレンダリングにもサポートされたほかTrace setsシステムがShadow Catcherにも対応。Vectronに新しいTubeプリミティブ形状も追加。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/otoy-releases-octanerender-2026-3/",
+        "80.lv": "https://80.lv/articles/octanerender-2026-3-is-out-now"
+      }
+    },
+    {
+      "name": "World Creator 2026.4リリース — 無料Community Edition追加",
+      "level": "6",
+      "overview": "GPUベースの地形生成ソフトWorld Creator 2026.4が登場。エクスポート無効の無料Community Editionが新設。",
+      "detail": "BiteTheBytesは2026年4月28日にWorld Creator 2026.4をリリース。主要更新は数値フィールドへの数式入力サポート（より複雑な地形生成が可能）、Terrain Normal Blending、デカール完全対応、VRAMスケーリングによるパフォーマンス改善。またエクスポートが無効化された完全機能版の無料Community Editionを新設し、購入前の評価が容易になった。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/world-creator-2026-4-is-out-with-a-new-free-community-edition/"
+      }
+    },
+    {
+      "name": "Maxon Redshift 2026.5リリース — AMD GPU対応ハードウェアレイトレーシング",
+      "level": "6",
+      "overview": "GPUレンダラーRedshift 2026.5がリリース。AMD GPU向けHWRT対応、Windows on ARM CPU対応が追加された。",
+      "detail": "MaxonのリリースしたRedshift 2026.5では、テクスチャ変位システムの拡張、プロシージャルな夜空のスカイが全エディションで利用可能に、Cinema 4DユーザーではOpenPBRがデフォルトマテリアルに変更。さらに技術的な大きなアップデートとしてAMD GPU向けハードウェアレイトレーシング（HWR）のネイティブサポートと、Windows on ARM上でのCPUレンダリング（Microsoft Surface Pro等）に対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/maxon-releases-redshift-2026-5/"
+      }
+    },
+    {
+      "name": "Nekki Cascadeur 2026.1リリース — AI根本モーション生成とFilamentビューポート",
+      "level": "6",
+      "overview": "AIアシストアニメーションツールCascadeur 2026.1がリリース。AIによるRoot Motion自動生成と高品質なFilamentデフォルトビューポートを搭載。",
+      "detail": "Nekkiは2026年4月にCascadeur 2026.1をリリース。新機能Root Motionは既存アニメーションをスタイル参照として利用しつつ、キーポーズ間のモーションをAIが自動生成するシステム。またGoogleのPhysically Accurate Render EngineであるFilamentがデフォルトのビューポートレンダラーとなり、より高品質なプレビュー環境を提供。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/nekki-releases-cascadeur-2026-1/"
+      }
+    },
+    {
+      "name": "Plasticity 2026.1リリース — 技術図面出力とPolySplines機能追加",
+      "level": "5",
+      "overview": "ハードサーフェスモデリングツールPlasticity 2026.1がリリース。3Dモデルから技術図面を生成するExport Hidden Lineを追加。",
+      "detail": "Plastic SoftwareはPlasticity 2026.1をリリース。新しいExport Hidden Lineコマンドで3Dモデルから技術的な図面を生成できるようになった。新しいSlotコマンド追加および各種コアコマンドのアップデートも含む。StudioエディションではポリゴンメッシュをクリーンなNURBSサーフェスに変換するPolySplines機能が追加された。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/plasticity-2026-1-is-out/"
+      }
+    }
+  ]
+}
