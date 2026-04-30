@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "name": "GameMaker新ランタイム「GMRT」デスクトップ版リリース",
+      "level": "9",
+      "overview": "GameMakerの次世代ランタイムGMRTがデスクトップ向けに正式リリース。ソースコードアクセス可能な現代的設計で3D機能を強化。",
+      "detail": "GameMaker新ランタイム「GMRT（GameMaker Runtime）」がデスクトップで2026年4月30日に正式リリースされた。GMRTはモダンなアーキテクチャで設計され、ソースアクセス（ソースコード閲覧・ビルド）が可能。3D機能面ではQ2にglTFインポートとScene Graphシステムが追加予定で、Blenderからのモデル直接インポートや複雑な3Dワールド管理が実現する。LTS26として2028年まで5回のメジャーリリースが計画されており、長期的なサポートが保証されている。プロ開発者向けの大幅な近代化リリースとして注目される。",
+      "links": {
+        "GameMaker Blog": "https://gamemaker.io/en/blog/update-spring-2026",
+        "80.lv": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update",
+        "GamingOnLinux": "https://www.gamingonlinux.com/2026/04/gamemaker-is-launching-gmrt-a-new-modern-runtime-with-source-access/"
+      }
+    },
+    {
+      "name": "Maxon Redshift 2026.5リリース - AMD GPUハードウェアレイトレ対応",
+      "level": "7",
+      "overview": "GPUレンダラーRedshift 2026.5がリリース。AMD GPUのハードウェアレイトレ対応、UDIMテクスチャ変位などを追加。",
+      "detail": "MaxonがGPUアクセラレーテッドレンダラー「Redshift 2026.5」をリリース。AMD GPUでのハードウェアレイトレーシングをネイティブサポート。テクスチャ変位（Texture Displacement）がUDIM UVレイアウトをサポートし、UVマップなしのモデルでもSmart Bakeが機能するよう改善。OpenPBRがCinema 4Dユーザーのデフォルトマテリアルに変更。Windows on ARM（Surface Pro等）でのCPUレンダリングにも対応し、プラットフォームの広がりも継続している。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/maxon-releases-redshift-2026-5/"
+      }
+    },
+    {
+      "name": "Cinema 4D 2026.2リリース & iPad版ベータ登録開始",
+      "level": "7",
+      "overview": "C4D 2026.2が布地彫刻ブラシを追加。iPad向け初のプロ3DCGソフトのベータ登録がNAB 2026で開始。",
+      "detail": "MaxonがデスクトップアプリCinema 4D 2026.2をリリース。新機能「Fabric Brush」は物理ベースで布や柔らかい素材をスカルプトできるツール。同時に「Cinema 4D for iPad」ベータ版をNAB 2026で発表。M2プロセッサ以上のiPadに対応し、タッチ操作に最適化した3Dモデリングが可能。TencentのHY 3Dエンジンを用いたテキストプロンプトからの3Dモデル生成機能も2026年後半に搭載予定。商用リリースの価格は未発表。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/maxon-ships-cinema-4d-2026-2-unveils-cinema-4d-for-ipad-beta/",
+        "80.lv": "https://80.lv/articles/maxon-announces-cinema-4d-coming-to-ipad"
+      }
+    },
+    {
+      "name": "Houdini向けGPU液体ソルバー「Paradigm 1.0」リリース",
+      "level": "7",
+      "overview": "Axiom流体ソルバーの開発元Theory AcceleratedがHoudini向けGPUスパース液体ソルバー「Paradigm 1.0」を正式リリース。",
+      "detail": "Theory AcceleratedがHoudini向けGPUスパース液体ソルバー「Paradigm 1.0」をリリース。同社の既存製品「Axiom」（気体・スモークシミュレーション向け）の液体版にあたる製品。GPUを活用した高速シミュレーションで、細かいスプラッシュや大規模な液体シーンを効率的に制作できる。Paradigm 1.1バージョンが2026年5月初旬にリリース予定。HoudiniでのVFXワークフローにおける液体シミュレーションを大幅に高速化する注目ツール。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/houdini-gpu-liquid-solver-paradigm-is-out/"
+      }
+    },
+    {
+      "name": "Adobe Substance 3D Designer 16.0 - 3D形状散布とSDF対応",
+      "level": "7",
+      "overview": "Substance 3D Designer 16.0リリース。Shape Splatterが3D形状散布に対応、SDF関数ノードとOpenPBRマテリアルも追加。",
+      "detail": "AdobeがSubstance 3D Designer 16.0をリリース。Shape Splatter v2ノードを新設し、従来の2D形状散布から3D形状（プリミティブまたはカスタム形状）の散布が可能に。Poisson disc・均一分布など複数の配置方法に対応しコリジョンも自動回避。SDF（Signed Distance Field）ノードを用いた3D形状生成機能も追加。OpenPBRマテリアル標準へ移行し、旧来のMDLマテリアルとIrayレンダラーは廃止。永続ライセンスはSteamで$199.99。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/adobe-releases-substance-3d-designer-16-0/"
+      }
+    },
+    {
+      "name": "OTOY OctaneRender 2026.3リリース",
+      "level": "6",
+      "overview": "OctaneRender 2026.3リリース。ネットワークレンダリングでの仮想テクスチャ対応、Shadow CatcherへのTrace Sets対応を追加。",
+      "detail": "OTOYがGPUプロダクションレンダラー「OctaneRender 2026.3」をリリース。仮想テクスチャシステムがネットワークレンダリングで使用可能になり、GPU VRAMに収まらない大容量テクスチャをストリーミングしてレンダリングできる。Trace SetsシステムがShadow Catcherに対応。VectronのTubeプリミティブを前倒し追加（元々2027.1予定）。大規模シーンや高解像度テクスチャを扱うプロダクション環境での利便性が向上。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/otoy-releases-octanerender-2026-3/"
+      }
+    },
+    {
+      "name": "Unreal Fest Chicago 2026 - 6月16〜18日開催",
+      "level": "6",
+      "overview": "UE年次カンファレンス「Unreal Fest Chicago 2026」が6月16〜18日にシカゴMcCormick Placeで開催予定。",
+      "detail": "Epic Gamesが「Unreal Fest Chicago 2026」を6月16〜18日にシカゴのMcCormick Place Convention Centerで開催。UEの最新機能・事例紹介セッション、Epicエコシステムのロードマップ共有、ネットワーキングなどを実施。早期割引チケット（$649）の販売は4月30日24時に終了し、通常価格$749（学生$499）での販売中。セッション一覧は公式サイトに公開済み。",
+      "links": {
+        "Unreal Engine": "https://www.unrealengine.com/events/unreal-fest-chicago-2026"
+      }
+    },
+    {
+      "name": "ArtStation Magazine: WoW: Midnight アートショーケース公開",
+      "level": "5",
+      "overview": "BlizzardのWoW次期拡張「Midnight」の公式アートをArtStation Magazineが特集。暗黒エルフ地域の環境・キャラクターアートを多数公開。",
+      "detail": "ArtStation Magazine（M1定期確認サイト）がBlizzard EntertainmentのMMORPG次期拡張パック「World of Warcraft: Midnight」のアートブラストを公開（2026年4月14日）。次期拡張の舞台となるQuel'Thalas地域の環境デザイン、キャラクターモデリング、コンセプトアートなどを多数掲載。ゲーム向けハイクオリティ3Dアートの参考として価値あるショーケース。",
+      "links": {
+        "ArtStation Magazine": "https://magazine.artstation.com/2026/04/blizzard-entertainment-world-of-warcraft-midnight/"
+      }
+    }
+  ]
+}
