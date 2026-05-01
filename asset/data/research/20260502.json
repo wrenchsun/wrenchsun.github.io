@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "name": "V-Ray for Blender Community Editionリリース - 個人・小規模向け無料提供",
+      "level": "8",
+      "overview": "ChaosがBlender向けV-Rayの無償版「Community Edition」をリリース。90日ごとのライセンス更新で継続無料利用が可能。",
+      "detail": "V-Ray for Blender Community Editionが正式公開。個人・フリーランス・小規模スタジオを対象に、ライセンスを90日ごとに更新することで商用利用も含め継続して無償利用できる。業界標準レンダラーV-Rayが無料で利用可能になることで、Blenderユーザーの制作環境が大幅に向上する。以前に「V-Ray free for commercial work in Blender」として予告されていた施策の正式展開。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202605-V-Ray-Blender.html",
+        "CG Channel": "https://www.cgchannel.com/2026/04/you-can-now-use-v-ray-free-for-commercial-work-in-blender/"
+      }
+    },
+    {
+      "name": "NVIDIA Omniverse モジュラーライブラリ公開 - 既存アプリへのフィジカルAI統合",
+      "level": "8",
+      "overview": "NVIDIAがOmniverseのRTXレンダリング・PhysXシミュレーション等をモジュラーC APIとして公開。既存アプリへの組み込みが容易に。",
+      "detail": "GTC 2026で発表されたOmniverseのモジュラーライブラリが早期アクセスとして公開。ovrtx（RTXレンダリング）・ovphysx（PhysXシミュレーション）・ovstorage（データパイプライン）の3ライブラリをヘッドレス対応のC APIとして提供し、PythonとC++バインディングも利用可能。従来のOmniverseプラットフォーム全体導入が不要になり、産業用ロボティクスやデジタルツイン、CGパイプラインへの統合が大幅に容易化。ABBロボティクス、PTC、Siemensなどが採用を進めている。",
+      "links": {
+        "NVIDIA Technical Blog": "https://developer.nvidia.com/blog/integrate-physical-ai-capabilities-into-existing-apps-with-nvidia-omniverse-libraries/",
+        "NVIDIA JA Blog": "https://developer.nvidia.com/ja-jp/blog/"
+      }
+    },
+    {
+      "name": "ArcBrush - 無料ノードベース画像・テクスチャエディタ公開",
+      "level": "7",
+      "overview": "デザイナーAlbert OmossがPhotoshop代替を目指すノードベースの無料画像・テクスチャエディタ「ArcBrush」をゲームアート向けに公開。",
+      "detail": "ゲームアートおよびテクスチャ処理向けにPhotoshopの代替として設計されたノードベースの画像・テクスチャエディタ。ノードグラフで複雑なエフェクトチェーンを視覚的に構築でき、テクスチャ処理パイプラインの自動化も可能。Substance 3D Designerに近いアプローチでより軽量に利用できる。現在無料で提供中。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/arcbrush-is-a-free-node-based-image-editor-and-texture-editor/"
+      }
+    },
+    {
+      "name": "Blender AI方針明確化 - Anthropic寄付条件修正とAIロードマップ説明",
+      "level": "6",
+      "overview": "Blender財団がAnthropicのCorporate Patron化を受けてAI方針を修正。オープンソース優先・人間主導の創作を最優先としつつAI活用を説明。",
+      "detail": "AnthropicがBlenderのCorporate Patronになった発表後、コミュニティからAIへの懸念が表明されたことを受け、Blender財団がAI方針を明確化。寄付条件を修正し、生成AIはあくまで補助ツールとして位置付け、オープンソースの原則と人間主導の創作を最優先することを改めて強調。Blenderの中核開発にAIが直接関与することはなく、ユーザーが選択的にAIツールを利用できる形を目指すとしている。",
+      "links": {
+        "80.lv": "https://80.lv/articles/blender-clarifies-ai-policy-and-amends-anthropic-donation",
+        "CG Channel": "https://www.cgchannel.com/2026/04/ai-developer-anthropic-becomes-blenders-latest-corporate-patron/"
+      }
+    },
+    {
+      "name": "NVIDIA Vera Rubinプラットフォーム詳解 - 6チップ構成と次世代AIスーパーコンピュータ",
+      "level": "6",
+      "overview": "NVIDIAがVera Rubinプラットフォームの詳細を公開。6チップ極限共設計でBlackwell比推論コスト1/10、学習GPU数1/4を実現。",
+      "detail": "CES 2026で発表されたVera RubinプラットフォームのNVIDIA開発者ブログが更新。Vera CPU、Rubin GPU、NVLink 6スイッチ、ConnectX-9 SuperNIC、BlueField-4 DPU、Spectrum-6イーサネットスイッチの6チップが極限共設計により統合。推論トークンコストをBlackwell比最大1/10削減、MoEモデル学習に必要なGPU数を1/4に削減可能。2026年後半にAWS・Google Cloud・Microsoft・OCIが搭載製品を提供予定。CG/VFX向けAIレンダリングやシミュレーション高速化に大きく貢献。",
+      "links": {
+        "NVIDIA JA Blog": "https://developer.nvidia.com/ja-jp/blog/",
+        "NVIDIA Newsroom": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"
+      }
+    },
+    {
+      "name": "NVFP4がAIトレーニング・推論を加速する3つの手法",
+      "level": "5",
+      "overview": "NVIDIAが4ビット浮動小数点（FP4）精度によるAIモデルのトレーニングと推論高速化の3手法を解説。次世代GPU向けCG/AIパイプラインに応用可能。",
+      "detail": "NVIDIA FP4（4ビット浮動小数点精度）を活用してAIモデルの推論コストと学習時間を削減する3つの技術的アプローチを日本語ブログで解説。Rubin世代のGPUアーキテクチャで最大限に活用でき、CG・VFX分野のAIデノイジング、テクスチャ生成、ニューラルレンダリングなどのパイプライン高速化が期待される。",
+      "links": {
+        "NVIDIA JA Blog": "https://developer.nvidia.com/ja-jp/blog/"
+      }
+    },
+    {
+      "name": "EpicがUEFNでFortnite内スターウォーズ体験を数百件規模で拡張",
+      "level": "5",
+      "overview": "EpicがUEFN（Unreal Engine for Fortnite）を活用したStar Wars関連クリエイター体験を数百件追加。スターウォーズデー（5/4）に合わせた大型展開。",
+      "detail": "Star WarsツールをUEFNに導入した後、Epicがクリエイター制作のStar Wars体験を数百件規模でFortnite内に展開。新ゲームプレイシステムも導入。UEFNを使ったコンテンツ制作エコシステムの拡大事例として、Unreal Engineベースのゲーム制作・配信プラットフォームとしての可能性を示している。",
+      "links": {
+        "80.lv": "https://80.lv/articles/epic-expands-star-wars-in-fortnite-with-hundreds-of-new-uefn-experiences"
+      }
+    }
+  ]
+}
