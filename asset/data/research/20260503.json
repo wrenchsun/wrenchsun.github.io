@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "name": "Unity 6000.0.74f1リリース — JPEG脆弱性DoS対策とDLSS/FSR2不具合修正",
+      "level": "8",
+      "overview": "Unity 6.0 LTSにパッチ。JPEG読込DoS脆弱性対策、Recorderの2D対応、DLSS/FSR 2修正など。",
+      "detail": "Unity Technologiesが「Unity 6000.0.74f1」をリリース。プログレッシブJPEG読み込みに起因するDoS攻撃を防ぐセキュリティ対策が施されたほか、Unity RecorderのURP 2Dレンダラー対応、DLSS/FSR 2の動作不良修正、D3D12SwapChain::Presentクラッシュ修正、IL2CPP汎用型の不具合解消、Metal描画フリーズ対策など多岐にわたるバグ修正が含まれる。LTS運用中のプロジェクトは早期適用が推奨される。",
+      "links": {
+        "Unity 公式リリース": "https://unity.com/releases/editor/whats-new/6000.0.74f1",
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_02_136630/"
+      }
+    },
+    {
+      "name": "Unreal Engine Remote 3.0.0リリース — Pixel Streaming 2移行で低遅延・高画質化",
+      "level": "7",
+      "overview": "UE/UEFNプロジェクトをモバイルでストリーミング再生するアプリが大型更新。基盤をPixel Streaming 2に刷新。",
+      "detail": "Unreal Engine/UEFNで作成中のプロジェクトをモバイル端末上でリアルタイムにストリーミングできる「Unreal Engine Remote」がv3.0.0に到達。内部システムが「Pixel Streaming 2」へ移行され、低遅延・高画質な描画とネットワーク安定性が大幅に向上した。Fortnite Creative/UEFNのリリースノートによると間もなくAndroidサポートも開始予定で、モバイルプロトタイピングのワークフローを変革する重要アップデート。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_02_136630/"
+      }
+    },
+    {
+      "name": "Fortnite Creative / UEFN v40.30リリース — Star Wars APIなど大型コンテンツ追加",
+      "level": "7",
+      "overview": "v40.30公開。プロパティ警告対応、Unreal Engine Remote対応、STAR WARS Verse API正式版化。",
+      "detail": "Epic Gamesが4月30日にFortnite Ecosystem v40.30を配信。Unreal Editor for Fortnite/Verse/Creator Portalが同時更新された。プロパティ編集のバグ修正に伴う警告表示が導入され、新たに「Unreal Engine Remote」アプリに対応。STAR WARS Verse APIがExperimentalから昇格し、フォースパワーやライトセーバー、25種以上の武器・100以上のNPC・乗り物などを公式ライセンスで利用可能に。クリエイター向けに史上最大規模のIPツールセットを開放した。",
+      "links": {
+        "Epic Developer Community": "https://dev.epicgames.com/documentation/fortnite/40-30-fortnite-ecosystem-updates-and-release-notes",
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_02_136630/"
+      }
+    },
+    {
+      "name": "Construct 3 Beta r483リリース — 3D機能拡張とメッシュサイズ変更を追加",
+      "level": "5",
+      "overview": "ノーコード対応ブラウザゲームエンジン。3D機能の複数アップデート、ステータスバーへのカメラ座標表示などを実装。",
+      "detail": "ブラウザ上で動作するノーコードゲームエンジン「Construct 3」のBeta r483が公開。3D機能まわりが集中的に強化され、ステータスバーにカメラ座標を表示する機能や、ギズモ操作の改善、メッシュサイズを変更する新機能が実装された。2D中心のエンジンながら3D表現の可能性が広がり、ハイブリッドな2.5Dゲーム開発の選択肢として注目される。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_02_136630/"
+      }
+    },
+    {
+      "name": "RPG Developer Bakin Ver.2.4リリース — シャドウマップとLODサポート追加",
+      "level": "5",
+      "overview": "プログラミング不要のRPG制作ツールが大型更新。シャドウマップ実装、LODサポート、変数値による分岐パネル追加。",
+      "detail": "プログラミング不要でロイヤリティフリーのRPG制作ツール「RPG Developer Bakin」がVer.2.4にアップデート。リアルタイムシャドウマップが実装され、シーンの陰影表現が大幅に強化された。さらにLOD（Level of Detail）サポートにより遠景描画の最適化が可能に。変数値に応じた分岐イベントを複数同時に作成できるイベントパネルも追加され、複雑なゲームロジックの可視化が容易になった。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_02_136630/"
+      }
+    },
+    {
+      "name": "mGear 5.3.2リリース — Maya向けリギングフレームワーク機能追加",
+      "level": "4",
+      "overview": "Maya対応のオープンソースリギング・アニメーションFW。スキンウェイトコピー時のSoft Selection対応など複数追加。",
+      "detail": "Mayaで動作するリギング・アニメーション用フレームワーク「mGear」がVer.5.3.2にアップデート。スキンウェイトのコピー時にSoft Selectionを選択できるようになるなど、複数の機能追加とバグ修正が実施された。プロダクションで広く使われるリガー必携ツールの安定性とワークフロー改善が継続的に進んでいる。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_02_136630/"
+      }
+    },
+    {
+      "name": "Pixel Composer 1.21リリース — mp4インポートとパターン生成ノード追加",
+      "level": "4",
+      "overview": "ノードベースのVFX・ピクセルアートエディタ。mp4ファイルのインポート機能や新パターン生成ノードを実装。",
+      "detail": "ノードベースのVFXおよびピクセルアートエディタ「Pixel Composer」がVer.1.21に更新。mp4ファイルを直接読み込めるインポート機能が追加され、動画素材を取り込んだピクセルエフェクト制作が可能に。さらに新たなパターン生成ノードが実装され、プロシージャルなテクスチャ作成の幅が広がった。インディーゲーム制作向けに重宝されるツール。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_02_136630/"
+      }
+    },
+    {
+      "name": "Aras Pranckevičius『Syntonic Dentiforms redux』 — 22年前のD3D9デモをsokol_gfxで再構築",
+      "level": "7",
+      "overview": "元Unity中核Arasが2004年制作のD3D9デモをsokol_gfxへ移植し、Win/Linux/Mac/Web対応に再生。",
+      "detail": "Aras Pranckevičiusが2004年にnesnausk!で制作したデモ「Syntonic Dentiforms」を現代環境向けに再構築。D3D9/D3DXをsokol_gfxへ、FMODをsokol_audio+stb_vorbisに置換し、Windows/DX11・Linux/OpenGL・macOS/Metal・Web/WebGL2に対応。Object-IDベース影をシャドウマップに刷新し、ライティングは全てピクセル単位化。当時24,000行/216ファイルだったコードを6,000行/49ファイルに簡素化し、抽象化や継承を排した結果、実行ファイルは1MB縮小した。",
+      "links": {
+        "Aras' website": "https://aras-p.info/blog/2026/04/13/Syntonic-Dentiforms-redux/",
+        "GitHubリポジトリ": "https://github.com/aras-p/SyntonicDentiforms"
+      }
+    },
+    {
+      "name": "80 Level: Diablo IV: Lord of Hatredのクリーチャー制作を解説",
+      "level": "5",
+      "overview": "Senior Character ArtistのGustavo Medeirosが拡張版Morlu Championの制作工程を公開。",
+      "detail": "Blizzardの『Diablo IV: Lord of Hatred』拡張パッケージで主要クリーチャーとして登場するMorlu Championの制作プロセスをSenior Character ArtistのGustavo MedeirosがArtStationで公開。コンセプトはGray Rogers、リードアーティストはOmid Moradiが担当。Medeirosはハイポリ・ローポリ・UV・ベイク・テクスチャリングを担当し、Diabloシリーズ特有のダークファンタジー世界観に沿った異形クリーチャーのワークフローを共有している。",
+      "links": {
+        "80 Level": "https://80.lv/articles/check-out-some-of-the-creatures-created-for-diablo-iv-lord-of-hatred"
+      }
+    },
+    {
+      "name": "80 Level: Substance 3D Designerによる感染肉質マテリアル作成事例",
+      "level": "4",
+      "overview": "Vadim TougeronがSubstance 3D Designerでの「Infected Surface」制作工程を解説。",
+      "detail": "テクニカルアーティストのVadim Tougeronが、Substance 3D Designerで作成した「Infected Surface」マテリアルの制作工程を80 Levelで紹介。Netflix『Stranger Things』のビジュアルから着想を得たもので、血管様パターンの構築、アルベド・ラフネス・マスク生成、Levelsノードを用いた階調制御など実用的なノード構成が解説されている。ホラー・SFゲーム向けの腐食・感染表現に応用可能。",
+      "links": {
+        "80 Level": "https://80.lv/articles/take-a-look-at-this-grotesquely-detailed-infected-flesh-material"
+      }
+    },
+    {
+      "name": "Phaser v4.1.0リリース — JavaScript製2DゲームFWのレイヤーGameObject化",
+      "level": "4",
+      "overview": "OSSのJS 2DゲームFW PhaserがV4.1.0更新。レイヤーGameObject化と動的テクスチャ改善。",
+      "detail": "JavaScriptで2Dゲームを開発できるオープンソースフレームワーク「Phaser」がv4.1.0をリリース。レイヤーがGameObject化されてシーン構成の柔軟性が向上したほか、動的テクスチャにおけるミニマップ更新まわりの機能改善が実施された。Web向けインディーゲーム制作で広く採用されるFWの継続的な強化。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_02_136630/"
+      }
+    },
+    {
+      "name": "Shiden Visual Novel Editor Ver.1.14.0リリース — UE5向けOSSビジュアルノベルプラグイン",
+      "level": "3",
+      "overview": "Unreal Engine 5でビジュアルノベルを開発できるOSSプラグイン。コマンド挙動改善とセーブ機能の安定性向上。",
+      "detail": "Unreal Engine 5上でビジュアルノベル等を開発できる無料・オープンソースのプラグイン「Shiden Visual Novel Editor」がVer.1.14.0をリリース。簡易プレビュー機能を備えたエディターを搭載し、デフォルトで37種のコマンドを使用可能で新規追加にも対応する。今回はImageがCanvas Panel内に配置されていない場合のコマンド挙動改善、セーブ機能の安定性向上などが施された。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_02_136630/"
+      }
+    }
+  ]
+}
