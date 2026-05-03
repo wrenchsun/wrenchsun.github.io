@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "name": "Graphics Programming Weekly #438公開 — Cooperative Vectors・Anvil Micropolygon・F1パストレース等を一挙紹介",
+      "level": "10",
+      "overview": "Jendrik Illner恒例の週次まとめ最新号。GDC 2026発表の最先端レンダリング論文・実装が集結。",
+      "detail": "Jendrik Illner氏のGraphics Programming Weekly Issue 438が4/27付で公開。Cooperative Vectors（シェーダー内行列演算GPU API）の解説、Markus Schütz氏のCUDA製ソフトラスタライザ「CuRast」（数十億ポリゴン対応）、UbisoftによるAnvilのMicropolygonレンダリング、EA Sports F1 25のレースパストレース（ReSTIR/ReGIR）、Anno 117: Pax Romanaの次世代グラフィックス、Never's Endのスタイライズ3Dスプライト、Apple Metal Lossy Compressionの逆解析、HLSL CPUインタプリタ、Bayer順k-means量子化、OpenGLでのGaussian Blurブルームなど10本以上を網羅。GDC 2026発表内容が中心で、業界の最新トレンドを総覧できる必読号。",
+      "links": {
+        "Jendrik Illner Weekly #438": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/"
+      }
+    },
+    {
+      "name": "Cooperative Vectors入門 — シェーダー内ニューラルネットワークを実現する新GPU API",
+      "level": "9",
+      "overview": "シェーダー内でハードウェア加速行列ベクトル演算を行う新API。ニューラル材質・キャッシュの基盤に。",
+      "detail": "Evolveブログが「Cooperative Vectors」の入門記事を公開。シェーダー内でハードウェア加速の行列ベクトル乗算を可能にするGPU API群を解説。ニューラル材質やニューラル放射輝度キャッシュなどのユースケースを動機として説明し、推論時に最適化されたMulOptimal行列レイアウト、訓練時のOuterProductAccumulate・VectorAccumulateの利用方法を実用例で示す。DirectX SM 6.9とVulkan VK_NV_cooperative_vectorで導入される標準仕様であり、AMD・Intel・NVIDIA・Qualcommが連携して業界横断採用が進む。",
+      "links": {
+        "Evolve Cooperative Vectors": "https://www.evolvebenchmark.com/blog-posts/cooperative-vectors-introduction",
+        "Jendrik Illner Weekly #438": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/",
+        "VK_NV_cooperative_vector": "https://docs.vulkan.org/features/latest/features/proposals/VK_NV_cooperative_vector.html"
+      }
+    },
+    {
+      "name": "CuRast公開 — 数十億ポリゴン対応のCUDA製ソフトラスタライザ",
+      "level": "8",
+      "overview": "事前LODや加速構造なしで巨大三角形数を処理可能なCUDAソフトラスタ実装が登場。",
+      "detail": "Markus Schütz氏が「CuRast」を公開。事前計算LODやBVH等の加速構造を一切持たず、大規模三角形データセットを直接ラスタライズできるCUDAベースのソフトラスタライザ。3段階パイプラインを採用し、小三角形は1スレッド、大三角形は1ワープ、最大の三角形は分割して第3段に投入される。Vulkanハードウェアラスタライズとの性能比較データも提示。点群代わりのジオメトリ表現や研究用途での応用が期待される。",
+      "links": {
+        "CuRast GitHub": "https://github.com/m-schuetz/CuRast",
+        "Jendrik Illner Weekly #438": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/"
+      }
+    },
+    {
+      "name": "Ubisoft Anvil「Micropolygon Rendering」GDC 2026講演公開 — Switch 2対応も解説",
+      "level": "9",
+      "overview": "Anvilの仮想化ジオメトリ実装が公開。データ準備からカリング・ラスタライズ・ストリーミング統合まで詳述。",
+      "detail": "Ubisoft（Lionel Berenguier・Jack Minnetian）がGDC 2026で発表した「Micropolygon Rendering in Anvil」のセッション動画がGDC Vaultに公開。Anssasin's Creed Shadowsで初投入されたNanite対抗の仮想化ジオメトリシステムについて、データ準備・カリング・実ラスタライズまでのパイプライン全体、ストリーミングシステム統合、システム横断の最適化を解説。さらにNintendo Switch 2でこの重量級システムを動作させるための課題と解決策も紹介され、次世代携帯機の表現力向上に直結する貴重な実装事例となっている。",
+      "links": {
+        "GDC Vault Anvil Micropolygon": "https://gdcvault.com/play/1035671/Micropolygon-Rendering-in-Anvil",
+        "80.lv記事": "https://80.lv/articles/ubisoft-shows-off-micropolygon-rendering-in-anvil-engine",
+        "Jendrik Illner Weekly #438": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/"
+      }
+    },
+    {
+      "name": "EA Sports F1 25「Path Tracing at 200mph」GDC 2026発表 — ReSTIR/ReGIR併用解説",
+      "level": "8",
+      "overview": "F1 25のパストレースモード実装解説。動的光源多数のナイトレース対応にReSTIR・ReGIRを組合せ。",
+      "detail": "EA SportsがGDC 2026にて「F1 25: Path Tracing at 200mph」を講演。F1 25に搭載されたリアルタイムパストレースモードの実装課題を解説。ReSTIR（Reservoir-based Spatio-Temporal Importance Resampling）とReGIR（グリッドベースのreservoir importance resampling）の併用による効率化、特にナイトレースにおける多数の動的光源の処理に焦点。さらに開発・デバッグツールの仕組みも紹介。スポーツゲームでパストレースを200mphで成立させた実例として、リアルタイムRT技術の到達点を示す。",
+      "links": {
+        "GDC Vault F1 25 Path Tracing": "https://gdcvault.com/play/1035693/EA-Sports-F1-25-Path",
+        "Jendrik Illner Weekly #438": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/"
+      }
+    },
+    {
+      "name": "Anno 117: Pax Romana次世代グラフィックス GDC 2026発表 — レイトレーシング統合",
+      "level": "7",
+      "overview": "Anno 117の描画エンジン解説。サブオブジェクト合成・地形メッシュ適応・プロシージャル草・RT統合。",
+      "detail": "Ubisoft（Anno制作スタジオBlue Byte）によるGDC 2026講演「All Rays Lead to Rome: Next-Gen Graphics in Anno 117: Pax Romana」がGDC Vault公開。Anno 117で採用された新世代レンダリングエンジンを解説。個別のサブオブジェクトを階層的に重ねてオブジェクトを構築する方式、地形へのメッシュ適応、LODシステムとのインタラクションを詳細紹介。さらにプロシージャル草生成と、レイトレーシング統合のアプローチも示される。都市建設シム特有の大量オブジェクト描画に対する最新解。",
+      "links": {
+        "GDC Vault Anno 117": "https://gdcvault.com/play/1035731/All-Rays-Lead-to-Rome",
+        "Jendrik Illner Weekly #438": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/"
+      }
+    },
+    {
+      "name": "Never's End「3Dスプライトワールド」GDC 2026 — 3Dと2Dスプライト融合のテクニカルアート",
+      "level": "6",
+      "overview": "3D空間を2Dスプライト風に描く手法を技術アーティストが解説。アウトライン・ピクセルスナップ等。",
+      "detail": "GDC 2026のテクニカルアーティストサミットでNever's Endの開発者が登壇。「How We Draw a 3D Sprite World: The Stylized Art of Never's End」と題し、3D世界をスタイライズ2Dスプライトとして描画する手法を解説。アウトラインレンダリング、スタイライズシェーディング、空・雲表現の実装方法を詳細紹介。さらにピクセルスナップ、深度ソート、影表現に関する実装上の課題も共有。インディー・スタイライズゲームの開発者向け参考資料として価値が高い。",
+      "links": {
+        "GDC Vault Never's End": "https://gdcvault.com/play/1035701/How-We-Draw-a-3D",
+        "Jendrik Illner Weekly #438": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/"
+      }
+    },
+    {
+      "name": "Apple Metal Lossy Compression形式の逆解析記事公開 — 128バイトタイル・可変サイズブロック構造を解明",
+      "level": "7",
+      "overview": "未公開仕様であるApple Metal Lossy Compressionをリバースエンジニアリングし、内部構造を解説。",
+      "detail": "Ignacio Castano氏が「Metal Lossy Compression Format」を公開。Apple Metalで採用されている非公開のロスのある圧縮フォーマットをリバースエンジニアリングして解説。可変サイズブロックを128バイトタイル内にパッキングしブロック単位のメタデータを持つメモリレイアウト構造、複数のエンコーディングモードの詳細などを記述。Apple Silicon上のテクスチャ・フレームバッファ最適化を理解する上で重要な資料で、クロスプラットフォーム対応を行うエンジン開発者には必読の情報。",
+      "links": {
+        "Metal Lossy Compression解析": "https://www.ludicon.com/castano/blog/2026/04/metal-lossy-compression-format/",
+        "Jendrik Illner Weekly #438": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/"
+      }
+    },
+    {
+      "name": "HLSLInterpreter公開 — シェーダーコードをCPU上で実行するC#ライブラリ",
+      "level": "6",
+      "overview": "HLSLシェーダーをCPUで解釈実行する実験的C#ライブラリ。Wave組込み・groupshared等もサポート。",
+      "detail": "pema99氏がGitHubで「HLSLInterpreter」を公開。HLSLシェーダーコードをCPU上で解釈実行できる実験的C#ライブラリ。HLSLネイティブのテストサポートを備えた組込みシェーダーテストフレームワークを内蔵。Wave組込み関数、発散制御フロー、groupshared共有メモリ、テクスチャ型などHLSLの大部分の機能に対応。シェーダーロジックのCPU側ユニットテストや、デバッグ・教育用途に有用な新しいツール。",
+      "links": {
+        "HLSLInterpreter GitHub": "https://github.com/pema99/HLSLInterpreter",
+        "Jendrik Illner Weekly #438": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/"
+      }
+    },
+    {
+      "name": "UModeler X、5月3日に完全無料化 — UnityエディタネイティブのモデリングツールがProBuilder代替へ",
+      "level": "8",
+      "overview": "Unityエディタ内蔵で動作する人気モデリング・テクスチャ・リギングツールが無料公開。",
+      "detail": "CG ChannelがUModeler X完全無料化を5月3日に報じる。25,000以上のユーザーが利用するProBuilder代替の3D制作ツールが、Unity Asset Storeおよび公式サイトで完全無料公開。Unityエディタ内で完結するスケッチベースのラピッドモデリング、UV編集、レイヤーベースのテクスチャペイント、プロダクション品質のリギング・スキニングツールキットまで提供。Unity 6完全対応、Blender/Maya/3ds Maxとの相互運用性も維持。インディー・小規模スタジオの3DパイプラインをUnity内で完結させる選択肢として注目。",
+      "links": {
+        "CG Channel UModeler X記事": "https://www.cgchannel.com/2026/05/unity-modeling-texturing-and-rigging-tool-umodeler-x-is-now-free/",
+        "UModeler X 公式": "https://unity.umodeler.com/",
+        "Unity Asset Store": "https://assetstore.unity.com/packages/tools/modeling/umodeler-x-330215"
+      }
+    },
+    {
+      "name": "Bayer順序を用いたパレット精緻化＆ordered dithering手法 — 単一パスで構造的ディザを実現",
+      "level": "5",
+      "overview": "Bayer行列順走査によりオンラインk-meansカラー量子化＋ordered ditheringを単一パス実現。",
+      "detail": "30fps.netブログがBayer行列順を用いた革新的なディザリング手法を公開。オンラインk-meansカラー量子化中のピクセル訪問順をBayer行列に従って行うことで、自然にordered dither模様を生成できることを示す。最終的なEuclidean pixel mappingを省略すると、追加処理なしで可視的なディザパターンが現れる。ブロック順をBayer行列内でシャッフルすることで構造とランダム性が組み合わさり、純粋なラスタや乱数式より綺麗なディザリングを得られる。レトロゲーム・ピクセルアート系開発者に有用。",
+      "links": {
+        "30fps.net 記事": "https://30fps.net/pages/bayer-order-online-kmeans/",
+        "Jendrik Illner Weekly #438": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/"
+      }
+    }
+  ]
+}
