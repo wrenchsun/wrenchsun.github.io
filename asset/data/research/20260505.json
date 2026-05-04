@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "name": "LightWave Digital、「LightWave 2026」をオープンβ公開 — Advanced Placement・MotoRig・Fracture等を一挙搭載",
+      "level": "9",
+      "overview": "物理ベース配置・車両自動リギング・破壊・雷・降雪まで網羅した4年連続の大型バージョンアップ。",
+      "detail": "LightWave Digitalが3D アニメーション/レンダリングソフトの新メジャーバージョン「LightWave 2026」を公開し、本日よりオープンβ提供開始。3〜4週間後に正式版予定。注目機能はAdvanced Placement（重力で自然に落下・配置する物理ベースのシーンレイアウト、地面接触で自動破壊も可能）、MotoRig（質量・荷重配分・サスペンション制御まで備えた半自動の車両リギング、4/6/8輪に対応）、Fracture（マテリアル/UV保持の事前破壊ツール）、THOR（手続き的稲妻を3Dジオメトリとして生成、自動厚み・熱重みマップ付）、Snow Falling 3D（カメラ視野/ボリューム内のみで降雪を生成し既存パーティクルより高速描画）、ビューポート即時プレビューRIPR 2、Quixel Megascans/Maxtree統合のアセットブラウザなど。新ライセンス£795。Windows 10+/macOS 14.1+対応。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/",
+        "LightWave 2026公式": "https://lightwave3d.com/information-pages/new-feature/"
+      }
+    },
+    {
+      "name": "Blender 5.2 LTS、新「Cycles Texture Cache」システム導入 — 大量テクスチャ時のVRAM消費を大幅削減",
+      "level": "9",
+      "overview": "画像ごとに.txファイルを自動生成し必要なタイル/解像度のみロード。CPU/全GPUバックエンド対応。",
+      "detail": "Blender Foundationが7月リリース予定のBlender 5.2 LTSアルファビルドに「Cycles Texture Cache」を実装。各画像テクスチャに対してblender_tx/フォルダ内に最適化された.txファイルを自動生成し、レンダリングに必要なタイルと解像度のみをロードする仕組み。.txはソース画像変更時に自動再生成され、カラースペース/フィルタリング設定はシェーダーノードでの利用方法から自動推論。CPU・全GPUバックエンドで動作し、レンダーファームや本番パイプライン向けのさらなる改良も予告。デイリービルドで既に試用可能で、devtalkでフィードバック募集中。",
+      "links": {
+        "80 Level記事": "https://80.lv/articles/blender-5-2-lts-introduces-new-cycles-texture-cache-system",
+        "Blender Code公式ブログ": "https://code.blender.org/2026/05/cycles-texture-cache/",
+        "DevTalkフィードバック": "https://devtalk.blender.org/t/cycles-texture-cache-feedback/43725"
+      }
+    },
+    {
+      "name": "World Labs「Spark 2.0」公開 — Three.js基盤のWeb向け3DGSストリーミング+LoDシステム",
+      "level": "8",
+      "overview": "巨大3Dワールドを最適化し全デバイスへ高品質ストリーミング。LoDで動的最適化、オープンソース。",
+      "detail": "World Labs（Fei-Fei Li主導）がWebブラウザ上で動作する動的3D Gaussian Splatting（3DGS）レンダラ「Spark 2.0」を公開。Three.jsを基盤に構築され、LoDシステムとストリーミング機能が新搭載された。巨大な3DGSワールドをモバイルからハイエンドGPUまで最適に配信できる高度システム設計を持ち、オープンソースで提供。Niantic Spatial「Scaniverse」など最近の3DGSキャプチャ製品の成果をブラウザ視聴できるエコシステム整備に直結する重要リリース。",
+      "links": {
+        "CGWORLD記事": "https://cgworld.jp/flashnews/01-202605-Spark20.html"
+      }
+    },
+    {
+      "name": "Conan Exiles Enhanced、5/5にUnreal Engine 5無償アップグレード配信 — Lumen/Nanite/サバイバル両マップ往来",
+      "level": "8",
+      "overview": "8周年に合わせUE5化。Exiled Lands⇔Isle of Siptahを自由往来、Steam Deckでも快適60fps目標。",
+      "detail": "Funcomがサバイバルゲーム『Conan Exiles』のUnreal Engine 5化「Conan Exiles Enhanced」を5月5日（米国時間）に無償アップグレードとして配信。Inflexion Gamesと共同開発で、ビジュアルとパフォーマンスのバックボーンを完全リビルド。UE5のLumen（動的GI）とNanite（仮想化ジオメトリ）を全面採用。歴代マップ「Exiled Lands」と「Isle of Siptah」を初めて自由に行き来でき、Low/Medium/High/Ultra設定でPC/Steam Deck共に60fps以上を目標。UE4版からセーブ移行可、初回はSteam版限定でEpic/Microsoft Store/コンソールはLegacy版継続。長寿命運用タイトルでのエンジン世代刷新事例として参考価値高い。",
+      "links": {
+        "Funcom公式": "https://www.conanexiles.com/blog/conan-exiles-enhanced-is-a-massive-free-upgrade-arriving-may-5th/",
+        "WCCFTech記事": "https://wccftech.com/conan-exiles-enhanced-free-ue5-upgrade/"
+      }
+    },
+    {
+      "name": "Anthropic、Blender Development Fund Corporate Patron資格を一回限り寄付に降格",
+      "level": "8",
+      "overview": "AI生成議論を受けBlender財団が継続会員から単発寄付に変更。AI方針も明確化へ。",
+      "detail": "BlenderファウンデーションがAnthropicのCorporate Patron（年€240,000継続寄付）を一回限りの寄付に変更したと発表。先日の発表時にAI生成への忌避感からコミュニティで賛否が割れた状況を受け、寄付受け入れプロセスを「強化」、生成AI技術に対するBlenderの立ち位置も「明確に定義する」方針。Anthropic側もこの判断を支持。AI開発者と主要OSSの関係性、寄付体制、AI方針のあり方に大きな影響を与える事案で、Blender自体は引き続き生成AI機能搭載予定なしを再確認。Claude Blenderコネクター（Blender Lab製アドオン）への影響はないとされる。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/anthropics-patronage-of-blender-downgraded-to-one-off-donation/",
+        "80 Level記事": "https://80.lv/articles/blender-clarifies-ai-policy-and-amends-anthropic-donation",
+        "Blender News": "https://www.blender.org/news/upcoming-blender-development-fund-and-ai-policies/"
+      }
+    },
+    {
+      "name": "Abstract、InstaMAT/InstaLODのネイティブLinux版を公開 — Substance 3DのVFX代替へ",
+      "level": "8",
+      "overview": "InstaMAT 2026-05とInstaLOD 2026-05でRocky Linux/RHEL 8/9対応。Pioneer無償版もLinuxへ。",
+      "detail": "Abstractがマテリアルオーサリング/テクスチャペイントツール「InstaMAT」と、ジオメトリ最適化スイート「InstaLOD」のネイティブLinux版「2026-05」をリリース。Rocky Linux 8/9、RHEL 8/9とAlmaLinux/Oracle Linux/CentOS Stream互換ディストロに対応。コアアプリに加えBlender/Maya統合プラグインもLinux対応。VFX Reference Platform（CY2023仕様）にも対応。GPUベイク以外のGPU加速機能はサポート。年商10万ドル未満の個人/スタジオ向けPioneerエディションも無償でLinuxで利用可能。Substance 3DのチームサブスクやSteam購入に縛られないLinux系VFXパイプラインの新たな有力候補となる。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/instamat-and-instalod-now-support-linux-natively/",
+        "Abstract公式発表": "https://abstract3d.com/2026/05/01/abstract-rolls-out-native-linux-support-built-for-the-pipelines-that-power-production/"
+      }
+    },
+    {
+      "name": "Insydium「NeXus for Blender」最新プレビュー公開 — nxFluids（PBD液体）デモ追加",
+      "level": "7",
+      "overview": "GPU駆動の粒子・流体プラグインの新Blender版。Cinema 4D版と同等以上の性能を訴求。",
+      "detail": "Cinema 4Dの定番粒子・マルチフィジクスプラグイン「NeXus」のBlender版に関する最新プレビューが5/4更新。粒子コアツールに加え、Position Based Dynamics（PBD）液体シミュレーションツールセット「nxFluids」のBlender実装をデモ。Blender版は64bit VRAMアドレッシング採用でCinema 4D版より大規模シミュレーション可、AMD/Apple Silicon/Intel/NVIDIA全GPU対応（Vulkanベース）。ネイティブBlenderパーティクル/Geometry Nodes/キャッシュへのエクスポートも可能。Fusedサブスク（£590/年）契約者は無償提供、買い切りライセンスもあり。リリースは「間もなく」。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/04/sneak-peek-nexus-for-blender/",
+        "Insydium NeXus公式": "https://insydium.ltd/products/nexus/"
+      }
+    },
+    {
+      "name": "ArcBrush 1.0公開 — Albert Omoss氏のノードベース画像/テクスチャエディタが無償公開",
+      "level": "7",
+      "overview": "75ノード搭載・全操作非破壊。Photoshopの代替を志向、Mac/Windows対応のC++ネイティブ。",
+      "detail": "モーションデザイナー兼Meta Reality Labsクリエイティブディレクターを務めるAlbert Omoss氏が、ノードベース画像エディタ「ArcBrush 1.0」を公開。Photoshopの代替（兼Nuke的なノード合成）を志向した非破壊画像編集ツールで、ペイント/マスク/ワープなど75の合成可能ノードを内蔵。Windows 10+/macOS 12.0+対応、C++ネイティブ実装。コアアプリは無償でアカウント不要。背景除去・アップスケール・生成AIなどのオプションノードのみ有償。ゲーム/モーショングラフィックスのテクスチャ処理用Photoshop代替として注目。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/arcbrush-is-a-free-node-based-image-editor-and-texture-editor/",
+        "ArcBrush公式": "https://arcbrush.com/"
+      }
+    },
+    {
+      "name": "Rust製コードエディタ「Zed」1.0リリース — 独自フレームワークで高速・協働・AIネイティブ",
+      "level": "7",
+      "overview": "macOS/Windows/Linux対応の数十言語サポート。AI支援を基盤レベルで実装、エージェント協業を視野。",
+      "detail": "Rust製コードエディタ「Zed」のメジャーバージョン1.0が5/4にリリース。独自フレームワーク採用による高速描画、人間同士のリアルタイムコラボ機能に加え、AI支援が基盤レベルで組み込まれた点が特徴。今後はAIエージェントとのリアルタイムコード共有も視野に入れる。macOS/Windows/Linuxで数十種類のプログラム言語に対応し、ゲーム開発のC++/C#/Rust/Pythonワークフローでも有力な選択肢に。VS Code/JetBrains優位の市場へRust+AI時代のエディタ刷新を提示。",
+      "links": {
+        "ゲームメーカーズ記事": "https://gamemakers.jp/article/2026_05_04_136760/",
+        "Zed公式": "https://zed.dev/"
+      }
+    },
+    {
+      "name": "Foundry Japan、Griptape Nodesの日本語インストールガイドを公開",
+      "level": "6",
+      "overview": "ノードベースAIワークフローツールの日本語導入手順をFoundry Japanが解説。",
+      "detail": "Foundry Japanがノードベースで生成AIワークフローを構築できるOSSツール「Griptape Nodes」の日本語インストールガイドを4/30公開。GPU/モデル設定、ローカル/クラウド両対応など、ノードベース慣れしたVFXアーティスト向けに分かりやすく整理されている。テクスチャ生成・コンセプト制作・参考画像生成など制作支援用途で、Nuke/Houdini系アーティストの導入ハードルを下げる狙い。",
+      "links": {
+        "CGWORLD記事": "https://cgworld.jp/flashnews/03-2604-griptapenodes.html"
+      }
+    },
+    {
+      "name": "Embark Studios『THE FINALS』プロシージャル建築のメイキング日本語版公開 — Houdiniで実現する破壊と再構築",
+      "level": "7",
+      "overview": "Houdiniでマップを毎マッチ動的に再構築する破壊可能アーキテクチャの設計手法を詳解。",
+      "detail": "DICE出身者によるEmbark Studiosの基本無料FPS『THE FINALS』のプロシージャル建築制作のメイキング日本語版がCGWORLD経由で公開。Houdiniで建物を「ピース」に分割しランタイムで動的に組替・破壊するワークフローを解説。リプレイ性向上のため毎マッチ建築物のレイアウト変化や局所破壊を成立させる設計、データドリブンなビルディングブロックライブラリ、メッシュ最適化、ライティング/オクルージョン破綻防止のテクニック等。プロシージャル建築×破壊シミュレーションのリアルタイム実装事例として希少。",
+      "links": {
+        "CGWORLD記事": "https://cgworld.jp/flashnews/03-2604-thefinals.html"
+      }
+    },
+    {
+      "name": "ゲームメーカーズ：Epic Games「Fab」5/5まで限定無料コンテンツ第N弾 — 深海研究施設環境アセット等3点",
+      "level": "5",
+      "overview": "Fabで深海研究施設環境アセットなど3製品が5/5 23:59（JST）まで無償提供中。",
+      "detail": "Epic Gamesの3D/2Dアセットマーケットプレイス「Fab」にて、5月5日（火）23:59（JST）までの期間限定無料コンテンツが提供中。深海研究施設用の環境アセット等3製品が対象で、Unreal Engineのプロジェクトに即取込可能。Quixel/Megascans系アセット供給の継続施策の一環。",
+      "links": {
+        "ゲームメーカーズ記事": "https://gamemakers.jp/article/2026_04_22_136008/"
+      }
+    },
+    {
+      "name": "Otsuka & Autodesk Collaboration Day 2026開催決定 — 5/21、AIによる設計/クリエイティブの未来",
+      "level": "5",
+      "overview": "5/21（木）開催。Autodesk AIで実現する設計/クリエイティブ未来を全17セッションで解説。",
+      "detail": "大塚商会×Autodesk主催「Otsuka & Autodesk Collaboration Day 2026」が2026年5月21日（木）に開催決定。テーマは「Autodesk AIで実現する設計とクリエイティブの未来」で、計17セッションを通して建設業/製造業向けにAutodesk最新AIソリューションを解説。3ds Max/Maya/ShotGrid等のM&E系利用者にもAI連携トレンドの理解を深める好機。",
+      "links": {
+        "Autodesk公式案内": "https://blogs.autodesk.com/autodesk-news-japan/otsuka-autodesk-collaboration-day-2026/"
+      }
+    }
+  ]
+}
