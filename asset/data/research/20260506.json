@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "name": "NVIDIA、生成3D世界フレームワーク「Lyra 2.0」公開 — 長尺ウォークスルーと高品質3Dシーン出力",
+      "level": "9",
+      "overview": "Spatial Intelligence Labが空間的忘却・時間的ドリフトを克服した持続的3D生成AIを発表。",
+      "detail": "NVIDIAのSpatial Intelligence Lab（SIL）が4月16日、探索可能な生成3D世界を構築するAIフレームワーク「Lyra 2.0」を発表（CGWORLDが5/5に日本語解説記事を掲載）。カメラ操作可能なウォークスルー動画を生成し、フィードフォワード再構成技術によって3D空間を生成、大規模で複雑な3D環境構築を実現する。「空間的忘却」を防ぐためジオメトリを保持して情報ルーティングに活用し見た目はGenerative priorで合成、「時間的ドリフト」には自モデル生成の劣化出力を学習履歴に含めるSelf-augmented trainingを導入。長時間カメラ軌跡でも3D一貫性を維持。ソースコードはApache-2.0でGitHub公開、モデルはNVIDIA Internal Scientific Research and Development Model License（非商用研究開発限定）でHugging Face提供。",
+      "links": {
+        "CGWORLD記事": "https://cgworld.jp/flashnews/01-202605-Lyra2.html",
+        "Lyra 2.0公式": "https://research.nvidia.com/labs/sil/projects/lyra2/",
+        "GitHub": "https://github.com/nv-tlabs/lyra",
+        "Hugging Face": "https://huggingface.co/nvidia/Lyra-2.0"
+      }
+    },
+    {
+      "name": "Unity公式AIエージェント「Unity AI」がオープンベータ開始 — Unity 6以降全ユーザー対象、AI Assistant＋Generators提供",
+      "level": "9",
+      "overview": "エディタ統合AIでコード/シーン生成、マテリアル/サウンド/スプライト生成。クレジット制で月10ドル～。",
+      "detail": "Unity Technologiesが2026年5月5日、Unity向けAIツール群「Unity AI」をオープンベータとして公開。Unity 6以降の全ユーザーが対象。中核は「AI Assistant」（プロジェクト構造/文脈を踏まえてコード生成・シーン構築・デバッグを実行するエディタ内AIエージェント）と「Generators」（マテリアル/サウンド/スプライト/アニメーションをプロジェクト内で直接生成）の2つ。Plan/Askモード切替、AI生成アセットへの自動タグ付与、人間レビュー支援機能を搭載。AI Gatewayでサードパーティ製AIエージェント連携、MCP（Model Context Protocol）サーバ経由でIDE側からEditor操作も可能。利用はクレジット制で、Pro/Enterprise/Industryは既存シートに付帯、Personalは月額10ドルのサブスク（14日無料トライアル）が必要。日本国内でのCredit Bundles追加購入は準備中。",
+      "links": {
+        "ゲームメーカーズ記事": "https://gamemakers.jp/article/2026_05_05_136667/",
+        "80 Level記事": "https://80.lv/articles/unity-launches-in-editor-ai-tools-suite-in-beta",
+        "Unity AI公式": "https://unity.com/products/unity-ai"
+      }
+    },
+    {
+      "name": "Microsoft DirectX、Auto SR PreviewをROG Xbox Ally Xのドックドプレイ向けに提供開始",
+      "level": "8",
+      "overview": "Xbox Insider向けに自動超解像のテスト開始、Forza Horizon 5で1440p画質+30%超のFPS向上を実現。",
+      "detail": "Microsoftは4月30日、Windows 11 Copilot+ PC向けに提供してきたAutomatic Super Resolution（Auto SR）を、ROG Xbox Ally Xのドックドプレイ向けにXbox Insiderプレビュー提供開始。低解像度でレンダリングしたフレームをアップスケールすることで、TVなど大画面でも1440p相当のシャープな映像と高FPSを両立する。Forza Horizon 5の比較ではネイティブ1440pレンダリングと見分けがつかない品質で30%以上のFPS向上を達成。ゲーム内Auto SRの状態確認・制御はGame Bar内で行え、対応ゲームでは画質も自動最適化。既にスーパーリゾリューション搭載のゲームでは更なる画質/FPS向上にも寄与する。",
+      "links": {
+        "DirectX Devblog": "https://devblogs.microsoft.com/directx/autosrpreview/"
+      }
+    },
+    {
+      "name": "Tom Looman、Unreal Engine製インディー『Far Far West』で1時間のGPU最適化チュートリアル公開",
+      "level": "7",
+      "overview": "RTX 3060でUnreal InsightsプロファイルしNanite葉/ピクセル深度オフセット最適化で2ms/フレーム短縮。",
+      "detail": "ゲーム開発者Tom Looman氏が、新作インディーゲーム「Far Far West」（Steam同時接続47,256人を記録）を題材にRTX 50シリーズ未満のGPUでも快適に動作させるためのUnreal Engine最適化チュートリアル動画を公開（5/5に80 Levelが解説記事化）。Unreal Insightsで実機プロファイルを取り、Nanite foliage、deferred decal、single-layer water、distance field shadowsなど主要なGPU負荷項目を解説。実測50FPS（20ms/フレーム）から、Nanite VisBufferが7msを占有しているのを発見。原因はpixel depth offsetが有効なマスクド葉マテリアルで、これを無効化するだけで1フレーム当たり2ms節約できることを実演する。RTX 3060を実機計測対象に「できるだけ多くのGPUで動作させる」ことを目標に解説。",
+      "links": {
+        "80 Level記事": "https://80.lv/articles/optimizing-gpu-performance-for-unreal-engine-powered-game-far-far-west",
+        "YouTube解説動画": "https://www.youtube.com/watch?v=3qgd4glfIR0",
+        "Tom Looman公式": "https://tomlooman.com/unreal-engine-optimization-farfarwest/"
+      }
+    },
+    {
+      "name": "Blender、別メッシュ間のシームを滑らかにするData Transfer活用Tips — Custom Normals Dataで完全な法線継承",
+      "level": "5",
+      "overview": "Data Transferモディファイアで法線をコピーし、Custom Normals Data事前追加で正確な法線を保持。",
+      "detail": "3DアーティストのzxcとRyuEn_Utage、Jan van den Hemel氏らが共有したBlenderにおける別メッシュ間のシーム除去テクニックを80 Levelが5/5に紹介。Data Transferモディファイアで隣接メッシュから法線をコピーすることでシームを目立たなくする手法を解説。「もう一つの法線シーム消去テクニック：頂点が変更されるとBlenderは通常法線を自動再計算するが（これが法線シームの原因）、事前にCustom Normals Dataを追加することで再計算を防ぐことができる。動画内では法線がコピー元側に偏っているため、より正確な法線を求めるならこの方法が望ましい」と解説。Louis du Mont氏のハードサーフェスTips動画もリンクされ、リトポ・モデリングワークフロー全般のチートシート的なまとめになっている。",
+      "links": {
+        "80 Level記事": "https://80.lv/articles/using-data-transfer-in-blender-to-smooth-seams-between-separate-meshes"
+      }
+    }
+  ]
+}
