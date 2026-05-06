@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "name": "Unity Hub 3.18.0公開、Standalone CLI登場 — 起動100ms未満で従来比約10倍高速化",
+      "level": "9",
+      "overview": "Hub本体から独立した別バイナリのCLIが新登場。カスタムテンプレート公式対応も同梱。",
+      "detail": "Unity Technologiesが2026年5月6日、Unity Hub 3.18.0をリリース。目玉は新「Standalone CLI」で、Hub本体とは独立した別バイナリとして配布され、独立してインストール／更新／使用可能。簡易コマンドが従来比最大10倍高速化、起動時間も従来約5秒から100ms未満へ大幅短縮。`unity upgrade`コマンドで自身を更新でき、Editor全対応プラットフォームで動作。既存CLIとの機能パリティを維持しつつ、今後新機能を継続追加する方針。同バージョンでカスタムテンプレートの公式サポートも導入。バグ修正として、外部削除されたプロジェクトの「Project not foundパネル」を閉じた後にHubが応答不能になる問題を解消。",
+      "links": {
+        "Unity Hub Release Notes": "https://unity.com/unity-hub/release-notes",
+        "Unity Hub 3.18 Discussion": "https://discussions.unity.com/t/now-available-unity-hub-3-18-0/1719096",
+        "Unity Hub CLI Docs": "https://docs.unity.com/en-us/hub/cli-overview"
+      }
+    },
+    {
+      "name": "CCP Games、独立企業化と「Fenris Creations」へのリブランドを発表 — Google DeepMindと提携",
+      "level": "9",
+      "overview": "Pearl Abyssから経営陣が1.2億ドルで買い戻し。EVE Online専用研究をGoogle DeepMindと開始。",
+      "detail": "アイスランドCCP Gamesが2026年5月6日、独立企業として再出発し社名を「Fenris Creations」へ変更すると発表。前親会社Pearl Abyssから経営陣が1億2,000万ドルで買戻したMBO案件で、レイキャヴィーク／ロンドン／上海の各拠点と全従業員はそのまま継続。新Boardを擁し2018年以前のガバナンスに回帰する。同時にGoogle DeepMindが少数株主として参画、EVE Onlineのオフライン版を共同開発する研究パートナーシップも始動。Fenris Creationsはノルド神話に由来し「リスク・喪失・再生・住人がもたらす意味」を価値観に据えたとしている。EVE Online、EVE Vanguard、Project Awakeningなど既存プロジェクトは継続。",
+      "links": {
+        "Game Developer記事": "https://www.gamedeveloper.com/business/eve-online-studio-ccp-games-turns-independent-and-rebrands-as-fenris-creations",
+        "CCP公式リリース": "https://www.ccpgames.com/news/2026/studio-behind-eve-online-goes-independent-rebrands-as-fenris-creations-enters-research-partnership-with-google-deepmind",
+        "Gematsu記事": "https://www.gematsu.com/2026/05/ccp-games-rebrands-to-fenris-creations-following-split-from-pearl-abyss"
+      }
+    },
+    {
+      "name": "EA、FY26で過去最高の純予約金80.26億ドル達成 — 『Battlefield 6』『EA Sports FC』が牽引",
+      "level": "8",
+      "overview": "Battlefield 6が同フランチャイズ過去最高の年間業績、Q4売上21.27億ドル(YoY+11%)を計上。",
+      "detail": "Electronic Artsが2026年5月6日、FY2026決算を発表。年間純予約金（Net Bookings）は80.26億ドルでYoY+9%の過去最高。Battlefield 6が同フランチャイズの年間業績を多方面で更新する大ヒットとなり、Apex LegendsやGlobal Football（EA SPORTS FC 26、FC Online、FC Mobile）も成長。Q4売上は21.27億ドル(YoY+11%)。決算は55億ドルでのEA非公開化案件（Saudi PIF・Silver Lake等）が進行中で、規制当局の審査と株主投票を経て前年Q1完了見込みを示した。CWA Canada（カナダ通信労組）はFY26決算と並行して「Saudiの買収はあらゆる警鐘を鳴らすべき」と懸念表明し、業界の労働団体側からの議論も活発化。",
+      "links": {
+        "Game Developer記事": "https://www.gamedeveloper.com/business/ea-boasts-record-year-thanks-to-battlefield-6-and-ea-sports-fc",
+        "EA Q4 FY26 Press Release": "https://ir.ea.com/press-releases/press-release-details/2026/Electronic-Arts-Reports-Q4-and-FY26-Results/default.aspx"
+      }
+    },
+    {
+      "name": "Nintendo、『Star Fox 64』リメイク『STAR FOX』をSwitch 2向け6/25発売と発表 — Switch 2本体機能フル活用",
+      "level": "8",
+      "overview": "急遽開催のStar Fox Direct(5/6)で発表。ビジュアル一新、オンラインマルチ・GameShare対応。",
+      "detail": "任天堂が2026年5月6日、サプライズ開催の「Star Fox Direct」で、Switch 2向け新作『STAR FOX』を発表。N64『Star Fox 64』のリメイクで、6月25日に発売する。グラフィックは大幅に刷新、Fox／Falco／Peppy／Slippyの4人がより動物的に再デザインされた新ビジュアルで登場。N64版では限定的だったカットシーンが多数追加され、ミッションブリーフィングも刷新。オンラインマルチプレイ、GameShare機能などSwitch 2の新機能をフル活用。約10年ぶりの新作Star Foxプロジェクトとなり、Star Foxフランチャイズ復活の象徴的タイトルとして注目される。",
+      "links": {
+        "80 Level記事": "https://80.lv/articles/star-fox-returns-in-new-remake-for-switch-2",
+        "任天堂公式": "https://www.nintendo.com/us/whatsnew/star-fox-direct-sees-fox-mccloud-and-crew-prepare-for-liftoff-on-nintendo-switch-2-june-25/",
+        "GoNintendo": "https://gonintendo.com/contents/60589-star-fox-announced-for-switch-2-due-out-june-25th-2026"
+      }
+    },
+    {
+      "name": "Microsoft Xbox、CEO Asha Sharma体制発足 — Copilot for Console開発打ち切り、AI志向の経営層を新規招聘",
+      "level": "7",
+      "overview": "発表14ヶ月のCopilot for Xboxを停止、CoreAI／ChatGPT幹部を要職に多数登用。",
+      "detail": "Microsoftの新Xbox CEO Asha Sharmaが2026年5月6日、Xboxのリーダーシップ刷新と「Gaming Copilot」のコンソール／モバイル開発打ち切りを発表。Copilot for Xboxは発表～終了まで約14ヶ月のライフサイクルとなり、「事業方針と整合しない」との理由で開発リソースを移管。新体制ではCoreAIから工学担当VPにJared Palmer、デザイン責任者にTim Allen、Generative AI研究責任者にEvan Chaki、ChatGPT成長責任者からJonathan McKayをXbox成長部門に招聘。Instacart出身者がクラウド／サブスクリプション事業を統括する。AIを完全に放棄するのではなく内部開発フローやバックエンド改善向けに活用する方針へ転換し、プレイヤー・開発者の摩擦解消にスピード重視で取り組むとした。",
+      "links": {
+        "Game Developer記事": "https://www.gamedeveloper.com/business/xbox-appoints-new-leaders-and-ditches-copilot-ai",
+        "Geekwire記事": "https://www.geekwire.com/2026/microsofts-new-xbox-chief-nixes-gaming-copilot-for-mobile-and-console-shakes-up-leadership/",
+        "Tom's Guide": "https://www.tomsguide.com/ai/xbox-ceo-just-scrapped-copilot-ai-for-consoles-and-i-couldnt-be-happier"
+      }
+    },
+    {
+      "name": "Abstract、InstaMAT／InstaLODのネイティブLinux版を一般公開 — RHEL系全対応・GPU加速完備",
+      "level": "8",
+      "overview": "RHEL/Rocky/AlmaLinux/Oracle/CentOS Streamの8・9で動作、Blender／Maya統合も同梱。",
+      "detail": "Abstract社が2026年5月6日、3Dマテリアル制作の「InstaMAT」とジオメトリ最適化スイート「InstaLOD」のネイティブLinux版をパブリックプレビューとして公開。Red Hat Enterprise Linux 8/9、Rocky Linux 8/9、AlmaLinux／Oracle Linux／CentOS Streamなど全RHEL互換ディストリビューションで動作検証済み。完全ネイティブ実装によりGPU加速・マルチスレッド処理・直接ハードウェアアクセスを保持。Windows／macOS版との「広範な機能パリティ」を実現し、初版ではGPUベイクのみ未対応。インディー/小規模スタジオ向け無料Pioneerエディションも同梱。Blender／Autodesk Maya向けLinux版プラグインも同時提供で、InstaLODの最適化機能とInstaMATマテリアル制作を直接DCC内で利用可能になる。本番運用にも耐える品質と説明。",
+      "links": {
+        "80 Level記事": "https://80.lv/articles/instamat-instalod-get-native-linux-support",
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/instamat-and-instalod-now-support-linux-natively/",
+        "Abstract公式": "https://abstract3d.com/2026/05/01/abstract-rolls-out-native-linux-support-built-for-the-pipelines-that-power-production/"
+      }
+    },
+    {
+      "name": "PROJECT MAYHEM、Houdini×UE5の手続き的破壊パイプラインを公開 — 60fps保証のHDA実装",
+      "level": "7",
+      "overview": "破壊フラクチャー論理をHoudiniで構築、UE5のChaos／Dataflow統合で性能ターゲット3段プリセット。",
+      "detail": "Lea Seiler氏とVishwaas Khare氏率いるPROJECT MAYHEMが、Houdini×Unreal Engine 5を橋渡しする手続き的破壊パイプライン「Procedural Chaos Destruction Framework」のワークフローを80 Levelで解説（5/6公開）。Houdiniでフラクチャー論理とアセットバリエーションを生成、UE5側ではChaos物理／Dataflowノード／Blueprint駆動システムで統合。最適化済みゲームレディな破壊アセットを生成でき、フラクチャー挙動・クラスタリング・性能に高い制御性を持つ。HDAはカスタムパラメータメニューを公開し、Low／Mid／Highの3つの「性能バジェット」プリセットで60fpsを保証。多様なハードウェア向け破壊演出を量産可能で、量産パイプライン化したい中規模スタジオ向け実装事例として参考価値が高い。",
+      "links": {
+        "80 Level記事": "https://80.lv/articles/building-a-procedural-destruction-pipeline-with-houdini-and-unreal-engine-5"
+      }
+    },
+    {
+      "name": "Yacht Club Games『Mina the Hollower』、5月29日発売を正式発表 — Switch／Switch 2など5機種対応",
+      "level": "7",
+      "overview": "Shovel Knight開発元の見下ろし型アクション、19.99ドル。GB風ピクセルアートZeldaライク。",
+      "detail": "Shovel Knightで知られるYacht Club Gamesが2026年5月6日、長年延期が続いた『Mina the Hollower』の発売日を5月29日と正式発表。価格19.99ドル、対応プラットフォームはNintendo Switch、Nintendo Switch 2、PlayStation 5、Xbox Series X|S、PC（Steam）。GB Color風のピクセルアートで描かれるトップダウンアクションアドベンチャーで、呪われた島を救うべく潜入するハロワー（Hollower）「Mina」を操り、地中を掘り進めて障害物・モンスターを回避、武器を振るって敵を撃破、サイドアームとトリンケットを駆使して攻略する。Castlevania風のホラーテイストとZelda: Link's Awakening風の探索を融合した「レトロなZeldaライク」として年度内屈指の注目インディー作品。",
+      "links": {
+        "80 Level記事": "https://80.lv/articles/shovel-knight-dev-s-excellent-pixel-art-zelda-like-finally-has-a-release-date",
+        "Nintendo Life記事": "https://www.nintendolife.com/news/2026/05/mina-the-hollower-finally-lands-on-switch-1-and-2-in-just-a-few-weeks",
+        "Gematsu記事": "https://www.gematsu.com/2026/05/mina-the-hollower-launches-may-29"
+      }
+    },
+    {
+      "name": "SideFX、HoudiniのCOPチュートリアル「COPius Amounts of Fun」公開 — Gnomon HIVE 2026の登壇録画",
+      "level": "7",
+      "overview": "Nick Scarcella氏がCopernicus(COPS)の創造的活用法を解説、LLM＋MCPで独自ノード実装まで。",
+      "detail": "SideFXが2026年5月6日（CGWorldが日本語記事で5/6掲載）、Houdiniの2D／3D画像処理パイプライン「Copernicus（COPS）」を題材としたチュートリアル動画「COPius Amounts of Fun」を公開。Gnomon HIVE 2026におけるNick Scarcella氏の登壇録画で、Copernicusの創造的活用法を網羅。Claude LLMとMCPを使ってAIに独自カスタムノードをHoudini内で直接コーディングさせるワークフロー、OKLab色空間対応のカスタムカラーランプノード作成例、Solaris用Hydraデリゲートを使った複数レンダラ比較ビューア開発例などを実演。技術的摩擦を減らしてアーティストが画像処理を自在に拡張する手法を示し、AI支援によるTD作業効率化の最新事例として参考になる内容。",
+      "links": {
+        "CGWORLD記事": "https://cgworld.jp/flashnews/01-202605-HoudiniCOPius.html",
+        "YouTube解説動画": "https://www.youtube.com/watch?v=EzE62ZeMzLQ"
+      }
+    },
+    {
+      "name": "Kenney、フリーアセット『Light Masks』を150種公開 — CC0ライセンス、全エンジン対応",
+      "level": "6",
+      "overview": "白黒・黒白・透過の3バリエーションで提供、Light cookies対応エンジンで使用可能。",
+      "detail": "ゲームアセット作家Kenney氏が2026年5月6日、ライティング演出用マスク素材150種をパッキングしたアセット集「Light Masks」をCC0ライセンスで無料公開（gamemakers.jpが5/6に紹介）。Light Mask（光源・影の形状をシェイプで表現するクッキー）に対応するすべてのゲームエンジンで利用可能で、白地黒背景・黒地白背景・透過背景の3タイプを収録。複雑なライティング表現や影絵風演出を手軽に実装できる。同氏のWebサイトでは新設のVFXカテゴリにも追加され、splats／foliage／particles／smokeなど他のVFX関連無料アセット群と併せて提供。インディー開発者にとって即戦力の素材集として人気を集めている。",
+      "links": {
+        "ゲームメーカーズ記事": "https://gamemakers.jp/article/2026_05_06_136676/",
+        "Kenney公式": "https://kenney.nl/assets/light-masks"
+      }
+    },
+    {
+      "name": "Far Cry 2のClint Hocking氏、独立スタジオ『Build Machine Games』設立を発表",
+      "level": "6",
+      "overview": "Ubisoftを2月に退社後の動向。少数精鋭で第1弾プロトタイプ向け人材募集をカナダで開始。",
+      "detail": "LucasArts／Amazon Game Studios／Valve／Ubisoftで活躍してきたゲームデザイナーClint Hocking氏が2026年5月6日、新スタジオ「Build Machine Games」設立を発表（LinkedIn）。Hocking氏はAssassin's Creed Hexeの開発を率いた後、2026年2月にUbisoftの大規模再編に伴い退社しており、その後の動向が注目されていた。新スタジオは「Lean and fast、なおかつBold and ambitious」を掲げ、第1弾プロトタイプ開発に向けて少数精鋭の採用を開始。現時点ではカナダ在住者のみ採用対象。Far Cry 2、Splinter Cell、Watch Dogsなど影響力ある作品を率いてきたデザイナーの独立は、AAA重圧から解放された次世代インディー／中規模AAの動向として注目される。",
+      "links": {
+        "Game Developer記事": "https://www.gamedeveloper.com/business/former-lucasarts-ubisoft-veteran-clint-hocking-founds-new-studio",
+        "PC Gamer記事": "https://www.pcgamer.com/gaming-industry/far-cry-2-and-assassins-creed-hexe-creative-director-launches-a-new-studio-a-few-months-after-surprise-exit-from-ubisoft/"
+      }
+    },
+    {
+      "name": "Arcanaut Studios、『Star Wars: Fate of the Old Republic』開発チーム陣容を公開 — KotOR／Mass Effect功労者集結",
+      "level": "5",
+      "overview": "Casey Hudson率いる新スタジオ、KotOR・Mass Effect・Dragon Age経験者を中核に据える。",
+      "detail": "Casey Hudson氏率いるArcanaut Studiosが2026年5月4日のStar Wars Dayに『Star Wars: Fate of the Old Republic』のリードチームを発表（80 Levelが5/6に解説記事化）。エグゼクティブとしてDan Fessenden（シニアテクニカルデザイナー）、Melanie Faulknor（外部開発ディレクター）、Pascal Blanché（アートディレクター）、Caroline Livingstone（プロダクション／パフォーマンスディレクター）、Ryan Hoyle（CTO）が参加。Fessenden、Livingstone、Hoyleは全員オリジナル『Knights of the Old Republic』に関わりMass Effectシリーズも経験。Faulknor／LivingstoneはDragon Age、LivingstoneはNeverwinter Nightsにも携わったベテラン。Xbox Series X|S／PC／PS5向け新作シングルプレイヤーRPGとして開発中。",
+      "links": {
+        "80 Level記事": "https://80.lv/articles/veteran-bioware-developers-are-behind-star-wars-fate-of-the-old-republic",
+        "Windows Central記事": "https://www.windowscentral.com/gaming/star-wars-fate-of-the-old-republic-announced-its-dev-team-and-its-full-of-mass-effect-and-kotor-bioware-talent"
+      }
+    },
+    {
+      "name": "デジタル・フロンティア、Netflix『今際の国のアリス』S3 VFX制作裏側インタビュー5編をnoteで公開",
+      "level": "5",
+      "overview": "若手クリエイター陣が語る制作プロセス、5/7にCGWORLDで紹介。",
+      "detail": "デジタル・フロンティア（DF）が2026年5月、Netflixドラマシリーズ『今際の国のアリス』シーズン3のVFX制作裏側を語る若手クリエイター陣のインタビュー全5編をnoteで公開（CGWORLDが5/7に紹介記事掲載）。シーズン3では大規模なVFX演出・群衆シミュレーション・破壊／流血表現など多数の難所をDFが担当しており、ゲームシーケンス再現や危険生物のCG制作、コンポジット、ルックデブの各担当者が詳細な制作プロセスとパイプラインを共有する。実写ベースのドラマVFX制作で実用される最新ワークフローと、若手クリエイターのキャリアパスを学べる貴重な現場発信。",
+      "links": {
+        "CGWORLD記事": "https://cgworld.jp/flashnews/01-202605-DF-Imawa.html"
+      }
+    }
+  ]
+}
