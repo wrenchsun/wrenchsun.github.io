@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "name": "GameMaker Spring 2026 — GMRT＆Claude Code統合でAIワークフロー解禁",
+      "level": "9",
+      "overview": "GameMakerが新ランタイムGMRTとCLI（GM-CLI）を発表。Claude Code統合により自然言語でプロジェクト操作が可能。C#・JS・TSサポートも近日公開予定。",
+      "detail": "GMRT（GameMaker Runtime）がデスクトップに上陸し、GM-CLIはエディタ不要でプロジェクト全体を操作できる。Anthropicの Claude Code を内包することでターミナルから自然言語を使いコード検索・バグ修正・ビルド設定変更が可能。GitHub Actions / MCPサーバーとの連携もサポート。ソース公開型アーキテクチャを採用し、C#・JavaScript・TypeScript対応を順次提供予定。IDEを使わずに作業できるため、プロフェッショナルな開発ワークフローを大きく拡張する。",
+      "links": {
+        "GameMaker Blog": "https://gamemaker.io/en/blog/update-spring-2026",
+        "80.lv": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update",
+        "Game Developer": "https://www.gamedeveloper.com/production/gamemaker-incorporates-claude-code-to-enable-ai-assisted-workflows"
+      }
+    },
+    {
+      "name": "Unity AI — Unity 6向けオープンベータ開始、MCP経由でCursorやClaude Code連携も",
+      "level": "9",
+      "overview": "Unity公式AIエージェント「Unity AI」がUnity 6向けオープンベータ開始。エディタ内でシーン生成・C#スクリプト生成・アセット生成が可能。MCPサーバーで外部エージェント連携に対応。",
+      "detail": "Unity AI はAsk（質問）・Agent（自律操作）・Plan（設計）の3モードで動作。AI Gatewayを介してGeminiなどのサードパーティLLMを接続可能。MCPサーバーによりCursor・Claude Code・Antigravity・Windsurfなどの外部コーディングエージェントからUnityシーングラフへアクセスできる。Personalユーザーは14日間・1000クレジット無料利用可能（以降は月$10）。Pro/Enterprise/Industryシートは標準搭載。",
+      "links": {
+        "80.lv": "https://80.lv/articles/unity-launches-in-editor-ai-tools-suite-in-beta",
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_05_136667/",
+        "GamingOnLinux": "https://www.gamingonlinux.com/2026/05/unity-ai-out-in-open-beta-to-give-developers-the-fabled-make-game-button/"
+      }
+    },
+    {
+      "name": "Autodesk Project Falcon — USD対応の無料ブラウザベースキットバッシュツール公開",
+      "level": "7",
+      "overview": "Autodeskが無料オンラインキットバッシュツール「Project Falcon」をテクノロジープレビューとして公開。数千パーツから3Dモデルを組み立てUSD/STL形式でBlender・Maya・Houdiniなどへエクスポート可能。",
+      "detail": "Autodesk Flowクラウドプラットフォーム上に構築されたブラウザベースの3Dモデリングツール。3D経験不要の直感的UIで車両などのハードサーフェスモデルを即座に組み立て可能。USD出力により3ds Max・Blender・Cinema 4D・Houdini・Mayaとのパイプライン連携が容易。STLエクスポートで3Dプリントにも対応。今後も継続的に機能追加予定。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/autodesk-launches-free-kitbashing-tool-project-falcon/",
+        "Project Falcon": "https://project-falcon.autodesk.com/",
+        "80.lv": "https://80.lv/articles/autodesk-releases-a-free-kitbashing-tool-for-faster-3d-creation"
+      }
+    },
+    {
+      "name": "NINJA GAIDEN 4 Houdini活用事例ウェビナー — 5/12開催、プラチナゲームズが自社エンジン連携パイプラインを解説",
+      "level": "7",
+      "overview": "プラチナゲームズが5月12日（火）に無料ウェビナーを開催。『NINJA GAIDEN 4』でのHoudini活用事例と自社エンジンとの連携パイプライン実装を解説する。",
+      "detail": "ゲーム開発現場でのHoudini×自社エンジン連携の実践的パイプライン実装を、開発スタッフが直接解説。HDA（Houdini Digital Asset）の活用法やゲームエンジンとのデータフロー構築手法など、プロダクション現場の知見が共有される予定。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_01_136587/"
+      }
+    },
+    {
+      "name": "Maxon Redshift 2026.6 — Hex Tiling機能でテクスチャ繰り返しパターンを解消",
+      "level": "7",
+      "overview": "RedshiftにHex Tillingが追加。テクスチャを六角形グリッドでランダムタイリングし広大な面でのパターン繰り返しを解消。Maya/3ds Max 2027対応、スペイン語UI対応も追加。",
+      "detail": "六角形タイルにテクスチャを分割して位置・回転・スケールをランダム化することでシームレスなブレンドを実現。建築・プロダクトビジュアライゼーションのコンクリートや布などの大面積素材に特に有効。Texture Displacement との組み合わせも可能。マスキング不要で数クリックで適用できる手軽さが特徴。Maya 2027および3ds Max 2027サポートも追加。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/maxon-adds-hex-tiling-for-textures-to-redshift-2026-6/",
+        "Maxon KB": "https://support.maxon.net/hc/en-us/articles/8814051767964-Redshift-2026-6-0-2026-05-May-6-2026"
+      }
+    },
+    {
+      "name": "Maxon Autograph — スタジオ向けも無料化、USDベースモーションデザインツール",
+      "level": "7",
+      "overview": "MaxonのUSDベースモーションデザイン・VFXソフト「Autograph」が個人に続きスタジオ向けも商用利用無料に。Red Giantプラグイン対応、SVG/PSDインポート、レスポンシブデザイン機能を搭載。",
+      "detail": "もともとLeft Angleが開発しMaxonが買収したUSD基盤のモーションデザインツール。タイムラインとドープシートを組み合わせたレイヤーベースコンポジット、3Dモードでの資産操作、ネイティブCloner系機能などを搭載。OpenFX対応でRed Giantなどのプラグインが利用可能。Windows 10+/macOS 15+対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/motion-design-tool-autograph-is-now-free-to-studios/",
+        "Maxon": "https://www.maxon.net/en/autograph"
+      }
+    },
+    {
+      "name": "NeXus for Blender スニークピーク — GPU粒子・流体シミュレーターがBlenderに対応",
+      "level": "7",
+      "overview": "InsydiumがCinema 4D専用GPUシミュレーターNeXusのBlender版スニークピークを公開。粒子・PBD流体・ガスシムを全搭載予定でC4D版より高速。Vulkan対応でAMD/Apple/Intel/NVIDIA GPU対応。",
+      "detail": "GPU加速の粒子・流体シミュレーションシステムの Blender 移植版。PBD（位置ベース動力学）液体シミュレーションのnxFluidsやガスシミュレーションも含む。既存Fusedライセンス（NeXus含む）保有者は追加費用なし、単独購入の永続ライセンスも提供予定。毎週新しいプレビューを公開する予定でリリースは近い模様。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/sneak-peek-nexus-for-blender/",
+        "80.lv": "https://80.lv/articles/insydium-teases-nexus-for-blender"
+      }
+    },
+    {
+      "name": "Character Control Rig — BlenderでMetaHuman用Rigifyリグを自動生成しUE5アニメーションをリターゲット",
+      "level": "6",
+      "overview": "Poly HammerのBlenderアドオン「Character Control Rig」がMetaHumanキャラ向けRigifyリグを自動生成し、UE5からのアニメーションリターゲットにも対応。UE5とBlenderのパイプライン橋渡しに有用。",
+      "detail": "UE5からBlenderへインポートしたMetaHumanキャラクターに対してRigifyリグを自動生成する機能を提供。UE5のアニメーションをBlenderへリターゲットすることも可能。UE5とBlenderを組み合わせたキャラクターアニメーションパイプラインの構築を支援する実用的なツール。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/character-control-rig-generates-rigs-for-metahumans-in-blender/"
+      }
+    },
+    {
+      "name": "LightWave 2026ベータ公開 — MotoRig車両リグ・Fracture破壊・降雪・雷エフェクト追加",
+      "level": "6",
+      "overview": "LightWave 2026がベータ版公開。半自動車両リグシステムMotoRig、破壊ツールFracture、物理ベース降雪Snow Falling 3D、手続き的雷エフェクトTHORを新搭載。正式リリースは数週間以内。",
+      "detail": "MotoRigは4/6/8輪車両対応の半自動リグシステムで質量・重量配分・バンキングパラメータ調整可能。FractureはVFX向け破壊エフェクトツール。Snow Falling 3Dは物理演算搭載の降雪・雨シミュレーション。THORは2オブジェクト間の手続き的雷エフェクト生成ツール。Advanced Placementによる物理ベースのショットレイアウト・セットドレッシングも搭載。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/",
+        "80.lv": "https://80.lv/articles/lightwave-digital-teases-lightwave-3d-2026-update"
+      }
+    },
+    {
+      "name": "GUILTY GEAR -STRIVE- エフェクト制作技法をアークシステムワークスが動画解説",
+      "level": "6",
+      "overview": "アークシステムワークスが『GUILTY GEAR -STRIVE-』の攻撃ヒットエフェクト制作事例を解説動画として公開。爽快感と視認性を両立させるエフェクト表現の工夫を紹介。",
+      "detail": "格闘ゲームのVFX制作において攻撃ヒット時のエフェクトで爽快感を高めつつキャラクターの視認性を維持するための制作アプローチを公開。アークシステムワークスのエフェクトアーティスト 小川和哉氏が技術的手法を詳説。ゲームエフェクト開発者にとって参考価値の高い実践的内容。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_07_136647/",
+        "3DNCHU": "https://3dnchu.com/archives/guilty-gear-strive-vfx/"
+      }
+    },
+    {
+      "name": "FMX 2026 SideFX Houdini HIVE — VFX・アニメーション・デジタルメディアの最新事例を発表",
+      "level": "6",
+      "overview": "SideFXがFMX 2026（シュトゥットガルト、5/6〜7）にてHoudini HIVEプレゼンテーションを開催。アニメーション・VFX・デジタルメディア分野の最新Houdini活用事例を多数発表。",
+      "detail": "欧州最大級のVFX・アニメーションカンファレンスFMXにてSideFXがHoudini HIVEを開催。映画・ゲーム制作現場でのHoudiniの最先端活用事例や技術トレンドが共有された。FMX 2026はシュトゥットガルトで5月5〜8日に開催されており、CGプロダクション業界の重要なカンファレンスイベント。",
+      "links": {
+        "SideFX": "https://www.sidefx.com/houdini-hive/fmx-2026/"
+      }
+    },
+    {
+      "name": "Epic Games Fab — 5/19まで期間限定の無料3Dアセットコンテンツを公開",
+      "level": "5",
+      "overview": "Epic GamesのマーケットプレイスFabが5月19日まで期間限定の無料コンテンツを公開。スチームパンクな獣の3Dモデルアセットなど3製品をUE5向けに無料提供。",
+      "detail": "Epic Gamesのデジタルアセットマーケットプレイス「Fab」が期間限定の無料アセットを提供。UE5プロジェクトに使用可能な高品質な3Dモデルアセットを含む。5月19日（火）まで取得可能。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_07_136791/"
+      }
+    }
+  ]
+}
