@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "name": "PlayStation AI「Mockingbird」— Naughty Dog・San Diego StudioがAI顔アニメーションを実導入",
+      "level": "9",
+      "overview": "SIEが自社開発AI「Mockingbird」でパフォーマンスキャプチャから3D顔アニメを自動生成。Naughty DogとSan Diego Studioが実案件に採用し、従来数時間の作業を秒単位に短縮。",
+      "detail": "PlayStationがゲーム開発現場向け生成AI技術の採用を本格化。Mockingbirdはパフォーマンスキャプチャデータから3Dキャラクター顔アニメーションを自動生成するAIシステム。Naughty DogはHorizon Zero Dawnリマスターで活用済みで、背景キャラクターのAIロジックや2次モーション処理にも応用。San Diego Studioはスポーツゲームのクラウドモーションや2次プレイヤーインタラクションに活用し、主要キャラクターや中核ゲームプレイへのリソース集中を実現。またAI活用領域はQA・ソフトウェアエンジニアリング・3Dモデリングにも拡大。SIEは「人間のパフォーマーを置き換えるのではなく、ライブキャプチャデータの処理最適化」と強調している。",
+      "links": {
+        "Game Developer": "https://www.gamedeveloper.com/business/playstation-sees-ai-as-a-powerful-tool-teams-including-naughty-dog-san-diego-studio-already-using-it",
+        "Game Informer": "https://gameinformer.com/2026/05/08/playstation-ceo-says-ai-is-a-powerful-tool-to-make-playstation-the-best-place-to-play",
+        "GamesRadar": "https://www.gamesradar.com/games/open-world/horizon-zero-dawn-remastered-used-playstations-new-ai-animation-tool-and-naughty-dog-and-san-diego-studio-are-both-following-suit/"
+      }
+    },
+    {
+      "name": "Subnautica 2 — UE5採用でSteam/Epic Early Access 5月14日開始",
+      "level": "7",
+      "overview": "Unknown WorldsのSubnautica 2がUnreal Engine 5で5月14日Early Access開始。クリーチャーAIにBehavior Tree、触手物理にControl Rig、動的海洋天候システムをUE5で実装。",
+      "detail": "UE5 5.5.4ベースで開発されたSteam最多ウィッシュリスト作品。クリーチャーAIはUE5のBehavior Treeシステムを活用し、The Collector LeviathanはリアルタイムでAI判断を再評価し続けるカスタム「スティミュラス」システムを採用。触手アニメーションはControl Rigで物理シミュレーションを実装し、スクリプト済みアニメーションではなく完全シミュレーション駆動。開発Vlog #1では天候が海流・視界・クリーチャー行動に影響するダイナミック天候システムも公開。PC(Steam/Epic/Windows Store)とXbox Series X|Sで同時リリース。Early Access期間は約2〜3年を予定。",
+      "links": {
+        "Steam": "https://store.steampowered.com/app/1962700/Subnautica_2/",
+        "Unknown Worlds": "https://unknownworlds.com/en/news/subnautica-2-early-access-launch-week-gift"
+      }
+    },
+    {
+      "name": "Xbox Games Showcase 2026 — 6月7日(日)開催確定、Gears of War: E-Day Directも同日",
+      "level": "7",
+      "overview": "Xbox Games Showcase 2026が6月7日10時(太平洋時間)に開催確定。一人称パーティスタジオ新作の初ゲームプレイ映像を多数公開予定。直後にGears of War: E-Day Directも実施。",
+      "detail": "Xboxが2026年の主要ゲームショーケースを6月7日(日)に設定。Xbox 25周年記念としてXbox FanFestも復活。ショーケースではMicrosoftファーストパーティスタジオ各社の未発表タイトルやサードパーティパートナーの新情報が公開される予定。Gears of War: E-Dayに関してはE-Day Directとして新ゲームプレイ映像・開発解説など詳細情報を提供予定。ゲームエンジン・グラフィクス技術・開発パイプラインに関する発表にも注目が集まる。",
+      "links": {
+        "Xbox Wire": "https://news.xbox.com/en-us/2026/03/30/xbox-games-showcase-2026-gears-of-war-e-day-direct/",
+        "GameSpot": "https://www.gamespot.com/gallery/every-video-game-showcase-to-watch-in-2026/2900-7446/"
+      }
+    },
+    {
+      "name": "InstaMAT & InstaLOD — ネイティブLinux版リリース、BlenderとMaya統合も対応",
+      "level": "6",
+      "overview": "マテリアル制作ツールInstaMAT 2026-05とジオメトリ最適化InstaLOD 2026-05のLinuxネイティブ版が公開。RHEL 8/9・Rocky Linux対応で、Blender・Maya統合も含む。",
+      "detail": "Abstract社がInstaMAT 2026-05とInstaLOD 2026-05のLinuxネイティブ版をオフィシャルプレビューとしてリリース。Wine/仮想環境不要のネイティブビルドで、GPU加速・マルチスレッド処理・ダイレクトハードウェアアクセスをフルサポート。対応ディストリビューションはRHEL 8/9、Rocky Linux 8/9とその互換版(AlmaLinux、Oracle Linux、CentOS Stream)。BlenderとMayaのネイティブLinux統合も含まれ、InstaLODはBlender/Mayaで、InstaMAT はBlender上で直接利用可能。GPU baking非対応という制限はあるが、レンダーファーム・アセット処理クラスタへのスケールも可能。Pioneerライセンス(無料)ユーザーにも提供。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/instamat-and-instalod-now-support-linux-natively/",
+        "80.lv": "https://80.lv/articles/instamat-instalod-get-native-linux-support",
+        "Abstract": "https://abstract3d.com/2026/05/01/abstract-rolls-out-native-linux-support-built-for-the-pipelines-that-power-production/"
+      }
+    },
+    {
+      "name": "CGWORLD vol.334（2026年6月号）発売 — 特集「WEB × 3DCG」",
+      "level": "6",
+      "overview": "本日5月9日(土)発売のCGWORLD 6月号は「WEB×3DCG」特集。mount inc.のWebサイト向け3D実装設計思想を解説。機動戦士ガンダム閃光のハサウェイ21ページ大特集も。",
+      "detail": "WebGL登場から10年以上を経てブラウザ上の3DCGが一般化した現状を踏まえ、KOKUYOやPOLAなどを手がけるmount inc.の設計思想・ワークフローを中心にWebにおける3D表現の現在と未来を探る特集。mini特集では映画『機動戦士ガンダム 閃光のハサウェイ キルケーの魔女』を21ページで掘り下げ。その他、CGクリエイター新潮流・Game Graphics Studio・アニメCGの現場・VFXアナトミー・クリエイターの学びの現場など多彩な内容を収録。電子版も発売。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/magazine/cgw334.html"
+      }
+    },
+    {
+      "name": "Unreal Fest Chicago 2026 — 6月16〜18日開催、UE5.8プレビュー含む技術セッション多数",
+      "level": "6",
+      "overview": "Epic主催のUnreal Fest Chicago 2026が6月16〜18日に開催。Nanite・Lumen深掘り、MetaHuman、バーチャルプロダクション、UE5.8プレビューなど多彩な技術セッションを予定。",
+      "detail": "シカゴで開催されるEpic Gamesの国際イベント。最新エンジン機能のアップデートセッション・Nanite/Lumen等コア技術のディープダイブ・バーチャルプロダクションセッション・MetaHumanセッション・ゲームプロジェクトケーススタディ・UE5.8の新機能プレビューを提供予定。Expo会場ではUE・UEFN・Fab・MetaHuman Creator・Epic Games Store・Epic Online Servicesのデモが体験可能。登録者向けアーリーバード期間は終了(通常価格$749)。セッション応募受付中。",
+      "links": {
+        "Unreal Engine": "https://www.unrealengine.com/events/unreal-fest-chicago-2026"
+      }
+    },
+    {
+      "name": "Anthropic BlenderのCorporate Patronをダウングレード — 一括寄付に変更、AI政策議論へ",
+      "level": "5",
+      "overview": "Anthropicの年間€24万のBlender Development Fund Corporate Patron契約がキャンセルされ、一括寄付に変更。Blender FoundationはAI政策の強化を発表し、生成AI機能は引き続き追加しない方針。",
+      "detail": "Anthropicは当初Blender Development Fundにyear €240,000のCorporate Patronとして参加を発表したが、ユーザーコミュニティの反発を受けBlender Foundationが契約形態を見直し。Anthropicのロゴはファンドサイトから削除され、一括の単発寄付として処理される。Blender Foundationは「Anthropicは理解を示し本決定を支持している」と発表。Foundation側は今後の寄付受け入れプロセスを既存の資金調達ポリシーに沿って強化する方針を示し、生成AI機能をBlenderに追加する計画はないことを改めて明言した。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/anthropics-patronage-of-blender-downgraded-to-one-off-donation/",
+        "Gaming On Linux": "https://www.gamingonlinux.com/2026/05/blender-change-the-anthropic-ai-funding-deal-with-discussions-planned-for-ai-policies/"
+      }
+    }
+  ]
+}
