@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "name": "Unity AI オープンベータ開始 — エディタ統合AIエージェント",
+      "level": "8",
+      "overview": "Unity 6以降向けにAIエージェント「Unity AI」のOBが開始。コーディング・アセット・シーン生成に対応。",
+      "detail": "Unityエディタに統合されたAIエージェントがプロジェクトのコンテキストを理解し、C#スクリプト生成、画像からのシーン生成、マテリアル・サウンド・2D/3Dアセットのプレースホルダー生成が可能。変更のUndo対応、AI生成アセットへのメタデータタグ付与、エージェント自律度のパーミッション設定も実装。Unity 6以降の全ユーザーが無料で利用可能。",
+      "links": {
+        "Unity AI公式": "https://unity.com/features/ai",
+        "80.lv記事": "https://80.lv/articles/unity-launches-in-editor-ai-tools-suite-in-beta",
+        "gamemakers.jp": "https://gamemakers.jp/article/2026_05_05_136667/"
+      }
+    },
+    {
+      "name": "GameMaker Spring 2026 アップデート — GMRTオープンベータ開始",
+      "level": "7",
+      "overview": "GameMakerが新ランタイム「GMRT」をOBで公開。JS・TS・C#対応、3D強化、CLI/AI連携も追加。",
+      "detail": "デスクトップ版GMRTがベータ脱却間近。JS/TypeScript/C#のネイティブサポート開始。CLIツール、Claude AI連携ワークフロー、glTF経由のBlenderモデル読み込み、シーングラフシステムを新たに追加。次版v0.20ではglTFサポートとシーングラフ機能が追加予定（Q2）。モバイル・コンソール対応は年内順次展開。ソースコードアクセスも全ユーザーに提供。",
+      "links": {
+        "GameMaker公式ブログ": "https://gamemaker.io/en/blog/update-spring-2026",
+        "80.lv記事": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update",
+        "GMRTオープンベータ": "https://gamemaker.io/en/blog/gmrt-open-beta"
+      }
+    },
+    {
+      "name": "Maxon Redshift 2026.6 リリース — ヘックスタイリング追加",
+      "level": "6",
+      "overview": "Redshift 2026.6が2026/5/6にリリース。六角形グリッドでテクスチャをタイリングし繰り返しパターンを大幅低減。",
+      "detail": "新しいHex Tilingシステムで、テクスチャを六角形グリッド上でタイリング・ブレンド。タイルの位置・回転・スケールをランダム化することでシームレスかつ自然なテクスチャ表現を実現。従来の正方形グリッドタイリングと比べ、繰り返しパターンの視認性を大幅に低減できる技術。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/maxon-adds-hex-tiling-for-textures-to-redshift-2026-6/",
+        "Maxonリリースノート": "https://support.maxon.net/hc/en-us/articles/8814051767964-Redshift-2026-6-0-2026-05-May-6-2026"
+      }
+    },
+    {
+      "name": "Autodesk Project Falcon — 無料ブラウザ型キットバッシングツール公開",
+      "level": "6",
+      "overview": "Autodeskが無料のブラウザ型3Dキットバッシングツール「Project Falcon」を技術プレビューとして公開。",
+      "detail": "Autodeskのクラウドプラットフォーム「Flow」上に構築された無料ブラウザベースのキットバッシングツール。数千点のパーツライブラリからドラッグ＆ドロップでハードサーフェスモデルを組み立て、STL・USD形式でBlenderやMayaにエクスポート可能。インストール不要でAutodeskアカウントのみ必要。ブーリアン演算・ミラー・スケール調整に対応。Google Chrome推奨。",
+      "links": {
+        "Project Falcon公式": "https://www.autodesk.com/solutions/media-entertainment/project-falcon",
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/autodesk-launches-free-kitbashing-tool-project-falcon/",
+        "80.lv記事": "https://80.lv/articles/autodesk-releases-a-free-kitbashing-tool-for-faster-3d-creation"
+      }
+    },
+    {
+      "name": "Maxon Autograph — スタジオ向けも無料化",
+      "level": "6",
+      "overview": "MaxonのUSD対応モーションデザインツールAutographがスタジオ向けにも無料化。商用制作に無制限席数で利用可能。",
+      "detail": "2026年5月8日発表。個人向けに続き、Teamsライセンスも無料化。スタジオが無制限席数でAutographを商用制作に無償利用できるようになった。USDベースのモーションデザイン・VFXソフトウェアとして高機能なツールを個人・企業ともに無料で提供する大きな方針転換。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/motion-design-tool-autograph-is-now-free-to-studios/",
+        "80.lv記事": "https://80.lv/articles/maxon-makes-autograph-free-for-all-users"
+      }
+    },
+    {
+      "name": "BitSummit PUNCH 2026 — 5月22〜24日 京都開催",
+      "level": "6",
+      "overview": "日本最大級インディーゲームイベント「BitSummit PUNCH」が5/22〜24に京都・みやこめっせで開催。テーマは「High Impact」。",
+      "detail": "第14回BitSummit PUNCHが「High Impact」をテーマに開催。5月22日(金)はビジネスデイ、23〜24日が一般公開日。2025年は58,000人以上が来場し、さらなる規模拡大が期待される。スポンサー・出展企業情報および会場マップも公開済み。インディーゲーム開発者・クリエイターが集まる日本最大規模のイベント。",
+      "links": {
+        "BitSummit公式": "https://bitsummit.org/en/",
+        "MICE TIMES記事": "https://micetimes.jp/en/bitsummit-punch-2026-news-2/"
+      }
+    },
+    {
+      "name": "LightWave 2026 ベータ公開 — 物理配置・車両リグなど追加で数週間以内リリース予定",
+      "level": "5",
+      "overview": "LightWave Digitalが「LightWave 2026」ベータを公開。物理ベースオブジェクト配置・車両リグを追加し3〜4週間以内に正式リリース予定。",
+      "detail": "Advanced Placement(物理ベースのオブジェクト配置・破砕)、MotoRig(車両リグ・サスペンションアニメーション)、THOR(手続き型ライトニングプラグイン)、Snow Falling 3D(雪・雨エフェクト)などを追加。内蔵アセットブラウザ、QuixelおよびMaxtree統合も搭載。新規ライセンスは£795(約1,078ドル)。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/",
+        "80.lv記事": "https://80.lv/articles/lightwave-digital-teases-lightwave-3d-2026-update"
+      }
+    }
+  ]
+}
