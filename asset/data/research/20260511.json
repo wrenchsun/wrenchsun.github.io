@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "name": "D3D12 LinAlg Matrix API & Shader Model 6.10 Preview公開",
+      "level": "9",
+      "overview": "SM6.10でCooperative VectorsとWaveMMAを統合したlinalg::Matrix APIが登場。Thread/Wave/ThreadGroupの3スコープで統一的なハードウェア行列演算を提供。",
+      "detail": "D3D12 LinAlg Matrix APIはAgilitySDK 1.720-previewとDXC 1.10.2605.2で先行提供開始。HLSL SM6.10の新機能としてlinalg::Matrix、Group Wave Index、Variable Group Shared Memory、レイトレーシングintrinsics（TriangleObjectPositions・ClusterID）、D3D12バッチコマンドリストAPIが追加された。linalg::Matrixは従来のCooperative VectorsとWaveMMAを統合した後継APIで、Thread・Wave・ThreadGroupの3スコープをハードウェアコンテキストに応じてコンパイラが最適化する設計。AgilitySDK 1.720-previewおよびPIXのプレビューが公開されており、2026年9月頃に正式リリース予定。",
+      "links": {
+        "DirectX Blog - D3D12 LinAlg Preview": "https://devblogs.microsoft.com/directx/d3d12-linalg-preview/",
+        "DirectX Blog - SM6.10 & AgilitySDK 720 Preview": "https://devblogs.microsoft.com/directx/shader-model-6-10-agilitysdk-720-preview/"
+      }
+    },
+    {
+      "name": "Graphics Programming Weekly #439公開 — Loon GPU・NVIDIA Driver解析・タンジェント量子化など",
+      "level": "8",
+      "overview": "Jendrik Illner週次グラフィクスプログラミングニュースレター第439号。Vulkan 1.3/Metal 4バインドレス抽象化やNVIDIAドライバ解析等を収録。",
+      "detail": "今週のハイライトはLoon GPU（Vulkan 1.3とMetal 4上のバインドレスGPU抽象化レイヤー、デバイスポインタを公開し頂点バッファ・バインドグループ・イメージレイアウトを廃止）、NVIDIAクローズドソースユーザースペースドライバのコマンドストリームをインストルメンテーションで解析する論文、クロスプラットフォームSIMDのタイプレス設計（SSAスタイル命名規則でプラットフォーム差を吸収）、UE5 Colored Shadow Penumbra実装、タンジェントフレーム量子化比較（octal/QTangent/tangent-angle/diamondの評価）、Sebastian Aaltonen「No Graphics API」ビジョンインタビュー、I3D 2026のPapers Preview動画（VR・キャラ挙動・レンダリング等6分野）など。",
+      "links": {
+        "Graphics Programming Weekly #439": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-439/",
+        "Loon GPU記事": "https://www.kevin-gibson.com/blog/writing-a-bindless-gpu-abstraction-layer/"
+      }
+    },
+    {
+      "name": "Adobe Firefly AI Assistantパブリックベータ開始 — CC全アプリで自然言語ワークフロー自動化",
+      "level": "7",
+      "overview": "AdobeがFirefly AI Assistantのパブリックベータを提供開始。言語指示でCreative Cloud全アプリの複雑なマルチステップを自動実行。",
+      "detail": "Adobe Firefly AI AssistantはPhotoshop・Premiere Pro・After Effects等のCreative Cloudアプリ全体で動作するAIエージェント。自然言語での指示によりレイヤー操作・エフェクト適用・書き出しフローなど複雑なマルチステップワークフローを自動実行できる。パブリックベータはCreative Cloudサブスクリプション保有者が利用可能。CG制作のポストプロダクションや映像制作の反復作業を大幅に効率化することが期待される。",
+      "links": {
+        "CGWORLD記事": "https://cgworld.jp/flashnews/01-202605-FireflyAI-Assist.html"
+      }
+    },
+    {
+      "name": "I3D 2026 Symposium — Lucasfilm開催、リアルタイム3Dグラフィクス最先端論文を発表",
+      "level": "6",
+      "overview": "ACM SIGGRAPHリアルタイム3Dグラフィクスの最高峰「I3D 2026」が5/13〜15にLucasfilmで開催。Papers Preview動画も公開中。",
+      "detail": "ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games（I3D）2026はアメリカのLucasfilmで5月13〜15日に開催予定。VR・キャラクター挙動・モデル改善・ジオメトリ・レンダリング・パフォーマンス改善など6分野の最先端研究論文が発表される。全採択論文はPACM CGIT（I3D 2026）に掲載。Jendrik Illnerニュースレターを通じてPapers Preview動画が紹介されており、業界注目の講演が期待される。",
+      "links": {
+        "I3D 2026公式": "https://i3dsymposium.org/2026/cfp.html",
+        "Papers Preview動画": "https://www.youtube.com/watch?v=FWJxmwZmTdQ"
+      }
+    },
+    {
+      "name": "UE5 Colored Shadow Penumbra技法公開 — ペナンブラへの色彩効果統合実装",
+      "level": "6",
+      "overview": "Unreal Engine 5の動的ライト影ペナンブラ部分に色彩彩度効果を統合するシェーダー技法の詳細解説が公開された。",
+      "detail": "shadowed領域でlit colorをデサチュレートし、shadow amountに応じて設定可能な彩度量を復元することで影ペナンブラに自然な色彩グラデーションを付与する。UE5の動的ライトシステムに統合可能で、ゲームやリアルタイムVFXにおける映画的なライティング表現を実現できる。Graphics Programming Weekly #439にて紹介された。",
+      "links": {
+        "技法解説記事": "https://chosker.github.io/blog/colored-shadow-penumbra",
+        "Graphics Programming Weekly #439": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-439/"
+      }
+    }
+  ]
+}
