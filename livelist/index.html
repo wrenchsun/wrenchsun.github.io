@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Livelist — README</title>
+<style>
+  @page {
+    size: A4;
+    margin: 20mm 18mm 22mm 18mm;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Yu Gothic', 'Meiryo', 'Hiragino Sans', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.75;
+    color: #1a1a2e;
+    background: #fff;
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 32px 24px;
+  }
+
+  h1 {
+    font-size: 20pt;
+    font-weight: 700;
+    color: #0f0f23;
+    border-bottom: 3px solid #4a9eff;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+  }
+  h1 + p {
+    color: #444466;
+    font-size: 10pt;
+    margin-bottom: 24px;
+  }
+  h2 {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f0f23;
+    border-left: 4px solid #4a9eff;
+    padding: 3px 0 3px 10px;
+    margin: 28px 0 10px;
+    page-break-after: avoid;
+  }
+  h3 {
+    font-size: 11pt;
+    font-weight: 700;
+    color: #1e3a5f;
+    margin: 18px 0 7px;
+    page-break-after: avoid;
+  }
+  h4 {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #2c4a6e;
+    margin: 12px 0 5px;
+  }
+  p { margin: 6px 0; }
+
+  hr {
+    border: none;
+    border-top: 1px solid #d0d8e8;
+    margin: 20px 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 14px;
+    font-size: 9.5pt;
+    page-break-inside: avoid;
+  }
+  th {
+    background: #e8f0fe;
+    color: #1a1a2e;
+    font-weight: 700;
+    padding: 6px 10px;
+    border: 1px solid #c0cfe8;
+    text-align: left;
+  }
+  td {
+    padding: 5px 10px;
+    border: 1px solid #d0d8e8;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: #f5f8ff; }
+
+  code {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9pt;
+    background: #eef2ff;
+    border: 1px solid #c8d4f0;
+    border-radius: 3px;
+    padding: 1px 5px;
+  }
+  pre {
+    background: #f0f4ff;
+    border: 1px solid #c8d4f0;
+    border-radius: 5px;
+    padding: 10px 14px;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9.5pt;
+    margin: 8px 0;
+    page-break-inside: avoid;
+    white-space: pre-wrap;
+  }
+  pre code { background: none; border: none; padding: 0; }
+
+  blockquote {
+    background: #fff8e8;
+    border-left: 4px solid #f59e0b;
+    padding: 7px 12px;
+    margin: 8px 0;
+    font-size: 9.5pt;
+    color: #554400;
+    page-break-inside: avoid;
+  }
+  blockquote strong { color: #aa6600; }
+  blockquote.info {
+    background: #f0f6ff;
+    border-left-color: #4a9eff;
+    color: #1a3a6e;
+  }
+  blockquote.info strong { color: #1a3a6e; }
+
+  ul, ol {
+    padding-left: 20px;
+    margin: 6px 0;
+  }
+  li { margin: 3px 0; }
+
+  .badge {
+    display: inline-block;
+    background: #4a9eff;
+    color: #fff;
+    font-size: 8pt;
+    font-weight: 700;
+    padding: 1px 7px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  .badge.twitch { background: #9147ff; }
+  .badge.warn   { background: #ef4444; }
+  .badge.green  { background: #22c55e; }
+  .badge.gray   { background: #888; }
+
+  .cover {
+    text-align: center;
+    padding: 60px 0 40px;
+    page-break-after: always;
+  }
+  .cover h1 {
+    border: none;
+    font-size: 26pt;
+    margin-bottom: 6px;
+  }
+  .cover .sub {
+    font-size: 12pt;
+    color: #4a9eff;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  .cover .meta {
+    font-size: 9pt;
+    color: #888;
+  }
+
+  .section-box {
+    background: #f5f8ff;
+    border: 1px solid #d0daf0;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin: 10px 0;
+    page-break-inside: avoid;
+  }
+
+  @media print {
+    body { padding: 0; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+<style>
+  .ss-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0; }
+  .ss-grid.single { grid-template-columns:1fr; }
+  .ss-item { text-align:center; }
+  .ss-item img { width:100%; border:1px solid #d0d8e8; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,.12); page-break-inside:avoid; }
+  .ss-caption { font-size:9pt; color:#666; margin-top:4px; }
+  @media print { .ss-grid { page-break-inside:avoid; } }
+</style>
+</head>
+<body>
+
+<!-- 表紙 -->
+<div class="cover">
+  <h1>Livelist</h1>
+  <div class="sub">YouTube + Twitch 対応版</div>
+  <p style="color:#555;font-size:10pt;margin-bottom:60px">登録チャンネルの配信・動画を自動取得して一覧表示する<br>ローカルネットワーク向け Web アプリ</p>
+  <div class="meta">
+    <span class="badge">YouTube</span>
+    <span class="badge twitch">Twitch</span>
+    &nbsp; Python 不要（exe 版） / インターネット接続必須
+  </div>
+</div>
+
+<!-- スクリーンショット -->
+<h2>スクリーンショット</h2>
+
+<div class="ss-grid single">
+  <div class="ss-item">
+    <img src="screenshots/main.png" alt="メイン画面">
+    <div class="ss-caption">メイン画面 — タグ・種別・プラットフォームでの絞り込み、サイドバーのチャンネル一覧</div>
+  </div>
+</div>
+
+<div class="ss-grid">
+  <div class="ss-item">
+    <img src="screenshots/settings.png" alt="設定画面">
+    <div class="ss-caption">設定 — API キー・更新間隔・表示範囲・キーワード管理</div>
+  </div>
+  <div class="ss-item">
+    <img src="screenshots/add_channel.png" alt="チャンネル追加">
+    <div class="ss-caption">チャンネル追加 — YouTube / Twitch URL またはチャンネル ID で登録</div>
+  </div>
+</div>
+
+<div class="ss-grid single">
+  <div class="ss-item">
+    <img src="screenshots/stats.png" alt="API使用統計">
+    <div class="ss-caption">API 使用統計 — クォータ消費量・成功率をリアルタイムで確認</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- セットアップ -->
+<h2>セットアップ</h2>
+
+<h3>1. サーバーを起動する</h3>
+<p>用途に合わせて 3 つの起動方法があります。</p>
+
+<table>
+  <tr><th>ファイル</th><th>動作</th><th>用途</th></tr>
+  <tr>
+    <td><code>Livelist.exe</code></td>
+    <td>コンソールウィンドウあり</td>
+    <td>通常使用。ログを確認しながら運用したいとき</td>
+  </tr>
+  <tr>
+    <td><code>LivelistBG.exe</code></td>
+    <td>ウィンドウなし・バックグラウンド</td>
+    <td>常駐させたいとき・スタートアップ登録用</td>
+  </tr>
+  <tr>
+    <td><code>start.bat</code></td>
+    <td><code>LivelistBG.exe</code> 優先、なければ <code>Livelist.exe</code>、なければ Python</td>
+    <td>手動で再起動したいとき（既存プロセスを自動終了して再起動）</td>
+  </tr>
+</table>
+
+<p>起動後、ブラウザで以下にアクセスしてください。</p>
+<pre>http://localhost:8080</pre>
+
+<blockquote>起動直後にページが空の場合は、しばらく待ってから ↻ ボタンを押すか F5 でリロードしてください。初回は API への問い合わせが完了するまで数秒〜数十秒かかります。</blockquote>
+
+<h4>コンソールウィンドウについて（Livelist.exe）</h4>
+<p>起動時に黒いウィンドウ（コンソール）が開きます。サーバーの動作ログが表示され、<strong>閉じるとサーバーも終了します。</strong> 使用中は最小化して残してください。</p>
+
+<h4>バックグラウンドモード（LivelistBG.exe）</h4>
+<p>ウィンドウが一切表示されず、タスクバーにも現れません。タスクマネージャーのプロセス一覧に <code>LivelistBG.exe</code> として表示されます。停止するには <code>stop.bat</code> を実行するか、タスクマネージャーからプロセスを終了してください。</p>
+
+<hr>
+
+<h3>2. PC 起動時に自動起動する（スタートアップ登録）</h3>
+
+<p>Windows のタスクスケジューラーを使って、ログオン時に自動でバックグラウンド起動できます。</p>
+
+<h4>登録</h4>
+<p><code>register-startup.bat</code> をダブルクリックします。<code>LivelistBG.exe</code> が存在する場合はそれを、なければ <code>Livelist.exe</code>、それもなければ Python で起動するよう自動判別して登録します。</p>
+<ol>
+  <li><code>register-startup.bat</code> をダブルクリック</li>
+  <li>「完了」と表示されたら登録成功</li>
+  <li>「今すぐ起動しますか？」に <code>y</code> を入力すると即座にバックグラウンド起動</li>
+</ol>
+
+<h4>解除</h4>
+<p><code>unregister-startup.bat</code> をダブルクリックすると自動起動が解除されます。実行中のサーバーは停止しません。</p>
+
+<h4>確認</h4>
+<p>タスクスケジューラー（<code>taskschd.msc</code>）を開き、「タスクスケジューラーライブラリ」に <code>Livelist</code> が表示されていれば登録されています。</p>
+
+<blockquote>
+  <strong>移動・リネーム後は再登録が必要:</strong> フォルダを移動した場合、タスクスケジューラーに登録されたパスが古いままになります。<code>register-startup.bat</code> を再度実行して登録し直してください。
+</blockquote>
+
+<hr>
+
+<h3>3. チャンネルを登録する</h3>
+<p>サイドバーの <strong>＋</strong> ボタンから URL を入力して追加します。</p>
+<table>
+  <tr><th>プラットフォーム</th><th>対応形式</th><th>例</th></tr>
+  <tr><td>YouTube</td><td>@ハンドル URL</td><td><code>https://www.youtube.com/@チャンネル名</code></td></tr>
+  <tr><td>YouTube</td><td>channel/ URL</td><td><code>https://www.youtube.com/channel/UCxxxxxx</code></td></tr>
+  <tr><td>YouTube</td><td>チャンネル ID</td><td><code>UCxxxxxx</code>（UC から始まる 24 文字）</td></tr>
+  <tr><td>Twitch</td><td>チャンネル URL</td><td><code>https://www.twitch.tv/ユーザー名</code></td></tr>
+</table>
+
+<hr>
+
+<h3>4. YouTube API キーを設定する（推奨）</h3>
+<p>未設定でも RSS で動画一覧は表示されますが、設定すると <strong>LIVE・配信予定の正確な検出</strong> が可能になります。</p>
+<ol>
+  <li>Google Cloud Console（<code>console.cloud.google.com</code>）でプロジェクトを作成</li>
+  <li><strong>YouTube Data API v3</strong> を有効化</li>
+  <li><strong>API キー</strong>を作成（制限: なし または IP アドレス）</li>
+  <li>⚙設定 → <strong>YouTube Data API v3 キー</strong> に入力して保存</li>
+</ol>
+<blockquote>
+  <strong>クォータ上限:</strong> 1日 10,000 ユニット（<code>videos.list</code> 1ユニット/50件）。<br>
+  📊 ボタンで使用量を確認できます。
+</blockquote>
+
+<hr>
+
+<h3>5. Twitch を使う場合</h3>
+
+<h4>5-1. Twitch アプリを登録</h4>
+<ol>
+  <li>Twitch Developer Console（<code>dev.twitch.tv/console</code>）に Twitch アカウントでログイン</li>
+  <li><strong>「アプリケーション」→「＋アプリケーションを登録」</strong> をクリック</li>
+  <li>以下を入力して「作成」
+    <ul>
+      <li>名前: 任意（例: <code>Livelist</code>）</li>
+      <li>OAuth リダイレクト URL: <code>http://localhost</code></li>
+      <li>カテゴリ: <code>Application Integration</code></li>
+    </ul>
+  </li>
+</ol>
+
+<h4>5-2. Client ID と Client Secret を取得</h4>
+<ol>
+  <li>作成したアプリの <strong>「管理」</strong> をクリック</li>
+  <li><strong>Client ID</strong> をコピー</li>
+  <li><strong>「新しいシークレット」</strong> をクリックして <strong>Client Secret</strong> をコピー</li>
+</ol>
+<blockquote>
+  <strong class="badge warn">注意</strong> Client Secret はページを閉じると二度と表示されません。必ず保存してください。
+</blockquote>
+
+<h4>5-3. ⚙設定 に入力して保存</h4>
+<p>Twitch API はクォータ制限なし。アクセストークンは自動取得・自動更新されます。</p>
+
+<hr>
+
+<!-- 画面の使い方 -->
+<h2>画面の使い方</h2>
+
+<h3>タグフィルター</h3>
+<p>上部バーのタグボタンをクリックしてチャンネルを絞り込みます。複数選択可能です。タグに属さないチャンネルはサイドバーの「タグ外」セクションに薄く表示されます。</p>
+
+<h3>種別絞り込み</h3>
+<p>「<strong>絞り込み ▾</strong>」ボタンをクリックするとパネルが開き、表示する種別を個別に ON/OFF できます。</p>
+<table>
+  <tr><th>種別</th><th>内容</th></tr>
+  <tr><td>LIVE中</td><td>現在配信中</td></tr>
+  <tr><td>配信予定</td><td>スケジュール済みの配信</td></tr>
+  <tr><td>プレミア公開</td><td>YouTube プレミア</td></tr>
+  <tr><td>メンバー限定</td><td>タイトルにキーワードを含むコンテンツ</td></tr>
+  <tr><td>アーカイブ</td><td>配信の録画・Twitch VOD</td></tr>
+  <tr><td>ショート</td><td>180 秒以内の動画、またはタイトルにショートキーワードを含む動画（YouTube）</td></tr>
+  <tr><td>動画</td><td>通常の動画</td></tr>
+</table>
+<p>絞り込み中はステータスバーに <strong>表示件数 / 総件数</strong> が表示されます。選択状態はブラウザに保存されます。</p>
+
+<h3>チャンネルフィルター</h3>
+<p>サイドバーのチャンネル名（またはアイコン）をクリックすると、そのチャンネルだけを表示します。もう一度クリックで解除。</p>
+
+<h3>チャンネルの並び替え</h3>
+<p>サイドバーの ⠿ をドラッグして並び順を変更できます。</p>
+
+<h3>その他のボタン</h3>
+<div class="section-box">
+  <table style="margin:0">
+    <tr><td><strong>↻</strong></td><td>手動で最新データを取得（キャッシュを破棄して再取得）</td></tr>
+    <tr><td><strong>📊</strong></td><td>API 使用量・成功率の統計を表示</td></tr>
+    <tr><td><strong>⚙</strong></td><td>API キー・タグ・メンバー限定キーワード・ショートキーワードなどの設定</td></tr>
+  </table>
+</div>
+
+<hr>
+
+<!-- ファイル構成 -->
+<h2>ファイル構成</h2>
+<pre>Livelist/
+├── Livelist.exe              ← 通常起動（コンソールあり）
+├── LivelistBG.exe            ← バックグラウンド起動（ウィンドウなし）
+├── index.html                ← Web UI（ダブルクリックでブラウザ表示・改変用）
+├── start.bat                 ← 手動再起動
+├── register-startup.bat      ← スタートアップ登録
+├── unregister-startup.bat    ← スタートアップ解除
+├── config.json               ← 設定（APIキーなど）
+├── README.html               ← このファイル
+│
+├── asset/                    ← 自動生成データ（起動時に自動作成）
+│   ├── channels.json         ← 登録チャンネル一覧
+│   ├── cache.json            ← 配信情報キャッシュ
+│   ├── tags.json             ← タグ一覧
+│   └── api_stats.json        ← API 使用統計
+│
+└── source/                   ← 改変・ビルド用（exe のみ使う場合は不要）
+    ├── server.py             ← サーバー本体（Python で直接起動も可）
+    ├── build.bat             ← exe をビルドするスクリプト
+    └── livelist.spec         ← PyInstaller 設定</pre>
+
+<blockquote class="info">
+  <strong>exe 版の動作:</strong> <code>Livelist.exe</code> / <code>LivelistBG.exe</code> はどちらも <code>index.html</code> を内部に同梱しています。
+  <code>config.json</code> はルートに、チャンネル・キャッシュ・タグなどのデータは <code>asset/</code> フォルダに自動で読み書きされます。
+  <code>asset/</code> フォルダがなければ起動時に自動生成されます。
+</blockquote>
+
+<hr>
+
+<!-- config.json -->
+<h2>config.json 設定項目</h2>
+<table>
+  <tr><th>キー</th><th>デフォルト</th><th>説明</th></tr>
+  <tr><td><code>youtube_api_key</code></td><td><code>""</code></td><td>YouTube Data API v3 キー</td></tr>
+  <tr><td><code>twitch_client_id</code></td><td><code>""</code></td><td>Twitch アプリの Client ID</td></tr>
+  <tr><td><code>twitch_client_secret</code></td><td><code>""</code></td><td>Twitch アプリの Client Secret</td></tr>
+  <tr><td><code>port</code></td><td><code>8080</code></td><td>サーバーポート番号</td></tr>
+  <tr><td><code>refresh_interval</code></td><td><code>600</code></td><td>自動更新間隔（秒）</td></tr>
+  <tr><td><code>days_past</code></td><td><code>2</code></td><td>過去方向の表示範囲（日数）。現在時刻より何日前まで表示するか（1〜14）</td></tr>
+  <tr><td><code>days_future</code></td><td><code>2</code></td><td>未来方向の表示範囲（日数）。現在時刻より何日後まで表示するか（1〜14）</td></tr>
+  <tr><td><code>member_keywords</code></td><td>既定の 6 語</td><td>メンバー限定判定キーワード（⚙設定から編集可）</td></tr>
+  <tr><td><code>shorts_keywords</code></td><td>既定の 5 語</td><td>ショート判定キーワード（⚙設定から編集可）</td></tr>
+</table>
+<blockquote>
+  <strong>member_keywords のデフォルト値:</strong><br>
+  <code>メン限</code> / <code>メンバー限定</code> / <code>メンバーシップ限定</code> / <code>member only</code> / <code>members only</code> / <code>メンバー専用</code>
+</blockquote>
+<blockquote class="info">
+  <strong>shorts_keywords のデフォルト値:</strong><br>
+  <code>#shorts</code> / <code>#short</code> / <code>#ショート</code> / <code>short</code> / <code>ショート</code><br>
+  180 秒以内の動画も自動的にショートと判定されます。キーワード判定が優先されるため、180 秒を超える動画もキーワードがあればショートに分類されます。
+</blockquote>
+
+<hr>
+
+<!-- ローカルネットワーク -->
+<h2>ローカルネットワークでの利用</h2>
+<p>サーバー起動時にコンソールに表示されるネットワークアドレス（例: <code>http://192.168.0.xxx:8080</code>）に、同じ LAN 内の別端末からアクセスできます。バックグラウンド起動時はコンソールが表示されないため、ブラウザから <code>http://localhost:8080</code> にアクセスしてページが開けば起動済みです。</p>
+<blockquote>
+  <strong>ファイアウォールの許可:</strong> 初回起動時に「このアプリのネットワークアクセスを許可しますか？」という Windows Defender ファイアウォールのダイアログが表示される場合があります。LAN 内からアクセスするには <strong>「プライベートネットワーク」を許可</strong> してください。<code>LivelistBG.exe</code> では初回のみダイアログが出ます。
+</blockquote>
+
+<hr>
+
+<!-- サーバー技術情報 -->
+<h2>サーバーについて</h2>
+
+<h3>動作の仕組み</h3>
+<div class="section-box">
+  <ul>
+    <li>Python 標準ライブラリの <code>ThreadingHTTPServer</code> をベースにしたシンプルな HTTP サーバーです</li>
+    <li>バックグラウンドスレッドが <code>refresh_interval</code> 秒ごとに API・RSS を巡回し、<code>cache.json</code> に書き込みます</li>
+    <li>ブラウザからのリクエストはキャッシュを返すだけなので、更新タイミングに関係なく即座にページが開きます</li>
+    <li>HTTPS・認証機能はありません。<strong>インターネットに直接公開しないでください。</strong></li>
+  </ul>
+</div>
+
+<h3>ポート番号の変更</h3>
+<p><code>config.json</code> の <code>"port"</code> を変更してサーバーを再起動すると、指定したポートで起動します。</p>
+<pre>"port": 9090</pre>
+<p>変更後はブラウザのアクセス先も変更してください（例: <code>http://localhost:9090</code>）。スタートアップ登録済みの場合は再登録不要です。</p>
+
+<h3>exe 版の注意事項</h3>
+<ul>
+  <li><strong>ウイルス対策ソフトの誤検知:</strong> PyInstaller で生成した exe は、ウイルス対策ソフトに誤検知される場合があります。除外設定に追加するか、Python 版で運用してください</li>
+  <li><strong>SmartScreen の警告:</strong> 初回実行時に「Windows によって PC が保護されました」と表示される場合は、「詳細情報」→「実行」で起動できます</li>
+  <li><strong>UI の更新:</strong> exe 版は <code>index.html</code> を内部に同梱しているため、外部の <code>index.html</code> を編集しても反映されません。UI を変更した場合は <code>build.bat</code> で再ビルドしてください</li>
+</ul>
+
+<hr>
+
+<!-- 改変方法 -->
+<h2>改変方法</h2>
+
+<h3>Python 版で動作確認する</h3>
+<p><code>server.py</code> と <code>index.html</code> をテキストエディタで編集し、<code>start.bat</code>（Python モード）で起動して確認できます。</p>
+<blockquote class="info">
+  Python 版では <code>index.html</code> を直接読み込むため、ファイルを保存してブラウザをリロードするだけで変更が反映されます（サーバー再起動不要）。
+</blockquote>
+
+<h3>exe を再ビルドする</h3>
+<p>改変内容を exe に反映するには <code>build.bat</code> を実行します。Python と PyInstaller（<code>pip install pyinstaller</code>）が必要です。</p>
+<pre>build.bat をダブルクリック
+→ dist\Livelist.exe および dist\LivelistBG.exe が生成される
+→ 生成された 2 つの exe を配布フォルダのルートにコピー</pre>
+
+<hr>
+
+<!-- 注意事項 -->
+<h2>注意事項</h2>
+<ul>
+  <li><strong>更新間隔と API クォータ:</strong> <code>refresh_interval</code> を短くするほどクォータ消費が増えます。📊 ボタンで使用量を確認しながら調整してください</li>
+  <li><strong>メンバー限定コンテンツ:</strong> YouTube の真のメンバー限定動画は RSS・API ともに取得できません。タイトルにキーワードを含む公開コンテンツのみ判定されます</li>
+  <li><strong>キャッシュ:</strong> キーワードや設定変更後は ↻ ボタンで手動更新するまで既存のキャッシュには反映されません</li>
+  <li><strong>セキュリティ:</strong> このサーバーはローカルネットワーク専用です。ルーターのポート開放などでインターネットに公開しないでください</li>
+  <li><strong>フォルダ移動後:</strong> exe を別フォルダに移動した場合はスタートアップを再登録してください（<code>register-startup.bat</code> を再実行）</li>
+</ul>
+
+<hr>
+<p style="text-align:center;color:#aaa;font-size:8.5pt;margin-top:20px">Livelist — YouTube + Twitch 対応版</p>
+
+</body>
+</html>
