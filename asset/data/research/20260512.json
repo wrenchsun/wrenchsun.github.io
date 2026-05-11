@@ -1,0 +1,101 @@
+{
+  "items": [
+    {
+      "name": "Unity AI: コーディング不要でカジュアルゲーム全体をプロンプト生成、近日オープンベータ",
+      "level": "8",
+      "overview": "UnityがAI技術でコーディング不要のゲーム生成機能を発表。自然言語プロンプトのみでカジュアルゲームを丸ごと生成できるベータを近日公開予定。",
+      "detail": "Unity CEO Matthew Brombergが収益報告の場でAI駆動オーサリングを2026年の第二の主要施策と位置づけた。GDC Festival of Gaming（2026年3月）でUnity AIの新ベータを披露し、自然言語プロンプトのみでカジュアルゲーム全体を生成しプロトタイプから製品へ移行できるワークフローをデモ。現行のUnity AIアシスタントはOpenAI GPTおよびMeta Llamaを活用し、コード生成・エージェント操作・質問応答に対応する。Brombergは「数千万人規模の新たなゲームクリエイターを創出できる」と主張。業界ではAI生成コンテンツの品質や市場飽和を懸念する声もある。",
+      "links": {
+        "Game Developer記事": "https://www.gamedeveloper.com/programming/unity-says-its-ai-tech-will-soon-be-able-to-prompt-full-casual-games-into-existence-"
+      }
+    },
+    {
+      "name": "GameMaker Spring 2026: GMRT新ランタイム・C#/JS/TS対応・LTS26ロードマップ公開",
+      "level": "7",
+      "overview": "GameMakerがGMRT新ランタイム正式発表。C#・JavaScript・TypeScript対応、Blender glTF直接ロード、ソースコード公開など大型強化。",
+      "detail": "GameMakerはSpring 2026アップデートでGMRT（GameMaker Runtime）を正式ローンチ。GMRTはC#・JavaScript・TypeScriptをネイティブサポートし、既存プログラミング資産をそのまま活用可能。3D機能ではBlenderからglTF直接ロード・シーングラフ管理・3D数学ライブラリが追加。デスクトップ・モバイル・ウェブのソースコードは全ユーザーに公開される（エンタープライズはコンソール版も）。GM-CLIコマンドラインツールチェーンとAI統合（Anthropic Claude Code）も導入。LTS26は5リリース計画でMay 2026〜2028年初頭に展開。Prefab Builderも今後リリース予定。",
+      "links": {
+        "GameMaker公式ブログ": "https://gamemaker.io/en/blog/update-spring-2026",
+        "80.lv記事": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update"
+      }
+    },
+    {
+      "name": "Redshift 2026.6: ヘックスタイリング搭載・OpenPBRデフォルト化・Maya/3ds Max 2027対応",
+      "level": "7",
+      "overview": "MaxonがRedshift 2026.6をリリース。六角形グリッドでテクスチャタイリング繰り返しを解消するHex Tiling、OpenPBRデフォルト材質化などを追加。",
+      "detail": "Redshift 2026.6.0（2026年5月6日リリース）の目玉はHex Tilingシステム。テクスチャマップを六角形タイルに分割してランダムな位置・回転・スケールを付与しシームレスにブレンドすることで、広大な地形や大面積サーフェスでも繰り返しのない自然な質感を実現。建築・プロダクトビジュアライゼーション向けに特に効果的。また全ホストアプリでOpenPBRマテリアルがデフォルトに昇格（以前はC4Dのみ）。Maya 2027・3ds Max 2027サポート追加、Houdiniライトインスタンス属性拡張も含む。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/maxon-adds-hex-tiling-for-textures-to-redshift-2026-6/",
+        "Maxonサポートページ": "https://support.maxon.net/hc/en-us/articles/8814051767964-Redshift-2026-6-0-2026-05-May-6-2026"
+      }
+    },
+    {
+      "name": "Autograph: Teamsライセンスも無料化、スタジオが商用制作に無制限利用可能",
+      "level": "7",
+      "overview": "MaxonがモーショングラフィクスツールAutographのTeamsライセンスを無料化。スタジオが商用制作に無制限で使用可能、解像度・機能制限なし。",
+      "detail": "MaxonはAutograph（Left Angle買収後の最初のメジャーリリース2026.0）をまず個人アーティスト向けに無料化し、続いてTeamsライセンスも無料化したと発表。商用制作での条件や制限はなく、解像度・機能制限もなし。コマンドライン機能とPythonサポートを含む。AutographはPixar OpenUSDベースの完全3D環境を持つモーショングラフィクス・VFX・コンポジットツールで、2D/3Dアセットを統合してタイムラインで一元レンダリングできるユニファイドワークフローが特徴。Windows 10+・macOS 15.0+に対応。",
+      "links": {
+        "CG Channel（Teams無料化）": "https://www.cgchannel.com/2026/05/motion-design-tool-autograph-is-now-free-to-studios/",
+        "CG Channel（個人無料化）": "https://www.cgchannel.com/2026/04/maxon-releases-motion-graphics-software-autograph-for-free/"
+      }
+    },
+    {
+      "name": "LightWave 2026発表: Advanced Placement・MotoRig・Fracture等大型VFXツール群搭載",
+      "level": "7",
+      "overview": "LightWave Digitalが3〜4週内リリース予定のLightWave 2026を公開。物理ベースショットレイアウト・車両リギング・破壊VFXなど大型新機能を搭載。",
+      "detail": "LightWave 2026の主な新機能：Advanced Placement（物理シミュレーションによるオブジェクト散布・重力落下・地面着地時の破砕をリアルタイムで処理するショットレイアウトシステム）、MotoRig（4輪〜8輪車両対応の包括的リギング・アニメーションツール、正確なテレインフォローと物理ベースサスペンションダイナミクス）、Fracture（破壊VFXツール）、THOR（2オブジェクト間の電撃を3Dジオメトリとして自動生成するプラグイン）、Snow Falling 3D（指定ボリューム内の雪・雨エフェクト生成メッシュデフォーマー）、幅広いフォーマット対応の組み込みアセットブラウザ。現在ベータ中でまもなく正式リリース。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/",
+        "80.lv記事": "https://80.lv/articles/lightwave-digital-teases-lightwave-3d-2026-update"
+      }
+    },
+    {
+      "name": "Character Control Rig: BlenderでMetaHuman向けコントロールリグを自動生成するアドオン",
+      "level": "7",
+      "overview": "Poly HammerがUE MetaHuman用のBlenderコントロールリグ自動生成アドオンをリリース。Rigifyベースでインポート/エクスポートとフェイシャルアニメに対応。",
+      "detail": "Character Control Rig（Poly Hammer製）はUE5 MetaHumanキャラクター向けBlenderコントロールリグ自動生成アドオン。インポートしたMetaHumanのプロポーションに合わせてネイティブRigifyリグを自動生成し、UEからインポートしたMetaHumanアニメーションを自動リターゲット。フェイスボードで作成したフェイシャルアニメのインポート/エクスポートも可能。マルチキャラクターシーン管理ブラウザ内蔵。Blender 4.5以上対応。個人永続ライセンス$29.99・チームライセンス$99.99〜。Character DNA add-on（既存製品）が必要。オンラインマーケットプレイスからのアニメーション自動リターゲット機能は近日追加予定。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/character-control-rig-generates-rigs-for-metahumans-in-blender/",
+        "80.lv記事": "https://80.lv/articles/new-add-on-for-metahuman-character-rig-creation-in-blender"
+      }
+    },
+    {
+      "name": "NeXus for Blender: VulkanベースGPUパーティクルシムをBlender向けに移植、今夏リリース予定",
+      "level": "6",
+      "overview": "InsydiumがCinema 4D専用GPUパーティクルシミュレーターNeXusのBlender版をプレビュー公開。Vulkanベースで AMD/Apple/Intel/NVIDIA GPU対応、C4D版より高速。",
+      "detail": "InsydiumはNeXus for Blenderの複数のスニークピークを公開。BlenderアドオンはよりGPU側で処理を行いオーバーヘッドを削減、C4D版より高速に動作するとしている。パーティクルエフェクトに加えてグラニュラー流体・液体・気体流体シミュレーションツールセットを含む。VulkanベースのためAMD・Apple・Intel・NVIDIAのGPUに対応。C4Dの全NeXus機能がBlender版でも利用可能。今夏リリース予定。永続ライセンスで提供（NeXusを含むアクティブFusedライセンスならリリース時に自動で利用可能）。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/sneak-peek-nexus-for-blender/",
+        "80.lv記事": "https://80.lv/articles/insydium-teases-nexus-for-blender"
+      }
+    },
+    {
+      "name": "InstaMAT & InstaLOD: Rocky Linux/RHEL対応のLinuxネイティブ版プレビュー公開",
+      "level": "6",
+      "overview": "AbstractがInstaMAT・InstaLODのLinuxネイティブ版（プレビュー）を公開。RHEL/Rocky/AlmaLinux 8・9対応、GPU加速・マルチスレッドをサポート。",
+      "detail": "Abstract（InstaMAT・InstaLOD開発元）が2026年5月1日にLinuxネイティブ版をリリース（両製品ともInstaMAT 2026-05・InstaLOD 2026-05としてプレビュー提供）。対応ディストリビューションはRHEL 8/9・Rocky Linux 8/9・AlmaLinux 8/9・Oracle Linux 8/9・CentOS Stream 8/9。Windows/macOS版と広範な機能パリティを持ち、GPU加速・マルチスレッド処理・直接ハードウェアアクセスをサポート。BlenderおよびAutodesk Maya向けプラグインも提供（InstaMAT→Blender直接統合、InstaLOD→Blender/Maya向けジオメトリ最適化）。GPUベイキングのみ非対応（その他GPU加速機能は対応）。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/instamat-and-instalod-now-support-linux-natively/",
+        "80.lv記事": "https://80.lv/articles/instamat-instalod-get-native-linux-support"
+      }
+    },
+    {
+      "name": "Unreal Fest Chicago 2026: 6月16〜18日開催、UE5.8プレビューセッションも予定",
+      "level": "6",
+      "overview": "Unreal Fest Chicago 2026が6月16〜18日に開催。UE最新機能ディープダイブ・MetaHuman・UEFN・UE5.8プレビューセッションなど多数予定。",
+      "detail": "Epic Gamesが主催するUnreal Fest Chicago 2026が2026年6月16〜18日にシカゴで開催。アジェンダにはUE最新機能（Nanite・Lumen）のディープダイブ、バーチャルプロダクション、MetaHuman、ゲーム開発事例、そしてUE5.8の次期機能プレビューが含まれる。会場にはEpicエコシステムのデモブース（Fab・MetaHuman Creator・UEFN・Epic Games Store等）とゲームラウンジを設置。登壇者は入場・展示ホール・ネットワーキング・パーティへの無料参加と宿泊支援を受けられる。チケット通常価格$749。",
+      "links": {
+        "Unreal Fest公式": "https://www.unrealengine.com/events/unreal-fest-chicago-2026"
+      }
+    },
+    {
+      "name": "CGWORLD vol.334発売: WEB×3DCG特集、マウント社の没入型サイト制作ワークフロー紹介",
+      "level": "5",
+      "overview": "CGWORLD vol.334（2026年6月号）が5月9日発売。特集はWEB×3DCG。KOKUYO・POLA等の制作を手がけるマウント社のデザイン哲学とワークフローを解説。",
+      "detail": "CGWORLD vol.334（2026年6月号）は2026年5月9日に発売。巻頭特集「WEB×3DCG」では、印象的な3DウェブサイトでKOKUYO・POLAなど著名ブランドとのプロジェクトを手がけるデザインスタジオmount inc.のデザイン哲学・ワークフロー・現在のWebにおける3D表現の潮流と今後を探る。ミニ特集として映画「機動戦士ガンダム 閃光のハサウェイ キルケーの魔女」、谷口悟朗監督のオリジナル劇場アニメ「パリに咲くエトワール」、インディゲームスタジオSIGONO INC.の「OPUS：Prism Peak」も収録。",
+      "links": {
+        "CGWORLD公式": "https://cgworld.jp/magazine/cgw334.html"
+      }
+    }
+  ]
+}
