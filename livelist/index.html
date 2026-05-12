@@ -206,6 +206,7 @@
 
 <!-- スクリーンショット -->
 <h2>スクリーンショット</h2>
+<p style="font-size:9pt;color:#888;margin-bottom:8px">※ 画像は開発中の画面です。実際の表示と一部異なる場合があります。</p>
 
 <div class="ss-grid single">
   <div class="ss-item">
@@ -305,6 +306,9 @@
   <tr><td>YouTube</td><td>チャンネル ID</td><td><code>UCxxxxxx</code>（UC から始まる 24 文字）</td></tr>
   <tr><td>Twitch</td><td>チャンネル URL</td><td><code>https://www.twitch.tv/ユーザー名</code></td></tr>
 </table>
+<blockquote>
+  <strong>サブチャンネルが登録できない場合:</strong> YouTube のサブチャンネルはメインチャンネルと内部 ID が同一になることがあります。その場合「既に登録済み」として弾かれますが、<strong>メインチャンネルより先にサブチャンネルを登録する</strong>と解決する場合があります。登録順を変えてお試しください。
+</blockquote>
 
 <hr>
 
@@ -317,8 +321,9 @@
   <li>⚙設定 → <strong>YouTube Data API v3 キー</strong> に入力して保存</li>
 </ol>
 <blockquote>
-  <strong>クォータ上限:</strong> 1日 10,000 ユニット（<code>videos.list</code> 1ユニット/50件）。<br>
-  📊 ボタンで使用量を確認できます。
+  <strong>クォータ上限:</strong> 1日 10,000 ユニット（<code>videos.list</code> 1ユニット/コール、1コールで最大50件処理）。<br>
+  📊 ボタンで使用量を確認できます。<br>
+  <strong>目安:</strong> チャンネル数 30・24 時間稼働の場合、更新間隔 <strong>900 秒（15 分）</strong> がクォータ上限に収まる目安です。
 </blockquote>
 
 <hr>
@@ -434,6 +439,7 @@
   <tr><td><code>days_future</code></td><td><code>2</code></td><td>未来方向の表示範囲（日数）。現在時刻より何日後まで表示するか（1〜14）</td></tr>
   <tr><td><code>member_keywords</code></td><td>既定の 6 語</td><td>メンバー限定判定キーワード（⚙設定から編集可）</td></tr>
   <tr><td><code>shorts_keywords</code></td><td>既定の 5 語</td><td>ショート判定キーワード（⚙設定から編集可）</td></tr>
+  <tr><td><code>operating_hours</code></td><td><code>{"enabled":false,"start":"08:00","end":"23:00"}</code></td><td>稼働時間設定。<code>enabled</code> を <code>true</code> にすると時間外の自動更新を停止。終了が開始より早い場合は深夜またぎ（例: 22:00〜02:00）。⚙設定から変更可。手動更新・ページアクセス時の更新は時間外でも常に有効</td></tr>
 </table>
 <blockquote>
   <strong>member_keywords のデフォルト値:</strong><br>
