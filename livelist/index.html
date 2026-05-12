@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Livelist — README</title>
+<link rel="icon" href="asset/icon-192.png" type="image/png">
 <style>
   @page {
     size: A4;
@@ -194,6 +195,7 @@
 
 <!-- 表紙 -->
 <div class="cover">
+  <img src="screenshots/icon.png" alt="Livelist icon" style="width:72px;height:72px;border-radius:16px;margin-bottom:12px;display:block;margin-left:auto;margin-right:auto">
   <h1>Livelist</h1>
   <div class="sub">YouTube + Twitch 対応版</div>
   <p style="color:#555;font-size:10pt;margin-bottom:60px">登録チャンネルの配信・動画を自動取得して一覧表示する<br>ローカルネットワーク向け Web アプリ</p>
@@ -203,6 +205,17 @@
     &nbsp; Python 不要（exe 版） / インターネット接続必須
   </div>
 </div>
+
+<!-- ダウンロード -->
+<h2>ダウンロード</h2>
+<p><a href="https://github.com/wrenchsun/Livelist/releases/latest" target="_blank">📦 GitHub Releases</a> から <code>Livelist_vX.X.X.zip</code> をダウンロードしてください。</p>
+<table>
+  <tr><th>ファイル</th><th>説明</th></tr>
+  <tr><td><code>Livelist_vX.X.X.zip</code></td><td>exe 版（Python インストール不要）</td></tr>
+</table>
+<blockquote class="info">解凍して <code>Livelist.exe</code> を起動するだけで使えます。</blockquote>
+
+<hr>
 
 <!-- スクリーンショット -->
 <h2>スクリーンショット</h2>
@@ -413,8 +426,12 @@
 ├── config.json               ← 設定（APIキーなど）
 ├── README.html               ← このファイル
 │
-├── asset/                    ← 自動生成データ（起動時に自動作成）
-│   ├── channels.json         ← 登録チャンネル一覧
+├── asset/                    ← 静的アセット＋自動生成データ
+│   ├── favicon.ico           ← ブラウザタブアイコン（32/16px）
+│   ├── icon-180.png          ← Apple Touch Icon（180px）
+│   ├── icon-192.png          ← Web アプリアイコン（192px）
+│   ├── icon-512.png          ← Web アプリアイコン（512px）
+│   ├── channels.json         ← 登録チャンネル一覧（起動時に自動作成）
 │   ├── cache.json            ← 配信情報キャッシュ
 │   ├── tags.json             ← タグ一覧
 │   └── api_stats.json        ← API 使用統計
@@ -422,7 +439,8 @@
 ├── source/                   ← 改変・ビルド用（exe のみ使う場合は不要）
 │   ├── server.py             ← サーバー本体（Python で直接起動も可）
 │   ├── build.bat             ← exe をビルドするスクリプト
-│   └── livelist.spec         ← PyInstaller 設定
+│   ├── livelist.spec         ← PyInstaller 設定
+│   └── icon.ico              ← exe アイコン（256/128/64/48/32/16px）
 │
 └── tests/                    ← 単体テスト（Python 3.12 + unittest）
     ├── test_classifier.py    ← ストリーム分類・shorts/member 判定
