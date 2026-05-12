@@ -413,10 +413,14 @@
 │   ├── tags.json             ← タグ一覧
 │   └── api_stats.json        ← API 使用統計
 │
-└── source/                   ← 改変・ビルド用（exe のみ使う場合は不要）
-    ├── server.py             ← サーバー本体（Python で直接起動も可）
-    ├── build.bat             ← exe をビルドするスクリプト
-    └── livelist.spec         ← PyInstaller 設定</pre>
+├── source/                   ← 改変・ビルド用（exe のみ使う場合は不要）
+│   ├── server.py             ← サーバー本体（Python で直接起動も可）
+│   ├── build.bat             ← exe をビルドするスクリプト
+│   └── livelist.spec         ← PyInstaller 設定
+│
+└── tests/                    ← 単体テスト（Python 3.12 + unittest）
+    ├── test_classifier.py    ← ストリーム分類・shorts/member 判定
+    └── test_url_parser.py    ← URL パターン・稼働時間ロジック</pre>
 
 <blockquote class="info">
   <strong>exe 版の動作:</strong> <code>Livelist.exe</code> / <code>LivelistBG.exe</code> はどちらも <code>index.html</code> を内部に同梱しています。
@@ -495,13 +499,15 @@
 <h3>技術スタック</h3>
 <table>
   <tr><th>レイヤー</th><th>技術</th><th>備考</th></tr>
-  <tr><td>サーバー言語</td><td>Python 3.8+</td><td>外部パッケージ不要（標準ライブラリのみ）</td></tr>
+  <tr><td>サーバー言語</td><td>Python 3.12+</td><td>外部パッケージ不要（標準ライブラリのみ）</td></tr>
   <tr><td>HTTP サーバー</td><td><code>http.server.ThreadingHTTPServer</code></td><td>マルチスレッド対応の標準実装</td></tr>
   <tr><td>HTTP クライアント</td><td><code>urllib.request</code></td><td>requests 等の外部ライブラリ不使用</td></tr>
   <tr><td>XML パース</td><td><code>xml.etree.ElementTree</code></td><td>YouTube RSS の解析に使用</td></tr>
   <tr><td>フロントエンド</td><td>Vanilla JS / HTML / CSS</td><td>フレームワーク・ビルドツール不使用、単一ファイル</td></tr>
   <tr><td>データ保存</td><td>JSON ファイル（ローカル）</td><td>DB 不使用。atomic replace（tmp → rename）で書き込み</td></tr>
   <tr><td>パッケージング</td><td>PyInstaller 6.x</td><td><code>index.html</code> を exe に同梱、<code>--onefile</code> ではなく <code>--onedir</code></td></tr>
+  <tr><td>型定義</td><td><code>TypedDict</code> / <code>NotRequired</code> / <code>Literal</code></td><td><code>StreamDict</code> / <code>ChannelDict</code> などで主要スキーマを型付け</td></tr>
+  <tr><td>テスト</td><td>Python <code>unittest</code>（標準ライブラリ）</td><td><code>tests/</code> に 54 件。分類ロジック・URL パーサー・稼働時間を網羅</td></tr>
 </table>
 
 <h3>外部 API 呼び出しフロー</h3>
@@ -591,10 +597,12 @@
 </blockquote>
 
 <h3>exe を再ビルドする</h3>
-<p>改変内容を exe に反映するには <code>build.bat</code> を実行します。Python と PyInstaller（<code>pip install pyinstaller</code>）が必要です。</p>
-<pre>build.bat をダブルクリック
-→ dist\Livelist.exe および dist\LivelistBG.exe が生成される
-→ 生成された 2 つの exe を配布フォルダのルートにコピー</pre>
+<p>改変内容を exe に反映するには <code>build.bat</code> を実行します。Python 3.12 と PyInstaller が必要です。</p>
+<pre>python3.12 -m pip install pyinstaller   ← 初回のみ
+build.bat をダブルクリック              ← python3.12 を自動検出してビルド
+→ Livelist.exe / LivelistBG.exe が配布フォルダに出力される</pre>
+<p>テストの実行:</p>
+<pre>python3.12 -m unittest discover -s tests -v</pre>
 
 <hr>
 
