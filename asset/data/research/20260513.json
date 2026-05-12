@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 5.8 Preview リリース: Mesh Terrain・MetaHuman Crowd・DMC搭載",
+      "level": "9",
+      "overview": "UE5.8プレビューが5/12公開。Mesh Terrain実験機能、PCG改善、MetaHuman Crowd、Direct Mesh Controls等を搭載。正式版は6月5日予定。",
+      "detail": "Epic GamesがUnreal Engine 5.8プレビューを2026年5月12日に公開。正式リリースは6月5日予定。主要新機能：Mesh Terrain（PCGとネイティブ統合する3Dメッシュベースの大規模環境構築システム、実験的機能）、PCGフレームワーク更新（手動編集を保持しつつプロシージャルコンテンツを管理可能）、Procedural Vegetation Editorの大幅改善（Nanite対応植生アセットの生成が大幅に容易化）、MetaHuman Crowdプラグイン（リアルタイムで群衆をポピュレート・制御。既存の人体メッシュからMetaHumanへの変換も可能）、Direct Mesh Controls（スケルタルメッシュセクションへのControl Rigコントロール直接配置、実験的機能）。Control Rig PhysicsがBeta昇格、フェイシャルリギングツール拡充。Chaos Physics・モバイルワークフロー・NPRソリューション・バーチャルプロダクションも改善。Epic Games LauncherとGitHubからダウンロード可能。",
+      "links": {
+        "80.lv記事": "https://80.lv/articles/unreal-engine-5-8-preview-has-arrived",
+        "公式フォーラム": "https://forums.unrealengine.com/t/unreal-engine-5-8-preview/2721597"
+      }
+    },
+    {
+      "name": "Unity AI オープンベータ開始: Ask/Agent/Planの3モードでゲーム開発を支援",
+      "level": "8",
+      "overview": "Unityの公式AIエージェントがオープンベータ開始。Unity 6以上で利用可能。Ask/Agent/Plan 3モードでコード生成・シーン操作・UI自動生成対応。",
+      "detail": "Unity AIが2026年5月4日よりUnity 6以上でオープンベータに移行。20年分のUnityドキュメントで訓練された組み込みエージェントがAsk（質問応答）・Agent（実行・変更）・Plan（開発計画立案）の3モードで動作。シーンコンテキスト読み取り・GameObjectインスペクション・C#スクリプト生成・チェックポイントによる変更ロールバック機能搭載。FigmaデザインリンクからUI Toolkit/uGUIコードへの変換（Figma-to-UIフロー）を1会話で実現可能。AI GatewayとMCPサーバーで外部AIツール（Claude・ChatGPT等）との接続も可能。権限設定でエージェントの自律度を制御可能。",
+      "links": {
+        "80.lv記事": "https://80.lv/articles/unity-launches-in-editor-ai-tools-suite-in-beta",
+        "Unity公式フォーラム": "https://discussions.unity.com/t/unity-ai-s-open-beta-now-live-for-unity-6/1718560"
+      }
+    },
+    {
+      "name": "DirectX 5月リリース: PIX API公開・GPUキャプチャ40%高速化・コンソールレベルツールをWindowsに",
+      "level": "7",
+      "overview": "DirectX GPU開発ツールが5月大幅強化。PIX APIが公開、GPUキャプチャフォーマット刷新で40%高速化、ハードウェアカウンタリアルタイム表示対応。",
+      "detail": "GDC 2026（3月）で発表されたDirectX GPU開発ツール強化が2026年5月にリリース。GPUキャプチャフォーマット刷新：UE5での解析開始時間40%高速化、シェーダーPDBのキャプチャファイルへの保存、エクスプローラーでのサムネイル表示。PIX APIが初の公開リリース（C++・C#・Python対応、D3D12スタイルnano-COMインターフェース）。PIX System MonitorビューでハードウェアパートナーのPIXプラグインによる低レベルカウンタをリアルタイム表示可能。タイルマッピングビューア追加。DirectX Dump Filesは6月上旬プレビュー予定（本番は10月頃）。Xbox Partner CenterにSODBファイルアップロードUIも追加。コンソールレベルの開発ツールをWindowsゲーム開発者に提供する取り組みの一環。",
+      "links": {
+        "DirectXブログ（コンソールレベルツール）": "https://devblogs.microsoft.com/directx/directx-bringing-console-level-developer-tools-to-windows/",
+        "Advanced Shader Delivery": "https://devblogs.microsoft.com/directx/advanced-shader-delivery-whats-new-at-gdc-2026/",
+        "DirectX GDC 2026": "https://devblogs.microsoft.com/directx/directx-gdc-2026/"
+      }
+    },
+    {
+      "name": "NeXus for Blender プレビュー公開: VulkanベースGPU粒子シミュレーターが近日リリース",
+      "level": "7",
+      "overview": "InsydiumのGPU粒子シミュ「NeXus」がBlender版を間近リリース。C4D版より高速、VulkanベースでAMD・Apple・Intel・NVIDIA全GPU対応。",
+      "detail": "InsydiumがNeXus for Blenderのプレビュー動画を毎週公開開始。2022年発表・2023年予定から延期されていたBlender版がついに復活しリリース間近。C4D版と全機能同等かつ性能はC4D版を上回る。VulkanベースのためAMD・Apple・Intel・NVIDIAのGPUを問わず対応。粒子エフェクト・粒子流体・液体・気体シミュレーション機能を含む包括的ツールキット。NeXusパーティクルをBlenderネイティブパーティクルおよびGeometry Nodesへエクスポート可能（キャッシュエクスポート対応）。Perpetualライセンスで提供予定。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/sneak-peek-nexus-for-blender/",
+        "80.lv記事": "https://80.lv/articles/insydium-teases-nexus-for-blender"
+      }
+    },
+    {
+      "name": "NINJA GAIDEN 4 Houdini活用事例 オンライン無料配信開始",
+      "level": "6",
+      "overview": "プラチナゲームズが『NINJA GAIDEN 4』でのHoudini活用事例をオンライン配信開始。自社エンジンとの連携パイプライン実装を解説（5/12〜）。",
+      "detail": "GAME CREATORS CONFERENCE '26（2026年3月28日大阪開催）にてプラチナゲームズの堀内氏が登壇した『NINJA GAIDEN 4』Houdini活用事例セッションが2026年5月12日よりオンライン無料配信開始。敵の切断表現の実装例と自社エンジンとのHoudiniアセット・レイアウトパイプライン実装を解説。Houdiniとカスタムゲームエンジンのデータ接続方法・実装方針・運用改善手法が含まれる。ゲーム開発現場でのHoudini実運用に興味がある開発者向けの実践的内容。",
+      "links": {
+        "セミナーページ（ボーンデジタル）": "https://www.borndigital.co.jp/seminar/houdini-ninjagaiden4-sem/"
+      }
+    },
+    {
+      "name": "CRTディスプレイ挙動完全再現カスタムゲームエンジン公開",
+      "level": "5",
+      "overview": "実際のCRTディスプレイ挙動をシミュレートするカスタムゲームエンジンが公開。電子ビームの物理挙動・フォスファー残光・スキャンラインを忠実に再現。",
+      "detail": "80.lvで紹介されたカスタムゲームエンジンは、従来のピクセルベースレンダリングではなくCRTディスプレイの実際の物理挙動をシミュレートすることに特化。電子ビームのトレース、フォスファーの残光、スキャンラインのソフトネスなど本物のCRTに見られる特性を物理ベースでエミュレート。レトロゲームの視覚的美学を現代の技術で忠実に再現することを目指しており、ピクセルアートゲームやレトロスタイル作品の表現に特にマッチした技術的アプローチ。",
+      "links": {
+        "80.lv記事": "https://80.lv/articles/custom-retro-game-engine-that-simulates-real-crt-displays-behavior"
+      }
+    },
+    {
+      "name": "CGWORLD vol.334「WEB×3DCG」特集 5月9日発売",
+      "level": "5",
+      "overview": "CGWORLD 2026年6月号（5/9発売）はWEB×3DCG特集。WebGL登場から10年以上、ブラウザ3D表現の現在と未来を探る特集内容。",
+      "detail": "CGWORLD vol.334（2026年6月号）が2026年5月9日に発売。「WEB ✕ 3DCG」を特集し、WebGLが登場してから10年以上が経過した現在、3DCGがブラウザ上で当たり前に扱われるようになった背景を踏まえてWebにおける3D表現の現状と将来を特集。Three.js・Babylon.js・WebGPUなど現代Web 3D技術を対象とした制作事例や技術動向を掲載。",
+      "links": {
+        "CGWORLD公式": "https://cgworld.jp/magazine/cgw334.html"
+      }
+    }
+  ]
+}
