@@ -489,6 +489,98 @@
 
 <hr>
 
+<!-- エンジニア向け技術情報 -->
+<h2>技術情報（エンジニア向け）</h2>
+
+<h3>技術スタック</h3>
+<table>
+  <tr><th>レイヤー</th><th>技術</th><th>備考</th></tr>
+  <tr><td>サーバー言語</td><td>Python 3.8+</td><td>外部パッケージ不要（標準ライブラリのみ）</td></tr>
+  <tr><td>HTTP サーバー</td><td><code>http.server.ThreadingHTTPServer</code></td><td>マルチスレッド対応の標準実装</td></tr>
+  <tr><td>HTTP クライアント</td><td><code>urllib.request</code></td><td>requests 等の外部ライブラリ不使用</td></tr>
+  <tr><td>XML パース</td><td><code>xml.etree.ElementTree</code></td><td>YouTube RSS の解析に使用</td></tr>
+  <tr><td>フロントエンド</td><td>Vanilla JS / HTML / CSS</td><td>フレームワーク・ビルドツール不使用、単一ファイル</td></tr>
+  <tr><td>データ保存</td><td>JSON ファイル（ローカル）</td><td>DB 不使用。atomic replace（tmp → rename）で書き込み</td></tr>
+  <tr><td>パッケージング</td><td>PyInstaller 6.x</td><td><code>index.html</code> を exe に同梱、<code>--onefile</code> ではなく <code>--onedir</code></td></tr>
+</table>
+
+<h3>外部 API 呼び出しフロー</h3>
+<pre>refresh_loop（refresh_interval 秒ごと、稼働時間内のみ）
+  │
+  ├─ [YouTube チャンネルごと]
+  │    ├─ YouTube RSS フィード          … クォータ消費なし
+  │    │    └─ 最新 15 件の動画 ID を取得
+  │    └─ videos.list（50件/コール）    … 1 ユニット/コール
+  │         └─ type / duration / scheduledAt を付与
+  │
+  ├─ [Twitch チャンネルごと]
+  │    ├─ Helix streams API             … クォータなし
+  │    ├─ Helix schedule API            … クォータなし
+  │    └─ Helix videos API（VOD）       … クォータなし
+  │
+  ├─ _recheck_pinned                    … 1 ユニット/コール
+  │    └─ キャッシュ中の upcoming/live を videos.list で再確認
+  │         終了済み・削除済みを除外し、開始済みを live に昇格
+  │
+  └─ cache.json に atomic write
+        ↓
+[ブラウザ] GET /api/streams → キャッシュ返却（即時）</pre>
+
+<h3>クォータ消費の計算式</h3>
+<pre>1回の更新あたり消費ユニット数（YouTube）
+  = ceil( RSS取得動画数合計 / 50 )          ← fetch_youtube_streams
+  + ceil( upcoming/liveキャッシュ数 / 50 )  ← _recheck_pinned
+
+1日の消費量（目安）
+  = 上記 × floor( 86400 / refresh_interval )
+
+例: 30チャンネル・各15件・pinned=5件・refresh_interval=900（15分）
+  = ( ceil(450/50) + ceil(5/50) ) × 96
+  = ( 9 + 1 ) × 96 = 960 ユニット/日</pre>
+
+<h3>REST API エンドポイント</h3>
+<table>
+  <tr><th>Method</th><th>Path</th><th>説明</th></tr>
+  <tr><td>GET</td><td><code>/api/streams</code></td><td>キャッシュ済みストリーム一覧（JSON 配列）</td></tr>
+  <tr><td>GET</td><td><code>/api/channels</code></td><td>登録チャンネル一覧</td></tr>
+  <tr><td>GET</td><td><code>/api/config</code></td><td>設定値（APIキー・Secret はマスク済み）</td></tr>
+  <tr><td>GET</td><td><code>/api/status</code></td><td>接続状態・最終更新時刻・稼働時間状態</td></tr>
+  <tr><td>GET</td><td><code>/api/stats</code></td><td>API 使用統計（日次・累計・履歴）</td></tr>
+  <tr><td>GET</td><td><code>/api/tags</code></td><td>タグ一覧</td></tr>
+  <tr><td>POST</td><td><code>/api/channels</code></td><td>チャンネル追加（URL 解決 → 即時更新）</td></tr>
+  <tr><td>POST</td><td><code>/api/refresh</code></td><td>手動更新トリガー（非同期）</td></tr>
+  <tr><td>POST</td><td><code>/api/config</code></td><td>設定保存</td></tr>
+  <tr><td>POST</td><td><code>/api/tags</code></td><td>タグ追加</td></tr>
+  <tr><td>POST</td><td><code>/api/tags/reorder</code></td><td>タグ並び替え</td></tr>
+  <tr><td>POST</td><td><code>/api/channels/reorder</code></td><td>チャンネル並び替え</td></tr>
+  <tr><td>PUT</td><td><code>/api/channels/:id</code></td><td>チャンネル名・タグ編集</td></tr>
+  <tr><td>DELETE</td><td><code>/api/channels/:id</code></td><td>チャンネル削除（キャッシュも除去）</td></tr>
+  <tr><td>DELETE</td><td><code>/api/tags/:name</code></td><td>タグ削除（チャンネルからも除去）</td></tr>
+</table>
+<blockquote class="info">
+  全エンドポイントに <code>Access-Control-Allow-Origin: *</code> を付与。<code>file://</code> から開いた <code>index.html</code> 経由でのローカルアクセスに対応しています。
+</blockquote>
+
+<h3>ストリームオブジェクトのスキーマ</h3>
+<pre>{
+  "id":              "動画ID（YouTube）/ ユーザーID（Twitch）",
+  "channelId":       "チャンネルID",
+  "channelName":     "チャンネル名",
+  "channelThumbnail":"チャンネルアイコン URL",
+  "title":           "タイトル",
+  "url":             "視聴 URL",
+  "thumbnail":       "サムネイル URL",
+  "platform":        "youtube | twitch",
+  "type":            "live | upcoming | premiere | archive | short | member | video",
+  "publishedAt":     "ISO 8601",
+  "scheduledAt":     "ISO 8601 | null",
+  "actualStart":     "ISO 8601 | null",
+  "actualEnd":       "ISO 8601 | null",
+  "duration":        "ISO 8601 duration（PT1H2M3S）| null"
+}</pre>
+
+<hr>
+
 <!-- 改変方法 -->
 <h2>改変方法</h2>
 
