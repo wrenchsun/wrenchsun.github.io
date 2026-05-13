@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "name": "単一画像から顔と髪を分離したリアルタイム3D頭部アバター生成手法「CompHairHead」発表",
+      "level": "8",
+      "overview": "単一画像から顔と髪を分離し3DGS+FLAME+物理演算でリアルタイム動作するアバター生成手法「CompHairHead」を発表。",
+      "detail": "西安交通大学の研究チームが発表した「One-shot Compositional 3D Head Avatars with Deformable Hair」（CompHairHead）は、1枚の正面画像から高品質な3D頭部アバターを生成する新手法。入力画像からスキンヘッド画像を生成して顔と髪を完全に分離し、それぞれを3DGS（3D Gaussian Splatting）で高精細な3Dモデルに変換する。顔部分は表情・骨格制御可能なFLAMEメッシュにリギングし、自然な表情アニメーションを実現。髪部分はケージ構造と位置ベース物理シミュレーションを適用し、重力・慣性・頭部動作に連動したリアルタイムヘアアニメーションを実現する。スキンヘッド生成にはBoundary-aware Reassignment戦略を用い、境界部のノイズを除去。ヘアスタイル転送も可能。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/01-202605-1shotHead.html",
+        "Project Page": "https://yuansun-xjtu.github.io/CompHairHead.io/"
+      }
+    },
+    {
+      "name": "SideFX、Houdiniチュートリアル「Designed Chaos」公開：Sphereライブ向けプロシージャルVFX技法",
+      "level": "7",
+      "overview": "SideFXがHoudiniチュートリアル「Designed Chaos」を公開。Sphereライブ向けプロシージャルVFX技法を詳解。",
+      "detail": "OFFF HIVE 2026イベントでのArtur Gadzhiev氏によるHoudini講演動画が公開された。ラスベガスの巨大球体施設「Sphere」で開催されたAnymaのライブショー向けに、超高解像度・球体スクリーン対応のプロシージャルVFXをどのように構築したかを解説。主要トピックは以下の通り：①Vellumクロスシミュレーション（Sweep+Remeshによるトポロジー生成、Rest Length Scale/Bend Stiffnessの調整、Retimeによる重量感表現、Attribute Blurでのノイズ除去）、②平面グリッドから有機的クリーチャー生成（VEXによる骨組み自動構築、Vellum Softによるセカンダリモーション、Point Deformで複雑メッシュへの動き転写）、③平面グリッドを2つのBendノードで球体に変換するシンプルアプローチ、④8K・6000フレームの「Human Now」MV制作事例。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/01-202605-Houdini-DesignedChaos.html",
+        "YouTube": "https://www.youtube.com/watch?v=biXKFHpzNVc"
+      }
+    },
+    {
+      "name": "原田勝弘氏、新スタジオ「VS STUDIO SNK」設立を発表。対人アクションゲーム開発へ",
+      "level": "6",
+      "overview": "鉄拳シリーズ原田勝弘氏がSNK支援のもと新スタジオ「VS STUDIO SNK」を設立。対人アクションゲーム開発に挑む。",
+      "detail": "『鉄拳』シリーズのゲームプロデューサー・ゲームディレクターとして知られる原田勝弘氏が、SNKから増資を受ける形で新スタジオ「VS STUDIO SNK」の設立を発表した。100%子会社ではなく独立性を保ちつつSNKグループ内での活動を予定。スタジオ名「VS」は旧所属のVideo game Software開発部、対戦ゲーム（versus）、ヴァンガードスピリットなどの意味を込めている。開発タイトルはまだ未確定だが、「最も得意で期待されている対人アクションゲームから着手したい」と表明。採用は年齢問わず情熱と好奇心を持つクリエイターを求めている。格闘ゲーム市場については「長期的には成長を続けているジャンルで、世界を巻き込むエンターテインメントになってきている」と分析した。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/01-202605-VSSTUDIOSNK.html"
+      }
+    }
+  ]
+}
