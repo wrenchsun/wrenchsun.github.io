@@ -1,647 +1,1854 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Livelist — README</title>
+<title>Livelist</title>
+<link rel="icon" href="asset/favicon.ico" sizes="any">
 <link rel="icon" href="asset/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="asset/icon-180.png">
 <style>
-  @page {
-    size: A4;
-    margin: 20mm 18mm 22mm 18mm;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: 'Yu Gothic', 'Meiryo', 'Hiragino Sans', sans-serif;
-    font-size: 10.5pt;
-    line-height: 1.75;
-    color: #1a1a2e;
-    background: #fff;
-    max-width: 740px;
-    margin: 0 auto;
-    padding: 32px 24px;
-  }
+*,::before,::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#09090f;--surf:#111119;--surf2:#18182a;
+  --b1:#1c1c2e;--b2:#282840;
+  --txt:#ddddf0;--txt2:#8888b0;--txt3:#44446a;
+  --live:#ff3a3a;--upcoming:#4a9eff;--premiere:#a855f7;
+  --archive:#6b7280;--short:#22d3ee;--video:#d4d4d4;
+  --green:#22c55e;--red:#ef4444;--twitch:#9147ff;
+  --accent:#4a9eff;--sidebar-w:228px;
+}
+[data-theme="midnight"]{--bg:#000000;--surf:#0d0d0d;--surf2:#161616;--b1:#1f1f1f;--b2:#2a2a2a;--txt:#f0f0f0;--txt2:#808080;--txt3:#404040}
+[data-theme="slate"]{--bg:#0d1117;--surf:#161b22;--surf2:#1f2937;--b1:#21262d;--b2:#30363d;--txt:#e6edf3;--txt2:#8b949e;--txt3:#484f58}
+[data-theme="light"]{--bg:#f0f0f5;--surf:#ffffff;--surf2:#f5f5fa;--b1:#e0e0ea;--b2:#ccccda;--txt:#1a1a2e;--txt2:#555570;--txt3:#9999aa;--live:#cc1111;--premiere:#8833d4}
+html,body{height:100%}
+body{font-family:'Segoe UI','Yu Gothic UI',system-ui,sans-serif;
+  background:var(--bg);color:var(--txt);font-size:14px;line-height:1.5;
+  display:flex;flex-direction:column;}
 
-  h1 {
-    font-size: 20pt;
-    font-weight: 700;
-    color: #0f0f23;
-    border-bottom: 3px solid #4a9eff;
-    padding-bottom: 8px;
-    margin-bottom: 10px;
-  }
-  h1 + p {
-    color: #444466;
-    font-size: 10pt;
-    margin-bottom: 24px;
-  }
-  h2 {
-    font-size: 13pt;
-    font-weight: 700;
-    color: #0f0f23;
-    border-left: 4px solid #4a9eff;
-    padding: 3px 0 3px 10px;
-    margin: 28px 0 10px;
-    page-break-after: avoid;
-  }
-  h3 {
-    font-size: 11pt;
-    font-weight: 700;
-    color: #1e3a5f;
-    margin: 18px 0 7px;
-    page-break-after: avoid;
-  }
-  h4 {
-    font-size: 10.5pt;
-    font-weight: 700;
-    color: #2c4a6e;
-    margin: 12px 0 5px;
-  }
-  p { margin: 6px 0; }
+/* ── Status bar ── */
+#statusBar{
+  flex-shrink:0;background:var(--bg);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--b1);padding:0 16px;height:44px;
+  display:flex;align-items:center;justify-content:space-between;
+  position:sticky;top:0;z-index:100;
+}
+.status-left{display:flex;align-items:center;gap:10px}
+.status-dot{width:8px;height:8px;border-radius:50%;background:var(--txt3);flex-shrink:0;transition:background .3s}
+.status-dot.connected{background:var(--green)}
+.status-dot.error{background:var(--red);animation:blink 1.2s ease-in-out infinite}
+.status-text{font-size:12px;color:var(--txt2)}
+.status-right{display:flex;align-items:center;gap:6px}
+.last-update{font-size:11px;color:var(--txt3);margin-right:4px}
+.sbar-btn{width:30px;height:30px;border-radius:6px;border:1px solid var(--b2);background:transparent;
+  color:var(--txt2);cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:all .15s}
+.sbar-btn:hover{border-color:var(--accent);color:var(--accent)}
+.sbar-btn.spin{animation:spin .6s linear}
 
-  hr {
-    border: none;
-    border-top: 1px solid #d0d8e8;
-    margin: 20px 0;
-  }
+/* ── Setup banner ── */
+#setupBanner{
+  flex-shrink:0;background:rgba(74,158,255,.08);border-bottom:1px solid rgba(74,158,255,.2);
+  padding:8px 16px;display:none;align-items:center;gap:8px;flex-wrap:wrap;
+}
+#setupBanner span{font-size:12px;color:var(--accent);white-space:nowrap}
+.server-combo{display:flex;gap:6px;flex:1;min-width:260px;max-width:480px;align-items:center;flex-wrap:wrap}
+.server-combo select,.server-combo input{
+  padding:5px 10px;border-radius:6px;border:1px solid rgba(74,158,255,.4);
+  background:var(--bg);color:var(--txt);font-size:12px;outline:none;transition:border-color .15s;}
+.server-combo select:focus,.server-combo input:focus{border-color:var(--accent)}
+.server-combo select{flex:1;min-width:180px;cursor:pointer}
+.server-combo input{flex:1;min-width:180px}
+.server-combo input::placeholder{color:var(--txt3)}
+#setupBanner button{padding:5px 14px;border-radius:6px;border:none;
+  background:var(--accent);color:#fff;cursor:pointer;font-size:12px;font-weight:600;white-space:nowrap}
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 10px 0 14px;
-    font-size: 9.5pt;
-    page-break-inside: avoid;
-  }
-  th {
-    background: #e8f0fe;
-    color: #1a1a2e;
-    font-weight: 700;
-    padding: 6px 10px;
-    border: 1px solid #c0cfe8;
-    text-align: left;
-  }
-  td {
-    padding: 5px 10px;
-    border: 1px solid #d0d8e8;
-    vertical-align: top;
-  }
-  tr:nth-child(even) td { background: #f5f8ff; }
+/* ── Tag filter bar ── */
+#tagFilterBar{
+  flex-shrink:0;background:var(--surf);border-bottom:1px solid var(--b1);
+  padding:8px 16px;display:flex;align-items:center;gap:6px;
+  overflow-x:auto;white-space:nowrap;
+}
+#tagFilterBar::-webkit-scrollbar{height:3px}
+#tagFilterBar::-webkit-scrollbar-thumb{background:var(--b2);border-radius:2px}
+.tag-chip{
+  padding:4px 12px;border-radius:14px;border:1px solid var(--b2);
+  background:transparent;color:var(--txt2);cursor:pointer;
+  font-size:12px;font-weight:500;white-space:nowrap;transition:all .15s;flex-shrink:0;
+}
+.tag-chip:hover{border-color:var(--accent);color:var(--accent)}
+.tag-chip.active{border-color:var(--accent);color:var(--accent);background:rgba(74,158,255,.12)}
 
-  code {
-    font-family: 'Consolas', 'Courier New', monospace;
-    font-size: 9pt;
-    background: #eef2ff;
-    border: 1px solid #c8d4f0;
-    border-radius: 3px;
-    padding: 1px 5px;
-  }
-  pre {
-    background: #f0f4ff;
-    border: 1px solid #c8d4f0;
-    border-radius: 5px;
-    padding: 10px 14px;
-    font-family: 'Consolas', 'Courier New', monospace;
-    font-size: 9.5pt;
-    margin: 8px 0;
-    page-break-inside: avoid;
-    white-space: pre-wrap;
-  }
-  pre code { background: none; border: none; padding: 0; }
+/* ── App layout ── */
+.app{display:flex;flex:1;overflow:hidden;min-height:0;position:relative}
 
-  blockquote {
-    background: #fff8e8;
-    border-left: 4px solid #f59e0b;
-    padding: 7px 12px;
-    margin: 8px 0;
-    font-size: 9.5pt;
-    color: #554400;
-    page-break-inside: avoid;
-  }
-  blockquote strong { color: #aa6600; }
-  blockquote.info {
-    background: #f0f6ff;
-    border-left-color: #4a9eff;
-    color: #1a3a6e;
-  }
-  blockquote.info strong { color: #1a3a6e; }
+/* ── Sidebar ── */
+#sidebar{width:var(--sidebar-w);flex-shrink:0;background:var(--surf);border-right:1px solid var(--b1);display:flex;flex-direction:column;overflow:hidden}
+.sidebar-head{padding:10px 12px 9px;border-bottom:1px solid var(--b1);display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.sidebar-title{font-size:11px;font-weight:700;letter-spacing:1px;color:var(--txt3);text-transform:uppercase}
+.add-ch-btn{width:26px;height:26px;border-radius:6px;border:1px solid var(--b2);background:transparent;
+  color:var(--txt2);cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;transition:all .15s;line-height:1}
+.add-ch-btn:hover{border-color:var(--accent);color:var(--accent)}
+#channelList{flex:1;overflow-y:auto;padding:5px}
+#channelList::-webkit-scrollbar{width:4px}
+#channelList::-webkit-scrollbar-thumb{background:var(--b2);border-radius:2px}
+.sidebar-empty{padding:24px 14px;text-align:center;font-size:12px;color:var(--txt3);line-height:1.7}
 
-  ul, ol {
-    padding-left: 20px;
-    margin: 6px 0;
-  }
-  li { margin: 3px 0; }
+/* Channel item */
+.ch-item{
+  display:flex;align-items:center;gap:7px;
+  padding:6px 7px;border-radius:8px;cursor:default;transition:background .12s;
+  position:relative;
+}
+.ch-item:hover{background:var(--surf2)}
+.ch-item:hover .ch-actions{opacity:1}
+.ch-item.dragging{opacity:.4}
+.ch-item.drag-over{border-top:2px solid var(--accent)}
+.drag-handle{
+  cursor:grab;color:var(--txt3);font-size:13px;flex-shrink:0;
+  padding:2px 1px;user-select:none;line-height:1;
+}
+.drag-handle:active{cursor:grabbing}
+.ch-avatar{width:26px;height:26px;border-radius:50%;object-fit:cover;flex-shrink:0}
+.ch-avatar-init{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0;text-transform:uppercase}
+.ch-name{font-size:12px;color:var(--txt2);flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ch-tags-row{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;margin-top:1px}
+.ch-tag-pip{display:inline-block;font-size:9px;padding:0px 5px;border-radius:6px;background:var(--surf2);color:var(--txt3);border:1px solid var(--b2);margin-right:3px;vertical-align:middle}
+.ch-actions{display:flex;gap:3px;opacity:0;transition:opacity .12s;flex-shrink:0}
+.ch-action-btn{width:20px;height:20px;border-radius:4px;border:none;background:transparent;color:var(--txt3);cursor:pointer;font-size:11px;display:flex;align-items:center;justify-content:center;transition:color .12s}
+.ch-action-btn.edit:hover{color:var(--accent)}
+.ch-action-btn.del:hover{color:var(--live)}
 
-  .badge {
-    display: inline-block;
-    background: #4a9eff;
-    color: #fff;
-    font-size: 8pt;
-    font-weight: 700;
-    padding: 1px 7px;
-    border-radius: 10px;
-    vertical-align: middle;
-    margin-right: 4px;
-  }
-  .badge.twitch { background: #9147ff; }
-  .badge.warn   { background: #ef4444; }
-  .badge.green  { background: #22c55e; }
-  .badge.gray   { background: #888; }
+/* ── Main ── */
+#main{flex:1;overflow-y:auto;padding:18px 20px 80px;min-width:0}
+#main::-webkit-scrollbar{width:6px}
+#main::-webkit-scrollbar-thumb{background:var(--b2);border-radius:3px}
 
-  .cover {
-    text-align: center;
-    padding: 60px 0 40px;
-    page-break-after: always;
-  }
-  .cover h1 {
-    border: none;
-    font-size: 26pt;
-    margin-bottom: 6px;
-  }
-  .cover .sub {
-    font-size: 12pt;
-    color: #4a9eff;
-    font-weight: 600;
-    margin-bottom: 40px;
-  }
-  .cover .meta {
-    font-size: 9pt;
-    color: #888;
-  }
+/* ── Sections ── */
+.section{margin-bottom:30px}
+.section-head{display:flex;align-items:center;gap:10px;margin-bottom:12px;padding-bottom:9px;border-bottom:1px solid var(--b1)}
+.section-label{font-size:11px;font-weight:700;letter-spacing:1.2px;color:var(--txt3);text-transform:uppercase;flex:1}
+.section-label.live{color:var(--live)}
+.section-count{font-size:10px;color:var(--txt3);background:var(--surf2);border:1px solid var(--b2);padding:1px 7px;border-radius:10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.cards.live-grid{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+/* ── Display modes ── */
+.cards.mode-grid-m{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.cards.mode-grid-s{grid-template-columns:repeat(auto-fill,minmax(155px,1fr))}
+.cards.mode-grid-s .card-title{font-size:12px;-webkit-line-clamp:1}
+.cards.mode-grid-s .card-ch-name{font-size:10px}
+.cards.mode-list,.cards.mode-compact{display:flex;flex-direction:column;gap:4px}
+.cards.mode-list .card{flex-direction:row}
+.cards.mode-list .thumb-wrap{width:160px;min-width:160px;aspect-ratio:unset;height:90px}
+.cards.mode-list .card-body{padding:8px 12px;justify-content:center}
+.cards.mode-compact .card{flex-direction:row;align-items:center;border-radius:6px}
+.cards.mode-compact .thumb-wrap{display:none}
+.cards.mode-compact .card-body{flex-direction:row;align-items:center;padding:5px 10px;gap:8px;min-width:0}
+.cards.mode-compact .card-title{flex:1;-webkit-line-clamp:unset;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px}
+.cards.mode-compact .card-time{flex-shrink:0;white-space:nowrap;font-size:10px}
+.cards.mode-compact .card-ch{flex-shrink:0;max-width:130px}
+a.card-ch{text-decoration:none}
+a.card-ch:hover .card-ch-name{color:var(--txt);text-decoration:underline}
 
-  .section-box {
-    background: #f5f8ff;
-    border: 1px solid #d0daf0;
-    border-radius: 6px;
-    padding: 12px 16px;
-    margin: 10px 0;
-    page-break-inside: avoid;
-  }
+/* ── Cards ── */
+.card{background:var(--surf);border:1px solid var(--b1);border-radius:10px;overflow:hidden;
+  transition:transform .14s,border-color .14s,box-shadow .14s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-2px);border-color:var(--b2);box-shadow:0 8px 28px rgba(0,0,0,.4)}
+.card.live{border-color:rgba(255,58,58,.3)}
+.card.upcoming{border-color:rgba(74,158,255,.2)}
+.card.premiere{border-color:rgba(168,85,247,.2)}
+.thumb-wrap{position:relative;display:block;aspect-ratio:16/9;overflow:hidden;background:#0d0d18;flex-shrink:0;text-decoration:none}
+.card-thumb{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s}
+.card:hover .card-thumb{transform:scale(1.04)}
+.thumb-overlay{position:absolute;inset:0;background:rgba(0,0,0,0);display:flex;align-items:center;justify-content:center;transition:background .2s}
+.card:hover .thumb-overlay{background:rgba(0,0,0,.25)}
+.play-circle{width:44px;height:44px;border-radius:50%;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .2s;font-size:16px;color:#fff}
+.card:hover .play-circle{opacity:1}
+.type-badge{position:absolute;top:7px;left:7px;font-size:10px;font-weight:700;letter-spacing:.6px;padding:2px 8px;border-radius:4px;backdrop-filter:blur(4px)}
+.type-live{background:rgba(255,50,50,.85);color:#fff;animation:blink 1.8s ease-in-out infinite}
+.type-upcoming{background:rgba(74,158,255,.85);color:#fff}
+.type-premiere{background:rgba(168,85,247,.85);color:#fff}
+.type-archive{background:rgba(107,114,128,.85);color:#fff}
+.type-short{background:rgba(34,211,238,.85);color:#000}
+.type-video{background:rgba(0,0,0,.7);color:#ddd}
+.duration-badge{position:absolute;bottom:5px;right:5px;font-size:10px;font-weight:600;padding:1px 5px;border-radius:3px;background:rgba(0,0,0,.75);color:#fff}
+.platform-badge{position:absolute;top:7px;right:7px;font-size:9px;font-weight:700;letter-spacing:.4px;padding:2px 6px;border-radius:4px;backdrop-filter:blur(4px)}
+.platform-twitch{background:rgba(145,71,255,.85);color:#fff}
+.ch-platform-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;display:inline-block;margin-left:2px}
+.ch-platform-twitch{background:var(--twitch)}
+.type-member{background:rgba(234,179,8,.85);color:#000}
 
-  @media print {
-    body { padding: 0; }
-    a { color: inherit; text-decoration: none; }
-  }
-</style>
-<style>
-  .ss-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0; }
-  .ss-grid.single { grid-template-columns:1fr; }
-  .ss-item { text-align:center; }
-  .ss-item img { width:100%; border:1px solid #d0d8e8; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,.12); page-break-inside:avoid; }
-  .ss-caption { font-size:9pt; color:#666; margin-top:4px; }
-  @media print { .ss-grid { page-break-inside:avoid; } }
+/* ── Type filter panel ── */
+#typeFilterPanel{
+  flex-shrink:0;background:var(--surf);border-bottom:1px solid var(--b1);
+  padding:7px 16px;display:none;align-items:center;gap:8px;flex-wrap:wrap;
+}
+#typeFilterPanel.open{display:flex}
+.type-filter-label{font-size:10px;font-weight:700;letter-spacing:.8px;color:var(--txt3);text-transform:uppercase;white-space:nowrap;margin-right:2px}
+.type-chip{
+  display:flex;align-items:center;gap:5px;
+  padding:4px 10px;border-radius:14px;border:1px solid var(--b2);
+  background:transparent;color:var(--txt3);cursor:pointer;
+  font-size:11px;font-weight:500;white-space:nowrap;transition:all .15s;flex-shrink:0;
+}
+.type-chip.on{color:var(--txt);border-color:var(--txt3)}
+.type-chip .tc-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.type-chip-all{padding:4px 10px;border-radius:14px;border:1px solid var(--b2);background:transparent;color:var(--txt3);cursor:pointer;font-size:11px;transition:all .15s;white-space:nowrap}
+.type-chip-all:hover{border-color:var(--accent);color:var(--accent)}
+.tf-sep{width:1px;height:16px;background:var(--b2);margin:0 2px;flex-shrink:0}
+.card-body{padding:9px 11px 11px;display:flex;flex-direction:column;gap:5px;flex:1}
+.card-ch{display:flex;align-items:center;gap:6px;min-width:0}
+.card-ch-img{width:18px;height:18px;border-radius:50%;object-fit:cover;flex-shrink:0}
+.card-ch-init{width:18px;height:18px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:700}
+.card-ch-name{font-size:11px;color:var(--txt2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card-title{font-size:13px;font-weight:600;color:var(--txt);line-height:1.4;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-decoration:none}
+.card-title:hover{text-decoration:underline}
+.card-time{font-size:11px;color:var(--txt3);margin-top:1px}
+.card-time.live-t{color:var(--live)}
+.card-time.soon-t{color:var(--upcoming)}
+
+/* ── Empty / Notice ── */
+.notice{background:rgba(74,158,255,.06);border:1px solid rgba(74,158,255,.2);border-radius:8px;padding:11px 15px;font-size:12px;color:var(--txt2);margin-bottom:18px;line-height:1.6}
+.notice a{color:var(--accent);cursor:pointer;text-decoration:underline}
+.empty-state{text-align:center;padding:60px 20px;color:var(--txt3)}
+.empty-icon{font-size:48px;margin-bottom:14px}
+.empty-state p{font-size:13px}
+
+/* ── Wizard ── */
+#wizard{max-width:540px;margin:60px auto;text-align:center}
+.wizard-icon{font-size:56px;margin-bottom:18px}
+.wizard-title{font-size:22px;font-weight:700;margin-bottom:10px}
+.wizard-desc{font-size:14px;color:var(--txt2);line-height:1.7;margin-bottom:24px}
+.wizard-step{background:var(--surf);border:1px solid var(--b2);border-radius:12px;padding:18px 22px;text-align:left;margin-bottom:12px}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:var(--accent);color:#fff;font-size:10px;font-weight:700;margin-right:6px}
+.step-title{font-size:14px;font-weight:600;margin-bottom:3px}
+.step-desc{font-size:12px;color:var(--txt2);line-height:1.6}
+.wizard-btn{margin-top:8px;padding:5px 14px;border-radius:6px;border:none;background:var(--accent);color:#fff;cursor:pointer;font-size:13px;font-weight:600}
+
+/* ── Modal ── */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);backdrop-filter:blur(6px);
+  display:flex;align-items:center;justify-content:center;z-index:300;padding:16px;
+  opacity:0;pointer-events:none;transition:opacity .18s}
+.overlay.open{opacity:1;pointer-events:all}
+.modal{background:var(--surf);border:1px solid var(--b2);border-radius:14px;padding:22px;
+  width:100%;max-width:440px;max-height:90vh;overflow-y:auto;
+  transform:translateY(10px) scale(.98);transition:transform .18s}
+.overlay.open .modal{transform:none}
+.modal.wide{max-width:520px}
+.modal-title{font-size:16px;font-weight:700;margin-bottom:18px}
+.fgroup{margin-bottom:13px}
+.fgroup label{display:block;font-size:10px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--txt3);margin-bottom:5px}
+.fgroup input,.fgroup select,.fgroup textarea{width:100%;padding:8px 11px;background:var(--bg);border:1px solid var(--b2);border-radius:7px;color:var(--txt);font-size:13px;outline:none;transition:border-color .15s;font-family:inherit}
+.fgroup input:focus,.fgroup select:focus,.fgroup textarea:focus{border-color:var(--accent)}
+.fgroup select option{background:var(--surf2)}
+.fgroup .hint{font-size:11px;color:var(--txt3);margin-top:4px;line-height:1.5}
+.modal-foot{display:flex;gap:10px;margin-top:18px}
+.btn-cancel{flex:1;padding:9px;border-radius:7px;border:1px solid var(--b2);background:transparent;color:var(--txt2);cursor:pointer;font-size:13px;font-weight:600;transition:all .15s}
+.btn-cancel:hover{border-color:var(--b2);color:var(--txt)}
+.btn-primary{flex:2;padding:9px;border-radius:7px;border:none;background:var(--accent);color:#fff;cursor:pointer;font-size:13px;font-weight:700;transition:background .15s}
+.btn-primary:hover{background:#5aaeff}
+.btn-primary:disabled{background:var(--b2);cursor:not-allowed;color:var(--txt3)}
+.btn-danger{flex:1;padding:9px;border-radius:7px;border:1px solid rgba(255,58,58,.4);background:transparent;color:var(--live);cursor:pointer;font-size:13px;font-weight:600;transition:all .15s}
+.btn-danger:hover{background:rgba(255,58,58,.1)}
+.modal-msg{font-size:12px;padding:8px 12px;border-radius:6px;margin-top:9px;display:none}
+.modal-msg.error{background:rgba(239,68,68,.1);color:#ef6666;border:1px solid rgba(239,68,68,.2)}
+.modal-msg.info{background:rgba(74,158,255,.08);color:#6ab4ff;border:1px solid rgba(74,158,255,.2)}
+
+/* ── Tag selector (in modals) ── */
+.tag-selector{display:flex;gap:6px;flex-wrap:wrap;min-height:30px;padding:4px 0}
+.tag-option{padding:4px 11px;border-radius:12px;border:1px solid var(--b2);background:transparent;color:var(--txt2);cursor:pointer;font-size:12px;font-weight:500;transition:all .15s}
+.tag-option:hover{border-color:var(--accent);color:var(--accent)}
+.tag-option.sel{border-color:var(--accent);color:var(--accent);background:rgba(74,158,255,.12)}
+.no-tags-hint{font-size:12px;color:var(--txt3)}
+.tag-inline-add{display:flex;gap:5px;align-items:center;margin-top:4px;width:100%}
+.tag-inline-add input{flex:1;min-width:80px;max-width:160px;padding:3px 8px;border-radius:10px;border:1px dashed var(--b2);background:transparent;color:var(--txt);font-size:11px;outline:none;transition:border-color .15s}
+.tag-inline-add input:focus{border-color:var(--accent);border-style:solid}
+.tag-inline-add input::placeholder{color:var(--txt3)}
+.tag-inline-add button{padding:3px 9px;border-radius:10px;border:1px solid var(--b2);background:transparent;color:var(--txt3);cursor:pointer;font-size:11px;white-space:nowrap;transition:all .15s}
+.tag-inline-add button:hover{border-color:var(--accent);color:var(--accent)}
+
+/* ── Settings ── */
+.settings-row{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--b1);gap:12px}
+.settings-row:last-child{border-bottom:none}
+.settings-label{font-size:13px;flex:1}
+.settings-sub{font-size:11px;color:var(--txt3);margin-top:2px}
+.toggle{width:42px;height:22px;border-radius:11px;background:var(--b2);border:none;cursor:pointer;position:relative;transition:background .2s;flex-shrink:0}
+.toggle::after{content:'';position:absolute;width:16px;height:16px;border-radius:50%;background:#fff;top:3px;left:3px;transition:left .2s}
+.toggle.on{background:var(--accent)}
+.toggle.on::after{left:23px}
+.section-divider{height:1px;background:var(--b1);margin:14px 0}
+
+/* Tag management in settings */
+.tag-manage-list{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;min-height:24px}
+.tag-manage-item{display:flex;align-items:center;gap:4px;padding:3px 8px 3px 10px;border-radius:12px;border:1px solid var(--b2);background:var(--surf2);font-size:12px;color:var(--txt2)}
+.tag-remove-btn{width:16px;height:16px;border-radius:50%;border:none;background:transparent;color:var(--txt3);cursor:pointer;font-size:11px;display:flex;align-items:center;justify-content:center;transition:color .12s}
+.tag-remove-btn:hover{color:var(--live)}
+.tag-add-row{display:flex;gap:7px}
+.tag-add-row input{flex:1;padding:7px 10px;background:var(--bg);border:1px solid var(--b2);border-radius:7px;color:var(--txt);font-size:12px;outline:none;transition:border-color .15s;font-family:inherit}
+.tag-add-row input:focus{border-color:var(--accent)}
+.tag-add-row button{padding:7px 14px;border-radius:7px;border:none;background:var(--accent);color:#fff;cursor:pointer;font-size:12px;font-weight:600;white-space:nowrap}
+
+/* ── Loading ── */
+.loading-inline{display:inline-block;width:13px;height:13px;border-radius:50%;border:2px solid var(--b2);border-top-color:var(--accent);animation:spin .6s linear infinite;vertical-align:middle;margin-right:5px}
+
+/* ── Channel filter ── */
+.ch-clickable{display:flex;align-items:center;gap:7px;flex:1;min-width:0;cursor:pointer;border-radius:6px;padding:1px 3px;margin:-1px -3px;transition:background .12s}
+.ch-clickable:hover{background:rgba(74,158,255,.1)}
+.ch-item.ch-active .ch-clickable{background:rgba(74,158,255,.15)}
+.ch-item.ch-active .ch-name{color:var(--accent)}
+.ch-faded{opacity:.38}
+.ch-group-sep{font-size:9px;font-weight:700;letter-spacing:.8px;color:var(--txt3);text-transform:uppercase;padding:8px 8px 3px;margin-top:4px;border-top:1px solid var(--b1)}
+
+/* ── Channel search ── */
+.ch-search-wrap{display:flex;align-items:center;gap:5px;margin-right:4px}
+.ch-search-input{padding:4px 10px;border-radius:6px;border:1px solid var(--b2);background:var(--surf2);
+  color:var(--txt);font-size:12px;outline:none;width:160px;transition:border-color .15s,width .2s;font-family:inherit}
+.ch-search-input:focus{border-color:var(--accent);width:200px}
+.ch-search-input::placeholder{color:var(--txt3)}
+.search-remaining{font-size:11px;color:var(--txt3);white-space:nowrap;flex-shrink:0}
+/* Search results modal */
+#searchModal .modal{max-width:680px;width:92vw;max-height:80vh;display:flex;flex-direction:column}
+.search-results{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:6px;padding-right:2px}
+.search-results::-webkit-scrollbar{width:4px}
+.search-results::-webkit-scrollbar-thumb{background:var(--b2);border-radius:2px}
+.search-platform-label{font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--txt3);margin:8px 0 4px}
+.search-platform-label:first-child{margin-top:0}
+.search-ch-item{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;
+  background:var(--surf2);border:1px solid var(--b1);transition:border-color .15s}
+.search-ch-item.registered{opacity:.5}
+.search-ch-item:hover{border-color:var(--b2)}
+.search-ch-thumb{width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;background:var(--b2)}
+.search-ch-init{width:36px;height:36px;border-radius:50%;background:var(--surf);border:1px solid var(--b2);
+  display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--txt2);flex-shrink:0}
+.search-ch-info{flex:1;min-width:0}
+.search-ch-name{font-size:13px;font-weight:600;color:var(--txt);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.search-ch-meta{font-size:11px;color:var(--txt3);margin-top:1px}
+.search-ch-actions{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.search-reg-badge{font-size:10px;color:var(--txt3);border:1px solid var(--b2);border-radius:4px;padding:1px 6px;white-space:nowrap}
+.search-add-btn{width:28px;height:28px;border-radius:6px;border:1px solid var(--b2);background:transparent;
+  color:var(--txt2);cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;transition:all .15s}
+.search-add-btn:hover{border-color:var(--accent);color:var(--accent)}
+.search-empty{text-align:center;padding:30px 0;color:var(--txt3);font-size:13px}
+.search-error{font-size:12px;color:var(--live);padding:6px 10px;background:rgba(255,58,58,.08);border-radius:6px;border:1px solid rgba(255,58,58,.2)}
+/* ── Theme / Customization ── */
+.theme-btn{padding:4px 14px;border-radius:6px;border:1px solid var(--b2);background:var(--surf2);color:var(--txt2);cursor:pointer;font-size:12px;transition:all .15s}
+.theme-btn:hover,.theme-btn.active{border-color:var(--accent);color:var(--accent)}
+/* Sidebar resizer */
+#sidebarResizer{width:4px;cursor:col-resize;flex-shrink:0;background:transparent;transition:background .15s;z-index:10}
+#sidebarResizer:hover,#sidebarResizer.dragging{background:var(--accent)}
+/* Sidebar restore tab */
+#sidebarRestoreTab{position:absolute;left:0;top:0;z-index:150;
+  padding:8px 10px;background:var(--surf2);border:1px solid var(--accent);border-left:none;
+  border-radius:0 8px 8px 0;cursor:pointer;color:var(--accent);font-size:16px;
+  display:none;line-height:1;transition:all .15s;box-shadow:2px 0 8px rgba(0,0,0,.3)}
+#sidebarRestoreTab:hover{background:var(--accent);color:#fff}
+body.sidebar-hidden #sidebar,body.sidebar-hidden #sidebarResizer{display:none}
+body.sidebar-hidden #sidebarRestoreTab{display:block}
+/* Header hide/restore */
+body.header-hidden #statusBar{display:none}
+.header-restore{position:fixed;top:0;right:0;z-index:200;padding:6px 14px;background:var(--surf2);
+  border:1px solid var(--accent);border-top:none;border-radius:0 0 0 8px;cursor:pointer;font-size:16px;
+  color:var(--accent);display:none;transition:all .15s;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+body.header-hidden .header-restore{display:block}
+.header-restore:hover{background:var(--accent);color:#fff}
+
+/* ── Animations ── */
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+
+/* ── Responsive ── */
+@media(max-width:640px){
+  #sidebar{display:none}
+  .cards,.cards.live-grid{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
 
-<!-- 表紙 -->
-<div class="cover">
-  <img src="screenshots/icon.png" alt="Livelist icon" style="width:72px;height:72px;border-radius:16px;margin-bottom:12px;display:block;margin-left:auto;margin-right:auto">
-  <h1>Livelist</h1>
-  <div class="sub">YouTube + Twitch 対応版</div>
-  <p style="color:#555;font-size:10pt;margin-bottom:60px">登録チャンネルの配信・動画を自動取得して一覧表示する<br>ローカルネットワーク向け Web アプリ</p>
-  <div class="meta">
-    <span class="badge">YouTube</span>
-    <span class="badge twitch">Twitch</span>
-    &nbsp; Python 不要（exe 版） / インターネット接続必須
+<button class="header-restore" onclick="toggleHeaderVis()" title="ヘッダーを表示">▾</button>
+
+<!-- Status bar -->
+<div id="statusBar">
+  <div class="status-left">
+    <div class="status-dot" id="statusDot"></div>
+    <span class="status-text" id="statusText">接続確認中...</span>
+    <span id="filterCount" style="font-size:11px;color:var(--accent);margin-left:6px"></span>
+    <span id="ohBadge" style="display:none;font-size:11px;color:var(--txt3);margin-left:6px;padding:2px 6px;border-radius:4px;border:1px solid var(--b2)">⏸ 稼働時間外</span>
+  </div>
+  <div class="status-right">
+    <div class="ch-search-wrap">
+      <input id="chSearchInput" class="ch-search-input" type="search" placeholder="🔍 チャンネル検索"
+             onkeydown="if(event.key==='Enter')searchChannels()">
+      <span id="searchRemaining" class="search-remaining"></span>
+    </div>
+    <span class="last-update" id="lastUpdate"></span>
+    <button class="sbar-btn" id="refreshBtn" onclick="manualRefresh()" title="今すぐ更新">↻</button>
+    <button class="sbar-btn" onclick="openStats()" title="API統計">📊</button>
+    <button class="sbar-btn" onclick="openSettings()" title="設定">⚙</button>
+    <button class="sbar-btn" onclick="toggleHeaderVis()" title="ヘッダーを隠す">▴</button>
   </div>
 </div>
 
-<!-- ダウンロード -->
-<h2>ダウンロード</h2>
-<p><a href="https://github.com/wrenchsun/Livelist/releases/latest" target="_blank">📦 GitHub Releases</a> から <code>Livelist_vX.X.X.zip</code> をダウンロードしてください。</p>
-<table>
-  <tr><th>ファイル</th><th>説明</th></tr>
-  <tr><td><code>Livelist_vX.X.X.zip</code></td><td>exe 版（Python インストール不要）</td></tr>
-</table>
-<blockquote class="info">解凍して <code>Livelist.exe</code> を起動するだけで使えます。</blockquote>
+<!-- Server address banner (file:// mode) -->
+<div id="setupBanner">
+  <span>🌐 サーバーアドレス</span>
+  <div class="server-combo">
+    <select id="serverSelect" onchange="onServerSelectChange()"></select>
+    <input id="serverCustom" type="text" placeholder="http://192.168.x.x:8080" style="display:none"
+           onkeydown="if(event.key==='Enter')saveServer()">
+  </div>
+  <button onclick="saveServer()">接続</button>
+</div>
 
-<hr>
+<!-- Tag filter bar -->
+<div id="tagFilterBar"></div>
 
-<!-- スクリーンショット -->
-<h2>スクリーンショット</h2>
-<p style="font-size:9pt;color:#888;margin-bottom:8px">※ 画像は開発中の画面です。実際の表示と一部異なる場合があります。</p>
+<!-- Type filter panel -->
+<div id="typeFilterPanel">
+  <span class="type-filter-label">種別</span>
+</div>
 
-<div class="ss-grid single">
-  <div class="ss-item">
-    <img src="screenshots/main.png" alt="メイン画面">
-    <div class="ss-caption">メイン画面 — タグ・種別・プラットフォームでの絞り込み、サイドバーのチャンネル一覧</div>
+<!-- App -->
+<div class="app">
+  <aside id="sidebar">
+    <div class="sidebar-head">
+      <span class="sidebar-title">チャンネル</span>
+      <div style="display:flex;align-items:center;gap:4px">
+        <button class="add-ch-btn" onclick="openAddChannel()" title="チャンネルを追加">＋</button>
+        <button class="add-ch-btn" onclick="toggleSidebarVis()" title="チャンネルリストを隠す" style="font-size:12px">‹</button>
+      </div>
+    </div>
+    <div id="channelList"><div class="sidebar-empty">チャンネルなし</div></div>
+  </aside>
+  <div id="sidebarResizer"></div>
+  <button id="sidebarRestoreTab" onclick="toggleSidebarVis()" title="チャンネルリストを表示">›</button>
+  <main id="main"><div id="content"></div></main>
+</div>
+
+<!-- ══ Add channel modal ══ -->
+<div class="overlay" id="addModal" onclick="if(event.target===this)closeModal('addModal')">
+  <div class="modal">
+    <div class="modal-title">チャンネルを追加</div>
+    <div class="fgroup">
+      <label>チャンネルURL / チャンネルID</label>
+      <input id="f-url" type="text" placeholder="https://www.youtube.com/@チャンネル名  または  https://www.twitch.tv/username" autocomplete="off">
+      <div class="hint">YouTube: @ハンドル / channel/ / UCで始まるID　／　Twitch: twitch.tv/ユーザー名（要Client ID設定）</div>
+    </div>
+    <div class="fgroup">
+      <label>タグ（複数可）</label>
+      <div class="tag-selector" id="add-tag-sel"></div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn-cancel" onclick="closeModal('addModal')">キャンセル</button>
+      <button class="btn-primary" id="addBtn" onclick="submitAddChannel()">追加する</button>
+    </div>
+    <div class="modal-msg" id="addMsg"></div>
   </div>
 </div>
 
-<div class="ss-grid">
-  <div class="ss-item">
-    <img src="screenshots/settings.png" alt="設定画面">
-    <div class="ss-caption">設定 — API キー・更新間隔・表示範囲・キーワード管理</div>
+<!-- ══ Edit channel modal ══ -->
+<div class="overlay" id="editModal" onclick="if(event.target===this)closeModal('editModal')">
+  <div class="modal">
+    <div class="modal-title">チャンネルを編集</div>
+    <div class="fgroup">
+      <label>チャンネル名</label>
+      <input id="ec-name" type="text">
+    </div>
+    <div class="fgroup">
+      <label>タグ（複数可）</label>
+      <div class="tag-selector" id="edit-tag-sel"></div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn-cancel" onclick="closeModal('editModal')">キャンセル</button>
+      <button class="btn-primary" onclick="saveEditChannel()">保存する</button>
+    </div>
+    <div class="modal-msg" id="editMsg"></div>
   </div>
-  <div class="ss-item">
-    <img src="screenshots/add_channel.png" alt="チャンネル追加">
-    <div class="ss-caption">チャンネル追加 — YouTube / Twitch URL またはチャンネル ID で登録</div>
+</div>
+
+<!-- ══ Stats modal ══ -->
+<div class="overlay" id="searchModal" onclick="if(event.target===this)closeModal('searchModal')">
+  <div class="modal">
+    <div class="modal-title">🔍 チャンネル検索</div>
+    <div id="searchResults" class="search-results"></div>
+    <div class="modal-foot" style="margin-top:12px">
+      <button class="btn-cancel" onclick="closeModal('searchModal')">閉じる</button>
+    </div>
   </div>
 </div>
 
-<div class="ss-grid single">
-  <div class="ss-item">
-    <img src="screenshots/stats.png" alt="API使用統計">
-    <div class="ss-caption">API 使用統計 — クォータ消費量・成功率をリアルタイムで確認</div>
+<div class="overlay" id="statsModal" onclick="if(event.target===this)closeModal('statsModal')">
+  <div class="modal wide" style="max-width:600px">
+    <div class="modal-title">📊 API 使用統計</div>
+    <div id="statsContent" style="font-size:13px"></div>
+    <div class="modal-foot" style="margin-top:14px">
+      <button class="btn-cancel" onclick="closeModal('statsModal')">閉じる</button>
+    </div>
   </div>
 </div>
 
-<hr>
+<!-- ══ Settings modal ══ -->
+<div class="overlay" id="settingsModal" onclick="if(event.target===this)closeModal('settingsModal')">
+  <div class="modal wide">
+    <div class="modal-title">⚙ 設定</div>
 
-<!-- セットアップ -->
-<h2>セットアップ</h2>
+    <!-- Customization -->
+    <div style="font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--txt3);margin-bottom:10px">表示カスタマイズ</div>
+    <div class="fgroup">
+      <label>テーマ</label>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button class="theme-btn" data-t="dark"     onclick="setTheme('dark')">Dark</button>
+        <button class="theme-btn" data-t="midnight" onclick="setTheme('midnight')">Midnight</button>
+        <button class="theme-btn" data-t="slate"    onclick="setTheme('slate')">Slate</button>
+        <button class="theme-btn" data-t="light"    onclick="setTheme('light')">Light</button>
+      </div>
+    </div>
+    <div class="fgroup" style="flex-direction:row;align-items:center;justify-content:space-between;gap:12px">
+      <label style="margin-bottom:0">アクセントカラー</label>
+      <input id="s-accent" type="color" value="#4a9eff" oninput="setAccent(this.value)"
+             style="width:40px;height:30px;border:none;border-radius:5px;cursor:pointer;background:none;padding:0">
+    </div>
 
-<h3>1. サーバーを起動する</h3>
-<p>用途に合わせて 3 つの起動方法があります。</p>
+    <div class="section-divider"></div>
 
-<table>
-  <tr><th>ファイル</th><th>動作</th><th>用途</th></tr>
-  <tr>
-    <td><code>Livelist.exe</code></td>
-    <td>コンソールウィンドウあり</td>
-    <td>通常使用。ログを確認しながら運用したいとき</td>
-  </tr>
-  <tr>
-    <td><code>LivelistBG.exe</code></td>
-    <td>ウィンドウなし・バックグラウンド</td>
-    <td>常駐させたいとき・スタートアップ登録用</td>
-  </tr>
-  <tr>
-    <td><code>start.bat</code></td>
-    <td><code>LivelistBG.exe</code> 優先、なければ <code>Livelist.exe</code>、なければ Python</td>
-    <td>手動で再起動したいとき（既存プロセスを自動終了して再起動）</td>
-  </tr>
-</table>
+    <div class="fgroup">
+      <label>YouTube Data API v3 キー</label>
+      <input id="s-apikey" type="password" placeholder="AIza...">
+      <div class="hint">未設定でも RSS で動画一覧は表示されます（ライブ/予定検出なし）</div>
+    </div>
 
-<p>起動後、ブラウザで以下にアクセスしてください。</p>
-<pre>http://localhost:8080</pre>
+    <div class="section-divider"></div>
 
-<blockquote>起動直後にページが空の場合は、しばらく待ってから ↻ ボタンを押すか F5 でリロードしてください。初回は API への問い合わせが完了するまで数秒〜数十秒かかります。</blockquote>
+    <div style="font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--twitch);margin-bottom:10px">Twitch</div>
+    <div class="fgroup">
+      <label>Twitch Client ID</label>
+      <input id="s-twitch-id" type="text" placeholder="xxxxxxxxxxxxxxxxxxxxxxxxxx">
+      <div class="hint"><a href="https://dev.twitch.tv/console/apps" target="_blank" rel="noopener" style="color:var(--twitch)">Twitch Developer Console</a> でアプリを作成して取得</div>
+    </div>
+    <div class="fgroup">
+      <label>Twitch Client Secret</label>
+      <input id="s-twitch-secret" type="password" placeholder="xxxxxxxxxxxxxxxxxxxxxxxxxx">
+      <div class="hint">設定するとTwitchチャンネルの登録・配信取得が可能になります</div>
+    </div>
 
-<h4>コンソールウィンドウについて（Livelist.exe）</h4>
-<p>起動時に黒いウィンドウ（コンソール）が開きます。サーバーの動作ログが表示され、<strong>閉じるとサーバーも終了します。</strong> 使用中は最小化して残してください。</p>
+    <div class="section-divider"></div>
 
-<h4>バックグラウンドモード（LivelistBG.exe）</h4>
-<p>ウィンドウが一切表示されず、タスクバーにも現れません。タスクマネージャーのプロセス一覧に <code>LivelistBG.exe</code> として表示されます。停止するには <code>stop.bat</code> を実行するか、タスクマネージャーからプロセスを終了してください。</p>
+    <div class="fgroup">
+      <label>更新間隔（秒）</label>
+      <input id="s-interval" type="number" min="60" max="3600" value="600">
+    </div>
 
-<hr>
+    <div class="fgroup">
+      <label>チャンネル検索 1日あたりの上限回数</label>
+      <input id="s-search-max" type="number" min="1" max="90" value="10">
+      <div class="hint">YouTube検索は1回100 quota消費（デフォルト10回、最大90回 = 9,000 quota/日）</div>
+    </div>
 
-<h3>2. PC 起動時に自動起動する（スタートアップ登録）</h3>
+    <div class="fgroup">
+      <label>表示範囲（過去・日数）</label>
+      <input id="s-days-past" type="number" min="1" max="14" value="2">
+      <div class="hint">現在時刻より何日前まで表示するか（1〜14）</div>
+    </div>
 
-<p>Windows のタスクスケジューラーを使って、ログオン時に自動でバックグラウンド起動できます。</p>
+    <div class="fgroup">
+      <label>表示範囲（未来・日数）</label>
+      <input id="s-days-future" type="number" min="1" max="14" value="2">
+      <div class="hint">現在時刻より何日後まで表示するか（1〜14）</div>
+    </div>
 
-<h4>登録</h4>
-<p><code>register-startup.bat</code> をダブルクリックします。<code>LivelistBG.exe</code> が存在する場合はそれを、なければ <code>Livelist.exe</code>、それもなければ Python で起動するよう自動判別して登録します。</p>
-<ol>
-  <li><code>register-startup.bat</code> をダブルクリック</li>
-  <li>「完了」と表示されたら登録成功</li>
-  <li>「今すぐ起動しますか？」に <code>y</code> を入力すると即座にバックグラウンド起動</li>
-</ol>
+    <div class="fgroup" style="flex-direction:row;align-items:center;justify-content:space-between;gap:12px">
+      <div>
+        <label style="margin-bottom:0">ページアクセス時に自動更新</label>
+        <div class="hint" style="margin-top:2px">ページを開いたとき即座にサーバーへ再取得リクエストを送ります</div>
+      </div>
+      <button id="autoRefreshToggle" class="toggle on" onclick="toggleAutoRefresh()"></button>
+    </div>
+    <div class="section-divider"></div>
 
-<h4>解除</h4>
-<p><code>unregister-startup.bat</code> をダブルクリックすると自動起動が解除されます。実行中のサーバーは停止しません。</p>
+    <!-- Tag management -->
+    <div class="fgroup">
+      <label>タグ管理</label>
+      <div class="tag-manage-list" id="tagManageList"></div>
+      <div class="tag-add-row">
+        <input id="newTagInput" type="text" placeholder="新しいタグ名を入力"
+               onkeydown="if(event.key==='Enter')addTag()">
+        <button onclick="addTag()">追加</button>
+      </div>
+    </div>
 
-<h4>確認</h4>
-<p>タスクスケジューラー（<code>taskschd.msc</code>）を開き、「タスクスケジューラーライブラリ」に <code>Livelist</code> が表示されていれば登録されています。</p>
+    <div class="section-divider"></div>
 
-<blockquote>
-  <strong>移動・リネーム後は再登録が必要:</strong> フォルダを移動した場合、タスクスケジューラーに登録されたパスが古いままになります。<code>register-startup.bat</code> を再度実行して登録し直してください。
-</blockquote>
+    <!-- Member keyword management -->
+    <div class="fgroup">
+      <label>メンバー限定キーワード</label>
+      <div class="hint" style="margin-bottom:6px">タイトルにこれらの文字列が含まれる場合「メンバー限定」に分類されます</div>
+      <div class="tag-manage-list" id="memberKeywordList"></div>
+      <div class="tag-add-row">
+        <input id="newKeywordInput" type="text" placeholder="キーワードを入力"
+               onkeydown="if(event.key==='Enter')addMemberKeyword()">
+        <button onclick="addMemberKeyword()">追加</button>
+      </div>
+    </div>
 
-<hr>
+    <div class="section-divider"></div>
 
-<h3>3. チャンネルを登録する</h3>
-<p>サイドバーの <strong>＋</strong> ボタンから URL を入力して追加します。</p>
-<table>
-  <tr><th>プラットフォーム</th><th>対応形式</th><th>例</th></tr>
-  <tr><td>YouTube</td><td>@ハンドル URL</td><td><code>https://www.youtube.com/@チャンネル名</code></td></tr>
-  <tr><td>YouTube</td><td>channel/ URL</td><td><code>https://www.youtube.com/channel/UCxxxxxx</code></td></tr>
-  <tr><td>YouTube</td><td>チャンネル ID</td><td><code>UCxxxxxx</code>（UC から始まる 24 文字）</td></tr>
-  <tr><td>Twitch</td><td>チャンネル URL</td><td><code>https://www.twitch.tv/ユーザー名</code></td></tr>
-</table>
-<blockquote>
-  <strong>サブチャンネルが登録できない場合:</strong> YouTube のサブチャンネルはメインチャンネルと内部 ID が同一になることがあります。その場合「既に登録済み」として弾かれますが、<strong>メインチャンネルより先にサブチャンネルを登録する</strong>と解決する場合があります。登録順を変えてお試しください。
-</blockquote>
+    <!-- Shorts keyword management -->
+    <div class="fgroup">
+      <label>ショートキーワード</label>
+      <div class="hint" style="margin-bottom:6px">タイトルにこれらの文字列が含まれる場合「ショート」に分類されます（180秒以内の動画も自動判定）</div>
+      <div class="tag-manage-list" id="shortsKeywordList"></div>
+      <div class="tag-add-row">
+        <input id="newShortsKeywordInput" type="text" placeholder="キーワードを入力"
+               onkeydown="if(event.key==='Enter')addShortsKeyword()">
+        <button onclick="addShortsKeyword()">追加</button>
+      </div>
+    </div>
 
-<hr>
+    <div class="section-divider"></div>
 
-<h3>4. YouTube API キーを設定する（推奨）</h3>
-<p>未設定でも RSS で動画一覧は表示されますが、設定すると <strong>LIVE・配信予定の正確な検出</strong> が可能になります。</p>
-<ol>
-  <li>Google Cloud Console（<code>console.cloud.google.com</code>）でプロジェクトを作成</li>
-  <li><strong>YouTube Data API v3</strong> を有効化</li>
-  <li><strong>API キー</strong>を作成（制限: なし または IP アドレス）</li>
-  <li>⚙設定 → <strong>YouTube Data API v3 キー</strong> に入力して保存</li>
-</ol>
-<blockquote>
-  <strong>クォータ上限:</strong> 1日 10,000 ユニット（<code>videos.list</code> 1ユニット/コール、1コールで最大50件処理）。<br>
-  📊 ボタンで使用量を確認できます。<br>
-  <strong>目安:</strong> チャンネル数 30・24 時間稼働の場合、更新間隔 <strong>900 秒（15 分）</strong> がクォータ上限に収まる目安です。
-</blockquote>
+    <!-- Operating hours -->
+    <div class="fgroup" style="flex-direction:row;align-items:center;justify-content:space-between;gap:12px">
+      <div>
+        <label style="margin-bottom:0">稼働時間設定</label>
+        <div class="hint" style="margin-top:2px">稼働時間外は自動更新を一時停止します（手動更新・ページアクセス時の更新は常に有効）</div>
+      </div>
+      <button id="opHoursToggle" class="toggle" onclick="toggleOpHours()"></button>
+    </div>
+    <div id="opHoursConfig" style="display:none;margin-top:8px">
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+        <div style="display:flex;align-items:center;gap:8px">
+          <label style="margin:0;font-size:12px;color:var(--txt2);white-space:nowrap">開始</label>
+          <input id="s-oh-start" type="time" value="08:00"
+            style="padding:5px 8px;border-radius:6px;border:1px solid var(--b2);background:var(--surf2);color:var(--txt);font-size:13px;outline:none">
+        </div>
+        <div style="display:flex;align-items:center;gap:8px">
+          <label style="margin:0;font-size:12px;color:var(--txt2);white-space:nowrap">終了</label>
+          <input id="s-oh-end" type="time" value="23:00"
+            style="padding:5px 8px;border-radius:6px;border:1px solid var(--b2);background:var(--surf2);color:var(--txt);font-size:13px;outline:none">
+        </div>
+      </div>
+      <div class="hint" style="margin-top:6px">終了が開始より早い場合は深夜をまたぐ設定（例: 22:00〜02:00）</div>
+    </div>
 
-<hr>
+    <div class="section-divider"></div>
 
-<h3>5. Twitch を使う場合</h3>
+    <!-- Server address (file:// mode) -->
+    <div id="serverAddrRow" style="display:none">
+      <div class="fgroup">
+        <label>デスクトップ PC のサーバーアドレス</label>
+        <select id="s-server-select" onchange="onSettingsServerChange()" style="margin-bottom:6px"></select>
+        <input id="s-server-custom" type="text" placeholder="http://192.168.x.x:8080" style="display:none">
+        <div class="hint">ノート PC から OneDrive の HTML を開く場合に設定</div>
+      </div>
+    </div>
 
-<h4>5-1. Twitch アプリを登録</h4>
-<ol>
-  <li>Twitch Developer Console（<code>dev.twitch.tv/console</code>）に Twitch アカウントでログイン</li>
-  <li><strong>「アプリケーション」→「＋アプリケーションを登録」</strong> をクリック</li>
-  <li>以下を入力して「作成」
-    <ul>
-      <li>名前: 任意（例: <code>Livelist</code>）</li>
-      <li>OAuth リダイレクト URL: <code>http://localhost</code></li>
-      <li>カテゴリ: <code>Application Integration</code></li>
-    </ul>
-  </li>
-</ol>
-
-<h4>5-2. Client ID と Client Secret を取得</h4>
-<ol>
-  <li>作成したアプリの <strong>「管理」</strong> をクリック</li>
-  <li><strong>Client ID</strong> をコピー</li>
-  <li><strong>「新しいシークレット」</strong> をクリックして <strong>Client Secret</strong> をコピー</li>
-</ol>
-<blockquote>
-  <strong class="badge warn">注意</strong> Client Secret はページを閉じると二度と表示されません。必ず保存してください。
-</blockquote>
-
-<h4>5-3. ⚙設定 に入力して保存</h4>
-<p>Twitch API はクォータ制限なし。アクセストークンは自動取得・自動更新されます。</p>
-
-<hr>
-
-<!-- 画面の使い方 -->
-<h2>画面の使い方</h2>
-
-<h3>タグフィルター</h3>
-<p>上部バーのタグボタンをクリックしてチャンネルを絞り込みます。複数選択可能です。タグに属さないチャンネルはサイドバーの「タグ外」セクションに薄く表示されます。</p>
-<p>タグバーの右端に常時表示される <strong>OR / AND</strong> ボタンで絞り込みモードを切り替えられます。</p>
-<ul>
-  <li><strong>OR（デフォルト）</strong>: いずれかのタグを持つチャンネルを表示</li>
-  <li><strong>AND</strong>: 選択したタグをすべて持つチャンネルのみ表示</li>
-</ul>
-<p>選択したモードはブラウザに保存されます。タグ絞り込みを変更すると、特定チャンネルへの絞り込み（個人モード）は自動的に解除されます。</p>
-
-<h3>種別絞り込み</h3>
-<p>「<strong>絞り込み ▾</strong>」ボタンをクリックするとパネルが開き、表示する種別を個別に ON/OFF できます。</p>
-<table>
-  <tr><th>種別</th><th>内容</th></tr>
-  <tr><td>LIVE中</td><td>現在配信中</td></tr>
-  <tr><td>配信予定</td><td>スケジュール済みの配信</td></tr>
-  <tr><td>プレミア公開</td><td>YouTube プレミア</td></tr>
-  <tr><td>メンバー限定</td><td>タイトルにキーワードを含むコンテンツ</td></tr>
-  <tr><td>アーカイブ</td><td>配信の録画・Twitch VOD</td></tr>
-  <tr><td>ショート</td><td>180 秒以内の動画、またはタイトルにショートキーワードを含む動画（YouTube）</td></tr>
-  <tr><td>動画</td><td>通常の動画</td></tr>
-</table>
-<p>絞り込み中はステータスバーに <strong>表示件数 / 総件数</strong> が表示されます。選択状態はブラウザに保存されます。</p>
-
-<h3>チャンネルフィルター</h3>
-<p>サイドバーのチャンネル名（またはアイコン）をクリックすると、そのチャンネルだけを表示します。もう一度クリックで解除。</p>
-
-<h3>チャンネルの並び替え</h3>
-<p>サイドバーの ⠿ をドラッグして並び順を変更できます。</p>
-
-<h3>その他のボタン</h3>
-<div class="section-box">
-  <table style="margin:0">
-    <tr><td><strong>↻</strong></td><td>手動で最新データを取得（キャッシュを破棄して再取得）</td></tr>
-    <tr><td><strong>📊</strong></td><td>API 使用量・成功率の統計を表示</td></tr>
-    <tr><td><strong>⚙</strong></td><td>API キー・タグ・メンバー限定キーワード・ショートキーワードなどの設定</td></tr>
-  </table>
+    <div class="modal-foot">
+      <button class="btn-cancel" onclick="closeModal('settingsModal')">キャンセル</button>
+      <button class="btn-primary" onclick="saveSettings()">保存</button>
+    </div>
+    <div class="modal-msg" id="settingsMsg"></div>
+    <div id="s-build-info" style="text-align:center;font-size:11px;color:var(--txt3);padding:10px 0 2px;border-top:1px solid var(--b1);margin-top:10px;letter-spacing:.4px"></div>
+  </div>
 </div>
 
-<hr>
+<script>
+/* ═══════════════════════════════════════════════════
+   Constants
+═══════════════════════════════════════════════════ */
+const IS_FILE = location.protocol === 'file:';
+const TYPE_CFG = {
+  live:     {label:'● LIVE',    cls:'type-live',    sec:'live',     order:0},
+  upcoming: {label:'配信予定',  cls:'type-upcoming', sec:'upcoming', order:1},
+  premiere: {label:'プレミア',  cls:'type-premiere', sec:'premiere', order:1},
+  member:   {label:'メンバー限定',cls:'type-member', sec:'member',   order:2},
+  archive:  {label:'アーカイブ',cls:'type-archive',  sec:'video',    order:3},
+  short:    {label:'ショート',  cls:'type-short',    sec:'video',    order:3},
+  video:    {label:'動画',      cls:'type-video',    sec:'video',    order:3},
+};
+const SEC_LABEL = {
+  live:    '🔴 現在配信中',
+  upcoming:'🔵 配信予定',
+  premiere:'🟣 プレミア公開',
+  member:  '🔒 メンバー限定',
+  video:   '📼 動画 / アーカイブ / ショート',
+};
+const TYPE_DEFS = [
+  {key:'live',     label:'LIVE中',      color:'var(--live)'},
+  {key:'upcoming', label:'配信予定',    color:'var(--upcoming)'},
+  {key:'premiere', label:'プレミア公開',color:'var(--premiere)'},
+  {key:'member',   label:'メンバー限定',color:'#eab308'},
+  {key:'archive',  label:'アーカイブ',  color:'var(--archive)'},
+  {key:'short',    label:'ショート',    color:'var(--short)'},
+  {key:'video',    label:'動画',        color:'var(--video)'},
+];
+const PLATFORM_DEFS = [
+  {key:'youtube', label:'YouTube', color:'var(--live)'},
+  {key:'twitch',  label:'Twitch',  color:'var(--twitch)'},
+];
 
-<!-- ファイル構成 -->
-<h2>ファイル構成</h2>
-<pre>Livelist/
-├── Livelist.exe              ← 通常起動（コンソールあり）
-├── LivelistBG.exe            ← バックグラウンド起動（ウィンドウなし）
-├── index.html                ← Web UI（ダブルクリックでブラウザ表示・改変用）
-├── start.bat                 ← 手動再起動
-├── register-startup.bat      ← スタートアップ登録
-├── unregister-startup.bat    ← スタートアップ解除
-├── config.json               ← 設定（APIキーなど）
-├── README.html               ← このファイル
-│
-├── asset/                    ← 静的アセット＋自動生成データ
-│   ├── favicon.ico           ← ブラウザタブアイコン（32/16px）
-│   ├── icon-180.png          ← Apple Touch Icon（180px）
-│   ├── icon-192.png          ← Web アプリアイコン（192px）
-│   ├── icon-512.png          ← Web アプリアイコン（512px）
-│   ├── channels.json         ← 登録チャンネル一覧（起動時に自動作成）
-│   ├── cache.json            ← 配信情報キャッシュ
-│   ├── tags.json             ← タグ一覧
-│   └── api_stats.json        ← API 使用統計
-│
-├── source/                   ← 改変・ビルド用（exe のみ使う場合は不要）
-│   ├── server.py             ← サーバー本体（Python で直接起動も可）
-│   ├── build.bat             ← exe をビルドするスクリプト
-│   ├── livelist.spec         ← PyInstaller 設定
-│   └── icon.ico              ← exe アイコン（256/128/64/48/32/16px）
-│
-└── tests/                    ← 単体テスト（Python 3.12 + unittest）
-    ├── test_classifier.py    ← ストリーム分類・shorts/member 判定
-    └── test_url_parser.py    ← URL パターン・稼働時間ロジック</pre>
+/* ═══════════════════════════════════════════════════
+   State
+═══════════════════════════════════════════════════ */
+let BASE = '';
+let _channels = [], _streams = [], _tags = [], _memberKeywords = [], _shortsKeywords = [];
+let _autoRefreshOnLoad = localStorage.getItem('haisin_auto_refresh_on_load') !== 'false';
+let _tagFilters = new Set(); // empty = all
+let _tagFilterMode = localStorage.getItem('haisin_tag_filter_mode') || 'OR'; // 'OR' | 'AND'
+const DISPLAY_MODES = [
+  { key: 'grid-l',  label: '⊞L' },
+  { key: 'grid-m',  label: '⊞M' },
+  { key: 'grid-s',  label: '⊞S' },
+  { key: 'list',    label: '⊟' },
+  { key: 'compact', label: '≡' },
+];
+let _displayMode = localStorage.getItem('haisin_display_mode') || 'grid-l';
+let _theme        = localStorage.getItem('haisin_theme')          || 'dark';
+let _accentColor  = localStorage.getItem('haisin_accent')         || '#4a9eff';
+let _sidebarW     = parseInt(localStorage.getItem('haisin_sidebar_w')) || 228;
+let _sidebarHidden = localStorage.getItem('haisin_sidebar_hidden') === 'true';
+let _headerHidden  = localStorage.getItem('haisin_header_hidden')  === 'true';
 
-<blockquote class="info">
-  <strong>exe 版の動作:</strong> <code>Livelist.exe</code> / <code>LivelistBG.exe</code> はどちらも <code>index.html</code> を内部に同梱しています。
-  <code>config.json</code> はルートに、チャンネル・キャッシュ・タグなどのデータは <code>asset/</code> フォルダに自動で読み書きされます。
-  <code>asset/</code> フォルダがなければ起動時に自動生成されます。
-</blockquote>
+function applyCustomization() {
+  document.documentElement.dataset.theme = _theme;
+  document.documentElement.style.setProperty('--accent', _accentColor);
+  document.documentElement.style.setProperty('--sidebar-w', _sidebarW + 'px');
+  document.body.classList.toggle('sidebar-hidden', _sidebarHidden);
+  document.body.classList.toggle('header-hidden',  _headerHidden);
+}
 
-<hr>
+function setTheme(t) {
+  _theme = t;
+  localStorage.setItem('haisin_theme', t);
+  document.documentElement.dataset.theme = t;
+  document.querySelectorAll('.theme-btn').forEach(b => b.classList.toggle('active', b.dataset.t === t));
+}
 
-<!-- config.json -->
-<h2>config.json 設定項目</h2>
-<table>
-  <tr><th>キー</th><th>デフォルト</th><th>説明</th></tr>
-  <tr><td><code>youtube_api_key</code></td><td><code>""</code></td><td>YouTube Data API v3 キー</td></tr>
-  <tr><td><code>twitch_client_id</code></td><td><code>""</code></td><td>Twitch アプリの Client ID</td></tr>
-  <tr><td><code>twitch_client_secret</code></td><td><code>""</code></td><td>Twitch アプリの Client Secret</td></tr>
-  <tr><td><code>port</code></td><td><code>8080</code></td><td>サーバーポート番号</td></tr>
-  <tr><td><code>refresh_interval</code></td><td><code>600</code></td><td>自動更新間隔（秒）</td></tr>
-  <tr><td><code>days_past</code></td><td><code>2</code></td><td>過去方向の表示範囲（日数）。現在時刻より何日前まで表示するか（1〜14）</td></tr>
-  <tr><td><code>days_future</code></td><td><code>2</code></td><td>未来方向の表示範囲（日数）。現在時刻より何日後まで表示するか（1〜14）</td></tr>
-  <tr><td><code>member_keywords</code></td><td>既定の 6 語</td><td>メンバー限定判定キーワード（⚙設定から編集可）</td></tr>
-  <tr><td><code>shorts_keywords</code></td><td>既定の 5 語</td><td>ショート判定キーワード（⚙設定から編集可）</td></tr>
-  <tr><td><code>operating_hours</code></td><td><code>{"enabled":false,"start":"08:00","end":"23:00"}</code></td><td>稼働時間設定。<code>enabled</code> を <code>true</code> にすると時間外の自動更新を停止。終了が開始より早い場合は深夜またぎ（例: 22:00〜02:00）。⚙設定から変更可。手動更新・ページアクセス時の更新は時間外でも常に有効</td></tr>
-</table>
-<blockquote>
-  <strong>member_keywords のデフォルト値:</strong><br>
-  <code>メン限</code> / <code>メンバー限定</code> / <code>メンバーシップ限定</code> / <code>member only</code> / <code>members only</code> / <code>メンバー専用</code>
-</blockquote>
-<blockquote class="info">
-  <strong>shorts_keywords のデフォルト値:</strong><br>
-  <code>#shorts</code> / <code>#short</code> / <code>#ショート</code> / <code>short</code> / <code>ショート</code><br>
-  180 秒以内の動画も自動的にショートと判定されます。キーワード判定が優先されるため、180 秒を超える動画もキーワードがあればショートに分類されます。
-</blockquote>
+function setAccent(v) {
+  _accentColor = v;
+  localStorage.setItem('haisin_accent', v);
+  document.documentElement.style.setProperty('--accent', v);
+}
 
-<hr>
+function setSidebarW(v) {
+  _sidebarW = parseInt(v);
+  localStorage.setItem('haisin_sidebar_w', v);
+  document.documentElement.style.setProperty('--sidebar-w', v + 'px');
+  const el = document.getElementById('s-sidebar-w-val');
+  if (el) el.textContent = v;
+}
 
-<!-- ローカルネットワーク -->
-<h2>ローカルネットワークでの利用</h2>
-<p>サーバー起動時にコンソールに表示されるネットワークアドレス（例: <code>http://192.168.0.xxx:8080</code>）に、同じ LAN 内の別端末からアクセスできます。バックグラウンド起動時はコンソールが表示されないため、ブラウザから <code>http://localhost:8080</code> にアクセスしてページが開けば起動済みです。</p>
-<blockquote>
-  <strong>ファイアウォールの許可:</strong> 初回起動時に「このアプリのネットワークアクセスを許可しますか？」という Windows Defender ファイアウォールのダイアログが表示される場合があります。LAN 内からアクセスするには <strong>「プライベートネットワーク」を許可</strong> してください。<code>LivelistBG.exe</code> では初回のみダイアログが出ます。
-</blockquote>
+function toggleSidebarVis() {
+  _sidebarHidden = !_sidebarHidden;
+  localStorage.setItem('haisin_sidebar_hidden', _sidebarHidden);
+  document.body.classList.toggle('sidebar-hidden', _sidebarHidden);
+  const btn = document.getElementById('sidebarVisToggle');
+  if (btn) btn.classList.toggle('on', !_sidebarHidden);
+}
 
-<hr>
+function toggleHeaderVis() {
+  _headerHidden = !_headerHidden;
+  localStorage.setItem('haisin_header_hidden', _headerHidden);
+  document.body.classList.toggle('header-hidden', _headerHidden);
+}
 
-<!-- サーバー技術情報 -->
-<h2>サーバーについて</h2>
+/* ── Sidebar resize ── */
+(function() {
+  let dragging = false;
+  function onDown(e) {
+    dragging = true;
+    document.getElementById('sidebarResizer').classList.add('dragging');
+    document.body.style.cursor = 'col-resize';
+    document.body.style.userSelect = 'none';
+    e.preventDefault();
+  }
+  function onMove(e) {
+    if (!dragging) return;
+    const appRect = document.querySelector('.app').getBoundingClientRect();
+    const w = Math.min(320, Math.max(140, e.clientX - appRect.left));
+    _sidebarW = w;
+    document.documentElement.style.setProperty('--sidebar-w', w + 'px');
+  }
+  function onUp() {
+    if (!dragging) return;
+    dragging = false;
+    document.getElementById('sidebarResizer').classList.remove('dragging');
+    document.body.style.cursor = '';
+    document.body.style.userSelect = '';
+    localStorage.setItem('haisin_sidebar_w', _sidebarW);
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('sidebarResizer').addEventListener('mousedown', onDown);
+  });
+  document.addEventListener('mousemove', onMove);
+  document.addEventListener('mouseup', onUp);
+})();
 
-<h3>動作の仕組み</h3>
-<div class="section-box">
-  <ul>
-    <li>Python 標準ライブラリの <code>ThreadingHTTPServer</code> をベースにしたシンプルな HTTP サーバーです</li>
-    <li>バックグラウンドスレッドが <code>refresh_interval</code> 秒ごとに API・RSS を巡回し、<code>cache.json</code> に書き込みます</li>
-    <li>ブラウザからのリクエストはキャッシュを返すだけなので、更新タイミングに関係なく即座にページが開きます</li>
-    <li>HTTPS・認証機能はありません。<strong>インターネットに直接公開しないでください。</strong></li>
-  </ul>
-</div>
+function cycleDisplayMode() {
+  const idx = DISPLAY_MODES.findIndex(m => m.key === _displayMode);
+  _displayMode = DISPLAY_MODES[(idx + 1) % DISPLAY_MODES.length].key;
+  localStorage.setItem('haisin_display_mode', _displayMode);
+  renderTagFilterBar();
+  renderStreams();
+}
 
-<h3>ポート番号の変更</h3>
-<p><code>config.json</code> の <code>"port"</code> を変更してサーバーを再起動すると、指定したポートで起動します。</p>
-<pre>"port": 9090</pre>
-<p>変更後はブラウザのアクセス先も変更してください（例: <code>http://localhost:9090</code>）。スタートアップ登録済みの場合は再登録不要です。</p>
+let _typeFilters     = new Set(TYPE_DEFS.map(d => d.key));
+let _platformFilters = new Set(PLATFORM_DEFS.map(d => d.key));
+let _editingChId = null;
+let _channelFilter = null; // null = all, channelId string = single channel
 
-<h3>exe 版の注意事項</h3>
-<ul>
-  <li><strong>ウイルス対策ソフトの誤検知:</strong> PyInstaller で生成した exe は、ウイルス対策ソフトに誤検知される場合があります。除外設定に追加するか、Python 版で運用してください</li>
-  <li><strong>SmartScreen の警告:</strong> 初回実行時に「Windows によって PC が保護されました」と表示される場合は、「詳細情報」→「実行」で起動できます</li>
-  <li><strong>UI の更新:</strong> exe 版は <code>index.html</code> を内部に同梱しているため、外部の <code>index.html</code> を編集しても反映されません。UI を変更した場合は <code>build.bat</code> で再ビルドしてください</li>
-</ul>
+/* ═══════════════════════════════════════════════════
+   Server address helpers
+═══════════════════════════════════════════════════ */
+function getServerList() {
+  try { return JSON.parse(localStorage.getItem('haisin_servers') || '[]'); } catch { return []; }
+}
+function addToServerList(addr) {
+  const list = getServerList().filter(v => v !== addr);
+  list.unshift(addr);
+  localStorage.setItem('haisin_servers', JSON.stringify(list.slice(0, 10)));
+  localStorage.setItem('haisin_server', addr);
+}
+function buildServerSelect(selId, customId, current) {
+  const list = getServerList();
+  const sel  = document.getElementById(selId);
+  const cust = document.getElementById(customId);
+  const opts = (current && !list.includes(current)) ? [current, ...list] : list;
+  sel.innerHTML = (opts.length
+    ? opts.map(v => `<option value="${esc(v)}"${v===current?' selected':''}>${esc(v)}</option>`).join('')
+    : '') + '<option value="__new__">＋ 新しいアドレスを入力...</option>';
+  cust.style.display = (!opts.length || sel.value === '__new__') ? 'block' : 'none';
+}
+function getServerComboValue(selId, customId) {
+  const sel = document.getElementById(selId);
+  return (sel.value === '__new__'
+    ? document.getElementById(customId).value
+    : sel.value).trim().replace(/\/$/, '');
+}
+function initBase() {
+  if (!IS_FILE) { BASE = ''; return true; }
+  const saved = localStorage.getItem('haisin_server');
+  buildServerSelect('serverSelect', 'serverCustom', saved || '');
+  if (saved) { BASE = saved; return true; }
+  document.getElementById('setupBanner').style.display = 'flex';
+  return false;
+}
+function onServerSelectChange() {
+  const isNew = document.getElementById('serverSelect').value === '__new__';
+  document.getElementById('serverCustom').style.display = isNew ? 'block' : 'none';
+  if (isNew) document.getElementById('serverCustom').focus();
+}
+function onSettingsServerChange() {
+  const isNew = document.getElementById('s-server-select').value === '__new__';
+  document.getElementById('s-server-custom').style.display = isNew ? 'block' : 'none';
+  if (isNew) document.getElementById('s-server-custom').focus();
+}
+function saveServer() {
+  const v = getServerComboValue('serverSelect', 'serverCustom');
+  if (!v) return;
+  BASE = v; addToServerList(v);
+  document.getElementById('setupBanner').style.display = 'none';
+  init();
+}
 
-<hr>
+/* ═══════════════════════════════════════════════════
+   API
+═══════════════════════════════════════════════════ */
+async function api(method, path, body) {
+  const opts = {method, headers:{}};
+  if (body) { opts.headers['Content-Type'] = 'application/json'; opts.body = JSON.stringify(body); }
+  const res = await fetch(BASE + path, opts);
+  if (!res.ok) { let e={}; try{e=await res.json()}catch{}; throw new Error(e.error || res.statusText); }
+  return res.json();
+}
 
-<!-- エンジニア向け技術情報 -->
-<h2>技術情報（エンジニア向け）</h2>
+/* ═══════════════════════════════════════════════════
+   Status bar
+═══════════════════════════════════════════════════ */
+let _hasApiKey = false;
+async function checkStatus() {
+  try {
+    const s = await api('GET', '/api/status');
+    _hasApiKey = s.hasApiKey;
+    document.getElementById('statusDot').className  = 'status-dot connected';
+    document.getElementById('statusText').textContent = `接続中 — ${s.channelCount} ch / ${s.streamCount} 件`;
+    if (s.lastUpdated)
+      document.getElementById('lastUpdate').textContent = '更新: ' + fmtRel(new Date(s.lastUpdated));
+    const ohEnabled = s.operatingHours?.enabled;
+    document.getElementById('ohBadge').style.display = (ohEnabled && !s.inOperatingHours) ? 'inline-block' : 'none';
+    const rem = s.searchRemaining ?? '';
+    const max = s.searchMaxDaily ?? 90;
+    document.getElementById('searchRemaining').textContent = rem !== '' ? `残${rem}/${max}回` : '';
+    return s;
+  } catch {
+    document.getElementById('statusDot').className  = 'status-dot error';
+    document.getElementById('statusText').textContent = 'サーバーに接続できません';
+    document.getElementById('lastUpdate').textContent = '';
+    return null;
+  }
+}
 
-<h3>技術スタック</h3>
-<table>
-  <tr><th>レイヤー</th><th>技術</th><th>備考</th></tr>
-  <tr><td>サーバー言語</td><td>Python 3.12+</td><td>外部パッケージ不要（標準ライブラリのみ）</td></tr>
-  <tr><td>HTTP サーバー</td><td><code>http.server.ThreadingHTTPServer</code></td><td>マルチスレッド対応の標準実装</td></tr>
-  <tr><td>HTTP クライアント</td><td><code>urllib.request</code></td><td>requests 等の外部ライブラリ不使用</td></tr>
-  <tr><td>XML パース</td><td><code>xml.etree.ElementTree</code></td><td>YouTube RSS の解析に使用</td></tr>
-  <tr><td>フロントエンド</td><td>Vanilla JS / HTML / CSS</td><td>フレームワーク・ビルドツール不使用、単一ファイル</td></tr>
-  <tr><td>データ保存</td><td>JSON ファイル（ローカル）</td><td>DB 不使用。atomic replace（tmp → rename）で書き込み</td></tr>
-  <tr><td>パッケージング</td><td>PyInstaller 6.x</td><td><code>index.html</code> を exe に同梱、<code>--onefile</code> ではなく <code>--onedir</code></td></tr>
-  <tr><td>型定義</td><td><code>TypedDict</code> / <code>NotRequired</code> / <code>Literal</code></td><td><code>StreamDict</code> / <code>ChannelDict</code> などで主要スキーマを型付け</td></tr>
-  <tr><td>テスト</td><td>Python <code>unittest</code>（標準ライブラリ）</td><td><code>tests/</code> に 54 件。分類ロジック・URL パーサー・稼働時間を網羅</td></tr>
-</table>
+/* ═══════════════════════════════════════════════════
+   Tags
+═══════════════════════════════════════════════════ */
+async function loadTags() {
+  try { _tags = await api('GET', '/api/tags'); renderTagFilterBar(); } catch {}
+}
 
-<h3>外部 API 呼び出しフロー</h3>
-<pre>refresh_loop（refresh_interval 秒ごと、稼働時間内のみ）
-  │
-  ├─ [YouTube チャンネルごと]
-  │    ├─ YouTube RSS フィード          … クォータ消費なし
-  │    │    └─ 最新 15 件の動画 ID を取得
-  │    └─ videos.list（50件/コール）    … 1 ユニット/コール
-  │         └─ type / duration / scheduledAt を付与
-  │
-  ├─ [Twitch チャンネルごと]
-  │    ├─ Helix streams API             … クォータなし
-  │    ├─ Helix schedule API            … クォータなし
-  │    └─ Helix videos API（VOD）       … クォータなし
-  │
-  ├─ _recheck_pinned                    … 1 ユニット/コール
-  │    └─ キャッシュ中の upcoming/live を videos.list で再確認
-  │         終了済み・削除済みを除外し、開始済みを live に昇格
-  │
-  └─ cache.json に atomic write
-        ↓
-[ブラウザ] GET /api/streams → キャッシュ返却（即時）</pre>
+function renderTagFilterBar() {
+  const bar = document.getElementById('tagFilterBar');
+  const panelOpen = document.getElementById('typeFilterPanel')?.classList.contains('open');
+  const allTypesOn = _typeFilters.size === TYPE_DEFS.length && _platformFilters.size === PLATFORM_DEFS.length;
+  bar.innerHTML =
+    `<button id="typeFilterToggle" class="tag-chip${!allTypesOn?' active':''}" onclick="toggleTypeFilterPanel()" style="flex-shrink:0">${!allTypesOn?'● ':''}絞り込み ${panelOpen?'▴':'▾'}</button>`
+    + `<span class="tf-sep"></span>`
+    + `<button class="tag-chip${_tagFilters.size===0?' active':''}" onclick="setTagFilter(null)">すべて</button>`
+    + _tags.map(t =>
+      `<button class="tag-chip${_tagFilters.has(t)?' active':''}" onclick="setTagFilter('${esc(t)}')">${esc(t)}</button>`
+    ).join('')
+    + `<span class="tf-sep"></span>`
+    + `<button class="tag-chip${_tagFilterMode==='OR'?' active':''}" onclick="toggleTagFilterMode('OR')" style="flex-shrink:0">OR</button>`
+    + `<button class="tag-chip${_tagFilterMode==='AND'?' active':''}" onclick="toggleTagFilterMode('AND')" style="flex-shrink:0">AND</button>`
+    + `<span class="tf-sep"></span>`
+    + `<button class="tag-chip" onclick="cycleDisplayMode()" style="flex-shrink:0" title="表示モード切り替え">${DISPLAY_MODES[(DISPLAY_MODES.findIndex(m=>m.key===_displayMode)+1)%DISPLAY_MODES.length].label}</button>`;
+}
 
-<h3>クォータ消費の計算式</h3>
-<pre>1回の更新あたり消費ユニット数（YouTube）
-  = ceil( RSS取得動画数合計 / 50 )          ← fetch_youtube_streams
-  + ceil( upcoming/liveキャッシュ数 / 50 )  ← _recheck_pinned
+function setTagFilter(tag) {
+  if (tag === null) {
+    _tagFilters.clear();
+  } else if (_tagFilters.has(tag)) {
+    _tagFilters.delete(tag);
+  } else {
+    _tagFilters.add(tag);
+  }
+  _channelFilter = null; // タグ絞り込みを触ったら個人モード解除
+  renderTagFilterBar();
+  renderChannels();
+  renderStreams();
+}
 
-1日の消費量（目安）
-  = 上記 × floor( 86400 / refresh_interval )
+function toggleTagFilterMode(mode) {
+  _tagFilterMode = mode;
+  localStorage.setItem('haisin_tag_filter_mode', _tagFilterMode);
+  renderTagFilterBar();
+  renderChannels();
+  renderStreams();
+}
 
-例: 30チャンネル・各15件・pinned=5件・refresh_interval=900（15分）
-  = ( ceil(450/50) + ceil(5/50) ) × 96
-  = ( 9 + 1 ) × 96 = 960 ユニット/日</pre>
+/* ═══════════════════════════════════════════════════
+   Type filter
+═══════════════════════════════════════════════════ */
+function toggleTypeFilterPanel() {
+  const panel = document.getElementById('typeFilterPanel');
+  panel.classList.toggle('open');
+  renderTagFilterBar();
+  if (panel.classList.contains('open')) renderTypeFilterPanel();
+}
 
-<h3>REST API エンドポイント</h3>
-<table>
-  <tr><th>Method</th><th>Path</th><th>説明</th></tr>
-  <tr><td>GET</td><td><code>/api/streams</code></td><td>キャッシュ済みストリーム一覧（JSON 配列）</td></tr>
-  <tr><td>GET</td><td><code>/api/channels</code></td><td>登録チャンネル一覧</td></tr>
-  <tr><td>GET</td><td><code>/api/config</code></td><td>設定値（APIキー・Secret はマスク済み）</td></tr>
-  <tr><td>GET</td><td><code>/api/status</code></td><td>接続状態・最終更新時刻・稼働時間状態</td></tr>
-  <tr><td>GET</td><td><code>/api/stats</code></td><td>API 使用統計（日次・累計・履歴）</td></tr>
-  <tr><td>GET</td><td><code>/api/tags</code></td><td>タグ一覧</td></tr>
-  <tr><td>POST</td><td><code>/api/channels</code></td><td>チャンネル追加（URL 解決 → 即時更新）</td></tr>
-  <tr><td>POST</td><td><code>/api/refresh</code></td><td>手動更新トリガー（非同期）</td></tr>
-  <tr><td>POST</td><td><code>/api/config</code></td><td>設定保存</td></tr>
-  <tr><td>POST</td><td><code>/api/tags</code></td><td>タグ追加</td></tr>
-  <tr><td>POST</td><td><code>/api/tags/reorder</code></td><td>タグ並び替え</td></tr>
-  <tr><td>POST</td><td><code>/api/channels/reorder</code></td><td>チャンネル並び替え</td></tr>
-  <tr><td>PUT</td><td><code>/api/channels/:id</code></td><td>チャンネル名・タグ編集</td></tr>
-  <tr><td>DELETE</td><td><code>/api/channels/:id</code></td><td>チャンネル削除（キャッシュも除去）</td></tr>
-  <tr><td>DELETE</td><td><code>/api/tags/:name</code></td><td>タグ削除（チャンネルからも除去）</td></tr>
-</table>
-<blockquote class="info">
-  全エンドポイントに <code>Access-Control-Allow-Origin: *</code> を付与。<code>file://</code> から開いた <code>index.html</code> 経由でのローカルアクセスに対応しています。
-</blockquote>
+function renderTypeFilterPanel() {
+  const panel = document.getElementById('typeFilterPanel');
+  panel.innerHTML = `<span class="type-filter-label">種別</span>`
+    + TYPE_DEFS.map(d => {
+        const on = _typeFilters.has(d.key);
+        return `<button class="type-chip${on?' on':''}" onclick="toggleTypeFilter('${d.key}')">
+          <span class="tc-dot" style="background:${on ? d.color : 'var(--txt3)'}"></span>${d.label}
+        </button>`;
+      }).join('')
+    + `<span class="tf-sep"></span>
+       <button class="type-chip-all" onclick="setAllTypeFilters(true)">すべて</button>
+       <button class="type-chip-all" onclick="setAllTypeFilters(false)">解除</button>`
+    + `<span class="tf-sep"></span><span class="type-filter-label">プラットフォーム</span>`
+    + PLATFORM_DEFS.map(d => {
+        const on = _platformFilters.has(d.key);
+        return `<button class="type-chip${on?' on':''}" onclick="togglePlatformFilter('${d.key}')">
+          <span class="tc-dot" style="background:${on ? d.color : 'var(--txt3)'}"></span>${d.label}
+        </button>`;
+      }).join('');
+}
 
-<h3>ストリームオブジェクトのスキーマ</h3>
-<pre>{
-  "id":              "動画ID（YouTube）/ ユーザーID（Twitch）",
-  "channelId":       "チャンネルID",
-  "channelName":     "チャンネル名",
-  "channelThumbnail":"チャンネルアイコン URL",
-  "title":           "タイトル",
-  "url":             "視聴 URL",
-  "thumbnail":       "サムネイル URL",
-  "platform":        "youtube | twitch",
-  "type":            "live | upcoming | premiere | archive | short | member | video",
-  "publishedAt":     "ISO 8601",
-  "scheduledAt":     "ISO 8601 | null",
-  "actualStart":     "ISO 8601 | null",
-  "actualEnd":       "ISO 8601 | null",
-  "duration":        "ISO 8601 duration（PT1H2M3S）| null"
-}</pre>
+function saveTypeFilters() {
+  localStorage.setItem('haisin_type_filters', JSON.stringify([..._typeFilters]));
+  localStorage.setItem('haisin_platform_filters', JSON.stringify([..._platformFilters]));
+}
 
-<hr>
+function loadTypeFilters() {
+  try {
+    const saved = localStorage.getItem('haisin_type_filters');
+    if (saved) {
+      const keys = JSON.parse(saved);
+      _typeFilters = new Set(TYPE_DEFS.map(d => d.key).filter(k => keys.includes(k)));
+    }
+    const savedP = localStorage.getItem('haisin_platform_filters');
+    if (savedP) {
+      const keys = JSON.parse(savedP);
+      _platformFilters = new Set(PLATFORM_DEFS.map(d => d.key).filter(k => keys.includes(k)));
+    }
+  } catch {}
+}
 
-<!-- 改変方法 -->
-<h2>改変方法</h2>
+function toggleTypeFilter(key) {
+  if (_typeFilters.has(key)) _typeFilters.delete(key);
+  else _typeFilters.add(key);
+  saveTypeFilters();
+  renderTypeFilterPanel();
+  renderStreams();
+}
 
-<h3>Python 版で動作確認する</h3>
-<p><code>server.py</code> と <code>index.html</code> をテキストエディタで編集し、<code>start.bat</code>（Python モード）で起動して確認できます。</p>
-<blockquote class="info">
-  Python 版では <code>index.html</code> を直接読み込むため、ファイルを保存してブラウザをリロードするだけで変更が反映されます（サーバー再起動不要）。
-</blockquote>
+function setAllTypeFilters(on) {
+  if (on) TYPE_DEFS.forEach(d => _typeFilters.add(d.key));
+  else _typeFilters.clear();
+  saveTypeFilters();
+  renderTypeFilterPanel();
+  renderStreams();
+}
 
-<h3>exe を再ビルドする</h3>
-<p>改変内容を exe に反映するには <code>build.bat</code> を実行します。Python 3.12 と PyInstaller が必要です。</p>
-<pre>python3.12 -m pip install pyinstaller   ← 初回のみ
-build.bat をダブルクリック              ← python3.12 を自動検出してビルド
-→ Livelist.exe / LivelistBG.exe が配布フォルダに出力される</pre>
-<p>テストの実行:</p>
-<pre>python3.12 -m unittest discover -s tests -v</pre>
+function togglePlatformFilter(key) {
+  if (_platformFilters.has(key)) _platformFilters.delete(key);
+  else _platformFilters.add(key);
+  saveTypeFilters();
+  renderTypeFilterPanel();
+  renderStreams();
+}
 
-<hr>
+function renderTagSelector(containerId, selectedTags) {
+  const wrap = document.getElementById(containerId);
+  const chips = _tags.map(t => {
+    const sel = selectedTags.includes(t);
+    return `<button type="button" class="tag-option${sel?' sel':''}" onclick="toggleTagOption(this)">${esc(t)}</button>`;
+  }).join('');
+  const inlineId = containerId + '-new';
+  wrap.innerHTML = chips
+    + `<div class="tag-inline-add">
+         <input id="${inlineId}" type="text" placeholder="＋ 新規タグ"
+                onkeydown="if(event.key==='Enter'){event.preventDefault();addTagInline('${containerId}')}"
+                maxlength="20">
+         <button type="button" onclick="addTagInline('${containerId}')">追加</button>
+       </div>`;
+}
 
-<!-- 注意事項 -->
-<h2>注意事項</h2>
-<ul>
-  <li><strong>更新間隔と API クォータ:</strong> <code>refresh_interval</code> を短くするほどクォータ消費が増えます。📊 ボタンで使用量を確認しながら調整してください</li>
-  <li><strong>メンバー限定コンテンツ:</strong> YouTube の真のメンバー限定動画は RSS・API ともに取得できません。タイトルにキーワードを含む公開コンテンツのみ判定されます</li>
-  <li><strong>キャッシュ:</strong> キーワードや設定変更後は ↻ ボタンで手動更新するまで既存のキャッシュには反映されません</li>
-  <li><strong>セキュリティ:</strong> このサーバーはローカルネットワーク専用です。ルーターのポート開放などでインターネットに公開しないでください</li>
-  <li><strong>フォルダ移動後:</strong> exe を別フォルダに移動した場合はスタートアップを再登録してください（<code>register-startup.bat</code> を再実行）</li>
-</ul>
+function toggleTagOption(btn) { btn.classList.toggle('sel'); }
 
-<hr>
-<p style="text-align:center;color:#aaa;font-size:8.5pt;margin-top:20px">Livelist — YouTube + Twitch 対応版</p>
+async function addTagInline(containerId) {
+  const inputId = containerId + '-new';
+  const input = document.getElementById(inputId);
+  const name  = input.value.trim();
+  if (!name) { input.focus(); return; }
+  if (_tags.includes(name)) {
+    // already exists — just select it
+    const existing = [...document.getElementById(containerId).querySelectorAll('.tag-option')]
+      .find(b => b.textContent === name);
+    if (existing && !existing.classList.contains('sel')) existing.classList.add('sel');
+    input.value = '';
+    return;
+  }
+  try {
+    const current = getSelectedTags(containerId);
+    _tags = await api('POST', '/api/tags', {name});
+    renderTagSelector(containerId, [...current, name]); // re-render with new tag selected
+    renderTagFilterBar();
+    renderTagManageList();
+  } catch(e) { alert(e.message); }
+}
 
+function getSelectedTags(containerId) {
+  return [...document.getElementById(containerId).querySelectorAll('.tag-option.sel')]
+    .map(b => b.textContent);
+}
+
+function renderTagManageList() {
+  const wrap = document.getElementById('tagManageList');
+  if (!_tags.length) { wrap.innerHTML = '<span style="font-size:12px;color:var(--txt3)">タグなし</span>'; return; }
+  wrap.innerHTML = _tags.map((t, i) =>
+    `<div class="tag-manage-item">
+      <div style="display:flex;flex-direction:column;gap:1px;margin-right:4px">
+        <button class="tag-remove-btn" onclick="moveTag(${i},-1)" title="上へ" style="font-size:9px" ${i===0?'disabled':''}>▲</button>
+        <button class="tag-remove-btn" onclick="moveTag(${i},1)"  title="下へ" style="font-size:9px" ${i===_tags.length-1?'disabled':''}>▼</button>
+      </div>
+      ${esc(t)}<button class="tag-remove-btn" onclick="deleteTag('${esc(t)}')" title="削除">✕</button>
+    </div>`
+  ).join('');
+}
+
+async function moveTag(idx, dir) {
+  const newOrder = [..._tags];
+  const target = idx + dir;
+  if (target < 0 || target >= newOrder.length) return;
+  [newOrder[idx], newOrder[target]] = [newOrder[target], newOrder[idx]];
+  try {
+    _tags = await api('POST', '/api/tags/reorder', {order: newOrder});
+    renderTagManageList();
+    renderTagFilterBar();
+  } catch(e) { alert(e.message); }
+}
+
+async function addTag() {
+  const input = document.getElementById('newTagInput');
+  const name  = input.value.trim();
+  if (!name) return;
+  try {
+    _tags = await api('POST', '/api/tags', {name});
+    input.value = '';
+    renderTagManageList();
+    renderTagFilterBar();
+  } catch (e) { alert(e.message); }
+}
+
+async function deleteTag(name) {
+  if (!confirm(`タグ「${name}」を削除しますか？\nチャンネルからも削除されます。`)) return;
+  try {
+    _tags = await api('DELETE', `/api/tags/${encodeURIComponent(name)}`);
+    renderTagManageList();
+    renderTagFilterBar();
+    await loadChannels();
+  } catch (e) { alert(e.message); }
+}
+
+/* ── Member keyword management ── */
+function renderMemberKeywordList() {
+  const wrap = document.getElementById('memberKeywordList');
+  if (!wrap) return;
+  if (!_memberKeywords.length) {
+    wrap.innerHTML = '<span style="font-size:12px;color:var(--txt3)">キーワードなし</span>'; return;
+  }
+  wrap.innerHTML = _memberKeywords.map((kw, i) =>
+    `<div class="tag-manage-item">
+      ${esc(kw)}<button class="tag-remove-btn" onclick="deleteMemberKeyword(${i})" title="削除">✕</button>
+    </div>`
+  ).join('');
+}
+
+function deleteMemberKeyword(idx) {
+  _memberKeywords.splice(idx, 1);
+  renderMemberKeywordList();
+}
+
+function addMemberKeyword() {
+  const input = document.getElementById('newKeywordInput');
+  const kw = input.value.trim();
+  if (!kw) return;
+  if (!_memberKeywords.includes(kw)) _memberKeywords.push(kw);
+  input.value = '';
+  renderMemberKeywordList();
+  input.focus();
+}
+
+function renderShortsKeywordList() {
+  const wrap = document.getElementById('shortsKeywordList');
+  if (!wrap) return;
+  if (!_shortsKeywords.length) {
+    wrap.innerHTML = '<span style="font-size:12px;color:var(--txt3)">キーワードなし</span>'; return;
+  }
+  wrap.innerHTML = _shortsKeywords.map((kw, i) =>
+    `<div class="tag-manage-item">
+      ${esc(kw)}<button class="tag-remove-btn" onclick="deleteShortsKeyword(${i})" title="削除">✕</button>
+    </div>`
+  ).join('');
+}
+
+function deleteShortsKeyword(idx) {
+  _shortsKeywords.splice(idx, 1);
+  renderShortsKeywordList();
+}
+
+function toggleAutoRefresh() {
+  _autoRefreshOnLoad = !_autoRefreshOnLoad;
+  document.getElementById('autoRefreshToggle').className = 'toggle' + (_autoRefreshOnLoad ? ' on' : '');
+}
+
+let _opHoursEnabled = false;
+function toggleOpHours() {
+  _opHoursEnabled = !_opHoursEnabled;
+  document.getElementById('opHoursToggle').className = 'toggle' + (_opHoursEnabled ? ' on' : '');
+  document.getElementById('opHoursConfig').style.display = _opHoursEnabled ? 'block' : 'none';
+}
+
+function addShortsKeyword() {
+  const input = document.getElementById('newShortsKeywordInput');
+  const kw = input.value.trim();
+  if (!kw) return;
+  if (!_shortsKeywords.includes(kw)) _shortsKeywords.push(kw);
+  input.value = '';
+  renderShortsKeywordList();
+  input.focus();
+}
+
+/* ═══════════════════════════════════════════════════
+   Channels
+═══════════════════════════════════════════════════ */
+async function loadChannels() {
+  try { _channels = await api('GET', '/api/channels'); renderChannels(); } catch {}
+}
+
+function renderChannels() {
+  const list = document.getElementById('channelList');
+  if (!_channels.length) {
+    list.innerHTML = '<div class="sidebar-empty">＋ でチャンネルを追加</div>'; return;
+  }
+  function chItemHTML(ch, idx, faded) {
+    const tags = ch.tags || [];
+    const active = _channelFilter === ch.id;
+    const imgEl = ch.thumbnail
+      ? `<img class="ch-avatar" src="${esc(ch.thumbnail)}" onerror="this.style.display='none';this.nextSibling.style.display='flex'">
+         <div class="ch-avatar-init" style="display:none">${esc((ch.name||'?')[0])}</div>`
+      : `<div class="ch-avatar-init">${esc((ch.name||'?')[0])}</div>`;
+    const tagPips = tags.map(t => `<span class="ch-tag-pip">${esc(t)}</span>`).join('');
+    const platDot = ch.platform === 'twitch'
+      ? `<span class="ch-platform-dot ch-platform-twitch" title="Twitch"></span>` : '';
+    return `<div class="ch-item${active?' ch-active':''}${faded?' ch-faded':''}" draggable="true"
+              ondragstart="onDragStart(event,${idx})"
+              ondragover="onDragOver(event,${idx})"
+              ondrop="onDrop(event,${idx})"
+              ondragend="onDragEnd()"
+              id="chi-${esc(ch.id)}">
+      <span class="drag-handle" title="ドラッグで並び替え">⠿</span>
+      <div class="ch-clickable" onclick="setChannelFilter('${esc(ch.id)}')">
+        ${imgEl}
+        <div style="flex:1;min-width:0">
+          <div class="ch-name" title="${esc(ch.name)}">${esc(ch.name)}${platDot}</div>
+          ${tagPips ? `<div class="ch-tags-row">${tagPips}</div>` : ''}
+        </div>
+      </div>
+      <div class="ch-actions">
+        <a class="ch-action-btn" href="${esc(ch.url)}" target="_blank" rel="noopener" title="チャンネルへ" style="text-decoration:none">↗</a>
+        <button class="ch-action-btn edit" onclick="openEditChannel('${esc(ch.id)}')" title="編集">✏</button>
+        <button class="ch-action-btn del"  onclick="deleteChannel('${esc(ch.id)}')" title="削除">✕</button>
+      </div>
+    </div>`;
+  }
+
+  // Split channels by tag filter for sidebar grouping
+  let inFilter = _channels, outFilter = [];
+  if (_tagFilters.size > 0) {
+    const tags = [..._tagFilters];
+    const match = _tagFilterMode === 'AND'
+      ? c => tags.every(t => (c.tags||[]).includes(t))
+      : c => tags.some(t  => (c.tags||[]).includes(t));
+    inFilter  = _channels.filter(match);
+    outFilter = _channels.filter(c => !inFilter.includes(c));
+  }
+
+  const inHTML  = inFilter.map((ch, i) => chItemHTML(ch, _channels.indexOf(ch), false)).join('');
+  const outHTML = outFilter.length
+    ? `<div class="ch-group-sep">タグ外</div>` + outFilter.map(ch => chItemHTML(ch, _channels.indexOf(ch), true)).join('')
+    : '';
+  list.innerHTML = inHTML + outHTML;
+}
+
+/* Drag & drop reorder */
+let _dragIdx = null;
+function onDragStart(e, idx) {
+  _dragIdx = idx;
+  e.dataTransfer.effectAllowed = 'move';
+  setTimeout(() => document.querySelectorAll('.ch-item')[idx]?.classList.add('dragging'), 0);
+}
+function onDragOver(e, idx) {
+  e.preventDefault();
+  e.dataTransfer.dropEffect = 'move';
+  document.querySelectorAll('.ch-item').forEach((el, i) => el.classList.toggle('drag-over', i === idx && i !== _dragIdx));
+}
+function onDrop(e, idx) {
+  e.preventDefault();
+  if (_dragIdx === null || _dragIdx === idx) { onDragEnd(); return; }
+  const moved = _channels.splice(_dragIdx, 1)[0];
+  _channels.splice(idx, 0, moved);
+  renderChannels();
+  api('POST', '/api/channels/reorder', {ids: _channels.map(c => c.id)}).catch(()=>{});
+  _dragIdx = null;
+}
+function onDragEnd() {
+  _dragIdx = null;
+  document.querySelectorAll('.ch-item').forEach(el => el.classList.remove('dragging','drag-over'));
+}
+
+async function deleteChannel(id) {
+  const ch = _channels.find(c => c.id === id);
+  if (!confirm(`「${ch?.name||id}」を削除しますか？`)) return;
+  try {
+    await api('DELETE', `/api/channels/${id}`);
+    await Promise.all([loadChannels(), loadStreams()]);
+  } catch(e) { alert('削除失敗: ' + e.message); }
+}
+
+/* ═══════════════════════════════════════════════════
+   Add channel
+═══════════════════════════════════════════════════ */
+function openAddChannel() {
+  document.getElementById('f-url').value = '';
+  renderTagSelector('add-tag-sel', []);
+  showMsg('addMsg','','');
+  setBtn('addBtn','追加する',false);
+  openModal('addModal');
+  setTimeout(() => document.getElementById('f-url').focus(), 100);
+}
+
+async function submitAddChannel() {
+  const url  = document.getElementById('f-url').value.trim();
+  const tags = getSelectedTags('add-tag-sel');
+  if (!url) { showMsg('addMsg','URLを入力してください','error'); return; }
+  setBtn('addBtn','<span class="loading-inline"></span>取得中...', true);
+  showMsg('addMsg','チャンネル情報を取得中...','info');
+  try {
+    const ch = await api('POST', '/api/channels', {url, tags});
+    showMsg('addMsg', `「${ch.name}」を登録しました！`, 'info');
+    setTimeout(() => closeModal('addModal'), 1100);
+    await Promise.all([loadChannels(), loadStreams()]);
+  } catch(e) {
+    showMsg('addMsg', e.message, 'error');
+    setBtn('addBtn','追加する', false);
+  }
+}
+
+/* ═══════════════════════════════════════════════════
+   Edit channel
+═══════════════════════════════════════════════════ */
+function openEditChannel(id) {
+  const ch = _channels.find(c => c.id === id);
+  if (!ch) return;
+  _editingChId = id;
+  document.getElementById('ec-name').value = ch.name || '';
+  renderTagSelector('edit-tag-sel', ch.tags || []);
+  showMsg('editMsg','','');
+  openModal('editModal');
+  setTimeout(() => document.getElementById('ec-name').focus(), 100);
+}
+
+async function saveEditChannel() {
+  if (!_editingChId) return;
+  const name = document.getElementById('ec-name').value.trim();
+  const tags = getSelectedTags('edit-tag-sel');
+  if (!name) { showMsg('editMsg','名前を入力してください','error'); return; }
+  try {
+    await api('PUT', `/api/channels/${_editingChId}`, {name, tags});
+    closeModal('editModal');
+    await loadChannels();
+    renderStreams(); // update card colors/names from cache
+  } catch(e) { showMsg('editMsg', e.message, 'error'); }
+}
+
+/* ═══════════════════════════════════════════════════
+   Streams
+═══════════════════════════════════════════════════ */
+async function loadStreams() {
+  try { _streams = await api('GET', '/api/streams'); renderStreams(); } catch {}
+}
+
+function setChannelFilter(id) {
+  _channelFilter = (_channelFilter === id) ? null : id;
+  renderChannels();
+  renderStreams();
+}
+
+function getFilteredChannelIds() {
+  if (_channelFilter) return new Set([_channelFilter]);
+  if (_tagFilters.size === 0) return null;
+  const tags = [..._tagFilters];
+  const match = _tagFilterMode === 'AND'
+    ? c => tags.every(t => (c.tags||[]).includes(t))
+    : c => tags.some(t  => (c.tags||[]).includes(t));
+  return new Set(_channels.filter(match).map(c => c.id));
+}
+
+function renderStreams() {
+  const wrap = document.getElementById('content');
+  if (!_channels.length) { wrap.innerHTML = wizardHTML(); return; }
+
+  const allowedIds = getFilteredChannelIds();
+  let list = _streams.filter(s => allowedIds === null || allowedIds.has(s.channelId));
+
+  // Type filter
+  const allTypesOn = _typeFilters.size === TYPE_DEFS.length;
+  if (!allTypesOn) {
+    list = list.filter(s => _typeFilters.has(s.type || 'video'));
+  }
+
+  // Platform filter
+  const allPlatformsOn = _platformFilters.size === PLATFORM_DEFS.length;
+  if (!allPlatformsOn) {
+    list = list.filter(s => _platformFilters.has(s.platform || 'youtube'));
+  }
+
+  list = list.slice().sort((a,b) => {
+    const oa = (TYPE_CFG[a.type]||TYPE_CFG.video).order;
+    const ob = (TYPE_CFG[b.type]||TYPE_CFG.video).order;
+    if (oa !== ob) return oa - ob;
+    const ta = new Date(a.scheduledAt||a.publishedAt||0);
+    const tb = new Date(b.scheduledAt||b.publishedAt||0);
+    return oa <= 1 ? ta - tb : tb - ta;
+  });
+
+  const groups = {};
+  for (const s of list) {
+    const sec = (TYPE_CFG[s.type]||TYPE_CFG.video).sec;
+    (groups[sec] = groups[sec]||[]).push(s);
+  }
+
+  let html = '';
+  if (!_hasApiKey)
+    html += `<div class="notice">⚠ YouTube API Key 未設定。RSS のみのため LIVE・配信予定が検出されません。
+      <a onclick="openSettings()">⚙設定</a> から API キーを登録してください。</div>`;
+
+  let any = false;
+  for (const sec of ['live','upcoming','premiere','member','video']) {
+    const items = groups[sec];
+    if (!items?.length) continue;
+    any = true;
+    html += `<div class="section">
+      <div class="section-head">
+        <span class="section-label${sec==='live'?' live':''}">${SEC_LABEL[sec]}</span>
+        <span class="section-count">${items.length}</span>
+      </div>
+      <div class="cards${sec==='live'&&_displayMode==='grid-l'?' live-grid':''} ${_displayMode!=='grid-l'?'mode-'+_displayMode:''}">${items.map(cardHTML).join('')}</div>
+    </div>`;
+  }
+  if (!any) {
+    const tagLabel = _tagFilters.size
+      ? `「${[..._tagFilters].join(_tagFilterMode === 'AND' ? ' AND ' : '・')}」タグのチャンネルに` : '';
+    const reason = tagLabel;
+    const typeOff = !allTypesOn ? '（絞り込み中）' : '';
+    html += `<div class="empty-state"><div class="empty-icon">📡</div>
+      <p>${reason}表示するコンテンツがありません${typeOff}</p></div>`;
+  }
+
+  wrap.innerHTML = html;
+
+  // ステータスバーの絞り込み件数表示
+  const fcEl = document.getElementById('filterCount');
+  if (fcEl) {
+    const total = _streams.length;
+    const shown = list.length;
+    const isFiltered = !allTypesOn || _tagFilters.size > 0 || _channelFilter !== null;
+    fcEl.textContent = isFiltered && shown < total ? `(${shown} / ${total} 件)` : '';
+  }
+}
+
+function cardHTML(s) {
+  const tc    = TYPE_CFG[s.type] || TYPE_CFG.video;
+  const isTwitch = s.platform === 'twitch';
+  const thumb = s.thumbnail || (isTwitch
+    ? 'https://static-cdn.jtvnw.net/ttv-static/404_preview-640x360.jpg'
+    : `https://i.ytimg.com/vi/${s.id}/mqdefault.jpg`);
+  const thumbErr = isTwitch
+    ? ''
+    : `onerror="this.src='https://i.ytimg.com/vi/${s.id}/default.jpg'"`;
+  const dur   = fmtDuration(s.duration);
+  const t     = fmtCardTime(s);
+  const init  = (s.channelName||'?')[0].toUpperCase();
+  const chImg = s.channelThumbnail
+    ? `<img class="card-ch-img" src="${esc(s.channelThumbnail)}"
+           onerror="this.style.display='none';this.nextSibling.style.display='flex'">
+       <div class="card-ch-init" style="display:none">${esc(init)}</div>`
+    : `<div class="card-ch-init">${esc(init)}</div>`;
+  const platBadge = isTwitch
+    ? `<span class="platform-badge platform-twitch">Twitch</span>` : '';
+  return `<div class="card ${s.type||''}${isTwitch?' twitch-card':''}">
+    <a class="thumb-wrap" href="${esc(s.url)}" target="_blank" rel="noopener">
+      <img class="card-thumb" src="${esc(thumb)}" loading="lazy" ${thumbErr}>
+      <div class="thumb-overlay"><div class="play-circle">▶</div></div>
+      <span class="type-badge ${tc.cls}">${tc.label}</span>
+      ${platBadge}
+      ${dur?`<span class="duration-badge">${esc(dur)}</span>`:''}
+    </a>
+    <div class="card-body">
+      ${(()=>{const _ch=_channels.find(c=>c.id===s.channelId);const _chUrl=_ch?.url;return _chUrl?`<a class="card-ch" href="${esc(_chUrl)}" target="_blank" rel="noopener">${chImg}<span class="card-ch-name">${esc(s.channelName||'')}</span></a>`:`<div class="card-ch">${chImg}<span class="card-ch-name">${esc(s.channelName||'')}</span></div>`})()}
+      <a class="card-title" href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title)}">${esc(s.title)}</a>
+      <div class="card-time${s.type==='live'?' live-t':t.soon?' soon-t':''}">${esc(t.text)}</div>
+    </div>
+  </div>`;
+}
+
+/* ═══════════════════════════════════════════════════
+   Settings
+═══════════════════════════════════════════════════ */
+/* ═══════════════════════════════════════════════════
+   Stats
+═══════════════════════════════════════════════════ */
+async function openStats() {
+  const el = document.getElementById('statsContent');
+  el.innerHTML = '<div style="text-align:center;padding:20px;color:var(--txt3)">読み込み中...</div>';
+  openModal('statsModal');
+  try {
+    const s = await api('GET', '/api/stats');
+    el.innerHTML = renderStats(s);
+  } catch(e) {
+    el.innerHTML = `<div style="color:var(--live)">取得失敗: ${e.message}</div>`;
+  }
+}
+
+function renderStats(s) {
+  const QUOTA_LIMIT = 10000;
+  const LABELS = {
+    rss:              { name: 'RSS フィード',            quota: false },
+    oembed:           { name: 'oembed (チャンネル解決)', quota: false },
+    videos_list:      { name: 'videos.list',             quota: true, unit: 1 },
+    resolve:          { name: 'YouTubeチャンネル登録',   quota: false },
+    twitch_resolve:   { name: 'Twitchチャンネル登録',   quota: false },
+    twitch_streams:   { name: 'Twitch streams',          quota: false },
+    twitch_schedule:  { name: 'Twitch schedule',         quota: false },
+    twitch_videos:    { name: 'Twitch videos (VOD)',     quota: false },
+  };
+
+  function pct(n, d) { return d > 0 ? Math.round(n/d*100) : 0; }
+  function bar(used, total, color='var(--accent)') {
+    const p = Math.min(100, Math.round(used/total*100));
+    const c = p >= 90 ? 'var(--live)' : p >= 70 ? '#f59e0b' : color;
+    return `<div style="height:6px;border-radius:3px;background:var(--b2);margin-top:4px">
+      <div style="height:6px;border-radius:3px;background:${c};width:${p}%"></div></div>`;
+  }
+  function row(label, d, isQuota, unit=1) {
+    const sr = d ? pct(d.ok, d.calls) : 0;
+    const quota = d ? d.quota : 0;
+    return `<tr>
+      <td style="padding:7px 10px 7px 0;color:var(--txt2)">${label}</td>
+      <td style="padding:7px 6px;text-align:right;color:var(--txt)">${d ? d.calls : 0}</td>
+      <td style="padding:7px 6px;text-align:right;color:var(--green)">${d ? d.ok : 0}</td>
+      <td style="padding:7px 6px;text-align:right;color:var(--live)">${d ? d.fail : 0}</td>
+      <td style="padding:7px 0 7px 6px;text-align:right;color:var(--txt3)">${d && d.calls ? sr+'%' : '—'}</td>
+      ${isQuota ? `<td style="padding:7px 0 7px 10px;text-align:right;color:var(--txt3)">${quota}</td>` : '<td></td>'}
+    </tr>`;
+  }
+
+  const daily = s.daily || {};
+  const total = s.total || {};
+  const history = s.history || [];
+
+  // daily quota total
+  const dailyQuota = (daily.videos_list?.quota||0);
+  const totalQuota = (total.videos_list?.quota||0);
+
+  const thead = `<tr style="font-size:10px;color:var(--txt3);text-transform:uppercase;letter-spacing:.5px">
+    <th style="text-align:left;padding-bottom:6px">種別</th>
+    <th style="text-align:right;padding-bottom:6px">回数</th>
+    <th style="text-align:right;padding-bottom:6px">成功</th>
+    <th style="text-align:right;padding-bottom:6px">失敗</th>
+    <th style="text-align:right;padding-bottom:6px">成功率</th>
+    <th style="text-align:right;padding-bottom:6px">クォータ</th>
+  </tr>`;
+
+  let rows = '';
+  for (const [key, cfg] of Object.entries(LABELS)) {
+    rows += row(cfg.name, daily[key], cfg.quota, cfg.unit||1);
+  }
+  let trows = '';
+  for (const [key, cfg] of Object.entries(LABELS)) {
+    trows += row(cfg.name, total[key], cfg.quota, cfg.unit||1);
+  }
+
+  // history chart (last 14 days)
+  const hist14 = history.slice(-14);
+  let histHtml = '';
+  if (hist14.length > 0) {
+    const maxQ = Math.max(...hist14.map(h => (h.videos_list?.quota||0)), 1);
+    histHtml = `<div style="margin-top:18px">
+      <div style="font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--txt3);margin-bottom:8px">過去のクォータ使用量（日別）</div>
+      <div style="display:flex;align-items:flex-end;gap:4px;height:60px;padding-bottom:4px">
+        ${hist14.map(h => {
+          const q = (h.videos_list?.quota||0);
+          const hp = Math.max(2, Math.round(q/Math.max(maxQ,1)*56));
+          const over = q > QUOTA_LIMIT;
+          const c = over ? 'var(--live)' : q > QUOTA_LIMIT*0.7 ? '#f59e0b' : 'var(--accent)';
+          return `<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px" title="${h.date}: ${q}">
+            <div style="width:100%;height:${hp}px;background:${c};border-radius:2px 2px 0 0;min-width:4px"></div>
+            <div style="font-size:9px;color:var(--txt3);writing-mode:vertical-rl;transform:rotate(180deg)">${h.date.slice(5)}</div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+  }
+
+  return `
+    <div style="margin-bottom:6px;font-size:11px;color:var(--txt3)">集計日: ${s.date || '—'}</div>
+
+    <div style="background:var(--surf2);border:1px solid var(--b2);border-radius:8px;padding:10px 14px;margin-bottom:14px">
+      <div style="font-size:11px;color:var(--txt3);margin-bottom:4px">本日のクォータ使用量（上限 10,000）</div>
+      <div style="display:flex;align-items:baseline;gap:6px">
+        <span style="font-size:22px;font-weight:700;color:${dailyQuota>9000?'var(--live)':dailyQuota>7000?'#f59e0b':'var(--txt)'}">${dailyQuota.toLocaleString()}</span>
+        <span style="font-size:12px;color:var(--txt3)">/ 10,000 (${pct(dailyQuota,QUOTA_LIMIT)}%)</span>
+      </div>
+      ${bar(dailyQuota, QUOTA_LIMIT)}
+    </div>
+
+    <div style="font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--txt3);margin-bottom:6px">本日</div>
+    <div style="overflow-x:auto;margin-bottom:16px">
+      <table style="width:100%;border-collapse:collapse">${thead}${rows}</table>
+    </div>
+
+    <div style="font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--txt3);margin-bottom:6px">累計</div>
+    <div style="overflow-x:auto">
+      <table style="width:100%;border-collapse:collapse">${thead}${trows}</table>
+      <div style="font-size:11px;color:var(--txt3);margin-top:6px">累計クォータ: ${totalQuota.toLocaleString()}</div>
+    </div>
+    ${histHtml}
+  `;
+}
+
+/* ═══════════════════════════════════════════════════
+   Channel search
+═══════════════════════════════════════════════════ */
+async function searchChannels() {
+  const q = document.getElementById('chSearchInput').value.trim();
+  if (!q) return;
+  const el = document.getElementById('searchResults');
+  el.innerHTML = '<div class="search-empty">検索中...</div>';
+  openModal('searchModal');
+  try {
+    const r = await api('GET', `/api/search/channels?q=${encodeURIComponent(q)}`);
+    const rem = r.remaining ?? '';
+    const max = document.getElementById('searchRemaining').textContent.split('/')[1]?.replace('回','') ?? '90';
+    if (rem !== '') document.getElementById('searchRemaining').textContent = `残${rem}/${max}回`;
+    el.innerHTML = renderSearchResults(r);
+  } catch(e) {
+    el.innerHTML = `<div class="search-error">${esc(e.message)}</div>`;
+  }
+}
+
+function renderSearchResults(r) {
+  let html = '';
+  const sections = [
+    { key: 'youtube', label: 'YouTube' },
+    { key: 'twitch',  label: 'Twitch' },
+  ];
+  let any = false;
+  for (const { key, label } of sections) {
+    const items = r[key];
+    const err   = r[key + 'Error'];
+    if (err) {
+      html += `<div class="search-platform-label">${label}</div><div class="search-error">${esc(err)}</div>`;
+      any = true; continue;
+    }
+    if (!items?.length) continue;
+    any = true;
+    const unregistered = items.filter(c => !c.registered);
+    const registered   = items.filter(c => c.registered);
+    html += `<div class="search-platform-label">${label}</div>`;
+    for (const c of [...unregistered, ...registered]) html += searchChItemHTML(c);
+  }
+  return any ? html : '<div class="search-empty">結果が見つかりませんでした</div>';
+}
+
+function searchChItemHTML(c) {
+  const init = (c.name || '?')[0].toUpperCase();
+  const img  = c.thumbnail
+    ? `<img class="search-ch-thumb" src="${esc(c.thumbnail)}" onerror="this.style.display='none';this.nextSibling.style.display='flex'"><div class="search-ch-init" style="display:none">${esc(init)}</div>`
+    : `<div class="search-ch-init">${esc(init)}</div>`;
+  const live = c.isLive ? '<span style="font-size:10px;color:var(--live);font-weight:700">● LIVE</span> ' : '';
+  const reg  = c.registered
+    ? `<span class="search-reg-badge">登録済み</span>`
+    : `<button class="search-add-btn" onclick="openAddChannelPrefill('${esc(c.url)}')" title="チャンネルを追加">＋</button>`;
+  return `<div class="search-ch-item${c.registered?' registered':''}">
+    <a href="${esc(c.url)}" target="_blank" rel="noopener" style="display:contents">${img}</a>
+    <div class="search-ch-info">
+      <a class="search-ch-name" href="${esc(c.url)}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">${esc(c.name)}</a>
+      <div class="search-ch-meta">${live}${esc(c.url)}</div>
+    </div>
+    <div class="search-ch-actions">${reg}</div>
+  </div>`;
+}
+
+function openAddChannelPrefill(url) {
+  closeModal('searchModal');
+  openAddChannel();
+  document.getElementById('f-url').value = url;
+}
+
+function openSettings() {
+  document.getElementById('s-apikey').value = '';
+  document.getElementById('s-twitch-id').value = '';
+  document.getElementById('s-twitch-secret').value = '';
+  if (IS_FILE) {
+    document.getElementById('serverAddrRow').style.display = 'block';
+    buildServerSelect('s-server-select', 's-server-custom', BASE);
+  }
+  renderTagManageList();
+  api('GET', '/api/config').then(c => {
+    if (!c) return;
+    document.getElementById('s-interval').value    = c.refresh_interval || 600;
+    document.getElementById('s-search-max').value  = c.search_max_daily ?? 90;
+    document.getElementById('s-days-past').value   = c.days_past   ?? 2;
+    document.getElementById('s-days-future').value = c.days_future ?? 2;
+    if (c.twitch_client_id) document.getElementById('s-twitch-id').value = c.twitch_client_id;
+    if (Array.isArray(c.member_keywords)) _memberKeywords = c.member_keywords;
+    renderMemberKeywordList();
+    if (Array.isArray(c.shorts_keywords)) _shortsKeywords = c.shorts_keywords;
+    renderShortsKeywordList();
+    const oh = c.operating_hours || {};
+    _opHoursEnabled = !!oh.enabled;
+    document.getElementById('opHoursToggle').className = 'toggle' + (_opHoursEnabled ? ' on' : '');
+    document.getElementById('opHoursConfig').style.display = _opHoursEnabled ? 'block' : 'none';
+    if (oh.start) document.getElementById('s-oh-start').value = oh.start;
+    if (oh.end)   document.getElementById('s-oh-end').value   = oh.end;
+  }).catch(()=>{});
+  api('GET', '/api/status').then(s => {
+    if (!s) return;
+    document.getElementById('s-interval').value = s.refreshInterval;
+    const v = s.version || '?', b = s.branch || '?', c = s.commit || '';
+    document.getElementById('s-build-info').textContent =
+      `v${v}  ${b}${c ? '  ' + c : ''}`;
+  }).catch(()=>{});
+  document.getElementById('autoRefreshToggle').className = 'toggle' + (_autoRefreshOnLoad ? ' on' : '');
+  document.getElementById('s-accent').value = _accentColor;
+  document.querySelectorAll('.theme-btn').forEach(b => b.classList.toggle('active', b.dataset.t === _theme));
+  showMsg('settingsMsg','','');
+  openModal('settingsModal');
+}
+
+async function saveSettings() {
+  const d = {};
+  const key = document.getElementById('s-apikey').value.trim();
+  if (key) d.youtube_api_key = key;
+  const tid = document.getElementById('s-twitch-id').value.trim();
+  if (tid) d.twitch_client_id = tid;
+  const tsec = document.getElementById('s-twitch-secret').value.trim();
+  if (tsec) d.twitch_client_secret = tsec;
+  d.member_keywords = _memberKeywords;
+  d.shorts_keywords = _shortsKeywords;
+  localStorage.setItem('haisin_auto_refresh_on_load', _autoRefreshOnLoad);
+  const iv = document.getElementById('s-interval').value;
+  if (iv) d.refresh_interval = parseInt(iv);
+  const sm = document.getElementById('s-search-max').value;
+  if (sm) d.search_max_daily = Math.max(1, Math.min(90, parseInt(sm)));
+  const dp = document.getElementById('s-days-past').value;
+  if (dp) d.days_past = parseInt(dp);
+  const df = document.getElementById('s-days-future').value;
+  if (df) d.days_future = parseInt(df);
+  d.operating_hours = {
+    enabled: _opHoursEnabled,
+    start: document.getElementById('s-oh-start').value || '08:00',
+    end:   document.getElementById('s-oh-end').value   || '23:00',
+  };
+  if (IS_FILE) {
+    const sv = getServerComboValue('s-server-select', 's-server-custom');
+    if (sv && sv !== BASE) { BASE = sv; addToServerList(sv); }
+  }
+  try {
+    await api('POST', '/api/config', d);
+    showMsg('settingsMsg','保存しました','info');
+    setTimeout(() => closeModal('settingsModal'), 900);
+    await Promise.all([checkStatus(), loadStreams()]);
+  } catch(e) { showMsg('settingsMsg', e.message, 'error'); }
+}
+
+/* ═══════════════════════════════════════════════════
+   Manual refresh
+═══════════════════════════════════════════════════ */
+async function manualRefresh() {
+  const btn = document.getElementById('refreshBtn');
+  btn.classList.add('spin');
+  try {
+    await api('POST', '/api/refresh');
+    await new Promise(r => setTimeout(r, 2200));
+    await Promise.all([checkStatus(), loadStreams()]);
+  } catch {}
+  btn.classList.remove('spin');
+}
+
+/* ═══════════════════════════════════════════════════
+   Color presets
+═══════════════════════════════════════════════════ */
+
+/* ═══════════════════════════════════════════════════
+   Wizard
+═══════════════════════════════════════════════════ */
+function wizardHTML() {
+  return `<div id="wizard">
+    <div class="wizard-icon">📡</div>
+    <div class="wizard-title">Livelist</div>
+    <div class="wizard-desc">チャンネルを登録すると YouTube の配信・動画を自動取得して表示します。</div>
+    ${!_hasApiKey?`<div class="wizard-step">
+      <div class="step-title"><span class="step-num">1</span>YouTube API Key を設定（推奨）</div>
+      <div class="step-desc">LIVE・配信予定の正確な検出に必要です。Data API v3 → 一般公開データ でキーを取得。</div>
+      <button class="wizard-btn" onclick="openSettings()" style="margin-top:8px">⚙ 設定を開く</button>
+    </div>`:''}
+    <div class="wizard-step">
+      <div class="step-title"><span class="step-num">${_hasApiKey?'1':'2'}</span>チャンネルを追加</div>
+      <div class="step-desc">左の ＋ ボタン、または下のボタンからチャンネル URL を登録してください。</div>
+      <button class="wizard-btn" onclick="openAddChannel()" style="margin-top:8px">＋ チャンネルを追加</button>
+    </div>
+  </div>`;
+}
+
+/* ═══════════════════════════════════════════════════
+   Modal / UI helpers
+═══════════════════════════════════════════════════ */
+function openModal(id)  { document.getElementById(id).classList.add('open'); }
+function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+function showMsg(id, text, type) {
+  const el = document.getElementById(id);
+  el.innerHTML = text; el.className = 'modal-msg' + (type?' '+type:'');
+  el.style.display = text ? 'block' : 'none';
+}
+function setBtn(id, html, disabled) {
+  const el = document.getElementById(id); el.innerHTML = html; el.disabled = disabled;
+}
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') document.querySelectorAll('.overlay.open').forEach(o => o.classList.remove('open'));
+});
+
+/* ═══════════════════════════════════════════════════
+   Time helpers
+═══════════════════════════════════════════════════ */
+function fmtDuration(dur) {
+  if (!dur) return '';
+  const m = dur.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+  if (!m) return '';
+  const h=+(m[1]||0), mn=+(m[2]||0), s=+(m[3]||0);
+  if (!h&&!mn&&!s) return '';
+  return h ? `${h}:${String(mn).padStart(2,'0')}:${String(s).padStart(2,'0')}` : `${mn}:${String(s).padStart(2,'0')}`;
+}
+function fmtCardTime(s) {
+  const ref = s.scheduledAt || s.actualStart || s.publishedAt;
+  if (!ref) return {text:'時刻不明', soon:false};
+  const d = new Date(ref), now = Date.now(), diff = d - now;
+  if (s.type === 'live') return {text:'配信中', soon:false};
+  if (s.type === 'upcoming' || s.type === 'premiere') {
+    if (diff < 0)         return {text:'間もなく開始', soon:true};
+    if (diff < 3600000)   return {text:`${Math.ceil(diff/60000)} 分後`, soon:true};
+    return {text:fmtDt(d), soon:false};
+  }
+  const abs = Math.abs(diff);
+  if (abs < 60000)     return {text:'たった今', soon:false};
+  if (abs < 3600000)   return {text:`${Math.floor(abs/60000)} 分前`, soon:false};
+  if (abs < 86400000)  return {text:`${Math.floor(abs/3600000)} 時間前`, soon:false};
+  if (abs < 604800000) return {text:`${Math.floor(abs/86400000)} 日前`, soon:false};
+  return {text:fmtDt(d), soon:false};
+}
+function fmtDt(d) {
+  const now=new Date(), tod=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+  const tom=new Date(tod); tom.setDate(tod.getDate()+1);
+  const base=new Date(d.getFullYear(),d.getMonth(),d.getDate());
+  const t=d.toLocaleTimeString('ja-JP',{hour:'2-digit',minute:'2-digit'});
+  if (+base===+tod) return `今日 ${t}`;
+  if (+base===+tom) return `明日 ${t}`;
+  return d.toLocaleDateString('ja-JP',{month:'numeric',day:'numeric',weekday:'short'})+' '+t;
+}
+function fmtRel(d) {
+  const diff = Date.now() - d;
+  if (diff<60000)   return 'たった今';
+  if (diff<3600000) return `${Math.floor(diff/60000)} 分前`;
+  return d.toLocaleTimeString('ja-JP',{hour:'2-digit',minute:'2-digit'});
+}
+function esc(s) {
+  return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* ═══════════════════════════════════════════════════
+   Auto-refresh
+═══════════════════════════════════════════════════ */
+setInterval(async () => { await Promise.all([checkStatus(), loadStreams()]); }, 60000);
+
+/* ═══════════════════════════════════════════════════
+   Init
+═══════════════════════════════════════════════════ */
+async function init() {
+  applyCustomization();
+  loadTypeFilters();
+  const ok = initBase();
+  if (!ok) return;
+  if (IS_FILE) document.getElementById('serverAddrRow').style.display = 'block';
+  await checkStatus();
+  await Promise.all([loadTags(), loadChannels()]);
+  await loadStreams();
+  if (_autoRefreshOnLoad) api('POST', '/api/refresh').catch(()=>{});
+}
+init();
+</script>
 </body>
 </html>
