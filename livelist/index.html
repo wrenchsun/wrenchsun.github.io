@@ -631,8 +631,9 @@
   <tr><td>GET</td><td><code>/api/streams</code></td><td>キャッシュ済みストリーム一覧（JSON 配列）</td></tr>
   <tr><td>GET</td><td><code>/api/channels</code></td><td>登録チャンネル一覧</td></tr>
   <tr><td>GET</td><td><code>/api/config</code></td><td>設定値（APIキー・Secret はマスク済み）</td></tr>
-  <tr><td>GET</td><td><code>/api/status</code></td><td>接続状態・最終更新時刻・稼働時間状態</td></tr>
+  <tr><td>GET</td><td><code>/api/status</code></td><td>接続状態・最終更新時刻・稼働時間状態・バージョン情報</td></tr>
   <tr><td>GET</td><td><code>/api/stats</code></td><td>API 使用統計（日次・累計・履歴）</td></tr>
+  <tr><td>GET</td><td><code>/api/search/channels?q=</code></td><td>チャンネル検索（YouTube + Twitch）。残り回数・登録済みフラグ付き</td></tr>
   <tr><td>GET</td><td><code>/api/tags</code></td><td>タグ一覧</td></tr>
   <tr><td>POST</td><td><code>/api/channels</code></td><td>チャンネル追加（URL 解決 → 即時更新）</td></tr>
   <tr><td>POST</td><td><code>/api/refresh</code></td><td>手動更新トリガー（非同期）</td></tr>
@@ -643,7 +644,6 @@
   <tr><td>PUT</td><td><code>/api/channels/:id</code></td><td>チャンネル名・タグ編集</td></tr>
   <tr><td>DELETE</td><td><code>/api/channels/:id</code></td><td>チャンネル削除（キャッシュも除去）</td></tr>
   <tr><td>DELETE</td><td><code>/api/tags/:name</code></td><td>タグ削除（チャンネルからも除去）</td></tr>
-  <tr><td>GET</td><td><code>/api/search/channels?q=</code></td><td>チャンネル検索（YouTube + Twitch）。残り回数・登録済みフラグ付き</td></tr>
 </table>
 <blockquote class="info">
   全エンドポイントに <code>Access-Control-Allow-Origin: *</code> を付与。<code>file://</code> から開いた <code>index.html</code> 経由でのローカルアクセスに対応しています。
