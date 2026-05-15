@@ -108,8 +108,4 @@
       "overview": "Blender・ZBrush・Marmoset 5・Substance Painterで制作された高精細AK-47マガジンの技術的ワークフローを公開。",
       "detail": "3DアーティストIlya BlinderがAK-47マガジンの高精細3Dモデル制作のブレイクダウンを80 Levelで公開した。使用ツールはBlender、ZBrush、Marmoset 5、Substance Painter、Photoshop、PureRef（リファレンス管理）。CADではなくEvgeniy Petrov氏のパイプラインを採用しオブジェクト制御を容易化、ZBrushのDynameshとelastic brushによる溶接テクニックでジオメトリをリファイン。UVはアイランドを90度単位で整列、4Kテクスチャセット1枚にマージン4ピクセルを適用、弾丸は1本テクスチャリングしてインスタンス化することでUV空間を節約。テクスチャリングはノーマルマップをベースに5-10のカラー/ラフネスバリエーションを重ね、金属ディテールはダメージ・塗装剥がれ・スクラッチにのみ適用。ステンシルで段階的にダメージを追加し、最終段階で加工痕・オイル・汚れを載せる。レンダリングはコントラストHDRIとスポットライトで素材の質感とアトモスフェアを演出している。",
       "links": {
-        "80.lv": "https://80.lv/articles/breakdown-designing-a-highly-detailed-ak-47-magazine"
-      }
-    }
-  ]
-}
+     

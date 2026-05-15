@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 5.8 Preview リリース",
+      "level": "9",
+      "overview": "UE5.8プレビュー版公開。MegaLights製品化、MetaHuman Crowds、Lumenミディアムモード追加など新機能多数。",
+      "detail": "Unreal Engine 5.8のプレビュー版がEpic Games Launcher・GitHub経由で公開。主な新機能：MegaLights（動的ライティング）が実験段階から製品利用可能に昇格。MetaHuman Crowdsでリアルタイム群衆表現が可能になり、ほぼあらゆるヒューマンメッシュをMetaHumanに変換できる。新しいMesh Terrain（実験的）はPCGとネイティブ統合し大規模環境構築をサポート。PCGフレームワーク改善でプロシージャルコンテンツへの手動編集が可能に。Lumenミディアムクオリティモード（ハイクオリティの2倍高速）追加。Direct Mesh Controls（DMC）実験的導入、Control Rig Physicsがベータへ移行。",
+      "links": {
+        "80.lv": "https://80.lv/articles/unreal-engine-5-8-preview-has-arrived",
+        "Epic Forums": "https://forums.unrealengine.com/t/unreal-engine-5-8-preview/2721597",
+        "Digital Production": "https://digitalproduction.com/2026/05/14/unreal-engine-5-8-preview-rolls-in/"
+      }
+    },
+    {
+      "name": "NVIDIA RTX：UE向けパストレースヘア＆LSSプリミティブ発表",
+      "level": "8",
+      "overview": "NVIDIAがUE5.8向けにパストレースヘアとLSSを発表。RTX 50シリーズで最大2倍高速化とメモリ削減。",
+      "detail": "NVIDIAがUnreal Engine 5.8向けにPath Traced HairとLinear Swept Spheres（LSS）を発表。Path Traced HairはLumen非依存のスタンドアロンレンダーパスで、AMD・Intelカードを含む全RTXハードウェアで動作。LSSは新しいヘアプリミティブ型でストランドベースのパストレースヘアのメモリ消費を大幅削減し、フレームタイムを最大2倍改善。BLAS構築がプロシージャル手法比で約50%高速化。Blackwell 50シリーズGPUに最適化されており、UE5.8・5.9でネイティブサポート予定。RTX Mega Geometryではパストレース対応のジオメトリを100倍高速にBVH構築可能。",
+      "links": {
+        "Technetbook": "https://www.technetbooks.com/2026/05/nvidia-rtx-unreal-engine-roadmap.html",
+        "NVIDIA Developer Blog": "https://developer.nvidia.com/blog/nvidia-rtx-innovations-are-powering-the-next-era-of-game-development/",
+        "NVIDIA Path Traced Hair": "https://developer.nvidia.com/blog/render-path-traced-hair-in-real-time-with-nvidia-geforce-rtx-50-series-gpus/"
+      }
+    },
+    {
+      "name": "Unity AI オープンベータ開始",
+      "level": "8",
+      "overview": "Unity 6向けAIツールスイートがオープンベータ開始。コード生成・シーン構築・AIゲートウェイ・MCPサーバーを含む統合環境。",
+      "detail": "Unity AIがUnity 6以降の全開発者向けにオープンベータを開始（2026年5月4日）。AIアシスタント（Ask/Agent/Planの3モード）、AIゲートウェイ（外部AIツール接続）、MCPサーバーの3コンポーネントを提供。プロジェクトのシーングラフやGameObjectを理解し、C#スクリプト生成・画像からのシーン構築・アセット生成・パフォーマンス最適化提案が可能。Proライセンス以上は自動アクセス。個人ユーザーは14日間無料トライアル（1,000 AIクレジット）後、月額$10で1,000クレジット。Unity 6パッケージとしてインストール必要。",
+      "links": {
+        "80.lv": "https://80.lv/articles/unity-launches-in-editor-ai-tools-suite-in-beta",
+        "Unity": "https://unity.com/features/ai",
+        "PocketGamer": "https://www.pocketgamer.biz/unity-launches-open-beta-for-unity-ai-game-development-tools/"
+      }
+    },
+    {
+      "name": "Vulkan Roadmap 2026：新デスクリプタシステム＆VRS対応",
+      "level": "7",
+      "overview": "Vulkan APIが2026年フィーチャーベースラインを設定。新拡張でデスクリプタシステム刷新、VRSもベースラインに追加。",
+      "detail": "Vulkan APIが2026年ロードマップマイルストーンと新フィーチャーベースラインを発表。新拡張機能VK_EXT_descriptor_heapでデスクリプタシステムを全面刷新し、デスクリプタメモリへの直接アクセスを提供しながらレガシーデスクリプタセットとの互換性を維持。Vulkan SDK 1.4.341.0ではRoadmap 2026 Profileを組み込み、AppleシリコンでKosmicKrispがベータへ。可変レートシェーディング（Variable Rate Shading）も新機能ベースラインに追加。Minecraft: Java EditionがOpenGLからVulkanへの移行を準備中。",
+      "links": {
+        "VideoCardz": "https://videocardz.com/newz/vulkan-api-sets-2026-feature-baseline-roadmap-milestone-with-variable-rate-shading",
+        "Vulkan.org": "https://www.vulkan.org/news"
+      }
+    },
+    {
+      "name": "GameMaker Spring 2026：新ランタイムGMRTリリース",
+      "level": "7",
+      "overview": "GMRTがデスクトップ向けに公開。JS/TS/C#対応、Claude AI統合、3D強化、ソースコードを全ユーザーに公開。",
+      "detail": "GameMaker LTS26の新ランタイム「GMRT（GameMaker Runtime）」がデスクトップ向けに公開。JavaScript・TypeScript・C#への対応を開始し、GMLに加えて幅広い言語でゲーム開発が可能に。glTF経由でBlenderの3Dモデルを直接読み込み可能、シーングラフ対応の3D機能を強化。CLI経由でClaude Code AI統合によりターミナルから自然言語でプロジェクト管理・バグ修正が可能。Desktop・Mobile・Web向けソースコードを全ユーザーに公開。LTS26全体を通じて5つのメジャーリリースが予定されており今年5月から2028年初頭まで展開。",
+      "links": {
+        "GameMaker Blog": "https://gamemaker.io/en/blog/update-spring-2026",
+        "80.lv": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update",
+        "GamingOnLinux": "https://www.gamingonlinux.com/2026/04/gamemaker-is-launching-gmrt-a-new-modern-runtime-with-source-access/"
+      }
+    },
+    {
+      "name": "LightWave 2026 ベータ公開：MotoRig・Advanced Placement搭載",
+      "level": "6",
+      "overview": "LightWave 2026ベータ公開。物理配置Advanced Placement、車両リグMotoRig、THOR雷エフェクトを新搭載。",
+      "detail": "LightWave Digitalが3Dアニメーション・レンダリングソフトLightWave 2026のベータ版を公開し、数週間以内にフルリリース予定（価格£795）。新機能：Advanced Placement（物理ベースのリアルタイムオブジェクト配置・破壊システム）、MotoRig（基本的なホイール設定から高度なサスペンションダイナミクスまで対応する包括的な車両リグアニメーションツール）、THOR（プロシージャル雷エフェクトジェネレーター）、Fractureツール（破壊エフェクト用メッシュ分割）、Snow Falling 3D（物理シミュレーション対応の雪・雨エフェクト）、Quixel MegascansとMaxtree統合を含む組み込みアセットブラウザ。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/",
+        "80.lv": "https://80.lv/articles/lightwave-digital-teases-lightwave-3d-2026-update"
+      }
+    },
+    {
+      "name": "Maxon Redshift 2026.6：Hex Tilingテクスチャ対応",
+      "level": "6",
+      "overview": "Redshift 2026.6がHex Tilingに対応。六角形グリッドでテクスチャ繰り返しを低減。OpenPBRがデフォルトに。",
+      "detail": "Maxon Redshift 2026.6がGPU高速レンダラーとしてリリース。新機能Hex Tilingは六角形グリッドでテクスチャのタイリング・回転・スケールをランダム化してシームレスにブレンドし、従来の正方形グリッドの繰り返し感を低減。コンクリート・石材・布地など広面積のサーフェスに効果的。テクスチャディスプレイスメントとの組み合わせ、個別テクスチャ・マテリアル全体への適用が可能。OpenPBRが全ホストアプリのデフォルトマテリアルに。Maya・3ds Max 2027のサポートも追加。Houdiniライトインスタンスアトリビュートも拡張。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/maxon-adds-hex-tiling-for-textures-to-redshift-2026-6/"
+      }
+    },
+    {
+      "name": "InstaMAT・InstaLOD Linuxネイティブ対応",
+      "level": "6",
+      "overview": "InstaMAT/InstaLOD 2026-05がLinuxにネイティブ対応。GPU加速・マルチスレッドをフルサポート。",
+      "detail": "Abstract社がInstaMAT 2026-05とInstaLOD 2026-05のLinuxネイティブ版をプレビューとしてリリース（2026年5月1日）。Rocky Linux 8/9・RHEL 8/9と互換性あり。エミュレーション不要のネイティブビルドでGPU加速・マルチスレッド・直接ハードウェアアクセスを完全サポート。個人ワークステーションからアセット処理クラスター・レンダーファームまでスケーラブルに運用可能。Blender・Mayaの統合プラグインもLinux対応。3ds Max・Unity・Unreal Engine統合もサポート。無料のPioneerティア（収益$10万以下のスタジオ向け）もLinuxで商用利用可能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/instamat-and-instalod-now-support-linux-natively/",
+        "Abstract": "https://abstract3d.com/2026/05/01/abstract-rolls-out-native-linux-support-built-for-the-pipelines-that-power-production/"
+      }
+    },
+    {
+      "name": "Boris FX Continuum 2026.5：ML動画インターレース除去搭載",
+      "level": "5",
+      "overview": "Continuum 2026.5リリース。ML動画インターレース除去、FXエディタ強化、150以上の新プリセット追加。",
+      "detail": "Boris FX Continuum 2026.5がAdobe AE/Premiere向けVFXプラグインとして2026年5月15日にリリース。新機能BCC+ Deinterlace MLはMLベースのインターレース除去でVHS・アナログTV映像をプログレッシブスキャンへ変換。AIモデル自動アンロードシステムで未使用時にGPUメモリを自動解放し再使用時に即座にリロード。FXエディタにカラーマネジメントパネルとリアルタイムRGBA情報のInfoパネルを追加。BCC+ Rippleが3つの独立リップルを個別・全体調整可能に。150以上の新プリセットをBlur・Lens・Particle Illusion・Stylise・Transitionsなどカテゴリに追加。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/boris-fx-releases-continuum-2026-5/",
+        "Digital Production": "https://digitalproduction.com/2026/05/14/boris-fx-continuum-2026-5-tunes-ai-and-fx-editor/"
+      }
+    },
+    {
+      "name": "Autograph モーションデザインツールがスタジオ向けも無料化",
+      "level": "5",
+      "overview": "AE代替のモーションデザインツールAutographがスタジオ向けにも無料提供開始。個人・スタジオ問わず商用利用可能。",
+      "detail": "MaxonがモーションデザインツールAutographをスタジオ向けにも無料で提供開始。以前は個人アーティスト向けのみ無料だったが、スタジオでも制限なく使用可能になった。AutoGrapghはAdobe After Effectsのモーションデザインワークフローに対応したツールで、プロフェッショナルな映像制作向け。UI・機能面でAE経験者が移行しやすい設計。スタジオへの無料提供は業界へのアクセシビリティ向上の取り組みの一環。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/motion-design-tool-autograph-is-now-free-to-studios/"
+      }
+    },
+    {
+      "name": "NeXus for Blender：GPUパーティクルシミュレーター今夏公開予定",
+      "level": "5",
+      "overview": "InsydiumのGPUパーティクルNeXusがBlender向けに今夏公開。C4D版より高速、Vulkanベース全主要GPU対応。",
+      "detail": "Insydiumがパーティクルシミュレーションシステム「NeXus」のBlender版スニークピークを公開。Cinema 4D版よりも高速で全機能を搭載し、Vulkanベースのためその他AMD・Apple・Intel・NVIDIAのGPUに対応。液体・気体流体シミュレーション・顆粒シミュレーションも含む。ネイティブBlenderパーティクルおよびGeometry Nodesへのエクスポートとキャッシュエクスポートをサポート。Push ModifierやnxTurbulenceなどのモディファイアも搭載。「Blender向けに完全に再設計」されたとInsydiumが説明。C4D版と類似したワークフローで移行しやすい。今夏リリース予定で永続ライセンス提供。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/sneak-peek-nexus-for-blender/",
+        "80.lv": "https://80.lv/articles/insydium-teases-nexus-for-blender"
+      }
+    },
+    {
+      "name": "Unreal Fest Chicago 2026 開催決定（6月16〜18日）",
+      "level": "4",
+      "overview": "Unreal Fest Chicago 2026が6月16〜18日に開催決定。UE5.8の最新機能デモや先進プロジェクトを紹介。",
+      "detail": "Epic GamesコミュニティイベントUnreal Fest Chicago 2026が2026年6月16〜18日にシカゴのマコーミックプレイスで開催決定。参加チケット販売中。UE5.8などの最新エンジン機能のデモ、先進的プロジェクトのショーケース、コミュニティとのネットワーキング機会を提供。エピックゲームズのコミュニティ向け年次イベントとして開発者・クリエイターが一堂に会する。",
+      "links": {
+        "Unreal Engine": "https://www.unrealengine.com/events"
+      }
+    }
+  ]
+}

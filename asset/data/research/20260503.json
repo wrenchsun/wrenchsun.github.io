@@ -107,9 +107,4 @@
       "level": "3",
       "overview": "Unreal Engine 5でビジュアルノベルを開発できるOSSプラグイン。コマンド挙動改善とセーブ機能の安定性向上。",
       "detail": "Unreal Engine 5上でビジュアルノベル等を開発できる無料・オープンソースのプラグイン「Shiden Visual Novel Editor」がVer.1.14.0をリリース。簡易プレビュー機能を備えたエディターを搭載し、デフォルトで37種のコマンドを使用可能で新規追加にも対応する。今回はImageがCanvas Panel内に配置されていない場合のコマンド挙動改善、セーブ機能の安定性向上などが施された。",
-      "links": {
-        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_02_136630/"
-      }
-    }
-  ]
-}
+      "links":

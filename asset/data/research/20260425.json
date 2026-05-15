@@ -134,9 +134,4 @@
       "overview": "Orange TurbineがRetopoflow 4.1.5をリリース。BlenderがEdit Modeで自動保存しない問題を独自に解決した。",
       "detail": "Orange TurbineがBlender向けリトポロジーツールスイート「Retopoflow 4.1.5」をリリース（4/7）。Blender自体がEdit Mode中に自動保存を行わないという根本的な問題に対処し、Retopoflow使用中でも確実な自動保存を実現した。Retopoflow 4はEdit Modeに直接統合された完全書き直し版で、高速化されたアルゴリズム・新ホットキー、PolyPen/PolyStrips/Strokes/Contoursなどのツールを含む。Blender 5にも対応。",
       "links": {
-        "CG Channel": "https://www.cgchannel.com/2026/04/orange-turbine-releases-retopoflow-4-for-blender/",
-        "80.lv": "https://80.lv/articles/retopoflow-4-for-blender-released"
-      }
-    }
-  ]
-}
+        "CG Channel": "https://www.cgchannel.com/2026/04/orange-turbi

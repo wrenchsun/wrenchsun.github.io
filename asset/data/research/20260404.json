@@ -89,8 +89,4 @@
       "overview": "UE5のUMG（Unreal Motion Graphics）を使ったUI制作の基礎から学ぶチュートリアル連載がCGWORLDで開始。",
       "detail": "CGWORLDにて「UEでゼロから始めるUI制作」と題した新連載が開始された。第1回はUnreal Engine 5のUI制作システム「UMG（Unreal Motion Graphics）」の基本的な使い方を解説する内容。UMGを使ったWidgetの作成方法、ブループリントとの連携など、UE5でのUI制作の基礎から実践的なノウハウを学べる構成。ゲーム開発者やビジュアライゼーション開発者向けの実践的なチュートリアル。",
       "links": {
-        "UMGを始めよう (CGWORLD)": "https://cgworld.jp/regular/202604-ueui-01.html"
-      }
-    }
-  ]
-}
+        "UMGを始
