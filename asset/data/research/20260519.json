@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "name": "NVIDIA GeForce RTX 5060 本日発売 - $299から、Blackwell＋DLSS 4",
+      "level": "9",
+      "overview": "Blackwellアーキテクチャ採用のRTX 5060が本日5/19発売。$299から。DLSS 4 Multi Frame Generation、Neural Rendering対応。前世代比2倍の性能。",
+      "detail": "NVIDIA GeForce RTX 5060（デスクトップ版$299、ラップトップ版$1,099〜）が2026年5月19日に発売開始。Blackwellアーキテクチャを採用し、FP4コンピュートをコンシューマー向けに初搭載。DLSS 4 Multi Frame Generation・Super Resolution・Ray Reconstructionをサポートし、前世代比2倍の性能を実現。ASUS、GIGABYTE、MSIなど主要AIBから展開。VRAM最大32GBのAI推論性能も強化。",
+      "links": {
+        "NVIDIA公式発表": "https://www.nvidia.com/en-us/geforce/news/rtx-5060-out-now/",
+        "PC Gamer記事": "https://www.pcgamer.com/hardware/graphics-cards/nvidia-announces-rtx-5060-release-date-of-may-19-for-both-the-usd299-desktop-gpu-and-usd1-099-laptops/"
+      }
+    },
+    {
+      "name": "Unreal Engine 5.8 Preview公開 - Mesh Terrain実験的追加、MegaLights正式版",
+      "level": "9",
+      "overview": "UE 5.8 Previewが公開。Mesh Terrain（実験的）、MegaLights正式版昇格、MetaHuman Crowd、PCGの手動編集対応など大型アップデート。",
+      "detail": "Epic GamesがUnreal Engine 5.8 Previewを公開（Epic Games Launcher/GitHub/Linux対応）。主な新機能：①Mesh Terrain（実験的）：PCGとネイティブ連携する3Dメッシュベース大規模環境構築システム ②MegaLights：Beta→Production Readyに正式昇格 ③MetaHuman Crowd：プラグインでリアルタイムワールドに群衆を配置可能、既存メッシュからMetaHuman化も可能 ④Direct Mesh Controls（DMC）：Control Rigコントロールをスケルタルメッシュに直接配置する実験的機能 ⑤PCGフレームワーク：手続き型コンテンツを手動編集しながら基礎ロジックを保持可能 ⑥Procedural Vegetation Editorの大幅改善 ⑦新NPRソリューション、Dataflow・Chaos Physics更新、モバイルワークフロー改善。",
+      "links": {
+        "80.lv記事": "https://80.lv/articles/unreal-engine-5-8-preview-has-arrived",
+        "Digital Production": "https://digitalproduction.com/2026/05/14/unreal-engine-5-8-preview-rolls-in/"
+      }
+    },
+    {
+      "name": "Unity 6.3 LTS リリース - Unity AI Beta同梱、Nintendo Switch 2対応",
+      "level": "8",
+      "overview": "Unity 6.3 LTSリリース。Unity AI（Beta）をエディタに統合、Nintendo Switch 2対応、新2D物理API（Box2D v3）、ビルド時間最大22%削減など。",
+      "detail": "Unity 6.3 LTS（6000.3.0f1）リリース。主な更新点：①Unity AI（Beta）：エディタ内でコーディング支援・アセット生成・タスク自動化が可能、全Unity 6以降ユーザー対象 ②Nintendo Switch 2対応（OpenXR: Android XR 1.1含む） ③Face Tracking、Object Trackables、Automated Dynamic Resolution対応 ④新低レベル2D物理APIをBox2D v3ベースで追加（既存APIと並行稼動） ⑤Shader Graphにカスタムライティング・地形シェーダーサポート追加、8テクスチャ座標対応 ⑥Burst+IL2CPP使用時のビルド時間最大22%短縮 ⑦OpenCL GPUライトマッパーがデフォルトに。2027年12月まで2年間サポート（Enterprise/Industryは3年）。",
+      "links": {
+        "Unity公式ブログ": "https://unity.com/blog/unity-6-3-lts-is-now-available",
+        "80.lv記事": "https://80.lv/articles/unity-6-3-lts-released"
+      }
+    },
+    {
+      "name": "GameMaker GMRT 新ランタイム公開 - JS/TypeScript/C#サポート、ソース公開",
+      "level": "7",
+      "overview": "GameMakerの次世代ランタイムGMRTが正式展開。JS・TypeScript・C#をネイティブサポート、全ユーザーにソースコードアクセスを提供。Claude AI統合も。",
+      "detail": "GameMakerが新ランタイムGMRT（GameMaker Runtime）の本格展開を発表。主な特徴：①JS、TypeScript、C#のネイティブサポート（GML以外の言語でも開発可能） ②デスクトップ・モバイル・Web版ソースコードを全ユーザーに公開、Enterpriseはコンソール版も ③BlenderからglTF経由で3Dモデルを直接インポート ④シーングラフシステム追加で3Dワールド管理が簡素化 ⑤GM-CLI（コマンドラインツール）を新たに提供、プロジェクトファイルはプレーンテキスト化でGit管理容易に ⑥AnthropicのClaude Code AIをCLIに統合。LTS26ライフサイクルは2028年初頭まで。",
+      "links": {
+        "80.lv記事": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update",
+        "GameMaker公式": "https://gamemaker.io/en/blog/update-spring-2026"
+      }
+    },
+    {
+      "name": "Redshift 2026.6 - Hex Tilingでテクスチャ繰り返しをマスクなしで解消",
+      "level": "7",
+      "overview": "Maxon Redshift 2026.6リリース。六角形グリッドでタイルするHex Tiling機能追加により広大な地形等の繰り返しテクスチャをマスク不要で自動解消。",
+      "detail": "Redshift 2026.6（2026年5月6日リリース）の主な新機能：①Hex Tiling：六角形グリッドでテクスチャを分割しランダムに回転・スケール・位置をブレンドして繰り返しパターンをマスク不要で解消。コンクリート・漆喰・布地など広大な平面に有効。Texture Displacementとの組み合わせ対応、単一テクスチャまたはマテリアル全体に適用可能（法線マップでは不自然な結果が出る場合あり） ②OpenPBRが全ホストアプリでデフォルトマテリアルに変更 ③Houdini向け：Quick Material LOPノード追加、ポイントインスタンスドライトのカスタム属性対応、Render Pass LOPサポート ④Maya/3ds Max 2027サポート。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/maxon-adds-hex-tiling-for-textures-to-redshift-2026-6/"
+      }
+    },
+    {
+      "name": "Blackmagic Fusion Studio 21.0 Beta 3 - USD Hydra 2.0、Cryptomatte 3D対応",
+      "level": "7",
+      "overview": "Fusion Studio 21.0 Beta 3が公開。USD SDK 25.11・Hydra 2.0 API対応、3DレンダラーのCryptomatte対応、モーショングラフィックスツール群追加。",
+      "detail": "Blackmagic DesignがFusion Studio 21.0 Beta 3を公開。主な更新：①USD SDK 25.11 + Hydra 2.0 API（Stormレンダラー）対応、USD 3Dマットオブジェクト・テクスチャ・テクスチャプロジェクター&キャッチャー追加 ②3DレンダラーにCryptomatteサポート追加 ③KrokodoveエフェクツとOGraf/Lottieサポート追加 ④ステレオスコピック3Dクリップとディープ画像のマルチレイヤー対応、ディープ画像にカラーコレクション ⑤マルチツール選択時の共通インスペクタプロパティ一括編集 ⑥Windows ARM64サポート ⑦Macro Editorに複数コントロール選択・マクロ/グループ保存オプション追加。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/blackmagic-design-releases-fusion-studio-21-0-in-beta/"
+      }
+    },
+    {
+      "name": "LightWave 2026 Beta公開 - 物理ベース配置Advanced PlacementとMotoRig",
+      "level": "6",
+      "overview": "LightWave 2026がBeta公開。物理シミュレーションによるオブジェクト散布Advanced Placement、車両リグMotoRig、雷エフェクトTHORなど大型機能追加。",
+      "detail": "LightWave 2026がBeta公開（正式版は3〜4週間以内予定）。主な新機能：①Advanced Placement：リアルタイム物理ベースのオブジェクト散布・整列システム（重力で自然落下、接触時の自動破砕対応） ②MotoRig：包括的な車両リグ・アニメーションシステム（6・8輪車対応、物理ベースサスペンション・地形追従） ③THOR：2オブジェクト間の手続き的雷エフェクト生成 ④Fractureツール：各種点分布法によるメッシュ破砕 ⑤Snow Falling 3D：物理シミュレーション付きリアルタイム降雪/降雨 ⑥組み込みアセットブラウザ（HDRI・IESライト・3Dモデル等対応） ⑦新2D/3Dトラッカー・海洋ツール・UVパッキング改善。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/"
+      }
+    },
+    {
+      "name": "NeXus for Blender 今夏リリース予定 - VulkanベースGPUパーティクル",
+      "level": "6",
+      "overview": "InsydiumのGPUパーティクルシミュレーターNeXusがBlender版を今夏リリース予定。VulkanベースでAMD・Apple・Intel・NVIDIAのGPUに対応しC4D版より高速。",
+      "detail": "InsydiumがBlender向けNeXusを発表。特徴：①Vulkanベースのため複数GPUベンダー（AMD/Apple Silicon/Intel/NVIDIA）対応 ②粒子エフェクト、顆粒流体、液体・気体流体シミュレーションツールセットを包括 ③Cinema 4D版より高速（GPUオーバーヘッド削減・スケーリング改善） ④NeXus粒子をネイティブBlender粒子・Geometry Nodesにエクスポート可能、キャッシュエクスポート対応 ⑤既存のFusedライセンス（NeXus含む）にBlender版を追加料金なしで含む予定。今夏リリース予定。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/sneak-peek-nexus-for-blender/"
+      }
+    },
+    {
+      "name": "Wafer 1.2 Windows/macOS対応 - iPad発のNPRテクスチャペイントがデスクトップに",
+      "level": "6",
+      "overview": "iPad専用だったNPR（非写実的）テクスチャペイントアプリWafer 1.2がWindows・macOS（実験的）に対応。インディーライセンス$45の買い切り。",
+      "detail": "SparsealのWafer 1.2がWindows・macOS（実験的）に対応。特徴：①iPad版の全機能を搭載、Smudgeツールなど最新機能も含む ②マルチチャンネルペインティング対応（高価なアプリに匹敵する機能） ③ベースアプリは無料だが保存・エクスポートには有料ライセンスが必要 ④価格：インディー（年収$10万未満）$45（ノードロック）・スタジオ$120の買い切り ⑤開発者：元Blenderスカルプトツールリード開発者Pablo Dobarro氏とGodot EngineのJoan Fons氏によるSparsealが開発。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/3d-texture-painting-app-wafer-is-now-available-for-windows/"
+      }
+    },
+    {
+      "name": "Boris FX Continuum 2026.5 - AIインターレース解除BCC+ Deinterlace ML追加",
+      "level": "5",
+      "overview": "Boris FX Continuum 2026.5リリース。MLベースBCC+ Deinterlace MLでVHS・アナログTV映像を自動プログレッシブ変換。Face MLに鼻・首セグメント追加。",
+      "detail": "Continuum 2026.5の主な新機能：①BCC+ Deinterlace ML：機械学習ベースのインターレース解除フィルタ（VHS/アナログTV映像を自動変換、TeleCine調プルダウン・29.97fps NTSC→24fpsフィルム変換対応） ②AI精度向上：Face ML/License Plate ML/Motion Blur ML/UpRes MLの精度を改善 ③BCC+ Face MLに鼻・首セグメンテーション追加 ④FX Editorの分離機能改善 ⑤Warpエフェクト・Wipeトランジション更新 ⑥Particle Illusion連携強化 ⑦Blur/Lens/Particle Illusion等150以上の新プリセット追加。After Effects、Premiere Pro、DaVinci Resolve等対応。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/boris-fx-releases-continuum-2026-5/"
+      }
+    },
+    {
+      "name": "SIGGRAPH 2026 開催情報 - ロサンゼルス、7月19〜23日",
+      "level": "5",
+      "overview": "コンピュータグラフィックス・インタラクティブ技術の最高峰学会SIGGRAPH 2026がロサンゼルスで2026年7月19〜23日に開催。",
+      "detail": "SIGGRAPH 2026はロサンゼルスで2026年7月19〜23日に開催予定。アニメーション・VFX・ゲーム開発で使われる最先端ツールや技術が初めて発表・議論される場として毎年機能する。映像・ゲーム産業の研究者・開発者・アーティストが集まる国際的な年次カンファレンス及び展示会。CGや対話型技術に関する研究発表、技術デモ、産業展示など多彩なプログラムを提供。",
+      "links": {
+        "SIGGRAPH 2026公式": "https://s2026.siggraph.org/"
+      }
+    },
+    {
+      "name": "Blender 4.2.21 LTS 本日リリース",
+      "level": "4",
+      "overview": "Blender LTS版のメンテナンスリリース4.2.21が2026年5月19日にリリース。次期LTSはBlender 5.2（2026年7月予定）。",
+      "detail": "Blender 4.2.21は4.2 LTSシリーズのメンテナンスリリース（バグ修正中心）。LTSサポートは2026年7月まで継続。Blenderの最新安定版はBlender 5.1（2026年3月17日リリース）で、次期LTSはBlender 5.2（2026年7月予定）、その後Blender 5.3が2026年11月予定。2026年開発ロードマップでは大規模シーン対応・仮想制作連携強化が計画されている。",
+      "links": {
+        "Blenderリリースノート": "https://developer.blender.org/docs/release_notes/"
+      }
+    },
+    {
+      "name": "GTMF 2026 開催決定 - ゲーム開発無料イベント、大阪12/2・東京12/8",
+      "level": "4",
+      "overview": "ゲーム開発ソリューションの無料イベントGTMF 2026が大阪（12/2）・東京（12/8）で開催決定。ゲーム開発ツール・ミドルウェアを紹介するビジネス系イベント。",
+      "detail": "「GTMF 2026」（Game Tools & Middleware Forum）の開催が決定。大阪：2026年12月2日（水）、東京：2026年12月8日（火）。ゲーム開発に関わるツール・ミドルウェアのソリューションを紹介するビジネス系テクニカルイベント。一般参加者は入場無料。エンジン・物理・AI・オーディオ・ネットワーク等の開発ソリューションベンダーが展示・講演を行う。",
+      "links": {
+        "ゲームメーカーズ記事": "https://gamemakers.jp/article/2026_05_01_136645/"
+      }
+    }
+  ]
+}
