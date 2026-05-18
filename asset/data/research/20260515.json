@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "name": "Blackmagic Design、Fusion Studio 21.0ベータ版公開—モーショングラフィックス強化・USD刷新・Hydra 2対応",
+      "level": "8",
+      "overview": "Fusion Studio 21.0がベータ公開。Krokodove統合で70以上のモーションデザインツール追加、ディープコンポジット拡張、USD強化、Hydra 2対応、Windows on ARM対応など。",
+      "detail": "Blackmagic Designが3Dコンポジットアプリ「Fusion Studio 21.0」のパブリックベータ（Beta 3）を公開した。主な新機能は①旧来フリーサードパーティ製アドオンのKrokodoveを統合、ワーピング・モーフィング・テキストアニメなど70以上のモーショングラフィックスツールを内包、②LottieおよびOGraf形式のネイティブ対応、③ディープコンポジットにネイティブカラーコレクションノード「dColorCorrector」追加でフラット変換不要に、④USDツールセットにuProjector/uCatcher（デカール投影・テクスチャ再投影）追加・Hydra 2対応、⑤標準3DレンダラーにCryptomatte出力対応、⑥AI RetimingツールSpeedWarpが大幅高速化（最大6x）、⑦Windows on ARMネイティブサポート。既存ユーザーへの更新は無料。新規永続ライセンスは295ドル。また同ツールセットを内包するDaVinci Resolve 21.0も同時ベータ中。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/blackmagic-design-releases-fusion-studio-21-0-in-beta/",
+        "Release Notes": "https://www.blackmagicdesign.com/support/readme/0b0299e4b39e41a291665f56e9b08b8e"
+      }
+    },
+    {
+      "name": "『僕のヒーローアカデミア All's Justice』UE5制作メイキング公開—独自アニメシェーダ・Chaos Destruction・Lumen活用",
+      "level": "7",
+      "overview": "UE5を活用したアニメ対戦ゲームの制作技術を詳解。独自トゥーンシェーダ、Chaos Destruction、Niagara＋EmberGenエフェクト、mGear対応の68体リギング手法を公開。",
+      "detail": "CGWORLDがバンダイナムコ×バイキングの対戦ゲーム「僕のヒーローアカデミア All's Justice」（PS5/Xbox XS/Steam）の制作メイキングを公開。主な技術的ポイント：①UE5上でアニメ設定画と並べて遜色ないモデルを実現するため、背面法アウトライン＋ポストプロセス輪郭線を併用、頂点カラーで線の太さを制御するカスタムシェーダを開発。②特殊演出時の影はRGBAチャンネルを個別活用する「影制御テクスチャ」で表現、OFA発動など状況に応じチャンネルを動的切り替え。③LODはUE5内のSimplygonで自動生成しつつ、ディテールをテクスチャに集約して崩れを回避。④背景破壊にはChaos Destructionを採用、Chaos Cacheで事前録画・再生しフレームレートを安定維持。⑤ライティングはLumenを導入しベイクコスト削減、ただしキャラへのGI乗せは省略し2Dルックを維持。⑥Niagara＋EmberGen＋FluidNinjaでアニメ風エフェクトを構築、コマ打ち質感はパーティクル再生速度制御＋マテリアルディゾルブで再現。⑦Maya用mGearで68体のリギングを効率化。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/article/202605-cgw331-mhaaj.html"
+      }
+    },
+    {
+      "name": "Polygonflow、UE5用高機能アセットブラウザ「Dash – Advanced Asset Manager」を無料公開",
+      "level": "7",
+      "overview": "UE5ネイティブコンテンツブラウザより高機能な代替アドオン「Dash」を無料スタンドアロン公開。ファジー・意味・Boolean検索、Megascans/Poly Haven統合対応。",
+      "detail": "Polygonflowが、UE5のワールドビルドツール「Dash」のコンテンツブラウザ部分をスタンドアロンのフリーアドオンとして公開した。「Dash – Advanced Asset Manager」はUE5ネイティブのContent Browserより強力な無料代替として設計されており、ファジー検索・意味検索・Boolean検索をサポート。Quixel Megascans・Amazon Berkeley Objects・ambientCG・Poly Haven・IESライブラリとの直接統合も備え、数千点の高品質PBRアセットが同梱される。タグ管理機能も提供。対応はUE 5.7以降で完全無料。フルバージョンのDash（有償）との同一マシンへの共存インストールは不可。Fabマーケットプレイスから入手可能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/polygonflow-releases-free-dash-asset-manager-for-unreal-engine/",
+        "Fab Marketplace": "https://www.fab.com/listings/865301e9-2d26-425d-8f3c-e0aadf35da61"
+      }
+    },
+    {
+      "name": "ACM SIGGRAPH I3D 2026開催—インタラクティブ3Dグラフィクス国際シンポジウムがサンフランシスコで進行中",
+      "level": "6",
+      "overview": "リアルタイムCG・ゲーム向け研究の最高峰、I3D 2026がサンフランシスコで5/13〜15に開催。レンダリング・VR/AR・アニメーション等の最新研究が発表されている。",
+      "detail": "ACM SIGGRAPHが主催するインタラクティブ3Dグラフィクス＆ゲームのシンポジウム「I3D 2026」が、2026年5月13日から15日にかけて米国サンフランシスコにて開催中（本日最終日）。同シンポジウムはリアルタイムレンダリング・テクスチャ合成・衝突検出・VRインタラクション・アニメーションなど、ゲーム・リアルタイムCGに直結した研究を一挙に扱う。採択論文はACMのPACMCGIT（I3D 2026号）に掲載され、学術的にも産業的にも高い影響力を持つ。過去のI3Dでは後にゲームエンジンに標準搭載されることになった技術（スクリーンスペースAO・テンポラルAAなど）が先行発表されており、今年の発表内容も注目される。詳細プログラムはi3dsymposiumの公式サイトで確認可能。",
+      "links": {
+        "I3D 2026公式": "https://i3dsymposium.org/2026/",
+        "ACM論文集": "https://dl.acm.org/doi/proceedings/10.1145/3722564"
+      }
+    }
+  ]
+}

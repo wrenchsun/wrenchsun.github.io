@@ -65,8 +65,4 @@
       "detail": "MicrosoftがTypeScript 7.0 Betaをリリース（4月21日）。最大の変更点はTypeScript処理系のGo言語による再実装。TypeScriptのコードベースをTypeScript（JSにトランスパイル）からGo言語に移植し、コンパイル速度が従来比約10倍に向上。型チェックロジックは旧実装と構造的に同一で後方互換性を維持。新コンパイラはtsgoコマンドで実行し、npm install -D @typescript/native-preview@betaでインストール可能。--buildersフラグによる並列プロジェクトビルド対応でモノレポ環境でのパフォーマンスが大幅向上。正式リリースは2ヶ月以内を予定。ゲームエンジン（特にGodotやweb系）でTypeScriptを使用する開発者に大きなメリット。",
       "links": {
         "Microsoft TypeScript Blog": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-beta/",
-        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_04_25_135897/"
-      }
-    }
-  ]
-}
+        "ゲームメーカーズ": "htt

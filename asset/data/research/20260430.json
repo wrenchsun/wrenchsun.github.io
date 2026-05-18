@@ -119,10 +119,4 @@
       "name": "Plasticity 2026.1リリース — 技術図面出力とPolySplines機能追加",
       "level": "5",
       "overview": "ハードサーフェスモデリングツールPlasticity 2026.1がリリース。3Dモデルから技術図面を生成するExport Hidden Lineを追加。",
-      "detail": "Plastic SoftwareはPlasticity 2026.1をリリース。新しいExport Hidden Lineコマンドで3Dモデルから技術的な図面を生成できるようになった。新しいSlotコマンド追加および各種コアコマンドのアップデートも含む。StudioエディションではポリゴンメッシュをクリーンなNURBSサーフェスに変換するPolySplines機能が追加された。",
-      "links": {
-        "CG Channel": "https://www.cgchannel.com/2026/04/plasticity-2026-1-is-out/"
-      }
-    }
-  ]
-}
+      "detail": "Plastic SoftwareはPlasticity 2026.1をリリース。新しいExport Hidden Lineコマンドで3Dモデルから技術的な図面を生成できるようになった。新しいSlotコマンド追加および各種コアコマンドのアップデートも含む。StudioエディションではポリゴンメッシュをクリーンなNURBSサーフェスに変換するPolySplines機能が追加された。",

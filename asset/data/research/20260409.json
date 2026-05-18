@@ -84,8 +84,3 @@
       "overview": "Prisms PipelineとSpace Mouse利用時の起動クラッシュ修正、Unreal連携XCodeエラー解消など安定性向上パッチ。",
       "detail": "SideFXがHoudini 21のプロダクションビルドを21.0.679に更新。主な修正：①Prisms PipelineとSpace Mouse併用時の起動クラッシュを解決、②hkeyログインダイアログのSideFXアカウントとライセンスサーバー混同を修正、③Unreal連携のXCodeコンパイルエラーを修正、④Layout LOPのhipファイル再オープン時のプロトタイプ読み込み問題を修正、⑤アニメーションエディタのボックスハンドルとRetimeツールのマルチチャンネルキーコラプスを修正。",
       "links": {
-        "SideFX Changelog": "https://www.sidefx.com/changelog/"
-      }
-    }
-  ]
-}

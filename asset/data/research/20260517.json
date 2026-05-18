@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "name": "VirtuCamera 2 リリース：Android対応・Houdini/Cinema 4D/3ds Max新対応",
+      "level": "8",
+      "overview": "スマホの動きで3DCGカメラを操作するモーキャプアプリがv2でAndroid対応、Houdini 21・Cinema 4D・3ds Maxにも新対応。",
+      "detail": "The Weird Byte社がVirtuCamera 2をリリース。スマートフォン/タブレットをリアルタイムバーチャルカメラとしてDCCツールに接続できる。Blender・Mayaに加えHoudini 21・Cinema 4D 2026・3ds Max 2026/2027に新対応。フルスクリーンUIへの刷新、Nuke 16/17プラグインも開発中。今後はUE・Unity・ComfyUIへの対応も予定。API・SDK提供でカスタム統合が可能。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202605-VirtuCamera2.html",
+        "公式サイト": "https://virtucamera.com/"
+      }
+    },
+    {
+      "name": "ILM×Katana：プロダクション向けライティングマクロ制作の10の極意",
+      "level": "7",
+      "overview": "マンダロリアン・トランスフォーマー等で実証済み、ILMシニアライティングTDによるKatanaマクロ構築の実践ガイド10選。",
+      "detail": "ILMのシニアライティングTD Jonathan Wai氏が、複数プロダクションで使用したKatanaライティングマクロの設計哲学を公開。チームへの可読性配慮・バージョン管理・環境変数によるパス管理・パフォーマンスモニタリング・グローバルコントロールの露出など、スタジオ規模でのマクロ運用ノウハウを10項目で解説。マンダロリアンS3からトランスフォーマーOneまで横断的に活用された実例付き。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/10-expert-tips-for-building-production-ready-lighting-macros/"
+      }
+    },
+    {
+      "name": "SideFX Houdini「Simulations & Proceduralism」OFFF HIVE 2026 講演動画公開",
+      "level": "6",
+      "overview": "OFFF HIVE 2026でのJakub Spaček氏講演。FLIPシミュレーション制御・PDG+AWSによる1万本自動生成パイプラインを解説。",
+      "detail": "Houdini公式YouTubeがOFFF HIVE 2026のJakub Spaček氏講演を公開。FLIPでDivergence/Viscosityを連携させてパン生地膨張を表現、For-Eachループによるプロシージャル破片量産とシミュレーション内スローモーション実装、さらにPDG+AWS Deadline Cloudを活用したブロックチェーンデータの大規模ジェネレーティブアート（1万本以上の動画を自動生成）パイプラインを解説。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202605-Houdini-Sim-Proc.html",
+        "YouTube": "https://www.youtube.com/watch?v=dNXjywRruBE"
+      }
+    },
+    {
+      "name": "UE5＋EmberGen：SFドームバリアVFXエフェクト制作チュートリアル（Gnomon Workshop）",
+      "level": "5",
+      "overview": "Callisto Protocol VFXディレクターFabio Silva氏によるAAA品質インゲームエフェクト制作Gnomon 4時間チュートリアル。",
+      "detail": "Gnomon WorkshopがUE5でSci-Fiエネルギードームバリアを構築するチュートリアルを公開。Niagara・Blueprint・Render Targetを使った衝撃反応エフェクト、EmberGenでフリップブックを生成してUE5 Niagaraと統合する手法、Substance 3D DesignerでVFXタイラブルテクスチャ制作などを4時間で解説。制作ファイル（テクスチャ・ブラシ・メッシュ）付属。Naughty Dog・Epic Games・ILM出身のSilva氏による実践的内容。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/tutorial-creating-a-sci-fi-dome-barrier-in-unreal-engine/",
+        "Gnomon Workshop": "https://www.thegnomonworkshop.com/workshops/creating-a-sci-fi-dome-barrier-in-unreal-engine"
+      }
+    }
+  ]
+}

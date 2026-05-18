@@ -49,8 +49,4 @@
       "overview": "Data Transferモディファイアで法線をコピーし、Custom Normals Data事前追加で正確な法線を保持。",
       "detail": "3DアーティストのzxcとRyuEn_Utage、Jan van den Hemel氏らが共有したBlenderにおける別メッシュ間のシーム除去テクニックを80 Levelが5/5に紹介。Data Transferモディファイアで隣接メッシュから法線をコピーすることでシームを目立たなくする手法を解説。「もう一つの法線シーム消去テクニック：頂点が変更されるとBlenderは通常法線を自動再計算するが（これが法線シームの原因）、事前にCustom Normals Dataを追加することで再計算を防ぐことができる。動画内では法線がコピー元側に偏っているため、より正確な法線を求めるならこの方法が望ましい」と解説。Louis du Mont氏のハードサーフェスTips動画もリンクされ、リトポ・モデリングワークフロー全般のチートシート的なまとめになっている。",
       "links": {
-        "80 Level記事": "https://80.lv/articles/using-data-transfer-in-blender-to-smooth-seams-between-separate-meshes"
-      }
-    }
-  ]
-}
+        "80 Level記事": "https://80.lv/articles/using-data-transfer-in-blender-to-smooth-

@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "name": "AMD DGF SuperCompression リリース：ジオメトリ圧縮最大22%削減・VulkanオープンスタンダードもSamsungと策定",
+      "level": "8",
+      "overview": "AMDがジオメトリ圧縮規格DGF SuperCompressionをリリース。最大22%のストレージ削減を実現しSamsungと協力しVulkanマルチベンダー拡張も推進。",
+      "detail": "AMD Dense Geometry Format（DGF）の新機能としてDGF SuperCompression（DGFS）が公開された。DGFブロックを正確に再構築しつつストレージを最大22%（ロスレス）削減できる。DGF非対応ハードウェアでも従来の頂点・インデックスバッファにデコード可能なため共通アセット形式として利用できる。SDK v1.2にはMeshOptimizerクラスタリングサンプル・マルチスレッド対応・Post-Quantization Vertex Welding等も追加。またAMDとSamsungはVulkan向けDGFのマルチベンダー拡張を共同策定することも発表。RDNA 5でハードウェアネイティブ対応予定。現在はDX12/Vulkanでソフトウェアエミュレーション。",
+      "links": {
+        "AMD GPUOpen: DGF SuperCompression": "https://gpuopen.com/learn/introducing-amd-dgf-supercompression/",
+        "AMD GPUOpen: DGF Open Standard": "https://gpuopen.com/learn/amd-dgf-an-open-geometry-compression-standard/",
+        "Jendrik Illner Weekly #440": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-440/"
+      }
+    },
+    {
+      "name": "Substance 3D Painter 12.1 Beta公開：スキューマップ・Auto UV展開・OpenPBR対応",
+      "level": "7",
+      "overview": "AdobeがSubstance 3D Painter 12.1ベータを公開。ノーマルマップ歪み解消のスキューマップ・ハードサーフェス向けAuto UV展開・OpenPBR対応を搭載。",
+      "detail": "Substance 3D Painter 12.1ベータの主要新機能は①スキューマップペイント：ノーマルマップのエッジ歪みを「Edge Protection」等ブラシで補正できる新ベイキングモード、②Auto Rebake：ベイキングパラメータ調整時の自動再ベイクで作業効率化、③ハードサーフェス向けAuto UV Unwrap：手動展開不要で複雑形状に自動対応、④OpenPBR初期対応。CGWORLDではワークフロー高速化が強調されている。",
+      "links": {
+        "CGWORLD記事": "https://cgworld.jp/flashnews/01-202605-SP12-1beta.html",
+        "Adobe Substance Painter Beta": "https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/release-notes/beta",
+        "YouTube解説動画": "https://www.youtube.com/watch?v=z-xbXtyPykI"
+      }
+    },
+    {
+      "name": "World Machine「Dragontail Peak」プレビュー：VDMテレイン・macOS/Linux対応・Slangシェーダー採用",
+      "level": "7",
+      "overview": "ベテランテレイン生成ツールWorld Machineが20年以上ぶりにmacOS/Linuxへ対応。VDMによるオーバーハング地形サポートとSlangシェーダー採用も発表。",
+      "detail": "World Machine「Dragontail Peak」は過去最大規模の更新。①macOS（Apple Silicon）・Linux（Ubuntu x64）対応：20年以上Windows専用だったが初のクロスプラットフォーム化、②VDM（Vector Displacement Map）テレインサポート：ハイトフィールドでは表現できないオーバーハング地形・高解像度急斜面を32bit EXRでネイティブ出力可能、③Slangシェーダー採用：OpenCLから移行、Metal/HLSL/GLSL/SPIR-V等へクロスコンパイル可能、④マクロ/Codeデバイスのバージョン管理強化。クローズドアルファ中で公開日未定。Indie $119 / Pro $299。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/05/world-machine-dragontail-peak-preview/",
+        "World Machine Blog": "https://www.world-machine.com/blog/"
+      }
+    },
+    {
+      "name": "Wave Tracing：波動光学をパス積分に統合する新レンダリングフレームワーク（EUROGRAPHICS 2026）",
+      "level": "7",
+      "overview": "EUROGRAPHICS 2026でWave Tracingが発表。古典的パス積分を波動光学に拡張し干渉・回折などコヒーレント波効果をレンダリングに組み込む手法。",
+      "detail": "Wave Tracingは幾何光学を超えた波動効果（干渉・回折・コヒーレンス）をレンダリングパイプラインに統合するフレームワーク。局所性と非コヒーレンス間のトレードオフを理論的に整理し、双線形パス積分法で粒子間相互作用を実現。現実的なレンズシステムのフレアや薄膜干渉など物理的に正確な表現が可能になる研究。",
+      "links": {
+        "YouTube講演動画": "https://www.youtube.com/watch?v=Xolb8DcrbLc",
+        "Jendrik Illner Weekly #440": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-440/"
+      }
+    },
+    {
+      "name": "Maya カスタムデフォーマ「Profile Mover」公開：Pixar論文ベースの独自実装をLinkedInで報告",
+      "level": "6",
+      "overview": "MayaプラグインProfile MoverをMatin FalahManesh氏がPixarの変形論文をベースに独自実装。CGWORLDが5/18付けで報告。",
+      "detail": "Matin FalahManesh氏がLinkedInでMaya用カスタムデフォーマ「Profile Mover」の開発成果を公開。Pixarが発表した変形手法の論文を参考に独自実装したプラグインで、キャラクターやオブジェクトの変形ワークフローを改善することを目指している。詳細な機能や配布形態は記事内では触れられていないが、プロダクション品質のリグ向けMayaデフォーマとして注目される。",
+      "links": {
+        "CGWORLD記事": "https://cgworld.jp/flashnews/01-202605-Maya-ProfileMover.html"
+      }
+    },
+    {
+      "name": "Google I/O 2026（5/19-20開催）：Android XRグラス・Gemini AI・Android 17発表予定",
+      "level": "6",
+      "overview": "Google I/O 2026が明日5月19-20日開催。XRスマートグラスやGemini AIエージェント・Android 17等、ゲーム・XR開発に関連する発表が複数予定。",
+      "detail": "Google I/O 2026はカリフォルニア州マウンテンビューのShoreline Amphitheatreで5月19日10:00 PT開始。主な発表予定：①Android XR対応スマートグラスの正式発表、②Gemini Intelligenceによるエージェント型AI機能、③Android 17・Wear OS 7、④Material 3 Expressiveデザインシステム更新。ゲーム・XR開発者にとってAndroid XR向けSDKとGemini API連携の動向が注目される。オンラインで無料ライブ配信あり。",
+      "links": {
+        "Google I/O 2026公式": "https://io.google/2026/",
+        "Tom's Guide": "https://www.tomsguide.com/phones/google-pixel-phones/google-i-o-2026-date-time-potential-announcements-and-everything-else-you-need-to-know"
+      }
+    },
+    {
+      "name": "Vulkan Opacity Micromaps：レイトレーシングシャドウ高速化のライブデモ実装（Jendrik Weekly #440）",
+      "level": "6",
+      "overview": "Vulkan実装でOpacity Micromapをレイトレシャドウに対応させるライブデモを公開。MeshOptimizerとの連携でマイクロマップ生成・統合プロセスを解説。",
+      "detail": "YouTubeライブデモでVulkanのOpacity Micromap拡張をレイトレーシングシャドウに適用するC++・シェーダー実装を詳解。MeshOptimizerがサポートするマイクロマップの概念を説明し、完全な統合実装プロセスを示している。透明・半透明オブジェクトのシャドウアルファテスト処理をGPU上で高速化するための実用的な実装リファレンスとなっている。",
+      "links": {
+        "YouTube実装デモ": "https://www.youtube.com/watch?v=gVIHXWI1BQY",
+        "Jendrik Illner Weekly #440": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-440/"
+      }
+    },
+    {
+      "name": "cuda-oxide：RustでGPUカーネルを記述しCUDA PTXに直接コンパイルするNVIDIAフレームワーク",
+      "level": "5",
+      "overview": "NVIDIAがRustのGPUカーネルをPTXに直接コンパイルするcuda-oxideフレームワークのドキュメントを公開。Rustの型安全性とSIMT実行モデルを活用。",
+      "detail": "cuda-oxideはRustの慣用的な記法でGPUカーネルを記述し、CUDAのPTXコードに直接コンパイルするRust-to-CUDAコンパイラ。Rustの所有権・型システム・非同期実行・SIMTコンパイラサポートのカーネルアノテーション等を活用。公開されたBookドキュメントでは、通常のRust GPU kernelをPTXにコンパイルするイディオマティックなアプローチを解説している。GPUプログラミングへのRust導入に向けた実験的フレームワーク。",
+      "links": {
+        "cuda-oxide Book": "https://nvlabs.github.io/cuda-oxide/",
+        "Jendrik Illner Weekly #440": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-440/"
+      }
+    },
+    {
+      "name": "Precomputed Lens Transport Maps：ニューラルネットでリアルタイムレンズフレア・DOFを高精度化",
+      "level": "5",
+      "overview": "ニューラルネットワークによる事前計算レンズ輸送マップで、レンズフレアや被写界深度を高精度かつブルートフォースより桁違いに高速化する手法を発表。",
+      "detail": "Precomputed Lens Transport Mapsはニューラルネットを用いてリアルなレンズシステムのFresnel透過率をシミュレーションする手法。分類器＋回帰器のアーキテクチャで有効光線パスと遮蔽パスを分離し、不連続のないレンズフレアとDOFレンダリングを実現。現実的なレンズ構成でブルートフォースのレイトレーシングより桁違いに高速でありながら高精度を維持する。",
+      "links": {
+        "arXiv論文": "https://arxiv.org/pdf/2605.04017",
+        "Jendrik Illner Weekly #440": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-440/"
+      }
+    }
+  ]
+}
