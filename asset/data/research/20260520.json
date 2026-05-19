@@ -1,0 +1,129 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 5.8 Preview リリース",
+      "level": "9",
+      "overview": "Epic GamesがUE5.8 Previewを公開。Mesh Terrain（実験的）、MetaHumanクラウド、Megalights本番対応など性能重視の大型更新。",
+      "detail": "2026年5月12日にUnreal Engine 5.8 PreviewがEpic Games Launcher、GitHub、Linux向けに公開された。ハイライト機能はMesh Terrain（実験的）で、VDMではなく3Dメッシュベースのアーキテクチャで巨大環境を構築しProceduralコンテンツ生成フレームワークとネイティブ連携する。Megalightsはノイズ大幅低減で本番品質になり60fps目標達成に貢献。MetaHuman Crowdプラグインで大規模群衆を実時間世界に配置可能になった。PCGでは手動編集とプロシージャルロジックの共存が可能に。フル正式版はUnreal Fest Chicago 2026（6月16〜18日）に合わせてリリースの噂もある。",
+      "links": {
+        "80lv": "https://80.lv/articles/unreal-engine-5-8-preview-has-arrived",
+        "gamefromscratch": "https://gamefromscratch.com/unreal-engine-5-8-preview-released/",
+        "epicforum": "https://forums.unrealengine.com/t/unreal-engine-5-8-preview/2721597"
+      }
+    },
+    {
+      "name": "DirectX Shader Model 6.10 Preview & AgilitySDK 720 発表",
+      "level": "9",
+      "overview": "MSがSM6.10 Previewを発表。行列演算LinAlg、Ray Tracing強化、非同期コマンドリストでニューラルレンダリングをDirectXの標準機能へ。",
+      "detail": "2026年4月28日にMicrosoftがShader Model 6.10 PreviewとDirectX Agility SDK 1.720-previewを発表（水曜定例確認対象）。最大の目玉はLinAlg（linalg::Matrix）でHLSLから直接GPU行列演算を実行できるようになり、アップスケーリング・デノイズなどMLベースグラフィクス処理が標準化される。Group Wave IndexとVariable Group Shared Memoryで旧来の32KB制限を超えたShared Memory利用が可能に。Ray TracingにはTriangleObjectPositions()やClusterID()などの新組み込みが追加。Batched Asynchronous Command Listsで暗黙的シリアライズが廃止され並列GPUタスクのパフォーマンスが向上。AMD・Intel・NVIDIAがドライバ対応。",
+      "links": {
+        "directxblog": "https://devblogs.microsoft.com/directx/shader-model-6-10-agilitysdk-720-preview/",
+        "pcgamer": "https://www.pcgamer.com/hardware/graphics-cards/microsoft-announces-shader-model-6-10-preview-bringing-neural-rendering-into-the-mainstream-and-just-maybe-making-the-games-industry-a-bit-less-reliant-on-nvidia/"
+      }
+    },
+    {
+      "name": "Unity AI オープンベータ開始 — コード不要でゲーム生成",
+      "level": "8",
+      "overview": "Unity AIがオープンベータ公開。自然言語プロンプトだけでシーン・C#スクリプト・アセットを生成し、コード不要でカジュアルゲームのプロトタイプが可能に。",
+      "detail": "Unity 6以上を対象にUnity AIのオープンベータが開始された。GoogleのGeminiなどフロンティアモデルを活用し、自然言語でC#スクリプト生成、エディタ操作の自動化、画像リファレンスからプレイアブルシーン構築が行える。プレースホルダーマテリアル・サウンド・キューブマップ・2D/3DアセットのインエディタAI生成機能も搭載。CEO Matthew Bromberg氏は「AIにより数千万人がインタラクティブエンターテインメントを作るようになる」と言及。GDC Festival of Gamingで発表されたこのベータで、ゲーム開発の敷居が大幅に下がることが期待される。",
+      "links": {
+        "gamedeveloper": "https://www.gamedeveloper.com/programming/unity-says-its-ai-tech-will-soon-be-able-to-prompt-full-casual-games-into-existence-",
+        "gamingonlinux": "https://www.gamingonlinux.com/2026/05/unity-ai-out-in-open-beta-to-give-developers-the-fabled-make-game-button/"
+      }
+    },
+    {
+      "name": "Autograph（Maxon）スタジオ向けチームライセンスが完全無料化",
+      "level": "8",
+      "overview": "MaxonがUSDベースのモーションデザイン・VFXソフトAutographのチームライセンスを商用含め完全無料化。制限・条件なし。",
+      "detail": "Maxonは2026年5月にUSD基盤のモーションデザイン・コンポジット・VFXアプリ「Autograph」のTeamsライセンスを商用プロジェクトを含め完全無料で提供開始した。無制限シートで解像度・機能制限もなく、コマンドライン機能とPythonサポートも含む。個人アーティスト向けの無料化は2026年4月に先行発表済みで、今回はスタジオ規模の利用まで対象が拡大。Autograph 2026.0はOpenFXサードパーティプラグイン対応（Red Giant含む）とMaxon Studio統合が主な新機能。Windows 10+、macOS 14.0+対応。",
+      "links": {
+        "cgchannel": "https://www.cgchannel.com/2026/05/motion-design-tool-autograph-is-now-free-to-studios/",
+        "awn": "https://www.awn.com/news/maxon-makes-autograph-team-licenses-free-commercial-use"
+      }
+    },
+    {
+      "name": "World Machine 4059 'Dragontail Peak' リリース — VDMで真の3Dテレイン対応",
+      "level": "7",
+      "overview": "World Machine最新版がVDM（ベクタ変位マップ）による真の3Dテレインに対応。オーバーハングや急峻な崖の生成が可能になった。",
+      "detail": "World Machine Softwareがビルド4059「Dragontail Peak」をリリース。従来のハイトフィールドに代わりVDM（Vector Displacement Maps）ベースの地形表現が導入され、オーバーハングや急斜面の地形生成が実現した。3DビューポートはHDRライティングとフォグに対応し、A:Bサイドバイサイド比較機能も追加。ノードグラフにWire Slice（複数接続を一括切断）とベロシティ感応型グリッドスナップが追加。マクロとカスタムデバイスがメインDevicesメニューからアクセス可能な「ファーストクラス」存在に昇格。将来のリリースでmacOS・Linuxにも対応予定。",
+      "links": {
+        "cgchannel": "https://www.cgchannel.com/2026/05/world-machine-software-ships-world-machine-4059-dragontail-peak/"
+      }
+    },
+    {
+      "name": "InstaMAT & InstaLOD ネイティブLinux版リリース",
+      "level": "7",
+      "overview": "Abstractのマテリアルオーサリング「InstaMAT」とジオメトリ最適化「InstaLOD」がLinuxネイティブ対応。VFXスタジオのパイプラインで活用可能に。",
+      "detail": "AbstractがInstaMAT 2026-05とInstaLOD 2026-05のLinux Preview版を公開。Rocky Linux 8/9、RHEL 8/9および互換ディストリビューション（AlmaLinux、Oracle Linux、CentOS Stream）をサポート。InstaMAT Studioはレイヤーベースのペイントとノードベースのオーサリングを備え、3ds Max、Blender、Maya、Unity、Unreal Engineとのインテグレーションプラグインを提供。Pioneer Edition（個人・年収10万ドル未満スタジオ向け）は無料。Substanceに代わるLinux対応マテリアルオーサリングとして、Linuxパイプラインを持つVFXスタジオの選択肢が広がる。",
+      "links": {
+        "cgchannel": "https://www.cgchannel.com/2026/05/instamat-and-instalod-now-support-linux-natively/",
+        "80lv": "https://80.lv/articles/instamat-instalod-get-native-linux-support"
+      }
+    },
+    {
+      "name": "GameMaker Spring 2026アップデート — GMRT新ランタイム & LTS26ロードマップ発表",
+      "level": "7",
+      "overview": "GameMakerがGMRT新ランタイムを正式ローンチ。LTS26はLTS22〜26を統合する5メジャーリリース構成で、glTF読み込み・シーングラフ・3D数学改善を計画。",
+      "detail": "GameMakerが新ランタイム「GMRT」のSpring 2026アップデートを発表。GMRTはゼロから構築した新ランタイムでC#サポートとソースアクセスを提供し、デスクトッププラットフォームはベータを「数ヶ月以内」に卒業予定。LTS26ロードマップはQ2のv0.20から始まり2028年初頭まで5メジャーリリース展開。3D強化としてglTFインポート、シーングラフシステム、マトリクス/クォータニオン対応の数学関数が追加予定。AnthropicのClaude AI統合やCLIによるIDE外でのワークフロー拡張も同時発表された。",
+      "links": {
+        "gamemaker": "https://gamemaker.io/en/blog/update-spring-2026",
+        "80lv": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update"
+      }
+    },
+    {
+      "name": "Blender 5.1.2 リリース（5月19日）",
+      "level": "6",
+      "overview": "Blender 5.1.2が2026年5月19日にリリース。テキストオブジェクト押し出し、Windowsクラッシュ、GLTF出力、LineArt、Vulkanなど12件のバグを修正。",
+      "detail": "Blender 5.1.2が2026年5月19日にリリースされた。12件のバグ修正を含み、テキストオブジェクトの押し出し問題、Windowsでのクラッシュ、ジオメトリ問題、GLTF出力、LineArt、Vulkanサポートなど多岐にわたるモジュールの不具合を解消。同日にBlender 4.2.21（LTS）もメンテナンスリリース予定。現安定版はBlender 5.1（2026年3月17日リリース）で、Blender 5.2 LTSがアルファ開発中。2026年ロードマップにはレイヤードテクスチャ、アニメーションレイヤー、NPRレンダリング、新ヘアソルバー、Cycles/VRアップデートが含まれる。",
+      "links": {
+        "blendernation": "https://www.blendernation.com/2026/05/13/blender-developers-meeting-notes-4-may-2026/",
+        "blender_releases": "https://developer.blender.org/docs/release_notes/"
+      }
+    },
+    {
+      "name": "Unity マルチプラットフォーム展開ツールキット発表",
+      "level": "7",
+      "overview": "Unityがマルチプラットフォーム同時リリースを加速するツールキットを発表。プラットフォーム間の差異を吸収し開発ワークフローを統一化する。",
+      "detail": "Unityが複数プラットフォームへの同時リリースを効率化する新ツールキットを発表した。プラットフォーム固有の違いを吸収する統一ワークフローにより、モバイル・PC・コンソール向けの同時展開にかかる工数を削減する。Unity AIのオープンベータ開始とあわせてGDC Festival of Gamingで披露された施策のひとつ。Unity 6以降を対象とし、インディーから大規模スタジオまで活用可能。詳細な機能セットについては今後の公式ドキュメント公開で明らかになる予定。",
+      "links": {
+        "gamedeveloper": "https://www.gamedeveloper.com/programming/unity-unveils-new-toolkit-to-accelerate-multi-platform-launches"
+      }
+    },
+    {
+      "name": "Unreal Fest Chicago 2026 — 6月16〜18日開催、UE5.8正式発表の場へ",
+      "level": "6",
+      "overview": "Unreal Fest Chicago 2026が6月16〜18日に開催。UE5.8正式リリースや最新エコシステム情報が発表される見込み。チケット発売中。",
+      "detail": "Epic Gamesの旗艦コミュニティカンファレンス「Unreal Fest Chicago 2026」が2026年6月16〜18日にシカゴで開催される。UE5.8 Preview公開中の現在、同イベントでの正式リリース発表が有力視されている。プレゼンテーション・デモ・ラボ・エキスポフロア・ゲーミングラウンジを予定。スーパーアーリーバードチケットは549ドルで発売中（通常価格から200ドル引き）。UEFN（Unreal Editor for Fortnite）の最新情報も発表予定とされる。",
+      "links": {
+        "epicgames": "https://www.unrealengine.com/events/unreal-fest-chicago-2026"
+      }
+    },
+    {
+      "name": "SIGGRAPH 2026 ロサンゼルス — 7月19〜23日開催",
+      "level": "6",
+      "overview": "SIGGRAPH 2026がロサンゼルスで7月19〜23日に開催。コンピュータグラフィクス・インタラクティブ技術の世界最大の学術・産業カンファレンス。",
+      "detail": "ACM SIGGRAPH 2026がロサンゼルスで2026年7月19〜23日に開催される。テクニカルペーパー、プロダクションセッション、インタラクティブ展示など幅広いプログラムを予定。前年のSIGGRAPH 2025はバンクーバーで開催された。併せてSIGGRAPH Asia 2026はクアラルンプールで12月1〜4日に開催予定。",
+      "links": {
+        "siggraph2026": "https://s2026.siggraph.org/"
+      }
+    },
+    {
+      "name": "GDC Festival of Gaming 2026 — リブランド後に2万人参加",
+      "level": "5",
+      "overview": "GDC Festival of Gaming 2026がリブランド後初開催で2万人規模に。Unity AI・Steam Machine・Xbox Helixなど多数の技術発表が行われた。",
+      "detail": "GDC（Game Developers Conference）がGDC Festival of Gaming 2026としてリブランドした新形式で開催され、2万人の参加者を集めた。主要発表としてUnity AIベータ、ValveのSteam Machine Verified認定プログラム、MicrosoftのProject Helix（次世代Xboxプラットフォーム・レイトレーシング/ML強化）、Google DeepMindのGenie 3（テキストからナビゲーブル3Dワールドを生成するAI）などが披露された。生成AIを業務利用しているゲーム開発者が36%に上る一方、業界への悪影響を懸念する声が50%に達するという調査結果も公表された。",
+      "links": {
+        "gamedeveloper": "https://www.gamedeveloper.com/business/rebranded-gdc-festival-of-gaming-attracts-20-000-attendees"
+      }
+    },
+    {
+      "name": "Krafton、ゲーム技術のPhysical AI・ロボティクス応用を検討",
+      "level": "5",
+      "overview": "PUBG開発元KraftonがゲームAI・シミュレーション技術をロボティクス・物理AIへ転用する長期戦略を発表。Hanwha Aerospaceとも提携。",
+      "detail": "KraftonがLudo Robotics（カリフォルニア）を通じてPhysical AIとロボティクス分野への進出を本格化。CEO Kim Chang-han氏がLudo Robotics CEOを兼任し、ゲーム運営で蓄積された大規模仮想世界・物理シミュレーションのデータをAI訓練データとして活用する構想。2026年3月にはHanwha Aerospaceと提携MOU締結し、防衛・製造インフラとの融合によるヒューマノイドロボット開発も視野に入れる。ゲームAIから現実世界への応用という新トレンドを象徴する動き。",
+      "links": {
+        "gamedeveloper": "https://www.gamedeveloper.com/business/krafton-is-evaluating-how-its-game-tech-may-be-applied-to-physical-ai-and-robotics-"
+      }
+    }
+  ]
+}
