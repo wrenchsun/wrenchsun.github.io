@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "name": "Wētā FX 自社シミュレーションツール Loki & Pahi デモ動画公開",
+      "level": "8",
+      "overview": "Avatarシリーズ制作で使用した自社物理シミュレーションLoki、流体シミュレーションPahiのデモ映像をWētā FXが公開。",
+      "detail": "Wētā FXが自社開発した統合マルチフィジックスシミュレーションフレームワーク「Loki」と、流体シミュレーションパイプライン「Pahi」のデモ動画を公開した。Lokiは流体・気体・布・毛髪など複数シミュレーション種別を統合的に連携させるフレームワークで、AvatarシリーズのVFXショットで中心的役割を担った。Pahiはタヒチのカヌーに由来する名称で、Avatar: The Way of Water / Fire and Ashの膨大な水シミュレーションを支えた。Avatar: Fire and Ashでは3,132ショットのVFXを担当し、最終レンダリングに約12.5億時間を投じた規模のプロジェクトで活用された。これらツールに関する研究動画を初めて体系的に公開。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/see-amazing-demo-videos-of-weta-fxs-in-house-simulation-tools/"
+      }
+    },
+    {
+      "name": "Maya 2026.3 リリース — ダイナミックジオメトリアトリビュート・Bifrostリジッドボディ初実装",
+      "level": "8",
+      "overview": "Maya 2026.3がリリース。ダイナミックジオメトリアトリビュート追加やBifrost初のリジッドボディ、Arnold 3倍高速化など多数の強化。",
+      "detail": "Autodesk Maya 2026.3がリリースされた。主な新機能として「ダイナミックジオメトリアトリビュート」が追加され、キャラクターのデフォメーション品質向上とアニメートされたしわなどプロシージャルエフェクト作成が可能に。アニメートインコンテキストとカメラシーケンサの操作性も改善されショット制作フローが直感的になった。LookdevX 1.10.0ではカラー管理とジェネレーティブテクスチャAPIが強化され、Bifrost 2.15.0.0ではリジッドボディダイナミクスを初実装。USDアセットリゾルバの導入でプロジェクト移植性が向上し、Arnold MtoA 5.5.4では最大3倍の高速化を実現している。",
+      "links": {
+        "AREA JAPAN": "https://area.autodesk.jp/information/maya-2026-3/",
+        "Maya 2026.3 機能詳細": "https://area.autodesk.jp/product/maya/features/2026-3/"
+      }
+    },
+    {
+      "name": "Blackmagic Design Fusion Studio 21.0 ベータ公開 — USD Hydra 2・Cryptomatte 3D対応",
+      "level": "7",
+      "overview": "Fusion Studio 21.0ベータが公開。Deep Compositing強化、USD Hydra 2対応、3DレンダラーのCryptomatte出力などを追加。",
+      "detail": "Blackmagic DesignがFusion Studio 21.0をパブリックベータとして公開した。主な新機能はDeep Compositingツールセットの拡張（dColorCorrectorノードでDeepモードのままカラーコレクション可能に）、USD Hydra 2サポートの追加、uProjector/uCatcherノードによるデカール投影とテクスチャ再投影、3DレンダラーへのCryptomatte出力対応、チェッカーボードキャリブレーションによるレンズディストーション補正など。テキスト+ノードへのカラーフォント・絵文字・スペルチェック対応なども追加された。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/blackmagic-design-releases-fusion-studio-21-0-in-beta/"
+      }
+    },
+    {
+      "name": "Caddis — After Effects代替ノードグラフ対応モーショングラフィクスツール 無料ベータ公開",
+      "level": "7",
+      "overview": "After Effects代替を目指す新ツールCaddisが無料ベータ公開。レイヤーワークフローとプロシージャルノードグラフを融合した設計。",
+      "detail": "新しいモーショングラフィクスツール「Caddis」が無料の招待オープンベータとして公開された。After Effectsと同様のレイヤーワークフローを基盤としつつ、各レイヤーにノードグラフを持たせるという独自設計を採用しており、プロシージャルな制作手法と慣れ親しんだレイヤー編集を両立できる。2026年6月に正式リリース予定で、標準価格は129ドル。現在はベータ期間中のため無料で利用可能。After Effectsを代替するツールへの関心が高まる中、注目の新ツールとして登場。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/new-motion-graphics-tool-caddis-puts-a-node-graph-in-every-layer/"
+      }
+    },
+    {
+      "name": "LightWave 2026 発表 — Advanced Placement・MotoRig・Fractureデストラクション搭載",
+      "level": "7",
+      "overview": "LightWave Digitalが次世代版LightWave 2026を発表。物理ベースのレイアウトシステムや車両リグツール、デストラクションエフェクトを搭載。",
+      "detail": "LightWave Digitalが「LightWave 2026」を発表し、ベータ版を公開した。主要新機能は3つ：「Advanced Placement」は物理ベースのショットレイアウト＆セットドレッシングシステム、「MotoRig」は包括的な車両リギング＆アニメーションツールキット、「Fracture」はデストラクションVFX向けの破壊シミュレーションツール。さらにライティング・降雪・降雨エフェクト専用プラグインも追加されている。正式リリースは数週間後を予定。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/"
+      }
+    },
+    {
+      "name": "Polygonflow、UE5向け無料アセットブラウザ「Dash」リリース",
+      "level": "6",
+      "overview": "Polygonflowが世界構築ツールDashをベースにしたUE5向け無料アセットブラウザを公開。ネイティブコンテンツブラウザより高機能。",
+      "detail": "Polygonflowが、Unreal Engine 5向けの無料アドオン「Dash」アセットブラウザをリリースした。同社の世界構築ツールDashをベースとしており、UE5の標準コンテンツブラウザより高機能な代替品として設計されている。アセットの検索・フィルタリング・プレビューが強化されており、ワールドビルディング作業の効率向上が期待できる。完全無料で利用可能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/polygonflow-releases-free-dash-asset-manager-for-unreal-engine/"
+      }
+    },
+    {
+      "name": "3DテクスチャペイントアプリWafer、Windows・Apple Silicon Mac対応",
+      "level": "6",
+      "overview": "Sparsealの3DテクスチャペイントアプリWaferがiPad版に続きWindows版とApple Silicon Mac版をリリース。",
+      "detail": "SparsealのiPad向け3DテクスチャペイントアプリケーションWaferがWindowsおよびApple Silicon Mac向けにも対応した。iPadで先行リリースされていた本アプリが、デスクトップ環境でも利用可能となった。3Dモデルに直接ペイントできる機能を持ち、ゲームアーティストやキャラクターアーティストのテクスチャ制作ワークフローへの組み込みが想定される。現在各プラットフォーム向けのビルドが公開中。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/3d-texture-painting-app-wafer-is-now-available-for-windows/"
+      }
+    },
+    {
+      "name": "SideFX、Houdiniチュートリアル「Everything Is a Simulation」動画公開",
+      "level": "5",
+      "overview": "OFFF HIVE 2026でのPaul Esteves氏によるHoudiniシミュレーション講演動画をSideFXが公開した。",
+      "detail": "SideFXがOFFF HIVE 2026イベントでのPaul Esteves氏によるHoudini講演「Everything Is a Simulation」の動画を公式公開した。シミュレーションをテーマとした内容で、Houdiniを使った表現手法を学べるチュートリアル系コンテンツ。同シリーズとしてEntagmaによる「Getting Real」、Jakub Spaček氏による「Simulations & Proceduralism」、Artur Gadzhiev氏による「Designed Chaos」も公開されており、OFFF HIVE 2026での講演シリーズが順次公開されている。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202605-Houdini-EvrSim.html"
+      }
+    }
+  ]
+}
