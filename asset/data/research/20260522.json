@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 5.8 Preview リリース — MegaLights正式化・Mesh Terrain実験的機能追加",
+      "level": "9",
+      "overview": "UE5.8 Previewリリース。MegaLightsが本番対応、実験的Mesh Terrainや改善されたPCG、MetaHuman Crowd Pluginを搭載。",
+      "detail": "Epic GamesがUnreal Engine 5.8 Previewを2026年5月14日に公開した。最大のハイライトはMegaLightsが実験的段階から本番対応（Production-ready）へ移行したこと。ノイズ低減と60FPS目標達成に向けたパフォーマンス改善が行われた。新たな実験的機能「Mesh Terrain」はPCGと連携する3Dメッシュベースの大規模環境構築システム。PCGフレームワークではプロシージャルコンテンツへの手動編集を保ちながら動的更新できるように改善。Procedural Vegetation Editor（PVE）も大幅強化され、Nanite対応の高品質植生アセットをエディタ内で作成可能に。MetaHuman Crowd Pluginでは群衆をリアルタイムワールドに配置でき、Control Rig PhysicsはBetaへ移行。正式版は2026年6月中旬予定。",
+      "links": {
+        "80.lv": "https://80.lv/articles/unreal-engine-5-8-preview-has-arrived",
+        "DIGITAL PRODUCTION": "https://digitalproduction.com/2026/05/14/unreal-engine-5-8-preview-rolls-in/",
+        "GameFromScratch": "https://gamefromscratch.com/unreal-engine-5-8-preview-released/"
+      }
+    },
+    {
+      "name": "Unity AI オープンベータ開始 — エディタ内AI統合でC#コード生成・シーン構築を実現",
+      "level": "8",
+      "overview": "Unity 6向けAIアシスタントがオープンベータ開始。プロジェクト全体を理解しC#生成・画像からシーン構築・アセット作成などに対応。",
+      "detail": "2026年5月4日、UnityがUnity AIをオープンベータとしてUnity 6以降の全開発者向けに公開した。AI AssistantはシーングラフやGameObject、コンポーネントなどプロジェクト全体のコンテキストを理解したうえでC#スクリプト生成、画像からのシーン構築、プレースホルダーアセット生成、パフォーマンス最適化提案を行える。操作モードはAsk/Agent/Planの3種類。AI Gatewayでサードパーティ製AIツールとの連携も可能。MCP Serverも提供。料金はPersonalが1,000クレジット14日無料後は月額10ドル（1,000クレジット）、Pro以上はデフォルトで含む。ゲームプロジェクトの中央値開発時間は2022年比77%短縮（91時間→21時間）との調査結果も公表された。",
+      "links": {
+        "80.lv": "https://80.lv/articles/unity-launches-in-editor-ai-tools-suite-in-beta",
+        "PocketGamer.biz": "https://www.pocketgamer.biz/unity-launches-open-beta-for-unity-ai-game-development-tools/"
+      }
+    },
+    {
+      "name": "ZibraGDS オープンベータ公開 — UE5向けリアルタイムジオメトリ圧縮で97%削減",
+      "level": "8",
+      "overview": "Zibra AIのUE5向けリアルタイムジオメトリシーケンス圧縮ツールZibraGDSがオープンベータ。28GBキャッシュを97%圧縮する性能。",
+      "detail": "Zibra AIがUnreal Engine 5向けリアルタイムジオメトリシーケンスレンダリングプラグイン「ZibraGDS」のオープンベータをApril 29〜May 29, 2026の期間で公開した。独自圧縮エンジンにより28GBのAlembicキャッシュを97%圧縮（見た目の品質損失なし）でき、650フレーム・100万頂点の92GBシーケンスを11GBに抑えることに成功。UE5のネイティブGeometry Cacheより高速かつメモリ効率が高い。破壊・布・液体・ソフトボディなどの複雑なエフェクトに対応。UE5.3〜5.7向けプラグインと1ヶ月無料ライセンス、テストアセットをベータ参加者に提供。",
+      "links": {
+        "Zibra AI": "https://www.zibra.ai/zibragds",
+        "CG Channel": "https://www.cgchannel.com/2025/10/zibra-ai-unveils-zibragds/"
+      }
+    },
+    {
+      "name": "GameMaker LTS 2026 Spring Update — GMRT Beta卒業・JS/TS/C#サポート・3D強化",
+      "level": "7",
+      "overview": "GameMaker LTS 2026発表。GMRTのデスクトップ向けBeta卒業予定、JS・TypeScript・C#言語対応、glTF/Scene Graph追加など大幅強化。",
+      "detail": "YoYo GamesがGameMaker Spring 2026 Updateを発表、LTS 2026.0がリリースされた。新GameMaker Runtime（GMRT）がデスクトップ向けベータを近日卒業予定でモバイル・コンソール対応も順次展開。GML単一言語縛りを廃止しJavaScript、TypeScript、C#でのネイティブ開発が可能に。3D面ではBlenderからのglTFモデル直接インポートとScene Graphシステムを追加し複雑な3D環境構築が容易に。Prefab BuilderでPrefabの作成・共有も実現。APIとCLIツール群でプロジェクト操作の自動化も可能になった。IDEのサインイン不要化も実施。",
+      "links": {
+        "GameMaker公式": "https://gamemaker.io/en/blog/update-spring-2026",
+        "80.lv": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update"
+      }
+    },
+    {
+      "name": "RPG Maker U2U 発表 — Unity製HD-2D対応の新世代RPGツクール",
+      "level": "7",
+      "overview": "Gotcha Gotcha GamesがUnityベースの次世代RPGツクール「U2U」を発表。Perspective 2Dマップで奥行き表現、HD-2Dスタイルのゲーム制作が可能に。",
+      "detail": "Gotcha Gotcha Gamesが2026年5月21日、RPGツクールシリーズ最新作「RPGツクール U2U」を発表した。Unityベースのフルスクラッチ新エンジンを採用し、「U2U」は「up to you」の略。目玉機能は「Perspective 2D（P2D）マップ」で、2Dマップに3Dの奥行きと高度なライティング・エフェクト表現を追加するオクトパストラベラー風のHD-2Dスタイル。ドラッグ&ドロップ式のP2Dマップエディタを搭載し、100以上の既製P2Dマップも付属。過去作の2Dアセットをそのまま流用しHD-2Dスタイルで表示可能。BitSummit PUNCH 2026（5月22〜24日、京都・みやこメッセ）でデモプレイアブル版を出展予定。リリース時期未定。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_21_137756/",
+        "Gematsu": "https://www.gematsu.com/2026/05/rpg-maker-u2u-announced-for-pc"
+      }
+    },
+    {
+      "name": "Redshift 2026.6 リリース — ヘックスタイリングで繰り返しテクスチャを排除",
+      "level": "6",
+      "overview": "Maxon Redshift 2026.6が5月6日リリース。六角形グリッドでテクスチャタイリングのパターンを排除するHex TilingとデフォルトのOpenPBR素材採用が目玉。",
+      "detail": "MaxonがGPUレンダラーRedshift 2026.6を2026年5月6日にリリースした。主要新機能「Hex Tiling」は六角形グリッドでテクスチャマップをランダムな位置・回転・スケールでタイリング・ブレンドすることで従来の正方形グリッドで生じる繰り返しパターンを排除する。全ホストアプリケーションでOpenPBRマテリアルがデフォルトに変更、Maya・3ds Max 2027対応も追加。HoudiniユーザーにはQuick Material LOPノード、レンダーパスLOP対応、ポイントインスタンス付きライトへのカスタムアトリビュート対応を追加。Cinema 4DのCreateメニューにRedshiftマテリアルのPresetsセクションが追加された。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/maxon-adds-hex-tiling-for-textures-to-redshift-2026-6/",
+        "Maxon サポートノート": "https://support.maxon.net/hc/en-us/articles/8814051767964-Redshift-2026-6-0-2026-05-May-6-2026"
+      }
+    },
+    {
+      "name": "Caddis — レイヤーごとにノードグラフを持つ新モーショングラフィクスツール 無料ベータ",
+      "level": "6",
+      "overview": "After Effects代替を目指す新ツール「Caddis」が招待制オープンベータ。レイヤーベース操作とノードグラフを組み合わせた独自設計で2026年6月正式公開予定。",
+      "detail": "モーションデザイナーのMike GaynorがCaddisを公開した。After Effectsスタイルのタイムライン操作を基盤に、各レイヤーに独自のノードグラフを持たせることで「レイヤー編集」と「プロシージャルなノードグラフ操作」を一体化させた設計が特徴。100以上のノードがベータ版に収録されGPUアクセラレーション対応。現在macOS 12.0+向けに無料の招待制オープンベータを公開中。Windows版は正式リリース後まもなく公開予定。正式リリース（2026年6月予定）時のアーリーアダプター価格は99ドル、通常価格は129ドル。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/new-motion-graphics-tool-caddis-puts-a-node-graph-in-every-layer/",
+        "Caddis公式": "https://www.caddis.app/"
+      }
+    },
+    {
+      "name": "LightWave 2026 ベータ公開 — Advanced Placement・MotoRig・THORライトニングエフェクト",
+      "level": "6",
+      "overview": "LightWave Digitalが次期版LightWave 2026のベータを公開。物理ベースのショットレイアウト、車両リグ、デストラクション・降雪・稲妻エフェクトを搭載。",
+      "detail": "LightWave Digitalが「LightWave 2026」を発表し、ベータ版を公開した。主要新機能：「Advanced Placement」は物理ベースのショットレイアウト・セットドレッシングシステム、「MotoRig」は包括的な車両リギング・アニメーションツールキット、「Fracture」はポイント分布手法でメッシュを分割する破壊エフェクトツール。さらに稲妻ジェネレーター「THOR」（オブジェクト間に電気的エフェクトを作成）、雪・雨エフェクトプラグイン「Snow Falling 3D」（物理シミュレーション対応）も追加。Quixel MegascansやMaxtreeとの統合アセットブラウザも搭載。正式リリースはベータ公開から3〜4週間後の見込み。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/",
+        "80.lv": "https://80.lv/articles/lightwave-digital-teases-lightwave-3d-2026-update"
+      }
+    },
+    {
+      "name": "Boris FX Continuum 2026.5 リリース — AIデインターレース・FXエディタ強化",
+      "level": "6",
+      "overview": "Boris FX Continuum 2026.5リリース。AIによるVHS/アナログ動画デインターレース、FXエディタのカラー管理パネル追加、Particle Illusion強化など。",
+      "detail": "Boris FXがContinuum 2026.5をリリースした。BCC+ Deinterlace MLでAIがVHSやアナログTVなどインターレース映像をプログレッシブに自動変換。Face ML、License Plate ML、Motion Blur ML、UpRes MLの各MLモデルも精度向上。FX EditorにカラーマネジメントパネルとRGBA・ピクセル位置のリアルタイム表示Infoパネルを追加、ピクセルチューザーではAI深度マップを活用した選択エリア限定処理が可能に。BCC+ Rippleは3つの独立したリップルを個別・全体制御できる構成に刷新。WipeトランジションにグラデーションコントロールをBCC+ Smoke/Texture/Depth Wipeの3種に追加。150以上の新プリセットも収録。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/boris-fx-releases-continuum-2026-5/",
+        "Boris FX公式": "https://borisfx.com/news/continuum-2026-5-ai-precision-more-creative-control/"
+      }
+    },
+    {
+      "name": "BitSummit PUNCH 2026 開催 — 日本最大インディーゲームショーが京都で5/22より開幕",
+      "level": "5",
+      "overview": "日本最大のインディーゲームショーBitSummit PUNCH 2026が5月22〜24日に京都・みやこメッセで開幕。ビジネスデー1日、一般公開2日の構成。",
+      "detail": "日本最大規模のインディーゲームショーケース「BitSummit PUNCH 2026」が2026年5月22日（金）〜24日（日）に京都市産業振興館（みやこメッセ）で開催される。テーマは「High Impact」で限られたリソースで業界に大きな影響を与えるインディー開発者を称える。5月22日はビジネスデーとして開発者・パブリッシャー・メディア・スポンサー向けのB2Bネットワーキングを実施。5月23〜24日は一般公開日。2013年創設時の来場者200名から2025年には58,000名超に成長した。RPG Maker U2Uなど注目タイトルのプレイアブルデモが出展予定。",
+      "links": {
+        "BitSummit公式": "https://bitsummit.org/en/submissions-now-open-bitsummit-punch-may-22-24-2026-at-miyako-messe-kyoto/",
+        "VGC": "https://www.videogameschronicle.com/news/japans-bitsummit-confirms-earlier-2026-dates-and-punch-theme/"
+      }
+    },
+    {
+      "name": "GTMF 2026 開催決定 — 大阪12/2・東京12/8のゲーム開発ソリューション無料イベント",
+      "level": "4",
+      "overview": "ゲーム開発ツール・ミドルウェア専門の無料ビジネスイベントGTMF 2026が大阪（12/2）と東京（12/8）で開催決定。",
+      "detail": "ゲーム開発ソリューションを紹介するビジネスイベント「GTMF（Game Tools & Middleware Forum）2026」の開催が決定した。大阪会場が2026年12月2日（水）、東京会場が2026年12月8日（火）の開催予定。GTMFはゲーム開発に用いるツールやミドルウェアの技術動向を発信する専門イベント。参加は無料で毎年多くのゲーム開発者・企業が参加している。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_01_136645/",
+        "GTMF公式": "https://gtmf.jp/"
+      }
+    }
+  ]
+}
