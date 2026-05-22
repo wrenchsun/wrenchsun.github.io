@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "name": "Godot 公式アセットストア正式公開 — Asset Libraryを置き換える新マーケットプレイス",
+      "level": "8",
+      "overview": "Godot公式アセットストアが5/22に正式公開。無料アセット・プラグイン・ツールを提供し、Godot 4.7に完全統合予定。売買機能は近日追加。",
+      "detail": "Godot Foundationが長年要望されていた公式アセットストア（store.godotengine.org）を2026年5月22日に正式公開した。UnityのAsset StoreやEpicのFabに対抗する位置付けで、既存のAsset Libraryを今後段階的に廃止しリプレイスする。現バージョンは無料アセットのブラウズ・ダウンロードが可能で、複数バージョンダウンロード、ユーザーレビュー、カスタムタグ、クリエイター向けアップロード・管理ツール・アナリティクスを搭載。有料アセットの売買機能は選抜クリエイターからのロールアウト後にコミュニティ全体へ提供予定。Godot 4.7に完全統合される予定で、旧Asset Libraryは後方互換のため一定期間読み取り専用で存続する。",
+      "links": {
+        "Godot Engine公式": "https://godotengine.org/article/introducing-the-godot-asset-store/",
+        "80.lv": "https://80.lv/articles/news",
+        "GameFromScratch": "https://gamefromscratch.com/the-godot-asset-store-is-live/"
+      }
+    },
+    {
+      "name": "Autodesk Maya 2027.1 リリース — OpenTimelineIO対応・LookdevX 2.1でテクスチャプロジェクション追加",
+      "level": "7",
+      "overview": "Maya 2027.1がリリース。SequencerにOpenTimelineIO（OTIO）対応、LookdevX 2.1でUVなしのテクスチャプロジェクション8種追加など。",
+      "detail": "Autodeskが2026年5月21〜22日にMaya 2027.1をリリースした。注目アップデートはSequencerへのOpenTimelineIO（OTIO）サポート追加で、編集・DCC間のカット情報をオープン標準で交換可能になった。OTIOインポート時にカメラ割り当て・属性も保持されトラック情報を再構築。LookdevX 2.1ではUVなしでのテクスチャリングを可能にするテクスチャプロジェクション機能が追加され、Planar・Spherical・Cylindrical・Cubic・Triplanar等8種類のプロジェクションモードが利用可能。グラフエディタへの検索機能も追加しノード名で検索できるようになった。その他BifrostやAnimationの安定性向上も含む。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/autodesk-releases-maya-2027-1/",
+        "DIGITAL PRODUCTION": "https://digitalproduction.com/2026/05/22/maya-2027-1-adds-otio-to-sequencer/"
+      }
+    },
+    {
+      "name": "Lux Aeterna「The Dinosaurs」VFX技術解説 — Houdiniで惑星進化の時間を手続き的に制御",
+      "level": "7",
+      "overview": "Netflix「ダイナソーズ」のVFXスタジオLux AeternaがHoudiniで時間をパラメータ化、衛星データ・地質モデルで惑星進化を825フレームに凝縮する手法を公開。",
+      "detail": "VFXスタジオLux Aeternaが2026年5月22日、Netflixドキュメンタリー「The Dinosaurs」（全4話、Morgan Freeman語り）制作でのVFX技術を詳解した。同スタジオはILM（生物アニメーション担当）と並行し、惑星の大陸移動・大気変化など環境トランジション全62ショット相当を担当。技術的な核心は「時間をコントロール可能なパラメータとして扱うHoudiniの手続き的システム」で、衛星データ・地質モデル・大気シミュレーションを組み合わせた。最大の野心的シーンは数百万年の惑星変化を825フレームの単一連続ショットに凝縮したもの。カスタムLODツールと代理シミュレーションで高解像度最終レンダリングまでスムーズに移行できる独自ワークフローを構築した。",
+      "links": {
+        "80.lv": "https://80.lv/articles/silverback-films-shows-how-it-created-vfx-for-the-dinosaurs-series",
+        "Televisual": "https://www.televisual.com/news/vfx-breakdown-lux-aeternas-deep-time-for-the-dinosaurs/",
+        "Lux Aeterna公式": "https://www.lavfx.com/thedinosaurs"
+      }
+    },
+    {
+      "name": "Autodesk 3ds Max 2027.1 リリース — Smart Bevelアーティファクト低減・Data Channel新演算子追加",
+      "level": "6",
+      "overview": "3ds Max 2027.1がリリース。Smart Bevelの複雑ジオメトリでのアーティファクト大幅低減、Data Channelモディファイアに3つの新演算子、Arnold最新版対応など。",
+      "detail": "Autodeskが2026年5月22日に3ds Max 2027.1をリリースした。マイナーアップデートながら実用的な改善が含まれる。メインの変更点はSmart Bevel（3ds Max 2027で追加された新ベベル生成システム）の品質改善で、複雑なジオメトリのチャンファー時に発生するビジュアルアーティファクトを大幅低減し、有機的・高詳細モデルで特に効果的。Data Channelモディファイアには異なるデータフォーマット間を変換する3つの新演算子が追加された。またAutodeskの新クラウドレンダリングシステム「Flow Render」サポートが実験的に追加され、tyFlowで作成した煙・炎シミュレーションをArnoldで直接レンダリング可能になった。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/autodesk-releases-3ds-max-2027-1/"
+      }
+    },
+    {
+      "name": "MeshCache Studio 無料ベータ公開 — アニメーション/シミュレーションキャッシュ専用ビューア",
+      "level": "6",
+      "overview": "3Dアニメーション・シミュレーションキャッシュの専用ビューアMeshCache Studioが無料公開ベータ中。比較・アノテーション・フォーマット変換機能搭載、5月末まで無料。",
+      "detail": "ツール開発者Jasper BrekelmansがMeshCache Studioを公開ベータとして公開した（2026年5月末まで無料）。Blender・Houdini・MayaなどDCCアプリでの重い3Dメッシュキャッシュファイルよりも高速なプレビューと柔軟な操作を目的とした専用ツール。対応フォーマットはAlembic(.abc)、USD(.usd/.usda/.usdc/.usdz)など主要なキャッシュ形式。主な機能：ショットの異なるバージョンのキャッシュ間の比較、フレームへのアノテーション追加、標準フォーマットへの変換エクスポート。DCCアプリを起動せずにキャッシュを素早くレビューできる点でVFX・アニメーションスタジオのQCワークフロー改善に貢献する。ライセンスは永続ライセンスを予定だが価格は未発表。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/meshcache-studio-is-a-fast-flexible-viewer-for-animation-caches/",
+        "Brekel公式": "https://brekel.com/meshcache-studio/",
+        "80.lv": "https://80.lv/articles/free-public-beta-tool-for-3d-mesh-cache-viewing"
+      }
+    }
+  ]
+}
