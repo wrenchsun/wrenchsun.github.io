@@ -1,0 +1,163 @@
+{
+  "items": [
+    {
+      "name": "Wētā FXのインハウスシミュレーションツールのデモ動画が初公開",
+      "level": "9",
+      "overview": "Wētā FXが流体(Pahi)・多物理(Loki)・布・ヘア・植物シム等の内製ツールのデモ動画を公式サイトで初公開。Avatar続編などに使用。",
+      "detail": "Wētā FXがこれまでPDF研究論文のみ公開していた内製シミュレーションツール群について、初めてデモ動画を公開した。水シミュレーションシステム「Pahi」、多物理フレームワーク「Loki」のほか、布・ヘア・植物シミュレーション・キャラクターデフォーメーションパイプライン「BodyOpt」など、Avatarシリーズなど大作映画に使用されたツール群の実際の動作を確認できる貴重な資料となっている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/see-amazing-demo-videos-of-weta-fxs-in-house-simulation-tools/"
+      }
+    },
+    {
+      "name": "Autodesk Maya 2027.1 & 3ds Max 2027.1 リリース",
+      "level": "8",
+      "overview": "Maya 2027.1はOTIO対応・Sequencer改良、3ds Max 2027.1はSmart Bevel品質向上・Data Channelモディファイア強化・Arnold最新版対応。",
+      "detail": "MayaではシーケンサーがOpenTimelineIO（OTIO）規格に対応し、NukeやHoudiniなどほかのVFXアプリとのカット情報共有が可能になった。PlayblastコントロールやズームUI・オーディオ処理も改善。Smart BevelはMaya・3ds Max両方で出力品質が向上し複雑ジオメトリでのアーティファクトが削減。3ds MaxはData Channelモディファイアに3つの新オペレータを追加し、最新版Arnoldレンダラーをサポート。",
+      "links": {
+        "Maya 2027.1 (CG Channel)": "https://www.cgchannel.com/2026/05/autodesk-releases-maya-2027-1/",
+        "3ds Max 2027.1 (CG Channel)": "https://www.cgchannel.com/2026/05/autodesk-releases-3ds-max-2027-1/",
+        "80.lv": "https://80.lv/articles/autodesk-rolls-out-tons-of-updates-for-maya-3ds-max-flow-studio-and-more"
+      }
+    },
+    {
+      "name": "Adobe Photoshop 27.7リリース - Removeツールがオンデバイスで動作",
+      "level": "8",
+      "overview": "Photoshop 27.7でRemoveツールのAIモデルをローカル実行可能に。クラウド不要だがApple M1 Max以上またはRTX30以上・5GBダウンロードが必要。",
+      "detail": "Adobe Photoshop 27.7（2026年5月リリース）では、Removeツールのオンデバイスモデルを提供開始。約5GBのモデルをダウンロードすることでクラウドを使わずローカルでオブジェクト除去処理が行える。Mac側の動作要件はApple Silicon M1 Max以上+24GB RAM+macOS Tahoe、Windows側はNVIDIA RTX 30シリーズ以上+14GB VRAM。Firefly Boardsとの連携強化や毎月の生成クレジットが25→100に増加。クラウドとローカル処理の切り替えも可能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/adobe-releases-photoshop-27-7/",
+        "9to5Mac": "https://9to5mac.com/2026/05/20/adobe-photoshop-update-brings-on-device-ai-processing-but-there-is-a-catch/"
+      }
+    },
+    {
+      "name": "Autodesk Project Falcon - 無料ブラウザ型キットバッシングツール公開",
+      "level": "8",
+      "overview": "Autodeskが無料のブラウザベースキットバッシングツール「Project Falcon」をテックプレビューとして公開。USD・STL形式でDCCアプリに出力可能。",
+      "detail": "Autodeskが数千点のパーツライブラリを使い宇宙船・車両などハードサーフェスモデルをブラウザ上でアセンブルできる「Project Falcon」を公開（テックプレビュー）。パーツのスナップ、ミラー、リスケール、Boolean操作が可能。作成したモデルはUSD形式（3ds Max・Blender・Cinema 4D・Houdini・Maya対応）またはSTL形式で書き出せる。Chromeブラウザ上で動作し、無料のAutodeskアカウントがあれば利用可能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/autodesk-launches-free-kitbashing-tool-project-falcon/",
+        "80.lv": "https://80.lv/articles/autodesk-releases-a-free-kitbashing-tool-for-faster-3d-creation",
+        "Autodesk Blog": "https://blogs.autodesk.com/media-and-entertainment/2026/05/04/project-falcon-faq/"
+      }
+    },
+    {
+      "name": "Motion design tool「Autograph」がスタジオも含めて完全無料化",
+      "level": "7",
+      "overview": "MaxonのUSDベースモーションデザイン・VFXソフト「Autograph」が個人・スタジオ問わず商用プロジェクトでも完全無料利用可能に。",
+      "detail": "MaxonがVFX・モーションデザインソフト「Autograph」をスタジオも含めて完全無料化した。同ソフトはUSDベースのレイヤー＋ノード統合ワークフローを特徴とし、After Effectsの代替として注目される。個人利用の無料化はすでに発表済みだったが、今回は商業スタジオも無料で商用プロジェクトに利用できるようになった。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/motion-design-tool-autograph-is-now-free-to-studios/"
+      }
+    },
+    {
+      "name": "新モーショングラフィックスツール「Caddis」が招待制ベータ公開",
+      "level": "7",
+      "overview": "レイヤーごとにノードグラフを内蔵する新CG・モーショングラフィックスツール「Caddis」がベータ公開。2026年6月正式ローンチ予定、通常価格$129。",
+      "detail": "モーションデザイナーMike GaynorがCaddisを発表。After Effectsスタイルのタイムラインを持ちながら、各レイヤーにノードグラフを持つユニークなコンポジット・モーショングラフィックスツール。GPU加速対応。AIノードによる深度推定・マット生成（クラウドベース・クレジット課金）も搭載。macOS 12.0+対応でWindows版は後日提供。現在は招待制オープンベータで無料利用可能。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/new-motion-graphics-tool-caddis-puts-a-node-graph-in-every-layer/"
+      }
+    },
+    {
+      "name": "Clip Studio Paint 5リリース - 3Dハンドモデルとスマートシェイプ追加",
+      "level": "7",
+      "overview": "Clip Studio Paint 5.0が正式リリース。内蔵3Dハンドモデルによるポーズリファレンス、スマートシェイプによるストローク自動スムージングなどを追加。",
+      "detail": "Celsysがデジタルイラスト・マンガ制作ソフトClip Studio Paint 5.0をリリース。3Dハンドモデルはウェブカメラの参照画像から自動ポーズ設定も可能。スマートシェイプはストローク末尾でペンを止めることで自動スムージングが適用される。大きいブラシでの描画速度向上、水彩エッジのレンダリング速度改善、シンプルモードの新機能追加なども含む。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/celsys-releases-clip-studio-paint-5/",
+        "DIGITAL PRODUCTION": "https://digitalproduction.com/2026/05/21/clip-studio-paint-5-0-with-3d-hands/"
+      }
+    },
+    {
+      "name": "Mariテクスチャライブラリから120以上の無料スマートマテリアルを公開",
+      "level": "7",
+      "overview": "VFXアーティスト制作のMari Smart Materialなど120点以上のテクスチャ・HDRIが商用利用可能な無料素材として「Mari Texture Library」から公開。",
+      "detail": "Foundryが提供するテクスチャペインティングソフトMari向けに、VFXアーティストが制作したSmart Materials・テクスチャ・HDRIが120点以上、商用利用可能な無料素材として公開された。高品質なプロ制作のアセットをMariユーザーが無料で利用できる。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/get-120-free-smart-materials-and-assets-from-the-mari-texture-library/"
+      }
+    },
+    {
+      "name": "Polygonflow、UE5向け無料Dashアセットマネージャーをリリース",
+      "level": "7",
+      "overview": "UE5の標準コンテンツブラウザより高機能な無料アセット管理ツール「Dash」をPolygonflowが公開。Dashワールドビルドツールセットをベースに開発。",
+      "detail": "Polygonflowが、Unreal Engine 5向けの無料アセットマネージャー「Dash」をリリース。プロシージャルワールドビルドツールセットDashをベースに開発されており、UE5のネイティブコンテンツブラウザより高度な検索・管理機能を提供する。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/polygonflow-releases-free-dash-asset-manager-for-unreal-engine/"
+      }
+    },
+    {
+      "name": "Epic Games元ベテランがAIネイティブな欧州製ゲームエンジン「The Immense Engine」を開発中",
+      "level": "7",
+      "overview": "Epic Games元社員Arjan BrusseがAIネイティブアーキテクチャを採用した欧州製新ゲームエンジン「The Immense Engine」の開発を表明。",
+      "detail": "Epic Gamesのベテラン開発者Arjan Brusseが、AI中心のアーキテクチャを採用した新ゲームエンジン「The Immense Engine」の開発を進めていると発表した。欧州主導のゲームエンジンを目指しており、AI-nativeな設計思想を特徴とする。詳細な機能や公開スケジュールは明らかにされていないが、業界内で注目を集めている。",
+      "links": {
+        "80.lv": "https://80.lv/articles/epic-games-veteran-claims-he-s-building-ai-heavy-fully-european-game-engine"
+      }
+    },
+    {
+      "name": "Boris FX Sapphire 2026.5リリース - 新レンズデフォーカスとノイズエフェクト追加",
+      "level": "6",
+      "overview": "コンポジット・映像編集向けエフェクトプラグインSapphire 2026.5リリース。リアルなレンズデフォーカス効果・プロシージャルノイズ・レンズフレア改善など。",
+      "detail": "Boris FXがSapphire 2026.5をリリース。新しいリアルワールドレンズデフォーカスエフェクト、プロシージャルノイズエフェクトを追加。既存のレンズフレア・グレアエフェクト・Effect Builderも更新された。コンポジット・映像編集ソフト向けのエフェクトプラグインセット。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/boris-fx-releases-sapphire-2026-5/"
+      }
+    },
+    {
+      "name": "ArcBrush - 無料ノードベース画像・テクスチャエディタが登場",
+      "level": "6",
+      "overview": "ノードベースで動作する無料の画像・テクスチャ編集ツール「ArcBrush」が公開。テクスチャ制作ワークフローの効率化が期待される。",
+      "detail": "ArcBrushは、ノードグラフを使って画像やテクスチャを編集できる無料ツール。テクスチャ制作に特化した設計で、プロシージャルなワークフローに対応。詳細な機能仕様はCG Channelの記事を参照。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/arcbrush-is-a-free-node-based-image-editor-and-texture-editor/"
+      }
+    },
+    {
+      "name": "3Dテクスチャペイントアプリ「Wafer」がWindowsとmacOSに対応",
+      "level": "6",
+      "overview": "iPad限定だった3Dテクスチャペイントアプリ「Wafer」（Sparseal製）がWindowsとmacOSに対応。より多くのアーティストが利用可能に。",
+      "detail": "SparsealのiPad向け3DテクスチャペイントアプリWaferがWindows PCとMacに対応した。直感的なペイントUIで3Dモデルに直接テクスチャを描けるアプリで、デスクトップ環境でも利用できるようになった。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/3d-texture-painting-app-wafer-is-now-available-for-windows/"
+      }
+    },
+    {
+      "name": "Boris FX Continuum 2026.5リリース - AI動画デインターレース搭載",
+      "level": "6",
+      "overview": "Boris FX Continuum 2026.5リリース。AI搭載の動画デインターレースシステム追加、Particle Illusionのパーティクルシステムも更新。",
+      "detail": "Boris FXがContinuum 2026.5をリリース。コンポジット・編集ソフト向けエフェクトプラグインセットで、AI搭載の動画デインターレースシステムの追加、FX Editor・Warpエフェクト・Wipeトランジション・Particle Illusionのアップデートが含まれる。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/boris-fx-releases-continuum-2026-5/"
+      }
+    },
+    {
+      "name": "GameMaker Spring 2026アップデート - 新ランタイムGMRTの進捗公開",
+      "level": "6",
+      "overview": "GameMakerがSpring 2026アップデートを発表。新ランタイム「GMRT」のベータ進捗とLTS26計画（5メジャーリリース、2028年初頭まで）を公開。",
+      "detail": "GameMakerが2026年春のアップデート情報を公開。ゼロから再構築した新ランタイム「GMRT」のベータが進行中で、LTS26はMay 2026から2028年初頭にかけて5つのメジャーリリースで展開予定。新しい開発ロードマップとGameMakerの将来像が示された。",
+      "links": {
+        "80.lv": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update"
+      }
+    },
+    {
+      "name": "MeshCache Studio - アニメーション・シミュレーションキャッシュビューア（無料ベータ）",
+      "level": "5",
+      "overview": "アニメーション・シミュレーションの3Dメッシュキャッシュを高速に可視化・レビュー・変換できる「MeshCache Studio」が無料パブリックベータ公開。",
+      "detail": "Jasper Brekelmansが開発したMeshCache Studioが無料パブリックベータとして公開。アニメーション・シミュレーションのメッシュキャッシュを高速にビジュアライズ・レビュー・変換できるツール。VFXプロダクションでのキャッシュ確認作業の効率化が期待される。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/meshcache-studio-is-a-fast-flexible-viewer-for-animation-caches/"
+      }
+    },
+    {
+      "name": "World Machine 4059 'Dragontail Peak'リリース",
+      "level": "5",
+      "overview": "地形生成ソフトWorld Machineのバージョン4059 'Dragontail Peak'がリリース。新機能と改善が追加された最新アップデート。",
+      "detail": "World Machine Softwareが地形生成ソフトWorld MachineのバージョンNo.4059、コードネーム'Dragontail Peak'をリリース。詳細な変更内容はCG Channelの記事を参照。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/world-machine-software-ships-world-machine-4059-dragontail-peak/"
+      }
+    }
+  ]
+}
