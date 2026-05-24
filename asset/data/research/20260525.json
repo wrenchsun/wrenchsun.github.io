@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 6 正式発表 — Rocket Leagueが最初の対応タイトルに",
+      "level": "10",
+      "overview": "EpicがRLCSパリメジャーでUE6を正式発表。Rocket Leagueが第1号。Neural rendering・AI upscaling・クロスゲームアセット共有を予定。リリースは2028年頃。",
+      "detail": "2026年5月24日、Epic GamesはRocket League Championship Series 2026 Paris Majorの中継中にUnreal Engine 6を初めて公式に発表した。Rocket LeagueをUE6に移行することを開発元Psyonixが確認。発表されたUE6の特徴は、Neural renderingの深い統合、AI upscalingパイプライン、改善されたマルチスレッドによるUE5のシェーダーコンパイルスタッター・カクつき問題の解消。さらにゲームをまたいでアカウント・キャラクター・アセットを共有できる「ソーシャルエンジン」機能が計画されている。UE5はまだ比較的新しい規格であり、業界全体に衝撃が走った。Fortniteもその後UE6移行予定と確認。正式リリースは2028年見込み。",
+      "links": {
+        "PC Gamer": "https://www.pcgamer.com/gaming-industry/epic-reveals-first-unreal-engine-6-game-and-its-not-fortnite/",
+        "Eastern Herald": "https://easternherald.com/2026/05/24/unreal-engine-6-rocket-league-reveal/",
+        "Game Rant": "https://gamerant.com/rocket-league-unreal-engine-ue6-reavel/"
+      }
+    },
+    {
+      "name": "Autodesk Maya 2027.1リリース — OpenTimelineIO対応・LookdevXテクスチャ投影",
+      "level": "7",
+      "overview": "Maya 2027.1がリリース。シーケンサーにOpenTimelineIO対応追加、LookdevX 2.1でUVなしテクスチャ投影（8投影モード）が利用可能に。",
+      "detail": "Autodesk Maya 2027.1が2026年5月21日にリリース。最大の新機能はシーケンサーへのOpenTimelineIO（OTIO）対応で、編集・DCC間の編集カット情報交換の標準規格に準拠。LookdevX 2.1ではUVなしでオブジェクトにテクスチャを貼れるテクスチャ投影が追加され、Planar・Spherical・Cylindrical・Cubic・Triplanarを含む8投影モードが使用可能。Smart Bevelも改善され、複雑なジオメトリでのアーティファクトが低減。BifrostやSkin Toolsなど前バージョンからの継続的な改善も含まれる。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/autodesk-releases-maya-2027-1/",
+        "Digital Production": "https://digitalproduction.com/2026/05/22/maya-2027-1-adds-otio-to-sequencer/"
+      }
+    },
+    {
+      "name": "Wētā FX、自社開発シミュレーションツール群のデモ動画を公開",
+      "level": "7",
+      "overview": "Wētā FXが水シミュレーション「Pahi」や多物理「Loki」など自社ツール群のデモ動画をウェブ公開。Avatarなど大作での活用例も紹介。",
+      "detail": "映像VFXスタジオWētā FXが、これまでPDFの研究論文のみ公開していた自社開発ツール群のデモ動画をウェブサイト上に公開した。水シミュレーションパイプライン「Pahi」、多物理フレームワーク「Loki」のほか、クロス・ヘアツール、植物シミュレーション、キャラクター変形パイプライン「BodyOpt」の動画が公開されている。これらは『アバター』続編など複数の大作映画制作で使用されたツール。研究論文は以前から公開されていたが、実際にツールが動作する映像は今回が初めてとなり、業界に対する透明性の高まりを示している。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/see-amazing-demo-videos-of-weta-fxs-in-house-simulation-tools/"
+      }
+    },
+    {
+      "name": "Autodesk 3ds Max 2027.1リリース — Smart Bevel改善とArnold Flow Render",
+      "level": "6",
+      "overview": "3ds Max 2027.1がリリース。Smart Bevel品質向上、Data Channel新オペレーター追加。Arnold統合プラグインでクラウドレンダリング「Flow Render」が実験的に追加。",
+      "detail": "Autodesk 3ds Max 2027.1が2026年5月21日リリース。Smart Bevelの改善により複雑なジオメトリでのアーティファクトが軽減。Data Channelモディファイアに3つの新オペレーターが追加され、データフォーマット変換が容易に。Arnoldレンダラー統合プラグインMAXtoA 5.9.2.0がArnold 7.5.1.1コアに対応し、実験的なクラウドベースレンダリングシステム「Flow Render」を追加。またtyFlowボリュームのサポートにより、サードパーティ製粒子・物理アドオンで生成したスモーク・ファイアのレンダリングが可能になった。Win 11対応のサブスクリプション専用製品。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/autodesk-releases-3ds-max-2027-1/"
+      }
+    },
+    {
+      "name": "Boris FX Sapphire 2026.5リリース — 新レンズデフォーカスとプロシージャルノイズ",
+      "level": "5",
+      "overview": "Boris FX Sapphire 2026.5がリリース。新しいリアルワールドレンズデフォーカス、プロシージャルノイズエフェクト、Lens Flare・Glare・Effect Builderの各更新を含む。",
+      "detail": "2026年5月22日、Boris FXがコンポジット・映像編集ソフト向けエフェクトプラグインSapphire 2026.5をリリース。新機能として実写カメラのレンズ特性を模倣した新しいレンズデフォーカスエフェクト、新しいプロシージャルノイズエフェクトを追加。既存のLens Flares、Glareエフェクト、Effect Builderもアップデートされた。同日同様の更新が含まれるContinuum 2026.5も2026年5月15日にリリースされており、AIを活用したビデオデインターレースやAI顔マット生成機能が追加されている。",
+      "links": {
+        "CG Channel (Sapphire)": "https://www.cgchannel.com/2026/05/boris-fx-releases-sapphire-2026-5/",
+        "CG Channel (Continuum)": "https://www.cgchannel.com/2026/05/boris-fx-releases-continuum-2026-5/"
+      }
+    },
+    {
+      "name": "Adobe Photoshop 27.7リリース — Remove ToolのAIをローカル実行可能に",
+      "level": "4",
+      "overview": "Photoshop 27.7がリリース。Remove ToolのAIモデルをクラウドでなくローカルで実行するオプションが追加されプライバシーと速度が向上。",
+      "detail": "Adobe Photoshop 27.7が2026年5月21日にリリース。主要な新機能として、Remove Tool（削除ツール）で使用されるAIモデルをクラウドではなくローカルPCで実行するオプションが追加された。これによりオフライン環境での使用や、クラウドへのデータ送信を避けたいユーザーにとって利便性が向上する。その他の詳細な機能追加・改善も含まれるアップデート。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/adobe-releases-photoshop-27-7/"
+      }
+    }
+  ]
+}
