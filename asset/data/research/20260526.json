@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "name": "007 First Light 明日発売 — GlacierエンジンをCinematic向けに刷新・DLSS 4採用・パストレーシング夏追加予定",
+      "level": "7",
+      "overview": "007 First Light（IOI）が5/27発売。独自Glacierエンジンをシネマティック品質向けに大幅刷新。NVIDIA協業でDLSS 4 Multi Frame Generation採用。夏にパストレーシング追加予定。",
+      "detail": "IO InteractiveはHITMANシリーズで培ってきた独自エンジン「Glacier」を007 First Lightに向けて大幅強化した。キャラクターのより表情豊かなパフォーマンス表現、生き生きとした環境描写を実現するためのレンダリング改善を実施。PC版はNVIDIA GeForce RTXとの協業によりDLSS 4 Multi Frame Generationを採用し、高フレームレートと高品質描画を両立。発売後の夏2026にはパストレーシングとDLSS Ray Reconstructionが後日アップデートで追加予定。PS5 Pro版は高強度シーン中でも一貫した60fps体験を目指した最適化を実施。通常PS5はQualityモード（30fps）。Nintendo Switch 2版は後日発売予定。NVIDIA GeForce RTX 50シリーズGPU購入者には5月14日〜6月10日の期間、本ゲームのバンドルプログラムも実施中。",
+      "links": {
+        "007 First Light NVIDIA発表 (IOI)": "https://ioi.dk/007firstlightgame/news/2026/007-first-light-unveils-pc-specs-and-nvidia-collaboration",
+        "NVIDIA RTX 50バンドル": "https://www.nvidia.com/en-us/geforce/news/007-first-light-geforce-rtx-50-series-bundle/"
+      }
+    },
+    {
+      "name": "Godot Asset Store 正式公開 — Godot 4.7統合予定・無料アセットから有料へ段階拡大",
+      "level": "7",
+      "overview": "数年の開発と数ヶ月のベータを経てGodot Asset Storeが正式公開。現在は無料アセットのみ対応。Godot 4.7への統合が計画され、有料アセットは選定クリエイターから段階的展開予定。",
+      "detail": "GodotファウンデーションはGodot 4.7で統合予定の公式アセットストアを正式公開した。長年使用されていたAsset Libraryを刷新し、より現代的でスケーラブルなマーケットプレイスとして再設計。現在のストアはブラウズと無料アセットのみ対応のベータ運用状態。商用・有料アセットは最初に選定クリエイターへ、その後コミュニティ全体へと段階的に拡大予定。Godot 4.7（安定版は6月末予定）への完全統合により、エンジン内から直接アセット検索・インポートが可能になる見込み。発表はBlueskyポストを通じて控えめに行われたが、Godotエコシステムにとって重要なマイルストーン。",
+      "links": {
+        "Godot公式発表": "https://godotengine.org/article/introducing-the-godot-asset-store/",
+        "80.lv記事": "https://80.lv/articles/godot-is-launching-a-new-asset-store-to-replace-the-old-asset-library"
+      }
+    },
+    {
+      "name": "Godot 4.7 Beta 3リリース — HDR出力・AreaLight3D・Vulkanレイトレ搭載、6月末正式版予定",
+      "level": "6",
+      "overview": "Godot 4.7 Beta 3が5月22日リリース。新機能追加なく回帰バグ修正に専念。HDR出力・AreaLight3D・VulkanレイトレーシングPipeline刷新を搭載し6月末正式版予定。",
+      "detail": "Godot 4.7のBeta 3が2026年5月22日にリリースされた。このリリースはフィーチャーフリーズ後の安定化フォーカスで、新機能追加はなく100件以上の回帰バグ修正に専念している。Godot 4.7に搭載される主要機能は、Windows・macOS・Linux(Wayland)・BSD対応のHDRディスプレイ出力、3D空間で矩形光源としてリアルタイムライティングを行えるAreaLight3Dノード、レイトレーシングパイプラインのリファクタリング、Waylandでのタッチサポート向上など。CSGパフォーマンス改善、グラフィックス安定性向上なども含む。Godot 4.7の正式版は2026年6月末を予定している。",
+      "links": {
+        "Godot公式 Beta 3": "https://godotengine.org/article/dev-snapshot-godot-4-7-beta-3/",
+        "Phoronix": "https://www.phoronix.com/news/Godot-4.7-Beta"
+      }
+    },
+    {
+      "name": "PHENIX v5 — GPU-nativeパーティクルシステム for Blender（Vulkan/Metal/DX12対応）",
+      "level": "6",
+      "overview": "BlenderのGPUネイティブパーティクルシステムPHENIX v5がリリース候補。Vulkan/Metal/DX12対応でGPU上でシミュレーション全処理。リアルタイムビューポートでの操作・調整が可能に。",
+      "detail": "BlenderマーケットプレイスSuperhive（旧Blender Market）でPHENIX v5がリリース候補として公開された。1年間の専用開発の末、パーティクルシミュレーション全処理（エミッション・力・流体・コリジョン・コンストレイント・カスタムプロシージャル）をGPU上で実行するように刷新。バックエンドはVulkan/Metal/DX12（WebGPUも対応）。これにより重いパーティクルカウントでも重いCPUベイクなしにリアルタイムでビューポート上での再生・スクラブ・調整が可能。新機能：安定したクロス・ヘア・ロープ・ジェリー・チェーンのためのコンストレインソルバー（Silk/Denim/Hair/Chain/Jellyなどのマテリアルプリセット付き）、WGSL GPU コードをBlenderノードエディタ内に直接記述できるCustom Shaderノード、GPU メモリ＆パフォーマンスプロファイラー、3Dプロッタ―、スプレッドシートなどのデバッグツールも搭載。",
+      "links": {
+        "BlenderNation": "https://www.blendernation.com/2026/05/21/phenix-a-gpu-native-particle-system-for-blender/",
+        "Superhive Market": "https://superhivemarket.com/products/phenix-"
+      }
+    },
+    {
+      "name": "After Effects 2026 — AIを活用した「オブジェクトマット」スイートでロトスコープを自動化",
+      "level": "5",
+      "overview": "After Effects 2026の4月アップデートでAI活用の「オブジェクトマット」スイートが追加。クリック1つでAIが被写体を自動選択・マスク・トラッキング。従来のRoto Brushを刷新。",
+      "detail": "AdobeはAfter Effects 2026の4月アップデートでAIベースの「オブジェクトマット（Object Matte）スイート」を追加した。従来のRoto Brushとは異なり、被写体を塗る必要なく、クリックやマーキーセレクトするだけでAIが被写体を自動的に分離・マットを生成・ショット全体でトラッキングする。Premiere 2026に実装された「オブジェクトマスクツール」に対応するAfter Effects版の機能。CGWORLDのイトウ先生のTips noteでは2026年5月号として「オブジェクトをマスクできる、AIを活用した『オブジェクトマット』スイート（ツール一式）」の使い方が解説されている。映像制作のロトスコープ作業を大幅に効率化する機能として注目されている。",
+      "links": {
+        "CGWORLD解説記事": "https://cgworld.jp/regular/202605-tipsnote.html",
+        "CGinterest": "https://cginterest.com/2026/04/21/after-effects-2026%E5%B9%B44%E6%9C%88%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%EF%BC%81ai%E3%82%92%E6%B4%BB%E7%94%A8%E3%81%97%E3%81%9F%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF/"
+      }
+    },
+    {
+      "name": "Flax Engine 1.12リリース — DDGI・WebGPU・ジグルフィジックス・新オーディオシステム対応",
+      "level": "5",
+      "overview": "インディーズUE代替として注目のFlax Engine 1.12が5月19日リリース。DDGIによるリアルタイムGI、WebGPUサポート、ジグルフィジックス、新オーディオシステムを追加。",
+      "detail": "クロスプラットフォーム対応の高品質ゲームエンジンFlax Engine 1.12が2026年5月19日にリリースされた。UnrealEngine代替として注目されるエンジンで、今回の主要追加機能は以下の通り：Dynamic Diffuse Global Illumination（DDGI）によるリアルタイムGI対応、WebGPUを通じたWeb向けゲーム出力サポート、キャラクターや柔らかい物体のための「ジグルフィジックス（Jiggle Physics）」、改善されたオーディオシステム、各種アニメーション機能強化。Flax EngineはC++とC#による開発が可能で、エディタもC++/C#で拡張可能。UE4/5に近いワークフローを持ちながら完全無料（収益シェアなし）で使用可能という特徴を持つ。",
+      "links": {
+        "GameFromScratch": "https://gamefromscratch.com/flax-engine-1-12-released/"
+      }
+    },
+    {
+      "name": "GTA VI 本来の発売予定日（5/26）通過 — RAGE 9エンジン詳細と11月19日正式リリースへ",
+      "level": "4",
+      "overview": "GTA VIの当初発売予定日5月26日が通過。正式リリースはPS5/XboxSXS向け11月19日に確定。RAGE 9はリアルタイム水物理・AI刷新・マルチスレッド強化を特徴とする。",
+      "detail": "Rockstar Gamesが開発するGrand Theft Auto VIは当初Fall 2025→May 26, 2026と延期を経て、さらに2026年11月19日（PlayStation 5/Xbox Series X|S）へと再延期となった。本日5月26日はその当初の発売予定日だったため、各メディアが特集。エンジン面では新しいRockstar Advanced Game Engine（RAGE 9）を搭載。リアルタイム水物理シミュレーション、刷新されたAIシステム、マルチスレッド処理強化が特徴。エンジン全体はスクラッチ再構築ではなく前作からの進化版。PC版は後日リリースの可能性が高いとみられている。Take-TwoのCEO Strauss Zelnick氏は「11月についてとても良い感触を持っている」と語っている。",
+      "links": {
+        "MegaGames": "https://megagames.com/news/gta-vi-delayed-again-rockstar-confirms-november-19-2026-launch-date",
+        "VideoCardz": "https://videocardz.com/newz/gta-6-delayed-again-now-set-for-november-2026-launch"
+      }
+    }
+  ]
+}
