@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "name": "Advanced Shader Delivery AMD PC向け公開プレビュー拡大 — Forza Horizon 6で95%ロード短縮",
+      "level": "8",
+      "overview": "ASDがAMD RDNA 3/3.5/4搭載のWindows 11 PCに拡大。Forza Horizon 6でロード時間を95%削減（1.5分→4秒）。Xbox InsiderでAMD Radeon RX 7600以上のGPUで利用可能に。",
+      "detail": "DirectX Advanced Shader Delivery (ASD)がROG Xbox Allyハンドヘルドを超え、AMD RDNA 3/3.5/4アーキテクチャ搭載のWindows 11デスクトップおよびゲーミングノートPCへ拡大。今回の公開プレビューではForza Horizon 6の同時リリースと連携し、AMD Radeon RX 7600 GPUでロード時間を約1.5分から4秒へ95%短縮する効果を実証。シェーダーコンパイル中断（スタッター）も解消。利用要件はWindows 11 24H2以降、AMD Adrenalin 26.5.2以降のドライバー、Xbox InsiderのPC Gaming Previewへの参加。今後NVIDIAやIntelなど他IHVへの拡大も予告。",
+      "links": {
+        "DirectX Developer Blog (May 15)": "https://devblogs.microsoft.com/directx/advanced-shader-delivery-expands-public-preview-with-amd/",
+        "GDC 2026 ASD詳細": "https://devblogs.microsoft.com/directx/advanced-shader-delivery-whats-new-at-gdc-2026/"
+      }
+    },
+    {
+      "name": "DirectX Auto SR、ROG Xbox Ally XドックプレイにNPUベース超解像プレビュー対応",
+      "level": "6",
+      "overview": "Xbox InsiderがROG Xbox Ally Xのドック接続時にAuto SRを試験利用可能。NPUで処理し1440p相当の画質とネイティブ720p比+30% FPS向上を実現。",
+      "detail": "Windows Automatic Super Resolution (Auto SR)がROG Xbox Ally Xのドック接続モードへのプレビューを開始。通常のゲーム組み込み超解像と異なりNPUを活用して大規模AIモデルを処理することで、GPUフレームタイムへの影響を最小限にしつつ1440p相当の映像品質と高フレームレートを両立。Forza Horizon 5での比較でネイティブ1440pに対し30%以上のFPS向上を確認。要件はROG Xbox Ally X（AMD Ryzen AI Z2 Extreme）、Xbox Insider登録、Xbox Game Barからの有効化。AMD FSR / RSRとの使い分けガイドラインも公開。ハンドヘルドモードへの対応は今後の予定。",
+      "links": {
+        "DirectX Developer Blog (Apr 30)": "https://devblogs.microsoft.com/directx/autosrpreview/",
+        "Xbox Wire アップデート情報": "https://news.xbox.com/en-us/2026/04/30/rog-xbox-ally-update-docking-library-vibration-auto-sr/"
+      }
+    }
+  ]
+}
