@@ -1,0 +1,143 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 6 正式発表：Rocket Leagueが第一弾移行タイトルに",
+      "level": "10",
+      "overview": "EpicがUE6を発表。UE5とUEFNを統合しVerseプログラミング言語・マルチスレッド・大規模MP対応を搭載予定",
+      "detail": "Epic GamesはRLCS 2026パリメジャー（5月24日）にてUnreal Engine 6を正式発表。Rocket Leagueが初の移行商用タイトルとなる。UE5とUEFN（Fortnite向けエディタ）を統合し、Verseプログラミング言語をメインエンジンに採用。完全マルチスレッド対応と数百万人規模の同時接続を目標とするネットワーク設計が特徴。ティーザーでは向上した照明・リフレクション・フォトリアリスティックなビジュアルが確認された。エンジンリリースはプレビューが2027〜2028年、正式リリースは2028〜2029年を見込む。",
+      "links": {
+        "VGC": "https://www.videogameschronicle.com/news/epic-announces-unreal-engine-6-which-will-run-the-next-era-of-rocket-league/",
+        "80.lv News": "https://80.lv/articles/news"
+      }
+    },
+    {
+      "name": "Unity AI エディタ内AIツールスイートを公開ベータ開始",
+      "level": "9",
+      "overview": "Unity 6以上向けにエディタ内AIアシスタントをベータ公開。Ask/Agent/Planモードでコード・アセット生成が可能",
+      "detail": "UnityはUnity 6向けの統合AIツール「Unity AI」をオープンベータ（2026年5月4日〜）で公開。会話UIでAsk/Agent/Planの3モードを提供。コード・アセット（マテリアル・サウンド・3Dモデル）の生成、シーン操作、即時ロールバックに対応。AI Gatewayを通じ外部AIツールやMCPサーバーとの接続も可能。Pro/Enterprise/Industryライセンスには自動付与。個人ユーザーは14日間1,000 AIクレジットの無料トライアル後、月額$10。",
+      "links": {
+        "80.lv": "https://80.lv/articles/unity-launches-in-editor-ai-tools-suite-in-beta",
+        "Unity AI": "https://unity.com/features/ai"
+      }
+    },
+    {
+      "name": "Headshot 3 for Character Creator 5 リリース：写真から高精度デジタルダブル生成",
+      "level": "8",
+      "overview": "ReallusionがCC5向けHeadshot 3を正式リリース。AIで写真から高品質な3Dキャラクターを自動作成。Early Birdは5月末まで",
+      "detail": "ReallusionはCharacter Creator 5対応の「Headshot 3」をリリース（4月27日）。AIベースの顔スキャン技術でフォトリアルな3Dキャラクターを写真から生成する機能を大幅強化。映像・ゲーム向けのデジタルダブル作成ワークフローを効率化し、iCloneやMayaなどとのパイプラインにも対応。Early Birdオファーは2026年5月31日まで。",
+      "links": {
+        "Reallusion Magazine": "https://magazine.reallusion.com/2026/04/27/reallusion-redefines-digital-double-creation-with-the-launch-of-headshot-3-for-character-creator-5/"
+      }
+    },
+    {
+      "name": "Blackmagic Design Fusion Studio 21.0 公開ベータ：モーショングラフィック強化とUSD対応",
+      "level": "7",
+      "overview": "Fusion Studio 21.0がベータ公開。モーショングラフィック新ツール、ディープコンポジット更新、3DレンダラーへのCryptomatte対応",
+      "detail": "Blackmagic DesignがFusion Studio 21.0を公開ベータとしてリリース。VFX・モーショングラフィックスソフトに新ツール群、ディープコンポジットとUSDツールセットの更新、チェッカーボードレンズキャリブレーション、3DレンダラーへのCryptomatte対応が追加された。映像・VFXパイプラインのさらなる強化が期待される。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/blackmagic-design-releases-fusion-studio-21-0-in-beta/"
+      }
+    },
+    {
+      "name": "NeXus for Blender スニークプレビュー公開：GPU加速パーティクルシミュレーション",
+      "level": "7",
+      "overview": "InsydiumがBlender向けGPU加速パーティクルシム「NeXus」のプレビュー公開。C4D版より高速でパーペチュアルライセンス予定",
+      "detail": "InsydiumがCinema 4D版NeXusのBlenderポート「NeXus for Blender」のスニークプレビューを公開。GPU加速パーティクルシミュレーションでC4D版を上回る速度を実現するとされ、パーペチュアルライセンスモデルで近日リリース予定。Blenderユーザーへの本格的な高性能パーティクルシステムの提供が期待される。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/sneak-peek-nexus-for-blender/"
+      }
+    },
+    {
+      "name": "PS5 Pro PSSR 2.0：AMD FSR 4技術採用でアップスケール品質向上",
+      "level": "7",
+      "overview": "Sony PS5 ProにAMD FSR 4由来の新PSSRを導入。画像精度・モーション安定性が向上し複数タイトルで順次適用",
+      "detail": "SonyはPS5 Pro向けにAMD Project Amethystの共同開発技術を採用した新PSSRアップスケーラーをロールアウト中。従来PSSRとはアルゴリズムとニューラルネットワークを全面刷新し、画像再構成精度・モーション安定性が改善。開発者はPS5 Proでのパフォーマンスと忠実度のバランスをより柔軟に調整可能になった。Assassin's Creed Shadows、Arc Raidersなど複数タイトルで対応済み。",
+      "links": {
+        "80.lv": "https://80.lv/articles/ps5-pro-is-getting-an-upgraded-ai-powered-pssr-upscaler",
+        "PlayStation Blog": "https://blog.playstation.com/2026/02/27/upgraded-pssr-upscaler-is-coming-to-ps5-pro/"
+      }
+    },
+    {
+      "name": "Adobe Photoshop 27.7（2026年5月版）：AI RemoveツールがローカルとクラウドAIを選択可能に",
+      "level": "6",
+      "overview": "Photoshop 27.7リリース。AI Removeツールがローカルモデルとクラウドモデルを選択可能に。Windows 10+/macOS 14+対応",
+      "detail": "AdobeがPhotoshop 27.7をリリース。主な変更点はAIベースのRemoveツールで、ユーザーがAIモデルのローカル実行とクラウド実行を選択可能になった。ローカル処理によるプライバシー確保とクラウドの高品質処理を用途に応じて使い分けできる。Windows 10+/macOS 14.0+対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/adobe-releases-photoshop-27-7/"
+      }
+    },
+    {
+      "name": "Autodesk 3ds Max 2027.1 リリース：Smart Bevel改善と複雑ジオメトリのアーティファクト低減",
+      "level": "6",
+      "overview": "3ds Max 2027.1リリース。Smart Bevelの出力改善と複雑ジオメトリへのアーティファクト低減が主な更新内容",
+      "detail": "AutodeskがAutodesk 3ds Max 2027.1をリリース。Smart Bevelの出力品質を改善し複雑なジオメトリ上に発生するアーティファクトを低減するマイナーアップデート。既存ユーザーへの安定性向上が主な目的。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/autodesk-releases-3ds-max-2027-1/"
+      }
+    },
+    {
+      "name": "LightWave Digital LightWave 2026 公開",
+      "level": "6",
+      "overview": "LightWave DigitalがLightWave 2026を公開。長年続く3DCGスイートの新世代バージョンとして発表",
+      "detail": "LightWave DigitalがLightWave 2026を公開。歴史あるLightWaveシリーズの新バージョンとして発表された。CGプロダクションにおけるモデリング・アニメーション・レンダリングの統合環境を提供し続ける。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/"
+      }
+    },
+    {
+      "name": "Boris FX Continuum 2026.5 リリース：AIデインターレースと各種エフェクト強化",
+      "level": "6",
+      "overview": "Continuum 2026.5リリース（5/15）。AI動画デインターレース新機能、FXエディタ・Warpエフェクト・パーティクルシステム更新",
+      "detail": "Boris FXがContinuum 2026.5をリリース（2026年5月15日）。新たにAIベースのビデオデインターレースシステムを追加。FXエディタ、Warpエフェクト、Wipeトランジション、パーティクルシステムも更新された。映像・放送・VFX向けプラグイン群の包括的アップデート。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/boris-fx-releases-continuum-2026-5/"
+      }
+    },
+    {
+      "name": "GameMaker Spring 2026 ロードマップ：LTS版リリースと次世代ランタイムGMRT導入計画",
+      "level": "6",
+      "overview": "YoYo GamesがGameMaker Spring 2026ロードマップ公開。LTS 2026リリースと新ランタイム「GMRT」導入計画を発表",
+      "detail": "YoYo GamesがGameMaker（2Dゲームエンジン）のSpring 2026ロードマップを公開（5月22日）。LTS 2026版のリリース計画と、将来の次世代ランタイム「GMRT（GameMaker Runtime）」の導入計画が含まれる。2Dゲーム開発者向けに安定性と将来の技術革新を両立する方針が示された。",
+      "links": {
+        "80.lv": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update",
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_22_137474/"
+      }
+    },
+    {
+      "name": "Vulkan SDK 1.4.341.0 リリース：Roadmap 2026プロファイルとdescriptor heap拡張",
+      "level": "6",
+      "overview": "Vulkan SDK 1.4.341.0リリース。Roadmap 2026プロファイル対応とVK_EXT_descriptor_heapによるデスクリプタ管理刷新",
+      "detail": "LunarGがVulkan SDK 1.4.341.0をリリース。Roadmap 2026プロファイル対応によりPC・コンソール・高性能モバイルデバイス間の機能基準を明確化。VK_EXT_descriptor_heap拡張はVulkanのデスクリプタシステムを全面刷新しデスクリプタメモリへの直接アクセスを提供。Variable Rate Shadingも今後の対応拡充が予定される。",
+      "links": {
+        "Videocardz": "https://videocardz.com/newz/vulkan-api-sets-2026-feature-baseline-roadmap-milestone-with-variable-rate-shading"
+      }
+    },
+    {
+      "name": "Anthropic の Blender開発ファンドCorporate Patron資格が一回限りの寄付に降格",
+      "level": "5",
+      "overview": "AIプロバイダーAnthropicのBlender開発ファンドへのCorporate Patron資格が一回限りの寄付に格下げ",
+      "detail": "AI企業AnthropicのBlender開発ファンドへのCorporate Patron（上位スポンサー層）資格が一回限りの寄付に降格したとCG Channelが報じた。BlenderコミュニティではAI企業によるオープンソースソフトウェアへの関与について議論が続いており、今回の変更もその文脈で注目を集めた。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/anthropics-patronage-of-blender-downgraded-to-one-off-donation/"
+      }
+    },
+    {
+      "name": "Epic Gamesベテランが欧州製AI重視ゲームエンジン「The Immense Engine」を開発中",
+      "level": "5",
+      "overview": "Guerrilla Games共同設立者でEpic Games元社員がAI活用の欧州製ゲームエンジン開発を進めていると報告（5/14）",
+      "detail": "Guerrilla Gamesの共同設立者でEpic Gamesに8年間勤務したArjan BrusseeがAI中心設計の欧州製ゲームエンジン「The Immense Engine」の開発を進めていると伝えられた（2026年5月14日）。ゲームエンジン市場の多様化とAI統合の動向として注目される。",
+      "links": {
+        "80.lv": "https://80.lv/articles/epic-games-veteran-claims-he-s-building-ai-heavy-fully-european-game-engine"
+      }
+    },
+    {
+      "name": "Unreal Fest Tokyo 2026 開催決定：11月3〜4日 東京・有明",
+      "level": "5",
+      "overview": "Unreal Fest Tokyo 2026が2026年11月3〜4日に東京・有明で開催予定。Unreal Engineユーザー向け公式カンファレンス",
+      "detail": "Unreal Fest Tokyo 2026の開催が発表された。日程は2026年11月3日（火）〜4日（水）、場所は東京・有明。Epic GamesのUnreal Engineに関する公式日本カンファレンスイベントとして、ゲームおよびCG業界のプロフェッショナル向けに最新技術情報やセッションが提供される予定。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_04_14_135510/"
+      }
+    }
+  ]
+}
