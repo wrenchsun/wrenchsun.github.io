@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 6 発表 — Rocket Leagueが最初の対応タイトルに",
+      "level": "10",
+      "overview": "Epic Gamesが2026年5月25日にUE6を正式発表。Rocket League Paris Majorにてティーザーを公開。",
+      "detail": "Epic GamesはRocket League Championship Series Paris Majorにてリアルタイムデモを披露し、Unreal Engine 6を初公開した。新エンジンは新しい紫色のロゴを採用。Rocket Leagueが最初の商用タイトルとなる予定で、現在UE3で動作している同ゲームを移植する。正式リリース日は未公開だが、CEOティム・スウィーニー氏のコメントによるとプレビュービルドは2027〜2028年、フルリリースは2028〜2029年頃が見込まれる。",
+      "links": {
+        "VGC": "https://www.videogameschronicle.com/news/epic-announces-unreal-engine-6-which-will-run-the-next-era-of-rocket-league/",
+        "Engadget": "https://www.engadget.com/2180662/epic-games-reveals-first-look-at-unreal-engine-6-with-rocket-league-makeover/",
+        "Game Informer": "https://gameinformer.com/2026/05/26/epic-reveals-unreal-engine-6-with-rocket-league-teaser"
+      }
+    },
+    {
+      "name": "Unreal Engine 5.6 リリース — 60fps大規模オープンワールド・MetaHuman完全内製化",
+      "level": "9",
+      "overview": "UE5.6が正式リリース。MetaHumanをエンジン内で完全作成可能となり高速ジオメトリストリーミングも追加。",
+      "detail": "Unreal Engine 5.6は現行世代ハードで60fps動作する超高精細大規模オープンワールドをターゲットに設計。MetaHumanがエンジン内で完全にオーサリング可能となりDCCラウンドトリップが不要に。Hardware Ray Tracingシステム強化でLumen GIのCPUボトルネックを解消、高速ジオメトリストリーミング（Experimental）でより多くの静的ジオメトリを定速フレームレートでロード可能。Sequencerにリアルタイムオーディオスクラビングと新ナビゲーションツールを追加。Control Rig Physics（Experimental）でキャラクターリグに手続き型物理モーションを付与できるように。",
+      "links": {
+        "Unreal Engine": "https://www.unrealengine.com/news/unreal-engine-5-6-is-now-available",
+        "Forums": "https://forums.unrealengine.com/t/unreal-engine-5-6-released/2538952"
+      }
+    },
+    {
+      "name": "NeXus for Blender スニークピーク — GPU粒子シミュレーターがBlenderに対応",
+      "level": "8",
+      "overview": "InsydiumがC4D専用GPU粒子シミュレーターNeXusのBlender版を予告。全機能搭載で永続ライセンス提供予定。",
+      "detail": "InsydiumはCinema 4D向けGPU粒子シミュレーターNeXusのBlender版のプレビューを開始。Blender版はC4D版より高速で全機能を搭載し、永続ライセンスで提供予定。Vulkanベースでありありのためにです AMD・Apple・Intel・NVIDIA GPUに対応。GPU側で多くの処理を行うことでオーバーヘッドを削減しスケーラビリティを向上。64bit VRAMアドレッシングで大規模シミュレーションがGPUで実行可能。nxFluids（PBD液体シミュレーション）のBlender版も公開済みで、毎週新プレビューを投稿予定。リリースは間もなくとしている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/sneak-peek-nexus-for-blender/",
+        "80.lv": "https://80.lv/articles/insydium-teases-nexus-for-blender"
+      }
+    },
+    {
+      "name": "LightWave 2026 公開 — Advanced Placement物理散布・MotoRig・Fractureツール搭載",
+      "level": "8",
+      "overview": "LightWave 2026がベータ公開。物理ベース散布・車両リグ・破壊エフェクトなど大型機能を追加。",
+      "detail": "LightWave Digitalが「LightWave 2026」を発表しベータ版を公開（正式リリースは3〜4週間後見込み）。Advanced Placementは物理エンジンを使用してオブジェクトをリアルタイムで散布・落下・跳ね返り・静止させる機能で、着地時の自動破砕にも対応。MotoRigは車両リギング・アニメーションの総合ツールキット。VFX向けにはFractureツールで破壊エフェクト用ジオメトリを事前分割可能、UVとマテリアルを保持したまま多様な分布パターンに対応。THORプラグインは2オブジェクト間に手続き型稲妻を3Dジオメトリとして生成。価格は新規ライセンス£795（約1,078ドル）。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/",
+        "80.lv": "https://80.lv/articles/lightwave-digital-teases-lightwave-3d-2026-update"
+      }
+    },
+    {
+      "name": "GameMaker LTS26 ロードマップ公開 — GMRT 3D強化・glTFインポート対応",
+      "level": "7",
+      "overview": "YoYo GamesがGameMaker LTS26のロードマップを発表。2026年Q2〜2028年Q1に5つのメジャーリリース計画。",
+      "detail": "YoYo GamesがGameMaker LTS26のロードマップを公開。LTS26は2026年Q2から2028年Q1にかけて5つのメジャーリリースで段階的に展開予定。新ランタイムGMRTはデスクトッププラットフォームが数ヶ月以内にベータを卒業予定で、モバイル・コンソール対応は年内に段階的に展開。GMRT では3D機能の全般的な改善とglTFインポートのサポートが追加され、3Dワールドの作成・管理を簡略化するScene Graphシステムも導入予定。",
+      "links": {
+        "gamemakers.jp": "https://gamemakers.jp/article/2026_05_22_137474/",
+        "80.lv": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update"
+      }
+    },
+    {
+      "name": "Maya 2026.2 リリース — MotionMaker更新・Golaem群衆シミュレーション統合",
+      "level": "7",
+      "overview": "Autodesk Maya 2026.2がリリース。MotionMakerのホットキーカスタマイズ対応、M&EコレクションにGolaem統合。",
+      "detail": "AutodeskがMaya 2026.2を正式リリース。MotionMakerでエディタレイアウト保存・ラインカラー設定・ホットキーカスタマイズが可能になった。Media & EntertainmentコレクションにGolaem（群衆シミュレーション・キャラクターレイアウトプラグイン）が統合された。Maya 2026では機械学習ベースのMLデフォーマーによる群衆アニメーション高速化、ブレンドシェイプ読み込み対応のUSDプラグイン、ランプノードを追加したLookdevXも提供済み。",
+      "links": {
+        "AREA JAPAN": "https://area.autodesk.jp/product/maya/features/2026-2/",
+        "CGWORLD": "https://cgworld.jp/flashnews/202508%E2%88%92Maya2025-2.html"
+      }
+    },
+    {
+      "name": "Unity 6.2 Beta リリース — Unity AI統合・自動LOD生成・Android XR正式対応",
+      "level": "7",
+      "overview": "Unity 6.2ベータが公開。Unity AIがMuse・Sentisを統合、自動LOD生成、Android XRが正式版に移行。",
+      "detail": "Unityがバージョン6.2のベータをリリース。最大の新機能はUnity AI（Unity MuseとSentisを統合）で、コンテキスト依存のアシスト・タスク自動化・アセット生成を提供。インポート時に自動LODメッシュを生成する機能でDCCツールなしに最適化が可能に。Android XRパッケージがVerified状態に移行し本番品質のAndroid XR開発が可能に。リアルタイムパフォーマンス・安定性監視の診断機能、強化されたクラッシュ・ANRレポートも追加。Graph Toolkitも含まれる。",
+      "links": {
+        "Unity Blog": "https://unity.com/blog/unity-6-2-beta-release-announcement-data-driven-stability",
+        "Unity Docs": "https://docs.unity3d.com/6000.2/Documentation/Manual/WhatsNewUnity62.html"
+      }
+    },
+    {
+      "name": "Blender 5.2 LTS — Cyclesテクスチャキャッシュ搭載・7月14日リリース予定",
+      "level": "7",
+      "overview": "Blender 5.2 LTSが2026年7月14日リリース予定。Cyclesがテクスチャキャッシュ対応でメモリ効率が大幅向上。",
+      "detail": "Blender 5.2 LTSは2026年7月14日のリリースを目標としており、現在Alpha段階（2026年6月3日まで）。主要機能はCyclesのテクスチャキャッシュシステムで、.txタイルをビルドしレンダリングに必要なタイルと解像度のみをロードすることでメモリ圧力を大幅に軽減。テクスチャ量が多いシーンでのレンダリング効率が向上。LTSとして2028年7月までサポート継続。2026年のBlenderリリース計画は5.1（3月）、5.2 LTS（7月）、5.3（11月）。",
+      "links": {
+        "Blender Developer Docs": "https://developer.blender.org/docs/release_notes/5.2/",
+        "80.lv": "https://80.lv/articles/blender-5-2-lts-introduces-new-cycles-texture-cache-system"
+      }
+    },
+    {
+      "name": "3ds Max 2027.1 リリース — Smart Bevel改善・Arnold Flow Renderクラウドレンダリング",
+      "level": "7",
+      "overview": "Autodesk 3ds Max 2027.1が2026年5月21日リリース。Smart Bevel品質向上、Arnold Cloud Flow Render試験提供。",
+      "detail": "Autodesk 3ds Max 2027.1が2026年5月21日にリリース。Smart Bevelの改善により複雑なジオメトリでのベベル品質が向上し、交差点・コーナー・不規則なエッジ配列でのスパイクや破損が減少。Data Channelモディファイヤにデータ変換用の3つの新オペレーターを追加。MAXtoA 5.9.2.0（Arnold 7.5.1.1）でFlow Render（Arnoldクラウドレンダリング、Tech Preview）とtyFlowボリューム対応、tyFlow内で体積シェーダーを直接割り当て可能に。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/autodesk-releases-3ds-max-2027-1/"
+      }
+    },
+    {
+      "name": "Adobe Photoshop 27.7 — AIRemoveツールがオンデバイス処理対応（約5GBモデル）",
+      "level": "6",
+      "overview": "Photoshop 27.7リリース。Removeツール用AIモデルをローカル実行可能に。Firefly Boards連携も追加。",
+      "detail": "Adobe Photoshop 27.7がリリース（2026年5月）。最大の変更点はAI搭載Removeツールで、約5GBのモデルをダウンロードすることでオブジェクト除去をクラウド処理なしにローカル実行可能に。ハードウェア互換性を自動チェックし、モデルのダウンロード・キャンセル・削除が任意に行える。Firefly Boardsとの連携が強化され、Photoshopドキュメントを直接Firefly Boardsに共有可能、Variationsパネルからもボードへの出力が可能に。Save for Webダイアログが新UIに更新。Windows 10+ / macOS 14.0+対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/adobe-releases-photoshop-27-7/",
+        "9to5Mac": "https://9to5mac.com/2026/05/20/adobe-photoshop-update-brings-on-device-ai-processing-but-there-is-a-catch/"
+      }
+    },
+    {
+      "name": "GDC Festival of Gaming 2026 — Neural Rendering・DeepMind Genie 3・AI議論が中心",
+      "level": "6",
+      "overview": "GDC Festival of Gaming 2026が開催、20,000人参加。Neural RenderingやDeepMind Genie 3など最新AI技術を発表。",
+      "detail": "GDC Festival of Gaming 2026がサンフランシスコ・モスコーニセンターで開催。700以上のセッション、1,100人の登壇者、300以上の出展社が参加し約20,000人が来場。Google DeepMindがテキストプロンプトから移動可能な3Dワールドを生成するGenie 3の最新版を発表、会場で大きな注目を集めた。ArmはVulkan ML拡張やNeural RenderingのUE5プラグインなどモバイルGPU向けニューラルレンダリング技術を披露。NVIDIAはRTX最新イノベーションを展示し、Battlefield 6チームがパフォーマンスキャプチャのセッションを実施。会場は5つのネイバーフッドに再編成された。",
+      "links": {
+        "Game Developer": "https://www.gamedeveloper.com/business/rebranded-gdc-festival-of-gaming-attracts-20-000-attendees",
+        "Arm Newsroom": "https://newsroom.arm.com/blog/takeaways-from-gdc-festival-of-gaming-2026"
+      }
+    },
+    {
+      "name": "Boris FX Continuum 2026.5 — AIビデオデインターレース・FXエディター大幅強化",
+      "level": "5",
+      "overview": "Boris FX Continuum 2026.5がリリース。AIによるVHS・アナログテープのデインターレースや新色管理パネルを追加。",
+      "detail": "Boris FX Continuum 2026.5がリリース。新機能BCC+ Deinterlace MLでVHS・アナログTVのインターレース映像をAIで自動的にプログレッシブスキャンに変換。FaceML・LicensePlateML・MotionBlurML・UpResMLの精度向上、FaceMLに鼻・首のセグメンテーションを追加。ML/AIモデルを一定時間未使用でGPUから自動アンロードし必要時に即座に再ロードするシステムを導入。FXエディターにOCIO対応のカラー管理パネルとリアルタイムRGBA情報表示パネルを追加。150以上の新プリセットとTitle Studio向け70の新プリセットを追加。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/boris-fx-releases-continuum-2026-5/",
+        "Boris FX": "https://borisfx.com/news/continuum-2026-5-ai-precision-more-creative-control/"
+      }
+    }
+  ]
+}
