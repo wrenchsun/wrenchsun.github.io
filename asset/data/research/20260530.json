@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "name": "Boris FX Silhouette 2026 リリース — AI頭部・物体・点トラッキングを新搭載",
+      "level": "8",
+      "overview": "ロトスコープ・ペイントツールSilhouette 2026がリリース。Head Track ML、Object Tracker、Point Track MLの3つのAIトラッキングシステムを追加。",
+      "detail": "Head Track MLは映像内の俳優の3D頭部メッシュを自動生成しショット全体を追跡、ビューティーワーク・デジタルメイクアップ用途に特化。Object TrackerはMLで顔・ナンバープレート等を自動検出し個別レイヤーを生成。Point Track MLは遮蔽・フレーム外でも点を追従。Mask ML/Matte Assist MLがCryptomatteエクスポートに対応、Healing Brushや解像度非依存のResize Paintも追加。MCPサーバーによりClaudeやCursorなどAIツールからのスクリプト制御も可能に。スタンドアロン版$2,195、プラグイン版$1,195。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/boris-fx-releases-silhouette-2026/"
+      }
+    },
+    {
+      "name": "Unreal Fest Tokyo 2026 開催決定 — 11月3・4日、有明で講演公募も開始",
+      "level": "7",
+      "overview": "Epic GamesのUE公式イベント「Unreal Fest Tokyo 2026」が11月3日・4日に東京・有明での開催を発表。講演公募も同時スタート。",
+      "detail": "Unreal Engine関連の技術・事例を共有する日本最大規模のイベントが今秋も有明で開催。併せてUnreal Fest Chicagoも6月16〜18日に予定されており、世界各地でイベントが展開中。日本からの講演者公募が始まっており、ゲーム・映像・建築など各分野の活用事例を募集している。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/2605-03-unreal-fest.html"
+      }
+    },
+    {
+      "name": "Massive 101 無料版リリース — LotR制作の群衆シミュレーターが非商用無料に",
+      "level": "7",
+      "overview": "『ロード・オブ・ザ・リング』で使われた群衆シミュレーターMassiveの非商用無料版「Massive 101」が公開。シミュレーション機能はほぼフル搭載。",
+      "detail": "Massive Softwareがアカデミー賞・エミー賞受賞の群衆シミュレーションソフトの無料版を公開。エージェント数・複雑さに制限なく全シミュレーション機能を利用可能。制限はMassive Prime形式への変換不可、USD/ジオメトリエクスポート無効、レンダリングにウォーターマーク付きのみ。Windows 10とLinuxに対応。デモ・チュートリアルファイル付属。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/massive-crowd-simulation-software-gets-free-edition/"
+      }
+    },
+    {
+      "name": "Chaos Corona 15 リリース — Veras AI無料バンドル・3Dウォークスルー共有機能追加",
+      "level": "7",
+      "overview": "建築レンダラーCorona 15がリリース。生成AIツールVerasが全サブスク無料付属に。3Dウォークスルーのリンク共有やVideo Collaboration機能も追加。",
+      "detail": "Chaosが買収したAIイデエーションツールVerasが全Coronaサブスクに無料バンドル。Corona VFBからVerasへ直接エクスポートしマテリアル・ライティングのバリエーション生成や静止画から短尺アニメ生成が可能に。新機能としてLight Override Material、Glints Layer、VFBクリックで太陽/月位置指定を追加。3ds MaxではアニメーションパースのフレームごとのパースをVFBへストリーミング対応、Chaos Cloud Collaborationへのビデオコラボも実装。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/chaos-releases-corona-15-for-3ds-max-and-blender/",
+        "Chaos Blog": "https://blog.chaos.com/corona-15"
+      }
+    },
+    {
+      "name": "Polygonflow Dash 1.11 リリース — UE5ビューポート内でPCGコンテンツ直接描画",
+      "level": "6",
+      "overview": "UE5向けワールドビルディングツールDash 1.11がリリース。ビューポート内でプロシージャルコンテンツを直接描画できる機能など複数の新機能を追加。",
+      "detail": "Polygonflowが開発するUnreal Engine 5向けのワールドビルディングアドオンDashがv1.11にアップデート。目玉機能はビューポート上でPCGコンテンツをブラシのように直接描き込める機能。環境アーティストのイテレーション速度を大幅に向上させる。無料版のDashアセットマネージャーも以前にリリース済みで、UE5標準コンテンツブラウザの強力な代替として機能する。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/check-out-the-new-features-in-ue5-world-building-tool-dash/"
+      }
+    },
+    {
+      "name": "ロケハン3D — Chromeブラウザで動くVFX向けデジタルツインサービス開始",
+      "level": "5",
+      "overview": "実写・VFX向けデジタルツインサービス「ロケハン3D」の提供開始。3DGS活用でオフライン動作・スマホ対応、Chromeブラウザで閲覧可能。",
+      "detail": "ロケーションハンティングや撮影計画に使えるデジタルツインサービス。3D Gaussian Splatting（3DGS）技術を採用し、Chromeブラウザ上で動作。インターネット不要のオフライン動作およびスマートフォン対応を実現。実写映像制作やVFX用途でのロケ地3D化・確認作業の効率化を目的とする。",
+      "links": {
+        "CGWORLD.jp": "https://cgworld.jp/flashnews/01-202605-locahun3d.html"
+      }
+    }
+  ]
+}
