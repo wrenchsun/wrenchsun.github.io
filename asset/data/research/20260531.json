@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "name": "Black Eye 2.0 — Cinemachine作者によるUE5向け統合カメラシステム",
+      "level": "7",
+      "overview": "UE5向け統合カメラシステムBlack Eye 2.0リリース。Cinemachine作者がゲームプレイ・シネマ・VP全てのカメラワークを統一アーキテクチャで制御。",
+      "detail": "Cinemachineの共同作者Adam Myhill氏が開発。「脆いコードの塊」になりがちなゲームカメラを、モジュール式ビヘイビアで解決。ゲームプレイカメラ・Sequencerシネマティクス・バーチャルプロダクションを一つのシステムで扱えるアーキテクチャを採用。Fabにて購入可能。ゲームの規模を問わず小規模チームのカメラ品質底上げを目指す。",
+      "links": {
+        "80.lv": "https://80.lv/articles/how-black-eye-2-0-is-rethinking-how-video-game-camera-systems-work"
+      }
+    },
+    {
+      "name": "Amazon GenAI Creators' FundからJorge Gutierrezが離脱",
+      "level": "6",
+      "overview": "AmazonがAI支援アニメ3本を発表した直後、『ブック・オブ・ライフ』監督Gutierrezが方針と距離を置きプログラムから離脱。",
+      "detail": "Amazon Prime VideoはGenAI Creators' Fundとして3本のAI支援アニメシリーズを発表した。しかし発表からわずか数日後、そのうちの一人であるJorge R. Gutierrez監督がプログラムから離脱したと報告された。AIを用いたアニメ制作に対するクリエイター側の反応として業界内で注目されている。",
+      "links": {
+        "80.lv": "https://80.lv/articles/jorge-r-gutierrez-drops-out-of-amazon-s-genai-creators-fund-program"
+      }
+    },
+    {
+      "name": "GDC調査：ゲーム開発者の50%以上が生成AIは業界に有害と回答",
+      "level": "6",
+      "overview": "GDC最新調査でゲーム開発者の過半数が生成AIはゲーム品質低下につながると懸念。AIリスクへの意識が拡大中。",
+      "detail": "GDCが実施した調査によると、ゲーム開発者の50%以上が生成AIは業界にとって有害であると回答した。品質低下への懸念・著作権問題・雇用への影響などが主な理由として挙げられている。AIツールの普及が進む中、開発者コミュニティ内でのAI導入への懐疑的な見方が強まっていることが示された。",
+      "links": {
+        "80.lv": "https://80.lv/articles/gdc-survey-over-50-of-game-devs-say-generative-ai-harms-industry"
+      }
+    },
+    {
+      "name": "Fable、2027年2月に再延期 — GTA6等との競合を回避",
+      "level": "5",
+      "overview": "XboxのPlayground Games製RPG『Fable』が2026年秋リリース予定から2027年2月へ再延期。GTA6との競合が主因。",
+      "detail": "Microsoft XboxはPlayground Gamesが開発するFableリブートを2026年秋から2027年2月に延期すると発表。GTA6（2026年11月19日発売予定）・Gears of War: E-Day・Halo: Campaign Evolvedなどと重なるホリデーシーズンを避け、作品に「ふさわしい単独の瞬間」を確保するための判断とされている。",
+      "links": {
+        "80.lv": "https://80.lv/articles/xbox-delayed-fable-again-in-part-because-of-gta-6-now-releasing-february-2027",
+        "Gematsu": "https://www.gematsu.com/2026/05/fable-delayed-to-february-2027"
+      }
+    }
+  ]
+}
