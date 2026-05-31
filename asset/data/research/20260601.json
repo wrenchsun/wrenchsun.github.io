@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 6 正式発表、初採用タイトルはRocket League",
+      "level": "10",
+      "overview": "Epic GamesがUE6を正式発表。マルチスレッドゲームシミュレーションとエコシステム間の高いインターオペラビリティが主要特徴。",
+      "detail": "Rocket League Championship Series Paris Major（5/25）でEpic Gamesが次世代エンジン「Unreal Engine 6」を発表。UE6最大の変更点はゲームシミュレーションのマルチスレッド化で、UE5で問題だったシングルスレッドのボトルネックが解消される。Unreal Engine、Fortnite、UEFNなどのプロジェクト間でアセットやワールドを容易に移行できるインターオペラビリティも強化。プレビュービルドは今後2〜3年以内に開発者向けに提供予定で、正式リリースは2028年頃の見込み。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_25_138267/",
+        "80.lv": "https://80.lv/articles/epic-games-officially-teases-unreal-engine-6",
+        "Video Games Chronicle": "https://www.videogameschronicle.com/news/epic-announces-unreal-engine-6-which-will-run-the-next-era-of-rocket-league/"
+      }
+    },
+    {
+      "name": "Summer Game Fest 2026、6月5〜8日に開催",
+      "level": "9",
+      "overview": "第7回Summer Game Fest が6月5〜8日LAドルビーシアターで開催。State of Play(6/2)、Xbox Showcase(6/7)など15以上の関連イベントが連日実施。",
+      "detail": "Summer Game Fest 2026がロサンゼルスのドルビーシアターにて6月5〜8日開催。メインショーケースは6月5日14:00 PT。関連イベントとして6月1日にMedia Indie Exchange（60以上のインディーゲーム発表）、6月2日にSony State of Play、6月7日にXbox Games Showcase & Gears of War: E-Day Directなど15以上のイベントが予定されている。",
+      "links": {
+        "Summer Game Fest 公式": "https://www.summergamefest.com/",
+        "GamesRadar スケジュール": "https://www.gamesradar.com/summer-game-fest-schedule-2026/"
+      }
+    },
+    {
+      "name": "GameMaker Spring 2026 Update：新ランタイムGMRTがJS/TS/C#対応へ",
+      "level": "8",
+      "overview": "GameMaker LTS 2026.0リリース。次世代ランタイムGMRTがデスクトップβ脱却間近。JS/TS/C#サポート、glTFインポート、Scene Graph導入予定。",
+      "detail": "GameMakerが春2026アップデートを発表。次世代ランタイム「GMRT」のデスクトップ版はQ2中にベータ脱却予定。v0.20でglTFインポートとScene Graphが追加され3D対応が強化される。JavaScript、TypeScript、C#のサポートも2026年中に展開予定。ソースコード（デスクトップ・モバイル・Web版）が全ユーザーに公開され、オープンソースのCLIツールも提供される。",
+      "links": {
+        "80.lv": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update",
+        "GameMaker公式ブログ": "https://gamemaker.io/en/blog/update-spring-2026"
+      }
+    },
+    {
+      "name": "Blender 5.2 LTS ロードマップ公開：Android対応・アニメーションレイヤーなど",
+      "level": "8",
+      "overview": "Blender 5.2 LTS（2026年7月リリース予定）ロードマップ公開。Android初期移植、アニメーションレイヤー、レイヤードテクスチャ、新ヘアソルバーなど計画。",
+      "detail": "Blender 5.2 LTSは2026年6月3日までアルファ版として開発が進められており、正式リリースは2026年7月予定。ロードマップにはAndroidデバイスへの初期移植（タッチサポート含む）、レイヤードテクスチャ、アニメーションレイヤー、非フォトリアル(NPR)レンダリング、新ヘアソルバー、CyclesとVRのアップデートが含まれる。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_29_138658/",
+        "CG Channel ロードマップ記事": "https://www.cgchannel.com/2026/02/see-the-2026-blender-development-roadmap/"
+      }
+    },
+    {
+      "name": "Maxon、モーショングラフィックスソフト「Autograph」を個人アーティスト向けに無料提供",
+      "level": "7",
+      "overview": "MaxonがAutograph 2026.0を個人アーティスト（商用利用可）に無料公開。After Effectsの代替として注目のノードベースモーショングラフィックスツール。",
+      "detail": "MotionVFX開発のモーショングラフィックスソフト「Autograph」がMaxonに買収され、Autograph 2026.0として個人アーティストへの無料提供が開始された。商用プロジェクトへの使用も可能。ノードベースのモーショングラフィックス制作に対応し、Adobe After Effectsの代替ツールとして業界から注目されている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/maxon-releases-motion-graphics-software-autograph-for-free/"
+      }
+    },
+    {
+      "name": "Autodesk 3ds Max 2027.1 リリース",
+      "level": "7",
+      "overview": "3ds Max 2027.1がリリース。Smart Bevel品質改善、Data Channel新演算子追加、Arnold最新版（MAXtoA 5.9.2.0）対応。",
+      "detail": "3ds Max 2027.1はマイナーアップデート。Smart Bevelは複雑なジオメトリでのアーティファクトが削減され品質が向上。Data Channelモディファイヤには新演算子Float_to_Point3、FloatOp、PointOpが追加。Arnold統合はMAXtoA 5.9.2.0（Arnold 7.5.1.1ベース）に更新。Windows 11対応、月額$255から。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/autodesk-releases-3ds-max-2027-1/"
+      }
+    },
+    {
+      "name": "Graphics Programming Weekly Issue 442（5月24日号）",
+      "level": "6",
+      "overview": "Jendrik IllnerによるグラフィックスプログラミングWeekly最新号（Issue 442）。SDF→ポリゴンメッシュ変換のDual Contouringアルゴリズムなどを紹介。",
+      "detail": "グラフィックスプログラミング技術情報の週次まとめ。Issue 442（5月24日）では、SDF（符号付き距離関数）データからのDual Contouringによるポリゴンメッシュ再構築アルゴリズムを主要トピックとして紹介。毎週月曜日更新でGPU最適化、シェーダー技術、VulkanやDirectX等のレンダリング技術をカバー。",
+      "links": {
+        "jendrikillner.com Issue 442": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-442/"
+      }
+    },
+    {
+      "name": "GAME FUTURE SUMMIT 2026、6月3日に渋谷で開催",
+      "level": "6",
+      "overview": "ゲーム業界最大級ビジネスイベントGAME FUTURE SUMMIT 2026が6月3日（水）渋谷で開催。1,500名超参加予定、入場無料。",
+      "detail": "ゲームのプロデュース・マーケティングに特化したビジネスカンファレンスが6月3日（水）13時〜19時に東京・渋谷のベルサール渋谷ガーデンで開催。1,500名超のゲーム業界関係者が参加予定。ステージセッション、展示ブース、懇親会（19時〜20時30分）を実施。Unity Technologies Japanも参加。入場無料。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2025_09_25_118073/",
+        "公式サイト": "https://game-future-summit.jp/"
+      }
+    },
+    {
+      "name": "DaVinci Resolve 21.0 ベータリリース、新Photoページ追加",
+      "level": "6",
+      "overview": "Blackmagic DesignがDaVinci Resolve 21.0ベータをリリース。新Photoページ追加により静止画へのカラーグレーディング適用が可能に。",
+      "detail": "DaVinci Resolve 21.0のベータ版がリリース。新たに追加されたPhotoページにより、動画だけでなく静止画に対してもDaVinci Resolveのカラーコレクションツールとワークフロー機能が適用可能になった。映像制作者だけでなく写真家へのアプローチも強化される形。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/04/blackmagic-design-releases-davinci-resolve-21-0-in-beta/"
+      }
+    },
+    {
+      "name": "ArtStation、Showcasing・Reactions・メッセージリクエスト機能を追加",
+      "level": "5",
+      "overview": "ArtStationにProアーティスト向けShowcasing機能、新Reactionsシステム、スパム対策のメッセージリクエストシステムが追加。",
+      "detail": "ArtStationが複数の新機能を追加。Proアーティスト向けにプロフィールのShowcasing機能（作品の優先表示設定）、新しいReactionsシステム、スパム対策としてのメッセージリクエストシステムが実装された。プロフェッショナルアーティストのポートフォリオ管理・発信が強化される。",
+      "links": {
+        "ArtStation Magazine": "https://magazine.artstation.com/2026/05/new-on-artstation-showcasing-pro-artists-new-reactions-message-request-system/"
+      }
+    },
+    {
+      "name": "Unreal Engine 5.6向けゲームテンプレート更新・公開",
+      "level": "5",
+      "overview": "UE5.6向けゲームテンプレートが大幅更新。各ジャンル向けテンプレートの開発速度とカスタマイズ性が向上。",
+      "detail": "Unreal Engine 5.6向けのゲームテンプレートが更新され提供開始。各種ゲームジャンル向けのテンプレートが改善され、プロトタイプから製品化まで開発速度とカスタマイズの柔軟性が向上した。",
+      "links": {
+        "Unreal Engine 公式": "https://www.unrealengine.com/ja/news/updated-game-templates-for-unreal-engine-5-6available-now"
+      }
+    }
+  ]
+}
