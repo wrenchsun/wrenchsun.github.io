@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "name": "PlayStation State of Play 2026年6月2日 - Marvel's Wolverine 9/15発売、Castlevania新作他多数発表",
+      "level": "8",
+      "overview": "60分超のState of Play。Marvel's Wolverine（9/15 PS5発売）とCastlevania: Belmont's Curseが目玉発表。",
+      "detail": "InsomniacのMarvel's Wolverineは9月15日にPS5向け発売確定、ブルータルな近接戦闘と新ディテールが公開。Evil Empire×Motion Twin開発のCastlevania: Belmont's Curseは2D探索アクションで2026年内PS5発売予定。Marvel Tōkon: Fighting Soulsの新トレーラーも披露。Summer Game Fest週に合わせた60分超の大型発表イベント。",
+      "links": {
+        "PlayStation Blog": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2/",
+        "Vice": "https://www.vice.com/en/article/sony-announces-massive-60-minute-playstation-state-of-play-for-june-2026/"
+      }
+    },
+    {
+      "name": "3DCoat 2026 公開ベータリリース - GPU加速ノードベーステクスチャリングシステム搭載",
+      "level": "8",
+      "overview": "PilgwayがGPU加速NGL（NodeGraph Language）ベースの非破壊テクスチャリングシステムを搭載した3DCoat 2026を公開ベータ提供開始。",
+      "detail": "Node SystemはGLSLベースの独自言語NGLを用いGPU上でコンパイル・実行。スマートマテリアル、スマートマスク、デフォーマ、ポストプロセスフィルタの新世代化を実現。既存レイヤーベース描画システムとシームレスに統合。3DCoatTextura 2026（€159）も今月中に安定版リリース予定。GPU版とCPU版は並行提供。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/"
+      }
+    },
+    {
+      "name": "State of Unreal 2026 at Unreal Fest Chicago 6/17配信決定 - UE最新情報とロードマップ発表",
+      "level": "8",
+      "overview": "Epic GamesがUnreal Fest Chicago（6/16-18）でState of Unreal 2026を6/17配信。日本時間23時よりYouTube Liveにて視聴可能。",
+      "detail": "初めてUnreal Fest会場（シカゴ）から実施するState of Unreal。CEO Tim Sweeney登壇。UE最新機能・ロードマップ・コミュニティ事例を発表予定。今年は大規模ライブデモより開発者が実際に使えるツールとワークフローに焦点を当てる方針。UE6発表後初のState of Unrealとして注目度高。",
+      "links": {
+        "Unreal Engine": "https://www.unrealengine.com/events/unreal-fest-chicago-2026-state-of-unreal",
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_05_29_138680/"
+      }
+    },
+    {
+      "name": "Summer Game Fest 2026 今週開幕 - 6/5(金)ドルビーシアターから配信",
+      "level": "7",
+      "overview": "Summer Game Fest 2026が6月5日にロサンゼルス・ドルビーシアターで開幕。Day of the Devs等複数ショーケースが同週開催。",
+      "detail": "Geoff Keighley×Lucy James司会。全プラットフォームの新情報・トレーラー・アップデートを発表。6/2のState of PlayやBlack Voices in Gaming Showcaseを皮切りに今週はゲーム発表が集中。6/5にDay of the Devsも同日開催。Game Maker's Sketchbook 2026の選抜作品も同週のLA Play Daysでお披露目。",
+      "links": {
+        "Summer Game Fest": "https://www.summergamefest.com/",
+        "PC Gamer": "https://www.pcgamer.com/gaming-industry/events-conferences/summer-game-fest-2026/"
+      }
+    },
+    {
+      "name": "Mush3D 3.0 リリース - 四面体シミュレーションデフォーマとPose Trainer追加",
+      "level": "6",
+      "overview": "Luiz EliasがMush3D 3.0をリリース。Tetrahedral Simulationデフォーマと例示ベースのPose Trainerを新搭載。",
+      "detail": "Tetrahedral Simulationはマスクした領域の四面体ボリュームを生成し筋肉・軟組織の二次モーションをシミュレート。ZivaVFX・AdonisFXと同様のFEMアプローチ。Pose Trainerは手動スカルプト/3Dスキャンのポーズセットで訓練し自動補正を適用（訓練1秒以下）。顔アニメーション転送にも対応。Pro版$980/年。Windows/Linux/macOS対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/luiz-elias-releases-mush3d-3-0/"
+      }
+    }
+  ]
+}
