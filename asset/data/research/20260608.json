@@ -1,0 +1,152 @@
+{
+  "items": [
+    {
+      "name": "Microsoft Project Helix 次世代Xbox発表 - AMD RDNA5・FSR Diamond・DirectX次世代",
+      "level": "9",
+      "overview": "次世代Xbox「Project Helix」技術詳細発表。AMD RDNA5 SoCを搭載しFSR Diamondと次世代DirectXでレイトレ性能が桁違いに向上。",
+      "detail": "MicrosoftはGDC 2026およびXbox Games Showcase 2026でProject Helixの技術詳細を公開。カスタムAMD SoCはRDNA 5アーキテクチャを採用しTSMC 3nmプロセスで製造。「FSR Diamond」はML超解像・マルチフレーム生成・次世代Ray Regenerationを統合した次世代アップスケーリングスタック。Work Graphsによりハードウェアレイトレーシング性能が従来比で桁違いに向上。DirectStorageとZstdを組み合わせてSSD-GPU転送を高速化。開発者向けアルファ版は2027年配布予定。",
+      "links": {
+        "Tom's Hardware - Project Helix": "https://www.tomshardware.com/video-games/xbox/microsoft-confirms-next-gen-xbox-codenamed-project-helix-will-be-powered-by-custom-amd-soc-and-feature-fsr-diamond-next-gen-console-delivers-order-of-magnitude-leap-in-performance",
+        "Xbox Wire - GDC Project Helix": "https://news.xbox.com/en-us/2026/03/11/project-helix-building-next-generation-of-xbox/",
+        "Game Developer": "https://www.gamedeveloper.com/production/microsoft-lifts-the-lid-on-project-helix-at-gdc-festival-of-gaming"
+      }
+    },
+    {
+      "name": "D3D12 AgilitySDK 721 Preview公開・Shader Model 6.10にLinAlg追加",
+      "level": "9",
+      "overview": "DirectX AgilitySDK 721プレビューとDXCが更新。HLSLにVectorAccumulate、Partial Graphics Programs、GUIDテクスチャレイアウトなどが追加された。",
+      "detail": "MicrosoftはD3D12 AgilitySDK 721プレビューを発表。Shader Model 6.10ではHLSLに線形代数演算子VectorAccumulateが追加され、Partial Graphics Programs機能によりグラフィックスパイプラインの部分的なシェーダープログラム指定が可能になる。GUID texture layoutsとUAVによるデプスステンシルリソースへのアクセスもサポート。ハードウェアおよびドライバーサポートの詳細も合わせて公開された。",
+      "links": {
+        "DirectX Blog - AgilitySDK 721": "https://devblogs.microsoft.com/directx/announcing-agilitysdk-721-preview-and-more-shader-model-6-10-features/",
+        "Jendrik Illner Weekly #443": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/"
+      }
+    },
+    {
+      "name": "NVIDIA「SANA-WM」公開 - 画像1枚と6DoFカメラデータから720p・60秒ワールド生成",
+      "level": "8",
+      "overview": "NVIDIAがワールドモデル「SANA-WM」を公開。画像1枚と6DoFカメラ軌跡から単一GPUでアクション制御可能な720p・60秒ワールドを合成。",
+      "detail": "NVIDIAは世界モデル「SANA-WM」を公開。入力は静止画1枚と6DoFカメラ軌跡データのみで、アクション制御可能な720p解像度・60秒のダイナミックワールドをリアルタイムに合成できる。単一GPUで動作するため研究・開発用途での展開が期待される。VFXやゲーム開発のバーチャルプロダクションワークフローへの応用が注目される技術。",
+      "links": {
+        "CGWORLD - SANA-WM": "https://cgworld.jp/flashnews/01-202606-SANA-WM.html"
+      }
+    },
+    {
+      "name": "DirectX Partial Graphics Programs - D3D12パイプラインの部分的シェーダー指定機能",
+      "level": "8",
+      "overview": "DirectXが新機能「Partial Graphics Programs」を詳細解説。既存ソリューションの課題を解決しグラフィックスパイプラインの柔軟なシェーダープログラム分割を実現。",
+      "detail": "MicrosoftのDirectXブログがPartial Graphics Programsの詳細を公開。この機能はD3D12のグラフィックスパイプラインにおいて、完全なパイプラインステートオブジェクトを必要とせずに部分的なシェーダープログラムを指定できるようにするもの。既存のPSOコンパイル課題やパイプライン管理の複雑さを軽減し描画効率の向上が期待される。AgilitySDK 721プレビューに含まれる。",
+      "links": {
+        "DirectX Blog - Partial Graphics Programs": "https://devblogs.microsoft.com/directx/partial-graphics-programs/",
+        "Jendrik Illner Weekly #443": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/"
+      }
+    },
+    {
+      "name": "CEDEC2026 受講登録開始 - バンナム内製エンジン「SOL-AVES」・ドンキーコング技術解説など140講演",
+      "level": "7",
+      "overview": "7月22〜24日開催のCEDEC2026が受講登録開始。バンナム内製エンジン「SOL-AVES」やドンキーコング バナンザ技術解説など140以上の講演を公開。",
+      "detail": "国内最大級ゲーム開発者向けカンファレンスCEDEC2026（2026年7月22〜24日、パシフィコ横浜ノース）の受講登録が開始。公開された講演には任天堂『ドンキーコング バナンザ』の技術解説、バンダイナムコエンターテインメント内製ゲームエンジン「SOL-AVES」の詳細解説が含まれる。エンジニアリング、ビジュアルアーツ、ゲームデザインなど7分野で140以上のセッションが予定されており短尺セッション枠は最大30まで拡大。",
+      "links": {
+        "CEDEC2026 公式": "https://cedec.cesa.or.jp/2026/",
+        "ゲームメーカーズ - CEDEC2026": "https://gamemakers.jp/article/2026_06_01_138818/"
+      }
+    },
+    {
+      "name": "Gears of War: E-Day - UE5 MegaLightsをAAA商用タイトルで初実装・4K60FPS",
+      "level": "7",
+      "overview": "Xbox Games Showcase 2026発表のGears of War: E-DayがUE5に移行し革新的照明システム「MegaLights」を商用ゲームとして初採用。4K・60FPS対応。",
+      "detail": "The Coalition開発のGears of War: E-DayはUnreal Engine 5へ完全移行し、UE5の新照明システム「MegaLights」を商用タイトルとして初めて実装する。MegaLightsは大量の動的ライトを効率的に処理できる革新的なライティングシステム。Studio Technical DirectorのKate Rayner氏によれば空のハードドライブから再構築した本作で4K解像度・最大60FPSをキャンペーンとマルチプレイヤーの両方で実現。",
+      "links": {
+        "Xbox Wire - Gears of War E-Day": "https://news.xbox.com/en-us/2026/06/07/gears-of-war-eday-direct-xbox-games-showcase-2026/"
+      }
+    },
+    {
+      "name": "REST3D - 単一画像から物理的に安定した3Dシーンを再構成するAIフレームワーク",
+      "level": "7",
+      "overview": "単一画像から物理的に安定した3Dシーン再構成を行う「REST3D」が発表。シーンツリー型物理推論と物理制約最適化を組み合わせた手法。",
+      "detail": "REST3Dは単一画像から3Dシーンを再構成する際に物理的安定性を優先するフレームワーク。シーンツリーベースの物理推論と物理制約付き最適化を組み合わせることで、生成された3Dシーン内のオブジェクトが現実的な物理法則に従って安定配置される。従来の単一画像3D再構成では無視されがちだった重力・摩擦・接触といった物理的制約を考慮した点が革新的。CG・ゲーム制作でのリファレンス活用が期待される。",
+      "links": {
+        "REST3D プロジェクトページ": "https://shirleymaxx.github.io/REST3D/",
+        "Jendrik Illner Weekly #443": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/"
+      }
+    },
+    {
+      "name": "Maya 2027.1 リリース - OpenTimelineIO対応・MotionMakerエディタ改善",
+      "level": "7",
+      "overview": "Autodesk Maya 2027.1が公開。OpenTimelineIO（OTIO）対応やMotionMakerエディタ改善などアニメーション・制作ワークフローを強化。",
+      "detail": "Autodesk Maya 2027.1がリリースされた。主要な改善点として業界標準タイムラインフォーマットOpenTimelineIO（OTIO）への対応によりDCC間のタイムライン共有が容易になった。MotionMakerエディタも改善されアニメーション制作の効率が向上。ブレンドシェイプやスキンのワークフロー改善も含まれる。",
+      "links": {
+        "CGWORLD - Maya 2027.1": "https://cgworld.jp/flashnews/03-2605-maya202701.html",
+        "CG Channel - Maya 2027.1": "https://www.cgchannel.com/2026/05/autodesk-releases-maya-2027-1/"
+      }
+    },
+    {
+      "name": "3DCoat 2026 パブリックベータ公開 - GPU駆動ノードベーステクスチャリングシステム",
+      "level": "7",
+      "overview": "Pilgwayの3DCoat 2026がパブリックベータ公開。スカルプト・リトポロジー・3DペイントソフトにGPU駆動の非破壊ノードベーステクスチャリングシステムを実装。",
+      "detail": "Pilgwayがリリースした3DCoat 2026パブリックベータでは新たにGPU駆動の非破壊ノードベーステクスチャリングシステムを搭載。テクスチャ制作のフローが根本から変わりノードグラフによる非破壊ワークフローでテクスチャの編集・調整が可能になった。スカルプティング・リトポロジー・3Dペインティングを統合した同ソフトの大型アップデートとなる。",
+      "links": {
+        "CG Channel - 3DCoat 2026": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/"
+      }
+    },
+    {
+      "name": "DaVinci Resolve 21.0 & Fusion Studio 21.0 正式リリース - AI機能大幅強化",
+      "level": "6",
+      "overview": "Blackmagic DesignがDaVinci Resolve 21.0とFusion Studio 21.0を正式リリース。AI深度ぼかし・モーションデブラー除去・顔面エイジング除去など新AI機能を多数追加。",
+      "detail": "DaVinci Resolve 21.0（無料版・Studio版295ドル）が正式リリース。Studio版ではAI駆動の深度ぼかし・モーションデブラー除去・自動肌荒れ除去・顔面エイジング除去ツールが追加。写真ページが新設され静止画にもカラーコレクション機能が使用可能になった。Fusion Studio 21.0ではモーショングラフィクスツールが強化されディープコンポジティング・USD・レンズ補正のワークフローが刷新された。",
+      "links": {
+        "CG Channel - DaVinci Resolve 21.0": "https://www.cgchannel.com/2026/06/blackmagic-design-releases-davinci-resolve-21-0/",
+        "CG Channel - Fusion Studio 21.0": "https://www.cgchannel.com/2026/06/blackmagic-design-releases-fusion-studio-21-0/"
+      }
+    },
+    {
+      "name": "Summer Game Fest 2026 主要タイトル発表 - FF7 Revelation・RE:Code Veronica・Guild Wars 3等",
+      "level": "6",
+      "overview": "SGF 2026でFF7リメイク三部作完結編「Revelation」（2027春）、RE: Code Veronica Remake（2027）、Guild Wars 3（2027年ベータ）などが発表。",
+      "detail": "Summer Game Fest 2026（6月5〜8日）では50タイトル以上が発表。Final Fantasy VII Revelation（PS5/Xbox Series/Switch 2/PC、2027年春）はリメイク三部作完結編。Resident Evil: Code Veronica Remake（2027年）、Guild Wars 3（Steam・PS5ベータ2027年）、PlatinumGames制作のTMNT新作、Stellar Blade: Blood Rain、Cuphead完全続編なども発表。Grounded 2はPS5向けに8月リリース決定。PC Gaming Show 2026でもValheim 1.0（9月9日）やControl Resonant（9月24日）が発表された。",
+      "links": {
+        "Game Informer - SGF 2026全発表": "https://gameinformer.com/sgf-2026/2026/06/05/heres-everything-announced-during-the-summer-game-fest-2026-showcase",
+        "Epic Games Store - SGF 2026": "https://store.epicgames.com/news/summer-game-fest-2026-showcase-world-premieres-news-trailers",
+        "PC Gaming Show 2026 全発表": "https://www.pcgamer.com/gaming-industry/events-conferences/every-game-trailer-and-announcement-in-the-pc-gaming-show-2026/"
+      }
+    },
+    {
+      "name": "Blender 5.2 LTS 7月リリース予定 - 2026年ロードマップ確認",
+      "level": "6",
+      "overview": "Blender 2026年ロードマップで5.2 LTSが7月リリース予定と確認。Raycastノードやレンダリング・アニメーション改善を含む5.1に続く長期サポート版。",
+      "detail": "Blenderの2026年ロードマップではBlender 5.1（3月リリース済み）、Blender 5.2 LTS（7月予定）、Blender 5.3（11月予定）の3段階でリリースが計画されている。5.2はLTS（長期サポート）版となりプロダクションパイプラインへの採用が推奨されるバージョンとなる。5.1ではRaycastノード、レンダリング改善、アニメーション機能強化が盛り込まれた。",
+      "links": {
+        "CG Channel - Blender 5.1": "https://www.cgchannel.com/2026/03/discover-5-key-features-in-blender-5-1/",
+        "CG Channel - 2026 Blender Roadmap": "https://www.cgchannel.com/2026/02/see-the-2026-blender-development-roadmap/"
+      }
+    },
+    {
+      "name": "Graphics Programming Weekly #443 - グラフィックスプログラミング週報（5月31日号）",
+      "level": "6",
+      "overview": "Jendrik Illner氏の週次グラフィックスプログラミングまとめ第443号。ASTC ISE解説、陰関数サーフェスレンダリング、DirectX新機能、REST3Dなど収録。",
+      "detail": "今週号はASTCのISE（整数シーケンスエンコーディング）採用理由の技術的解説、CADプロトタイプ向けコントリー型スパースボクセル構造による陰関数サーフェスレンダリング手法、REST3D単一画像3D再構成、D3D12 AgilitySDK 721プレビュー・Partial Graphics Programsの詳細解説、幾何代数の投影解説動画などを収録している。",
+      "links": {
+        "Jendrik Illner - Weekly #443": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/"
+      }
+    },
+    {
+      "name": "ASTC ISEを採用する理由の技術解説 - 固定サイズペイロードがエンコーダ設計を簡略化",
+      "level": "5",
+      "overview": "ASTCテクスチャ圧縮がISEを使用する理由を技術解説。ISEの優位性は0.07ビット/シンボル程度だが固定サイズペイロードがエンコーダ設計を大幅に簡略化する。",
+      "detail": "Fabian Giesen氏（ryg）によるブログ記事でASTCがISE（Integer Sequence Encoding）を採用した技術的理由を詳細に解説。ISEの実用的な優位性は単純なプレフィックスコードと比べて1シンボルあたり約0.07ビットに過ぎないが、固定サイズペイロードの予測可能性がエンコーダ設計を大幅に単純化できる点に本質的なメリットがあると結論付けている。テクスチャ圧縮の内部実装を理解する上で有用な解説。",
+      "links": {
+        "Why ASTC uses ISE": "https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/",
+        "Jendrik Illner Weekly #443": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/"
+      }
+    },
+    {
+      "name": "Unreal Fest Chicago 2026 開催 - 6月16〜18日・講演者募集中",
+      "level": "5",
+      "overview": "Unreal Engine公式カンファレンス「Unreal Fest Chicago 2026」が6月16〜18日シカゴで開催。UE5活用事例や技術セッションなどが予定される。",
+      "detail": "EpicゲームズはUnreal Fest Chicago 2026を2026年6月16〜18日に開催すると発表。UnrealEngineのユーザー向け公式カンファレンスでUE5活用事例・技術セッション・ハンズオンが行われる。公式サイトでは講演者応募も受け付けており、UE5を活用する開発者が知見を共有できる場となっている。",
+      "links": {
+        "Unreal Engine - Unreal Fest Chicago": "https://www.unrealengine.com/news/apply-to-present-at-unreal-fest-chicago-2026",
+        "Unreal Fest 公式": "https://www.unrealengine.com/unreal-fest"
+      }
+    }
+  ]
+}
