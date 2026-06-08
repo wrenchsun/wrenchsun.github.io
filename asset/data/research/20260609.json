@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "name": "Houdini 22 スニークピーク公開 - Gaussian Splat・Copernicus大幅強化",
+      "level": "9",
+      "overview": "SideFXがHoudini 22のスニークピーク動画を公開。Gaussian Splatのリグ・アニメーション対応や、Copernicus大幅強化など多数の新機能を予告。",
+      "detail": "Houdini 22の主な新機能：①Gaussian Splatsの生成（TOPs活用）・Karmaでのレンダリング・リライト・リグ・アニメーションが可能に（業界初）。②CopernicusにNeural Cellular Automata、UV Shape node等のパターン生成ツール追加。UE5との直接連携（HDA経由でCOPノードのパラメーター露出）。③KineFXにIK Limits・Set Driven Keys追加。Motion MixerにネストされたClipサポート。バイペッドリターゲティングレシピ追加。④Quad RemeshにRectangularメソッド追加。SOPでUSD構造をオーサリング可能に。統合Copernicus heightfieldツールセット。⑤Voronoi破砕の高速化。花火・魔法エフェクトのレシピ追加。SideFXキーノートは2026年6月22日配信予定。リリースは約1ヶ月後見込み。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/sneak-peek-houdini-22/",
+        "YouTube": "https://www.youtube.com/watch?v=lFG1FIXBprc",
+        "SideFX Forum": "https://www.sidefx.com/forum/topic/103945/"
+      }
+    },
+    {
+      "name": "State of Unreal 2026 - Unreal Fest Chicago 6/17ライブ配信確定",
+      "level": "7",
+      "overview": "Unreal Fest Chicago（6/16〜18）にてState of Unrealの生配信が6/17 PT 7AMに確定。最新UE技術情報・ロードマップを発表予定。",
+      "detail": "State of Unreal 2026はUnreal Fest Chicago（マコーミックプレイス）にて開催。配信時刻：PT 7AM / ET 10AM / JST 6/17 23:00。Epic開発ツール・サービスの最新情報、インスパイアリングなパートナープロジェクト、2026年以降の計画を発表予定。大規模なライブデモではなく、「実際に使えるツールとワークフロー」に焦点を当てたリアルな対話形式の内容になるとのこと。YouTubeでライブ視聴可能。",
+      "links": {
+        "State of Unreal": "https://www.unrealengine.com/events/unreal-fest-chicago-2026-state-of-unreal",
+        "Epic Forums": "https://forums.unrealengine.com/t/get-ready-for-the-state-of-unreal-live-from-unreal-fest-chicago/2724723",
+        "gamemakers.jp": "https://gamemakers.jp/article/2026_05_29_138680/"
+      }
+    },
+    {
+      "name": "PC Gaming Show 2026開催 - 50以上のPC向けゲーム発表",
+      "level": "5",
+      "overview": "PC Gaming Show 2026が6月8日開催。50以上のPCゲームのトレーラー・新情報を公開。レイトレーシング・高品質グラフィックス技術を採用タイトルが多数。",
+      "detail": "PC Gaming Show 2026が6月8日に配信。50以上のPC向けゲームのワールドプレミア・独占発表・開発者インタビューが行われた。グラフィックス技術面では、リアルタイムレイトレーシング・高度なアップスケーリング技術・改善されたグローバルイルミネーションを採用したタイトルが多数披露された。PC Gaming Show 2026はSummer Game Fest関連イベントとして位置付けられており、ハードウェアへの要求が幅広いプレイヤー層に向けた技術スケーラビリティも注目点。",
+      "links": {
+        "Game8": "https://game8.co/articles/latest/pc-gaming-show-2026-everything-announced",
+        "TechRaptor": "https://techraptor.net/gaming/news/everything-announced-at-pc-gaming-show-2026"
+      }
+    }
+  ]
+}
