@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "name": "3D生成AI「Rodin Gen-2.5」リリース - 最大1,000万ポリゴン生成・LLM的思考プロセス搭載",
+      "level": "8",
+      "overview": "Deemos社がRodin Gen-2.5をリリース。1,000万ポリゴン生成・4秒で100万ポリゴン・LLM的思考プロセス・12Kテクスチャ・主要DCC連携対応。",
+      "detail": "3DモデルAI生成サービスHyper3D（Rodin）バージョン2.5がリリース。世界初の1,000万ポリゴン規模3D生成を実現し、4秒で100万ポリゴンを生成可能。LLM的な適応型思考プロセスを採用し、3Dネイティブテクスチャやビジネスプランへのベータとして12Kテクスチャ生成に対応。ZBrush/Blender/UE/Unity/C4D/Maya/Omniverse/3ds Maxなど主要DCCツールへの直接エクスポート（DCC Bridge）機能も搭載。初月2.99ドルのライト版サブスクで利用可能。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202606-RodinGen-2.5.html",
+        "Hyper3D公式": "https://hyper3d.ai/"
+      }
+    },
+    {
+      "name": "3DGS Render 5.0 - BlenderでGaussian Splatのアニメーション転送が可能に",
+      "level": "7",
+      "overview": "Kiri InnovationsのフリーBlenderアドオン5.0。リグ付きキャラなどプロキシメッシュからGaussian Splatへのアニメーション転送機能を追加。",
+      "detail": "Kiri Innovationsが3DGS Render 5.0を公開。最大の追加機能は、プロキシメッシュ（リグ付き3Dキャラクターを含む）からGaussian Splatスキャンへのアニメーション転送。ゲームや映像制作でのGaussian Splat活用の幅が大幅に拡大するアドオン更新。Blenderユーザー向けに無料で提供。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/3dgs-render-5-0-lets-you-animate-gaussian-splats-inside-blender/"
+      }
+    },
+    {
+      "name": "SideFX、HoudiniのSolaris＋RenderMan次世代USDワークフロー解説動画公開",
+      "level": "6",
+      "overview": "FMX HIVE 2026でLeif Pedersenらが講演。SolarisとRenderManを組み合わせた次世代USDプロダクションワークフローを詳解した動画が公開。",
+      "detail": "SideFXがFMX HIVE 2026でのLeif Pedersenらによる講演動画を公開。HoudiniのSolarisとPixar RenderManを組み合わせたUSDベースの次世代プロダクションパイプラインを解説。映像・ゲーム制作でのUSD標準化を推進するワークフロー事例として参考になる内容。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202606-Houdini-USD.html"
+      }
+    },
+    {
+      "name": "CEDEC2026 開催決定 - 7/22〜24パシフィコ横浜ノース、テーマ「Co-Create」",
+      "level": "5",
+      "overview": "国内最大規模のゲーム開発カンファレンスCEDEC2026が7/22〜24に開催。テーマ「共創」のもと140以上の講演でバンナム内製エンジン等を発表予定。",
+      "detail": "CESA主催CEDEC2026が7月22〜24日にパシフィコ横浜ノースにてオンラインハイブリッド開催。テーマは「Co-Create（共創）」。『ドンキーコング バナンザ』技術解説、バンダイナムコ内製ゲームエンジン「SOL-AVES」の講演、AIを用いたQA自動化など140以上の講演が予定。受講パスは6月頭より販売開始（6月末早期割引期限）。",
+      "links": {
+        "CEDEC2026公式": "https://cedec.cesa.or.jp/2026/",
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_06_01_138818/"
+      }
+    },
+    {
+      "name": "アニメ『ワンダンス』でのMarvelous Designer活用ワークフロー事例公開",
+      "level": "4",
+      "overview": "アニメ『ワンダンス』の膨大な衣装制作とダンス表現を支えたMarvelous Designerの活用事例とワークフローが公開された。",
+      "detail": "多数のダンス衣装とリアルなダンス表現を実現するため、アニメ制作現場でMarvelous Designerを活用した事例が公開。衣装制作の効率化と高品質な表現の両立を実現した具体的なワークフローを解説。アニメ制作でのMarvelous Designer導入を検討するスタジオへの参考事例となる。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/2606-03-md.html"
+      }
+    }
+  ]
+}
