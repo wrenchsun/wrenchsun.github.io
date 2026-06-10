@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "name": "Cinema 4D 2026.3 リリース - UV Editor全面刷新・Clonerに新分布タイプ追加",
+      "level": "8",
+      "overview": "MaxonがC4D 2026.3をリリース。UV Editorを3Dビューポート技術で全面刷新し、UDIM・スマートオートアンラップ・テクセル密度ツール等を搭載。",
+      "detail": "Cinema 4D 2026.3が2026年6月10日にリリース。旧BodyPaint依存システムを廃し、主3Dビューポートと同じ技術で完全再設計したUV Editorを導入。シームライン編集・ゼロオーバーラップパッキング・UDIM対応・3Dビューポートツール統合を実現。ClonerにはクローンをサーフェスUVに沿って分布させる「UV Projection」、フェイスの輪郭に沿う「Rivet」、エッジに沿う「Edge」の3分布タイプを追加。パーティクル向けにParticle Property Managerも新設。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/maxon-releases-cinema-4d-2026-3/",
+        "Maxon公式リリースノート": "https://support.maxon.net/hc/en-us/articles/8658038724124-Cinema-4D-2026-3-0-June-10-2026"
+      }
+    },
+    {
+      "name": "NeXus for Blender 無料ベータ公開 - C4D版超えのGPUパーティクル/流体シミュレーター",
+      "level": "7",
+      "overview": "INSYDIUMのGPUパーティクル・流体シミュレーターNeXusがBlender対応。VulkanベースでC4D版より高速、AMD/Apple/Intel/NVIDIA GPU対応、無料ベータ公開。",
+      "detail": "INSYDIUMがNeXus for Blenderのパブリックベータを公開。Insydiumアカウント登録で無料利用可能。パーティクル・顆粒流体・液体・気体流体シミュレーションをサポートし、VulkanベースなのでAMD/Apple/Intel/NVIDIAいずれのGPUにも対応。C4D版より多くの処理をGPU上で完結させることでオーバーヘッドを削減、スケーリングも向上。64ビットVRAMアドレッシングにより大規模シミュレーションも可能。最小要件はBlender 4.3以降、VRAM 4GB以上。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/sneak-peek-nexus-for-blender/",
+        "80.lv": "https://80.lv/articles/insydium-released-nexus-for-blender-beta"
+      }
+    },
+    {
+      "name": "Reallusion 2026 Hybrid AI ビジョン - AccuFACE 2・CC Wrap・RTX Render統合発表",
+      "level": "7",
+      "overview": "Reallusionが2026年のHybrid AIビジョンを発表。AccuFACE 2でUE5 MetaHuman対応フェイシャルMoCap、CC WrapでAI位相変換、RTX Renderでリアルタイムレイトレを実現予定。",
+      "detail": "magazine.reallusion.comにてReallusion 2026 Hybrid AIビジョンが公開。AccuFACE 2はiClone 8向けフェイシャルモーキャプ/リップシンクプラグインで、UE5 MetaHumanとの互換性を実現。CC Wrap（Character Creator Wrap）はAIによるトポロジー再構成ツールで、MeshyなどAI生成モデルをアニメーション対応キャラに変換。RTX RenderはiClone 8内でNVIDIAレイトレーシング技術を活用したビューポートレンダリングを提供予定。3D制作パイプラインの根本的変革を目指す。",
+      "links": {
+        "Reallusion Magazine": "https://magazine.reallusion.com/2026/06/01/neri-neto-explores-reallusions-hybrid-ai-2026-vision/"
+      }
+    },
+    {
+      "name": "3DCoat 2026 正式リリース - GPUノードベース非破壊テクスチャリングシステム",
+      "level": "7",
+      "overview": "PilgwayがGPUノードシステム搭載の3DCoat 2026を正式リリース。NGL言語でGPUシェーダーを生成し、手続き的スマートマテリアル・マスクを非破壊で作成可能。",
+      "detail": "3DCoat 2026がPilgwayより正式リリース。最大の新機能はGPU駆動のノードベーステクスチャリングシステム。独自のGLSLベース言語NGL（NodeGraph Language）でノードグラフをGPUシェーダーにコンパイル。UV・非破壊方式で手続き的スマートマテリアル・スマートマスク・デフォーマー・ポストプロセスフィルター・ボリュームテクスチャを生成。錆の強度・ベースカラー・光沢・傷などのパラメータが常にリアルタイムで編集可能。3DCoatTextura 2026も同時リリース。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/",
+        "Digital Production": "https://digitalproduction.com/2026/06/08/3dcoat-2026-gets-gpu-nodes/"
+      }
+    },
+    {
+      "name": "Nevercenter Silo 2026.1 - ビューポート100倍高速化・glTF/GLB対応追加",
+      "level": "6",
+      "overview": "軽量3DモデリングツールSilo 2026.1がリリース。ビューポートを最大100倍高速化し、数百万ポリゴンも滑らか表示。glTF/GLBサポートとTri-to-Quad変換ツールも追加。",
+      "detail": "NevercenterがSilo 2026.1を公開。最大の更新はビューポートレンダリングの根本的最適化で、比較的低スペックなハードウェアでも数百万ポリゴンを滑らかに操作可能になった。またglTF（テキストベース）とGLB（バイナリ）の両フォーマットに対応し、リアルタイムエンジン・Webレンダリング・ゲーム開発パイプライン・アセットマーケットプレイスとの相互運用性が向上。さらにTri-to-Quadツールにより三角形メッシュから四角形ベースのトポロジーに再構成することが可能になった。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/nevercenter-releases-silo-2026/"
+      }
+    },
+    {
+      "name": "Mush3D 3.0 リリース - 四面体変形ソルバーとPose Trainerを追加",
+      "level": "5",
+      "overview": "Luiz EliasがMush3D 3.0を公開。ソフトティッシュ動作を再現する四面体変形ソルバーと、カスタムリファレンスポーズで補正シェイプを学習するPose Trainer機能を追加。",
+      "detail": "Mush3D（旧Shot Sculpt）3.0が公開。GPU処理で他DCCソフトからAlembic形式でインポートしたジオメトリキャッシュを編集するツール。新機能の四面体変形ソルバーはソフトティッシュ（筋肉・脂肪など）の動きを物理的にシミュレート。Pose Trainerはカスタムリファレンスポーズのセットに対して補正シェイプを学習・適用する機能。映像制作のキャラクターアニメーション補正ワークフローを強化する。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/luiz-elias-releases-mush3d-3-0/"
+      }
+    }
+  ]
+}
