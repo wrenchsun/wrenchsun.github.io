@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "name": "Arm Neural Technology「Neural Dawn」発表 - 世界初モバイルでUE MegaLights×AIニューラルGPU実装",
+      "level": "9",
+      "overview": "Sumo DigitalとArmがモバイルゲーム「Neural Dawn」を発表。世界初のUE MegaLights搭載モバイルゲームで、Arm Neural TechnologyによりモバイルでPC品質グラフィックスを実現。",
+      "detail": "Neural DawnはAndroid向けUE5.6.1ベースで開発されたモバイルゲームデモ。17人のチームが18ヶ月で製作。Arm Neural TechnologyはGPUに専用AIニューラルアクセラレーターを統合し、モバイルデバイスでリアルタイムレイトレーシング、MegaLights、高品質フレーム生成を実現する。ゲームは120分のプレイ時間・4レベルを持ち、2026年後半に次世代Arm Mali GPU搭載Android端末向けにリリース予定。ArmはSIGGRAPH 2026でも関連技術を発表予定。",
+      "links": {
+        "Game Developer": "https://www.gamedeveloper.com/production/sumo-digital-partners-with-arm-to-test-ai-powered-neural-graphics-tech",
+        "Arm Newsroom": "https://newsroom.arm.com/news/announcing-neural-dawn"
+      }
+    },
+    {
+      "name": "Moonlake AI 3D Agent ベータ公開 - BlenderをAIが自律操作し3Dシーンを自動構築",
+      "level": "8",
+      "overview": "MoonlakeがBlenderをマウス・キーボードで操作するAIエージェントのベータを正式公開。1万人超のウェイトリストからゲーム開発者向けにアクセス開始。ゲーム制作100倍高速化を目標。",
+      "detail": "Moonlake AIの3D Agentは1枚の画像から数百オブジェクトを含む大規模シーンを自律的に構築するAIエージェント。長期反復プロセスで視覚品質・参照一貫性・構造的正確性を継続改善する。Microsoft、NVIDIA、Sony、Google、EAの開発者も含む1万人超のウェイトリスト後にベータアクセスを開始。アーティキュレートアセットや大規模編集可能シーンを単一画像から生成可能。",
+      "links": {
+        "Moonlake AI Blog": "https://moonlakeai.com/blog/3d-agent",
+        "Enterprise AI World": "https://www.enterpriseaiworld.com/Articles/News/News/Moonlake-AI-Launches-Open-Beta-for-Its-World-Modeling-Agent-173532.aspx"
+      }
+    },
+    {
+      "name": "SIGGRAPH 2026 開催告知 - 7月19-23日LAでAI×ニューラルグラフィックス最新研究が集結",
+      "level": "7",
+      "overview": "SIGGRAPH 2026が7月19-23日ロサンゼルス開催。ArmのニューラルグラフィックスやReal-Time Live!（7/21）など最新リアルタイムCG技術が集結予定。",
+      "detail": "ACM SIGGRAPH年次カンファレンスが2026年はロサンゼルスコンベンションセンターで開催。2026年はAIと3Dグラフィックスの融合が中心テーマ。ArmはモバイルにおけるNeural Graphicsの実装についてセッションを予定。Real-Time Live!は7月21日夜に実施。フルスケジュールは公式サイトで公開中。",
+      "links": {
+        "SIGGRAPH 2026": "https://s2026.siggraph.org/",
+        "Arm x SIGGRAPH Blog": "https://blog.siggraph.org/2026/06/how-arm-is-bringing-neural-graphics-to-mobile-at-siggraph-2026.html/"
+      }
+    },
+    {
+      "name": "Caddis モーショングラフィックスツール正式リリース - レイヤーごとにノードグラフを持つAE代替ツール",
+      "level": "7",
+      "overview": "AEスタイルのタイムラインにレイヤーごとのノードグラフを組み合わせた新ツール「Caddis」が正式リリース。GPU高速化・100以上のノードを搭載、$129買い切り。",
+      "detail": "CaddisはモーションデザイナーMike Gaynorが独自開発したGPUアクセラレーテッドモーショングラフィックスツール。AEライクなタイムライン操作とノードグラフ編集を統合し、レイヤー選択でそのレイヤーのノードグラフが展開される独自UIを採用。100以上のノードを搭載し、H.264/ProRes/PNG/EXRエクスポート対応。macOS 12.0以上対応、Windows版は近日公開。ローンチ価格$99（定価$129）の買い切りモデル。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/05/new-motion-graphics-tool-caddis-puts-a-node-graph-in-every-layer/",
+        "Caddis公式": "https://www.caddis.app/"
+      }
+    },
+    {
+      "name": "LightWave 2026 リリース - Advanced Placement物理配置・THORライトニング・Snow Falling 3D追加",
+      "level": "6",
+      "overview": "LightWave 2026がリリース。物理エンジンで自然なオブジェクト配置を実現するAdvanced PlacementとTHORライトニングジェネレーターを含む大型VFXアップデート。",
+      "detail": "Advanced Placementはシーン内でオブジェクトをリアルタイム散布・配置し、物理シミュレーションで落下・跳ね・転がりを自然表現するツール。THORは2オブジェクト間に手続き的3Dライトニングを生成するプラグインで、個別ボルト・分岐型・再帰分岐の3タイプをサポート。Snow Falling 3Dでリアルタイムの雪・雨エフェクトも追加。Fracture Toolによるメッシュ破壊も搭載。",
+      "links": {
+        "80.lv": "https://80.lv/articles/lightwave-digital-teases-lightwave-3d-2026-update",
+        "CG Channel": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/"
+      }
+    },
+    {
+      "name": "ロケハン3D サービス開始 - 3DGS活用のVFX向けChrome上デジタルツインサービス",
+      "level": "6",
+      "overview": "Chromeブラウザで動作する実写・VFX向けデジタルツインサービス「ロケハン3D」が提供開始。3D Gaussian Splattingを活用しオフライン動作・スマホ対応。",
+      "detail": "ロケハン3Dは3DGSデータをChrome上でリアルタイム表示し、バーチャルカメラでセンサーサイズ・焦点距離・アスペクト比・ホワイトバランス等のレンズシミュレーションが可能。確認した構図はメタデータ付きFull HD JPEGで出力。取得した3DGSデータはUE5・Blender・Maya・Houdini・AfterEffects・Nukeと連携可能で実世界スケール・センチメートル精度を保持。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202605-locahun3d.html"
+      }
+    }
+  ]
+}
