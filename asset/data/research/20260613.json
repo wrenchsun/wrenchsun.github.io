@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "name": "Unreal Fest Chicago 2026 開催間近 - 6/17「State of Unreal」でUE最新発表へ",
+      "level": "8",
+      "overview": "Epic主催の開発者会議が6/16〜18シカゴで開催。6/17のState of UnrealでUE最新情報発表予定。チケットは完売。",
+      "detail": "マコーミックプレイスで開催されるUnreal Fest Chicago 2026のセッションアジェンダが公開された。講演・デモ・ラボに加えExpoフロアも展開。6/17午前9時(CT)からのState of Unreal基調講演が予定されており、5月にプレビュー版が公開されたUnreal Engine 5.8の正式リリース発表が期待されている。5.8ではMesh Terrain(実験的機能)やPCGの手動編集対応、Procedural Vegetation Editorの改良などが含まれる見込み。",
+      "links": {
+        "Unreal Engine公式": "https://www.unrealengine.com/events/unreal-fest-chicago-2026",
+        "80 Level (UE5.8 Preview)": "https://80.lv/articles/unreal-engine-5-8-preview-has-arrived"
+      }
+    },
+    {
+      "name": "Boris FX「Mocha Pro 2026.5」リリース - AIポイントトラッキング「Point Track ML」搭載",
+      "level": "7",
+      "overview": "プラナートラッキングソフトの新版。AIのPoint Track MLで遮蔽や影により困難だったショットの追跡が可能に。",
+      "detail": "6/12リリース。新搭載のPoint Track MLは機械学習ベースのポイントトラッキングで、他オブジェクトによるオクルージョンや影で不明瞭なサーフェスでも高精度な追跡結果を生成する。既存のAIマットツール群も精度が向上し、マルチレイヤーEXRなどマット書き出しオプションが拡充。レンダリング済みシェイプのRGBA書き出しなどスタジオワークフロー向けエクスポートも強化された。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/boris-fx-releases-mocha-pro-2026-5/",
+        "Boris FX プレスリリース": "https://blog.borisfx.com/press/boris-fx-mocha-pro-adds-powerful-new-ai-roto-matte-and-3d-solve-refinement-tools"
+      }
+    },
+    {
+      "name": "DirectX「Advanced Shader Delivery」一般提供開始 - AMDが全RDNA世代に対応拡大",
+      "level": "7",
+      "overview": "シェーダー事前配信技術ASDがXbox PCアプリで一般提供に。AMDはRDNA全アーキテクチャへ対応を拡大。",
+      "detail": "6/11付の発表で、ゲーム起動時のシェーダーコンパイルによるスタッターを解消するAdvanced Shader DeliveryがXbox Insiderプレビューを終えXbox PCアプリで一般提供となった。AMDはASD対応を全RDNAアーキテクチャGPUへ拡大。またGDCで発表されたPartial Graphics Programs機能がAgility SDK 1.721-previewで利用可能になっている。",
+      "links": {
+        "DirectX Developer Blog": "https://devblogs.microsoft.com/directx/"
+      }
+    },
+    {
+      "name": "ポーランド・ルブリン市街の3DGSキャプチャをブラウザで公開 - 2.5億スプラットをストリーミング",
+      "level": "6",
+      "overview": "250Mガウシアンスプラット・6GBの市街地スキャンをHoudiniで処理しブラウザ上でストリーミング表示するデモ。",
+      "detail": "6/12に80 Levelで紹介。ルブリン旧市街をドローン・地上撮影から3D Gaussian Splattingで再構築し、約2億5,000万スプラット(6GB)のデータをオンデマンドストリーミングでWebブラウザ上にインタラクティブ表示する。大規模3DGSデータの配信手法として、都市スケールのデジタルツインやロケハン用途への応用が注目される。",
+      "links": {
+        "80 Level": "https://80.lv/articles/browser-ready-3dgs-reconstruction-of-downtown-lublin-poland"
+      }
+    },
+    {
+      "name": "SideFX『プレデター：バッドランド』HoudiniによるVFXメイキング動画公開",
+      "level": "6",
+      "overview": "FMX HIVE 2026でのThe Yard VFX講演を収録。映画のVFX制作におけるHoudini活用事例を解説する映像資料。",
+      "detail": "6/13にCGWORLDが報じた。SideFXが公開したのはFMX HIVE 2026におけるThe Yard VFXの講演動画で、映画『プレデター：バッドランド』のVFXショットがHoudiniでどのように制作されたかを紹介。エフェクトやシミュレーションの実制作ワークフローを学べる内容となっている。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202606-Houdini-Predator.html"
+      }
+    },
+    {
+      "name": "デジタル・フロンティア「USDをワークフローに取り込んでみてわかったこと」note公開",
+      "level": "6",
+      "overview": "国内大手CGスタジオがUSDのデータ構造から導入時のワークフロー課題までを当事者視点で解説した記事を公開。",
+      "detail": "6/12付。デジタル・フロンティアがnoteで、OpenUSDを実制作パイプラインへ導入した際の知見を公開。USDのレイヤー構造・コンポジションの基礎から、既存ワークフローに組み込む際に直面した課題、運用上の工夫までを実務者視点でまとめており、USD導入を検討する国内スタジオに有用な一次情報となっている。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202606-DF-USD.html"
+      }
+    },
+    {
+      "name": "CGWORLD連載 TECH ROOM #11 -【TouchDesigner】手軽に始めるプロジェクションマッピング実践",
+      "level": "5",
+      "overview": "TouchDesignerとプロジェクタのみで小規模環境から始められるプロジェクションマッピング入門記事が公開。",
+      "detail": "6/12公開の連載第11回。TouchDesignerの無料版でも再現可能な内容で、テンプレートを活用した投影セットアップ、マッピング調整の基本手順をオフィス規模の環境で検証している。ノードベースのツールに不慣れな初心者でも導入しやすい構成。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/regular/202606-cgw332-tr11.html"
+      }
+    },
+    {
+      "name": "Autodesk Media & Entertainment Showreel 2026 公開",
+      "level": "4",
+      "overview": "Maya・3ds Max等が使用された映画・TV・ゲームの最新作品をまとめた公式ショーリール2026年版が公開された。",
+      "detail": "6/12にAREA JAPANで公開。Autodesk M&Eツール群(Maya、3ds Max、Flame、Arnold等)が制作に使用された最新の映像作品・ゲームタイトルを収録したショーリール2026年版。業界でのツール活用動向を俯瞰できる。",
+      "links": {
+        "AREA JAPAN": "https://area.autodesk.jp/information/showreel-2026/"
+      }
+    },
+    {
+      "name": "【講座】Chiharu氏『Kawaii！イラストルックな3Dアバターモデリング』8/8オンライン開催",
+      "level": "3",
+      "overview": "Blender Fes Extra新講座。イラストルックな3Dアバター制作を学ぶオンライン講座が8/8に開催決定。",
+      "detail": "6/12発表。CGWORLD ONLINE ACADEMYの「Blender Fes Extra」シリーズ新講座として、Chiharu氏によるイラストルックな3Dアバターモデリング講座が2026年8月8日(土)13:00〜16:30に開催される。講義210分、期間限定アーカイブ配信あり、価格9,000円(税抜)。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/chiharublender-fes-extrakawaii3d88.html"
+      }
+    },
+    {
+      "name": "StudioGOONEYS「AI時代に生き残るCGアニメーターの技術とは！？」セミナー 6/19開催",
+      "level": "3",
+      "overview": "AI時代のCGアニメーターに求められる技術をテーマにしたセミナーが6/19にクリ博ダイレクト主催で開催。",
+      "detail": "6/12告知。StudioGOONEYSが、生成AIの普及によって変化するアニメーション制作現場で、CGアニメーターが今後も価値を発揮するために必要なスキルセットを語るセミナー。クリ博ダイレクト主催で2026年6月19日(金)に開催される。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/02-2606-kurihaku-StudioGOONEYS.html"
+      }
+    }
+  ]
+}
