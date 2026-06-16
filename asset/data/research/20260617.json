@@ -11,6 +11,26 @@
       }
     },
     {
+      "name": "Unreal Engine 5.8 プレビュー - Mesh Terrain・Lumen 2倍高速・Megalights正式対応",
+      "level": "9",
+      "overview": "UE5.8でMesh Terrain・2倍高速Lumen（PS5で60fps目標）・本番対応Megalights・MetaHuman群衆ツール登場。",
+      "detail": "Unreal Fest Chicago 2026で公開されたUE 5.8の主要新機能：Mesh Terrain（ハイトマップではなく3Dメッシュベースの地形システムで洞窟・オーバーハング等の複雑地形を表現可能）、Lumenラジアンスキャッシュが2倍高速化しPS5で60fps達成目標、Megalightsが本番対応ステータスに昇格、MetaHumanを活用した群衆シミュレーションツール、スタイライズドレンダリングサポート、Flora制作のエンジン内完結化、オーディオ面の大型アップデートも含む。Preview版はEpic Games Launcher/GitHub/Linux経由で公開中。正式リリースはUnreal Fest Chicago（6/16〜18）期間中が有力。",
+      "links": {
+        "Unreal Engine 5.8 Previewed at Unreal Fest Chicago | TechTimes": "https://www.techtimes.com/articles/318511/20260616/unreal-engine-58-previewed-unreal-fest-chicago-mesh-terrain-faster-lumen-games-film.htm",
+        "Unreal Engine 5.8 Preview Forum": "https://forums.unrealengine.com/t/unreal-engine-5-8-preview/2721597"
+      }
+    },
+    {
+      "name": "NVIDIA Cosmos 3 - フィジカルAI向け世界初オープン型オムニモデル発表",
+      "level": "9",
+      "overview": "NVIDIAがフィジカルAI向け世界初オープン型オムニモデルCosmos 3を発表。映像・音声・行動を統合生成。",
+      "detail": "NVIDIAがCosmos 3を発表（CGWORLD.jp 6/16掲載）。Mixture-of-Transformersアーキテクチャを採用し、テキスト・画像・動画・環境音・アクション予測を単一モデルで処理する世界初のオープンオムニモデル。視覚推論・ワールド生成・行動予測を統合し、ロボット・自動運転・スマートスペース・産業用ビジョンAIの開発に対応。Physical AIのトレーニング・評価サイクルを数か月から数日に短縮。Agile Robots、Runway、Skild AIなど主要AIラボとのNVIDIA Cosmos Coalitionも同時発表。ゲーム・VFX向け世界モデルとしての応用も期待される。",
+      "links": {
+        "NVIDIA Cosmos 3発表 - NVIDIA Japan Blog": "https://blogs.nvidia.co.jp/blog/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai/",
+        "CGWORLD.jp掲載記事": "https://cgworld.jp/flashnews/01-202606-Cosmos3.html"
+      }
+    },
+    {
       "name": "DirectX Advanced Shader Delivery AMD全RDNAアーキテクチャに対応拡大",
       "level": "8",
       "overview": "MicrosoftのASDがAMD RDNA全世代（1〜4）に対応、XboxPCアプリで一般公開。ロード時間最大90%削減。",
@@ -18,6 +38,16 @@
       "links": {
         "Advanced Shader Delivery expands Public Preview with AMD": "https://devblogs.microsoft.com/directx/advanced-shader-delivery-expands-public-preview-with-amd/",
         "Advanced Shader Delivery: What's New at GDC 2026": "https://devblogs.microsoft.com/directx/advanced-shader-delivery-whats-new-at-gdc-2026/"
+      }
+    },
+    {
+      "name": "V-Ray for Blender Update 3 - Linux・AMD GPU対応追加",
+      "level": "7",
+      "overview": "V-Ray for Blender Update 3がLinux対応・AMD GPU対応を追加。Node WranglerやParallax Interiorも実装。",
+      "detail": "Chaos社がV-Ray for Blender Update 3（v7.30.20）をリリース（6/16）。主な新機能：Linux対応（Windows/macOS/Linuxの3プラットフォーム対応完成）、AMD GPU対応（NVIDIA・Apple Silicon・AMDの全主要GPUでGPUレンダリング可能に）、Parallax Interior（実際の内部ジオメトリなしで建物外壁に3D室内を疑似表現）、V-Ray Node Wrangler（Blender標準のNode Wranglerと同じキーボードショートカットでシェーダー操作）、ライトキャッシュデノイジング、.vrmeshエクスポートなど。無料コミュニティエディションもAMD GPU対応を享受可能。",
+      "links": {
+        "V-Ray for Blender Update 3 now runs on Linux | CG Channel": "https://www.cgchannel.com/2026/06/v-ray-for-blender-now-runs-on-linux/",
+        "Chaos公式ブログ": "https://blog.chaos.com/vray-for-blender-update-3"
       }
     },
     {
@@ -30,12 +60,21 @@
       }
     },
     {
+      "name": "SIGGRAPH 2026 - Autodesk出展決定（7/19〜23、ロサンゼルス）",
+      "level": "6",
+      "overview": "Autodesk at SIGGRAPH 2026が7/19〜23ロサンゼルスで開催決定。Maya/3ds Max/Arnoldなどの最新展示を予定。",
+      "detail": "SIGGRAPH 2026がロサンゼルス・コンベンションセンターで7月19日（日）〜23日（木）に開催。AutodeskはSIGGRAPH 2026への出展を発表（area.autodesk.jp 6/16掲載）。Maya 2027.1・3ds Max 2027.1・Arnold・Flow Production Tracking等の最新バージョンのデモ・セッションを予定。SIGGRAPH 2026は世界最大のコンピュータグラフィックス・インタラクティブ技術のカンファレンス。",
+      "links": {
+        "Autodesk at SIGGRAPH 2026 | AREA JAPAN": "https://area.autodesk.jp/event/siggraph-2026/"
+      }
+    },
+    {
       "name": "Gaea 2.3 リリース - マクロシステムと16Kベイキング対応",
       "level": "5",
       "overview": "地形生成ツールGaea 2.3がパワーユーザー向けマクロ自動化と16K解像度ベイキングを追加してリリース。",
       "detail": "QuadSpinner Gaea 2.3（6/16リリース）の新機能：マクロ・高度自動化システム（パワーユーザー向けワークフロー自動化）、エロージョン等各種シミュレーションの新アーティスティックツール、大規模ワールド向けRegionサポート強化、16Kベイキング対応で超高解像度地形出力が可能に。なおGaea 2.4およびGaea 3.0のリリース日程は変更されて後ろ倒しとなった。",
       "links": {
-        "Pilgway releases 3DCoat 2026 with new GPU texturing system - CG Channel (関連記事)": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/"
+        "QuadSpinner releases Gaea 2.3 | CG Channel": "https://www.cgchannel.com/2026/06/quadspinner-releases-gaea-2-3/"
       }
     },
     {
