@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "name": "State of Unreal 2026 開催 / Unreal Fest Chicago",
+      "level": "10",
+      "overview": "Epic GamesがシカゴでUnreal Fest開催、State of UnrealにてUEの最新ロードマップとツールを発表。",
+      "detail": "Unreal Fest Chicago 2026（6/16〜18）のメインイベントとして、State of UnrealがJune 17 UTC 14:00よりライブ配信。EpicはUEの開発ツール・ワークフローの最新情報、コミュニティプロジェクト紹介、2026年以降の革新ロードマップを発表予定。実践的なツール・ワークフロー中心の構成で、大規模テックデモよりも現場で使えるノウハウを重視。同日よりUEFNのLEGO Brick Editorも解禁。",
+      "links": {
+        "State of Unreal at Unreal Fest Chicago 2026": "https://www.unrealengine.com/events/unreal-fest-chicago-2026-state-of-unreal",
+        "Unreal Fest Chicago 2026": "https://www.unrealengine.com/events/unreal-fest-chicago-2026"
+      }
+    },
+    {
+      "name": "DirectX Advanced Shader Delivery AMD全RDNAアーキテクチャに対応拡大",
+      "level": "8",
+      "overview": "MicrosoftのASDがAMD RDNA全世代（1〜4）に対応、XboxPCアプリで一般公開。ロード時間最大90%削減。",
+      "detail": "Advanced Shader Delivery（ASD）がXbox InsiderからXbox PCアプリ一般公開に移行（6/11）。AMDはRDNA 1/2/3/3.5/4全アーキテクチャのdGPU・ノートPC内蔵GPUへの対応を発表。事前コンパイル済みシェーダーをゲームダウンロード時に配信することでゲームロード時間を最大90%短縮し、初回起動時のシェーダースタッターを排除。DirectX Agility SDKも更新、Xbox Partner Center経由でシェーダーデータのアップロードが開発者に開放された。",
+      "links": {
+        "Advanced Shader Delivery expands Public Preview with AMD": "https://devblogs.microsoft.com/directx/advanced-shader-delivery-expands-public-preview-with-amd/",
+        "Advanced Shader Delivery: What's New at GDC 2026": "https://devblogs.microsoft.com/directx/advanced-shader-delivery-whats-new-at-gdc-2026/"
+      }
+    },
+    {
+      "name": "LightWave 2026 正式リリース - 物理ベースレイアウト・乗り物リギング搭載",
+      "level": "6",
+      "overview": "LightWave Digitalが物理レイアウト・MotoRig・2D/3Dトラッキングを含む大型アップデートをリリース。",
+      "detail": "LightWave 2026（6/15リリース）の主要新機能：Advanced Placement（物理ベースのシーンレイアウト・セットドレッシングシステム）、MotoRig（乗り物リギング・アニメーション統合ツールキット）、フラクチャツール（破壊エフェクト）、照明・雪・雨専用プラグイン、完全新規2D/3Dトラッキングシステム、HDRI/IES/動画等多フォーマット対応の組み込みアセットブラウザを搭載。Vizrtからの買収後4度目のメジャーアップデート。",
+      "links": {
+        "LightWave Digital releases LightWave 2026 | CG Channel": "https://www.cgchannel.com/2026/06/lightwave-digital-releases-lightwave-2026/"
+      }
+    },
+    {
+      "name": "Gaea 2.3 リリース - マクロシステムと16Kベイキング対応",
+      "level": "5",
+      "overview": "地形生成ツールGaea 2.3がパワーユーザー向けマクロ自動化と16K解像度ベイキングを追加してリリース。",
+      "detail": "QuadSpinner Gaea 2.3（6/16リリース）の新機能：マクロ・高度自動化システム（パワーユーザー向けワークフロー自動化）、エロージョン等各種シミュレーションの新アーティスティックツール、大規模ワールド向けRegionサポート強化、16Kベイキング対応で超高解像度地形出力が可能に。なおGaea 2.4およびGaea 3.0のリリース日程は変更されて後ろ倒しとなった。",
+      "links": {
+        "Pilgway releases 3DCoat 2026 with new GPU texturing system - CG Channel (関連記事)": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/"
+      }
+    },
+    {
+      "name": "Epic Games、Unreal Engine本格学習コースを無料公開",
+      "level": "4",
+      "overview": "EpicがUE向け初心者チュートリアルからBlueprint/C++コース、移行手順まで網羅した学習コンテンツを無料提供。",
+      "detail": "Epic Gamesが公式の包括的学習コースを無料で公開（6/16）。初心者向けチュートリアル、Blueprint・C++解説コース、既存プロジェクトのUE移行手順コースなどを収録。日本語対応でゲームメーカーズが詳細を紹介。UEへの参入障壁を下げ開発者コミュニティ拡大を狙った施策。",
+      "links": {
+        "Epic Games UE学習コース（ゲームメーカーズ）": "https://gamemakers.jp/article/2026_06_16_139612/"
+      }
+    }
+  ]
+}
