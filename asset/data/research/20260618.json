@@ -1,0 +1,146 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 6 正式発表 - UE5とUEFNを統合した次世代エンジン",
+      "level": "10",
+      "overview": "Epic GamesがUE6を発表。UE5とUEFNを統合しVerse言語採用。2027年Early Access、2029年正式リリース予定。",
+      "detail": "State of Unreal 2026（6/17）にてEpic GamesがUnreal Engine 6を正式発表。UE5の高品質AAA開発機能とUEFN（Fortnite向けエディタ）のクリエイターエコシステムを一つのエンジンに統合。ゲームプレイプログラミングモデルをC++からVerse言語へ移行し、大規模でライブな体験を数千人のコントリビューターで構築可能にする。Scene Graphという新ゲームフレームワークを一から構築。プラットフォームをまたいだコンテンツ・コード・経済圏の相互運用もサポート。Early Accessは2027年末、正式リリースは2029年初頭を目標とする。",
+      "links": {
+        "Unreal Engine 公式": "https://www.unrealengine.com/news/state-of-unreal-2026-top-news-from-the-show",
+        "80.lv": "https://80.lv/articles/unreal-engine-6-will-combine-uefn-and-ue-into-a-unified-engine",
+        "Game Developer": "https://www.gamedeveloper.com/programming/unreal-engine-6-will-merge-ue5-and-uefn-into-a-single-unified-engine-"
+      }
+    },
+    {
+      "name": "Unreal Engine 5.8 リリース - Mesh Terrain・MegaLights正式版など大幅強化",
+      "level": "9",
+      "overview": "UE5.8がリリース。新Mesh Terrain、MetaHuman Collections、MegaLights正式版、Lumen Liteモードを搭載。",
+      "detail": "State of Unreal 2026に合わせてUnreal Engine 5.8が正式リリース。主要新機能は：(1) Mesh Terrain - 従来のハイトフィールドに代わる3Dメッシュベースの地形システム（洞窟・オーバーハングが自然に作成可能）。(2) MetaHuman Collections - 高品質キャラクターの大群衆生成、モバイルで数百人・高性能PCで数千人の配置が可能。(3) MegaLights正式版 - 大量の動的ライトを高品質に描画、現行世代コンソールで60fps達成が容易に。(4) Lumen Lite - GPU使用量を大幅削減しながら同等の映像品質を提供。(5) Procedural Vegetation Editor - PCGが生成コンテンツへの直接手動編集をサポート。",
+      "links": {
+        "80.lv": "https://80.lv/articles/unreal-engine-5-8-is-out-today-with-big-optimization-improvements-and-mesh-terrain",
+        "CG Channel": "https://www.cgchannel.com/2026/06/see-5-key-features-for-cg-artists-in-unreal-engine-5-8/"
+      }
+    },
+    {
+      "name": "Epic Games、オープンソースVCS「Lore」を発表",
+      "level": "8",
+      "overview": "Epicがゲーム開発向け次世代バージョン管理システム「Lore」をオープンソース化。Rust製・MIT License。",
+      "detail": "Epic GamesがState of Unreal 2026にて、次世代バージョン管理システム「Lore」をオープンソースとして公開（MIT License）。元々「Unreal Revision Control」としてFortnite開発に内部利用されてきたもの。Rust言語で実装され、ゲーム・エンタメ向けの大容量バイナリファイル対応を設計の核心に置く。フラグメントレベルの重複排除、スパースなレイジーワーキングコピー、無料のブランチング、完全オープンなプロトコル仕様などを特徴とする。GitHubでソースコード・データフォーマット・プロトコルドキュメントを公開済み。",
+      "links": {
+        "GitHub": "https://github.com/EpicGames/lore",
+        "Phoronix": "https://www.phoronix.com/news/Epic-Games-Lore-VCS"
+      }
+    },
+    {
+      "name": "Unity 6.5 リリース - RenderSprite API追加・Built-In RP非推奨化",
+      "level": "7",
+      "overview": "Unity 6.5がリリース。新2D描画API「RenderSprite API」追加、Built-In Render Pipelineが公式非推奨化。",
+      "detail": "Unity 6.5（Supported release）が6/16-17にリリース。主な変更点：(1) 2D新APIとして「RenderSprite API」が追加され2D描画・物理・パフォーマンスが改善。(2) Built-In Render Pipelineが正式に非推奨（deprecated）となり、URPへの移行を推奨。(3) CoreCLR移行の継続的改善。(4) Shader Subgraph改善、Shader Function Reflection API追加、Expression Node追加。(5) 実験的機能として「Stateful Cloud Code」が追加（専用サーバーなしでマルチプレイヤー状態維持が可能）。(6) Apple Swift Project Typeサポートなどプラットフォーム強化。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_06_17_139668/",
+        "Unity Discussions": "https://discussions.unity.com/t/unity-6-5-is-now-available/1723176"
+      }
+    },
+    {
+      "name": "Blender 5.2 LTS Beta 公開 - ノードベース物理・オンラインアセットライブラリ",
+      "level": "7",
+      "overview": "Blender 5.2 LTS Betaが公開。Fill Tool、ノードベース物理シミュレーション、オンラインアセットライブラリ対応。7/14正式リリース予定。",
+      "detail": "Blender 5.2 LTS（Long Term Support）がBeta段階に移行。主要新機能：(1) 新Fill Toolとノードベース物理シミュレーション（Hair/Cloth dynamics）をGeometry Nodesで実装。(2) Cyclesテクスチャキャッシュによりテクスチャ多用シーンのメモリ使用量と起動時間を削減。(3) EEVEEがWorkbenchと同等のインスタンシング最適化を取得、インスタンス多用シーンで最大2倍高速化。(4) Principled BSDFにThin Wallモード追加（葉・紙など薄いメッシュのフォトリアル描画）。(5) リモートホスト型アセットライブラリに対応、Blender内からブラウズ・オンデマンドダウンロードが可能。正式リリースは2026年7月14日予定。",
+      "links": {
+        "80.lv": "https://80.lv/articles/blender-5-2-lts-is-now-in-beta",
+        "Blender Developer Docs": "https://developer.blender.org/docs/release_notes/5.2/"
+      }
+    },
+    {
+      "name": "Houdini 22 スニークピーク公開 - 3D Gaussian Splats・Copernicus更新",
+      "level": "7",
+      "overview": "SideFXがHoudini 22のスニークピークを公開。3DGS対応、Copernicus更新、キャラクターアニメーション改善が明らかに。",
+      "detail": "SideFXがHoudini 22のスニークピーク動画を公開。主な新機能として：(1) 3D Gaussian Splatsの作成・ライティング・リギングツール一式を新搭載。(2) Copernicus（2D/3D画像処理フレームワーク）の大幅更新。(3) KineFXにIK Limits・Set Driven Keys追加、Motion MixerにNested Clips追加。(4) クォドリメッシュの改善、UIリフレッシュ、USDワークフロー改善。(5) シミュレーション・グルーミング・キャラクターアニメーション全般の強化。詳細発表は2026年6月22日のSideFX基調講演にて予定。リリース日は未発表（例年スニークピーク約1ヶ月後）。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/sneak-peek-houdini-22/",
+        "80.lv": "https://80.lv/articles/get-a-first-look-at-houdini-22"
+      }
+    },
+    {
+      "name": "Cinema 4D 2026.3 リリース - 新UV Editor・Cloner新配布タイプ",
+      "level": "6",
+      "overview": "Cinema 4D 2026.3がリリース。BodyPaint 3D由来の旧UV Editorを刷新、Cloner新配布タイプ3種追加。",
+      "detail": "Maxon Computer社が6/10にCinema 4D 2026.3をリリース。最大の新機能はUV Editorの完全刷新。旧BodyPaint 3D由来のEditorを置き換え、シームの手動編集・スマート自動アンラップ・ゼロオーバーラップパッキング・テクセル密度ツール・UDIM対応などプロ向け機能を一通り搭載。モーショングラフィクス向けにはClonerオブジェクトに3種の新配布タイプ（UV Projection・Rivet・Edge）を追加。パーティクルプロパティマネージャーも新設。技術面ではWindows ARM64サポートとXcode 26対応を追加。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/maxon-releases-cinema-4d-2026-3/"
+      }
+    },
+    {
+      "name": "LightWave 2026 リリース - 新物理シーンレイアウト・2D/3Dトラッキング",
+      "level": "6",
+      "overview": "LightWave 2026がリリース。物理ベースシーンレイアウト、車両リギング、完全新2D/3Dトラッキングシステムを搭載。",
+      "detail": "LightWave Digital社が6/15にLightWave 2026をリリース。VFX・モーショングラフィクス・ビジュアライゼーション向け3Dアニメーション・レンダリングソフトの次期メジャー版。主要新機能は(1) 新物理ベースシーンレイアウトシステム、(2) 車両リギングツールセット、(3) 完全新2Dおよび3Dトラッキングシステム。幅広い機能強化を含む大型アップデートとなっている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/lightwave-digital-releases-lightwave-2026/"
+      }
+    },
+    {
+      "name": "Reallusion 2026 Hybrid AIビジョン - RTX Render・Headshot 3・AI Studio",
+      "level": "5",
+      "overview": "ReallusionがHybrid AI統合の2026ビジョンを発表。RTX Render、Headshot 3、AI Studioで3Dプロダクションを刷新。",
+      "detail": "Reallusion MagazineがReallusionの2026年ビジョンを詳説。ハイブリッドAI統合を3Dプロダクションのコアとして位置付け、主要製品として(1) RTX Renderによるリアルタイムレイトレーシング強化、(2) Headshot 3（Character Creator 5向け）で精密なAI人物写真→3Dキャラクター生成、(3) AI Studioによる一貫したAIアクターを使ったストーリーテリング制作が披露されている。6/5公開のAI Studio Storytellersシリーズ第1回では、Character Creator・iClone・AI Studio・生成AIを組み合わせたSF映像制作事例を紹介。",
+      "links": {
+        "Reallusion Magazine": "https://magazine.reallusion.com/2026/06/01/neri-neto-explores-reallusions-hybrid-ai-2026-vision/"
+      }
+    },
+    {
+      "name": "Fusion Studio 21.0 リリース - モーショングラフィクス新ツール・USD更新",
+      "level": "5",
+      "overview": "Blackmagic DesignがFusion Studio 21.0をリリース。モーショングラフィクス新ツール、深度合成・USD更新、Cryptomatte対応。",
+      "detail": "Blackmagic Designが6/4にFusion Studio 21.0をリリース。VFX・モーショングラフィクス向け3Dコンポジットソフトの最新版。主な追加機能は(1) モーショングラフィクス向け新ツール群、(2) ディープコンポジティングとUSDツールセットの更新、(3) チェッカーボードレンズキャリブレーション、(4) 3DレンダラーへのCryptomatteサポート追加。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/blackmagic-design-releases-fusion-studio-21-0/"
+      }
+    },
+    {
+      "name": "3DCoat 2026 公開ベータ - GPUノードベーステクスチャリングシステム",
+      "level": "5",
+      "overview": "PilgwayがGPUアクセラレーションのノードベーステクスチャリングを搭載した3DCoat 2026の公開ベータを公開。",
+      "detail": "Pilgway社が3DCoat 2026（スカルプト・リトポロジー・3Dペイントソフト）の公開ベータを公開。最大の変更点はGPUアクセラレーション対応のノードベーステクスチャリングシステムの新設と、それを基盤とした新世代スマートマテリアル・マスクシステム。これにより複雑なテクスチャ制作ワークフローを大幅に改善。同時に3DCoatTextura 2026も公開。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/"
+      }
+    },
+    {
+      "name": "NeXus for Blender 無料ベータ公開 - GPUパーティクルシミュレーション",
+      "level": "5",
+      "overview": "Cinema 4D専用だったGPUベースパーティクルシミュレーション「NeXus」のBlender版ベータが無料公開。",
+      "detail": "Insydium社がNeXus for Blenderの無料公開ベータをリリース。NeXusは従来Cinema 4D専用のGPUベースパーティクルシミュレーションシステムで、今回初めてBlenderへ対応。これによりBlenderユーザーが同社の高性能GPU粒子シミュレーション機能を無料で試用できるようになった。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/sneak-peek-nexus-for-blender/"
+      }
+    },
+    {
+      "name": "Gaea 2.3 リリース - マクロシステム・16Kベイキング対応",
+      "level": "4",
+      "overview": "地形デザインツールGaea 2.3がリリース。ノードグラフをパッケージ化できるマクロシステムと16Kベイキングを追加。",
+      "detail": "QuadSpinner社が6/15にGaea 2.3をリリース。地形デザインツールの新版で主要追加機能は(1) マクロシステム：ノードグラフ全体を単一ノードにパッケージ化して他グラフで再利用が可能、(2) 16Kベイキングサポート、(3) その他バグ修正と安定性改善。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/quadspinner-releases-gaea-2-3/"
+      }
+    },
+    {
+      "name": "Epic Games、UE学習コースを無料公開",
+      "level": "4",
+      "overview": "Epic GamesがUnreal Engineの本格的な学習コースを無料公開。初心者チュートリアル、BP・C++解説、UE移行手順を含む。",
+      "detail": "Epic Gamesが公式のUnreal Engine学習コースを無料で公開。初心者向けチュートリアルから、Blueprint・C++を用いた開発解説コース、既存プロジェクトのUEへの移行手順コースまで含む本格的な内容。State of Unreal 2026開催に合わせて6/16に案内された。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_06_16_139612/"
+      }
+    },
+    {
+      "name": "MAXON PARTY '26 彩 開催",
+      "level": "4",
+      "overview": "6/18（木）にMaxonのユーザーイベント「MAXON PARTY '26 彩」が開催。Cinema 4D・Redshiftの最新情報が発表される。",
+      "detail": "Maxonが6/18（木）に「MAXON PARTY '26 彩」を開催。『超かぐや姫！』の千葉氏×桃原氏による対談など、Cinema 4DおよびRedshiftの最新活用事例・技術情報が多数セッションとして予定されている。参加無料のユーザーイベント。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/02-2606-maxonparty.html"
+      }
+    }
+  ]
+}
