@@ -4,7 +4,7 @@
       "name": "MetaHuman Animator マーカーレスモーションキャプチャ無料プラグイン公開",
       "level": "8",
       "overview": "Epic Gamesがスマホや通常カメラ映像からMetaHumanへフルボディ＆指モーションを転送できる無料プラグインを公開。",
-      "detail": "Epic GamesがMetaHuman Animator Markerless Motion Capture Pluginを無料公開。スマートフォンや通常のカメラで撮影した映像から全身および指の動きを抽出し、MetaHumanキャラクターにそのままモーションを転送できる。専用のマーカーや高価なモーションキャプチャ装置を必要とせず、誰でも手軽に高品質なキャラクターアニメーションを作成できる点が特徴。Unreal Engine 5.8と合わせて利用することで、ゲーム・映像制作のキャラクターアニメーションワークフローを大幅に簡略化できる。",
+      "detail": "Epic GamesがMetaHuman Animator Markerless Motion Capture Pluginを無料公開。スマートフォンや通常のカメラで撮影した映像から全身および指の動きを抽出し、MetaHumanキャラクターにそのままモーションを転送できる。専用マーカーや高価なモーションキャプチャ装置を必要とせず、誰でも手軽に高品質なキャラクターアニメーションを作成できる点が特徴。Unreal Engine 5.8と合わせて利用することでゲーム・映像制作のワークフローを大幅に簡略化できる。",
       "links": {
         "CG Channel": "https://www.cgchannel.com/2026/06/get-the-free-metahuman-animator-markerless-mocap-plugin/"
       }
@@ -12,7 +12,7 @@
     {
       "name": "Adobe Photoshop 27.8 リリース - OCIO 2.5対応・カスタムAIモデル利用可能に",
       "level": "6",
-      "overview": "Photoshop 27.8がOCIO 2.5をサポートし、Generate Image機能で自前のカスタムAIモデルを使えるようになった。",
+      "overview": "Photoshop 27.8がOCIO 2.5をサポートし、Generate Imageで自前のカスタムAIモデルを使えるようになった。",
       "detail": "Adobe Photoshop 27.8がリリースされた。主な新機能はOpenColorIO（OCIO）2.5へのサポートで、カラーマネジメントワークフローが強化される。もう一つの大きな追加機能はGenerate Image機能において、ユーザーが自分の画像でトレーニングしたカスタムAIモデルを利用できるようになったこと。これにより企業や個人がブランドやスタイルに一貫したAI生成コンテンツを作成しやすくなる。カラーパイプラインの精度向上と生成AIのカスタマイズ性向上が同時に実現した重要なアップデート。",
       "links": {
         "CG Channel": "https://www.cgchannel.com/2026/06/adobe-releases-photoshop-27-8/"
@@ -21,7 +21,7 @@
     {
       "name": "Adobe After Effects 26.3 リリース - Advanced 3DにDoF追加・Curl Noiseエフェクト実装",
       "level": "6",
-      "overview": "After Effects 26.3でAdvanced 3DレンダラーにDepth of Field追加、新エフェクト「Curl Noise」が実装された。",
+      "overview": "After Effects 26.3でAdvanced 3DレンダラーにDepth of Field追加、新エフェクトCurl Noiseが実装された。",
       "detail": "Adobe After Effects 26.3がリリースされた。コンポジット・モーショングラフィクスの主要アップデートとして、Advanced 3DレンダラーにDepth of Field（被写界深度）が追加され、より映画的なレンダリングが可能になった。また新たなCurl Noiseエフェクトが追加され、有機的なノイズパターンやモーションを手軽に生成できる。After Effectsの3D機能強化が続いており、従来の2Dコンポジット作業だけでなく3D演出においても活用の幅が広がっている。",
       "links": {
         "CG Channel": "https://www.cgchannel.com/2026/06/adobe-releases-after-effects-26-3/"
@@ -31,7 +31,7 @@
       "name": "スクウェア・エニックス - AIを現場で使われる技術へ変える実践事例",
       "level": "6",
       "overview": "スクウェア・エニックスのAI＆エンジン開発部門がフェイシャルリターゲットAIや生成AI活用ツールの実践事例を公開。",
-      "detail": "CGWORLD「クリエイターの学びの現場」第8回としてスクウェア・エニックス AI＆エンジン開発ディビジョン（AIE）の事例が紹介された。研究だけで終わらせず現場で実際に使われる技術へと落とし込む考え方が焦点。具体的にはフェイシャルリターゲットAIや生成AI活用ツールの開発事例が解説されており、ゲーム制作パイプラインへのAI統合のリアルな実態が明らかにされている。大手ゲームスタジオにおけるAI実用化の最前線を知る上で参考になる事例。",
+      "detail": "CGWORLD「クリエイターの学びの現場」第8回としてスクウェア・エニックス AI＆エンジン開発ディビジョン（AIE）の事例が紹介された。研究だけで終わらせず現場で実際に使われる技術へ落とし込む考え方が焦点。具体的にはフェイシャルリターゲットAIや生成AI活用ツールの開発事例が解説されており、ゲーム制作パイプラインへのAI統合のリアルな実態が明らかにされている。大手ゲームスタジオにおけるAI実用化の最前線を知る上で参考になる事例。",
       "links": {
         "CGWORLD": "https://cgworld.jp/regular/202606-manabi8-1.html"
       }
@@ -56,10 +56,10 @@
       }
     },
     {
-      "name": "ブラウザのみで3DGSを「歩ける世界に」- SplatStrollビューア技術解説",
+      "name": "ブラウザのみで3DGSを歩ける世界に - SplatStrollビューア技術解説",
       "level": "5",
       "overview": "スタジオダックビルがブラウザ完結型3D Gaussian Splattingビューア「SplatStroll」の技術詳細をMeetup資料として公開。",
-      "detail": "スタジオダックビルが3DGS Meetup vol.2で発表した資料「ブラウザだけで3DGSを"歩ける世界に"」を公開した。自社開発の3DGSビューアファミリー「SplatStrollファミリー」の技術的トピックが詳説されており、追加インストール不要でブラウザのみで3D Gaussian Splattingシーンを歩いて探索できるシステムを実現している。WebGLと3DGSを組み合わせることでブラウザ内でのリアルタイム3Dウォークスルーを可能にしており、建築・観光・教育分野への応用が期待される技術。",
+      "detail": "スタジオダックビルが3DGS Meetup vol.2で発表した資料「ブラウザだけで3DGSを歩ける世界に」を公開した。自社開発の3DGSビューアファミリー「SplatStrollファミリー」の技術的トピックが詳説されており、追加インストール不要でブラウザのみで3D Gaussian Splattingシーンを歩いて探索できるシステムを実現している。WebGLと3DGSを組み合わせることでブラウザ内でのリアルタイム3Dウォークスルーを可能にしており、建築・観光・教育分野への応用が期待される技術。",
       "links": {
         "CGWORLD": "https://cgworld.jp/flashnews/01-202606-3dgsmeetup.html"
       }
@@ -68,7 +68,7 @@
       "name": "Substance 3D Painter & Marmoset Toolbagを組み合わせたディスプレイスメントマップ構築解説",
       "level": "4",
       "overview": "Jared Chavez氏がSubstance 3D PainterとMarmoset Toolbagを組み合わせたディスプレイスメントマップ制作ワークフローの解説動画を公開。",
-      "detail": "3Dアーティストのジャレッド・チャベス（Jared Chavez）氏がSubstance 3D PainterとMarmoset Toolbagを連携させたディスプレイスメントマップの構築方法を解説する動画を公開した。2つのツールの組み合わせによって高品質なサーフェスディテールを効率的に制作するワークフローが紹介されている。テクスチャアーティストやサーフェスデザイナーにとって実践的なテクニックを学べるコンテンツとなっている。",
+      "detail": "3DアーティストのJared Chavez氏がSubstance 3D PainterとMarmoset Toolbagを連携させたディスプレイスメントマップの構築方法を解説する動画を公開した。2つのツールの組み合わせによって高品質なサーフェスディテールを効率的に制作するワークフローが紹介されている。テクスチャアーティストやサーフェスデザイナーにとって実践的なテクニックを学べるコンテンツとなっている。",
       "links": {
         "CGWORLD": "https://cgworld.jp/flashnews/jared-chavezsubstance-3d-paintermarmoset-toolbag.html"
       }
