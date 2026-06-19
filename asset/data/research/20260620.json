@@ -1,0 +1,91 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 6 発表・Lore バージョン管理システム オープンソース公開",
+      "level": "10",
+      "overview": "State of Unreal 2026でUE6が正式発表。UE5とUEFN統合し2027年末EA予定。VerseがメインのゲームAI開発言語に。VCS「Lore」もOSS公開。",
+      "detail": "Unreal Fest Chicago 2026のState of Unrealイベントで、Epic GamesはUnreal Engine 6を正式発表。UE5とUEFNを一つのツールに統合し、従来のゲーム開発とFortniteエコシステムへのシームレスなデプロイを実現する。Early Access版は2027年末を目標とし、商用安定版は2028年予定。Verseプログラミング言語がUE6のメインのゲームプレイ開発言語となり、C++は低レベル部分の基盤として残る。また、ソースコードとバイナリアセット両方に対応した次世代バージョン管理システム「Lore」がオープンソースとして無料公開された。AI支援開発ワークフローのためのMCP統合も特徴の一つ。",
+      "links": {
+        "Unreal Engine公式": "https://www.unrealengine.com/news/state-of-unreal-2026-top-news-from-the-show",
+        "GIGAZINE": "https://gigazine.net/gsc_news/en/20260618-unreal-engine-6-early-look/"
+      }
+    },
+    {
+      "name": "Unreal Engine 5.8 リリース - UE5最終バージョン・LLM MCP統合",
+      "level": "9",
+      "overview": "UE5の最終版UE5.8リリース。Mesh Terrain、MetaHuman大群衆、MegaLights正式版、LLM統合MCPプラグインなど搭載。次はUE6へ移行。",
+      "detail": "Unreal Engine 5.8がリリースされた。新機能の目玉は3DメッシュベースのMesh Terrain（実験的）とProcedural Vegetation Editor。MetaHuman Collectionsでハイエンドで数千体、モバイルで数百体のリアルな群衆生成が可能になった。MegaLightsが正式版となり60FPS動作を実現。実験的なLLM統合MCPプラグインにより、任意のLLMをエンジンやプロジェクトに接続しアセット生成・コード作成・テストを委譲できる。UE5.8はUE5の最後のバージョンとなる。",
+      "links": {
+        "Unreal Engine公式": "https://www.unrealengine.com/news/unreal-engine-5-8-is-now-available",
+        "CGChannel": "https://www.cgchannel.com/2026/06/see-5-key-features-for-cg-artists-in-unreal-engine-5-8/"
+      }
+    },
+    {
+      "name": "Houdini 22 スニークピーク - 3D Gaussian Splats対応・Copernicus刷新",
+      "level": "8",
+      "overview": "SideFXがHoudini 22のスニークピークを公開。3D Gaussian Splats対応、キャラアニメ・リギング強化、USD改善、Copernicus刷新が予告。6/22に詳細発表予定。",
+      "detail": "SideFXはHoudini 22のスニークピーク動画を公開した。主な新機能は3D Gaussian Splatsのトレーニング・ライティング・リギング・アニメーション対応、キャラクターアニメーション・リギング・リターゲット・グルーミングの強化、USD World BuildingとレンダリングのアップデートとCopernicusでのテクスチャ合成とVFX、クワッドリメッシュ改善、UIデザイン刷新など。2026年6月22日のSideFXキーノートで詳細が発表予定。近年のパターンではスニークピーク公開から1ヶ月程度でリリースされている。",
+      "links": {
+        "CGChannel": "https://www.cgchannel.com/2026/06/sneak-peek-houdini-22/",
+        "SideFX": "https://www.sidefx.com/community/houdini-22-sneak-peek/",
+        "80.lv": "https://80.lv/articles/get-a-first-look-at-houdini-22"
+      }
+    },
+    {
+      "name": "NeXus for Blender パブリックベータ無料公開 - Vulkan GPU パーティクルシミュレーション",
+      "level": "7",
+      "overview": "InsydiumがNeXus for Blenderのパブリックベータを無料公開。VulkanベースでAMD/Apple/Intel/NVIDIA全GPU対応。粒状・液体・気体流体シミュレーション搭載。",
+      "detail": "InsydiumはC4D専用だったGPUベースパーティクルシミュレーションNeXusのBlender版パブリックベータを無料公開した。VulkanベースのためAMD、Apple、Intel、NVIDIA全GPUに対応し、C4D版より高速。粒状流体・液体・気体流体シミュレーション等の全機能を搭載。Blender 4.3以上、Windows 8.1以上、macOS 13.0以上に対応し、Linux版は開発中。ベータライセンスはInsydiumサイトでの無料ユーザー登録で取得可能。正式版は永続ライセンスで£140程度を予定。",
+      "links": {
+        "CGChannel": "https://www.cgchannel.com/2026/06/sneak-peek-nexus-for-blender/",
+        "80.lv": "https://80.lv/articles/insydium-released-nexus-for-blender-beta"
+      }
+    },
+    {
+      "name": "SIGGRAPH 2026 コンピュータアニメーションフェスティバル ラインナップ発表",
+      "level": "6",
+      "overview": "SIGGRAPH 2026（7/19-23、ロサンゼルス）のコンピュータアニメーションフェスティバルとプロダクションセッションのラインナップが発表された。",
+      "detail": "SIGGRAPH 2026は2026年7月19日から23日にかけてロサンゼルスコンベンションセンターで開催される。コンピュータアニメーションフェスティバルはグローバルなストーリーテリングを祝い、ブロックバスター級のプロダクションセッションラインナップも発表されている。プロダクションセッションでは最新の映像制作技術の舞台裏が公開される予定。また、SIGGRAPH Asia 2026は12月1日から4日にかけてマレーシア・クアラルンプールで開催予定。",
+      "links": {
+        "SIGGRAPH 2026": "https://s2026.siggraph.org/",
+        "プレスリリース": "https://www.prnewswire.com/news-releases/siggraph-2026-computer-animation-festival-celebrates-global-storytelling-alongside-a-blockbuster-production-sessions-lineup-302805557.html"
+      }
+    },
+    {
+      "name": "Epic Games Store 2026年ロードマップ公開 - ランチャーV2で起動5倍高速化",
+      "level": "5",
+      "overview": "Epic GamesがEGSの2026年ロードマップ公開。ランチャーをゼロから再構築し起動速度5倍高速化。ユーザーレビュー・ストア刷新・クロスリージョンギフト等予定。",
+      "detail": "Epic GamesがUnreal FestでEpic Games Storeの2026年ロードマップを発表。最大の目玉はランチャーのゼロからの再構築で、V2はコールドスタートが平均5倍、システムトレイからの復元が6.5倍高速になる見込み。予定機能はストアフロントの再設計、Fortniteチャンク型インストール（ダウンロードサイズ削減）、サードパーティパッチノート対応、ユーザープロフィール/アバター、ユーザーレビュー、クロスリージョンギフティングなど。V2プライベートベータは近日開始予定。",
+      "links": {
+        "80.lv": "https://80.lv/articles/epic-s-roadmap-for-its-game-store-includes-overhauled-launcher"
+      }
+    },
+    {
+      "name": "Epic Games、UEFNクリエイターへの支払い累計10億ドル突破",
+      "level": "5",
+      "overview": "Epic GamesがUnreal Fest Chicagoで、UEFNを通じてインディークリエイターへの支払いが10億ドルを超えたと発表。",
+      "detail": "Epic GamesはUnreal Fest Chicago 2026において、Unreal Editor for Fortnite（UEFN）を通じてインディークリエイターやデベロッパーへの支払い累計が10億ドルを超えたことを発表した。UEFNはFortniteのゲームモードやコンテンツを誰でも制作・公開できるプラットフォームで、2026年・2027年を通じて30以上のコラボレーション企画も予定されている。",
+      "links": {
+        "80.lv": "https://80.lv/articles/epic-games-has-paid-out-over-usd1-billion-to-indie-creators-through-unreal-editor-for-fortnite"
+      }
+    },
+    {
+      "name": "CEDEC 2026 開催情報 - 2026年7月22-24日、パシフィコ横浜",
+      "level": "5",
+      "overview": "国内最大のゲーム開発者カンファレンスCEDEC 2026が7月22-24日、パシフィコ横浜ノースにて現地・オンラインハイブリッドで開催。テーマは「Co-Create」。",
+      "detail": "CEDEC 2026は2026年7月22日から24日の3日間、パシフィコ横浜ノースで現地とオンラインのハイブリッド形式で開催される。テーマは「Co-Create」。エンジニアリング、プロダクション、ビジュアルアーツ、ビジネス&プロデュース、サウンド、ゲームデザイン、学術研究の7分野で約200セッションが行われる。受講パスは6月より販売開始、早期割引は6月末まで。",
+      "links": {
+        "CEDEC 2026公式": "https://cedec.cesa.or.jp/2026/"
+      }
+    },
+    {
+      "name": "Maya 無料Pie Menuツール公開 - ショートカットをカーソル直下に配置",
+      "level": "4",
+      "overview": "3DアニメーターがMaya用無料ツール「Pie Menu」を公開。ツール・コマンドをマウスカーソル下に配置しワークフローを効率化。Windows/macOS/Linux対応。",
+      "detail": "3DキャラクターアニメーターのAbdelhalim abulmagdが、マウスカーソル下に他のツール、コマンド、ショートカットを配置できるMaya用無料ツール「Pie Menu」を公開した。ツールごとにカスタマイズして識別しやすくでき、ワークフローの効率化を実現する。Windows、macOS、Linuxに対応。アーティストのGumroadページから無料ダウンロード可能。",
+      "links": {
+        "80.lv": "https://80.lv/articles/this-maya-tool-allows-you-to-keep-what-you-need-under-your-mouse-cursor"
+      }
+    }
+  ]
+}
