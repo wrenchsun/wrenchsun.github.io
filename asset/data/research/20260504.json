@@ -109,4 +109,8 @@
       "detail": "30fps.netブログがBayer行列順を用いた革新的なディザリング手法を公開。オンラインk-meansカラー量子化中のピクセル訪問順をBayer行列に従って行うことで、自然にordered dither模様を生成できることを示す。最終的なEuclidean pixel mappingを省略すると、追加処理なしで可視的なディザパターンが現れる。ブロック順をBayer行列内でシャッフルすることで構造とランダム性が組み合わさり、純粋なラスタや乱数式より綺麗なディザリングを得られる。レトロゲーム・ピクセルアート系開発者に有用。",
       "links": {
         "30fps.net 記事": "https://30fps.net/pages/bayer-order-online-kmeans/",
-        "Jendrik Illner
+        "Jendrik Illner Weekly #438": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/"
+      }
+    }
+  ]
+}

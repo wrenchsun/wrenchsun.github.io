@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "name": "Redshift 2026.7 リリース - Redshift LiveにDoF追加・ヘックスタイリング強化",
+      "level": "6",
+      "overview": "MaxonのGPUレンダラーRedshift 2026.7リリース。ヘックスタイリングにランダムフリップと法線マップ回転対応、リアルタイムレンダラーRedshift LiveにDepth of Field機能が復活。RevitおよびArchiCAD向け統合も追加。",
+      "detail": "Redshift 2026.7では、前バージョンで導入されたヘックスタイリング機能が拡張され、タイルのランダムフリップと法線マップ回転がUV Context Projection経由で正しく動作するようになった。リアルタイムレンダラーのRedshift Liveは2026.4でRedshift RTを置き換えた新エンジンだが、一部機能が未実装だった。今回のアップデートでDepth of Fieldが復活。また建築ビジュアライゼーション向けにRevit向け正式版とArchiCAD向けベータ版の統合が追加され、AIベースのライブラリ検索や植栽アセットのインポート機能が含まれる。対応DCC: 3ds Max/C4D/Houdini/Katana/Maya/Vectorworks 2026.4+/ZBrush。サブスクリプション$49/月または$289/年。",
+      "links": {
+        "cgchannel": "https://www.cgchannel.com/2026/06/maxon-releases-redshift-2026-7/"
+      }
+    },
+    {
+      "name": "SCULPTORS DAY 2026 本日開催 - 造形技法と表現論オンラインセミナー",
+      "level": "4",
+      "overview": "3DCG造形技術に特化したオンラインセミナー「SCULPTORS DAY 2026」が本日（6/21）11:00〜18:30に開催。3ヶ月間のアーカイブ配信あり。受講価格16,500円（税込）。",
+      "detail": "CGWORLD主催の造形技術セミナー「SCULPTORS DAY 2026」が2026年6月21日（日）11:00〜18:30にオンライン開催。造形技法と表現論をテーマに複数のプロCGアーティストによるセッションが実施される。スカルプティングを中心とした3DCG技術の実践的な解説が予定されており、アーカイブ配信は3ヶ月間利用可能。",
+      "links": {
+        "cgworld": "https://cgworld.jp/special/sculptorsday/2026/"
+      }
+    },
+    {
+      "name": "SideFX Houdiniによる3DGSワールドビルディング解説動画 - FMX HIVE 2026講演",
+      "level": "5",
+      "overview": "SideFXがFMX HIVE 2026でのLebrov Motion Imageryによる講演動画を公開。HoudiniとGaussian Splatを活用したワールドビルディングのチュートリアルを解説。",
+      "detail": "SideFXはFMX HIVE 2026でLebrov Motion Imageryが行ったHoudiniを使った3D Gaussian Splats（3DGS）ワールドビルディングのワークフロー解説動画を公開。Houdiniの強力なプロシージャルパイプラインと3DGSのリアルタイムレンダリング技術を組み合わせた制作手法を紹介している。VFXや映像制作における次世代ワールドビルディングワークフローの事例として注目される内容。",
+      "links": {
+        "cgworld": "https://cgworld.jp/flashnews/01-202606-Houdini-3DGS.html"
+      }
+    },
+    {
+      "name": "Gaea 3.0 早期アクセス 2026年7月予定 - Gaea 2.4と並行開発中",
+      "level": "5",
+      "overview": "QuadSpinnerがGaea 3.0の早期アクセスを2026年7月に予定と発表。Gaea 2.3はマクロシステムと16Kベイキングを追加してリリース済み。Gaea 2.4と3.0は並行開発中。",
+      "detail": "Gaea 2.3が正式リリースされ、エンタープライズ向けに完全なノードグラフをシングルノードにパッケージ化して再利用できるマクロシステムと、16K（16384×16384px）ベイキング対応が追加された。またQuadSpinnerはGaea 3.0の開発スケジュールを更新し、早期アクセスを2026年7月、安定版を2026年9月に予定。Gaea 3.0は大規模ワールド開発向けの「Godモード」を含む次世代地形設計ツール。Gaea 2.3価格はIndieが$99、Professionalが$199、Enterpriseが$299、無料Community版あり。",
+      "links": {
+        "cgchannel": "https://www.cgchannel.com/2026/06/quadspinner-releases-gaea-2-3/",
+        "blog": "https://blog.quadspinner.com/gaea-2-3-now-available/"
+      }
+    },
+    {
+      "name": "LightWave 2026 正式リリース - 物理ベース配置・MotoRig・3Dカメラトラッカー搭載",
+      "level": "5",
+      "overview": "LightWave Digitalが3D/VFXソフトLightWave 2026を正式リリース。物理ベースシーンレイアウト（Advanced Placement）、車両リギング（MotoRig）、3Dカメラトラッカー、海洋スペクトルコントローラーなど大幅強化。",
+      "detail": "LightWave 2026は4回目の大型アップデートとして、物理ベースのシーンレイアウトシステムAdvanced Placementを導入（オブジェクトを重力下でリアルタイムに散布・配置可能）。MotoRigは車両リグを半自動生成するツールで4輪〜8輪まで対応。VFXではFractureツール（破壊シミュレーション）、THOR（プロシージャル雷エフェクト）、Snow Falling 3D（雪・雨エフェクト）を追加。3Dカメラトラッカー（COLMAPベース）と2DのMotion Pixel Trackerも搭載。OctaneRender統合はGaussian Splatとメッシュレット、バーチャルテクスチャに対応。Windows/macOS対応、新規ライセンス£795（約1,070ドル）。",
+      "links": {
+        "cgchannel": "https://www.cgchannel.com/2026/06/lightwave-digital-releases-lightwave-2026/",
+        "lightwave": "https://lightwave3d.com/information-pages/new-feature/"
+      }
+    }
+  ]
+}

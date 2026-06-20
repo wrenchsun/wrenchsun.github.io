@@ -46,4 +46,8 @@
       "detail": "shadowed領域でlit colorをデサチュレートし、shadow amountに応じて設定可能な彩度量を復元することで影ペナンブラに自然な色彩グラデーションを付与する。UE5の動的ライトシステムに統合可能で、ゲームやリアルタイムVFXにおける映画的なライティング表現を実現できる。Graphics Programming Weekly #439にて紹介された。",
       "links": {
         "技法解説記事": "https://chosker.github.io/blog/colored-shadow-penumbra",
-        "Graphics Programming Weekly #439": "https://www.jendrikillner.com/post/graphics-pro
+        "Graphics Programming Weekly #439": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-439/"
+      }
+    }
+  ]
+}

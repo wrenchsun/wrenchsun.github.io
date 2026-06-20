@@ -114,4 +114,9 @@
       "level": "3",
       "overview": "Alex Martinelli作のジオメトリノード修飾子。Blender 5.0以降対応でGumroadから無料入手。",
       "detail": "80 Levelが2026年4月22日、Alex Martinelli氏がBlender向けに開発した「Procedural Traffic Cone Generator」を無料公開したと報じた。ジオメトリノード修飾子として実装され、カスタマイズ可能なトラフィックコーンを手続き的に生成できる。サイズ、傷み具合、色、反射帯のパターンなどをパラメータ化してバリエーションを量産可能で、環境背景アセット制作やシミュレーション用小道具生成を効率化する。動作要件はBlender 5.0以降。背景にはBlender Guru氏が以前の動画で「$3,600のコスト」と表示したトラフィックコーンモデルがネットコミュニティで話題化し、コーン関連制作のトレンドが生まれたユーモラスな経緯がある。Gumroad経由で完全無料ダウンロード可能。小道具を多数必要とするシミュレーションゲーム、都市景観、建設系プレゼンなど用途は広く、Blender 5系のジオメトリノード機能を学ぶ教材としても活用できる。",
-      "l
+      "links": {
+        "80.lv": "https://80.lv/articles/procedural-traffic-cone-generator-in-blender"
+      }
+    }
+  ]
+}

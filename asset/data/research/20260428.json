@@ -84,4 +84,8 @@
       "detail": "2019年リリースのRuby採用2Dゲームエンジン「DragonRuby Game Toolkit（GTK）」が7周年記念キャンペーンとして本日2026年4月28日（日本時間8:13）まで無償取得可能となっている。Standard Licenseは通常有料で、PC/Mac/Linux/Raspberry Pi/Web向けのビルドをサポート。ホットリロード機能を持ちプログラミング入門にも適している。作成ゲームはロイヤリティフリーで配布・商業販売が可能。月収$2000以下・18歳未満・学生・教育者・公共サービス従事者は期間外でも無償ライセンスが得られる。itch.ioにて取得可能。",
       "links": {
         "DragonRuby GTK 4/28まで無償提供（ゲームメーカーズ）": "https://gamemakers.jp/article/2026_04_23_136046/",
-        "DragonRuby Gam
+        "DragonRuby Game Toolkit (itch.io)": "https://dragonruby.itch.io/dragonruby-gtk"
+      }
+    }
+  ]
+}

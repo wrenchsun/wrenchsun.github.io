@@ -98,4 +98,8 @@
       "overview": "Unityのドローコール削減とパフォーマンス向上を実現するアセットバンドルが公開。モバイル・低スペック向けゲーム最適化に有効。",
       "detail": "Unity Asset Storeで提供されるバンドルで、ドローコール削減・バッチング最適化・パフォーマンスプロファイリング支援ツールを含む。モバイルゲーム開発者やパフォーマンス改善を必要とするプロジェクト向けに設計されている。",
       "links": {
-        "80.lv": "https://80.lv/art
+        "80.lv": "https://80.lv/articles/check-out-this-unity-bundle-for-reducing-draw-calls-boosting-performance"
+      }
+    }
+  ]
+}

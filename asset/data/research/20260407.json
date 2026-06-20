@@ -121,4 +121,9 @@
       "overview": "SkydanceのライティングアーティストBorja RamaがソフトボックスやゴボなどのHDRライトテクスチャを無料生成するOpen Lightツールを公開。",
       "detail": "Skydance AnimationのライティングアーティストであるライティングアーティストBorja Ramaが、プロシージャルHDRライトテクスチャを生成する無料Windowsツール「Open Light」をリリースした。撮影やスキャン不要で、完全プロシージャルコントロールにより32ビットEXRファイルを生成。Nuke、Houdini、Blender、Maya、3ds Max、Unreal Engineなど主要なレンダラーに対応。収録ライト修飾子：ソフトボックス、ビューティーディッシュ、アンブレラ、LEDパネル、リフレクター、リングライト、ストリップライト、Kino Flo、ゴボ、グラデーション。Windows 10/11対応。",
       "links": {
-        "CG Channel": "https://www.cgchannel.com/2026/04/free-tool-open-light-generat
+        "CG Channel": "https://www.cgchannel.com/2026/04/free-tool-open-light-generates-procedural-hdr-light-textures/",
+        "Gumroad": "https://2583407267451.gumroad.com/l/openlight"
+      }
+    }
+  ]
+}
