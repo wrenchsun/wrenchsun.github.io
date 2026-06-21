@@ -1,0 +1,99 @@
+{
+  "items": [
+    {
+      "name": "SideFX Houdini 22 キーノート本日開催",
+      "level": "10",
+      "overview": "SideFXが本日Houdini 22の全詳細を公開するキーノートを開催。Gaussian Splat操作・Copernicus強化・KineFX更新が発表される。",
+      "detail": "SideFXが6月22日09:00 PDT（JST 6月23日1:00）にオンラインキーノートを開催。Houdini 22の主な新機能はGaussian Splatのトレーニング・リライト・リグ・アニメーション対応（他ソフトでは前例のないSplat リギング）、Copernicusへのテクスチャ合成・Neural Cellular Automata追加、CopernicsusノードをUnreal Engine内でHDAとして直接調整可能に、KineFXにIK LimitsとSet Driven Keys追加、Motion MixerへのネストクリップサポートなどVFX・CG制作ワークフローを一新する機能が多数含まれる見込み。Houdini 21から約1年未満での次世代版となる。",
+      "links": {
+        "SideFX H22 Launch and HIVE": "https://www.sidefx.com/houdini-hive/h22-launch-and-hive/",
+        "CG Channel スニークピーク": "https://www.cgchannel.com/2026/06/sneak-peek-houdini-22/",
+        "80.lv 記事": "https://80.lv/articles/get-a-first-look-at-houdini-22"
+      }
+    },
+    {
+      "name": "UE6 CG・VFXアーティスト向け10の変更点まとめ",
+      "level": "9",
+      "overview": "Blueprint廃止・Verse言語移行・UEFN統合など、CG/VFXアーティストが知るべきUnreal Engine 6の10変更点をCG Channelが解説。",
+      "detail": "CG ChannelがState of Unreal 2026の発表内容をCGアーティスト視点で整理。①UEとUEFNを統合した統一エンジン化、②Verse言語ベースへ移行、③Verse Scene Graphによる新コンポーネントフレームワーク導入、④BlueprintとActorは当面継続後に非推奨化（業界から反発の声多数）、⑤コンテンツ移植性向上（Fabアセットが完全動作モジュールに）、⑥Claude・Gemini等LLMとの統合強化・拡散モデルの取り込み、⑦LoreをMITライセンスでオープンソース化、⑧2027年末Early Access・12〜18ヶ月後に安定版、⑨UE4→UE5と同様の互換性なし移行、⑩UE5.9はリリース予定なし（必要に応じ変更の可能性）。",
+      "links": {
+        "CG Channel 記事": "https://www.cgchannel.com/2026/06/10-things-cg-artists-need-to-know-about-unreal-engine-6/",
+        "Epic公式ブログ": "https://www.unrealengine.com/news/the-road-to-ue-6"
+      }
+    },
+    {
+      "name": "Khronos Group、glTF 2.1 策定計画を発表",
+      "level": "7",
+      "overview": "Khronos Groupが大規模シーン管理と外部アセット連携を強化した3D標準フォーマットglTF 2.1の策定計画を発表。",
+      "detail": "Khronos GroupがglTF 2.1の策定計画を発表。大規模シーンの標準化と外部アセット参照（リンク）機能を強化するための規格改訂。UE6もglTF・USDを第一級フォーマットとして採用すると発表しており、ゲームエンジン・DCCツール間のアセット共有効率化が加速する見通し。業界全体でのオープンスタンダード移行の流れに沿った動き。",
+      "links": {
+        "ゲームメーカーズ 記事": "https://gamemakers.jp/article/2026_06_15_139565/"
+      }
+    },
+    {
+      "name": "3DGS Render 5.0 - BlenderでGaussian Splatsをアニメーション",
+      "level": "7",
+      "overview": "Blender向け3DGS Render 5.0がリリース。3D Gaussian SplatsをBlender内でアニメーション可能にする機能を追加。",
+      "detail": "3DGS Render 5.0がリリースされ、Blender内でGaussian Splatsのアニメーションが実現。Gaussian Splatは実写・3Dシーンから高速に3D表現を再構成するトレンド技術で、今回のHoudini 22キーノートでも同技術のリグ・アニメーション対応が注目を集めている。BlenderでのGS操作対応が普及に弾みをつけると見込まれる。",
+      "links": {
+        "CG Channel 記事": "https://www.cgchannel.com/2026/06/3dgs-render-5-0-lets-you-animate-gaussian-splats-inside-blender/",
+        "80.lv 記事": "https://80.lv/articles/animate-gaussian-splats-in-blender-using-3dgs-render-5-0"
+      }
+    },
+    {
+      "name": "Adobe Photoshop 27.8 リリース",
+      "level": "6",
+      "overview": "OCIO 2.5対応と、ユーザー独自のAIモデルでGenerate Image機能が使えるPhotoshop 27.8がリリース。",
+      "detail": "Photoshop 27.8でOCIO（OpenColorIO）2.5対応によりVFXパイプラインでのカラーマネジメントが強化。またユーザーが独自学習させたAIモデルをGenerate Imageで使用できるカスタムAIモデル機能を新たに追加。CG・映像制作ワークフローにAI統合がさらに進む。",
+      "links": {
+        "CG Channel 記事": "https://www.cgchannel.com/2026/06/adobe-releases-photoshop-27-8/"
+      }
+    },
+    {
+      "name": "Adobe After Effects 26.3 リリース",
+      "level": "6",
+      "overview": "Advanced 3DレンダラーにDepth of Field追加、新エフェクト「Curl Noise」を搭載したAfter Effects 26.3リリース。",
+      "detail": "After Effects 26.3でAdvanced 3DレンダラーにDoF（被写界深度）が追加され、より映像的な3D合成が可能に。新しいCurl Noiseエフェクトも搭載され、有機的な流体・煙状のモーショングラフィクス表現が容易になった。Adobe Firefly等生成AIとの連携も継続強化されている。",
+      "links": {
+        "CG Channel 記事": "https://www.cgchannel.com/2026/06/adobe-releases-after-effects-26-3/"
+      }
+    },
+    {
+      "name": "V-Ray for Blender Update 3 - Linux・AMD GPU対応",
+      "level": "6",
+      "overview": "V-Ray for BlenderがLinuxに対応。AMD GPUでのGPUレンダリングとNode Wranglerを追加（無料Community Editionにも適用）。",
+      "detail": "ChaosのV-Ray for Blender Update 3でLinux対応を実現し、AMD GPUでのGPUレンダリングが可能に。Node Wranglerツールも追加され、シェーダーネットワーク構築が効率化。無料版Community Editionにも一部機能が適用されBlenderでのV-Ray採用のハードルが下がった。",
+      "links": {
+        "CG Channel 記事": "https://www.cgchannel.com/2026/06/v-ray-for-blender-now-runs-on-linux/"
+      }
+    },
+    {
+      "name": "Blackmagic Design DaVinci Resolve 21.0 リリース",
+      "level": "6",
+      "overview": "Blackmagic DesignがDaVinci Resolve 21.0をリリース。Fusion Studio 21.0と同時に発表された新メジャーバージョン。",
+      "detail": "Blackmagic DesignがDaVinci Resolve 21.0とFusion Studio 21.0を同時リリース。Fusion Studio 21.0ではモーショングラフィクス向け新ツールとUSDP更新が確認されている。DaVinci Resolve 21.0の詳細な新機能はリリースノートで確認可能。ポストプロダクション全工程を統合する業界標準ツールの新バージョン。",
+      "links": {
+        "CG Channel DaVinci 記事": "https://www.cgchannel.com/2026/06/blackmagic-design-releases-davinci-resolve-21-0/",
+        "CG Channel Fusion 記事": "https://www.cgchannel.com/2026/06/blackmagic-design-releases-fusion-studio-21-0/"
+      }
+    },
+    {
+      "name": "Boris FX Mocha Pro 2026.5 リリース",
+      "level": "5",
+      "overview": "Boris FXがMotion Tracking・ロトスコーピングツールMocha Pro 2026.5をリリース。VFX合成の追跡精度向上が期待。",
+      "detail": "Boris FXがMocha Pro 2026.5をリリース。Boris FXは同シリーズでSilhouette 2026においてAIベースの3Dヘッドトラッキングや物体追跡を実装しており、そのAI機能の継続強化が見込まれる。VFXコンポジット・マットペイント・モーションコントロールの精度と効率が向上。",
+      "links": {
+        "CG Channel 記事": "https://www.cgchannel.com/2026/06/boris-fx-releases-mocha-pro-2026-5/"
+      }
+    },
+    {
+      "name": "XREAL AURA Android XR対応グラス型デバイス今秋発売予定",
+      "level": "5",
+      "overview": "XREALがAndroid XR対応ARグラス「AURA」を今秋発売予定と発表。Unityによる開発サポートも同時発表。",
+      "detail": "XREALが発表したAURAはAndroid XRをサポートするグラス型ARデバイスで今秋発売予定。同日にUnityでの開発サポートも発表され、ゲーム・XRコンテンツ開発者がUnityで直接XREAL AURA向けコンテンツを開発可能になる。同社のROG XREAL R1（240Hz対応ゲーミングARグラス）と合わせ、XR開発の裾野拡大が期待される。",
+      "links": {
+        "ゲームメーカーズ 記事": "https://gamemakers.jp/article/2026_06_17_139706/"
+      }
+    }
+  ]
+}
