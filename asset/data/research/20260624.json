@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "name": "Houdini 22 キーノート全詳細公開 - 新UI・3DGS・Copernicus大幅強化",
+      "level": "9",
+      "overview": "SideFXが6/22キーノートでHoudini 22全機能を公開。新UI刷新・3DGS対応・Copernicus地形/テクスチャ・KineFX/APEX強化など大型アップデート。リリースは7月中旬予定。",
+      "detail": "SideFXが6月22日にHoudini 22キーノートを配信し全詳細が判明した。主な新機能：①UIの大幅刷新（モダンデザイン・カスタマイズ性向上）、②3D Gaussian Splattingのネイティブ対応（写真・動画からGaussian Splatを作成・修正・アニメーション可能、ボリューメトリックデータへの変換も対応）、③Copernicusへの地形・海面スペクトル・テクスチャ合成ツール追加およびNeural Cellular Automata、④KineFX/APEXによるリギング・アニメーション・リターゲット・モーション合成の強化、⑤Solarisのセットドレッシング・高度スキャタリング・プロシージャル拡張、⑥ヘア/ファー/筋肉物理の最適化。リリースは7月中旬を予定。",
+      "links": {
+        "80.lv 記事": "https://80.lv/articles/everything-you-need-to-know-about-houdini-22",
+        "SideFX公式": "https://www.sidefx.com/community/h22-launch-and-hive/"
+      }
+    },
+    {
+      "name": "Arnold 7.5.2 リリース - 3D Gaussian Splatting対応・セルシェーディング強化",
+      "level": "8",
+      "overview": "Autodesk Arnold 7.5.2がリリース。3DGSのレンダリング・リライト、Tone Zonesノードによるセルシェーディング対応、GPUパフォーマンス向上。",
+      "detail": "Arnold 7.5.2でPLYファイルおよびUSD 26.03スキーマから3DGSデータをインポートしレンダリング可能に。新Gaussian Splat ShaderでArnoldシーンライトによる3DGSのリライトを実現。Tone ZonesノードでRGBをバンド分割するセルシェーディング対応、Shader to RGBAノードによる非フォトリアルレンダリング拡張も追加。Noice（デノイザー）の品質向上、GPUシーン更新の高速化、PLYファイル読み込み1.2〜1.4倍高速化も実施。Flow Render（クラウドレンダリング）は5GB超シーン対応。全DCCプラグイン（Maya MtoA 5.6.2・3ds Max MAXtoA 5.9.3・Houdini HtoA 6.5.2・C4D C4DtoA 4.9.2・Katana KtoA 4.5.2）も更新。",
+      "links": {
+        "CG Channel 記事": "https://www.cgchannel.com/2026/06/autodesk-releases-arnold-7-5-2-with-support-for-gaussian-splatting/",
+        "Arnold 7.5.2 リリースノート": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_core_7520_html"
+      }
+    },
+    {
+      "name": "Unity 6.5 リリース - Shader/VFX Graph更新・Built-In RP非推奨化",
+      "level": "7",
+      "overview": "Unity 6.5がリリース。Shader Graph・VFX Graph更新、Built-In Render PipelineとOptiX denoisingが非推奨化。URP on-tileポストプロセスも全ハード対応。",
+      "detail": "Unity 6.5でShader GraphとVFX Graphが更新（VFXテンプレートウィンドウに検索/フィルタリング/ソート追加）。Built-In Render Pipeline(BIRP)が正式非推奨化（将来削除予定）、OptiXデノイザーも非推奨。URPはon-tileポストプロセス（HDR・トーンマップ・カラーグレーディング・ビネットを1パスで処理）が全ハードウェアで利用可能に。3D PhysicsにDirect Solver追加（歯車・チェーン・ロープ等の複雑なメカニカル設定に対応）。LightingSearchWindowと刷新されたAnimationウィンドウレイアウトも追加。",
+      "links": {
+        "CG Channel 記事": "https://www.cgchannel.com/2026/06/unity-releases-unity-6-5-discover-5-key-features-for-cg-artists/",
+        "GameFromScratch": "https://gamefromscratch.com/unity-6-5-released/"
+      }
+    },
+    {
+      "name": "DirectX Dump Files パブリックプレビュー公開 - GPUクラッシュ診断ツール",
+      "level": "7",
+      "overview": "MicrosoftがDirectX 12 APIのGPUクラッシュ診断ツール「DirectX Dump Files」のパブリックプレビューを公開。AMD GPUが先行ドライバー対応。",
+      "detail": "GDC 2026で発表されたDirectX Dump Filesが開発者向けパブリックプレビューとして公開。GPUクラッシュ・ハング・フリーズ・タイムアウト発生時に詳細なGPU実行スナップショットを取得可能。取得情報はGPUレジスタ値・シェーダープログラムカウンタ・ページフォルトアドレス・シェーダーメモリ内容・コマンドバッファデータ・D3Dオブジェクト・PSO・デバイスエラー情報・CPU呼び出しスタック等。現時点でAMDのみパブリックドライバー対応、NVIDIA/Intel/Qualcommは未対応。Windows 11 26H2（秋リリース予定）への統合が見込まれる。",
+      "links": {
+        "DirectX Developer Blog": "https://devblogs.microsoft.com/directx/dx-dump-files-preview/",
+        "Microsoft Developer 記事": "https://developer.microsoft.com/en-us/games/articles/2026/03/gdc-2026-directx-bringing-console-level-gpu-tools-to-windows/"
+      }
+    },
+    {
+      "name": "Valve SteamOS デスクトップ汎用対応拡大 - 自作Steam Machineが可能に",
+      "level": "5",
+      "overview": "ValveがSteamOS 3.8.10からデスクトップ汎用対応を拡大。任意パーツで自作Steam Machineの構築が可能となり、NVIDIA対応も開発中。",
+      "detail": "ValveがSteamOS 3.8.10でデスクトップ汎用対応を強化し、任意のPCパーツによる自作Steam Machineの構築が公式に可能に。Intel・AMD最新プラットフォームへの互換性追加。NVIDIAドライバーサポートは専任チームが開発中で密接に協力。将来的なWindowsとのデュアルブートも示唆。GDC 2026でSteam Machine Verified基準（1080p/30fps以上・Deck入力対応）が発表。ゲーム開発者はSteamOS向けの検証対応が必要になる可能性がある。",
+      "links": {
+        "Game Developer 記事": "https://www.gamedeveloper.com/business/valve-is-making-it-easier-to-build-your-own-steam-machine",
+        "Steam Deck HQ": "https://steamdeckhq.com/news/valve-gives-green-light-to-install-steamos-on-desktop/"
+      }
+    }
+  ]
+}
