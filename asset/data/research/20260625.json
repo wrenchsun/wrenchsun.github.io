@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "name": "GTA 6 価格・予約受付開始 — スタンダード$79.99、11月19日発売確定",
+      "level": "8",
+      "overview": "Rockstar Gamesが本日6/25よりGTA 6のプレオーダーを開始。スタンダード版$79.99、アルティメット版$99.99、PS5/XboxSeries向けに11月19日発売。",
+      "detail": "GTA 6はシングルプレイヤーでローンチ。全プレオーダー特典に「Vintage Vice Cityパック」が付属し、デジタル版には1ヶ月のGTA+も無料提供。アルティメット版は限定車両・武器・衣装などを収録。発売は2026年11月19日、PS5/PS5 Pro/Xbox Series X|S向け。PC版は後日。",
+      "links": {
+        "80.lv - GTA 6 Price Officially Revealed": "https://80.lv/articles/gta-6-price-is-finally-officially-revealed",
+        "Game Rant - GTA 6 Pre-Orders": "https://gamerant.com/gta-6-price-ultimate-edition-pre-orders-news-june-25-2026/"
+      }
+    },
+    {
+      "name": "Reallusion iClone Personal 永久無料化 & AI Studio 正式ローンチ",
+      "level": "8",
+      "overview": "Reallusionがiクローン個人版を30日トライアルから永久無料化。同時にAI Studioを正式リリース、3D制御とAI映像制作の統合環境を提供。",
+      "detail": "iClone Personalは従来の30日試用を廃止し、時間制限なしで全3Dツールセットにアクセス可能に。AI StudioはRTXレンダリングとHeadshot 3、LLM統合により一貫したAIキャラクターによる映像制作を実現。ハイブリッドAI 2026ビジョンの一環として発表。",
+      "links": {
+        "Reallusion Magazine": "https://magazine.reallusion.com/2026/06/23/reallusion-unlocks-limitless-creation-iclone-personal-debuts-alongside-ai-studio-official-launch/"
+      }
+    },
+    {
+      "name": "Protect Our Games Act カリフォルニア州議会通過 — ゲーム保全立法が前進",
+      "level": "7",
+      "overview": "Stop Killing Games運動に連動したカリフォルニア州法案が州議会を通過。2027年1月以降リリースのゲームにサービス終了後のプレイ継続義務を課す。",
+      "detail": "AB 1921「Protect Our Games Act」は43対16で通過し州上院へ。パブリッシャーはゲームを非公開にする2ヶ月前に通知と全額返金、終了後もプレイ可能な手段の提供が義務付けられる。無料ゲームやサブスク専用ゲームは対象外。Governor署名待ち。",
+      "links": {
+        "Inven Global": "https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill",
+        "80.lv": "https://80.lv/articles/stop-killing-games-celebrates-major-win-california-state-assembly-passed-protect-our-games-act"
+      }
+    },
+    {
+      "name": "NeXus for Blender 無料パブリックベータ公開 — GPU粒子シミュレーション",
+      "level": "7",
+      "overview": "InsydiumがCinema 4D専用だったGPU粒子シミュレーター「NeXus」のBlender版を無料ベータ公開。Vulkan 1.3/Metal 3対応。",
+      "detail": "BlenderのNeXusはGPUアクセラレーションによるリアルタイムビューポートフィードバックを実現。流体・炎・有機スプレッド・コンストレイントダイナミクスなど全機能がGPU処理。Blender 4.3以降・4GB以上のVRAM必須。正式リリース後は£98で恒久ライセンス販売予定。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/sneak-peek-nexus-for-blender/",
+        "80.lv": "https://80.lv/articles/insydium-released-nexus-for-blender-beta"
+      }
+    },
+    {
+      "name": "Godot エンジン、AI支援コントリビューション方針を明確化",
+      "level": "6",
+      "overview": "GodotベテランのRémi Verscheldeが方針を声明。翻訳・1行補完などの限定的AI使用は容認、完全AI生成コードは拒否と明確化（6/22）。",
+      "detail": "Godotは「AIは有用だが人間の努力の方がより良いコントリビューションを生む」という姿勢。AIを使用した場合の開示義務と、生成物の校正・改善を要求。以前から「AIスロップ」PRの増加が問題視されており、方針明確化でプロジェクト品質維持を図る。",
+      "links": {
+        "Game Developer": "https://www.gamedeveloper.com/business/godot-confirms-it-tolerates-some-ai-assistance-but-rejects-vibe-coded-accusations"
+      }
+    },
+    {
+      "name": "Unreal Fest Tokyo 2026 開催決定 — 11月3-4日、有明TFTビル",
+      "level": "6",
+      "overview": "Epic GamesがUnreal Fest Tokyo 2026を2026年11月3〜4日、東京・有明TFTビルウエストで開催することを発表。",
+      "detail": "Unreal EngineおよびUE6への移行情報、活用事例、開発者向けセッションを予定。同年6月17日のState of Unreal 2026でUE5.8リリース・UE6早期アクセス2027年末予定が発表されており、国内開発者向けのフォローアップイベントとして注目される。",
+      "links": {
+        "Unreal Engine": "https://www.unrealengine.com/news/state-of-unreal-2026-top-news-from-the-show"
+      }
+    },
+    {
+      "name": "Adobe Photoshop 27.8 リリース — カスタムAIモデル・OCIO 2.5対応",
+      "level": "6",
+      "overview": "Adobe Photoshop 27.8が6月リリース。自分で学習したカスタムAIモデルによる画像生成が可能に。OpenColorIO 2.5（ACES 2.0）サポートも追加。",
+      "detail": "「Generate Image」機能でユーザー独自の画像で学習させたカスタムAIモデルが利用可能になった。OCIO 2.5対応によりACES 2.0ワークフローのVFX・映像制作パイプラインとの統合がより容易に。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/adobe-releases-photoshop-27-8/"
+      }
+    },
+    {
+      "name": "Adobe After Effects 26.3 リリース — Advanced 3D 被写界深度・Mask Tracker 5倍高速化",
+      "level": "6",
+      "overview": "After Effects 26.3（6月版）でAdvanced 3DレンダラーにDoF対応、新2D Curl Noiseエフェクト追加、Mask Trackerが最大5倍高速化。",
+      "detail": "Advanced 3Dレンダラーでのカメラ被写界深度サポートにより映像表現の幅が拡大。2D Curl Noiseエフェクトは有機的なテクスチャアニメーション生成に有用。Mask Trackerの高速化は長尺コンポジット作業の効率を大幅改善。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/adobe-releases-after-effects-26-3/"
+      }
+    },
+    {
+      "name": "Maxon Cinema 4D 2026.3 リリース — 新UVエディタ搭載",
+      "level": "6",
+      "overview": "Cinema 4D 2026.3がリリース。より高度な機能と旧エディタより優れたモデリングツールセット統合を持つ新UVエディタを搭載。",
+      "detail": "新UVエディタはCinema 4Dのモデリングワークフローとの統合が強化され、より直感的なUV展開・編集が可能に。テクスチャリングパイプラインの改善によりゲーム・映像アセット制作の効率化が期待できる。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/maxon-releases-cinema-4d-2026-3/"
+      }
+    },
+    {
+      "name": "1ゲームスレッドで6000エージェント対応 — GPU駆動群衆システム新フレームワーク",
+      "level": "6",
+      "overview": "80.lvが紹介する研究フレームワークにより、1ゲームスレッドで6000エージェントのGPU駆動群衆シミュレーションを実現する手法が公開。",
+      "detail": "従来のCPU依存型群衆処理の限界を超える新設計。エージェントごとの経路探索・行動決定をGPUに分散することでスケーラブルなリアルタイム群衆描写が可能。大規模オープンワールドゲームやシミュレーション映像制作への応用が期待される。",
+      "links": {
+        "80.lv": "https://80.lv/articles/6-000-agents-on-one-game-thread-novel-high-performance-framework-for-gpu-driven-crowd-systems"
+      }
+    },
+    {
+      "name": "Boris FX Mocha Pro 2026.5 — AI点トラッキング「Point Track ML」搭載",
+      "level": "5",
+      "overview": "Mocha Pro 2026.5にAIベースの点トラッキング機能Point Track MLを追加。遮蔽や影で隠れたサーフェスのトラッキング精度が向上。",
+      "detail": "Point Track MLはMLで生成されたトラッキングポイントにより、従来手法では困難だった物体の陰や影で隠れた領域でも安定したトラッキングを実現。VFXコンポジット作業でのロトスコープ・マッチムーブ効率が大幅改善。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/boris-fx-releases-mocha-pro-2026-5/"
+      }
+    },
+    {
+      "name": "Pilgway 3DCoat 2026 リリース — GPUノードテクスチャリング搭載",
+      "level": "5",
+      "overview": "3DCoat 2026がリリース。GPUアクセラレーションのノードベーステクスチャリングシステムを新搭載し、スマートマテリアル・マスク生成が非破壊ワークフロー化。",
+      "detail": "新ノードシステムでテクスチャ・マスク・エフェクトをビジュアルエディタで非破壊合成可能に。GPUアクセラレーションにより大量のテクスチャレイヤー処理を高速化。同時に3DCoatTextura 2026も公開。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/"
+      }
+    }
+  ]
+}
