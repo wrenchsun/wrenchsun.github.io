@@ -1,0 +1,135 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 5.8 リリース - MCPプラグインでAIエージェントがエディター操作",
+      "level": "10",
+      "overview": "UE5.8が正式リリース。実験的MCPサーバープラグインを搭載しClaudeやCodex等のAIがBlueprint・アセット・レベルを直接操作可能に。",
+      "detail": "Unreal Engine 5.8がUnreal Fest Chicago 2026（6/17）で正式リリース。最大の目玉は実験的Model Context Protocolプラグインで、Claude Code・Codex CLI・CursorなどのAIエージェントをターミナルからUE Editorに接続し、Blueprintの編集・アセット生成・PCGシティ構築・パフォーマンス最適化などをエディター外から実行できる。その他MegaLights・Audio Insights・Dataflow for Chaos Cloth・Live Link Hub・Iris・Movie Render GraphがProduction Readyに昇格。",
+      "links": {
+        "Unreal Engine 5.8 公式発表": "https://www.unrealengine.com/news/unreal-engine-5-8-is-now-available",
+        "CG Channel記事": "https://www.cgchannel.com/2026/06/10-things-cg-artists-need-to-know-about-unreal-engine-6/",
+        "gamemakers.jp記事": "https://gamemakers.jp/article/2026_05_29_138680/"
+      }
+    },
+    {
+      "name": "Unreal Engine 6 正式発表 - 2027年末Early Access予定",
+      "level": "9",
+      "overview": "Epic GamesがUE6を正式発表。UE5とUEFNを統合し、Verse言語移行・クロスゲームポータブルコンテンツ・AI統合パイプラインを実現。",
+      "detail": "State of Unreal 2026にてEpic GameがUnreal Engine 6を正式発表。UE5とUnreal Editor for Fortnite（UEFN）を1つのエンジンに統合し、プログラミング言語はVerseに移行（アクター・Blueprintは継続サポート、将来的に非推奨化予定）。ゲーム間でのコンテンツ・コード・経済圏のポータビリティ、クロスゲームソーシャル機能、AIモデル（Claude・Gemini）とのMCP統合を含む。Early Access は2027年末予定、正式リリースは2028〜2029年。Rocket Leagueが最初の商用タイトルに。",
+      "links": {
+        "Unreal Engine 6 ロードマップ": "https://www.unrealengine.com/news/the-road-to-ue-6",
+        "gamemakers.jp - UE6詳細": "https://gamemakers.jp/article/2026_06_18_139729/",
+        "80.lv - UE6反応記事": "https://80.lv/articles/state-of-unreal-ue6-reactions-hype-skepticism-and-what-it-means-for-game-devs"
+      }
+    },
+    {
+      "name": "Houdini 22 発表 - Gaussian Splatting対応・KineFX成熟・UI刷新",
+      "level": "9",
+      "overview": "SideFXがHoudini 22を発表。プロダクション品質のGaussian Splatting、KineFX+CFX統合ワークフロー、Copernicus新ツール、UI刷新が目玉。",
+      "detail": "SideFXが6月17日ロンドンで Houdini 22 を発表（6/22にオンラインキーノート公開）。主な新機能：①Gaussian Splatting がプロダクション品質に到達し、手続き的ワークフロー内でスプラットの作成・編集・アニメーション・統合が可能。②KineFX環境にCFX（筋肉シミュレーション）・ヘア＆ファーが統合され、キャラクター/クリーチャーの連続ワークフローが完成。③Copernicusにテクスチャリング・地形・海洋スペクトラム生成ツールを追加。④UIを刷新し、よりモダンでカスタマイズ性の高いレイアウトに。リリース日は未確定（7月中旬頃と見込まれる）。",
+      "links": {
+        "SideFX公式 Houdini 22": "https://www.sidefx.com/community/houdini-22-sneak-peek/",
+        "CG Channel スニークピーク": "https://www.cgchannel.com/2026/06/sneak-peek-houdini-22/",
+        "80.lv - Houdini 22まとめ": "https://80.lv/articles/everything-you-need-to-know-about-houdini-22"
+      }
+    },
+    {
+      "name": "NVIDIA RTX Spark スーパーチップ発表 - 90GB超3Dシーンをレンダリング",
+      "level": "8",
+      "overview": "NVIDIAがComputex 2026でRTX Sparkを発表。Grace CPU+Blackwell GPU+128GB統合メモリで90GB超3Dシーンのリアルタイムレンダリングを実現。",
+      "detail": "NVIDIAがComputex 2026でRTX Sparkスーパーチップを発表。Grace CPU（20コア）とBlackwell RTX GPU（6144 CUDAコア・第5世代Tensor Core）をNVLink-C2Cで接続し、最大128GBの統合メモリを持つ。クリエイター向けに：OptiX+DLSSで90GB超の巨大3Dシーンのレンダリング、リアルタイム8K動画編集、Adobe Creative CloudでのAI加速レンダリングが可能。ASUS ProArt・Dell・HP・Lenovo・Microsoft Surface・MSIが採用予定で2026年秋販売開始。",
+      "links": {
+        "NVIDIA 公式発表": "https://www.nvidia.com/en-us/geforce/news/computex-2026-nvidia-geforce-rtx-announcements/",
+        "Tom's Hardware": "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory"
+      }
+    },
+    {
+      "name": "NeXus for Blender 無料パブリックベータ - VulkanベースGPUパーティクル",
+      "level": "7",
+      "overview": "INSYDIUMがNeXus for Blenderの無料パブリックベータを公開。VulkanベースのGPUパーティクルで液体・煙・火・群れ・メッシングに対応。",
+      "detail": "Cinema 4D専用だったINSYDIUMのGPUパーティクルシミュレーションシステム「NeXus」がBlender版パブリックベータを無料公開（6/12）。VulkanベースでAMD・Apple・Intel・NVIDIAのGPUに対応。パーティクル・液体・粒状体・煙・火・群れ・制約・拡散エフェクト・メッシング・トレイル・インスタンスをBlender内で実行可能。C4D版より高速。Blender 4.3以降・VRAM 4GB以上が必要。正式ライセンスは£98（現在30%割引のプレリリース価格）。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/sneak-peek-nexus-for-blender/",
+        "80.lv": "https://80.lv/articles/insydium-released-nexus-for-blender-beta",
+        "INSYDIUM公式": "https://insydium.ltd/products/nexus/"
+      }
+    },
+    {
+      "name": "After Effects 26.3 リリース - Advanced 3DにDepth of Field・マスク5倍高速化",
+      "level": "7",
+      "overview": "Adobe After Effects 26.3リリース。Advanced 3DレンダラーにDepth of Field追加、マスクトラッカーが最大5倍高速化、Curl Noiseエフェクト搭載。",
+      "detail": "Adobe After Effects 26.3リリース（6月）。主な新機能：①Advanced 3DレンダラーにDepth of Fieldを追加。3Dモデル・メッシュ・マテリアル・テキストに対してエンジン内でフォーカスプルが可能、Near/Farブラー制御あり。②マスクトラッカーが最大5倍高速化。③IllustratorおよびSVGコンテンツをネイティブ編集可能なシェイプレイヤーとしてペースト可能。④新エフェクト「Curl Noise」でスワーリングな有機的モーションを生成。⑤レンダリングフレームをクリップボードに直接コピー可能に。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/adobe-releases-after-effects-26-3/",
+        "Adobe コミュニティ": "https://community.adobe.com/announcements-527/after-effects-26-3-is-here-1628208"
+      }
+    },
+    {
+      "name": "Cinema 4D 2026.3 リリース - UV Editor刷新・パーティクルプロパティマネージャー",
+      "level": "7",
+      "overview": "Maxon Cinema 4D 2026.3リリース（6/10）。プロフェッショナルUV Editorを統合、Particle Property Manager追加、CloneにUV投影等3分布タイプ追加。",
+      "detail": "Maxon Cinema 4D 2026.3リリース（6/10）。①UV Editorを刷新し、C4D内でプロフェッショナルなアンラッピング・パッキング・UDIMサポート・シームエディット・ゼロオーバーラップパッキング・テクセル密度ツールが利用可能に。②Particle Property Managerでシミュレーションデータへのアクセスが容易に。③Cloneオブジェクトに3種の新分布タイプ（UV投影・Rivet・Edge）を追加。④Windows ARM64対応・Xcode 26（macOS）サポート。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/maxon-releases-cinema-4d-2026-3/",
+        "80.lv": "https://80.lv/articles/cinema-4d-2026-3-redshift-2026-7-now-available"
+      }
+    },
+    {
+      "name": "Unity CoreCLR スクリプティング更新 - Unity 6.8でMono完全移行へ",
+      "level": "6",
+      "overview": "UnityがCoreCLR・スクリプティング・シリアライゼーションの進捗を更新。Unity 6.8でCoreCLRがC#レイヤーの基盤となりMonoを完全置換する計画。",
+      "detail": "UnityがGDC 2026ロードマップセッションを受けて6月にCoreCLR移行の四半期更新を公開。Unity 6.8をターゲットにMonoを完全置換し、MiMallocへのメモリアロケータ変更、AppDomainからAssembly Load Contexts（ALC）への移行（変更済みコードのポイントリロードが可能に）を実施予定。開発者向けアップグレードガイドも提供されている。",
+      "links": {
+        "Unity Discussions": "https://discussions.unity.com/t/coreclr-scripting-and-serialization-update-june-2026/1723299"
+      }
+    },
+    {
+      "name": "Redshift 2026.7 リリース - ヘックスタイリング強化・Redshift LiveにDoF",
+      "level": "6",
+      "overview": "Maxon Redshift 2026.7リリース（6/10）。ヘックスタイリングのランダムフリップ追加、Redshift LiveにDepth of Field対応。ArchicadベータサポートとRevit対応も。",
+      "detail": "Maxon Redshift 2026.7リリース（6/10）。①前バージョンで追加されたヘックスタイリング（六角形グリッドでテクスチャを配置しリピートを低減）にタイル個別ランダムフリップを追加し、さらにバリエーションを増加。②リアルタイムレンダーエンジン「Redshift Live」にDepth of Fieldサポートを追加。③RevitへのRedshift提供開始、ArchicadはベータサポートでMaxon Juneリリースに含まれる。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/maxon-releases-redshift-2026-7/",
+        "Maxon Knowledge Base": "https://support.maxon.net/hc/en-us/articles/27334442605212-Redshift-2026-7-0-2026-06-June-10-2026"
+      }
+    },
+    {
+      "name": "O3DE 26.05 リリース - ネイティブパーティクルシステム・PhysX 5デフォルト化",
+      "level": "6",
+      "overview": "Open 3D Foundation がO3DE 26.05をリリース。ネイティブパーティクルシステム実験的追加、AgX/Khronosトーンマッピング、自動LOD生成、PhysX 5デフォルト化。",
+      "detail": "Open 3D FoundationがO3DE 26.05をリリース。主な変更点：①ネイティブパーティクルシステム「Open Particle System」を実験的機能として追加（従来はPopcorn FX Gemが必要だった）。②AgX・Khronos PBR Neutralトーンマッピングをディスプレイマッパーコンポーネントに追加。③FBXインポート時に自動LOD生成が可能に。④PhysX 5がデフォルトに。⑤バンドルCMakeをデフォルトとして採用し、外部CMakeインストール不要に。数百件の安定性パッチも含む。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/open-3d-foundation-releases-o3de-2026-5/",
+        "GameFromScratch": "https://gamefromscratch.com/o3de-26-05-released/"
+      }
+    },
+    {
+      "name": "3DCoat 2026 リリース - GPUノードシステムで非破壊テクスチャリング",
+      "level": "6",
+      "overview": "Pilgway 3DCoat 2026リリース。NGL（GLSL系）で記述されたGPUノードシステムにより、Substance Designerに似た非破壊テクスチャリングをリアルタイムで実現。",
+      "detail": "Pilgway が3DCoat 2026（および3DCoatTextura 2026）をリリース。目玉はGPUノードシステム：独自言語NGL（NodeGraph Language、GLSLベース）で記述されたノードグラフがGPU上でシェーダーにコンパイルされ、NGMaterials（プロシージャルスマートマテリアル）・NGMasks（摩耗・汚れ・傷の生成）・NGModifiers・NGFiltersの4コンポーネントを提供。パラメータはリアルタイムフィードバックで随時編集可能。現在Windows版のみパブリックベータ、安定版は2026年6月中リリース予定。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/"
+      }
+    },
+    {
+      "name": "Unreal Fest Chicago 2026 開催 - State of Unreal 2026",
+      "level": "6",
+      "overview": "Unreal Fest Chicago 2026が6/16〜18に開催。UE5.8・UE6・Loreバージョン管理OSS化・UEFN拡張などを発表。",
+      "detail": "Unreal Fest Chicago 2026が2026年6月16〜18日に開催。State of Unreal 2026セッションでEpicはUE5.8の正式リリース、UE6の開発ロードマップ（2027年末EarlyAccess）、次世代バージョン管理システム「Lore」のOSS化、Epic Games Storeの改善プレビューを発表した。今後のUnreal Fest開催都市も公開されている。",
+      "links": {
+        "State of Unreal 2026 公式": "https://www.unrealengine.com/news/state-of-unreal-2026-top-news-from-the-show",
+        "Unreal Fest 2026": "https://www.unrealengine.com/unreal-fest"
+      }
+    },
+    {
+      "name": "Photoshop 27.8 リリース - CG向けアップデート",
+      "level": "5",
+      "overview": "Adobe Photoshop 27.8がリリース。CG・VFXワークフロー向けの改善が含まれる最新アップデート。",
+      "detail": "AdobeがPhotoshop 27.8をリリース。6月のMaxon June 2026リリースと同時期に公開。CG Channel によって報告されており、CG・ビジュアル制作ワークフローに関連する改善が含まれている。詳細な機能変更については公式リリースノートを参照。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/adobe-releases-photoshop-27-8/"
+      }
+    }
+  ]
+}
