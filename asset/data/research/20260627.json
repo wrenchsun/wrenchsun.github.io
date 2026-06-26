@@ -1,0 +1,120 @@
+{
+  "items": [
+    {
+      "name": "Adobe が Topaz Labs を買収 - AI画像・動画強化技術をCreative Cloudへ統合",
+      "level": "9",
+      "overview": "AdobeがAI画像・動画強化の老舗Topaz Labsを買収。Neurostream技術でオンデバイス推論をFirefly/Photoshop等に統合予定。",
+      "detail": "AdobeはTopaz Labs（Topaz Photo、Topaz Video、Gigapixel AI等の開発元）の買収合意を6月25日に発表。Topaz Labsが持つNeurostream技術は大規模なAIモデルをコンシューマーデバイス上でローカル実行できる技術で、これをAdobe Fireflyや各Creative Cloudアプリに統合する。映像のアップスケーリング・リストア・AIジェネレーティブコンテンツとの融合が可能になる見込み。Topaz LabsのCEO Eric YangはAcquisition後も継続してチームを率いる予定。既存のスタンドアロン製品は継続販売される。",
+      "links": {
+        "Adobe公式発表": "https://news.adobe.com/news/2026/06/adobe-to-acquire-topaz-labs",
+        "CG Channel": "https://www.cgchannel.com/2026/06/adobe-to-acquire-topaz-labs/",
+        "PetaPixel": "https://petapixel.com/2026/06/25/adobe-acquires-ai-upscaling-specialists-topaz-labs/"
+      }
+    },
+    {
+      "name": "Arnold 7.5.2 リリース - 3D Gaussian Splatting のレンダリング・リライティング対応",
+      "level": "8",
+      "overview": "Autodesk Arnold 7.5.2がリリース。PLYファイルから3DGSシーンを読み込み、Gaussian Splat Shaderでリライティングも可能に。",
+      "detail": "Autodesk Arnold 7.5.2が6月23日にリリース。最大の新機能は3D Gaussian Splatsのレンダリング対応で、PLYファイルをpointsノードで読み込み、gaussian_splat_shaderノードでEmission（オリジナルSH色）とDiffuse（パストレーシングによるリライティング）の両モードをサポート。OpenUSD 26.03の新GaussianSplatスキーマにも対応。その他トゥーンシェーディング・レンダーデノイジング・USDワークフロー・クラウドレンダリングFlow（無料）の各機能も更新。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/autodesk-releases-arnold-7-5-2-with-support-for-gaussian-splatting/",
+        "Digital Production": "https://digitalproduction.com/2026/06/25/arnold-7-5-2-adds-gaussian-splats/"
+      }
+    },
+    {
+      "name": "Substance 3D Painter 12.1 - スキュー補正ペイント・自動再ベイク・OpenPBR対応",
+      "level": "8",
+      "overview": "Adobe Substance 3D Painter 12.1リリース。ベイキングのスキュー補正ペイント・自動再ベイク・ハードサーフェスUV展開・OpenPBR対応が追加。",
+      "detail": "Adobeが6月24日にSubstance 3D Painter 12.1をリリース。①Skew Correction Painting：ローポリメッシュに法線方向を直接ペイントしベイクアーティファクトを修正可能。②自動再ベイク：ベイクパラメータ変更のたびに自動的にリベイクされ手動トリガー不要。③ハードサーフェス自動UV展開モード：UV歪みを最小化し直交レイアウトに最適化。④OpenPBRマテリアル定義サポート追加。ゲーム・VFXパイプラインのテクスチャ制作ワークフロー全体が高速化。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/adobe-releases-substance-3d-painter-12-1/",
+        "Digital Production": "https://digitalproduction.com/2026/06/26/substance-3d-painter-12-1-bakes-smarter/"
+      }
+    },
+    {
+      "name": "Unity 6.5 リリース - Built-In RP廃止・OIDN移行・モバイルHDR最適化",
+      "level": "8",
+      "overview": "Unity 6.5が6月15日リリース。Built-In Render Pipeline廃止予告・OptiX→OIDN移行・モバイルHDRオンタイルポストプロセス・Shader Graph強化が目玉。",
+      "detail": "Unity 6.5が6月15日にリリース。主な変更点：①Built-In Render Pipelineが正式に非推奨（URP/HDRPへの移行を推奨）。②NVIDIAのOptiXデノイザーをOpen Image Denoise（OIDN）に置換。③モバイル向けオンタイルポストプロセス：HDR・トーンマッピング・カラーグレーディング等を単一パスでGPUレンダータイル処理しシステムメモリ往来を削減。④Shader GraphにSubgraph改善・Switch Node・Expression Nodeを追加。⑤Lighting Search Windowで大規模シーンのライト管理が容易に。⑥Unity Physicsの新Direct Solverが複雑なギア・チェーン・XR操作に対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/unity-releases-unity-6-5-discover-5-key-features-for-cg-artists/",
+        "GameFromScratch": "https://gamefromscratch.com/unity-6-5-released/"
+      }
+    },
+    {
+      "name": "KeyShot 2026.2 リリース - Apple Silicon GPUレンダリング・クラウドサービス統合",
+      "level": "7",
+      "overview": "KeyShot Studio 2026.2リリース（6/25）。Apple SiliconのGPUでGPUレンダリングが可能に。新クラウドレンダリングサービスとサブスク価格改定。",
+      "detail": "Luxionが6月25日にKeyShot Studio 2026.2をリリース。主な新機能：①Apple Silicon GPU（M1〜M4シリーズ）でのGPUレンダリングを正式サポート。②新たな統合クラウドレンダリングサービスを追加。③サブスクリプション価格体系を改定。製品可視化・デザインレビュー・プロダクトCGワークフローで特に恩恵が大きい。従来はCPUレンダリングのみだったApple Siliconユーザーが大幅な高速化を享受できる。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/keyshot-releases-keyshot-2026-2/",
+        "80.lv": "https://80.lv/articles/cinema-4d-2026-3-redshift-2026-7-now-available"
+      }
+    },
+    {
+      "name": "Godot 4.7 リリース - エリアライティング強化・HDR出力・2D物理改善",
+      "level": "7",
+      "overview": "オープンソースゲームエンジンGodot 4.7リリース。エリアライティング精度向上、HDR出力対応、2D物理API更新、2Dプロファイラーモジュール追加。",
+      "detail": "Godot Engine 4.7がリリース。主な変更：①エリアライト精度が大幅に向上し、より物理的に正確なライティングが可能。②HDR出力のネイティブサポート。③2D物理APIの大規模更新とパフォーマンス改善。④Unity Profilerライクな2Dモジュールを追加し、スプライトセットアップのボトルネック診断が可能。⑤Shader Graphに関連する改善。オープンソース・MIT ライセンスで無料配布。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/discover-5-key-features-for-cg-artists-in-godot-4-7/"
+      }
+    },
+    {
+      "name": "EA Battlefield Studios が Godot 開発ファンドのCorporate Platinumスポンサーに",
+      "level": "7",
+      "overview": "Battlefield 6を開発するEA Battlefield StudiosがGodot Development FundのCorporate Platinumスポンサーに就任。企業支援の最高位。",
+      "detail": "EA傘下でBattlefield 6を開発するBattlefield Studiosが、オープンソースゲームエンジン Godot のGodot Development FundにCorporate Platinumスポンサーとして参加。これはGodot Development Fundにおける最上位の企業スポンサー区分。大手パブリッシャーがオープンソースゲームエンジンの開発資金に最高位で支援する事例は注目に値する。Godot Engineは現在Unity/UEに続くシェアを持つゲームエンジンに成長しており、大企業採用の動きが加速している。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/eas-battlefield-studios-backs-the-godot-development-fund/"
+      }
+    },
+    {
+      "name": "RealityScan 2.2 リリース - AMD GPUフォトグラメトリ対応・インディー無料",
+      "level": "7",
+      "overview": "Epic GamesのフォトグラメトリツールRealityScan 2.2リリース（6/25）。AMD Radeonコンシューマー・ワークステーションGPUで処理高速化。インディー無料。",
+      "detail": "Epic GamesがRealityScan 2.2を6月25日にリリース。最大の変更はAMD Radeon GPU（コンシューマー向けRDNA3/4 GPUおよびワークステーション向け Radeon Pro W7000/W9000シリーズ）での処理加速をサポートしたこと。従来はNVIDIA GPUのみ高速化されていたが、AMD GPUユーザーも処理速度を大幅に向上可能になった。RealityScan はインディーアーティストには無料で提供されている（商用・大規模スタジオには有料）。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/epic-games-releases-realityscan-2-2-with-amd-gpu-support/"
+      }
+    },
+    {
+      "name": "GTA 6 プレオーダー開始・2026年11月19日発売確定",
+      "level": "7",
+      "overview": "Rockstar GamesがGTA 6のプレオーダーを6/25に開始。発売日2026年11月19日、PS5/Xbox Series対応。新トレーラーも公開。",
+      "detail": "Rockstar GamesがGTA VI（Grand Theft Auto 6）のプレオーダーを6月25日に開始し、発売日を2026年11月19日と正式確定。対応プラットフォームはPlayStation 5、PlayStation 5 Pro、Xbox Series X/S。ジェイソンとルシア2人の主人公によるVice Cityを舞台にしたオープンワールドゲーム。プレオーダー開始と同時に新トレーラーも公開されており、前作から技術的に大幅進化したグラフィックスが話題となっている。",
+      "links": {
+        "Rockstar Games": "https://www.rockstargames.com/newswire/article/5171972o3ak5oa/pre-order-grand-theft-auto-vi-on-june-25",
+        "80.lv": "https://80.lv/articles/gta-6-pricing-new-trailer-rumored-ahead-of-june-25-pre-orders"
+      }
+    },
+    {
+      "name": "Adobe SuperFit - 3DモデルをCVPR 2026で解析的プリミティブへ分解する技術発表",
+      "level": "7",
+      "overview": "AdobeがCVPR 2026でSuperFit技術を発表。3Dモデルをテーパー・湾曲・中空構造も含む解析的プリミティブにわずか8パラメータで表現。",
+      "detail": "AdobeがCVPR 2026（Computer Vision and Pattern Recognition）において、3Dモデルを解析的プリミティブパーツに自動分解する技術「SuperFit」を発表。従来の円柱・直方体等の制限をなくした「新定義の解析的プリミティブ」により、テーパー（先細り）・湾曲・中空構造までを8つのパラメータだけで表現できる。モデルの再利用・編集・軽量化・手続き的操作が容易になる可能性があり、ゲームやCGアセット管理への応用が期待される。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202606-SuperFit.html"
+      }
+    },
+    {
+      "name": "Boris FX Optics 2026.5 - AIフェイシャルマスク・Affinity/Apple Photos対応",
+      "level": "6",
+      "overview": "Boris FX Optics 2026.5リリース（6/26）。AIフェイシャルマスク追加、Affinity Photo・Capture One・Apple Photosにプラグイン対応拡張。",
+      "detail": "Boris FXが6月26日にOptics 2026.5をリリース。主な新機能：①AI powered Facial Maskingを追加し、人物の顔を自動でマスク生成可能に。②新ホストアプリ対応としてAffinity Photo、Apple Photos、Capture OneへのプラグインサポートをAdobeのみから拡張。③Particle Illusion等の既存エフェクトも改善。スタンドアロンアプリおよびPhotoshop/Lightroom向けプラグインとして提供。映像・写真向けの映画的エフェクト適用ツール。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/boris-fx-releases-optics-2026/"
+      }
+    },
+    {
+      "name": "Valve Steam Machine 発売 - $1,049〜・SteamOS 3.8で自作PCも対応",
+      "level": "6",
+      "overview": "ValveがゲーミングPC「Steam Machine」を発売。512GB/$1,049・2TB/$1,349から。SteamOS 3.8でカスタム自作Steam Machineにも対応可能。",
+      "detail": "ValveがSteam Machine（SteamOS搭載ゲーミング専用PC）を正式発売。価格は512GBモデル$1,049、2TBモデル$1,349（新型Steam Controllerバンドル版は各$79追加）。コンポーネント費高騰でValve当初の目標価格を超えたとして説明。またSteamOS 3.8から任意のPC部品で自作Steam Machineを構成できることが確認され、エコシステムの広がりが期待される。国内でも6月23日から販売開始。",
+      "links": {
+        "gamemakers.jp": "https://gamemakers.jp/article/2026_06_23_140099/",
+        "80.lv": "https://80.lv/articles/steam-machine-costs-over-usd1-000-and-debuts-to-mixed-reception"
+      }
+    }
+  ]
+}
