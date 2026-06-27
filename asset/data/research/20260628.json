@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "name": "DaVinci Resolve 21.0 リリース - Photoページ追加・AI顔年齢退行・MultiMaster",
+      "level": "8",
+      "overview": "Blackmagic DaVinci Resolve 21.0が正式リリース。静止画編集Photoページ、AI脱エイジング・被写界深度生成・AIサーチ等のAIツール群、MultMasterを搭載。",
+      "detail": "Blackmagic DesignがDaVinci Resolve 21.0を正式リリース（6月初旬）。主な新機能：①新Photoページ追加：RAW（Canon/Fujifilm/Nikon/Sony対応）を含む静止画のカラーコレクション・リタッチをリアルタイムで実施可能。Lightroom代替として訴求。②AI顔年齢退行ツール（Studio版）：AIで人物の顔を若返らせる映像処理。③AI IntelliSearch：人物・物体をAI検索でタイムライン内から自動発見。④AI CineFocus：リフォーカスとリアルなボケ効果をAIで生成。⑤ColorページにMultiMasterトリムマネージャーを追加：単一タイムラインから複数グレードトリムの設定が可能。⑥Fusionに70種以上のKrokodoveモーショングラフィクスツールを統合。DaVinci Resolve無料版・Studio（$295）どちらも更新。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/blackmagic-design-releases-davinci-resolve-21-0/",
+        "Newsshooter": "https://www.newsshooter.com/2026/06/25/davinci-resolve-21-0-1-update/",
+        "PetaPixel": "https://petapixel.com/2026/06/03/davinci-resolve-21-officially-released-with-new-photo-editing-ai-tools-and-much-more/"
+      }
+    },
+    {
+      "name": "CEDEC 2026 基調講演者決定 - 吉田修平氏・登大遊氏が登壇",
+      "level": "8",
+      "overview": "CEDEC 2026（7/22〜24、パシフィコ横浜）の基調講演に元SIE・吉田修平氏とIPA・登大遊氏が決定。6/30まで早期割引受付中。",
+      "detail": "CESA（コンピュータエンターテインメント協会）が7月22〜24日開催のCEDEC 2026（パシフィコ横浜North+オンライン）の基調講演者を発表。①初日（7/22）：吉田修平氏（株式会社yosp代表・元SIE Worldwide Studios社長）「私が出会った素晴らしいゲーム、クリエイター、そしてその創造性について」。初代PS〜現在のキャリアで出会ったクリエイターとゲームを回顧。②最終日（7/24）：登大遊氏（IPA）「世界に普及可能なコンピュータやネットワーク技術の生産手段の確立」。テーマは「Co-Create」。セッション数200以上、6/30まで早期割引受付中。",
+      "links": {
+        "4Gamer": "https://www.4gamer.net/games/991/G999104/20260619041/",
+        "CEDEC2026公式": "https://cedec.cesa.or.jp/2026/",
+        "GAME Watch": "https://game.watch.impress.co.jp/docs/news/2118833.html"
+      }
+    },
+    {
+      "name": "Blackmagic Fusion Studio 21.0 リリース - Krokodove統合・深度コンポジット刷新",
+      "level": "7",
+      "overview": "Blackmagic Fusion Studio 21.0リリース。70種超のKrokodoveモーショングラフィクスツール統合、深度コンポジット強化、USD強化、Windows ARM64対応。",
+      "detail": "Blackmagic DesignがFusion Studio 21.0をリリース。主な新機能：①70種超のKrokodoveエフェクト統合：パーティクル・グリッド・ディストーション等の高度なモーショングラフィクスツールが標準搭載に。②深度コンポジット（Deep Compositing）強化：新dColorCorrectorノードで深度モードのままカラーコレクション可能に、フルレイヤーサポート追加。③USD強化：uProjector・uCatcherノードでデカール投影・テクスチャ再投影が可能、Matte指定でホールドアウトマット生成。④Text+・MultiTextがカラーフォント・絵文字対応、スペルチェック・オートコレクト追加。⑤OGraf・Lottieサポート追加。⑥Windows ARM64ネイティブ対応。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/blackmagic-design-releases-fusion-studio-21-0/",
+        "Blackmagic公式": "https://www.blackmagicdesign.com/products/fusion"
+      }
+    },
+    {
+      "name": "iClone Personal 無料化 + Reallusion AI Studio 正式リリース",
+      "level": "7",
+      "overview": "Reallusionがリアルタイム3DアニメーションツールiClone Personalを無料化（商用可）。同時にAI Studio（3D映像→AI動画生成）も正式リリース。",
+      "detail": "Reallusionが6月23日にiClone Personal（永続無料版）とAI Studio（正式リリース）を同時発表。①iClone Personal：30日試用制限を撤廃、期間無制限で全3Dツールセットを無償利用可能（商用プロジェクト含む）。外部ソフトへの3Dエクスポートは30回制限（有料プランで解除）。Character Creatorキャラクター・ActorCoreモーションパックと連携。②AI Studio：MultiReference技術で俳優の容貌を高精度に保持しながらAI動画を生成。無料ユーザーは500 AI Pointを付与。③7月下旬Open Beta予定のRTXレンダーエンジンがiClone/Character Creatorに標準搭載予定（無料アップデート）。3D制作からAI動画生成までの統合パイプラインを無料で実現。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/reallusion-releases-free-animation-tool-iclone-personal/",
+        "Reallusion Magazine": "https://magazine.reallusion.com/2026/06/23/reallusion-unlocks-limitless-creation-iclone-personal-debuts-alongside-ai-studio-official-launch/",
+        "PR Newswire": "https://www.prnewswire.com/news-releases/democratizing-3d-to-ai-production-reallusion-debuts-iclone-personal-and-officially-launches-ai-studio-302807681.html"
+      }
+    }
+  ]
+}
