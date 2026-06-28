@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "name": "SIGGRAPH 2026 フルスケジュール公開 — 7/19〜23 ロサンゼルス開催",
+      "level": "8",
+      "overview": "CG最大カンファレンスSIGGRAPH 2026のフルスケジュール公開。Electronic Theater・Real-Time Live!等を予定。",
+      "detail": "SIGGRAPH 2026は2026年7月19〜23日にロサンゼルスで開催。フルスケジュールが6月26日に公開された。Electronic Theaterは7月20日にプレミア上映（7月22日に再演）、Real-Time Live!は7月21日夜に予定。Pioneers Featured Speakerセッションも7月21日に開催。CG・リアルタイム技術・映像表現の最前線が集まる年次イベント。",
+      "links": {
+        "SIGGRAPH 2026 公式": "https://s2026.siggraph.org/",
+        "Schedule at a Glance": "https://s2026.siggraph.org/schedule-at-a-glance/"
+      }
+    },
+    {
+      "name": "VAST AI「TripoSplat」オープンソース公開 — 単一画像から3DGS生成",
+      "level": "7",
+      "overview": "単一画像から3D Gaussian Splatting（3DGS）を生成するAI技術「TripoSplat」がオープンソースで公開。ゲームやXR向け最適化モデルを生成。",
+      "detail": "VAST AIが開発した「TripoSplat」は、1枚の画像から3D Gaussian Splatting（3DGS）データを生成するAIモデル。ゲーム開発、XR、シミュレーション環境向けに最適化されたモデルを生成できる。オープンソースとして公開されており、研究・開発用途への利用が可能。単一画像からの3D生成技術の実用化が加速している。",
+      "links": {
+        "CGWORLDニュース": "https://cgworld.jp/flashnews/01-202606-TripoSplat.html"
+      }
+    },
+    {
+      "name": "Diver-X「ContactGlove3」発表 — 電磁場方式で指先動作を精密トラッキング",
+      "level": "6",
+      "overview": "グローブ型VRコントローラ「ContactGlove3」発表。EMF方式採用で指先の微細な動きを世界最高峰精度でトラッキング。予約受付開始。",
+      "detail": "Diver-Xが発表したContactGlove3は電磁場（EMF）方式を採用したグローブ型VRコントローラ。指先の微細な動きまで忠実にトラッキングし、世界最高峰の精度を実現するとしている。公式ストアで予約販売を開始。VRコンテンツ制作・インタラクティブ体験向けのハードウェアとして注目される。",
+      "links": {
+        "CGWORLDニュース": "https://cgworld.jp/flashnews/02-2606-contactglove3.html"
+      }
+    },
+    {
+      "name": "tyFlow ZENITH — 3ds Max向けGPUベース超高速流体エンジン解説",
+      "level": "6",
+      "overview": "GPUベースの超高速流体エンジン「tyFlow ZENITH」をAREA JAPANが解説。3ds Maxで大規模流体シミュレーションを高速化。",
+      "detail": "tyFlow ZENITHは3ds Max向けに提供されるGPUベースの流体シミュレーションエンジン。AREA JAPANの3ds Maxコラムにて詳細な解説記事が公開された。GPUによる高速演算により、従来のCPUベースの流体シミュレーションと比較して大幅な処理速度向上を実現。VFXや建築ビジュアライゼーションでの大規模流体表現に対応する。",
+      "links": {
+        "CGWORLDニュース": "https://cgworld.jp/flashnews/03-2606-tyflow.zenith.html"
+      }
+    },
+    {
+      "name": "CozyBlanket Pro アーリーアクセス開始 — AI支援リトポロジーツール",
+      "level": "6",
+      "overview": "AI支援リトポロジー・UV展開・GPUパッキング機能を持つ「CozyBlanket Pro」のアーリーアクセスが開始。Windows/Mac対応。",
+      "detail": "CozyBlanket ProはAI支援のリトポロジー機能に加え、自動UVアンラップ、GPUを活用したパッキングなどを備えたスタンドアロンリトポロジーツール。Windows・Mac対応でアーリーアクセスの受付が開始された。ゲームアセット制作やキャラクターモデルのリトポロジー作業を大幅に効率化することが期待される。",
+      "links": {
+        "CGWORLDニュース": "https://cgworld.jp/flashnews/01-202606-CozyBlanketPro.html"
+      }
+    },
+    {
+      "name": "LightWave 2026 リリース — 物理配置・車両リグ・破壊VFX等を追加",
+      "level": "6",
+      "overview": "LightWave 2026リリース。物理ベースシーン配置(AP)・MotoRig車両リグ・Fracture破壊VFX・Ocean Spectrum Controller等を新搭載。",
+      "detail": "LightWave Digitalが「LightWave 2026」をリリース。主な新機能として、物理シミュレーションでオブジェクトを3Dシーンに配置するAdvanced Placement（AP）、車両アニメーションリグを半自動生成するMotoRig、破壊エフェクト用Fractureツール、海洋表現用Ocean Spectrum Controller、手続き型雷エフェクトTHOR、ケーブルや配管作成ツールなどを追加。新規ライセンスは£795（約1,070ドル）。",
+      "links": {
+        "CG Channel記事": "https://www.cgchannel.com/2026/06/lightwave-digital-releases-lightwave-2026/"
+      }
+    },
+    {
+      "name": "Pixel x Pixel 2026 開催決定 — 国内外トップクリエイター集結",
+      "level": "5",
+      "overview": "世界基準のモーションクリエイティブイベント「Pixel x Pixel 2026」の開催が決定。東京・寺田倉庫に国内外のトップクリエイターが集結。",
+      "detail": "モーション・CG分野の国際的クリエイティブイベント「Pixel x Pixel 2026」が東京・寺田倉庫での開催決定を発表。国内外のトップクリエイターが参加し、映像・モーション制作の最前線を共有するイベント。具体的な開催日程や参加費などの詳細は今後発表予定。",
+      "links": {
+        "CGWORLDニュース": "https://cgworld.jp/flashnews/02-2606-pixel-x-pixel-2026.html"
+      }
+    }
+  ]
+}
