@@ -1,0 +1,149 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 6 発表：UE5とUEFNの統合・Verse言語移行",
+      "level": "10",
+      "overview": "Epic GamesがUE6を発表。UE5とUEFNを統合し、プログラミング言語をVerseに移行。早期アクセスは2027年末予定。",
+      "detail": "2026年6月17日、Epic GamesはUnreal Fest 2026にてUnreal Engine 6を正式発表。UE5のAAA開発機能とUnreal Editor for Fortnite（UEFN）を単一プラットフォームに統合。ゲームプログラミングモデルをC++からVerseに移行し、Blueprintsは段階的廃止へ。コンテンツや経済圏がゲーム・エンジン間でポータブルになるオープンスタンダードを推進。Claude・GeminiなどのAIモデルとのMCP統合も搭載。EpicはUEFN以来開発者に10億ドル以上支払い済み。Rocket Leagueが初のUE6移行タイトルとして発表された。",
+      "links": {
+        "State of Unreal 2026 公式": "https://www.unrealengine.com/news/state-of-unreal-2026-top-news-from-the-show",
+        "Game Developer記事": "https://www.gamedeveloper.com/programming/unreal-engine-6-will-merge-ue5-and-uefn-into-a-single-unified-engine-"
+      }
+    },
+    {
+      "name": "Unreal Engine 5.8 リリース：MegaLights正式版・Mesh Terrain・MetaHuman Collections",
+      "level": "9",
+      "overview": "UE5最後のメジャーリリース。MegaLightsが正式版に、Mesh Terrain・MetaHuman Collectionsが追加。MCPプラグインも実験的搭載。",
+      "detail": "Unreal Engine 5.8がリリース。MegaLights（「ライトのNanite」）が本番環境対応となり、典型的なゲームで60fps達成可能に。Mesh Terrainは3Dメッシュベースの次世代地形システムで洞窟やオーバーハングを含む複雑地形に対応。MetaHuman Collectionsはモバイルで数百体、高性能環境で数千体のメタヒューマン群衆を配置可能。実験的なModel Context Protocol（MCP）プラグインでClaude等をUEプロジェクトに接続可能。LumenがNintendo Switch 2でも60fps対応。FortniteのシェーダーカウントをMCP活用で68%削減した実績も紹介。",
+      "links": {
+        "UE5.8公式ニュース": "https://www.unrealengine.com/news/unreal-engine-5-8-is-now-available",
+        "CGChannel記事": "https://www.cgchannel.com/2026/06/see-5-key-features-for-cg-artists-in-unreal-engine-5-8/"
+      }
+    },
+    {
+      "name": "Unity 6.5 リリース：Built-In Render Pipeline廃止決定",
+      "level": "8",
+      "overview": "Unity 6.5が6月16日リリース。Built-In Render Pipeline（BIRP）が正式廃止予定に。モバイルHDRレンダリングをONタイル処理で最適化。",
+      "detail": "Unity 6.5が2026年6月16日にリリース。最大の変更点はBuilt-In Render Pipeline（BIRP）の公式廃止予告で、Unity 6.7まではフィックスを受け取れる。OptiX デノイザーも廃止されOIDNに置き換え。Dynamic Batchingも廃止予定。新機能としてURPでのオンタイルポストプロセッシングがVulkan/Metalで全プラットフォーム対応、モバイルHDRレンダリングのメモリ帯域を大幅削減。Shader Graphに新Switch Nodeを追加。2Dグラフィックス・物理・CoreCLRも改善。",
+      "links": {
+        "CGChannel記事": "https://www.cgchannel.com/2026/06/unity-releases-unity-6-5-discover-5-key-features-for-cg-artists/",
+        "Unity公式リリースノート": "https://docs.unity3d.com/6000.5/Documentation/Manual/WhatsNewUnity65.html"
+      }
+    },
+    {
+      "name": "Houdini 22 スニークピーク公開：3D Gaussian Splats対応・UI刷新",
+      "level": "8",
+      "overview": "SideFXがHoudini 22の新機能プレビューを公開。3D Gaussian Splats作成・ライティング・リギング対応。UIも全面刷新。",
+      "detail": "SideFXが2026年6月にHoudini 22のスニークピーク動画を公開。3D Gaussian Splats（3DGS）の作成・ライティング・リギング・アニメーション用ツールセットを新搭載。Copernicus（2D/3D画像処理フレームワーク）の大幅アップデート、キャラクターアニメーション・シミュレーション・グルーミング・USD ワールドビルディングの改善、改良されたクアッドリメッシャー、全面刷新されたUIデザインも注目点。6月22日にSideFXキーノートでさらなる詳細が発表。スニークピーク後1ヶ月程度でリリースと予想される。",
+      "links": {
+        "SideFX公式": "https://www.sidefx.com/community/houdini-22-sneak-peek/",
+        "80.lv記事": "https://80.lv/articles/everything-you-need-to-know-about-houdini-22",
+        "CGChannel記事": "https://www.cgchannel.com/2026/06/sneak-peek-houdini-22/"
+      }
+    },
+    {
+      "name": "Godot 4.7 リリース & EA Battlefield Studios がGodot開発基金にスポンサー参加",
+      "level": "8",
+      "overview": "Godot 4.7リリース。EAのBattlefield StudiosがCorporate Platinum（年36,000€以上）でスポンサーとなりAAA開発会社初の参加となった。",
+      "detail": "Godot 4.7がリリースされ、AreaLight3D（矩形光源ノード）、DrawableTexture2D API（テクスチャへの直接ペイント）、HDR出力（Windows/macOS/iOS/Vision Pro対応）、ディズニー準拠シェーダーモデルのクリアコートマテリアル改善などを追加。またBattlefield 6を開発するEA Battlefield StudiosがGodot Development FundのCorporate Platinumスポンサーに参加。年間36,000€以上の支援を保証し、AAAゲームスタジオとして初の参加例となる。Battlefield 6はPortal機能（UGCモード）にGodotを採用している。",
+      "links": {
+        "CGChannel - Godot 4.7": "https://www.cgchannel.com/2026/06/discover-5-key-features-for-cg-artists-in-godot-4-7/",
+        "CGChannel - EA Sponsorship": "https://www.cgchannel.com/2026/06/eas-battlefield-studios-backs-the-godot-development-fund/"
+      }
+    },
+    {
+      "name": "Autodesk Arnold 7.5.2 リリース：3D Gaussian Splats レンダリング対応",
+      "level": "7",
+      "overview": "Arnold 7.5.2が6月23日リリース。3D Gaussian SplatsのPLY/USDファイルからのインポート・ライティング・レンダリングに対応。",
+      "detail": "Autodeskが2026年6月23日にArnold 7.5.2をリリース。最大の新機能はProductionレンダラーとして3D Gaussian Splats（3DGS）のレンダリング対応。PLYファイルまたはUSDファイルからの3DGSデータ読み込みに対応し、新しいGaussian Splat Shaderで既存Arnoldライトによるリライトが可能に。OpenUSD 26.03で導入されたGaussian Splatスキーマも予備的にサポート。トゥーンシェーディング・レンダーデノイズ・USDワークフローも更新。クラウドレンダリングサービスFlowも更新（全Arnoldユーザーに無料提供）。",
+      "links": {
+        "CGChannel記事": "https://www.cgchannel.com/2026/06/autodesk-releases-arnold-7-5-2-with-support-for-gaussian-splatting/",
+        "Digital Production": "https://digitalproduction.com/2026/06/25/arnold-7-5-2-adds-gaussian-splats/"
+      }
+    },
+    {
+      "name": "3DCoat 2026 リリース：GPU加速ノードベーステクスチャリングシステム",
+      "level": "7",
+      "overview": "3DCoat 2026がリリース。NGL（NodeGraph Language）によるGPU加速ノードシステムでリアルタイム・解像度非依存のテクスチャ生成が可能に。",
+      "detail": "Pilgwayが3DCoat 2026と3DCoatTextura 2026をリリース。核心機能はGPU加速ノードベーステクスチャリングシステム。ノードグラフをGPUシェーダーにコンパイルするNGL（NodeGraph Language：GLSL派生）を独自開発し、リアルタイム計算・解像度非依存のアセットを実現。Substance 3D DesignerやMari類似のノードエディターを採用し非破壊ワークフローを提供。新世代のスマートマテリアル・スマートマスク・デフォーマー・ポストプロセスフィルター・ボリューメトリックテクスチャも実装。",
+      "links": {
+        "CGChannel記事": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/"
+      }
+    },
+    {
+      "name": "Cinema 4D 2026.3 リリース：Particle Property Manager・UV Editor強化",
+      "level": "7",
+      "overview": "Maxonが6月10日にCinema 4D 2026.3をリリース。専用Particle Property ManagerとUVエディター大幅強化が目玉。",
+      "detail": "MaxonがCinema 4D 2026.3を2026年6月10日にリリース。新機能のParticle Property Managerはシミュレーションプロパティを可視化・編集できる専用ウィンドウ。EmissionにNoise/Fields/Vertex Mapを使用した密度制御が可能になり、多数のParticle Modifierにカスタムプロパティ出力オプションを追加。ビューポートでEmitter形状や速度を直接操作できるハンドルも搭載。MoGraphのClonerにUV Projection・Rivet・Edgeの3つの新分布タイプも追加。価格は月$109または年$839のサブスクリプションのみ。",
+      "links": {
+        "CGChannel記事": "https://www.cgchannel.com/2026/06/maxon-releases-cinema-4d-2026-3/",
+        "Toolfarm": "https://www.toolfarm.com/news/maxon-june-2026/"
+      }
+    },
+    {
+      "name": "Unreal Engine 6：CGアーティストが知るべき10の変更点まとめ",
+      "level": "7",
+      "overview": "UE6のCGアーティスト向け変更点をCGChannelがまとめ。Verse言語移行、Blueprint廃止、UEFN統合が主要ポイント。",
+      "detail": "CGChannelがUnreal Engine 6のCGアーティスト向け主要変更点10項目をまとめた記事を公開。UE5とUEFNの統合でUEFN専用機能がAAA開発でも利用可能に。プログラミングがC++/BlueprintからVerseへ移行するため既存プロジェクトの互換性確認が必要。早期アクセスは2027年末予定でUE5.8が最後のUE5メジャーリリース。AIアシスト開発（Claude/GeminiとのMCP連携）、オープンスタンダードによるコンテンツポータビリティ、Rocket Leagueなど主要タイトルの移行計画なども解説。",
+      "links": {
+        "CGChannel記事": "https://www.cgchannel.com/2026/06/10-things-cg-artists-need-to-know-about-unreal-engine-6/"
+      }
+    },
+    {
+      "name": "ゲーム開発者のGenAI利用率が2025年から低下：29%に減少",
+      "level": "6",
+      "overview": "GDCレポートによると開発者のGenAI利用は2025年の36%から2026年は29%に減少。効果への懐疑や倫理問題が背景。",
+      "detail": "GDC Festival of Gaming 2026 Trends Reportによると、ゲーム開発者のGenerative AI利用率が2025年の36%から2026年は29%に低下。利用率が一時的に急増した後の反動で、効果への懐疑・著作権・倫理問題が主な原因として挙げられる。一方でAI活用の議論はGDC最大のトピックの一つであり続け、業界での活用方法に対する見方が成熟してきたことの表れとも分析される。GDC 2026は85カ国から2万人が参加し40周年を迎えた。",
+      "links": {
+        "Game Developer記事": "https://www.gamedeveloper.com/production/developer-use-of-generative-ai-may-be-declining",
+        "GDCレポート": "https://www.businesswire.com/news/home/20260527821603/en/GDC-Festival-of-Gaming-2026-Trends-Report-Offers-Expert-Perspectives-on-Generative-AI-Co-Development-Advocacy-Game-Publishing-Financing-and-More"
+      }
+    },
+    {
+      "name": "DirectX Advanced Shader Delivery が一般提供開始",
+      "level": "6",
+      "overview": "MicrosoftのAdvanced Shader Delivery（ASD）がXbox PCアプリで一般提供開始。AMDもRDNA全アーキテクチャに拡大対応。",
+      "detail": "MicrosoftはDirectX Advanced Shader Delivery（ASD）をXbox Insidersからの拡大プレビューを経て、Xbox PCアプリで一般提供開始。ASDはプリコンパイル済みシェーダーをストアフロント経由で配信することで、起動時の遅延やゲームプレイ中のシェーダーコンパイルによるフリーズを解消する技術。AMDもRDNA全アーキテクチャでのASD対応拡大を発表。GDC 2026ではDirectX Compute Graph CompilerなどML統合の新技術も発表済み。",
+      "links": {
+        "DirectX Developer Blog": "https://devblogs.microsoft.com/directx/directx-gdc-2026/",
+        "Microsoft Developer": "https://developer.microsoft.com/en-us/games/articles/2026/03/gdc-2026-evolving-directx-for-ml-era-on-windows/"
+      }
+    },
+    {
+      "name": "Hyper3D Rodin Gen-2.5：AI 3Dジェネレーション・制作品質レベルに",
+      "level": "6",
+      "overview": "Hyper3D Rodin Gen-2.5が公開。スマートローポリトポロジー生成・3Dネイティブテクスチャリングで制作品質のAI 3D生成が可能に。",
+      "detail": "Hyper3DのCTO QX Zhangが80.lvにてRodin Gen-2.5を詳解。制御可能なAIワークフロー、Smart Low-Polyトポロジー生成、3Dネイティブテクスチャリングの3つが柱。ゲーム制作で使用可能なゲーム対応LODやリグも自動生成。Substance Painter・Marmoset等への統合も可能で、コンセプトアートから高品質3Dアセットの自動生成パイプラインの構築が現実的になった。3D Gaussian Splatting出力にも対応。",
+      "links": {
+        "80.lv記事": "https://80.lv/articles/how-hyper3d-rodin-gen-2-5-is-bringing-production-level-control-to-ai-3d-generation"
+      }
+    },
+    {
+      "name": "LightWave 2026 リリース：物理ベースレイアウト・車両リグ・新2D/3Dトラッキング",
+      "level": "6",
+      "overview": "LightWave Digital がLightWave 2026をリリース。物理ベースシーンレイアウト、車両リグツールセット、完全新設計の2D/3Dトラッキングシステムを搭載。",
+      "detail": "LightWave Digitalが長い沈黙の後にLightWave 2026をリリース。新物理ベースシーンレイアウトシステムにより現実的なオブジェクト配置が可能に。車両リグツールセットは車・バイク等のキャラクターリグを簡素化。VFXワークフロー向けに完全新設計の2D・3Dカメラトラッキングシステムも搭載。長期ユーザーの継続とホビー・個人ユーザー向けの価格帯を維持しつつ機能を現代化。",
+      "links": {
+        "CGChannel記事": "https://www.cgchannel.com/2026/06/lightwave-digital-releases-lightwave-2026/"
+      }
+    },
+    {
+      "name": "Adobe After Effects 26.3 リリース：Advanced 3DレンダラーにDOF・Curl Noiseエフェクト追加",
+      "level": "5",
+      "overview": "Adobe After Effects 26.3（2026年6月リリース）でAdvanced 3DレンダラーにDepth of Field対応と新Curl Noiseエフェクトが追加。",
+      "detail": "AdobeがAfter Effects 26.3を6月リリース。Advanced 3DレンダラーにDepth of Field（被写界深度）機能が追加され、より映画的な3D表現が可能に。新しいCurl Noiseエフェクトはパーティクルや流体シミュレーションのような自然な動きを生成できるノイズエフェクト。Adobe Firefly連携によるAIコンテンツ生成・合成機能も更新。",
+      "links": {
+        "CGChannel記事": "https://www.cgchannel.com/2026/06/adobe-releases-after-effects-26-3/"
+      }
+    },
+    {
+      "name": "Gaea 2.3 リリース：マクロシステム・16Kベイキング対応",
+      "level": "5",
+      "overview": "QuadSpinnerがGaea 2.3をリリース。新しいマクロシステムでノードグラフの再利用性向上。16Kテクスチャベイキング対応。",
+      "detail": "QuadSpinnerが地形生成ツールGaea 2.3をリリース。新しいマクロシステムは複数のノードをグループ化・カプセル化して再利用可能なカスタムノードを作成できる機能で、複雑な地形ワークフローの標準化・共有が容易に。16Kテクスチャベイキング対応によりAAA品質の超高解像度テクスチャ制作が可能になった。Unreal Engine・Unityとのパイプライン連携も強化。",
+      "links": {
+        "CGChannel記事": "https://www.cgchannel.com/2026/06/quadspinner-releases-gaea-2-3/"
+      }
+    }
+  ]
+}
