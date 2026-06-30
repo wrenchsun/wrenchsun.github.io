@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "name": "AMD FSR SDK 2.3 リリース - RDNA3向けFSR 4.1 ML Upscaling対応",
+      "level": "7",
+      "overview": "AMD FSR SDK 2.3がリリース。FSR 4.1 ML UpscalingがRX 7000系（RDNA3）に対応し300以上のゲームで利用可能に。Ray Regeneration 1.2も更新。",
+      "detail": "AMD FSR SDK 2.3（コードネーム「Redstone」）がリリースされ、これまでRDNA4専用だったFSR 4.1 ML Upscalingが、RX 7000シリーズ（RDNA3）でも利用可能になった。RDNA3はFP8ではなくINT8演算を使用するため、専用の最適化モデル（FSR 4.1.1）を採用し、RDNA4と同等の画質を実現している。AMD Software Adrenalin 26.6.2ドライバーで対応し、300以上のゲームで利用可能。また、Ray Regeneration 1.2も追加され、フレームレート向上と品質改善が図られている。SDK 2.3はゲームおよびCGソフトウェアの開発者向けに公開されており、今後のサポート拡大が期待される。RDNA2対応は2027年初頭の予定。",
+      "links": {
+        "AMD GPUOpen": "https://gpuopen.com/learn/amd-fsr-sdk-2-3-blog/",
+        "CG Channel": "https://www.cgchannel.com/2026/06/fsr-sdk-2-3-makes-fsr-4-1-upscaling-work-on-older-amd-gpus/",
+        "TechPowerUp": "https://www.techpowerup.com/350280/amd-fsr-sdk-v2-3-arrives-with-ray-regeneration-1-2-and-fsr-4-1-1-for-rdna-3"
+      }
+    },
+    {
+      "name": "Adobe Substance 3D Sampler 6.0 リリース - OpenPBR標準対応・材料テンプレート追加",
+      "level": "6",
+      "overview": "Substance 3D Sampler 6.0がリリース。OpenPBRをデフォルト採用し、透過・コート等の新テンプレートやUSD出力、8Kプレビューに対応。",
+      "detail": "Adobe Substance 3D Sampler 6.0（実際のリリースは4月、cgchannel記事は6月29日）の主要変更点が改めて注目されている。最大の変更はOpenPBRシェーディングモデルのデフォルト採用で、従来のAdobe Standard Material（ASM）およびAutodesk Standard Surfaceの後継となる。透明・半透明・コーティング・ファジー・異方性マテリアル向けの新テンプレートが追加。USDおよびUSDZ形式での書き出しにも対応し、パイプライン連携が強化された。プロパティパネルも再設計され、チャンネルごとのフィルタ適用が可能に。さらにHP Z Captisスキャナーとのワンクリック統合や、最大8Kのプレビュー解像度など利便性が大幅に向上。バグフィックスを含む6.02も同時リリースされている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/adobe-releases-substance-3d-sampler-6/",
+        "Adobe リリースノート": "https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/release-notes/version-6-0"
+      }
+    },
+    {
+      "name": "Polygonflow Dash 1.12 リリース - UE5ワールドビルディングツール更新",
+      "level": "5",
+      "overview": "UE5向けシーンレイアウトツールDash 1.12がリリース。オブジェクトの垂直スタック配置など新機能追加でワールドビルド作業が強化。",
+      "detail": "Polygonflowが提供するUnreal Engine 5向けワールドビルディングツール「Dash」のバージョン1.12がリリースされた。最新バージョンでは、シーンをレイアウトする際にオブジェクトを垂直方向にスタックして配置するオプションが追加されたほか、既存のワークフローに関するさまざまな改善が施されている。Dashはスキャッタリング・配置・プロシージャルなシーン構築を支援するツールであり、大規模なオープンワールドやシーン制作において活用されている。Unreal Engine 5のマーケットプレイスを通じて提供されている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/06/check-out-the-new-features-in-ue5-world-building-tool-dash/"
+      }
+    },
+    {
+      "name": "GodotCon Boston 2026 - 7月21-22日開催・CFP受付中",
+      "level": "4",
+      "overview": "GodotCon Boston 2026が7月21-22日にMicrosoft NERDセンターで開催。ワークショップは20日。セッション提案も受付中。",
+      "detail": "Godot Foundationが主催する米国初の本格的なGodotコミュニティカンファレンス「GodotCon Boston 2026」が2026年7月21日・22日にボストンのMicrosoft NERD Center（New England Research and Development）で開催される。7月20日（月）にはハンズオンワークショップも予定。トークはライトニング（約10分）、ショート（約25分）、ロング（約50分）の3形式があり、セッション提案（CFP）も受け付け中。ゲームや3Dプロジェクトの展示エリアも設置される。米国での第2回GodotConとなり、Godotエンジンコミュニティの拡大を示す。",
+      "links": {
+        "GodotCon Boston 公式": "https://conference.godotengine.org/US/2026/",
+        "チケット": "https://tickets.godotengine.org/scene-tree/godotcon-us-2026/"
+      }
+    }
+  ]
+}
