@@ -1,0 +1,188 @@
+{
+  "items": [
+    {
+      "name": "Unreal Engine 5.8 リリース",
+      "level": "9",
+      "overview": "UE5最終メジャー版。MegaLights本番Ready、Lumen Lite（PS5で60fps目標）、Mesh Terrain実験機能、Claude連携MCPプラグイン（実験）追加。",
+      "detail": "Unreal Engine 5.8が正式リリース。主な追加機能：MegaLightsが本番対応（ノイズ大幅低減・パフォーマンス向上）、Lumen Liteは高品質の半分のコストでGIを実現しPS5で60fps達成可能、実験的Mesh Terrainシステムでオーバーハングや洞窟など複雑地形が作成可能、PCGフレームワークの強化、AxFフォーマット計測素材のSubstrate統合、Fog Screen Space Scatteringの実験的追加。また実験的MCPプラグインによりClaudeなどのAIモデルをUEプロジェクトに直接接続し、ワークフローのAI協働が可能になった。UE5はこれが最後の予定メジャーリリースで、Epic Games社はUE6（2027年末Early Access予定）の開発にシフト。",
+      "links": {
+        "Unreal Engine 5.8 公式発表": "https://www.unrealengine.com/news/unreal-engine-5-8-is-now-available",
+        "CG Channel - UE5.8 CGアーティスト向け5つの主要機能": "https://www.cgchannel.com/2026/06/see-5-key-features-for-cg-artists-in-unreal-engine-5-8/",
+        "State of Unreal 2026 トップニュース": "https://www.unrealengine.com/news/state-of-unreal-2026-top-news-from-the-show"
+      }
+    },
+    {
+      "name": "Houdini 22 リリース",
+      "level": "9",
+      "overview": "新Qt/QML UIへの刷新、3D Gaussian Splatの本番対応、MLDeformerのクラウドシム対応、Copernicus地形・海洋ツール強化が主な変更点。",
+      "detail": "SideFXが創立30周年記念キーノートとともにHoudini 22を発表（2026年6月22日）。UI刷新：Qt/QMLベースの完全新設計UIで将来の高度な機能追加の基盤となる。3D Gaussian Splatting：実験的段階から本番品質へ昇格、プロシージャルワークフローでGSを作成・編集・アニメーション・統合できる。Character/CFX：KineFX・APEXリギング改善、ML DeformerをAgent Primitivesに移植、クラウドシミュレーションとの解剖学的正確性の統合。Copernicus強化：テクスチャリング、地形生成、海洋スペクトラム生成の新ツール。さらにQuadRemeshの矩形法、SOP経由でのUSDs構造オーサリング、統合Copernicus地形ハイトフィールドツールセットが追加された。リリース時期は7月中旬頃と予測される。",
+      "links": {
+        "80.lv - Houdini 22 キーノートと新機能": "https://80.lv/articles/everything-you-need-to-know-about-houdini-22",
+        "CG Channel - Houdini 22 スニークピーク": "https://www.cgchannel.com/2026/06/sneak-peek-houdini-22/",
+        "SideFX 公式 Houdini 22 スニークピーク": "https://www.sidefx.com/community/houdini-22-sneak-peek/"
+      }
+    },
+    {
+      "name": "NVIDIA DLSS 4.5 & RTX Kit ニューラルレンダリング",
+      "level": "8",
+      "overview": "DLSS 4.5で第2世代トランスフォーマーモデル搭載のSR・6xマルチフレーム生成を追加。RTX KitはAIを活用したジオメトリ・テクスチャ・照明強化スイート。",
+      "detail": "NVIDIAはCES 2026でDLSS 4.5を発表。Super Resolutionに第2世代トランスフォーマーモデルを採用し画質を向上、Dynamic Multi Frame Generationモードで最大6x補完フレーム生成が可能（400以上のタイトルで対応）。RTX Kit：ニューラルレンダリング技術スイートで、RTX Mega Geometry（密なジオメトリのパストレース効率化）・ReSTIR PT（改良されたリフレクション）・ニューラルテクスチャ圧縮・ACEキャラクターAIを含む。GDC 2026ではUE5開発者向けRTXパフォーマンス強化も発表。SIGGRAPH 2026（7/19-23、LA）では次世代のAI・ニューラルレンダリング技術を展示予定。またRTX PCでのOSS AIツール（llama.cpp、Ollama、ComfyUI）の高速化支援も発表された。",
+      "links": {
+        "NVIDIA DLSS 4.5 発表": "https://developer.nvidia.com/blog/nvidia-dlss-4-5-delivers-super-resolution-upgrades-and-new-dynamic-multi-frame-generation/",
+        "NVIDIA RTX Kit スタートガイド": "https://developer.nvidia.com/blog/get-started-with-neural-rendering-using-nvidia-rtx-kit/",
+        "NVIDIA RTX Neural Rendering 次世代": "https://developer.nvidia.com/blog/nvidia-rtx-neural-rendering-introduces-next-era-of-ai-powered-graphics-innovation/"
+      }
+    },
+    {
+      "name": "SIGGRAPH 2026 開催（7/19-23、ロサンゼルス）",
+      "level": "8",
+      "overview": "7月19〜23日にLAで開催。AI・グラフィックス・ニューラルレンダリング・シミュレーション・ロボティクスの最先端研究・技術が一堂に集まる年次カンファレンス。",
+      "detail": "SIGGRAPH 2026がロサンゼルスで2026年7月19〜23日に開催される。今年のテーマは「芸術・科学・技術の融合」。セッションはAI、ロボティクス、没入型体験、シミュレーション、アニメーション、最先端イノベーションをカバー。注目セッションにはFire and Ash、Stranger Things 5、Toy Story 5などの大型プロダクションのTalksが含まれる。Art GalleryやArt Papersではデジタルアート・インタラクティブメディア・新興技術の最先端作品を展示。Technical Papers Awardsでは生成的画像モデリング、流体シミュレーション、レンダリング、ジオメトリ、機械学習などの画期的研究を表彰。NVIDIAはLA会場でAI・グラフィックス・ニューラルレンダリングの次世代技術を展示予定。",
+      "links": {
+        "SIGGRAPH 2026 公式サイト": "https://s2026.siggraph.org/",
+        "SIGGRAPH 2026 スケジュール概要": "https://s2026.siggraph.org/schedule-at-a-glance/",
+        "NVIDIA SIGGRAPH 2026 コミュニティガイド": "https://forums.developer.nvidia.com/t/a-community-guide-to-siggraph-2026/372757"
+      }
+    },
+    {
+      "name": "Unity 6.2 Unity AI Suite 正式統合",
+      "level": "8",
+      "overview": "Unity 6.2でAssistant・Generator・Inference Engineの3機能によるUnity AI Suiteを統合。コード生成・テクスチャ/スプライト生成・ローカルAI推論がエディタ内で可能に。",
+      "detail": "Unity 6.2にてUnity AI Suiteが正式統合（2025年8月リリース）。主要3機能：①Assistantはエンジン内蔵のLLMチャットAIで、質問への回答・コード生成・アセット一括リネーム・オブジェクト配置が可能。②GeneratorsはStable DiffusionやFluxを活用したスプライト・テクスチャ・マテリアル・アニメーション・サウンド生成ツール。③Inference EngineはSentisの後継で、エディタまたはランタイムでAIモデルをローカル実行可能（HuggingFaceなどからモデルをインポート可）。旧Muse（月30ドル）を廃止しUnity Pointsクレジット制度に移行。Unity CEOは「AIによるコーディング不要化が2026年の最重点領域」と表明。GDC Festival of Gaming（2026年3月）でAI betaを発表した。",
+      "links": {
+        "80.lv - Unity 6.2 AI機能まとめ": "https://80.lv/articles/unity-goes-all-in-on-generative-ai-introducing-a-bunch-of-ai-features-in-6-2-update",
+        "Game Developer - Unity AI tech": "https://www.gamedeveloper.com/programming/unity-says-its-ai-tech-will-soon-be-able-to-prompt-full-casual-games-into-existence-",
+        "CG Channel - Unity AI": "https://www.cgchannel.com/2025/08/unity-rolls-out-unity-ai-in-unity-6-2/"
+      }
+    },
+    {
+      "name": "Reallusion iClone Personal + AI Studio 正式リリース",
+      "level": "7",
+      "overview": "iClone個人向けサブスク開始とAI Studio正式リリース。NVIDIAと共同開発のRTX Renderエンジンが7月末Open Beta予定。Headshot 3もリリース済み。",
+      "detail": "Reallusion（2026年6月23日発表）がiClone Personalサブスクリプションを新たに開始し、AI Studioを正式リリース。AI Studioは3DアーティストのためのAI創作ワークフローで、3Dキャラクター・アニメーション・シーンレンダリングの加速を目的としたHybrid 3D+AIアプローチ。NVIDIAと共同開発のRTX Renderエンジンは7月末にiClone・Character Creator向けの無料アップデートとしてOpen Betaで提供開始予定（パストレース品質をほぼリアルタイムで実現）。2026年4月にHeadshot 3をリリース済み（画像から3Dヘッド再構築の独自AIモデル、AccuFace 2キャプチャ、CCキャラクターWrappingツール等）。同社の2026年ビジョン「Redefining 3D with Hybrid AI」の一環。",
+      "links": {
+        "Reallusion Magazine - iClone Personal & AI Studio": "https://magazine.reallusion.com/2026/06/23/reallusion-unlocks-limitless-creation-iclone-personal-debuts-alongside-ai-studio-official-launch/",
+        "Reallusion 2026 ロードマップ": "https://magazine.reallusion.com/2026/04/08/reallusion-announces-2026-vision-redefining-3d-production-through-the-power-of-hybrid-ai/",
+        "Headshot 3 リリース": "https://magazine.reallusion.com/2026/04/27/reallusion-redefines-digital-double-creation-with-the-launch-of-headshot-3-for-character-creator-5/"
+      }
+    },
+    {
+      "name": "Godot Engine、AIコード貢献を禁止（2026/7/1）",
+      "level": "7",
+      "overview": "Godot Foundationが7/1にコントリビューションポリシーを更新。AIエージェントのPR・バイブコーディング・AIによるコード大量生成を全面禁止。人間レビュー必須。",
+      "detail": "Godot Foundation（2026年6月30日発表・7月1日施行）がコントリビューションガイドラインを改訂し、AIコード貢献を禁止した。禁止事項：AIエージェント自律使用・バイブコーディング、AIによるコードの大量生成、人間同士のコミュニケーションでのAI生成文章使用。許可事項：コード補完・正規表現・検索置換など補助的なAI活用。全PRは人間によるレビューと承認が必要。背景：2026年2月から増加したAIスラムPRがコードレビュアーにとって「消耗・士気低下」となっていたことへの対応。目的はコントリビューターのスキル学習と将来のメンテナー育成、および責任あるコード提供の確保。",
+      "links": {
+        "80.lv - Godot AIコード貢献禁止": "https://80.lv/articles/godot-to-stop-accepting-ai-generated-code-contributions",
+        "Godot Engine 公式ポリシー更新": "https://godotengine.org/article/contribution-policy-2026/",
+        "The Register - Godot bans vibe-coded contributions": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344"
+      }
+    },
+    {
+      "name": "Moonlake 3D Agent - AIがBlenderを自律操作してシーン生成",
+      "level": "7",
+      "overview": "BlenderをマウスとキーボードでAIエージェントが自律操作し、テキスト指示からモデリング・シーン構築・リギングまで実行する3D Agentのベータが公開。",
+      "detail": "Moonlakeが開発中の「Moonlake 3D Agent」のベータ版が公開。同エージェントはBlenderを人間と同様にマウス・キーボードで操作する形でAIが自律制御し、テキストプロンプトから3Dシーン生成を行う。モデリング・マテリアル設定・シーン構築・リギングまで一連のBlenderワークフローをAIが担当する。視覚的UIを直接操作するアプローチはBlenderのPython APIに依存しないため、より柔軟な対応が可能。CGWORLDも本ツールを注目技術として取り上げた。",
+      "links": {
+        "CGWORLD - Moonlake 3D Agent": "https://cgworld.jp/"
+      }
+    },
+    {
+      "name": "Blender 5.2 LTS ベータ公開（7/14正式リリース予定）",
+      "level": "7",
+      "overview": "Geometry Nodesベースの布/髪シミュレーション、Thin Wallモード（葉・紙等の極薄メッシュ対応）、Cyclesテクスチャキャッシュ、Online Asset Library追加。",
+      "detail": "Blender 5.2 LTSがベータ公開（正式リリース2026年7月14日予定）。主な新機能：①Hair/Cloth Dynamicsとして実験的なGeometry Nodesベースの物理シミュレーション追加。②新Fill Toolと新Bevel Nodeの追加。③Thin WallモードをPrincipled BSDFに追加（葉・紙などの極薄ジオメトリをよりフォトリアルにレンダリング）。④Cyclesテクスチャキャッシュによりテクスチャ多用シーンのメモリ使用量低減と起動時間短縮。⑤Online Asset Libraryでリモートライブラリのブラウズと必要時ダウンロードが可能。⑥Sample SoundノードでGeometry Nodes内での音声周波数データ取得が可能。⑦EEVEE次世代でインスタンス処理の最適化（CPU ボトルネックシーンで最大2倍高速化）。⑧HDR・広色域カラースペースのスコープ対応。",
+      "links": {
+        "80.lv - Blender 5.2 LTS Beta": "https://80.lv/articles/blender-5-2-lts-is-now-in-beta",
+        "Blender 公式リリースノート 5.2": "https://developer.blender.org/docs/release_notes/5.2/",
+        "9to5Linux - Blender 5.2 LTS 新機能詳細": "https://9to5linux.com/blender-5-2-lts-promises-new-fill-tool-and-thin-wall-mode-beta-out-now"
+      }
+    },
+    {
+      "name": "CEDEC 2026 開催（7/22-24、パシフィコ横浜）",
+      "level": "7",
+      "overview": "国内最大のゲーム開発者向けカンファレンスCEDEC 2026が7月22〜24日にパシフィコ横浜ノースで現地＋オンライン開催。",
+      "detail": "CEDEC（Computer Entertainment Developer Conference）2026がパシフィコ横浜ノースにて2026年7月22〜24日に開催される。現地とオンラインのハイブリッド形式。CEDECは日本のゲーム開発者にとって年間最大の技術カンファレンスで、ゲームエンジン・グラフィックス・AI・サウンド・UI/UX・プロデューシングなど幅広いセッションが提供される。同じく2026年7月には京都でOPEN GAME FEST 2026（7月11日）も開催予定で、エピックゲームズジャパン等が登壇。CEDEC調査によると2025年にゲーム開発者の約8割が年収上昇を報告。",
+      "links": {
+        "ゲームメーカーズ - CEDEC 2026": "https://gamemakers.jp/",
+        "ファミ通 - CEDEC 2026 開催情報": "https://www.famitsu.com/article/202511/58054"
+      }
+    },
+    {
+      "name": "Cinema 4D 2026.3 + Redshift 2026.7 リリース",
+      "level": "6",
+      "overview": "C4D 2026.3はUVエディタ大幅刷新（シーム編集・スマートアンラップ・ゼロオーバーラップパッキング）とParticle Property Manager追加。Redshift 2026.7はRevit対応。",
+      "detail": "Maxonが2026年6月10日にCinema 4D 2026.3とRedshift 2026.7を同時リリース。Cinema 4D 2026.3の主要更新：①UV Editor刷新としてシーム編集・スマート自動アンラップ・ゼロオーバーラップパッキング・テクセル密度ツール・3DビューポートサポートをUVエディタに追加。②Particle Property Managerで粒子プロパティの作成・表示・編集が容易に。③3種の高度な配置オプション追加。Redshift 2026.7：Revitサポートを追加し建築・産業VIZチームのRevitデータからRedshiftへの直接統合ワークフローが実現。以前のアップデートであるCinema 4D 2026.2（2026年4月）ではSmeat Collider・PCIEバンド幅最適化が追加されていた。",
+      "links": {
+        "80.lv - Cinema 4D 2026.3 & Redshift 2026.7": "https://80.lv/articles/cinema-4d-2026-3-redshift-2026-7-now-available",
+        "Toolfarm - Maxon June 2026 Release": "https://www.toolfarm.com/news/maxon-june-2026/"
+      }
+    },
+    {
+      "name": "Caddis - 全レイヤーにノードグラフを持つモーショングラフィックスツール",
+      "level": "6",
+      "overview": "After Effects風タイムラインに各レイヤー専用ノードグラフを統合した新コンポジットツール。GPU加速・100以上のノード搭載。7/18正式ローンチ予定で現在無料ベータ公開中。",
+      "detail": "モーションデザイナーMike Gaynorが4年間かけて開発した「Caddis」が公開（CG Channelで2026年6月に紹介）。コンポジット・モーショングラフィックスツールで、After Effectsスタイルのタイムラインにノードベースワークフローを統合した独自アプローチ。特徴：各レイヤーを選択するとサイドにノードグラフが表示され、パラメータを接続・プリミティブからエフェクトを構築・エクスプレッションを視覚的ロジックに置換できる。100以上のノードを搭載。GPU加速でmacOS 12.0+とWindows 10+に対応。現在無料ベータ公開中、2026年7月18日に正式ローンチ予定（アーリーアダプター価格$99、通常$129）。",
+      "links": {
+        "CG Channel - Caddis ノードグラフツール": "https://www.cgchannel.com/2026/06/new-motion-graphics-tool-caddis-puts-a-node-graph-in-every-layer/",
+        "Caddis 公式サイト": "https://www.caddis.app/"
+      }
+    },
+    {
+      "name": "GameMaker に Claude Code を統合、自然言語でゲーム開発が可能に",
+      "level": "6",
+      "overview": "GameMakerが新CLIツールチェーンGM-CLIを導入し、Claude Codeを統合。ターミナル内で自然言語プロンプトによりルーティン開発タスクを処理可能に。",
+      "detail": "GameMakerが開発者の好みの環境での作業を可能にする新コマンドラインツールチェーン「GM-CLI」をリリース（Game Developer誌が2026年4月に報道）。Claude Codeをその中に統合し、ターミナル内で自然言語プロンプトによりルーティン開発タスクを処理できる「バイブコーディング」スタイルのワークフローを実現。2026年春のGameMaker更新ロードマップでは、プロジェクト全体への更なるAI統合も予告されている。",
+      "links": {
+        "Game Developer - GameMaker と Claude Code 統合": "https://www.gamedeveloper.com/production/gamemaker-incorporates-claude-code-to-enable-ai-assisted-workflows",
+        "80.lv - GameMaker Spring 2026 Update": "https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update"
+      }
+    },
+    {
+      "name": "Sparseal CozyBlanket Pro - AIリアルタイムリトポロジーツール発表",
+      "level": "6",
+      "overview": "リアルタイムAIトポロジー予測・UV展開・GPU加速パッキングを統合したリトポツール。サードパーティAIサービス非依存の独自AIを開発。クローズドベータ中。",
+      "detail": "SparSeal（CozyBlanket・Uniform・Wafer等の開発元）が2026年6月3日に「CozyBlanket Pro」を発表。次世代メッシュ最適化・クリーンアップツールキット。主要機能：①トポロジー予測AI：高・低ポリメッシュを継続分析してリアルタイムにオートコンプリートサジェストを提供。②複数ワークフローモード、頂点/エッジ/フェース編集ツール、対称性サポート、高速ビューポート。③UV展開・パッキング：3DビューポートでシームマークとUV変換が可能、GPUアクセラレーションで数千アイランドを高速パッキング。トポロジー予測アルゴリズムとアンラップアルゴリズムはすべて独自開発（既存ライブラリ・サードパーティAI推論サービス非使用）。現在クローズドベータ、オープンベータへの早期アクセス申し込みを受付中。",
+      "links": {
+        "80.lv - Sparseal CozyBlanket Pro": "https://80.lv/articles/sparseal-announces-new-ai-assisted-retopology-tool",
+        "Sparseal 公式 CozyBlanket Pro": "https://sparseal.com/cozyblanket-pro/"
+      }
+    },
+    {
+      "name": "Maxon Autograph 個人向け無償公開",
+      "level": "6",
+      "overview": "MaxonがAfter Effects代替のモーショングラフィックスツールAutographを個人クリエイター向けに無償提供開始。プロ向けサブスクも継続。",
+      "detail": "Maxonが2026年4月にモーショングラフィックスソフトウェアAutographを個人向けに無償公開（CG Channel 2026年4月報道）。Autographはノードベースのタイムライン型モーショングラフィックスツールで、After Effectsの代替として開発されてきた。Maxonへの買収後に個人クリエイター向けの無償プランを開始することで普及を加速。プロ・スタジオ向けのサブスクリプションプランは引き続き提供。Cinema 4D・Redshiftとのエコシステム統合も強化される。",
+      "links": {
+        "CG Channel - Maxon Autograph 無償公開": "https://www.cgchannel.com/2026/04/maxon-releases-motion-graphics-software-autograph-for-free/",
+        "80.lv - Autograph 無償化": "https://80.lv/articles/autograph-by-maxon-now-available-for-free"
+      }
+    },
+    {
+      "name": "SynthEyes 2026 リリース",
+      "level": "5",
+      "overview": "マッチムービングツールSynthEyes 2026がリリース。Mocha Point Trackerを搭載し困難なショットのトラッキング精度が向上。アクティブサブスク無料更新。",
+      "detail": "Andersson TechnologiesがSynthEyes 2026をリリース（80.lvが報道）。主な追加機能はMocha Point Trackerで、通常の自動トラッキングが困難なショットにおいて精度の高いポイントトラッキングを実現。SynthEyesはVFX・映像制作向けマッチムービングの定番ツールとして広く利用されており、アクティブサブスクリプションユーザーは無料でアップグレード可能。",
+      "links": {
+        "80.lv - SynthEyes 2026 リリース": "https://80.lv/articles/syntheyes-2026-released"
+      }
+    },
+    {
+      "name": "Gaea 2.3 リリース・Gaea 3.0 Early Access 7月予定",
+      "level": "5",
+      "overview": "QuadSpinnerの地形生成ツールGaea 2.3が正式リリース。次世代のGaea 3.0が2026年7月にEarly Access、9月頃に安定版リリース予定。",
+      "detail": "QuadSpinnerがGaea 2.3をリリース（CG Channelが2026年6月に報道）。Gaeaはゲーム・VFX・アーキテクチャ向けの手続き的地形生成ツール。次期バージョンGaea 3.0は2026年7月にEarly Accessが予定されており、安定版リリースは9月頃を見込む。",
+      "links": {
+        "CG Channel - Gaea 2.3 リリース": "https://www.cgchannel.com/2026/06/quadspinner-releases-gaea-2-3/"
+      }
+    },
+    {
+      "name": "3DCoat 2026 - 新GPUテクスチャリングシステム搭載",
+      "level": "5",
+      "overview": "PilgwayがGPUベースの新テクスチャリングシステムを搭載した3DCoat 2026と3DCoatTextura 2026を同時リリース。スカルプト・ペイント・リトポの統合ツール最新版。",
+      "detail": "Pilgwayが3DCoat 2026と3DCoatTextura 2026を同時リリース（CG Channel 2026年6月報道）。3DCoatはスカルプティング・リトポロジー・UVマッピング・テクスチャリング・レンダリングを統合した3Dツール。2026版では新しいGPUベースのテクスチャリングシステムが主要更新点。3DCoatTextura 2026はテクスチャリングに特化したスタンドアロン版。",
+      "links": {
+        "CG Channel - 3DCoat 2026 リリース": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/"
+      }
+    }
+  ]
+}
