@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "name": "Box3D - Erin Catto氏による新オープンソース3D物理エンジン",
+      "level": "8",
+      "overview": "Box2D開発者Erin Catto氏が20年の知見を注いだ新3D物理エンジンをMITライセンスで公開。",
+      "detail": "Box2Dの生みの親であるErin Catto氏が、C17で書かれたオープンソース・MITライセンスの3D物理エンジン「Box3D」を発表。Box2Dの設計思想を3次元に拡張したもので、Half-Life: Alyxの物理エンジン「Rubikon」の派生である「Rubikon-Lite」の一部コードを継承している。クロスプラットフォームの決定性（デターミニズム）、SIMDによる接触解決、高速移動物体向けの連続衝突判定（CCD）、凸包・カプセル・球・三角メッシュ・ハイトフィールドなど多様な衝突形状、リボリュート・プリズマティック・距離・ホイール・ウェルドの各種ジョイントをサポート。現時点ではアルファ版だが、Facepunch Studiosの「s&box」（Garry's Modの後継）や自作エンジンEsoterica、1000人規模の宇宙マルチプレイヤーゲームでの採用が既に確認されている。GitHubで公開中。",
+      "links": {
+        "80.lv - Box3D 新オープンソース3D物理エンジン": "https://80.lv/articles/box3d-new-open-source-3d-physics-engine",
+        "Box2D公式 - Box3D発表ブログ": "https://box2d.org/posts/2026/06/announcing-box3d/",
+        "Phoronix - Box3D Debuts": "https://www.phoronix.com/news/Box3D-Open-Source-3D-Physics"
+      }
+    },
+    {
+      "name": "Foundry Mari 8.0 オープンベータ公開",
+      "level": "6",
+      "overview": "3Dテクスチャペイントツール最新版がオープンベータ公開、50以上の新規ノードを追加。",
+      "detail": "FoundryがテクスチャペイントツールMariの最新版「Mari 8.0」をオープンベータとして公開（2026年7月2日）。ノードグラフに50以上の新規ノードを追加し、その多くは数学演算用だが、A/B比較、カラーグレーディング、ヘックスタイル状テクスチャ生成向けの新ノードも含まれる。正式版のリリース時期は未発表だが、過去のアップデート実績から3〜6ヶ月後になると見込まれる。",
+      "links": {
+        "CG Channel - Foundry releases Mari 8.0 in open beta": "https://www.cgchannel.com/2026/07/foundry-releases-mari-8-0-in-open-beta/"
+      }
+    },
+    {
+      "name": "Foundry Nuke 17.1 オープンベータ公開",
+      "level": "6",
+      "overview": "コンポジットツールNukeの17.1がオープンベータ公開、正式版は数ヶ月後を予定。",
+      "detail": "Foundryがコンポジットツール「Nuke」および関連製品NukeX、Nuke Studioの最新版「17.1」をオープンベータとして公開（2026年7月2日）。Nuke 17.0（2026年2月リリース）以降のマイナーアップデートで、ワークフロー改善や安定性向上が中心。正式版のリリース時期は未発表だが、過去の傾向から数ヶ月後になる見込み。",
+      "links": {
+        "CG Channel - Foundry releases Nuke 17.1 in open beta": "https://www.cgchannel.com/2026/07/foundry-releases-nuke-17-1-in-open-beta/"
+      }
+    },
+    {
+      "name": "AION 2、9月にPC向けグローバルローンチへ",
+      "level": "5",
+      "overview": "NCSOFTの新作MMORPG「AION 2」が9月に世界同時ローンチへ、日本語クライアントも対応。",
+      "detail": "NCSOFTの新作MMORPG「AION 2」について、80.lvが規模・カスタマイズ・陣営間戦争を軸にしたグローバル展開の特集記事を掲載（2026年7月3日）。PC専業・基本無料でSteamおよびNCSOFT独自ランチャー「PURPLE」から配信され、北米・南米・欧州・アジアにリージョンサーバーを用意。日本語を含む10言語のクライアントに対応する。本作は2025年11月に韓国・台湾で先行稼働済みで、今回のグローバル展開はその世界拡大にあたる。3Dフライトや空中戦、200以上のダンジョンなど大規模なコンテンツが特徴。",
+      "links": {
+        "80.lv - AION 2 Is Betting on Scale, Customization, and Faction Warfare": "https://80.lv/articles/aion-2-is-betting-on-scale-customization-and-faction-warfare-for-its-global-launch"
+      }
+    },
+    {
+      "name": "Fab、SF砂漠都市向けUE用アセット120点を期間限定無料配布",
+      "level": "3",
+      "overview": "Epic社Fabでシリコン砂漠都市向けUE用モジュラー3Dアセット120点が7/14まで無料配布。",
+      "detail": "Epic GamesのマーケットプレイスFabにて、Laya Design制作のUnreal Engine向けSF砂漠都市キット「Science Fiction Desert City Kit」が2026年7月14日まで期間限定で無料配布中。120点のモジュラー3Dアセットが含まれ、SF風の砂漠都市を構築できる。",
+      "links": {
+        "CG Channel - Get 120 free modular 3D assets": "https://www.cgchannel.com/2026/07/get-120-free-modular-3d-assets-for-building-a-desert-city/"
+      }
+    }
+  ]
+}
