@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "name": "「パルワールド」正式版1.0がリリース",
+      "level": "8",
+      "overview": "「パルワールド」正式版1.0が本日リリース。大型リニューアルで新パルや水上建築が追加。",
+      "detail": "ポケットペア開発の「パルワールド」正式版「1.0」が2026年7月10日12:30頃に配信された。アーリーアクセス開始から約2年半を経ての正式リリースで、大量の新種パル、広大な新エリア、水上建築要素、ストーリー仕立ての連続ミッションなど、これまでのゲーム全体を含む大規模リニューアルが実施された。バトルシステムも大幅に進化しており、Steamでは記念セールとして過去最大となる30%オフが実施されている。",
+      "links": {
+        "ファミ通": "https://www.famitsu.com/article/202606/77226",
+        "AUTOMATON": "https://automaton-media.com/articles/newsjp/20260709-454051/",
+        "4Gamer": "https://www.4gamer.net/games/574/G057444/20260605065/"
+      }
+    },
+    {
+      "name": "EVE Online開発元、ゲームエンジン「Carbon」を完全オープンソース化",
+      "level": "7",
+      "overview": "EVE Online開発のFenris社が自社ゲームエンジン「Carbon」を完全オープンソース化。",
+      "detail": "MMO「EVE Online」および「EVE Frontier」を手がけるFenris Creations（旧CCP Games）が、2026年7月1日、自社開発のクロスプラットフォームゲームエンジンフレームワーク「Carbon」を完全オープンソース化したと発表した。20年以上かけて開発されてきたエンジンで、物理演算・パスファインディングを担う「Destiny」やグラフィックスモジュール「Trinity」など20以上のモジュールがGitHub上で公開された。数千人規模の同時対戦を実現してきた技術基盤が広く開発者に開放される。",
+      "links": {
+        "PC Gamer": "https://www.pcgamer.com/games/mmo/eve-online-studio-fenris-follows-through-on-yearslong-promise-to-make-its-in-house-game-engine-fully-open-source/",
+        "GamingOnLinux": "https://www.gamingonlinux.com/2026/07/carbon-engine-framework-powering-eve-online-is-now-open-source/",
+        "Fenris Creations公式": "https://fenris.com/news/2026/fenris-creations-opens-carbon-engine-to-the-world"
+      }
+    },
+    {
+      "name": "SIGGRAPH 2026、ゲーム開発者向け新企画「Games Summit」を開催",
+      "level": "7",
+      "overview": "SIGGRAPH 2026でゲーム開発者向け新企画「Games Summit」が7月19日開幕。",
+      "detail": "2026年7月19日から23日にロサンゼルスで開催される「SIGGRAPH 2026」において、初日7月19日に新設のゲーム開発者向けトラック「Games Summit」が開催される。アクセシビリティ、オーディオ、VFX、パイプラインなど幅広いテーマを扱い、Activisionによるモーション酔い低減の講演や、Electronic ArtsによるBattlefield 6の破壊表現システムに関する講演、映画とゲームパイプライン双方でのOpenUSD活用を議論するラウンドテーブルなどが予定されている。",
+      "links": {
+        "PR Newswire": "https://www.prnewswire.com/news-releases/siggraph-2026-introduces-the-games-summit-a-new-one-day-home-for-game-developers-302820965.html",
+        "SIGGRAPH2026公式": "https://s2026.siggraph.org/program/games/"
+      }
+    },
+    {
+      "name": "CEDEC2026、7月22～24日にパシフィコ横浜ノースで開催",
+      "level": "6",
+      "overview": "CEDEC2026が7月22～24日開催決定。約200セッションを7分野で展開。",
+      "detail": "国内最大級のゲーム開発者向けカンファレンス「CEDEC2026」が2026年7月22日から24日までの3日間、パシフィコ横浜ノースにて現地・オンラインのハイブリッド形式で開催される。エンジニアリング、プロダクション、ビジュアルアーツ、ビジネス&プロデュース、サウンド、ゲームデザイン、アカデミックの7分野で約200セッションが実施予定で、受講登録の受付とタイムテーブルが既に公開されている。",
+      "links": {
+        "CEDEC公式": "https://cedec.cesa.or.jp/2026/timetable/",
+        "gamebiz": "https://gamebiz.jp/news/426928"
+      }
+    },
+    {
+      "name": "『アサシン クリード ブラック フラッグ RE:シンクロ』が発売",
+      "level": "6",
+      "overview": "『アサシン クリード ブラック フラッグ RE:シンクロ』が7月9日に発売開始。",
+      "detail": "Ubisoftが手がける名作リメイク『アサシン クリード ブラック フラッグ RE:シンクロ』が2026年7月9日に発売された。PS5/Xbox Series X|S版は同日0:00、PC版（Steam/Epic Games Store/Ubisoft Connect）は同日23:00より配信開始。カリブ海を舞台にした自由と略奪の物語をグラフィック・操作性ともに現代水準に刷新して蘇らせている。",
+      "links": {
+        "4Gamer発売時刻情報": "https://www.4gamer.net/games/002/G100200/20260706014/",
+        "4Gamerプレイレポート": "https://www.4gamer.net/games/002/G100200/20260708024/"
+      }
+    },
+    {
+      "name": "『デジモンストーリー タイムストレンジャー』Switch/Switch2版が発売",
+      "level": "5",
+      "overview": "『デジモンストーリー タイムストレンジャー』Switch/Switch2版が発売。",
+      "detail": "バンダイナムコエンターテインメントは2026年7月9日、育成RPG『デジモンストーリー タイムストレンジャー』のNintendo Switch 2/Nintendo Switch版を発売した。シリーズ最多となる450体以上のデジモンが登場し、パフォーマンスモードとクオリティモードの2種のグラフィックモードに対応。発売を記念し、現実の新宿を舞台にした実写ローンチトレーラーも公開された。PS5/Xbox/Steam版は2025年10月に先行発売済み。",
+      "links": {
+        "ファミ通": "https://www.famitsu.com/article/202607/80855",
+        "4Gamer": "https://www.4gamer.net/games/981/G098145/20260709002/"
+      }
+    },
+    {
+      "name": "「Unreal Fest Tokyo 2026」11月3～4日に開催決定、CFP募集開始",
+      "level": "5",
+      "overview": "「Unreal Fest Tokyo 2026」が11月3～4日、東京ビッグサイトで開催決定。",
+      "detail": "Epic Gamesは、Unreal Engine関連の国内最大イベント「Unreal Fest Tokyo 2026」を2026年11月3日（火・祝）・4日（水）に東京ビッグサイトTFTホールにて開催すると発表した。前回2025年は過去最大の約1,800人が来場しており、今回はセッション数を拡大するとともに登壇者の公募（Call for Proposals）を開始。応募締切は7月31日23:59（日本時間）で、来場者登録は8月開始予定。",
+      "links": {
+        "Unreal Engine公式": "https://www.unrealengine.com/events/unreal-fest-tokyo-2026"
+      }
+    },
+    {
+      "name": "Otoy、GPUレンダラー「OctaneRender 2026.4」を公開",
+      "level": "5",
+      "overview": "Otoyが「OctaneRender 2026.4」公開。Gaussian Splatsレンダリング強化。",
+      "detail": "OtoyはGPUプロダクションレンダラー「OctaneRender」の最新版「2026.4」を2026年7月7日にリリースした。2026年リリースサイクルで導入された3D Gaussian Splatsのレンダリング対応やNeural Rendering Cacheといった機能をさらに拡張しており、リアルタイムかつ高品質なレンダリングワークフローの強化が図られている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/07/otoy-releases-octanerender-2026-4/"
+      }
+    },
+    {
+      "name": "Reallusion、AIデジタルダブル生成ツール「Headshot 3.1」を公開",
+      "level": "4",
+      "overview": "ReallusionがHeadshot 3.1公開。テクスチャ編集機能を新規追加。",
+      "detail": "ReallusionはCharacter Creator用プラグイン「Headshot」の最新版「3.1」を2026年7月7日に公開した。生成したディフューズマップをレイヤーベースのブラシで直接編集できる新しいテクスチャ編集ツールセットが追加され、外部の画像編集ソフトへの書き出しなしに3Dキャラクターのテクスチャをビューポート上で調整できるようになった。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/07/reallusion-releases-headshot-3-0/"
+      }
+    },
+    {
+      "name": "Blender用リアルタイムテクスチャ同期アドオン「TXTRCast」公開",
+      "level": "4",
+      "overview": "Blender用テクスチャ同期アドオン「TXTRCast」が無料公開。",
+      "detail": "使い慣れたペイントソフトで描いた筆致をBlenderの3Dモデル上へリアルタイムに反映できる無料アドオン「TXTRCast」が公開された。Clip Studio PaintやPhotoshopとの連携に対応し、Windows 10/11およびBlender 4.0以降で動作する。テクスチャペイント作業とモデル確認の往復を減らし、ペイントソフトの使い勝手を保ったままBlenderでの3D制作に組み込める点が特徴。",
+      "links": {
+        "80.lv": "https://80.lv/articles/free-blender-tool-for-real-time-texture-painting-with-any-software"
+      }
+    }
+  ]
+}
