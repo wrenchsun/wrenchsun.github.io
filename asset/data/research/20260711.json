@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "name": "Cygames『Project Awakening』開発本格化、内製エンジンから「UE5」に変更",
+      "level": "7",
+      "overview": "Cygamesが『Project Awakening』の開発状況を公開。エンジンをUE5に変更し本格始動。",
+      "detail": "Cygamesは7月10日、メディアCGWORLDのインタビューを通して大型オープンワールド作品『Project Awakening』の開発状況を明らかにした。2016年の発表から約10年、開発の比重がハイエンドコンシューマー開発組織「デザイン4部」で非常に大きくなっており、ようやくゲームのコアとなる部分が完成しつつあるという。当初は内製ゲームエンジン「Cyllista Game Engine」の初採用作品になるとされていたが、今回のインタビューで汎用エンジンの「Unreal Engine 5」を採用していることが判明。ビジュアル面では「ハイパーフォトリアル」を目指し、13世紀ごろのヨーロッパをベースとした地形や、高精細な3Dスキャン機材でつくり直したキャラクター、『グランブルーファンタジー リリンク』のノウハウを活かした重厚なモーションが特徴とされ、「Game of the Year」獲得を本気で目指すという意気込みも語られた。",
+      "links": {
+        "AUTOMATON": "https://automaton-media.com/articles/newsjp/20260710-454413/",
+        "CGWORLD(インタビュー元記事)": "https://cgworld.jp/special-feature/202607-cygames.html"
+      }
+    },
+    {
+      "name": "Epic Games、写真測量ソフト「RealityScan 2.2」公開 ─ AMD GPUに完全対応",
+      "level": "5",
+      "overview": "RealityScan 2.2公開。AMD GPU本格対応、NVIDIAとの混在環境も利用可能に。",
+      "detail": "Epic Gamesはフォトグラメトリ(写真測量)ソフトウェア「RealityScan」最新版2.2をリリースした。これまでNVIDIA GPUのみだったGPUアクセラレーションが、RDNA3/RDNA4アーキテクチャ搭載のAMD製GPUにも対応。Radeon Pro W7000シリーズ、Radeon AI Pro 9000シリーズ、Radeon RX 7000/9000シリーズ、Ryzen AI Max Pro(Strix Halo)などのハードウェアで、シーン再構築パイプラインの全工程がNVIDIAと同等の速度で処理可能になった。1台のマシンでAMDとNVIDIA双方のGPUを混在させて使うこともできる。現時点ではWindows版のみの対応で、サーバー向けCLI版などで必要となるLinux対応は今後提供予定。あわせて360度カメラのエクイレクタングラー映像をRealityScan向け形式に変換する無料ツール「Pano2Views」も公開された。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/2607-03-realityscan.html",
+        "CG Channel": "https://www.cgchannel.com/2026/06/epic-games-releases-realityscan-2-2-with-amd-gpu-support/"
+      }
+    },
+    {
+      "name": "SideFX、Houdini制作事例『トロール2』VFXメイキング動画を公開",
+      "level": "4",
+      "overview": "『トロール2』のVFXメイキング公開。Vellumの心臓表現やRBD破壊、KineFX樹木制御を解説。",
+      "detail": "SideFXは映画『トロール2』のVFX制作事例を紹介するメイキング動画を公開した。巨大なトロールの心臓の鼓動表現はVellumのソフトボディシミュレーションのみで構築されており、CHOPsで作成した波形をVellum Constraint PropertiesのRest Length Scaleへ入力することで収縮・拡張を再現。心臓に付着する土塊はVellum Grainsではなく回転を伴うMPM(Material Point Method)を用いることで、より自然な崩れ方を実現している。寮の建物破壊では、コンクリート・木材・レンガ・漆喰など素材ごとにFractureを適用し、RBD Constraints From RulesとRBD Constraint Propertiesを組み合わせた階層的なRBDシミュレーションで説得力のある崩壊を表現。爆風で揺れる樹木の表現には、Vellumより効率的なKineFXを使用し、SpeedTreeから書き出した骨格階層をFor Eachループで再構築、枝先ほど強く揺れる自然な風の動きを作り出している。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202607-Houdini-Troll2.html"
+      }
+    },
+    {
+      "name": "Godot向けUE風マテリアルレイヤリングツール、開発者が無償公開へ",
+      "level": "4",
+      "overview": "Godot用UE風マテリアルブレンディングツールが数週間以内に無料公開予定。",
+      "detail": "開発者Foyezes氏が、Unreal Engineのレイヤリングシステムのように、Godot上で任意の数のマテリアルを大きな制限なくブレンドできるツールをアルファ版として開発しており、数週間以内の無料公開を予定していると80.lvが報じた。複数のマテリアルを1つの大きなシェーダーへ統合する仕組みのため、パフォーマンスは使用するマテリアルの複雑さに依存する。レイヤリング用途に限らず、通常のShaderMaterialとして単体利用することも可能で、Godot Asset Storeでの公開が予定されている。",
+      "links": {
+        "80.lv": "https://80.lv/articles/unreal-engine-inspired-material-layering-system-for-godot"
+      }
+    },
+    {
+      "name": "京都のゲーム開発カンファレンス「OPEN GAME FEST 2026」、本日7/11開催",
+      "level": "5",
+      "overview": "インディーゲーム展示・カンファレンス「OPEN GAME FEST 2026」が京都で本日開催。",
+      "detail": "ゲームメーカーズによると、京都のゲーム開発カンファレンス&インディーゲーム展示会「OPEN GAME FEST 2026」が2026年7月11日(土)に京都コンピュータ学院で開催される。入場無料のイベントで、エピック ゲームズ ジャパンやPhoenixxなど複数の企業によるセッションやハンズオンが実施される予定。ゲーム開発に関する最新情報や技術交流の場として、地元京都を中心としたインディー開発者コミュニティの参加が見込まれている。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_06_05_139014/"
+      }
+    }
+  ]
+}
