@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "name": "『EVE Online』のゲームエンジン「Carbon」がオープンソース化",
+      "level": "8",
+      "overview": "23年の実績を持つCarbon EngineがMITライセンスで公開された。",
+      "detail": "『EVE Online』の開発元Fenris Creations(旧CCP Games)は、同作を23年間支えてきた自社ゲームエンジン「Carbon」をGitHub上でオープンソース化した。2024年の計画発表を経て実現したもので、コアとなるTrinity、Destiny、Core、Resources、IO、Scheduler、Audio、Pathfinderなど33の公開リポジトリが用意されている。大半のコードはMITライセンスで提供され、空間音響クラスタリングモジュールはApache License 2.0、IOモジュールはPython Software Foundation Licenseと一部モジュールごとにライセンスが異なる。C++を中心にPython・C・CMakeを組み合わせた構成で、商用ゲームや新規MMOの開発にも利用可能。Fenrisは透明性の向上とコミュニティ信頼の強化、外部からの技術革新の促進を目的に掲げ、コントリビューションガイドラインやテスト要件、LLM生成コードの開示義務を含むガバナンス体制を整備している。",
+      "links": {
+        "ゲームメーカーズ": "https://gamemakers.jp/article/2026_07_10_140980/",
+        "GIGAZINE": "https://gigazine.net/news/20260709-eve-online-carbon-engine-open-source/"
+      }
+    },
+    {
+      "name": "Chaos、Maya版「V-Ray 7.4」を公開 ─ AMD GPUレンダリングに対応",
+      "level": "7",
+      "overview": "V-Ray 7.4がAMD GPU対応に加えBifrostと3DGS描画を強化した。",
+      "detail": "Chaosは、VFX・アニメーション・モーショングラフィックス制作で利用されるレンダラー「V-Ray」のMaya版最新アップデート「V-Ray 7 for Maya Update 4(7.4)」をリリースした。AMDのHIP(Heterogeneous-Compute Interface for Portability)フレームワークを採用し、これまでNVIDIA GPU限定だったGPUレンダリングをAMD GPUでも利用可能にした。レンダリング速度はWindowsで最大13%、Linuxで最大6%向上。MayaのBifrostツールセットとの連携や3D Gaussian Splatsのレンダリング対応も強化されている。新機能として、実際の内部ジオメトリを作らずに窓越しにリアルな室内奥行きを表現できる新テクスチャ「VRayParallaxTex」による視差インテリア表現も追加された。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/07/chaos-releases-v-ray-7-4-for-maya/"
+      }
+    },
+    {
+      "name": "SIGGRAPH 2026、ゲーム開発者向け新設「Games Summit」を7/19開催",
+      "level": "6",
+      "overview": "LA開催のSIGGRAPH 2026にゲーム特化の新セッションが追加された。",
+      "detail": "米ロサンゼルスで7月19日～23日に開催されるSIGGRAPH 2026において、ゲーム開発者向けの新しい1日限定トラック「Games Summit」が7月19日(日)に新設されることが発表された。大手スタジオからインディーまで幅広いスタジオが参加し、アクセシビリティ、オーディオ、パフォーマンスキャプチャ、ゲーム開発の経済性など、ゲームがどう作られ、どこへ向かうのかを議論するセッションが行われる。従来からのリアルタイムレンダリングに関する技術的な内容に加え、開発現場が直面する広範なテーマも扱う。会期中には「Advances in Real-Time Rendering in Games」など看板コースも予定され、Activision、EA SEED、ソニー・インタラクティブエンタテインメント、IO Interactive、Robloxなどの講師が登壇する。展示は7月21日～23日に実施。",
+      "links": {
+        "SIGGRAPH 2026": "https://s2026.siggraph.org/siggraph-2026-introduces-the-games-summit-a-new-one-day-home-for-game-developers/",
+        "PR Newswire": "https://www.prnewswire.com/news-releases/siggraph-2026-introduces-the-games-summit-a-new-one-day-home-for-game-developers-302820965.html"
+      }
+    },
+    {
+      "name": "『リバース：1999』×『Atomic Heart』コラボが7月23日開始",
+      "level": "4",
+      "overview": "BLUEPOCHが新キャラ「双子」と「ノラ」登場のコラボを発表した。",
+      "detail": "BLUEPOCHは、世紀末タイムリバースRPG『リバース：1999』において、Mundfish開発の『Atomic Heart』とのコラボレーションを7月23日より実施すると発表した。ライブ配信内で発表されたもので、新キャラクターとして人型ボディガード「双子(The Twins)」と修理キャビネットの敵役「ノラ(Nora)」が登場し、Atomic Heartの並行世界を舞台にしたオリジナルストーリーが描かれる。あわせて110連以上の無料ガチャ、無料マンスリーパス、無料衣装などの記念報酬も配布される。ゲームエンジンやレンダリング技術そのものの発表ではないが、大型IPコラボとして開発体制・パイプライン面でも注目度が高い。",
+      "links": {
+        "DayOne": "https://playday.one/2026/07/10/reverse-1999-x-atomic-heart-collab-begins-23-july/",
+        "finalweapon": "https://finalweapon.net/2026/07/10/reverse-1999-x-atomic-heart-collaboration-update-launches-july-23/"
+      }
+    },
+    {
+      "name": "Unity、韓国ソウルで技術カンファレンス「Unite 2026」を7月21日開催",
+      "level": "4",
+      "overview": "Unityの技術カンファレンスUnite 2026がソウルで開催される。",
+      "detail": "Unityは、韓国・ソウルにて7月21日に開発者向けカンファレンス「Unite 2026」を開催すると発表した。最新のUnityテクノロジーや実際の開発事例を紹介する1日がかりのイベントで、Unity 6.5世代のレンダリング・2D・アニメーション・物理演算まわりの最新アップデートを踏まえたセッションが予定されている。アジア地域の開発者コミュニティ向けに技術交流の場を提供する狙いがある。",
+      "links": {
+        "Unity": "https://unity.com/events/unite-2026"
+      }
+    },
+    {
+      "name": "台湾最大級のゲーム開発者会議「TGDF 2026」が7/15開催、東映ゲームズ登壇",
+      "level": "4",
+      "overview": "台北のTGDF2026に東映ゲームズが事業戦略セッションで登壇する。",
+      "detail": "台北で開催されるゲーム開発者向けカンファレンス「Taipei Game Developers Forum(TGDF) 2026」が今年で15回目の節目を迎える。現地セッションは7月15日～16日に台北新境(Taipei New Horizon)で、オンラインセッションは7月18日～19日にTwitchで実施される。プログラミング、ビジュアルアート、ゲームデザイン、オーディオ、ナラティブ、マーケティング、事業戦略、VR/AR、AIワークフローなど3トラック30～40名規模の講演が予定されている。日本からは東映ゲームズが参加し、事業戦略をテーマにしたセッションで登壇する。",
+      "links": {
+        "4Gamer": "https://www.4gamer.net/games/991/G999104/20260708042/",
+        "TGDF公式": "https://2026.tgdf.tw/en"
+      }
+    },
+    {
+      "name": "Autodesk、CEDEC2026のスポンサーセッション情報を公開",
+      "level": "4",
+      "overview": "AutodeskのCEDEC2026講演内容が判明、FF14やプラグマタも登場。",
+      "detail": "CGWORLDによると、Autodeskは7月22日～24日にパシフィコ横浜ノースおよびオンラインで開催される「CEDEC2026」におけるスポンサーセッション情報を公開した。『ファイナルファンタジーXIV: 白銀のワンダラー』や『プラグマタ』の制作事例を扱うセッションのほか、AI動画生成ツール「Flow」のプロダクション活用を紹介する講演も予定されている。ゲーム制作パイプラインにおけるAutodeskツール群の実践的な活用事例が中心となる見込み。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/03-2607-autodeskcedec.html"
+      }
+    },
+    {
+      "name": "Godot向け道路生成ツールが交差点の車線表現に対応",
+      "level": "3",
+      "overview": "Road Generatorが更新され交差点への車線追加が可能になった。",
+      "detail": "Godotエンジン向けの道路生成プラグイン「Road Generator」(開発者TheDuckCow)がアップデートされ、交差点に対して車線(トラフィックレーン)を表現できる機能が新たにマージされた。コミュニティからの貢献によって実現した改善で、プロシージャルな道路網構築の表現力向上に寄与する。インディー開発者を中心に活用が見込まれる小規模だが実用的なアップデート。",
+      "links": {
+        "80.lv": "https://80.lv/articles/godot-road-generator-now-features-better-procedural-intersections"
+      }
+    }
+  ]
+}
