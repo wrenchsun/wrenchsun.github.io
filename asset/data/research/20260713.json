@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "name": "NVIDIA、モーション生成AIフレームワーク「GPC」をSIGGRAPH 2026で発表",
+      "level": "8",
+      "overview": "人間の動きをトークン化しTransformerで次動作を予測する生成AI基盤。600時間超の学習で転倒からの復帰等も自律生成する",
+      "detail": "NVIDIAの研究チームが発表した「GPC（Generative Pretrained Controllers）」は、LLMが単語をトークン化するのと同様に人間のモーションをトークン化し、次トークン予測によりキャラクターやロボットの物理的挙動を生成するフレームワーク。600時間超のモーションデータで事前学習されており、明示的にプログラムされていない転倒からの復帰動作なども即興的に生成できる汎用性を獲得している。インタラクティブ制御向けに自然かつ物理的根拠のある動きを生成でき、ゲームキャラクターのアニメーションやヒューマノイドロボット制御への応用が期待される。SIGGRAPH 2026（7/19～23、ロサンゼルス）で論文発表とリアルタイムデモが行われる予定。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202607-NVIDIA-GPC.html",
+        "GPCプロジェクトページ": "https://yi-shi94.github.io/gpc-page/"
+      }
+    },
+    {
+      "name": "Blender 5.2 LTS、7月14日正式リリースへ ─ ベータ公開中",
+      "level": "7",
+      "overview": "新Fillツール、Bevelノード、XPBDソルバによる布・髪の物理、Thin Wallモード等を搭載。2028年7月まで保守されるLTS版",
+      "detail": "オープンソース3DCGソフトBlenderの次期LTS版「5.2」の正式リリースが明日7月14日に迫っている。現在ベータ版が公開中。新機能として、新しいFillツール、Bevelノード、Geometryバンドル、音声ファイルから周波数データを取得するSample Soundノード、Geometry Nodesベースのノード物理シミュレーション（新XPBDソルバによる布・髪ダイナミクス）、葉や紙などの薄物を写実的に描画するPrincipled BSDFのThin Wallモード、リモートアセットライブラリのブラウズ・オンデマンドダウンロード対応などが挙げられる。LTS版として2028年7月までメンテナンスされる予定。",
+      "links": {
+        "Blender公式リリースノート": "https://www.blender.org/download/releases/",
+        "9to5Linux": "https://9to5linux.com/blender-5-2-lts-promises-new-fill-tool-and-thin-wall-mode-beta-out-now"
+      }
+    },
+    {
+      "name": "SIGGRAPH 2026、スポンサーキーノートの陣容を発表 ─ 7/19開幕",
+      "level": "6",
+      "overview": "7/19～23にロサンゼルスで開催。グラフィックス、AI、ニューラルレンダリング、次世代ハードウェアを扱う基調講演群が発表された",
+      "detail": "コンピュータグラフィックスの世界最大級カンファレンス「SIGGRAPH 2026」（7月19日～23日、ロサンゼルス・コンベンションセンター）のスポンサーキーノートのラインナップが発表された。グラフィックス、AI、ニューラルレンダリング、シミュレーション、次世代ハードウェアの進歩を紹介する内容となる。NVIDIAは前述のGPCを含む研究発表・デモを多数予定しているほか、Autodeskなど主要ベンダーも出展を予定。ゲーム開発者向け新設「Games Summit」も併催され、開幕まで1週間を切った。",
+      "links": {
+        "SIGGRAPH 2026プレスリリース": "https://www.ttownmedia.com/online_features/press_releases/siggraph-2026-announces-sponsored-keynote-presentations-showcasing-the-future-of-graphics-ai-and-simulation/article_513dd113-415b-5f00-8d4d-ab0a11a2405d.html",
+        "NVIDIA at SIGGRAPH": "https://www.nvidia.com/en-us/events/siggraph/"
+      }
+    },
+    {
+      "name": "Graphics Programming Weekly Issue 445公開 ─ 7月第1週のグラフィックス技術記事まとめ",
+      "level": "6",
+      "overview": "Jendrik Illner氏によるグラフィックスプログラミング週刊まとめの最新号。7月第1週の注目記事・論文を紹介する",
+      "detail": "3DプログラマーJendrik Illner氏が毎週発行しているグラフィックスプログラミング技術記事のキュレーション「Graphics Programming Weekly」の最新号Issue 445が公開されている。7月第1週（7月5日週）に公開されたレンダリング技術、シェーダー、GPU最適化などに関する記事・論文のサマリーを掲載。グラフィックスエンジニアが業界の最新技術動向を短時間で把握できる定番ニュースレターとなっている。",
+      "links": {
+        "Graphics Programming Weekly Issue 445": "https://www.jendrikillner.com/post/graphics-programming-weekly-issue-445/"
+      }
+    }
+  ]
+}
