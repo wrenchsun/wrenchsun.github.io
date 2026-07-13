@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "name": "Blender 5.2 LTS 正式リリース ─ 新Fillツール・XPBD物理・Thin Wallモード搭載",
+      "level": "9",
+      "overview": "新Fillツール、XPBDソルバによる布・髪の物理、Thin Wallモード等を搭載したLTS版が本日リリース。2028年まで保守",
+      "detail": "オープンソース3DCGソフトBlenderのLTS版「5.2」が本日7月14日に正式リリースされた。新機能として、新しいFillツール、Bevelノード、Geometryバンドル、音声ファイルから周波数データを取得するSample Soundノード、Geometry Nodesベースのノード物理シミュレーション（新XPBDソルバによる布・髪ダイナミクスと、コライダーや力場などのエフェクター）、葉や紙など薄い物体を写実的に描画するPrincipled BSDFのThin Wallモード、リモートアセットライブラリのブラウズおよびオンデマンドダウンロード対応などを搭載する。5.xシリーズ初のLTS（長期サポート）版として約2年間・2028年までバグ修正アップデートが提供され、スタジオが制作パイプラインを固定する対象バージョンとなる。",
+      "links": {
+        "Blender公式リリースノート": "https://www.blender.org/download/releases/",
+        "9to5Linux": "https://9to5linux.com/blender-5-2-lts-promises-new-fill-tool-and-thin-wall-mode-beta-out-now"
+      }
+    },
+    {
+      "name": "Esri、プロシージャル都市生成ソフト「CityEngine 2026」をリリース",
+      "level": "6",
+      "overview": "手続き的に都市を生成するソフトの最新版。街路レイアウト作成の新ツールやPython 3 APIを搭載する",
+      "detail": "Esriが、手続き的（プロシージャル）に都市を生成するソフトウェア「CityEngine 2026」をリリースした。街路レイアウトを作成する新しいツール群や、Python 3対応の新APIなどが追加されている。CityEngineは実在または架空の都市を手続き的ルールで大規模に生成できるツールで、映画・ゲーム・都市計画・GISビジュアライゼーションなどの分野で用いられる。今回のアップデートにより、大規模都市アセットの作成ワークフローの効率化と自動化がさらに進んだ。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/07/esri-releases-cityengine-2026/"
+      }
+    },
+    {
+      "name": "Abstract、ジオメトリ最適化ツール「InstaLOD 2026」をアップデート",
+      "level": "6",
+      "overview": "ゲーム・VFX向けメッシュ最適化ツール群の新版。インディーアーティストには無料で提供される",
+      "detail": "Abstract社が、ゲームやVFX制作向けの強力なジオメトリ最適化ツール群「InstaLOD 2026」の新バージョンをリリースした。メッシュのポリゴン削減（デシメーション）、リメッシュ、UV自動展開、マテリアルベイク、LOD（Level of Detail）自動生成などの機能を備え、大規模アセットの軽量化と最適化を効率化する。インディーアーティスト向けには無料で利用できる点も特徴で、今回のアップデートで各種新機能が追加されている。",
+      "links": {
+        "CG Channel": "https://www.cgchannel.com/2026/07/instalod-releases-instalod-2026/"
+      }
+    },
+    {
+      "name": "CGWORLD、UE5.8新機能と「State of Unreal」解説ウェビナーを告知（7/13開催）",
+      "level": "4",
+      "overview": "Arcnel向井氏がUnreal Engine 5.8の新機能とUnreal Festの最新動向を実務視点で解説する",
+      "detail": "ボーンデジタルが、7月13日（月）にArcnel代表・向井秀哉氏によるウェビナーの開催を告知した。Unreal Fest Chicagoで発表された最新版「Unreal Engine 5.8（UE5.8）」の新機能や、基調講演「State of Unreal」の内容を、実務的な観点からリアルタイム3Dの最新トレンドとともに解説する内容。UE5.8はUE5系で最後の予定のメジャーリリースと位置付けられており、MegaLightsやMesh Terrainなどの新機能への実践的な理解を深める機会となる。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/02-2606-arcnel.html"
+      }
+    }
+  ]
+}
