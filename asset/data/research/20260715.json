@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "name": "NVIDIA、リライト可能な3DGSパイプライン技術「TRON」発表",
+      "level": "8",
+      "overview": "3DGS再構成とニューラルレンダラを融合し、形状・素材・照明をインタラクティブに制御。高速かつ写実的な再照明を実現",
+      "detail": "NVIDIA Research（Spatial Intelligence Lab）が、3Dキャプチャ向けの新たなリライティングフレームワーク「TRON（Tracing Rays to Orchestrate a Neural Renderer for 3D Gaussian Reconstructions）」を発表。3DGS（3D Gaussian Splatting）による空間再構成と学習ベースのニューラルレンダラを融合し、フル3D空間での形状・マテリアル・ライティング制御を維持しつつ、インタラクティブなフレームレートでフォトリアルな品質を達成する。レイトレーシングでPBRやIrradianceなど物理的に意味のあるGバッファを生成し、軽量なシングルステップのDiTニューラルレンダラで写実的な最終フレームへ変換。Diffusion Priorsを用いたマテリアル分解、任意HDRI下でのリライト、動的オブジェクト追加時の自然な影の調和（Harmonization）にも対応する。CGWORLDが7月14日に報じた。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202607-NVIDIA-TRON.html",
+        "NVIDIA Spatial Intelligence Lab": "https://research.nvidia.com/labs/sil/projects/tron/"
+      }
+    },
+    {
+      "name": "SIGGRAPH 2026・CEDEC2026、来週開催迫る",
+      "level": "5",
+      "overview": "CG研究の祭典SIGGRAPHが7/19-23にLA、国内最大の開発者会議CEDECが7/22-24にパシフィコ横浜で開催",
+      "detail": "CG・インタラクティブ技術の国際会議「SIGGRAPH 2026」が現地時間7月19日（日）〜23日（木）にロサンゼルス・コンベンションセンターで開催される。AutodeskをはじめNVIDIAなど各社が最新技術やAI・レンダリング研究を発表予定。国内では最大級のゲーム開発者会議「CEDEC2026」が7月22日（水）〜24日（金）にパシフィコ横浜ノース／オンラインで開催される。いずれも来週に迫っており、ゲーム・CG分野の最新技術動向が集中して公開される見込み。",
+      "links": {
+        "Autodesk at SIGGRAPH 2026": "https://area.autodesk.jp/event/siggraph-2026/",
+        "CEDEC2026": "https://area.autodesk.jp/event/autodesk/cedec2026/"
+      }
+    },
+    {
+      "name": "Autodesk、Maya「MotionMaker×新スキンツール」効率化ウェビナー告知",
+      "level": "3",
+      "overview": "MotionMakerと新スキンツールでMaya制作現場のワークフロー効率化を解説。7/16オンライン開催",
+      "detail": "AREA JAPAN（Autodesk）が7月14日、Maya向けウェビナー「MotionMaker×新スキンツール：Maya制作現場のワークフロー効率化ウェビナー」を告知した。7月16日（木）15:00〜16:30にオンラインで開催され、モーション自動生成ツールMotionMakerと新しいスキニングツールを組み合わせた、制作現場での実践的なワークフロー効率化手法を解説する内容。",
+      "links": {
+        "AREA JAPAN": "https://area.autodesk.jp/event/autodesk/maya-motionmaker-new-skin-webinar/"
+      }
+    }
+  ]
+}
