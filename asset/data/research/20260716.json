@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "name": "Blender 5.2 LTS 正式リリース、Geometry Nodes物理演算など大幅強化",
+      "level": "9",
+      "overview": "ジオメトリノードの布・髪物理(XPBD)、Thin Wallシェーダ、Cyclesテクスチャキャッシュ等を搭載した大型LTS版",
+      "detail": "Blender Foundationがオープンソース3DソフトBlenderの最新版「Blender 5.2 LTS」を正式リリース。LTS（長期サポート）版ながら大型アップデートで、注目機能は以下の通り。(1)ジオメトリノードベースの新しい布・髪シミュレーション。統一的なマルチフィジックス基盤「XPBD（Extended Position Based Dynamics）ソルバ」で駆動し、HoudiniのVellumやUnreal Engineのクロスと同系統の技術（実験的機能）。(2)ジオメトリノードにMesh Bevelノード、音声振幅を取得するSample Sound Frequenciesノード、ノードバンドル／リスト対応などを追加。(3)Principled BSDFに「Thin Wallモード」を追加し、紙・葉・ガラス等の薄い素材を高速かつ正確に表現、建築レンダリングの暗所問題も解消。(4)Cyclesに新テクスチャキャッシュを実装し、.tx形式へ自動変換・タイル化・ミップマップ化することで、シーンによってはメモリ使用量を最大80%削減。(5)グリースペンシルのFillツールがDelaunayアルゴリズム化し、塗りつぶしが高速・正確に。対応OSはWindows 8.1+、macOS 13.0+、glibc 2.28+ Linux。無償ダウンロード可能。CG Channelが7月14日に報じた。",
+      "links": {
+        "Blender公式(5.2)": "https://www.blender.org/download/releases/5-2/",
+        "CG Channel": "https://www.cgchannel.com/2026/07/blender-5-2-lts-is-here-discover-its-5-key-features/",
+        "80.lv": "https://80.lv/articles/blender-5-2-lts-has-been-released"
+      }
+    },
+    {
+      "name": "Arnold公式、Mayaで3DGSを非破壊クロップするマスクのワークフロー動画公開",
+      "level": "5",
+      "overview": "プリミティブを用いてガウシアンスプラットを非破壊でクロッピングするマスク手法を解説した動画を公開",
+      "detail": "Arnold公式が、Maya上での3DGS（3D Gaussian Splatting）を用いたマスクのワークフローを解説する動画を公開した。プリミティブを利用してスプラット（点群）を非破壊的にクロッピングし、必要な領域のみを切り出す手法を紹介する内容。3DGSデータをArnoldのパイプラインに取り込み、従来のジオメトリと組み合わせて扱う実践的なテクニックが示されている。CGWORLDが7月15日に報じた。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/flashnews/01-202607-Arnold-3DGS.html"
+      }
+    },
+    {
+      "name": "【After Effects 2026】アドバンス3Dレンダラで被写界深度エフェクトが利用可能に",
+      "level": "3",
+      "overview": "6月アップデートでアドバンス3Dレンダラが被写界深度に対応、パラメトリックメッシュツールにも適用可能",
+      "detail": "CGWORLDの連載「イトウ先生のTips note」で、After Effects 2026の6月アップデートにより「アドバンス3Dレンダラでの被写界深度エフェクト」が使用可能になった点が紹介された。従来はクラシック3Dレンダラのみ対応だった被写界深度エフェクトが、アドバンス3Dレンダラでも利用可能となり、2026バージョンで搭載された立方体ツールなど一連のパラメトリックメッシュツールにも被写界深度を適用できるようになった。カメラのフォーカス距離や絞りを調整して手前・奥のオブジェクトにボカシを作成する演出が、より幅広いワークフローで実現する。CGWORLDが7月15日に公開した。",
+      "links": {
+        "CGWORLD": "https://cgworld.jp/regular/202607-tipsnote.html"
+      }
+    }
+  ]
+}
