@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "name": "NVIDIA、SIGGRAPH 2026基調講演でニューラルレンダリング等を発表へ",
+      "level": "8",
+      "overview": "7月20日の基調講演でニューラルレンダリング・世界モデル・シミュレーションを提示。",
+      "detail": "本日7月19日にロサンゼルスで開幕したSIGGRAPH 2026（7月19日〜23日）にて、NVIDIAは現地時間7月20日15時45分（PDT）に基調講演「Next Era of Graphics — Neural Rendering, World Models, and Simulation」を実施することを明らかにしています。同社のVice PresidentであるJan Kautz氏とMing-Yu Liu氏が登壇し、ニューラルレンダリング、世界モデル（ワールドモデル）、シミュレーションという3つの中核テーマを軸に、クリエイティブツール、ロボティクス、産業デザイン、自律システムにまたがるAI主導のブレイクスルーを紹介する予定です。1時間の講演では、生成AIと従来のグラフィックスパイプラインの融合がレンダリングやコンテンツ制作をどう変えるかが示される見込みです。あわせてNVIDIAは会期中の7月22日に「RTX Rendering Day」、および「Physical AI Day」の各セッションを予定しており、RTXによるリアルタイムレイトレーシングやパストレーシング、ニューラルテクスチャ／ニューラルシェーディングといった描画技術の最新動向がまとめて発信されるタイミングとなります。ゲーム・映像・ビジュアライゼーションの各分野でリアルタイム描画とAIの統合が今後どこへ向かうかを把握するうえで、今週のSIGGRAPHにおけるNVIDIAの一連の発表は要注目です。",
+      "links": {
+        "NVIDIA at SIGGRAPH": "https://www.nvidia.com/en-us/events/siggraph/",
+        "SIGGRAPH 2026基調講演情報": "https://s2026.siggraph.org/siggraph-2026-announces-sponsored-keynote-presentations-showcasing-the-future-of-graphics-ai-and-simulation/"
+      }
+    },
+    {
+      "name": "SIGGRAPH 2026 Technical Papers、流体・3Dベクター化・薄殻物理の最新研究が発表",
+      "level": "7",
+      "overview": "大規模流体を高速化するST-FLIP、3Dシーンのベクター化、曲げ物理の新モデルなどが登壇。",
+      "detail": "本日開幕したSIGGRAPH 2026のTechnical Papersプログラムでは、映像・ゲーム・製品設計を支える基盤技術の研究成果が7月19日〜23日にかけて発表されます。注目論文の一つ、ミュンヘン工科大学とRWTHアーヘン大学による「Spatiotemporal FLIP（ST-FLIP）」は、広く使われるFLIP流体シミュレーション法を時空間（4次元）へ拡張し、粒子を時空間サンプルとして扱うことで従来比で最大1桁大きいタイムステップを実現。単一ワークステーション上で数十億粒子規模の自由表面・二相流シミュレーションを数倍高速化しつつ表面ディテールを保持し、既存のFLIP/PIC/APICソルバーへの軽量プラグインとして機能します（Honorable Mention受賞）。またカーネギーメロン大学の「Robust Planar Maps for 3D Vectorization」（Best Papers受賞）は、3Dシーンをオクルージョンを正しく扱ったクリーンなベクター画像へ変換する手法で、数値的に不安定な曲線同士の交差計算を扱いやすい曲線-直線交差へ置き換え、実データの不完全な曲線でも桁違いに高速に処理します。さらにAdobe Researchとテキサス大学オースティン校による「Better Bending」は、Kirchhoff-Love薄殻の曲げ挙動の離散化を体系的に検証し、主要10モデルのベンチマークと新モデルBACを提示。布・紙・ゴム・金属板など多様な薄殻材料のシミュレーション指針を示しました。いずれも制作パイプラインでの実用性を重視した内容で、VFXやアニメーション、ゲーム開発の現場に直結する研究です。",
+      "links": {
+        "SIGGRAPH 2026 Technical Papers": "https://s2026.siggraph.org/siggraph-2026-technical-papers-showcase-the-research-making-visual-computing-faster-more-reliable-and-accessible/",
+        "プログラム": "https://s2026.siggraph.org/program/technical-papers/"
+      }
+    },
+    {
+      "name": "Max Bedulenko氏、Blender製オリジナル世界『Velvet Road』の新ロケーションを公開",
+      "level": "3",
+      "overview": "オリエンタルで砂漠風の都市「Qhetabal」を制作。アセットパック活用の環境美術作例。",
+      "detail": "コンセプトアーティストのMax Bedulenko氏が、自身が構築を続けているオリジナル世界「Velvet Road」の新たなロケーション「Qhetabal」をArtStationで公開しました。Qhetabalは強大な軍事力を持つ「南の門（Gate of the South）」という設定で、オリエンタルかつ砂漠風の美学を持つ都市として描かれています。制作にはForma 3D StoreのアセットパックコレクションSong of Alcazarが用いられ、BlenderとPhotoshopで仕上げられています。Bedulenko氏は非常に緻密で複雑な環境制作で知られ、これまでにも最初の都市Qheeva、Marble Gulf地域の商業・文化の中心Kheezwara、中世ノヴゴロドやロシア北部の文化に着想を得たNogrothなど、Velvet Roadの各都市を発表してきました。同氏はこの世界について、スチームパンクやディーゼルパンクに近い技術を持ちながらも社会・文化はより古風で封建的、技術進歩が緩やかで不均一な文明として構想していると語っています。市販アセットパックを起点に統一感のある世界観の都市環境を構築する好例で、環境アーティストにとって参考になる作例です。",
+      "links": {
+        "80.lv": "https://80.lv/articles/3d-artist-shares-a-location-of-an-original-world-with-an-oriental-style",
+        "ArtStation": "https://www.artstation.com/artwork/XaB9Ky"
+      }
+    }
+  ]
+}
